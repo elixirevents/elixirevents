@@ -35,8 +35,6 @@ if config_env() == :prod do
 
   db_cacert_path = "/app/db-ca.pem"
 
-  # Get the Base64 encoded CA certificate for SSL connection to Supabase DB
-  # Set the DB_SSL_CACERT_BASE64 secret on Fly.io
   System.get_env("DB_SSL_CACERT_BASE64")
   |> Base.decode64!()
   |> then(&File.write!(db_cacert_path, &1))
@@ -111,21 +109,9 @@ if config_env() == :prod do
   #
   # Check `Plug.SSL` for all available options in `force_ssl`.
 
-  # ## Configuring the mailer
-  #
-  # In production you need to configure the mailer to use a different adapter.
-  # Here is an example configuration for Mailgun:
-  #
-  #     config :elixir_events, ElixirEvents.Mailer,
-  #       adapter: Swoosh.Adapters.Mailgun,
-  #       api_key: System.get_env("MAILGUN_API_KEY"),
-  #       domain: System.get_env("MAILGUN_DOMAIN")
-  #
-  # Most non-SMTP adapters require an API client. Swoosh supports Req, Hackney,
-  # and Finch out-of-the-box. This configuration is typically done at
-  # compile-time in your config/prod.exs:
-  #
-  #     config :swoosh, :api_client, Swoosh.ApiClient.Req
-  #
-  # See https://hexdocs.pm/swoosh/Swoosh.html#module-installation for details.
+  config :elixir_events, ElixirEvents.Mailer,
+    adapter: Swoosh.Adapters.Resend,
+    api_key: System.get_env("RESEND_API_KEY"),
+    from_email: System.get_env("MAILER_FROM_EMAIL", "noreply@elixirevents.org"),
+    from_name: System.get_env("MAILER_FROM_NAME", "Elixir Events")
 end
