@@ -7,7 +7,9 @@ defmodule ElixirEventsWeb.SpeakerLiveTest do
 
   describe "Index" do
     test "renders speakers page", %{conn: conn} do
-      {:ok, _} = Profiles.create_profile(%{name: "Jose Valim", handle: "josevalim"})
+      {:ok, _} =
+        Profiles.create_profile(%{name: "Jose Valim", handle: "josevalim", is_speaker: true})
+
       {:ok, _lv, html} = live(conn, ~p"/speakers")
       assert html =~ "Jose Valim"
     end

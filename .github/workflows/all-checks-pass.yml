@@ -1,0 +1,21 @@
+name: All checks pass
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, unlabeled]
+  push:
+    branches: [main]
+  merge_group:
+
+jobs:
+  enforce-all-checks:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.pull_request.labels.*.name, 'no ci') || (github.event.action == 'unlabeled' && github.event.label.name == 'no ci') }}
+    permissions:
+      checks: read
+    steps:
+      - name: GitHub Checks
+        uses: poseidon/wait-for-status-checks@v0.6.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ignore: fly-deploy

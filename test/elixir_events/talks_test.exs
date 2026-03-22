@@ -140,7 +140,7 @@ defmodule ElixirEvents.TalksTest do
       {:ok, talk} =
         Talks.create_talk(%{event_id: event.id, title: "T", slug: "t-pub", kind: :talk})
 
-      {:ok, no_rec} =
+      {:ok, _no_rec} =
         Talks.create_talk(%{event_id: event.id, title: "T2", slug: "t-norec", kind: :talk})
 
       Talks.create_recording(%{
