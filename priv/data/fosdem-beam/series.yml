@@ -1,0 +1,7 @@
+name: "FOSDEM BEAM Devroom"
+slug: "fosdem-beam"
+kind: conference
+frequency: yearly
+language: en
+website: "https://beam-fosdem.dev"
+color: "#E53E3E"

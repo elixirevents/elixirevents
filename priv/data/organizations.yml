@@ -1,0 +1,14 @@
+- name: "Dashbit"
+  slug: "dashbit"
+  website: "https://dashbit.co"
+  description: "The team behind Elixir and LiveView"
+
+- name: "Fly.io"
+  slug: "fly-io"
+  website: "https://fly.io"
+  description: "Run your full stack apps close to your users"
+
+- name: "Erlang Solutions"
+  slug: "erlang-solutions"
+  website: "https://www.erlang-solutions.com"
+  description: "Experts in Erlang, Elixir, and distributed systems"

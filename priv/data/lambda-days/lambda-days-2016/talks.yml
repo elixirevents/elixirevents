@@ -1,0 +1,468 @@
+## Keynotes
+
+
+- title: "Philip Wadler  - Propositions as Types (Lambda Days 2016)"
+  slug: "philip-wadler-propositions-as-types-lambda-days-2016"
+  kind: keynote
+  language: en
+  duration: 57
+  abstract: "'Alternative recording: https://www.youtube.com/watch?v=IOiZatlZtGU'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aeRVdYN6fE8"
+      url: "https://www.youtube.com/watch?v=aeRVdYN6fE8"
+
+- title: "Bartosz Milewski  - Truth about Types (Lambda Days 2016)"
+  slug: "bartosz-milewski-truth-about-types-lambda-days-2016"
+  kind: keynote
+  language: en
+  duration: 72
+  abstract: "'Lots of programmers, especially our brethren who use JavaScript, Python, or Closure, don't appreciate the power of strong static typing. Haskell programmers, on the other hand, eat types for breakfast, lunch, and dinner. Types are not just hints for the compiler to better catch programming errors. T'"
+  topics:
+    - elixir
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "dgrucfgv2Tw"
+      url: "https://www.youtube.com/watch?v=dgrucfgv2Tw"
+
+- title: "Jan Macháček - Muvr (Lambda Days 2016)"
+  slug: "jan-machacek-muvr-lambda-days-2016"
+  kind: keynote
+  language: en
+  duration: 52
+  abstract: "'Jan will show the details of the muvr exercise analysis project, from the code that runs on the wearables; the signal processing, sensor data fusion and classification on the mobile; the server-side code that ingests the classified data; ending up with Spark code that computes personalised exercise '"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "pq-LW6j6Egk"
+      url: "https://www.youtube.com/watch?v=pq-LW6j6Egk"
+
+- title: "Konrad Malawski - The Zen of Akka (Lambda Days 2016)"
+  slug: "konrad-malawski-the-zen-of-akka-lambda-days-2016"
+  kind: keynote
+  language: en
+  duration: 50
+  abstract: "'In order to be successful with asynchronous programming, when coming from synchronous execution models, you need to change your mindset and look at things from a slightly different perspective. In order to use Akka at it's best, you will have to change the way you think about application design (loo'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "tC-joPMPJLs"
+      url: "https://www.youtube.com/watch?v=tC-joPMPJLs"
+
+- title: "Robert Virding - On Language Design (Lambda Days 2016)"
+  slug: "robert-virding-on-language-design-lambda-days-2016"
+  kind: keynote
+  language: en
+  duration: 61
+  abstract: "'These are some thoughts, maybe even a philosophy, I have about program language design based on my experiences with various programming languages. They include languages I have used, and languages I have been a part of in designing and implementing. These languages have come from many different type'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "f3rP3JRq7Mw"
+      url: "https://www.youtube.com/watch?v=f3rP3JRq7Mw"
+
+
+## Talks
+
+
+- title: "Lambda Days 2016 highlights"
+  slug: "lambda-days-2016-highlights"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 4
+  abstract: "'Thanks to everyone who helped making this experience awesome!'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1aEEGyJxz3A"
+      url: "https://www.youtube.com/watch?v=1aEEGyJxz3A"
+
+- title: "Bruce Tate - Things that Matter (Lambda Days 2016 )"
+  slug: "bruce-tate-things-that-matter-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: "'Languages succeed for a reason. Their designers make key decisions at the right time, in the right circumstances. In this talk, you'll learn about the key factors contributing to the success of the most important languages of our time. More critically, you'll learn to spot successful languages as th'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "YjoVc5KFjaQ"
+      url: "https://www.youtube.com/watch?v=YjoVc5KFjaQ"
+
+- title: "John Hughes  - The Mysteries of Dropbox (Lambda Days 2016)"
+  slug: "john-hughes-the-mysteries-of-dropbox-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "'File synchronization services like Dropbox, Google Drive and OneDrive are increasingly popular—hundreds of millions of people entrust their precious data to them every day. But they are complex distributed systems, and their behaviour is subtler than you might think, especially when files are change'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "H18vxq-VsCk"
+      url: "https://www.youtube.com/watch?v=H18vxq-VsCk"
+
+- title: "Felienne Hermans - A board game night with geeks (Lambda Days 2016)"
+  slug: "felienne-hermans-a-board-game-night-with-geeks-lambda-days-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "'So this one day, I am playing the board game Quarto with my friend and I wonder, can this game end in a tie, or is there always a winner? Normal people might have squabbled or shrugged, but not us nerds! We obviously abandoned the game, took our laptops to the local pub and started hacking. In this '"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "W9BOFb5RA_o"
+      url: "https://www.youtube.com/watch?v=W9BOFb5RA_o"
+
+- title: "Jose Valim - Phoenix a web framework for the new web (Lambda Days 2016)"
+  slug: "jose-valim-phoenix-a-web-framework-for-the-new-web-lambda-da"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "'Web developers have typically been presented with a choice between performance or a productive development environment. With Phoenix, developers can have both while enjoying a wonderful set of abstractions for working with the new web, making streaming data to browsers, native mobile application or '"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "MD3P7Qan3pw"
+      url: "https://www.youtube.com/watch?v=MD3P7Qan3pw"
+
+- title: "Yan Cui  - Taming Cloud Complexity with F# DSLs (Lambda Days 2016)"
+  slug: "yan-cui-taming-cloud-complexity-with-f-dsls-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: "'The emergence of Cloud platforms has fundamentally changed the IT landscape, to the extent that it is now unthinkable for a technology-focused startup not to operate on the cloud. However, attempting to ride on this ever-expanding platform ecosystem wave has created a new set of challenges.'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "BKC08H2I5ro"
+      url: "https://www.youtube.com/watch?v=BKC08H2I5ro"
+
+- title: "Norbert Wojtowicz -  Modeling your domain (Lambda Days 2016)"
+  slug: "norbert-wojtowicz-modeling-your-domain-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "'The functional programming paradigm has upheaved web development. The modern backend is a cloud of lambdas, connected via queues, peppered with domain rule engines, and sprinkled with consistency guarantees and pixie dust. The web frontend is also on solid ground, having finally acknowledged that ma'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "UrGJHfB21Ok"
+      url: "https://www.youtube.com/watch?v=UrGJHfB21Ok"
+
+- title: "Laura M Castro - Making property based testing easier (Lambda Days 2016)"
+  slug: "laura-m-castro-making-property-based-testing-easier-lambda-d"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "'Software stakeholders who do not have a technical profile (i.e. users, clients) but do want to take part in the development and/or quality assurance process of software, have an unmet need for communication on what is being tested during the development life-cycle. The transformation of test propert'"
+  topics:
+    - elixir
+    - otp
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "1n650p3CQgo"
+      url: "https://www.youtube.com/watch?v=1n650p3CQgo"
+
+- title: "Boldizsar Nemeth - C preprossor macros from functional programs (Lambda Days 2016)"
+  slug: "boldizsar-nemeth-c-preprossor-macros-from-functional-program"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "'The preprocessor of the C language provides a standard way to generate code at compile time. However, writing and understanding these macros is difficult. Lack of typing, statelessness, and uncommon syntax are the main reasons of this difficulty. Haskell is a high-level purely functional language wi'"
+  topics:
+    - elixir
+    - otp
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "y6a_gMrh_SQ"
+      url: "https://www.youtube.com/watch?v=y6a_gMrh_SQ"
+
+- title: "Krzystof Borowski - Using an actor framework for scientific computing (Lambda Days 2016)"
+  slug: "krzystof-borowski-using-an-actor-framework-for-scientific-co"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "'I examine the challenges and opportunities of using the actor model of computation for programming and execution of scientific workflows. Various interesting aspects of this problem include providing an additional layer of abstraction for designing scientific workflows, implementing typical workflow'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RNdGM_ed318"
+      url: "https://www.youtube.com/watch?v=RNdGM_ed318"
+
+- title: "Michal Plachta - Purely Functional Web Apps (Lambda Days 2016)"
+  slug: "michal-plachta-purely-functional-web-apps-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "'Are you familiar with the following recipe?'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "oMfF9V52DT4"
+      url: "https://www.youtube.com/watch?v=oMfF9V52DT4"
+
+- title: "Peer Stritzinger & Claudia Doppioslash - Elmrang Connect (Lambda Days 2016)"
+  slug: "peer-stritzinger-claudia-doppioslash-elmrang-connect-lambda"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: "'How to connect Elm on a Web client with Erlang on a Server in in a lightweight and low latency way using Websockets?  Don't want to have to pull in a whole Web Framework for this?  Now you can get use Elmer to just make your Elm front-end talk to your Erlang processes.'"
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "s9evfyR1gL4"
+      url: "https://www.youtube.com/watch?v=s9evfyR1gL4"
+
+- title: "Dmitry Ivanov & Nami Naserazad - Practical Demystification of CRDT (Lambda Days 2016)"
+  slug: "dmitry-ivanov-nami-naserazad-practical-demystification-of-cr"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "'In a connected world, synchronising mutable information between different devices with different clock precision can be a difficult problem. A piece of data may have many out-of-sync replicas but all of those should eventually be in a consistent state. For example, TomTom users, having personal navi'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "PQzNW8uQ_Y4"
+      url: "https://www.youtube.com/watch?v=PQzNW8uQ_Y4"
+
+- title: "Evelina Gabasova - The F#orce Awakens (Lambda Days 2016)"
+  slug: "evelina-gabasova-the-force-awakens-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: "'Let's dive together into the the world of Star Wars! We'll use the force of F# to process publicly available datasets relating to the Star Wars movies and we'll find out who's the most important character in the stories and why were the prequels so unsuccessful. On the way, you'll see why F# is a gr'"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "EI8a6hFFRGQ"
+      url: "https://www.youtube.com/watch?v=EI8a6hFFRGQ"
+
+- title: "Lech Glowiak - Getting Started with Frege (Lambda Days 2016)"
+  slug: "lech-glowiak-getting-started-with-frege-lambda-days-2016"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 48
+  abstract: "'Frege is a Haskell for JVM. It has most of Haskell lovely features: succinct syntax, functional purity, lazy evaluation, pattern matching, algebraic data types and powerful type system. Frege is JVM language: it translates Haskell like source files into highly annotated Java source code. Frege is in'"
+  topics:
+    - elixir
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "YxUCZ4DDNmk"
+      url: "https://www.youtube.com/watch?v=YxUCZ4DDNmk"
+
+- title: "Rachel Reese - Building Reactive Services Using Functional Programming (Lambda Days 2016)"
+  slug: "rachel-reese-building-reactive-services-using-functional-pro"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "'This session will cover the many features of functional programming languages that make this way of thinking ideal for reactive service programming. Using F#, we'll briefly cover how immutable events are especially suited to modern applications, and then move on to examples of asynchronous workflows'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "lK-VhOOjxN8"
+      url: "https://www.youtube.com/watch?v=lK-VhOOjxN8"
+
+- title: "Robert Virding - LFE - a lisp flavour on the Erlang VM (Lambda Days 2016)"
+  slug: "robert-virding-lfe-a-lisp-flavour-on-the-erlang-vm-lambda-da"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: "Why yet another lisp? Why do we need/want a new lisp for the Erlang VM? What is it that makes the existing ones, even Clojure, a bad fit? LFE (Lisp Flavoured Erlang) has been designed to run efficiently on the Erlang VM and at the same time be a \'real lisp\' providing Lisp's good bits. We will descri"
+
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Br2KY12LB2w"
+      url: "https://www.youtube.com/watch?v=Br2KY12LB2w"
+
+- title: "Tomas Petricek - History and Philosophy of types (Lambda Days 2016)"
+  slug: "tomas-petricek-history-and-philosophy-of-types-lambda-days-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "'What are types? We can try to answer this question with a formal definition. But there are numerous incompatible definitions and they fail to capture important aspects of what types actually are - how are they used in practice, how we talk about them and how we think about them. Why we often cannot '"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ITIsxWqduE4"
+      url: "https://www.youtube.com/watch?v=ITIsxWqduE4"
+
+- title: "Zaiste - Functional reactive UI with JavaScript (Lambda Days 2016)"
+  slug: "zaiste-functional-reactive-ui-with-javascript-lambda-days-20"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "'Zaiste'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "E_PN0TVyyok"
+      url: "https://www.youtube.com/watch?v=E_PN0TVyyok"
+
+- title: "Andrea Magnorsky - A brief history of programming languages (Lambda Days 2016)"
+  slug: "andrea-magnorsky-a-brief-history-of-programming-languages-la"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "'Why do programming languages look the way they do today? How did it all started? In this talk we will go over a brief history of programming languages, from the very early days. We will go overIncluding greatest hits from Hilbert, Turing, Church, Hopper and more.'"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "3Z27n_ReTI8"
+      url: "https://www.youtube.com/watch?v=3Z27n_ReTI8"
+
+- title: "Artur Skowronski - Embracing Change (...) (Lambda Days 2016)"
+  slug: "artur-skowronski-embracing-change-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 16
+  abstract: "'You are working in the Java software house, with well defined processes and standards. Still, you are eager to introduce something new, shiny, different to your stale stack. Maybe Clojure? As we will still stay on JVM, what can go wrong? Spoiler: there are many problems ahead of you. I would like to'"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "I6mbnQeDO9Y"
+      url: "https://www.youtube.com/watch?v=I6mbnQeDO9Y"
+
+- title: "Rob Martin - Teaching functional programming to noobs (Lambda Days 2016)"
+  slug: "rob-martin-teaching-functional-programming-to-noobs-lambda-d"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 49
+  abstract: "'A year ago, I chose to focus on three professional goals:'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "bmFKEewRRQg"
+      url: "https://www.youtube.com/watch?v=bmFKEewRRQg"
+
+- title: "Andre van Delft - ACP and PGA (Lambda Days 2016)"
+  slug: "andre-van-delft-acp-and-pga-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "'This talk is about 2 fundamental algebraic theories in computer science that deserve much more attention than they currently get: the Algebra of Communicating Processes (ACP) and Program Algebra (PGA).'"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "098g0DfBdjw"
+      url: "https://www.youtube.com/watch?v=098g0DfBdjw"
+
+- title: "Eduard Bopp - Functional Reactive Rust (Lambda Days 2016)"
+  slug: "eduard-bopp-functional-reactive-rust-lambda-days-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "'Functional reactive programming as pioneered by Conal Elliott is gaining wide-spread interest as the go-to abstraction for interactive applications. Many functional idioms rely on a high level of abstraction over details like memory layout.'"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "Gkz5_XvVEGs"
+      url: "https://www.youtube.com/watch?v=Gkz5_XvVEGs"
+
+- title: "Riccardo Terrell - Functional Reactive Programming (Lambda Days 2016))"
+  slug: "riccardo-terrell-functional-reactive-programming-lambda-days"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: "'Functional reactive programming supports elegant programming of dynamic and reactive systems by providing first-class, composable abstractions for behaviors (time-varying values) and events (streams of timed values). Using Functional Reactive Programming to handle event-stream of values over time pr'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "UJH8sAnpBL4"
+      url: "https://www.youtube.com/watch?v=UJH8sAnpBL4"
+
+- title: 'Chris Brown - Using "Program shaping" and algorithmic skeletons (...) (Lambda Days 2016)'
+  slug: "chris-brown-using-program-shaping-and-algorithmic-skeletons"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 23
+  abstract: "'This paper considers how to use program shaping and algorithmic skele- tons to parallelise a multi-agent system that is written in Erlang. Program shaping is the process of transforming a program to better enable the introduction of paral- lelism. Whilst algorithmic skeletons abstract away the low-l'"
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "2xq87cp9Zs4"
+      url: "https://www.youtube.com/watch?v=2xq87cp9Zs4"
+
+- title: "Konrad Szydlo - Creating reactive components using ClojureScript React wrappers (Lambda Days 2016)"
+  slug: "konrad-szydlo-creating-reactive-components-using-clojurescri"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "'Facebook React is taking the front-end development  by storm promising to simplify DOM manipulation and creating new possibilities for building large and fast applications with data that change over time. It’s not a surprise that in the ClojureScript landscape a number of React wrappers emerged. Com'"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "4lfJ0FVa6Zg"
+      url: "https://www.youtube.com/watch?v=4lfJ0FVa6Zg"

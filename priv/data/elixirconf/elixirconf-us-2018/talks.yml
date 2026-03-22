@@ -1,0 +1,774 @@
+## Keynotes
+
+
+- title: "Welcome Keynote - Jose Valim"
+  slug: "welcome-keynote-jose-valim"
+  kind: keynote
+  language: en
+  duration: 58
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "m7TWMFtDwHg"
+      url: "https://www.youtube.com/watch?v=m7TWMFtDwHg"
+
+- title: "Opening Keynote - The Next Five Years - Jose Valim"
+  slug: "opening-keynote-the-next-five-years-jose-valim"
+  kind: keynote
+  language: en
+  duration: 58
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "suOzNeMJXl0"
+      url: "https://www.youtube.com/watch?v=suOzNeMJXl0"
+
+- title: "Keynote - Justin Schneck"
+  slug: "keynote-justin-schneck"
+  kind: keynote
+  language: en
+  duration: 36
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "O9VhFJewv5w"
+      url: "https://www.youtube.com/watch?v=O9VhFJewv5w"
+
+- title: "Keynote - Chris McCord"
+  slug: "keynote-chris-mccord"
+  kind: keynote
+  language: en
+  duration: 58
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Z2DU0qLfPIY"
+      url: "https://www.youtube.com/watch?v=Z2DU0qLfPIY"
+
+
+## Talks
+
+
+- title: "You Can Never Debug the Code You Run But You Can... - Luke Imhoff"
+  slug: "you-can-never-debug-the-code-you-run-but-you-can-luke-imhoff"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "w4xMarVUZQ4"
+      url: "https://www.youtube.com/watch?v=w4xMarVUZQ4"
+
+- title: "Architecting Flow in Elixir From Leveraging..  - René Föhring"
+  slug: "architecting-flow-in-elixir-from-leveraging-rene-fohring"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "uU7T-b1k2Ws"
+      url: "https://www.youtube.com/watch?v=uU7T-b1k2Ws"
+
+- title: "Elixir at a Walking Pace - Lance Halvorsen"
+  slug: "elixir-at-a-walking-pace-lance-halvorsen"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1IOobarmwQg"
+      url: "https://www.youtube.com/watch?v=1IOobarmwQg"
+
+- title: "Ticket to Fly Porting an Application from Rails to Phoenix - Catherine Zoller"
+  slug: "ticket-to-fly-porting-an-application-from-rails-to-phoenix-c"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "lfxPxRyci_c"
+      url: "https://www.youtube.com/watch?v=lfxPxRyci_c"
+
+- title: "Meet Virtuoso The Chatbot Orchestration Framework Built with Elixir - Justus Eapen"
+  slug: "meet-virtuoso-the-chatbot-orchestration-framework-built-with"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "McaT9IsLnes"
+      url: "https://www.youtube.com/watch?v=McaT9IsLnes"
+
+- title: "We're Just Getting Started   Our Three Years with Elixir   Maciej Kaszubowski"
+  slug: "were-just-getting-started-our-three-years-with-elixir-maciej"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Hyzuo3ByaLg"
+      url: "https://www.youtube.com/watch?v=Hyzuo3ByaLg"
+
+- title: "Simple is Beautiful Building an SLA Monitoring .. - Aish Dahal"
+  slug: "simple-is-beautiful-building-an-sla-monitoring-aish-dahal"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Il9ZVemPj4A"
+      url: "https://www.youtube.com/watch?v=Il9ZVemPj4A"
+
+- title: "Growing Applications and Taming Complexity - Aaron Renner"
+  slug: "growing-applications-and-taming-complexity-aaron-renner"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Ue--hvFzr0o"
+      url: "https://www.youtube.com/watch?v=Ue--hvFzr0o"
+
+- title: "My first Nerves Project Bioreactor - David Schainker"
+  slug: "my-first-nerves-project-bioreactor-david-schainker"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "1bQlc-K6vN0"
+      url: "https://www.youtube.com/watch?v=1bQlc-K6vN0"
+
+- title: "A Deep Dive Into Hex - Todd Resudek"
+  slug: "a-deep-dive-into-hex-todd-resudek"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "cbCnTKVLuu8"
+      url: "https://www.youtube.com/watch?v=cbCnTKVLuu8"
+
+- title: "Did You Hear That Wind - Frank Kumro"
+  slug: "did-you-hear-that-wind-frank-kumro"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "oIAbmVrjZS8"
+      url: "https://www.youtube.com/watch?v=oIAbmVrjZS8"
+
+- title: "Take Your Time - Ben Marx"
+  slug: "take-your-time-ben-marx"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "_ANg28Pello"
+      url: "https://www.youtube.com/watch?v=_ANg28Pello"
+
+- title: "Making a GraphQL Server with Absinthe & Dataloader - Aaron Votre"
+  slug: "making-a-graphql-server-with-absinthe-dataloader-aaron-votre"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "m26i1L2D7Yk"
+      url: "https://www.youtube.com/watch?v=m26i1L2D7Yk"
+
+- title: "Interfacing with Machine Learned Models - Mathew Gardner"
+  slug: "interfacing-with-machine-learned-models-mathew-gardner"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "YAGbvulsIGE"
+      url: "https://www.youtube.com/watch?v=YAGbvulsIGE"
+
+- title: "Building Video Chat with Elixir & Phoenix - Anil Wadghule"
+  slug: "building-video-chat-with-elixir-phoenix-anil-wadghule"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "GmPXNc8jlKQ"
+      url: "https://www.youtube.com/watch?v=GmPXNc8jlKQ"
+
+- title: "ElixirCOnf 2018 - We're Just Getting Started  Our Three Years with Elixir - Maciej Kaszubowski"
+  slug: "elixirconf-2018-were-just-getting-started-our-three-years-wi"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "oC2ZahbrCco"
+      url: "https://www.youtube.com/watch?v=oC2ZahbrCco"
+
+- title: "Simple is Beautiful Building an SLA Monitoring Tool... - Aish Dahal"
+  slug: "simple-is-beautiful-building-an-sla-monitoring-tool-aish-dah"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "bL7DNGhQ5js"
+      url: "https://www.youtube.com/watch?v=bL7DNGhQ5js"
+
+- title: "Architecting Flow in Elixir From Leveraging Pipes... - René Föhring"
+  slug: "architecting-flow-in-elixir-from-leveraging-pipes-rene-fohri"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ycpNi701aCs"
+      url: "https://www.youtube.com/watch?v=ycpNi701aCs"
+
+- title: "Lighting Talk ElixirConf 2018 - Flux  Moving towards a full Elixir web stack - Chris Freeze"
+  slug: "lighting-talk-elixirconf-2018-flux-moving-towards-a-full-eli"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "bit9IckehSM"
+      url: "https://www.youtube.com/watch?v=bit9IckehSM"
+
+- title: "Lighting Talk ElixirConf 2018 - Introducing New Relic's Open Source Elixir Agent  - Vince Foley"
+  slug: "lighting-talk-elixirconf-2018-introducing-new-relics-open-so"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 3
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Q-GmJ3I-Ctc"
+      url: "https://www.youtube.com/watch?v=Q-GmJ3I-Ctc"
+
+- title: "Lighting Talk ElixirConf 2018 - ACRUMEN The Six Key Aspects of Software Quality - Dave Aronson"
+  slug: "lighting-talk-elixirconf-2018-acrumen-the-six-key-aspects-of"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 5
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "6V1FO1xGitU"
+      url: "https://www.youtube.com/watch?v=6V1FO1xGitU"
+
+- title: "Lighting Talk ElixirConf 2018 - Elixium   Blockchain Meets OTP - Alex Dovzhanyn"
+  slug: "lighting-talk-elixirconf-2018-elixium-blockchain-meets-otp-a"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 5
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "6_obNxEnwF8"
+      url: "https://www.youtube.com/watch?v=6_obNxEnwF8"
+
+- title: "Lighting Talk ElixirConf 2018 - ExVenture a MUD Server - Eric Oestrich"
+  slug: "lighting-talk-elixirconf-2018-exventure-a-mud-server-eric-oe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 3
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fcx5fpot5a8"
+      url: "https://www.youtube.com/watch?v=fcx5fpot5a8"
+
+- title: "Lighting Talk ElixirConf 2018 - We went insane for Elixir - Dan Porter - Jeremy Dewar"
+  slug: "lighting-talk-elixirconf-2018-we-went-insane-for-elixir-dan"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 6
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "DTHSQ6PyDiI"
+      url: "https://www.youtube.com/watch?v=DTHSQ6PyDiI"
+
+- title: "Lighting Talk ElixirConf 2018 - Kernel functions you'll want to start using - Moxley Stratton"
+  slug: "lighting-talk-elixirconf-2018-kernel-functions-youll-want-to"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "EMBUrruCmLQ"
+      url: "https://www.youtube.com/watch?v=EMBUrruCmLQ"
+
+- title: "Lighting Talk ElixirConf 2018 - ETS caching - Doug Wright"
+  slug: "lighting-talk-elixirconf-2018-ets-caching-doug-wright"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 5
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "XMAZd9qhlyY"
+      url: "https://www.youtube.com/watch?v=XMAZd9qhlyY"
+
+- title: "Lighting Talk ElixirConf 2018 - Use goldorin to build absinthe ecto enabled GraphQL APIs - Tian Chen"
+  slug: "lighting-talk-elixirconf-2018-use-goldorin-to-build-absinthe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 5
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "0conIU_L-Yo"
+      url: "https://www.youtube.com/watch?v=0conIU_L-Yo"
+
+- title: "Lighting Talk ElixirConf 2018 - Code highlighting with elixir  - Jeff Gillis"
+  slug: "lighting-talk-elixirconf-2018-code-highlighting-with-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 3
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "2Oar5CGpZGY"
+      url: "https://www.youtube.com/watch?v=2Oar5CGpZGY"
+
+- title: "Behavior Trees and Battleship Tapping into the... - Jeff Schomay"
+  slug: "behavior-trees-and-battleship-tapping-into-the-jeff-schomay"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "3sLYzxuKGXI"
+      url: "https://www.youtube.com/watch?v=3sLYzxuKGXI"
+
+- title: "Sustainable Testing - Andrew Bennett"
+  slug: "sustainable-testing-andrew-bennett"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "9XRe1ce5eak"
+      url: "https://www.youtube.com/watch?v=9XRe1ce5eak"
+
+- title: "Picking Properties to Test in Property Based Testing - Michael Stalker"
+  slug: "picking-properties-to-test-in-property-based-testing-michael"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "OVLTHGaTi7k"
+      url: "https://www.youtube.com/watch?v=OVLTHGaTi7k"
+
+- title: "Understanding Elixir's Re compilation - Renan Ranelli"
+  slug: "understanding-elixirs-re-compilation-renan-ranelli"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hqaxMZAwbBA"
+      url: "https://www.youtube.com/watch?v=hqaxMZAwbBA"
+
+- title: "Event Sourcing in Real World...- James Smith"
+  slug: "event-sourcing-in-real-world-james-smith"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ESRjkG5f7wg"
+      url: "https://www.youtube.com/watch?v=ESRjkG5f7wg"
+
+- title: "Exchange of Crypto Coins - Anna Neyzberg"
+  slug: "exchange-of-crypto-coins-anna-neyzberg"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7mTrpKoOMVY"
+      url: "https://www.youtube.com/watch?v=7mTrpKoOMVY"
+
+- title: "Beyond Command and Response Chatbot - Fahad Almusharraf"
+  slug: "beyond-command-and-response-chatbot-fahad-almusharraf"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "GorU5oEbf-c"
+      url: "https://www.youtube.com/watch?v=GorU5oEbf-c"
+
+- title: "Going Multi Node - Eric Oestrich"
+  slug: "going-multi-node-eric-oestrich"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "lCUKQnkjajo"
+      url: "https://www.youtube.com/watch?v=lCUKQnkjajo"
+
+- title: "Empirical Monkeys A Practitioner’s Take on - Rafal Studnicki & Simon Zelazny"
+  slug: "empirical-monkeys-a-practitioners-take-on-rafal-studnicki-si"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  speakers:
+    - simonzelazny
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "llHPNc18-hg"
+      url: "https://www.youtube.com/watch?v=llHPNc18-hg"
+
+- title: "Introducing Scenic   A Functional UI Framework - Boyd Multerer"
+  slug: "introducing-scenic-a-functional-ui-framework-boyd-multerer"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1QNxLNMq3Uw"
+      url: "https://www.youtube.com/watch?v=1QNxLNMq3Uw"
+
+- title: "Docker and OTP Friends or Foes - Daniel Azuma"
+  slug: "docker-and-otp-friends-or-foes-daniel-azuma"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  topics:
+    - elixir
+    - otp
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "nLApFANtkHs"
+      url: "https://www.youtube.com/watch?v=nLApFANtkHs"
+
+- title: "Handling Success - Development and Deployment Beyond Hello World  -Jerel Unruh"
+  slug: "handling-success-development-and-deployment-beyond-hello-wor"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "GI6pYIlhgr0"
+      url: "https://www.youtube.com/watch?v=GI6pYIlhgr0"
+
+- title: "Texas : Virtual DOM Library for Server Side V DOM - Dan McGuire"
+  slug: "texas-virtual-dom-library-for-server-side-v-dom-dan-mcguire"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "NWgwUKfR8Xg"
+      url: "https://www.youtube.com/watch?v=NWgwUKfR8Xg"
+
+- title: "Using Elixir and OTP behaviors to monitor infrastructure - Jeffrey Gillis"
+  slug: "using-elixir-and-otp-behaviors-to-monitor-infrastructure-jef"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "kpcieBD5Vag"
+      url: "https://www.youtube.com/watch?v=kpcieBD5Vag"
+
+- title: "Erlang OTP What's in the Box - João Britto"
+  slug: "erlang-otp-whats-in-the-box-joao-britto"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "CozSfI-Zepw"
+      url: "https://www.youtube.com/watch?v=CozSfI-Zepw"
+
+- title: "Down the Memory Lane a Tale of Memory Leaks - Guilherme de Maio"
+  slug: "down-the-memory-lane-a-tale-of-memory-leaks-guilherme-de-mai"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "3ZO7LFELhys"
+      url: "https://www.youtube.com/watch?v=3ZO7LFELhys"
+
+- title: "Scaling Concurrency Without Getting Burned - Alex Garibay"
+  slug: "scaling-concurrency-without-getting-burned-alex-garibay"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "13wVIUdo6Bw"
+      url: "https://www.youtube.com/watch?v=13wVIUdo6Bw"
+
+- title: "Building a Stateful Web Application with Elixir - Enio Lopes"
+  slug: "building-a-stateful-web-application-with-elixir-enio-lopes"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "KyRRmzP7vjI"
+      url: "https://www.youtube.com/watch?v=KyRRmzP7vjI"
+
+- title: "Breaking Down the User Monolith - Zach Porter"
+  slug: "breaking-down-the-user-monolith-zach-porter"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "r7tFvmFDbZE"
+      url: "https://www.youtube.com/watch?v=r7tFvmFDbZE"
+
+- title: "Using Elixir GenStage to Track Video Watch Progress  - Emerson Macedo"
+  slug: "using-elixir-genstage-to-track-video-watch-progress-emerson"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "6gcsjCl9ne0"
+      url: "https://www.youtube.com/watch?v=6gcsjCl9ne0"
+
+- title: "Beyond Command and Response Chatbot - Fahad Almusharraf"
+  slug: "beyond-command-and-response-chatbot-fahad-almusharraf-1"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "3Uyl4flNPbo"
+      url: "https://www.youtube.com/watch?v=3Uyl4flNPbo"
+
+- title: "UX Design Practices for Real Time Apps -  Bailey Miller & Tim Mecklem"
+  slug: "ux-design-practices-for-real-time-apps-bailey-miller-tim-mec"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "51bL3d-Gxqg"
+      url: "https://www.youtube.com/watch?v=51bL3d-Gxqg"
+
+
+## Lightning Talks
+
+
+- title: "Lightning Talk ElixirConf 2018 - Introducing Politilounge... - Christopher Krailo & Andrew Accuardi"
+  slug: "lt-lightning-talk-elixirconf-2018-introducing-politilounge-c"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - andrewaccuardi
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "lyNF2ksqo0k"
+      url: "https://www.youtube.com/watch?v=lyNF2ksqo0k"
+
+- title: "Lightning Talk ElixirConf 2018 - Deconstructing Korean with Elixir -Javier Evans"
+  slug: "lt-lightning-talk-elixirconf-2018-deconstructing-korean-with"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Khf5yUY-UX0"
+      url: "https://www.youtube.com/watch?v=Khf5yUY-UX0"
+
+- title: "Lightning Talk ElixirConf 2018 - Resources for BEAM Internals - Luke Imhoff"
+  slug: "lt-lightning-talk-elixirconf-2018-resources-for-beam-interna"
+  kind: lightning_talk
+  language: en
+  duration: 2
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "6et_LSGuUQU"
+      url: "https://www.youtube.com/watch?v=6et_LSGuUQU"
+
+- title: "Lightning Talk ElixirConf 2018 - 4 years of small learnings - Chris Ertel"
+  slug: "lt-lightning-talk-elixirconf-2018-4-years-of-small-learnings"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1CAqWHhMPjE"
+      url: "https://www.youtube.com/watch?v=1CAqWHhMPjE"

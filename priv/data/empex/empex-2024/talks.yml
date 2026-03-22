@@ -1,0 +1,172 @@
+## Keynotes
+
+
+- title: "Dave Thomas: Keynote"
+  slug: "dave-thomas-keynote"
+  kind: keynote
+  language: en
+  duration: 40
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "6U7cLUygMeI"
+      url: "https://www.youtube.com/watch?v=6U7cLUygMeI"
+
+
+## Talks
+
+
+- title: "Brooklyn Zelenka"
+  slug: "brooklyn-zelenka"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "DZEs8_QiC8Q"
+      url: "https://www.youtube.com/watch?v=DZEs8_QiC8Q"
+
+- title: "Bill Peregoy: Higher Level Functions for the Win"
+  slug: "bill-peregoy-higher-level-functions-for-the-win"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "G8_SCecwUJ8"
+      url: "https://www.youtube.com/watch?v=G8_SCecwUJ8"
+
+- title: "Kate Travers: Pattern Matching: The Gateway to Loving Elixir"
+  slug: "kate-travers-pattern-matching-the-gateway-to-loving-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "FXjpHRMsERI"
+      url: "https://www.youtube.com/watch?v=FXjpHRMsERI"
+
+- title: "Wojtek Mach: Recurrences & Intervals"
+  slug: "wojtek-mach-recurrences-intervals"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "vUOA5GgYg9I"
+      url: "https://www.youtube.com/watch?v=vUOA5GgYg9I"
+
+- title: "James Lavin: Lessons Learned Building a Medication Service at Teladoc and How Ecto Saved the Day"
+  slug: "james-lavin-lessons-learned-building-a-medication-service-at"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - ecto
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "CUvif-levqk"
+      url: "https://www.youtube.com/watch?v=CUvif-levqk"
+
+- title: "Jeff Smith: Neuroevolution in Elixir"
+  slug: "jeff-smith-neuroevolution-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "whtvOXZqOGM"
+      url: "https://www.youtube.com/watch?v=whtvOXZqOGM"
+
+- title: 'Mat Trudel: `mix new beats` -- Recreating The "Amen Break" with Elixir'
+  slug: "mat-trudel-mix-new-beats-recreating-the-amen-break-with-elix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "XN4WuOujr38"
+      url: "https://www.youtube.com/watch?v=XN4WuOujr38"
+
+- title: "Shanti Chellaram: The Best of Both Worlds: High Performance Recommendations with Elixir NIFs"
+  slug: "shanti-chellaram-the-best-of-both-worlds-high-performance-re"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "iL50Ss6Y85k"
+      url: "https://www.youtube.com/watch?v=iL50Ss6Y85k"
+
+- title: "Robert Beene: GenStage: Keeping large amounts of data up-to-date with Pipelines"
+  slug: "robert-beene-genstage-keeping-large-amounts-of-data-up-to-da"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "9mfD4-HUgh0"
+      url: "https://www.youtube.com/watch?v=9mfD4-HUgh0"
+
+- title: "Sophie DeBenedetto: Phoenix Presence: The Right Way To Track User Involvement in Real-Time Features"
+  slug: "sophie-debenedetto-phoenix-presence-the-right-way-to-track-u"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  topics:
+    - elixir
+    - phoenix
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "7L5xuTbXtbI"
+      url: "https://www.youtube.com/watch?v=7L5xuTbXtbI"

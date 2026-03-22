@@ -1,0 +1,12 @@
+name: "ElixirConf Africa 2022"
+slug: "elixirconf-africa-2022"
+kind: conference
+status: completed
+format: in_person
+start_date: "2022-10-06"
+end_date: "2022-10-07"
+timezone: "Africa/Nairobi"
+language: en
+location: "Nairobi, Kenya"
+website: "https://elixirconf.africa"
+color: "#38A169"

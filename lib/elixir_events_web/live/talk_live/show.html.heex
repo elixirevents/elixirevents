@@ -1,0 +1,172 @@
+<section>
+  <%!-- Back link --%>
+  <div class="mb-8">
+    <.link
+      navigate={~p"/talks"}
+      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      All talks
+    </.link>
+  </div>
+
+  <%!-- Video player --%>
+  <div class="mb-8">
+    <%= if has_recording?(@talk) do %>
+      <% recording = hd(@talk.recordings) %>
+      <%= if recording.provider == :youtube && recording.external_id do %>
+        <%!-- YouTube embed --%>
+        <div class="relative rounded-2xl overflow-hidden aspect-video bg-base-300">
+          <iframe
+            id="yt-player"
+            src={"https://www.youtube-nocookie.com/embed/#{recording.external_id}?rel=0&modestbranding=1"}
+            title={@talk.title}
+            class="absolute inset-0 w-full h-full"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      <% else %>
+        <%!-- Non-YouTube recording: link to URL --%>
+        <div
+          class="relative rounded-2xl overflow-hidden aspect-video"
+          style={ElixirEvents.Colors.card_style(@talk.title)}
+        >
+          <a
+            href={recording.url}
+            target="_blank"
+            rel="noopener"
+            class="absolute inset-0 flex items-center justify-center group"
+          >
+            <div class="p-5 bg-white/20 backdrop-blur-sm rounded-full group-hover:bg-white/30 group-hover:scale-105 transition-all duration-300">
+              <svg viewBox="0 0 24 24" class="w-10 h-10 text-white ml-1" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </a>
+        </div>
+      <% end %>
+    <% else %>
+      <%!-- No recording --%>
+      <div
+        class="relative rounded-2xl overflow-hidden aspect-video"
+        style={ElixirEvents.Colors.card_style(@talk.title)}
+      >
+        <div class="absolute inset-0 flex items-center justify-center">
+          <p class="text-white/60 text-lg font-medium">Recording not yet published</p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <%!-- Talk info --%>
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+    <div class="flex-1 min-w-0">
+      <div class="flex items-center gap-3 mb-3">
+        <span class={[
+          "text-xs font-bold px-2.5 py-1 rounded-full",
+          if(@talk.kind == :keynote,
+            do: "bg-primary/15 text-primary",
+            else:
+              if(@talk.kind == :workshop,
+                do: "bg-accent/15 text-accent",
+                else: "bg-base-300 text-base-content/60"
+              )
+          )
+        ]}>
+          {talk_kind_label(@talk.kind)}
+        </span>
+        <span :if={@talk.duration} class="text-sm text-base-content/50">
+          {format_duration(@talk.duration)}
+        </span>
+      </div>
+
+      <h1 class="font-display text-2xl sm:text-3xl font-bold text-base-content">{@talk.title}</h1>
+
+      <p :if={@talk.abstract} class="text-base-content/55 mt-4 leading-relaxed">
+        {@talk.abstract}
+      </p>
+
+      <%!-- Action buttons --%>
+      <div :if={has_recording?(@talk)} class="flex flex-wrap gap-3 mt-6">
+        <a
+          href={recording_url(@talk)}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full border border-base-300 text-base-content/60 hover:text-primary hover:border-primary/40 transition-colors"
+        >
+          <svg viewBox="0 0 24 24" class="w-4 h-4" fill="currentColor">
+            <path d="M21.582 6.186a2.506 2.506 0 00-1.768-1.768C18.254 4 12 4 12 4s-6.254 0-7.814.418c-.86.23-1.538.908-1.768 1.768C2 7.746 2 12 2 12s0 4.254.418 5.814c.23.86.908 1.538 1.768 1.768C5.746 20 12 20 12 20s6.254 0 7.814-.418a2.505 2.505 0 001.768-1.768C22 16.254 22 12 22 12s0-4.254-.418-5.814zM10 15.464V8.536L16 12l-6 3.464z" />
+          </svg>
+          Watch on YouTube
+        </a>
+      </div>
+
+      <%!-- Talk links --%>
+      <div :if={@talk.talk_links != []} class="flex flex-wrap gap-2.5 mt-4">
+        <a
+          :for={link <- @talk.talk_links}
+          href={link.url}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-full border border-base-300 text-base-content/60 hover:text-primary hover:border-primary/40 transition-colors"
+        >
+          {link.label || link.kind}
+        </a>
+      </div>
+    </div>
+
+    <%!-- Sidebar: speakers + event --%>
+    <div class="lg:w-80 shrink-0 space-y-8">
+      <%!-- Speakers --%>
+      <div :if={@talk.talk_speakers != []}>
+        <h2 class="text-sm font-semibold text-base-content/50 uppercase tracking-wider mb-4">
+          Speakers
+        </h2>
+        <div class="space-y-4">
+          <.link
+            :for={ts <- @talk.talk_speakers}
+            navigate={~p"/profiles/#{ts.profile.handle}"}
+            class="flex items-center gap-3 group"
+          >
+            <div
+              class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-display font-bold shrink-0 group-hover:scale-105 transition-transform"
+              style={avatar_style(ts.profile.name)}
+            >
+              {initials(ts.profile.name)}
+            </div>
+            <div>
+              <div class="font-medium text-base-content group-hover:text-primary transition-colors">
+                {ts.profile.name}
+              </div>
+              <div :if={ts.profile.headline} class="text-xs text-base-content/50">
+                {ts.profile.headline}
+              </div>
+            </div>
+          </.link>
+        </div>
+      </div>
+
+      <%!-- Event --%>
+      <div>
+        <h2 class="text-sm font-semibold text-base-content/50 uppercase tracking-wider mb-4">
+          Recorded at
+        </h2>
+        <.link
+          navigate={~p"/events/#{@talk.event.slug}"}
+          class="block p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-primary/[0.02] transition-all"
+        >
+          <div class="font-display font-bold text-base-content">{@talk.event.name}</div>
+          <div class="text-sm text-base-content/50 mt-1">{@talk.event.location}</div>
+          <div :if={@talk.event.start_date} class="text-xs text-base-content/50 mt-1">
+            {Calendar.strftime(@talk.event.start_date, "%B %d, %Y")}
+          </div>
+        </.link>
+      </div>
+    </div>
+  </div>
+</section>

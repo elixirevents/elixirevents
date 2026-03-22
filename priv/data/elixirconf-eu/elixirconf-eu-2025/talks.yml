@@ -1,0 +1,668 @@
+## Keynotes
+
+- title: "Type System and Elixir Updates"
+  slug: "keynote-jose-valim"
+  kind: keynote
+  language: en
+  duration: 41
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "po-ckmSt1gI"
+      url: "https://www.youtube.com/watch?v=po-ckmSt1gI"
+
+- title: "Code Generators are Dead. Long Live Code Generators"
+  slug: "keynote-chris-mccord"
+  kind: keynote
+  language: en
+  duration: 68
+  speakers:
+    - chrismccord
+  topics:
+    - phoenix
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ojL_VHc4gLk"
+      url: "https://www.youtube.com/watch?v=ojL_VHc4gLk"
+
+- title: "The AtomVM and New Horizons for Elixir"
+  slug: "keynote-atomvm"
+  kind: keynote
+  language: en
+  duration: 39
+  speakers:
+    - davidebettio
+    - mateuszfront
+  topics:
+    - elixir
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "ep--rQO1FRI"
+      url: "https://www.youtube.com/watch?v=ep--rQO1FRI"
+
+## Talks
+
+- title: "The Architecture of Oban Web"
+  slug: "architecture-of-oban-web"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "A deep dive into the architecture behind Oban Web, exploring the design decisions and patterns used to build the dashboard for the popular background job library."
+  speakers:
+    - shannonselbert
+    - parkerselbert
+  topics:
+    - oban
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "oC22L_wSg8w"
+      url: "https://www.youtube.com/watch?v=oC22L_wSg8w"
+
+- title: "Whisperer: An Elixir-based Multi Agent Workflow Framework"
+  slug: "whisperer-multi-agent-workflow"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "Introducing Whisperer, a framework for building multi-agent workflows in Elixir, leveraging the BEAM's concurrency model for AI agent orchestration."
+  speakers:
+    - solaaremupelumi
+    - ridwanotun
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "NrzN--WYU5M"
+      url: "https://www.youtube.com/watch?v=NrzN--WYU5M"
+
+- title: "TigerBeetlex: An Elixir and Zig Love Story"
+  slug: "tigerbeetlex-elixir-zig"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Building TigerBeetlex, an Elixir client for the TigerBeetle financial transactions database, using Zig NIFs for high performance."
+  speakers:
+    - riccardobinetti
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "iF97whmfCLg"
+      url: "https://www.youtube.com/watch?v=iF97whmfCLg"
+
+- title: "What's New in Elixir Types"
+  slug: "whats-new-elixir-types"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "An overview of the latest developments in Elixir's gradual type system, covering new features and the roadmap ahead."
+  speakers:
+    - guillaumeduboc
+  topics:
+    - elixir
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "6PnGDXhcK1o"
+      url: "https://www.youtube.com/watch?v=6PnGDXhcK1o"
+
+- title: "Turn Old into New: Moving to Elixir Feature by Feature"
+  slug: "moving-to-elixir-feature-by-feature"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "A practical guide to incrementally migrating a legacy application to Elixir, one feature at a time."
+  speakers:
+    - anitaludermann
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "CcUb7Ky2oSI"
+      url: "https://www.youtube.com/watch?v=CcUb7Ky2oSI"
+
+- title: "Introducing Trellis: Open Source Hardware for Nerves"
+  slug: "introducing-trellis-nerves"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "Introducing Trellis, an open source hardware platform designed for use with Nerves, making embedded Elixir development more accessible."
+  speakers:
+    - gusworkman
+  topics:
+    - nerves
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "XgMDTAKd7-4"
+      url: "https://www.youtube.com/watch?v=XgMDTAKd7-4"
+
+- title: "Making Bookings Asynchronously"
+  slug: "making-bookings-asynchronously"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Patterns for handling asynchronous booking workflows in Elixir, dealing with concurrency, consistency, and fault tolerance."
+  speakers:
+    - fernandohamasakideamorim
+    - rauanassis
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "lrn5BcKok8c"
+      url: "https://www.youtube.com/watch?v=lrn5BcKok8c"
+
+- title: "Livebook Behind the Cover"
+  slug: "livebook-behind-the-cover"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "A look behind the scenes of Livebook, exploring the architecture and implementation details of the interactive notebook for Elixir."
+  speakers:
+    - jonatanklosko
+  topics:
+    - elixir
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "2GUvk_BNJRE"
+      url: "https://www.youtube.com/watch?v=2GUvk_BNJRE"
+
+- title: "Why Combining LiveView and a Frontend Library is a Great Idea"
+  slug: "combining-liveview-frontend-library"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "Making the case for combining Phoenix LiveView with frontend JavaScript libraries to get the best of both worlds."
+  speakers:
+    - jakubskalecki
+  topics:
+    - liveview
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "oouX5lxf48k"
+      url: "https://www.youtube.com/watch?v=oouX5lxf48k"
+
+- title: "Introducing Phoenix Sync"
+  slug: "introducing-phoenix-sync"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Introducing Phoenix Sync, a new library for building local-first applications with Phoenix, powered by Electric SQL."
+  speakers:
+    - jamesarthur
+  topics:
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "yP191TsAPME"
+      url: "https://www.youtube.com/watch?v=yP191TsAPME"
+
+- title: "My BEAM History"
+  slug: "my-beam-history"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 37
+  abstract: "A personal journey through the history of the BEAM virtual machine, from its origins to the present day, by one of its key contributors."
+  speakers:
+    - bjorngustavsson
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "zrYdkHRCJqM"
+      url: "https://www.youtube.com/watch?v=zrYdkHRCJqM"
+
+- title: "Distributed Elixir Made Simple"
+  slug: "distributed-elixir-made-simple"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "Practical approaches to building distributed Elixir applications, simplifying common clustering and distribution patterns."
+  speakers:
+    - johannalarsson
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "FDD_qIT1uyw"
+      url: "https://www.youtube.com/watch?v=FDD_qIT1uyw"
+
+- title: "Code Intelligence and RAG in Elixir with rag.ex"
+  slug: "code-intelligence-rag-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Building code intelligence tools using Retrieval-Augmented Generation in Elixir with the rag.ex library."
+  speakers:
+    - chrisbeck
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "RK65aR2M5eE"
+      url: "https://www.youtube.com/watch?v=RK65aR2M5eE"
+
+- title: "Dealing with a Monster Ecto Query"
+  slug: "dealing-with-monster-ecto-query"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "Strategies for taming complex Ecto queries, breaking them down into composable and maintainable pieces."
+  speakers:
+    - mackenziemorgan
+  topics:
+    - ecto
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "C3OGJpirv04"
+      url: "https://www.youtube.com/watch?v=C3OGJpirv04"
+
+- title: "Do or Die! We Bet on Elixir for Our Lakehouse Architecture"
+  slug: "elixir-lakehouse-architecture"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "How a team chose Elixir for their data lakehouse architecture and the lessons learned along the way."
+  speakers:
+    - hermanlangner
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "gSzQTNUruOA"
+      url: "https://www.youtube.com/watch?v=gSzQTNUruOA"
+
+- title: "FLAME on Slurm HPC Cluster"
+  slug: "flame-on-slurm-hpc"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 15
+  abstract: "Running Elixir FLAME workloads on Slurm high-performance computing clusters for scalable computation."
+  speakers:
+    - marcnickert
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "uG3-id1S_OQ"
+      url: "https://www.youtube.com/watch?v=uG3-id1S_OQ"
+
+- title: "Growing with Elixir: A Journey Through 8 Years of Adoption"
+  slug: "growing-with-elixir-8-years"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 40
+  abstract: "Reflections on 8 years of Elixir adoption, from first steps to running it at scale in production."
+  speakers:
+    - andersonkonzen
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "MVRTVrF--Eg"
+      url: "https://www.youtube.com/watch?v=MVRTVrF--Eg"
+
+- title: "Meta Programming in Elixir: Dynamic Function Calling with LLMs"
+  slug: "meta-programming-llms"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 20
+  abstract: "Using Elixir's metaprogramming capabilities to enable dynamic function calling from large language models."
+  speakers:
+    - conorsinclair
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "q2iW1x0gNKA"
+      url: "https://www.youtube.com/watch?v=q2iW1x0gNKA"
+
+- title: "Four Years of Running Elixir on Kubernetes in Google Cloud"
+  slug: "elixir-kubernetes-google-cloud"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "Lessons learned from four years of running Elixir applications on Kubernetes in Google Cloud Platform."
+  speakers:
+    - piotrszmielew
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "Zce0SM1sm7A"
+      url: "https://www.youtube.com/watch?v=Zce0SM1sm7A"
+
+- title: "Hologram: Building Rich UIs with Elixir Running in the Browser"
+  slug: "hologram-elixir-in-browser"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "Introducing Hologram, a framework for building rich user interfaces with Elixir code compiled to run directly in the browser via WebAssembly."
+  speakers:
+    - bartblast
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "TVs2_TzHC3E"
+      url: "https://www.youtube.com/watch?v=TVs2_TzHC3E"
+
+- title: "Unveiling the Magic of Erlang/OTP Behaviours: A Deep Dive into the Codebase"
+  slug: "erlang-otp-behaviours-deep-dive"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 21
+  abstract: "A deep dive into the Erlang/OTP source code, exploring how behaviours like GenServer and Supervisor are actually implemented."
+  speakers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "_X77igQpseE"
+      url: "https://www.youtube.com/watch?v=_X77igQpseE"
+
+- title: "Wasmex: Run WebAssembly Programs in Elixir"
+  slug: "wasmex-webassembly-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "Using Wasmex to run WebAssembly modules from Elixir, enabling polyglot programming and sandboxed execution."
+  speakers:
+    - philipptessenow
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "pT3qkgzux1w"
+      url: "https://www.youtube.com/watch?v=pT3qkgzux1w"
+
+- title: "Building Terminal Applications with Elixir"
+  slug: "building-terminal-apps-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "How to build rich terminal user interfaces in Elixir, exploring libraries and patterns for CLI application development."
+  speakers:
+    - garyrennie
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "eNbZcWTu0i0"
+      url: "https://www.youtube.com/watch?v=eNbZcWTu0i0"
+
+- title: "Developing Secure Web Applications with Phoenix"
+  slug: "secure-web-apps-phoenix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "Best practices for developing secure web applications with Phoenix, covering common vulnerabilities and how to prevent them."
+  speakers:
+    - elikroumova
+  topics:
+    - phoenix
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "lJ2HE8AnHrA"
+      url: "https://www.youtube.com/watch?v=lJ2HE8AnHrA"
+
+- title: "Elixir for Automated Reasoning"
+  slug: "elixir-automated-reasoning"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 21
+  abstract: "Exploring the use of Elixir for automated reasoning and formal verification techniques."
+  speakers:
+    - davidfuenmayor
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "HedowQPFM4o"
+      url: "https://www.youtube.com/watch?v=HedowQPFM4o"
+
+- title: "Live Video Styling with LiveView and Boombox"
+  slug: "live-video-styling-liveview-boombox"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "Real-time video processing and styling using Phoenix LiveView and the Boombox media framework from Membrane."
+  speakers:
+    - felikspobiedzinski
+  topics:
+    - liveview
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "6bAKVIRBb3k"
+      url: "https://www.youtube.com/watch?v=6bAKVIRBb3k"
+
+- title: "How Elixir Powers the BBC: From PoC to Production at Scale"
+  slug: "elixir-powers-bbc"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: "The story of how the BBC adopted Elixir, growing from a proof of concept to running production services at scale."
+  speakers:
+    - ettoreberardi
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "e99QDd0_C20"
+      url: "https://www.youtube.com/watch?v=e99QDd0_C20"
+
+- title: "Ash AI Launch"
+  slug: "ash-ai-launch"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "Launching Ash AI, bringing artificial intelligence capabilities to the Ash Framework ecosystem."
+  speakers:
+    - zachdaniel
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "PSrzruaby1M"
+      url: "https://www.youtube.com/watch?v=PSrzruaby1M"
+
+## Lightning Talks
+
+- title: "ContextKit"
+  slug: "lt-contextkit"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  speakers:
+    - aleksandrlossenko
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "a7obUzj3BeY"
+      url: "https://www.youtube.com/watch?v=a7obUzj3BeY"
+
+- title: "Elixir Communities in Germany"
+  slug: "lt-elixir-communities-germany"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - martonveres
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qA68q-VqDVE"
+      url: "https://www.youtube.com/watch?v=qA68q-VqDVE"
+
+- title: "Resilient Code, Resilient Engineer: Lessons from Changing Requirements"
+  slug: "lt-resilient-code-resilient-engineer"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  speakers:
+    - meksmcclure
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "n2RQtPyCJt8"
+      url: "https://www.youtube.com/watch?v=n2RQtPyCJt8"
+
+- title: "GameDev in Elixir Using ECS and LiveView"
+  slug: "lt-gamedev-elixir-ecs-liveview"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - nikolabegedin
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "me8udc1ZEzk"
+      url: "https://www.youtube.com/watch?v=me8udc1ZEzk"
+
+- title: "Ticks, Elixir and Gaming"
+  slug: "lt-ticks-elixir-gaming"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - hernanrivasacosta
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jKvsAAg64V0"
+      url: "https://www.youtube.com/watch?v=jKvsAAg64V0"
+
+- title: "Introducing Elixir Observer"
+  slug: "lt-introducing-elixir-observer"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - juanazambuja
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "o-FsRSDg6Pc"
+      url: "https://www.youtube.com/watch?v=o-FsRSDg6Pc"
+
+- title: "Debugging LiveView with LiveDebugger"
+  slug: "lt-debugging-liveview-livedebugger"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  speakers:
+    - krzysztofnalepa
+  topics:
+    - liveview
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "mTYxjXdMoNs"
+      url: "https://www.youtube.com/watch?v=mTYxjXdMoNs"
+
+- title: "All You Want to Know About Waffle and File Uploads"
+  slug: "lt-waffle-file-uploads"
+  kind: lightning_talk
+  language: en
+  duration: 9
+  speakers:
+    - boriskuznetsov
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "4iM-V9yELsE"
+      url: "https://www.youtube.com/watch?v=4iM-V9yELsE"
+
+- title: "opentelemetry_testing"
+  slug: "lt-opentelemetry-testing"
+  kind: lightning_talk
+  language: en
+  duration: 10
+  speakers:
+    - denysgonchar
+  topics:
+    - testing
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "5CECx5Z_D1I"
+      url: "https://www.youtube.com/watch?v=5CECx5Z_D1I"
+
+- title: "EEF Update"
+  slug: "lt-eef-update"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  speakers:
+    - alistairwoodman
+    - jonatanmannchen
+    - danjanowski
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "5WqMpSt_rRE"
+      url: "https://www.youtube.com/watch?v=5WqMpSt_rRE"

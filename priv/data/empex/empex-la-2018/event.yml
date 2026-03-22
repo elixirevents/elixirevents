@@ -1,0 +1,12 @@
+name: "EMPEX LA 2018"
+slug: "empex-la-2018"
+kind: conference
+status: completed
+format: in_person
+start_date: "2018-02-10"
+end_date: "2018-02-10"
+timezone: "America/Los_Angeles"
+language: en
+location: "Los Angeles, CA, USA"
+website: "https://empex.co/la"
+color: "#805AD5"

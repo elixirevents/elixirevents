@@ -1,0 +1,202 @@
+## Keynotes
+
+
+- title: "Keynote: You Keep Using That Word | MQ Summit 2025"
+  slug: "keynote-sam-newman"
+  kind: keynote
+  language: en
+  duration: 46
+  abstract: "When it comes to distributed computing, one of the perennial topics comes down to how different services should communicate. Working out the relative merits of specific technical approaches can become a complex affair however, so we often reach for categorisation to simplify our work. Often, the dis"
+  speakers:
+    - samnewman
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "8ybqsEg2HYs"
+      url: "https://www.youtube.com/watch?v=8ybqsEg2HYs"
+
+- title: "Keynote: The Power of Queues | MQ Summit 2025"
+  slug: "keynote-david-ware"
+  kind: keynote
+  language: en
+  duration: 29
+  abstract: "When it comes to distributed computing, one of the perennial topics comes down to how different services should communicate. Working out the relative merits of specific technical approaches can become a complex affair however, so we often reach for categorisation to simplify our work. Often, the dis"
+  speakers:
+    - davidware
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "3UGoG92j8o4"
+      url: "https://www.youtube.com/watch?v=3UGoG92j8o4"
+
+
+## Talks
+
+
+- title: "Apache ActiveMQ and the coming features around cloud and management | MQ Summit 2025"
+  slug: "apache-activemq-and-the-coming-features-around-cloud-and-man"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "After a quick review of the state of the art on Apache ActiveMQ (and the latest releases), this talk will focus on the new important features coming in ActiveMQ, especially about the runtime, cloud integration & scalability, and observability & management."
+  speakers:
+    - jbonofre
+  topics:
+    - elixir
+    - testing
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "tbUcAan32cM"
+      url: "https://www.youtube.com/watch?v=tbUcAan32cM"
+
+- title: "Multi-Tenant messaging systems, Artem Gayardo-Matrosov | MQ Summit 2025"
+  slug: "multi-tenant-messaging-systems-artem-gayardo-matrosov-mq-sum"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "This talk explores the architectural challenges and solutions for building scalable multi-tenant messaging systems. We'll examine isolation strategies, including shared versus dedicated queue architectures and their trade-offs. We will cover authentication and authorization frameworks to prevent cro"
+  speakers:
+    - dirkfrohner
+    - artemgayardomatrosov
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "0khNemjJUeM"
+      url: "https://www.youtube.com/watch?v=0khNemjJUeM"
+
+- title: "Beyond CloudEvents: Endpoints, Messages, Schemas – CNCF xRegistry Clemens Vasters | MQ Summit 2025"
+  slug: "beyond-cloudevents-endpoints-messages-schemas-cncf-xregistry"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "The CNCF xRegistry project is an offspring of the graduated CNCF CloudEvents project, motivated by the need to formally declare which events can be raised by services and which are available to handle. This session provides an overview of the xRegistry metadata model, its API and the mirroring docum"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "TrrMUGF-28Q"
+      url: "https://www.youtube.com/watch?v=TrrMUGF-28Q"
+
+- title: "Breaking Storage Barriers: How RabbitMQ Streams Scale Beyond Local Disk - Simon Unge |MQ Summit 2025"
+  slug: "breaking-storage-barriers-how-rabbitmq-streams-scale-beyond"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "As streaming workloads grow, storage becomes the bottleneck that limits RabbitMQ deployments. This technical deep-dive explores how to break through local disk barriers using tiered storage architecture. You'll learn the fundamentals of RabbitMQ stream storage - from segment files to I/O operations "
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "CimsLxLmnOo"
+      url: "https://www.youtube.com/watch?v=CimsLxLmnOo"
+
+- title: "An Introduction to Messaging in Valkey, Kyle Davis | MQ Summit 2025"
+  slug: "an-introduction-to-messaging-in-valkey-kyle-davis-mq-summit"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 27
+  abstract: "You’ve probably used Valkey (or its predecessor) as a cache, however, hiding below the surface is a messaging powerhouse built for both scale, low latency, and high throughput. In this session, you’ll learn about Valkey, a Linux Foundation back, high-speed, Key-Value datastore, provides both fundame"
+  speakers:
+    - robertolunarojas
+    - kyledavis
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RLR4g07hIew"
+      url: "https://www.youtube.com/watch?v=RLR4g07hIew"
+
+- title: "MQTT and Apache Pulsar for IoT: Powering the Connected Vehicle | MQ Summit 2025"
+  slug: "mqtt-and-apache-pulsar-for-iot-powering-the-connected-vehicl"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "This presentation explores robust messaging solutions for the Internet of Things, focusing on MQTT and Apache Pulsar.  We'll begin with MQTT as the de facto lightweight pub/sub protocol for edge communication, detailing its strengths and limitations. Then, we'll dive into Apache Pulsar, a scalable, "
+  speakers:
+    - matteomerli
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "wfGLxecvQ2Y"
+      url: "https://www.youtube.com/watch?v=wfGLxecvQ2Y"
+
+- title: "Gateway Architecture 3.0 | MQ Summit 2025"
+  slug: "gateway-architecture-30-mq-summit-2025"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Messaging gateways need to adapt to modern organization challenges. Organizations that require multi-location connectivity, hybrid-cloud or multi-cloud deployments need to deploy and manage messaging gateways and application connectivity to the gateway in a way that reduces human touch points, provi"
+  speakers:
+    - mattpavlovich
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "ed5tvcO63X8"
+      url: "https://www.youtube.com/watch?v=ed5tvcO63X8"
+
+- title: "Message brokers and MCP - Just another protocol or more? | MQ Summit 2025"
+  slug: "message-brokers-and-mcp-just-another-protocol-or-more-mq-sum"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "The model context protocol (MCP) is a new open standard that enables AI models to integrate with external systems in a standardized way. This session explores the transformative potential of combining MCP with popular message brokers like RabbitMQ and ActiveMQ to create powerful Agentic AI workflows"
+  speakers:
+    - kenliao
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "sufuDcuqQcQ"
+      url: "https://www.youtube.com/watch?v=sufuDcuqQcQ"
+
+- title: "Replacing legacy message queueing solutions with RabbitMQ | MQ Summit 2025"
+  slug: "replacing-legacy-message-queueing-solutions-with-rabbitmq-mq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "One of the original motivations for AMQP was to address the middleware hell that had plagued organizations for decades due to the lack of open standards and the existence of proprietary and expensive message queuing products that did not interoperate, necessitating the development of adaptors and ga"
+  speakers:
+    - brettcameron
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "xK_yE1rKQwY"
+      url: "https://www.youtube.com/watch?v=xK_yE1rKQwY"
+
+- title: "Securing your messaging networks: What needs protecting and how? | MQ Summit 2025"
+  slug: "securing-your-messaging-networks-what-needs-protecting-and-h"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "Securing your messaging networks is vital. Preventing malicious actors from attacking your business is crucial to prevent monetary or reputation loss. But where in your network needs protecting?"
+  speakers:
+    - robparker
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "o6FmqpL1_58"
+      url: "https://www.youtube.com/watch?v=o6FmqpL1_58"

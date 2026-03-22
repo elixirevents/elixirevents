@@ -1,0 +1,207 @@
+## Keynotes
+
+
+- title: "Keynote: Benchee: 9 Years of Benchmarking on the BEAM -Tobias Pfeiffer | Code BEAM Lite Sto 2024"
+  slug: "keynote-benchee-9-years-of-benchmarking-on-the-beam-tobias-p"
+  kind: keynote
+  language: en
+  duration: 56
+  abstract: "Abstract"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Dlo7gJGUrQo"
+      url: "https://www.youtube.com/watch?v=Dlo7gJGUrQo"
+
+- title: "Keynote: My BEAM history | Code BEAM Lite STO 2025"
+  slug: "keynote-bjorn-gustavsson"
+  kind: keynote
+  language: en
+  duration: 47
+  abstract: "Abstract"
+  speakers:
+    - bjorngustavsson
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "htWYS2tpVLY"
+      url: "https://www.youtube.com/watch?v=htWYS2tpVLY"
+
+
+## Talks
+
+
+- title: "Squeezing the BEAM into 16MB - Peer Stritzinger| Code BEAM Lite STO 2025"
+  slug: "squeezing-the-beam-into-16mb-peer-stritzinger-code-beam-lite"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "Abstract"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "XK4dDGC2qRw"
+      url: "https://www.youtube.com/watch?v=XK4dDGC2qRw"
+
+- title: "Self Hosted Elixir: A Pi is all you need! | Code BEAM Lite STO 2025"
+  slug: "self-hosted-elixir-a-pi-is-all-you-need-code-beam-lite-sto-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Abstract"
+  speakers:
+    - solaaremupelumi
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "8vP_yuTGMBw"
+      url: "https://www.youtube.com/watch?v=8vP_yuTGMBw"
+
+- title: "What do you learn from not using Erlang? | Code BEAM Lite STO 2025"
+  slug: "what-do-you-learn-from-not-using-erlang-code-beam-lite-sto-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "Abstract"
+  speakers:
+    - danielszoboszlay
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "DQgvaToEPKQ"
+      url: "https://www.youtube.com/watch?v=DQgvaToEPKQ"
+
+- title: "OTP Update  | Code BEAM Lite STO 2025"
+  slug: "otp-update-code-beam-lite-sto-2025"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Abstract"
+  speakers:
+    - rickardgreen
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "OGOMcfbkJd4"
+      url: "https://www.youtube.com/watch?v=OGOMcfbkJd4"
+
+- title: "Scaling Edge AI with Elixir and Nerves & Paulo Valente | Code BEAM Lite STO 2025"
+  slug: "scaling-edge-ai-with-elixir-and-nerves-paulo-valente-code-be"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "Abstract"
+  speakers:
+    - vittoriabitton
+    - paulovalente
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "nRq5Gnf-n3c"
+      url: "https://www.youtube.com/watch?v=nRq5Gnf-n3c"
+
+- title: "Tying it all together - Lars Wikman| Code BEAM Lite STO 2025"
+  slug: "tying-it-all-together-lars-wikman-code-beam-lite-sto-2025"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Abstract"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "jPaU7-sqv_s"
+      url: "https://www.youtube.com/watch?v=jPaU7-sqv_s"
+
+- title: "Testing Feature Interactions in Payments& Adam Lindberg | Code BEAM Lite STO 2025"
+  slug: "testing-feature-interactions-in-payments-adam-lindberg-code"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "Abstract"
+  speakers:
+    - thomasarts
+    - adamlindberg
+  topics:
+    - elixir
+    - erlang
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "SaxUJHwgMu4"
+      url: "https://www.youtube.com/watch?v=SaxUJHwgMu4"
+
+- title: "Easier Lint Authoring with Semantic Search and (...)- Alan Zimmerman | Code BEAM Lite STO 2025"
+  slug: "easier-lint-authoring-with-semantic-search-and-alan-zimmerma"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "Abstract"
+  topics:
+    - elixir
+    - erlang
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "caEriiYvHcs"
+      url: "https://www.youtube.com/watch?v=caEriiYvHcs"
+
+- title: "Torus: PostgreSQL Search in Ecto | Code BEAM Lite STO 2025"
+  slug: "torus-postgresql-search-in-ecto-code-beam-lite-sto-2025"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Abstract"
+  speakers:
+    - dimamikielewicz
+  topics:
+    - elixir
+    - ecto
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "OgMo2vzZ6EA"
+      url: "https://www.youtube.com/watch?v=OgMo2vzZ6EA"
+
+- title: "How I ended up writing Gleam for a living | Code BEAM Lite STO 2025"
+  slug: "how-i-ended-up-writing-gleam-for-a-living-code-beam-lite-sto"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Abstract"
+  speakers:
+    - isaacharrisholt
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "BfPRcanTWXA"
+      url: "https://www.youtube.com/watch?v=BfPRcanTWXA"

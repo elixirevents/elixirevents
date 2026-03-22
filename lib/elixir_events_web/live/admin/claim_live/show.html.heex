@@ -1,0 +1,160 @@
+<section>
+  <%!-- Back link --%>
+  <div class="mb-8">
+    <.link
+      navigate={~p"/admin/claims"}
+      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      All claims
+    </.link>
+  </div>
+
+  <h1 class="font-display text-3xl font-bold text-base-content mb-8">
+    Claim #{@claim.id}
+  </h1>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <%!-- Claimant info --%>
+    <div class="rounded-xl border border-base-300 p-6">
+      <h2 class="font-display text-lg font-bold text-base-content mb-4">Claimant</h2>
+      <dl class="space-y-3 text-sm">
+        <div class="flex justify-between">
+          <dt class="text-base-content/55">Email</dt>
+          <dd class="text-base-content">{@claim.user.email}</dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-base-content/55">Confirmed?</dt>
+          <dd>
+            <span :if={@claim.user.confirmed_at} class="text-green-400">
+              Yes ({Calendar.strftime(@claim.user.confirmed_at, "%b %d, %Y")})
+            </span>
+            <span :if={is_nil(@claim.user.confirmed_at)} class="text-amber-400">No</span>
+          </dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-base-content/55">Account created</dt>
+          <dd class="text-base-content">
+            {Calendar.strftime(@claim.user.inserted_at, "%b %d, %Y")}
+          </dd>
+        </div>
+      </dl>
+    </div>
+
+    <%!-- Claimed entity --%>
+    <div class="rounded-xl border border-base-300 p-6">
+      <h2 class="font-display text-lg font-bold text-base-content mb-4">Claimed Entity</h2>
+      <dl class="space-y-3 text-sm">
+        <div class="flex justify-between">
+          <dt class="text-base-content/55">Type</dt>
+          <dd class="text-base-content">{@claim.claimable_type}</dd>
+        </div>
+        <div :if={@profile} class="flex justify-between">
+          <dt class="text-base-content/55">Name</dt>
+          <dd class="text-base-content">{@profile.name}</dd>
+        </div>
+        <div :if={@profile} class="flex justify-between">
+          <dt class="text-base-content/55">Handle</dt>
+          <dd class="text-base-content">@{@profile.handle}</dd>
+        </div>
+        <div :if={is_nil(@profile)} class="flex justify-between">
+          <dt class="text-base-content/55">Entity ID</dt>
+          <dd class="text-base-content">{@claim.claimable_id}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
+  <%!-- Current status --%>
+  <div class="mt-8 rounded-xl border border-base-300 p-6">
+    <div class="flex items-center gap-4 mb-6">
+      <h2 class="font-display text-lg font-bold text-base-content">Status</h2>
+      <span class={[
+        "inline-flex items-center px-3 py-1 rounded-full text-sm font-medium",
+        claim_status_class(@claim.status)
+      ]}>
+        {@claim.status}
+      </span>
+    </div>
+
+    <%!-- Warning for disputes --%>
+    <div
+      :if={
+        @claim.status == :pending &&
+          Enum.any?(@entity_claims, &(&1.status == :approved && &1.id != @claim.id))
+      }
+      class="mb-6 p-4 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-300 text-sm"
+    >
+      Warning: Approving this claim will revoke the existing approved claim on this entity.
+    </div>
+
+    <%!-- Admin actions for pending claims --%>
+    <div :if={@claim.status == :pending} class="space-y-4">
+      <button
+        phx-click="approve"
+        data-confirm="Are you sure you want to approve this claim?"
+        class="inline-flex items-center px-5 py-2.5 rounded-lg bg-green-600 hover:bg-green-700 text-white font-medium text-sm transition-colors"
+      >
+        Approve
+      </button>
+
+      <form phx-submit="reject" class="flex flex-col gap-3">
+        <label class="text-sm text-base-content/55 font-medium">Rejection notes</label>
+        <textarea
+          name="admin_notes"
+          value={@admin_notes}
+          phx-change="update_notes"
+          rows="3"
+          class="w-full rounded-lg border border-base-300 bg-base-200 text-base-content px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary/50 focus:border-primary"
+          placeholder="Reason for rejection (optional)..."
+        ></textarea>
+        <button
+          type="submit"
+          data-confirm="Are you sure you want to reject this claim?"
+          class="inline-flex items-center px-5 py-2.5 rounded-lg bg-red-600 hover:bg-red-700 text-white font-medium text-sm transition-colors self-start"
+        >
+          Reject
+        </button>
+      </form>
+    </div>
+
+    <%!-- Review info for non-pending claims --%>
+    <div :if={@claim.status != :pending && @claim.reviewed_at} class="text-sm space-y-2">
+      <p class="text-base-content/55">
+        Reviewed on {Calendar.strftime(@claim.reviewed_at, "%b %d, %Y at %H:%M")}
+        <span :if={@claim.reviewed_by}>by {@claim.reviewed_by.email}</span>
+      </p>
+      <p :if={@claim.admin_notes} class="text-base-content/70">
+        Notes: {@claim.admin_notes}
+      </p>
+    </div>
+  </div>
+
+  <%!-- Claim history --%>
+  <div :if={length(@entity_claims) > 1} class="mt-8 rounded-xl border border-base-300 p-6">
+    <h2 class="font-display text-lg font-bold text-base-content mb-4">
+      Claim history on this entity
+    </h2>
+    <div class="space-y-3">
+      <div
+        :for={ec <- @entity_claims}
+        class={"flex items-center justify-between py-2 px-3 rounded-lg text-sm #{if ec.id == @claim.id, do: "bg-base-200", else: ""}"}
+      >
+        <div class="text-base-content">
+          {ec.user.email}
+          <span class="text-base-content/40 ml-2">
+            {Calendar.strftime(ec.inserted_at, "%b %d, %Y")}
+          </span>
+        </div>
+        <span class={[
+          "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium",
+          claim_status_class(ec.status)
+        ]}>
+          {ec.status}
+        </span>
+      </div>
+    </div>
+  </div>
+</section>

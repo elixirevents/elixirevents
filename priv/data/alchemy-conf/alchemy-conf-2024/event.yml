@@ -1,0 +1,12 @@
+name: "Alchemy Conf 2024"
+slug: "alchemy-conf-2024"
+kind: conference
+status: completed
+format: in_person
+start_date: "2024-04-25"
+end_date: "2024-04-26"
+timezone: "Europe/Lisbon"
+language: en
+location: "Braga, Portugal"
+website: "https://alchemyconf.com"
+color: "#E53E3E"

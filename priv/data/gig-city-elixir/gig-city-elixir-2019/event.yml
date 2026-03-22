@@ -1,0 +1,12 @@
+name: "Gig City Elixir 2019"
+slug: "gig-city-elixir-2019"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-07-11"
+end_date: "2019-07-12"
+timezone: "America/Chicago"
+language: en
+location: "Chattanooga, TN, USA"
+website: "https://www.gigcityelixir.com"
+color: "#ED8936"

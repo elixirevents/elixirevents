@@ -1,0 +1,188 @@
+
+## Talks
+
+
+- title: "Empex Elixir 2019 - Distributed War Stories - Miriam Pena"
+  slug: "empex-elixir-2019-distributed-war-stories-miriam-pena"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "b3JQgyj17hk"
+      url: "https://www.youtube.com/watch?v=b3JQgyj17hk"
+
+- title: "EMPEX LA 2019 - Living Things - Ashi Krishnan"
+  slug: "empex-la-2019-living-things-ashi-krishnan"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "5LlpbWuB9Hc"
+      url: "https://www.youtube.com/watch?v=5LlpbWuB9Hc"
+
+- title: "EMPEX LA 2019 - Go vs Elixir A concurrency comparison - Anna Neyzberg, Hannah Howard"
+  slug: "empex-la-2019-go-vs-elixir-a-concurrency-comparison-anna-ney"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "8Sji1c_MuUQ"
+      url: "https://www.youtube.com/watch?v=8Sji1c_MuUQ"
+
+- title: "EMPEX LA 2019 - Making your Elixir API Accessible to non Elixir developers - Kalisa Falzone"
+  slug: "empex-la-2019-making-your-elixir-api-accessible-to-non-elixi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 17
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "vdfmIFAKNE0"
+      url: "https://www.youtube.com/watch?v=vdfmIFAKNE0"
+
+- title: "EMPEX LA 2019 - Lessons From Our First Trillion Messages with Flow  - John Mertens"
+  slug: "empex-la-2019-lessons-from-our-first-trillion-messages-with"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "b342YwOzIjI"
+      url: "https://www.youtube.com/watch?v=b342YwOzIjI"
+
+- title: "EMPEX LA 2019 -  Five Easy Ways To Start With Nerves - Michael Ries"
+  slug: "empex-la-2019-five-easy-ways-to-start-with-nerves-michael-ri"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 15
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "BfWac2y7cJM"
+      url: "https://www.youtube.com/watch?v=BfWac2y7cJM"
+
+- title: "EMPEX LA 2019 -  Fake It  Til You Make It where it = Haskell expertise - Libby Horacek"
+  slug: "empex-la-2019-fake-it-til-you-make-it-where-it-haskell-exper"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "9MmIzrDmBO0"
+      url: "https://www.youtube.com/watch?v=9MmIzrDmBO0"
+
+- title: "EMPEX LA 2019 - Handling Null in Functional Programming - Evelyn Masso"
+  slug: "empex-la-2019-handling-null-in-functional-programming-evelyn"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 14
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aZBcRsAxG-I"
+      url: "https://www.youtube.com/watch?v=aZBcRsAxG-I"
+
+- title: "EMPEX LA 2019 -  Rebuilding a BDD Testing Framework ESpec... - Bruce Park"
+  slug: "empex-la-2019-rebuilding-a-bdd-testing-framework-espec-bruce"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 17
+  abstract: "EMPEX LA 2019 -  Rebuilding a BDD Testing Framework ESpec  Foundations in Metaprogramming - Bruce Park"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "uah3b4IVRDA"
+      url: "https://www.youtube.com/watch?v=uah3b4IVRDA"
+
+- title: "EMPEX LA 2019 -  Where did I put my data - Alex Peachey"
+  slug: "empex-la-2019-where-did-i-put-my-data-alex-peachey"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "9216dUNgKCU"
+      url: "https://www.youtube.com/watch?v=9216dUNgKCU"
+
+- title: "EMPEX LA 2019 -  You might say I have mix feelings - Aaron Harpole"
+  slug: "empex-la-2019-you-might-say-i-have-mix-feelings-aaron-harpol"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "3c7ekyNUAx8"
+      url: "https://www.youtube.com/watch?v=3c7ekyNUAx8"
+
+- title: "EMPEX LA 2019 - Closing Remarks"
+  slug: "empex-la-2019-closing-remarks"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 5
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "v-usVC5Af0U"
+      url: "https://www.youtube.com/watch?v=v-usVC5Af0U"
+
+- title: "EMPEX LA 2019 - Elixir Code is Elixir! Metaprogramming and Elixir - Adrian Cruz"
+  slug: "empex-la-2019-elixir-code-is-elixir-metaprogramming-and-elix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 16
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fHl4PWgop4g"
+      url: "https://www.youtube.com/watch?v=fHl4PWgop4g"
+
+- title: "EMPEX LA 2019 - Elixir and Datadog - Ludwik Bukowski"
+  slug: "empex-la-2019-elixir-and-datadog-ludwik-bukowski"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "OVAe7vjlVVY"
+      url: "https://www.youtube.com/watch?v=OVAe7vjlVVY"

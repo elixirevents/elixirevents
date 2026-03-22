@@ -1,0 +1,11 @@
+- name: "Organizer"
+  members:
+    - name: "Jim Freeze"
+      position: 1
+
+- name: "Program Committee"
+  members:
+    - name: "Bruce Tate"
+      position: 1
+    - name: "Anna Neyzberg"
+      position: 2

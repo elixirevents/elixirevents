@@ -1,0 +1,558 @@
+## Keynotes
+
+
+- title: "Dependent Types | Lambda Days 2021"
+  slug: "keynote-salvation-or-plague"
+  kind: keynote
+  language: en
+  duration: 61
+  abstract: "More great virtual tech conferences - https://codesync.global"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "x3y22-cMBMQ"
+      url: "https://www.youtube.com/watch?v=x3y22-cMBMQ"
+
+- title: "Introducing Nx | Lambda Days 2021"
+  slug: "keynote-jose-valim"
+  kind: keynote
+  language: en
+  duration: 53
+  abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "fPKMmJpAGWc"
+      url: "https://www.youtube.com/watch?v=fPKMmJpAGWc"
+
+- title: "Industry versus Academia? (...) | Francesco Cesarini & Simon Thompson | Lambda Days 2021"
+  slug: "industry-versus-academia-francesco-cesarini-simon-thompson-l"
+  kind: keynote
+  language: en
+  duration: 64
+  abstract: "Industry versus academia? Learning and teaching programming"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "nq9ezsbC12s"
+      url: "https://www.youtube.com/watch?v=nq9ezsbC12s"
+
+- title: "Keynote: Functorio - having fun with functional programming | Lambda Days 2021"
+  slug: "keynote-bartosz-milewski"
+  kind: keynote
+  language: en
+  duration: 49
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - bartoszmilewski
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "A46KQtriYuM"
+      url: "https://www.youtube.com/watch?v=A46KQtriYuM"
+
+- title: "Keynote: Writing good programs in functional languages (...) | Lambda Days 2021"
+  slug: "keynote-perdita-stevens"
+  kind: keynote
+  language: en
+  duration: 54
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - perditastevens
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ulZeg60FNU4"
+      url: "https://www.youtube.com/watch?v=ulZeg60FNU4"
+
+- title: "Keynote:  Excel meets Lambda, Simon Peyton Jones | Lambda Days 2021"
+  slug: "keynote-andy-gordon"
+  kind: keynote
+  language: en
+  duration: 51
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - andygordon
+    - simonpeytonjones
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "C_lGkGwV4Xc"
+      url: "https://www.youtube.com/watch?v=C_lGkGwV4Xc"
+
+- title: "Keynote: Hardware as Software | Lambda Days 2021"
+  slug: "keynote-pat-hanrahan"
+  kind: keynote
+  language: en
+  duration: 65
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - pathanrahan
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "MR48c3TEBFs"
+      url: "https://www.youtube.com/watch?v=MR48c3TEBFs"
+
+- title: "Keynote:  Programming Languages in Agda = Programming (...) | Lambda Days 2021"
+  slug: "keynote-philip-wadler"
+  kind: keynote
+  language: en
+  duration: 53
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - philipwadler
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "0EOWBiTbXNs"
+      url: "https://www.youtube.com/watch?v=0EOWBiTbXNs"
+
+- title: "Keynote: Humane Tech, Kamil Grondys | Lambda Days 2021"
+  slug: "keynote-karolina-iwanska"
+  kind: keynote
+  language: en
+  duration: 59
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - karolinaiwanska
+    - kamilgrondys
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "DeUsNCW1Xzc"
+      url: "https://www.youtube.com/watch?v=DeUsNCW1Xzc"
+
+- title: "Effective Programming in OCaml | Lambda Days 2021"
+  slug: "keynote-kc-sivaramakrishnan"
+  kind: keynote
+  language: en
+  duration: 51
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - kcsivaramakrishnan
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "VEhkhxoGJSk"
+      url: "https://www.youtube.com/watch?v=VEhkhxoGJSk"
+
+
+## Talks
+
+
+- title: "Constructive Bidirectional Programming | Lambda Days 2021"
+  slug: "constructive-bidirectional-programming-lambda-days-2021"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - zhenjianghu
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jy-dpzi8neQ"
+      url: "https://www.youtube.com/watch?v=jy-dpzi8neQ"
+
+- title: "Lambda Days 2021 goes online - Michal Ślaski"
+  slug: "lambda-days-2021-goes-online-michal-slaski"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 1
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "OjaaPwl46_E"
+      url: "https://www.youtube.com/watch?v=OjaaPwl46_E"
+
+- title: "Sound on BEAM  Music in the Land of Distributed Lisp | Lambda Days 2021"
+  slug: "sound-on-beam-music-in-the-land-of-distributed-lisp-lambda-d"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - duncanmcgreggor
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "eMkQKxzivXk"
+      url: "https://www.youtube.com/watch?v=eMkQKxzivXk"
+
+- title: "Adventures in the browser and Node js without writing (...) | Lambda Days 2021"
+  slug: "adventures-in-the-browser-and-node-js-without-writing-lambda"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - susanpotter
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "kNAP0U9d6ec"
+      url: "https://www.youtube.com/watch?v=kNAP0U9d6ec"
+
+- title: "Generating Programs from Types | Nadia Polikarpova | Lambda Days 2021"
+  slug: "generating-programs-from-types-nadia-polikarpova-lambda-days"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 50
+  abstract: "More great virtual tech conferences - https://codesync.global"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "rjz_m8aTul8"
+      url: "https://www.youtube.com/watch?v=rjz_m8aTul8"
+
+- title: "Multicloud bindings from web page | Michał J. Gajda | Lambda Days Virtual 2021"
+  slug: "multicloud-bindings-from-web-page-micha-j-gajda-lambda-days"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "Multicloud bindings from web pages | Michał J. Gajda, Science-based solutions"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "raYdRRPisAk"
+      url: "https://www.youtube.com/watch?v=raYdRRPisAk"
+
+- title: "Dynamic Creation of Well Typed DSL Expressions | Pieter Koopman | Lambda Days 2021"
+  slug: "dynamic-creation-of-well-typed-dsl-expressions-pieter-koopma"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "Dynamic Creation of Well Typed DSL Expressions | Pieter Koopman"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "NxQWzZYrMu0"
+      url: "https://www.youtube.com/watch?v=NxQWzZYrMu0"
+
+- title: "Fast XML HTML for Haskell  XML TypeLift | Michał J. Gajda | Lambda Days 2021"
+  slug: "fast-xml-html-for-haskell-xml-typelift-micha-j-gajda-lambda"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Fast XML HTML for Haskell  XML TypeLift | Michał J. Gajda, Science-based solutions"
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "xWnqpfqAihQ"
+      url: "https://www.youtube.com/watch?v=xWnqpfqAihQ"
+
+- title: "Building Full Stack Web Applications with Safe Stack | Ody Mbegbu"
+  slug: "building-full-stack-web-applications-with-safe-stack-ody-mbe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: "Building Full Stack Web Applications with Safe Stack | Ody Mbegbu"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RrBuUoWrchc"
+      url: "https://www.youtube.com/watch?v=RrBuUoWrchc"
+
+- title: "Functional Programming  the Glue for Introducing Computing (...) | Lambda Days 2021"
+  slug: "functional-programming-the-glue-for-introducing-computing-la"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "Functional Programming: the Glue for Introducing Computing through Data Science"
+  speakers:
+    - kathifisler
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "2rXVDwKQ8S0"
+      url: "https://www.youtube.com/watch?v=2rXVDwKQ8S0"
+
+- title: "Secrets of type driven program synthesis -  Edwin Brady | Lambda Days 2021"
+  slug: "secrets-of-type-driven-program-synthesis-edwin-brady-lambda"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 50
+  abstract: "Secrets of type driven program synthesis"
+  speakers:
+    - edwinbrady
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "E7uSsL8r_mU"
+      url: "https://www.youtube.com/watch?v=E7uSsL8r_mU"
+
+- title: "Correct-by-Construction Cryptographic Arithmetic in Coq | Lambda Days 2021"
+  slug: "correct-by-construction-cryptographic-arithmetic-in-coq-lamb"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - adamchlipala
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "8gb3zt2zQ0Q"
+      url: "https://www.youtube.com/watch?v=8gb3zt2zQ0Q"
+
+- title: "Dimensional Analysis for Multidimensional Dataflow Programming - Monem Shennat |Lambda Days 2021"
+  slug: "dimensional-analysis-for-multidimensional-dataflow-programmi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ug1XMIeL8m0"
+      url: "https://www.youtube.com/watch?v=ug1XMIeL8m0"
+
+- title: "Curious properties of latency distributions | Lambda Days 2021"
+  slug: "curious-properties-of-latency-distributions-lambda-days-2021"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "_CdX-ZGaHZ4"
+      url: "https://www.youtube.com/watch?v=_CdX-ZGaHZ4"
+
+- title: "A UML  equivalent for functional programming | Lambda Days 2021"
+  slug: "a-uml-equivalent-for-functional-programming-lambda-days-2021"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - yusufmotara
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "JgUxO-X2QaY"
+      url: "https://www.youtube.com/watch?v=JgUxO-X2QaY"
+
+- title: "A Bricklayer Tech Report | Lambda Days 2021"
+  slug: "a-bricklayer-tech-report-lambda-days-2021"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - victorwinter
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qMuJ2-xccjs"
+      url: "https://www.youtube.com/watch?v=qMuJ2-xccjs"
+
+- title: "Translating Lambda Calculus into C++ Templates | Lambda Days 2021"
+  slug: "translating-lambda-calculus-into-c-templates-lambda-days-202"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - vitsefl
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "lRhf-XA40Z4"
+      url: "https://www.youtube.com/watch?v=lRhf-XA40Z4"
+
+- title: "Reimplementing the Wheel: Teaching Compilers with (...) | Lambda Days 2021"
+  slug: "reimplementing-the-wheel-teaching-compilers-with-lambda-days"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - dmitryboulytchev
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "zPfqDeiC-TU"
+      url: "https://www.youtube.com/watch?v=zPfqDeiC-TU"
+
+- title: "Teaching Automated Reasoning and Formally Verified (...) | Lambda Days 2021"
+  slug: "teaching-automated-reasoning-and-formally-verified-lambda-da"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - jrgenvilladsen
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "nyT-TKxJgDg"
+      url: "https://www.youtube.com/watch?v=nyT-TKxJgDg"
+
+- title: "Toward Automated Feedback in HtDP based Programming  A DSL (...) | Lambda Days 2021"
+  slug: "toward-automated-feedback-in-htdp-based-programming-a-dsl-la"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - junyanose
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "nlPRlYtNwAI"
+      url: "https://www.youtube.com/watch?v=nlPRlYtNwAI"
+
+- title: "A generic back end for exploratory programming | Lambda Days 2021"
+  slug: "a-generic-back-end-for-exploratory-programming-lambda-days-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - damianfrolich
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aJ7jvQK2Fyc"
+      url: "https://www.youtube.com/watch?v=aJ7jvQK2Fyc"
+
+- title: "JIT for Dynamic Programming Languages Considered Easy | Lambda Days 2021"
+  slug: "jit-for-dynamic-programming-languages-considered-easy-lambda"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - tainezhao
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "zHzArbQeJlg"
+      url: "https://www.youtube.com/watch?v=zHzArbQeJlg"
+
+- title: "Asynchronous Shared Data Sources | Lambda Days 2021"
+  slug: "asynchronous-shared-data-sources-lambda-days-2021"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - martlubbers
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ouXBbj5DV5w"
+      url: "https://www.youtube.com/watch?v=ouXBbj5DV5w"
+
+- title: "Teaching Programming to Novices Using the codeBoot (...) | Lambda Days 2021"
+  slug: "teaching-programming-to-novices-using-the-codeboot-lambda-da"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - oliviermelancon
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "CZ5DuIwgDic"
+      url: "https://www.youtube.com/watch?v=CZ5DuIwgDic"
+
+- title: "Program Equivalence in Sequential Core Erlang & Dániel Horpácsi | Lambda Days 2021"
+  slug: "program-equivalence-in-sequential-core-erlang-daniel-horpacs"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  speakers:
+    - peterbereczky
+    - danielhorpacsi
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "XNzJBv4n8Og"
+      url: "https://www.youtube.com/watch?v=XNzJBv4n8Og"
+
+- title: "From FP to OO in the Classroom | Lambda Days 2021"
+  slug: "from-fp-to-oo-in-the-classroom-lambda-days-2021"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "More great virtual tech conferences - https://codesync.global​"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hta-pfQUzlE"
+      url: "https://www.youtube.com/watch?v=hta-pfQUzlE"

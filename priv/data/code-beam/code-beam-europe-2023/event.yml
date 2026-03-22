@@ -1,0 +1,12 @@
+name: "Code BEAM Europe 2023"
+slug: "code-beam-europe-2023"
+kind: conference
+status: completed
+format: in_person
+start_date: "2023-10-19"
+end_date: "2023-10-20"
+timezone: "Europe/Berlin"
+language: en
+location: "Berlin, Germany"
+website: "https://codebeameurope.com"
+color: "#3182CE"

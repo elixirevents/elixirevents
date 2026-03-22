@@ -1,0 +1,108 @@
+## Keynotes
+
+
+- title: "How I learned to stop worrying and love macros - Evadne Wu @ Alchemy Conf 2021"
+  slug: "how-i-learned-to-stop-worrying-and-love-macros-evadne-wu-alc"
+  kind: keynote
+  language: en
+  duration: 58
+  abstract: "Evadne is a software engineer specialising in end-to-end design and implementation of web-based applications. She contributes to open source projects in her spare time and is the author of various Elixir libraries such as Packmatic, Etso, and GenMagic. In her former career, Evadne specialised in app"
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "Rv8CB0TVk5w"
+      url: "https://www.youtube.com/watch?v=Rv8CB0TVk5w"
+
+- title: "Modelling complex business domains with events - Ben Smith @ Alchemy Conf 2021"
+  slug: "modelling-complex-business-domains-with-events-ben-smith-alc"
+  kind: keynote
+  language: en
+  duration: 58
+  abstract: "Ben has been building event-driven Elixir applications for the past few years. His popular open source Commanded and EventStore libraries provide a solid technical foundation allowing companies to focus on modelling their business using domain-specific events."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hE5GymSyKXM"
+      url: "https://www.youtube.com/watch?v=hE5GymSyKXM"
+
+
+## Talks
+
+
+- title: "How can applications become more secure, private, and dependable - Mrinal Wadhwa @ Alchemy Conf 2021"
+  slug: "how-can-applications-become-more-secure-private-and-dependab"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Mrinal Wadhwa is CTO at Ockam. He is passionate about Distributed Systems, Applied Cryptography and the Internet of Things. At Ockam, Mrinal and his team are building open source libraries that make it easy to establish end-to-end encrypted, mutually authenticated, granularly authorized communicatio"
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "S1kWyR8fe-c"
+      url: "https://www.youtube.com/watch?v=S1kWyR8fe-c"
+
+- title: "Updates on Elixir V1.12 - José Valim @ Alchemy Conf 201"
+  slug: "updates-on-elixir-v112-jose-valim-alchemy-conf-201"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "José Valim is the creator of the Elixir programming language and Chief Adoption Officer at Dashbit, a company that focuses on Sustainable Open Source and Continuous Adoption to boost the Elixir ecosystem. He is also a seasoned speaker, the author of three programming books, and an active member of t"
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "Ehd_WDHAL7M"
+      url: "https://www.youtube.com/watch?v=Ehd_WDHAL7M"
+
+- title: "Improving your phoenix liveview experience with surface - Marlus Saraiva @ Alchemy Conf 2021"
+  slug: "improving-your-phoenix-liveview-experience-with-surface-marl"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "Marlus Saraiva is a Software Engineer with over 20 years of experience building systems and leading teams to deliver products in different domains and technologies. His work ranges from enterprise finance/accounting systems to open-source tools. Marlus currently enjoys being part of the Dashbit team"
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "Km5Iscmm8eA"
+      url: "https://www.youtube.com/watch?v=Km5Iscmm8eA"
+
+- title: "Pipelining WebRTC videoconferences in Elixir with Membrane Framework - Mateusz Front @AlchemyConf'21"
+  slug: "pipelining-webrtc-videoconferences-in-elixir-with-membrane-f"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Mateusz designs and develops various multimedia applications and libraries at Software Mansion. He enjoys solving complex problems in simple ways. He is a co-creator of Membrane."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "cFdQ1-Os0EI"
+      url: "https://www.youtube.com/watch?v=cFdQ1-Os0EI"
+
+- title: "Xref.rs - Erlang static analysis in Rust - Michal Muskala @ Alchemy Conf 2021"
+  slug: "xrefrs-erlang-static-analysis-in-rust-michal-muskala-alchemy"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 49
+  abstract: "Software engineer, open-source developer, speaker and trainer. He contributes to multiple open source projects including Elixir and OPT and maintains some of his own including Jason - the most popular projects on hex.pm."
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Vb_TEL84yuA"
+      url: "https://www.youtube.com/watch?v=Vb_TEL84yuA"

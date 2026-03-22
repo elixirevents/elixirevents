@@ -1,0 +1,12 @@
+name: "ElixirConf EU 2020"
+slug: "elixirconf-eu-2020"
+kind: conference
+status: completed
+format: online
+start_date: "2020-06-18"
+end_date: "2020-06-19"
+timezone: "Europe/Warsaw"
+language: en
+location: "Online"
+website: "https://www.elixirconf.eu/2020"
+color: "#6B46C1"

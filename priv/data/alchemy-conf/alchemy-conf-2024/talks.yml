@@ -1,0 +1,223 @@
+## Keynotes
+
+
+- title: "Saša Jurić // Tell Me a Story"
+  slug: "sasa-juric-tell-me-a-story"
+  kind: keynote
+  language: en
+  duration: 52
+  abstract: 'Saša Jurić''s \"Tell Me a Story\" from Alchemy Conf 2025 addresses why code reviews are frustrating for both authors and reviewers.'
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "FmEw86nE3SY"
+      url: "https://www.youtube.com/watch?v=FmEw86nE3SY"
+
+
+## Talks
+
+
+- title: "Wojtek Mach // Library Client/Server Simmetry"
+  slug: "wojtek-mach-library-clientserver-simmetry"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "Wojtek Mach from Dashbit explored an overlooked opportunity in Elixir's HTTP handling at Alchemy Conf 2025."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hijmuPuWJz0"
+      url: "https://www.youtube.com/watch?v=hijmuPuWJz0"
+
+- title: "Aaron Cruz // Elixir in Real-Time: Race Coordination"
+  slug: "aaron-cruz-elixir-in-real-time-race-coordination"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Aaron Cruz shared three lessons from building Foot Race, a real-time running app where runners get matched globally and race together, at Alchemy Conf 2025."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "vIsDgiFtGrY"
+      url: "https://www.youtube.com/watch?v=vIsDgiFtGrY"
+
+- title: "Julia Mathias // Building a Smart Helpdesk: Using Elixir for Social Good"
+  slug: "julia-mathias-building-a-smart-helpdesk-using-elixir-for-soc"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "Julia Mathias walked through Turn.io's architecture for routing WhatsApp help desk conversations at Alchemy Conf 2025."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "kzxFCZwnMpg"
+      url: "https://www.youtube.com/watch?v=kzxFCZwnMpg"
+
+- title: "Hugo Baraúna // The Architecture Behind Deploying Livebook Apps with Livebook Teams"
+  slug: "hugo-barauna-the-architecture-behind-deploying-livebook-apps"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "What really happens when you click a deploy button? In his Alchemy Conf 2025 talk, Hugo Baraúna takes us behind the scenes of Livebook Teams' distributed architecture, revealing the sophisticated system that turns a simple button click into a running application across distributed infrastructure."
+  topics:
+    - elixir
+    - deployment
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "iJoodWvLYXg"
+      url: "https://www.youtube.com/watch?v=iJoodWvLYXg"
+
+- title: "Bruce Tate // Elixir 10 Years In"
+  slug: "bruce-tate-elixir-10-years-in"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: 'In our latest Alchemy Conf 2025 talk upload, Bruce Tate—author of \"Seven Languages in Seven Weeks\" and \"Adopting Elixir\"—talks about understanding technology adoption cycles through the lens of Elixir''s first decade.'
+  topics:
+    - elixir
+    - testing
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "eOy2GzqP71w"
+      url: "https://www.youtube.com/watch?v=eOy2GzqP71w"
+
+- title: "Christoph Beck // Interactive Documentation: Creating a Secure, Elixir-Powered RAG System"
+  slug: "christoph-beck-interactive-documentation-creating-a-secure-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "In the latest Alchemy Conf talk upload, Christoph Beck addresses the persistent gap between library creators and adopters regarding documentation. Even well-maintained docs can be difficult to navigate in larger projects, leaving developers hunting for the right information."
+  topics:
+    - elixir
+    - testing
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "dLnQbxdyPeE"
+      url: "https://www.youtube.com/watch?v=dLnQbxdyPeE"
+
+- title: "Zach Daniel // The Next Dimension of Developer Experience"
+  slug: "zach-daniel-the-next-dimension-of-developer-experience"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: 'Zach Daniel tackles one of Elixir''s most persistent pain points: the fragmented onboarding experience that forces developers to choose between saying \"no\" to features or manually integrating complex setups later. Through live coding demonstrations, he shows how Igniter transforms this experience by '
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aSJak5JvdMY"
+      url: "https://www.youtube.com/watch?v=aSJak5JvdMY"
+
+- title: "Tobias Pfeiffer // Metaphors are Everywhere: Ideas to Improve Software Development"
+  slug: "tobias-pfeiffer-metaphors-are-everywhere-ideas-to-improve-so"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "Tobias Pfeiffer explores how basketball, fiction writing, game development, and trading card games provide unexpected lessons for building more effective software teams."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "GYwFAht6GbY"
+      url: "https://www.youtube.com/watch?v=GYwFAht6GbY"
+
+- title: "André Albuquerque // The Journey of an Elixir Monolith"
+  slug: "andre-albuquerque-the-journey-of-an-elixir-monolith"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "From zero to more than three million lines of code!"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Rs1NZsjp9HY"
+      url: "https://www.youtube.com/watch?v=Rs1NZsjp9HY"
+
+- title: "Andrea Leopardi // Gen_Statem - OTP's Unsung Hero"
+  slug: "andrea-leopardi-gen-statem-otps-unsung-hero"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "In the first Alchemy Conf 2025 talk uploaded to our Content Hub, we are glad to present Andrea Leopardi's riveting closing talk."
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "WzdsdbGTUdo"
+      url: "https://www.youtube.com/watch?v=WzdsdbGTUdo"
+
+- title: "A Chat with Julia Mathias - Building a career in Elixir from the start!"
+  slug: "a-chat-with-julia-mathias-building-a-career-in-elixir-from-t"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "Zamith had the chance to speak with Julia Mathias, an engineer that has built her entire career working with Elixir, from a junior position to where she is now."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "rsbJZHW6bms"
+      url: "https://www.youtube.com/watch?v=rsbJZHW6bms"
+
+- title: "A Chat with Zach Daniel – Creating the Ash Framework, over a decade working with Elixir and more!"
+  slug: "a-chat-with-zach-daniel-creating-the-ash-framework-over-a-de"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Subvisual's very own Zamith sat down with Ash Framework creator Zach Daniel to have a chat about his ten years working with Elixir."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "nyTkwRZlXa4"
+      url: "https://www.youtube.com/watch?v=nyTkwRZlXa4"
+
+- title: "A Chat with Andrea Leopardi – The Elixir Community, the Language, and much more!"
+  slug: "a-chat-with-andrea-leopardi-the-elixir-community-the-languag"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "Zamith had a lovely conversation with Elixir core member Andrea Leopardi, and we got to know his history from the beginning."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "A4IE4D6TXJQ"
+      url: "https://www.youtube.com/watch?v=A4IE4D6TXJQ"
+
+- title: "A Chat with Saša Jurić – Insights on Elixir & More!"
+  slug: "a-chat-with-sasa-juric-insights-on-elixir-more"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Did Saša reveal a bit more about his talk at #AlchemyConf2025?"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "W4zvPzDu2a0"
+      url: "https://www.youtube.com/watch?v=W4zvPzDu2a0"

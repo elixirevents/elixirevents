@@ -1,0 +1,12 @@
+name: "ElixirConf US 2017"
+slug: "elixirconf-us-2017"
+kind: conference
+status: completed
+format: in_person
+start_date: "2017-09-05"
+end_date: "2017-09-08"
+timezone: "America/Denver"
+language: en
+location: "Bellevue, WA, USA"
+website: "https://elixirconf.com/2017"
+color: "#6B46C1"

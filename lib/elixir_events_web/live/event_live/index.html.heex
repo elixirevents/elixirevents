@@ -1,0 +1,84 @@
+<section>
+  <div class="mb-10">
+    <h1 class="font-display text-3xl sm:text-4xl font-bold text-base-content">
+      Events <span class="text-base-content/50 font-normal text-lg ml-1">({@event_count})</span>
+    </h1>
+    <p class="text-base-content/55 mt-2 text-lg">Where the community is gathering</p>
+  </div>
+
+  <%!-- Filter toolbar --%>
+  <div class="mb-8 p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50 inline-flex items-center gap-1">
+    <.link
+      :for={{label, value} <- [{"All", "all"}, {"Upcoming", "upcoming"}, {"Past", "past"}]}
+      patch={~p"/events?#{if(value == "all", do: %{}, else: %{filter: value})}"}
+      class={[
+        "px-4 py-2 rounded-xl text-sm font-semibold cursor-pointer transition-all duration-200",
+        if(@current_filter == value,
+          do: "bg-primary text-primary-content shadow-sm",
+          else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+        )
+      ]}
+    >
+      {label}
+    </.link>
+  </div>
+
+  <%!-- Empty state --%>
+  <div :if={@events == []} class="text-center py-20">
+    <p :if={@current_filter == "upcoming"} class="text-base-content/55 text-lg">
+      No upcoming events yet. Check back soon!
+    </p>
+    <p :if={@current_filter == "past"} class="text-base-content/55 text-lg">
+      No past events recorded.
+    </p>
+    <p :if={@current_filter == "all"} class="text-base-content/55 text-lg">
+      No events found yet. Check back soon!
+    </p>
+    <.link
+      :if={@current_filter != "all"}
+      patch={~p"/events"}
+      class="text-sm text-primary hover:text-primary/70 mt-3 inline-block"
+    >
+      View all events <span aria-hidden="true">&rarr;</span>
+    </.link>
+  </div>
+
+  <%!-- Events grouped by year --%>
+  <div :for={{year, year_events} <- group_by_year(@events)} class="mb-12">
+    <div class="flex items-center gap-4 mb-2">
+      <span class="text-sm font-semibold text-base-content/50 uppercase tracking-wider">
+        {year}
+      </span>
+      <div class="flex-1 h-px bg-base-300"></div>
+    </div>
+
+    <div class="divide-y divide-base-200">
+      <.link
+        :for={event <- year_events}
+        navigate={~p"/events/#{event.slug}"}
+        class="group flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 py-5 -mx-4 px-4 rounded-xl hover:bg-base-200/40 transition-colors"
+      >
+        <div class="flex sm:flex-col sm:items-center sm:w-16 shrink-0 gap-2 sm:gap-0">
+          <span class="font-display text-sm font-semibold text-base-content/50 uppercase">
+            {Calendar.strftime(event.start_date, "%b")}
+          </span>
+          <span class="font-display text-2xl font-bold text-base-content">
+            {event.start_date.day}
+          </span>
+        </div>
+        <div class="flex-1 min-w-0">
+          <p class="font-display font-bold text-base-content text-lg group-hover:text-primary transition-colors">
+            {event.name}
+          </p>
+          <p class="text-sm text-base-content/50">
+            {event.location} &middot; {event_duration(event)} &middot; {series_name(event)}
+          </p>
+        </div>
+        <div class="flex items-center gap-3 sm:gap-4">
+          <.status_badge status={event_display_status(event)} />
+          <.chevron_right />
+        </div>
+      </.link>
+    </div>
+  </div>
+</section>

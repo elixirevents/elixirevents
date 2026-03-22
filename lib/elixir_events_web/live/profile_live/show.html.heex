@@ -1,0 +1,160 @@
+<section>
+  <%!-- Back link --%>
+  <div class="mb-8">
+    <.link
+      navigate={~p"/speakers"}
+      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      All speakers
+    </.link>
+  </div>
+
+  <%!-- Profile header --%>
+  <div class="flex flex-col sm:flex-row items-start gap-6 sm:gap-8 mb-16">
+    <div
+      class="w-24 h-24 sm:w-28 sm:h-28 rounded-full flex items-center justify-center text-3xl sm:text-4xl font-display font-bold shrink-0"
+      style={avatar_style(@profile.name)}
+    >
+      {initials(@profile.name)}
+    </div>
+    <div class="flex-1 min-w-0">
+      <h1 class="font-display text-3xl sm:text-4xl font-bold text-base-content inline-flex items-center gap-2">
+        {@profile.name}
+        <span
+          :if={@profile.user_id}
+          title="Verified profile"
+          class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-primary/20 text-primary"
+        >
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <path
+              fill-rule="evenodd"
+              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </span>
+      </h1>
+      <p :if={@profile.headline} class="text-lg text-primary/70 mt-1 font-medium">
+        {@profile.headline}
+      </p>
+      <p :if={@profile.bio} class="text-base-content/55 mt-4 leading-relaxed max-w-2xl">
+        {@profile.bio}
+      </p>
+
+      <div
+        :if={@profile.social_links != [] || @profile.website}
+        class="flex flex-wrap items-center gap-2.5 mt-5"
+      >
+        <a
+          :for={link <- @profile.social_links}
+          href={link.url}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-full border border-base-300 text-base-content/60 hover:text-primary hover:border-primary/40 transition-colors"
+        >
+          {platform_label(link.platform)}
+        </a>
+        <a
+          :if={@profile.website}
+          href={@profile.website}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-full border border-base-300 text-base-content/60 hover:text-primary hover:border-primary/40 transition-colors"
+        >
+          Website
+        </a>
+      </div>
+
+      <%!-- Claim actions --%>
+      <div class="mt-5">
+        <.button :if={@claim_state == :unclaimed} phx-click={show_modal("claim-confirm")}>
+          This is me
+        </.button>
+        <span
+          :if={@claim_state == :pending}
+          class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-base-200 text-base-content/40 font-medium text-sm cursor-default"
+        >
+          Claim under review
+        </span>
+        <.button
+          :if={@claim_state == :has_active_claim}
+          variant="outline"
+          phx-click={show_modal("active-claim-info")}
+        >
+          This is me
+        </.button>
+        <.button
+          :if={@claim_state == :owned_by_other}
+          variant="outline"
+          class="border-amber-500/40 text-amber-300 hover:bg-amber-500/10 hover:border-amber-500/60"
+          phx-click={show_modal("dispute-confirm")}
+        >
+          Dispute ownership
+        </.button>
+      </div>
+
+      <%!-- Active claim info modal --%>
+      <.confirm_modal
+        :if={@claim_state == :has_active_claim}
+        id="active-claim-info"
+        title="One claim at a time"
+        confirm_event=""
+        confirm_label=""
+      >
+        <p>
+          You already have a claim on another profile. Once it's resolved, you can claim this one.
+        </p>
+      </.confirm_modal>
+
+      <%!-- Claim confirmation modal --%>
+      <.confirm_modal
+        :if={@claim_state == :unclaimed}
+        id="claim-confirm"
+        title="Is this you?"
+        confirm_event="claim_profile"
+        confirm_label="Yes, claim this profile"
+      >
+        <p>
+          This will link this speaker profile to your account so you can edit it.
+          We'll review your request shortly.
+        </p>
+      </.confirm_modal>
+
+      <%!-- Dispute confirmation modal --%>
+      <.confirm_modal
+        :if={@claim_state == :owned_by_other}
+        id="dispute-confirm"
+        title="Dispute ownership"
+        confirm_event="claim_profile"
+        confirm_label="Submit dispute"
+        variant="danger"
+      >
+        <p>
+          This profile is currently linked to another account.
+          We'll review your dispute and get back to you.
+        </p>
+      </.confirm_modal>
+    </div>
+  </div>
+
+  <%!-- Talks section --%>
+  <div>
+    <h2 class="font-display text-2xl font-bold text-base-content mb-8">
+      Talks
+      <span :if={@talks != []} class="text-base-content/50 font-normal text-lg ml-1">
+        ({length(@talks)})
+      </span>
+    </h2>
+
+    <div :if={@talks == []} class="text-base-content/55 py-12 text-center">
+      No talks recorded yet for this speaker.
+    </div>
+
+    <div :if={@talks != []} class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <.talk_card :for={talk <- @talks} talk={talk} />
+    </div>
+  </div>
+</section>

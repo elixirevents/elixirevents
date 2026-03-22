@@ -1,0 +1,200 @@
+## Keynotes
+
+
+- title: "Chris McCord - Keynote: 'Phoenix Takes Flight' ElixirConf EU 2015"
+  slug: "chris-mccord-keynote-phoenix-takes-flight-elixirconf-eu-2015"
+  kind: keynote
+  language: en
+  duration: 51
+  abstract: "Phoenix is ready to soar as we near 1.0."
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "fLlItGWiVFc"
+      url: "https://www.youtube.com/watch?v=fLlItGWiVFc"
+
+- title: "Michael Schaefermeyer - 'Individualised Content at Web-scale' ElixirConf EU 2015"
+  slug: "michael-schaefermeyer-individualised-content-at-web-scale-el"
+  kind: keynote
+  language: en
+  duration: 58
+  abstract: "Bleacher Report is the second largest sport website in the world. At peak times we reach 80 million unique users per month and serve over 100,000 requests per minute to our mobile apps alone. In the past we scaled by adding caching layers, relying heavily on in-memory databases and pre-built content"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "xT8vDHIvurs"
+      url: "https://www.youtube.com/watch?v=xT8vDHIvurs"
+
+- title: "Eric Meadows-Jönsson - 'Ecto' ElixirConf EU 2015"
+  slug: "eric-meadows-jonsson-ecto-elixirconf-eu-2015"
+  kind: keynote
+  language: en
+  duration: 52
+  abstract: "This talk will quickly introduce Ecto for unfamiliar audience members. Ecto recently underwent some major changes with improvements from the lessons learnt after it was first created almost two years ago. Eric will talk about some of the design choices made in Ecto and what sets it apart from tradit"
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "snka1bAtZS0"
+      url: "https://www.youtube.com/watch?v=snka1bAtZS0"
+
+
+## Talks
+
+
+- title: "Thomas Arts - 'QuickCheck for Elixir - Generate Tests Automatically' ElixirConf EU 2015"
+  slug: "thomas-arts-quickcheck-for-elixir-generate-tests-automatical"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "QuickCheck, our testing tool for automatically generating tests, has a long track record of nailing serious and hard-to-find bugs and boosting quality, in software like dets (part of mnesia), Riak, and the embedded software in cars. QuickCheck is written in Erlang and can be used with Elixir, but..."
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "nbpZRm9gl50"
+      url: "https://www.youtube.com/watch?v=nbpZRm9gl50"
+
+- title: "Josh Adams - 'Collaborative Web-based Tetris with Phoenix' ElixirConf EU 2015"
+  slug: "josh-adams-collaborative-web-based-tetris-with-phoenix-elixi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "We'll live-code the game of Tetris from scratch, culminating in a browser-based tetris game that multiple audience members can connect to and control collaboratively."
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "e_QefYcKkfk"
+      url: "https://www.youtube.com/watch?v=e_QefYcKkfk"
+
+- title: "Torben Hoffmann - 'Building Lego Robots with Elixir' ElixirConf EU 2015"
+  slug: "torben-hoffmann-building-lego-robots-with-elixir-elixirconf"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 48
+  abstract: "Robots are fun. Programming is fun. Programming Lego robots with the visual environment... well, not so fun. This is the starting point for putting Elixir on the Lego Mindstorms EV3. It ought to be fun to do, but my son and I got lost in the visual environment when trying to do advanced things. Afte"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "C8SZaV96_vk"
+      url: "https://www.youtube.com/watch?v=C8SZaV96_vk"
+
+- title: "Martin Kavalar, Martin Schurrer - 'Fast Continuous Deployment of an Elixir Gameserver '"
+  slug: "martin-kavalar-martin-schurrer-fast-continuous-deployment-of"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Fast Continuous Deployment of an Elixir Gameserver and Phoenix Web App using Hot-Code-Upgrades"
+  topics:
+    - elixir
+    - phoenix
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "RoT8RnQHvgo"
+      url: "https://www.youtube.com/watch?v=RoT8RnQHvgo"
+
+- title: "Claudio Ortolina - 'Rewriting a Ruby application in Elixir ' ElixirConf EU 2015"
+  slug: "claudio-ortolina-rewriting-a-ruby-application-in-elixir-elix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Dragonfly is a fairly popular Ruby library to manage file uploads and it includes a Rack server to serve those files back. This talk is a postmortem of a rewrite of this server component in Elixir, so that it can be used to process Dragonfly-compatible urls with improved performance. The talk will f"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "lho1e04Gzzs"
+      url: "https://www.youtube.com/watch?v=lho1e04Gzzs"
+
+- title: "Michał Ślaski - 'Lessons from Erlang VM'  ElixirConf EU 2015"
+  slug: "micha-slaski-lessons-from-erlang-vm-elixirconf-eu-2015"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "In this talk we will discuss designing systems on Erlang VM. One of the reasons the Elixir language attracts the attention of developers is the fact that they have to solve certain types of problems arising in concurrent systems. We will take a look at the real tools Erlang VM gives you to write hig"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "TkCftBMJyy0"
+      url: "https://www.youtube.com/watch?v=TkCftBMJyy0"
+
+- title: "Saša Jurić - 'High Availability' ElixirConf EU 2015"
+  slug: "sasa-juric-high-availability-elixirconf-eu-2015"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "This talk discusses the high availability challenge, an important property when building a system that needs to provide the service continuously. Based on my own experience in building an Erlang/Elixir powered system that constantly pushes the fast changing data to a few thousand of connected users,"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "wYttHG3S76Y"
+      url: "https://www.youtube.com/watch?v=wYttHG3S76Y"
+
+- title: "Miloš Mošić, Marco Herbst - 'One project rebuilt 4 times (...)' ElixirConf EU 2015"
+  slug: "milos-mosic-marco-herbst-one-project-rebuilt-4-times-elixirc"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "One project rebuilt 4 times: .NET, then Ruby, then Node ... and now Elixir"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "h_HtO8KPvsM"
+      url: "https://www.youtube.com/watch?v=h_HtO8KPvsM"
+
+- title: "Francesco Cesarini, Viktória Fördős  - 'Scale, Manage and Prevent!' ElixirConf EU 2015"
+  slug: "francesco-cesarini-viktoria-fordos-scale-manage-and-prevent"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "Making distributed systems that scale to many machines is easier done with Erlang/OTP than most other technologies. Deploying, managing and monitoring thousands of Erlang nodes prepared for massive load, however, remains a tough (and repetitive) challenge. In the context of the EU funded RELEASE pro"
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "wGAc_QwD_6Q"
+      url: "https://www.youtube.com/watch?v=wGAc_QwD_6Q"
+
+
+## Lightning Talks
+
+
+- title: "ElixirConf.eu Lightning talks - Jeff Weiss on Phoenix framework"
+  slug: "lt-elixirconfeu-lightning-talks-jeff-weiss-on-phoenix-framew"
+  kind: lightning_talk
+  language: en
+  duration: 2
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "rW3UR29woiw"
+      url: "https://www.youtube.com/watch?v=rW3UR29woiw"

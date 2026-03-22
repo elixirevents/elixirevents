@@ -1,0 +1,12 @@
+name: "Lonestar ElixirConf 2017"
+slug: "lonestar-elixir-2017"
+kind: conference
+status: completed
+format: in_person
+start_date: "2017-02-23"
+end_date: "2017-02-24"
+timezone: "America/Chicago"
+language: en
+location: "Austin, TX, USA"
+website: "https://lonestarelixir.com"
+color: "#D69E2E"

@@ -1,0 +1,12 @@
+name: "ElixirConf EU 2015"
+slug: "elixirconf-eu-2015"
+kind: conference
+status: completed
+format: in_person
+start_date: "2015-04-23"
+end_date: "2015-04-24"
+timezone: "Europe/Warsaw"
+language: en
+location: "Krakow, Poland"
+website: "https://www.elixirconf.eu/2015"
+color: "#6B46C1"

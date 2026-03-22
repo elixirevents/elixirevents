@@ -1,0 +1,104 @@
+## Keynotes
+
+
+- title: "The Do's and Don'ts of working with Ecto - Frank Midigo ElixirconfAfric 2022"
+  slug: "the-dos-and-donts-of-working-with-ecto-frank-midigo-elixirco"
+  kind: keynote
+  language: en
+  duration: 52
+  abstract: "Over the past few years that I have been using Ecto, there are a few tricks, gotcha's and patterns that I've come across . I hope to inspire you with this tips"
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "SiMAIs6eCKM"
+      url: "https://www.youtube.com/watch?v=SiMAIs6eCKM"
+
+- title: "KEYNOTE: 3 Secrets to Unlocking Elite Developer Productivity - Joshua Plicque ElixirconfAfric 2022"
+  slug: "keynote-3-secrets-to-unlocking-elite-developer-productivity"
+  kind: keynote
+  language: en
+  duration: 36
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "_BSdhXGR_do"
+      url: "https://www.youtube.com/watch?v=_BSdhXGR_do"
+
+
+## Talks
+
+
+- title: "Data Integrity: Event Sourcing and CQRS in Elixir - Njoki Kiarie  ElixirconfAfric 2022"
+  slug: "data-integrity-event-sourcing-and-cqrs-in-elixir-njoki-kiari"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "How to implement event sourcing and CQRS in Elixir to ensure data integrity in our system with the help of the Commanded library. I will also be highlighting how event sourcing defers from CRUD"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "eFmN1gloTJI"
+      url: "https://www.youtube.com/watch?v=eFmN1gloTJI"
+
+- title: "Going international: using Unicode's CLDR Project - Petrus Janse van Rensburg   ElixirconfAfric 2022"
+  slug: "going-international-using-unicodes-cldr-project-petrus-janse"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "Gain an understanding of how you can use gettext and CLDR to build interfaces that cater for international audiences."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "TG5smSSuKW0"
+      url: "https://www.youtube.com/watch?v=TG5smSSuKW0"
+
+- title: "Enjoying automated testing - Fredrick Weya   ElixirconfAfric 2022"
+  slug: "enjoying-automated-testing-fredrick-weya-elixirconfafric-202"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "How to make automated testing a part of everyday Elixir development, and how much it takes off the cognitive load of manual testing."
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "2934i7A-jR4"
+      url: "https://www.youtube.com/watch?v=2934i7A-jR4"
+
+- title: "Standing in the shoulders of Giants - Rachael Mwatela and Sigu Magwa    ElixirconfAfric 2022"
+  slug: "standing-in-the-shoulders-of-giants-rachael-mwatela-and-sigu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "We take you through a journey of both the beam and JVM as used in clojure and elixir and how it was leveraged to create stable languages"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "wGz1V-kwlMU"
+      url: "https://www.youtube.com/watch?v=wGz1V-kwlMU"
+
+- title: "Chat Bots as User Interface - Lars Wikman   ElixirconfAfric 2022"
+  slug: "chat-bots-as-user-interface-lars-wikman-elixirconfafric-2022"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "A look at how you can bring your functionality very close to the user without building your own native app and how you can get your practice with Elixir in ways that are useful to you. The possibilities are endless, the talk covers a subset."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "nB_tIatMurE"
+      url: "https://www.youtube.com/watch?v=nB_tIatMurE"

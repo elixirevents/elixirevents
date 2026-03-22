@@ -1,0 +1,85 @@
+<section>
+  <div class="mb-8">
+    <.link
+      navigate={~p"/events"}
+      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      All events
+    </.link>
+  </div>
+
+  <%!-- Series header --%>
+  <div class="mb-12">
+    <h1 class="font-display text-3xl sm:text-4xl font-bold text-base-content">{@series.name}</h1>
+    <div class="flex flex-wrap items-center gap-3 mt-3">
+      <span
+        :if={@series.kind}
+        class="text-xs font-bold px-2.5 py-1 rounded-full bg-primary/15 text-primary capitalize"
+      >
+        {@series.kind}
+      </span>
+      <span
+        :if={@series.frequency}
+        class="text-xs font-bold px-2.5 py-1 rounded-full bg-base-300 text-base-content/55 capitalize"
+      >
+        {@series.frequency}
+      </span>
+      <a
+        :if={@series.website}
+        href={@series.website}
+        target="_blank"
+        rel="noopener"
+        class="text-sm text-primary hover:text-primary/70 transition-colors"
+      >
+        {URI.parse(@series.website).host}
+      </a>
+    </div>
+    <p :if={@series.description} class="text-base-content/55 mt-4 leading-relaxed max-w-3xl">
+      {@series.description}
+    </p>
+  </div>
+
+  <%!-- Events in this series --%>
+  <div>
+    <h2 class="font-display text-2xl font-bold text-base-content mb-6">
+      Events
+      <span class="text-base-content/50 font-normal text-lg ml-1">({length(@events)})</span>
+    </h2>
+
+    <div :if={@events == []} class="text-base-content/55 py-12 text-center">
+      No events in this series yet.
+    </div>
+
+    <div :if={@events != []} class="divide-y divide-base-300/60">
+      <.link
+        :for={event <- @events}
+        navigate={~p"/events/#{event.slug}"}
+        class="group flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 py-5 -mx-4 px-4 rounded-xl hover:bg-base-200/40 transition-colors"
+      >
+        <div class="shrink-0 sm:w-16 sm:text-center">
+          <div class="text-xs font-bold text-primary uppercase tracking-wide">
+            {Calendar.strftime(event.start_date, "%b")}
+          </div>
+          <div class="text-2xl font-display font-extrabold text-base-content leading-none">
+            {event.start_date.day}
+          </div>
+        </div>
+        <div class="flex-1 min-w-0">
+          <h3 class="font-display text-lg font-bold text-base-content group-hover:text-primary transition-colors truncate">
+            {event.name}
+          </h3>
+          <p class="text-sm text-base-content/55 mt-0.5">
+            {event.location} &middot; {event_duration(event)}
+          </p>
+        </div>
+        <div class="flex items-center gap-3 sm:shrink-0">
+          <.status_badge status={event_display_status(event)} />
+          <.chevron_right />
+        </div>
+      </.link>
+    </div>
+  </div>
+</section>

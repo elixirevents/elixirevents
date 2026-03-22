@@ -1,0 +1,696 @@
+## Keynotes
+
+- title: "Livebook in the Cloud: GPUs and Clustered Workflows in Seconds"
+  slug: "keynote-livebook-cloud"
+  kind: keynote
+  language: en
+  duration: 68
+  abstract: "Exploring Livebook's cloud capabilities, including GPU-accelerated workflows and clustered notebook execution."
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - livebook
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "4qoHPh0obv0"
+      url: "https://www.youtube.com/watch?v=4qoHPh0obv0"
+
+- title: "Human-in-the-Loop: Life and Logic in the Era of Bio-Integrated Computation"
+  slug: "keynote-human-in-the-loop"
+  kind: keynote
+  language: en
+  duration: 65
+  abstract: "A keynote exploring the intersection of biology and computation, examining how human judgment integrates with automated systems."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jyvH042cWpc"
+      url: "https://www.youtube.com/watch?v=jyvH042cWpc"
+
+## Talks
+
+- title: "Supercharging Kafka Processing with Broadway"
+  slug: "supercharging-kafka-broadway"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "How we harnessed the power of Broadway to supercharge our Kafka message processing, achieving unparalleled parallelism in a high-stakes, mission-critical environment."
+  speakers:
+    - reidmorrison
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "yztdGZALxfE"
+      url: "https://www.youtube.com/watch?v=yztdGZALxfE"
+
+- title: "Rapid Prototyping in Elixir"
+  slug: "rapid-prototyping-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Elixir is a dynamic programming language with metaprogramming, hot-code reloading, and full stack Web framework in Phoenix. Thanks to the Hex package manager and Mix.install, it's never been easier to experiment with libraries."
+  speakers:
+    - wojtekmach
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "x_vKms-x3GM"
+      url: "https://www.youtube.com/watch?v=x_vKms-x3GM"
+
+- title: "Our Concurrency Superpowers"
+  slug: "our-concurrency-superpowers"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "Try utilizing all CPU cores transparently in Python. Try running a pool of hundreds of threads without bloat in Ruby. Try cancelling a process from across the planet in JavaScript. It's impossible. Trust us, we've tried."
+  speakers:
+    - shannonselbert
+    - parkerselbert
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "wO3NEYMi7ac"
+      url: "https://www.youtube.com/watch?v=wO3NEYMi7ac"
+
+- title: "Building Africa's Water and Sanitation Information Network: An Elixir Success Story"
+  slug: "africa-water-sanitation-elixir"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 29
+  abstract: "The African water and sanitation sector has long grappled with fragmented data and limited knowledge sharing between stakeholders. This talk explores how Elixir played a pivotal role in overcoming these challenges."
+  speakers:
+    - shuaibafegbua
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "sgc6_kKg_Pc"
+      url: "https://www.youtube.com/watch?v=sgc6_kKg_Pc"
+
+- title: "ML for Trading Stocks in Elixir"
+  slug: "ml-trading-stocks-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Many have experimented with reinforcement learning and gymnasium in Python, but with the introduction of Rein, we can now easily incorporate reinforcement learning algorithms into the products that we build."
+  speakers:
+    - sammcdavid
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "leqfedW5GvY"
+      url: "https://www.youtube.com/watch?v=leqfedW5GvY"
+
+- title: "Getting Nx to the Edge with LiveView Native and Nerves"
+  slug: "nx-edge-liveview-native-nerves"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 21
+  abstract: "How the latest changes in Nx v0.7 enabled compiling for and executing code in embedded and mobile devices, and how to get Nerves and LiveView Native to play along."
+  speakers:
+    - paulovalente
+  topics:
+    - nerves
+    - machine-learning
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "hBKj9b-aD2E"
+      url: "https://www.youtube.com/watch?v=hBKj9b-aD2E"
+
+- title: "Load Testing Phoenix WebSockets"
+  slug: "load-testing-phoenix-websockets"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "At PDQ we use websockets to communicate with the devices we manage. We needed to load test these connections to ensure we could scale. This talk covers the challenges we faced and the tool we built to emulate 2 million devices."
+  speakers:
+    - michaelstclair
+  topics:
+    - phoenix
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "Y8Sy7MfnJsM"
+      url: "https://www.youtube.com/watch?v=Y8Sy7MfnJsM"
+
+- title: "Value in Livebook: Evaluate, Engage, & Empower"
+  slug: "value-in-livebook"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 21
+  abstract: "Livebook offers a rich set of features that can enhance productivity and understanding, but it reaches further than Data Science. Livebook provides a toolset for engineering teams to collaborate and share knowledge."
+  speakers:
+    - vanessalee
+  topics:
+    - elixir
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "gLhVpzAgPdY"
+      url: "https://www.youtube.com/watch?v=gLhVpzAgPdY"
+
+- title: "GoldenOrb: AI Generated UI Components that Run Everywhere via WebAssembly"
+  slug: "goldenorb-ai-ui-webassembly"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 28
+  abstract: "Orb lets you write WebAssembly in Elixir. This talk shows how to build AI-generated UI components that run everywhere, from React to Phoenix to Web Components, all powered by WebAssembly compiled from Elixir."
+  speakers:
+    - patricksmith
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "_nhN6h8iLNM"
+      url: "https://www.youtube.com/watch?v=_nhN6h8iLNM"
+
+- title: "Creating a Digital Human with Membrane, Elixir's Video Processing Toolkit"
+  slug: "digital-human-membrane"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 25
+  abstract: "At Firework, we are pushing the boundaries of conversational AI by introducing a digital human chatbot that transcends traditional text-based interactions, built with Elixir's Membrane framework."
+  speakers:
+    - lukaszkita
+    - nickdichev
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "CXdl1MvNV0Y"
+      url: "https://www.youtube.com/watch?v=CXdl1MvNV0Y"
+
+- title: "Folding the Umbrella"
+  slug: "folding-the-umbrella"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Umbrella projects are widely advocated for their potential to partition code into discrete applications. This talk challenges the status quo and argues that the same benefits and more can be achieved with a plain single-app project."
+  speakers:
+    - sasajuric
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "CKeYV_YOLyE"
+      url: "https://www.youtube.com/watch?v=CKeYV_YOLyE"
+
+- title: "Boosting Axon's Training Capabilities Toward State of the Art Image Models"
+  slug: "boosting-axon-image-models"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 39
+  abstract: "Demonstrating new Nx related libraries and techniques that can boost your Elixir trained model's capabilities, using the #ElixirFashionChallenge as a case study."
+  speakers:
+    - scottmueller
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "4huiLehzBEk"
+      url: "https://www.youtube.com/watch?v=4huiLehzBEk"
+
+- title: "Exploring Elixir Processes through Music"
+  slug: "exploring-processes-through-music"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 26
+  abstract: "Have you ever wanted to hear your code processing? Exploring the fundamentals of Elixir processes through the medium of music."
+  speakers:
+    - stephanielane
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "2IastDZCuFs"
+      url: "https://www.youtube.com/watch?v=2IastDZCuFs"
+
+- title: "More Testing, Fewer Tests"
+  slug: "more-testing-fewer-tests"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Tests are the best way to gain confidence your system is working as designed, but tests aren't free. They take time to create and represent a maintenance burden just like production code."
+  speakers:
+    - tyleryoung
+  topics:
+    - testing
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "24q8WNgYrJE"
+      url: "https://www.youtube.com/watch?v=24q8WNgYrJE"
+
+- title: "Beyond Mocks: Messing with Our Preconceptions of Testing"
+  slug: "beyond-mocks-testing"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Challenging common assumptions about testing approaches and exploring alternatives to mock-based testing strategies."
+  speakers:
+    - nicholashenry
+  topics:
+    - testing
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Qgi1nF6iZS4"
+      url: "https://www.youtube.com/watch?v=Qgi1nF6iZS4"
+
+- title: "The Power of Declarative Design"
+  slug: "power-of-declarative-design"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "Exploring the power of declarative design in framework development and how it shapes the way we build applications."
+  speakers:
+    - zachdaniel
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aknKAFzEsBg"
+      url: "https://www.youtube.com/watch?v=aknKAFzEsBg"
+
+- title: "Using Ecto Multis, Oban, and Transaction Callbacks to Isolate Concepts"
+  slug: "ecto-multis-oban-callbacks"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "Often multiple entities need to be updated at once and depending on the entities there may need to be events emitted, logs written, or other actions executed for each entity."
+  speakers:
+    - mikirezentes
+  topics:
+    - ecto
+    - oban
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hHQ5HZzvJxU"
+      url: "https://www.youtube.com/watch?v=hHQ5HZzvJxU"
+
+- title: "Building a HEEx Visual Editor"
+  slug: "building-heex-visual-editor"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 25
+  abstract: "In the last ElixirConf, I briefly demoed the HEEx visual editor that we've been building in Beacon CMS, and a common question since then has been 'How does it work?' This talk answers that question."
+  speakers:
+    - leandropereira
+  topics:
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "wh4LhklUUVU"
+      url: "https://www.youtube.com/watch?v=wh4LhklUUVU"
+
+- title: "FLAME: Thinking Differently About the BEAM"
+  slug: "flame-thinking-differently-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "A brief history and tutorial about FLAME, leading into a meta discussion about thinking differently about what's made possible with the BEAM and how we can use tools from the 90s to make modern services like Lambda 'for free'."
+  speakers:
+    - jasonstiebs
+  topics:
+    - elixir
+    - otp
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "KrAqMyjbkJQ"
+      url: "https://www.youtube.com/watch?v=KrAqMyjbkJQ"
+
+- title: "OpenTelemetry: From Desire to Dashboard"
+  slug: "opentelemetry-desire-to-dashboard"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "This talk covers the journey of implementing the OpenTelemetry project and various OTel collectors onto one of our company's busiest microservices."
+  speakers:
+    - jamesisenhart
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "62OK9B4yRfg"
+      url: "https://www.youtube.com/watch?v=62OK9B4yRfg"
+
+- title: "Securing the Future: A Roadmap to Making Elixir the Safest Language"
+  slug: "securing-future-safest-language"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Elixir has already shown to be resilient to many forms of insecurity and recommends strong secure defaults, but does that mean it is immune to every security consideration?"
+  speakers:
+    - holdenoullette
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "gpvKxS6sY8Y"
+      url: "https://www.youtube.com/watch?v=gpvKxS6sY8Y"
+
+- title: "Data Processing Sans Dependencies"
+  slug: "data-processing-sans-dependencies"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Challenging the impulse to reach for libraries and frameworks by default, and exploring what Elixir's standard library already provides for data processing."
+  speakers:
+    - ericsaxby
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "j5mLQWBUkuU"
+      url: "https://www.youtube.com/watch?v=j5mLQWBUkuU"
+
+- title: "Phoenix Unplugged: Uncovering the Magic of Plugs"
+  slug: "phoenix-unplugged-magic-of-plugs"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 27
+  abstract: "At the heart of Phoenix lies a key concept encapsulating power and flexibility: plugs. These small but mighty modules play a key role in connecting requests in a typical request-response cycle."
+  speakers:
+    - divyasasidharan
+  topics:
+    - phoenix
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "nIpW7FtdbxI"
+      url: "https://www.youtube.com/watch?v=nIpW7FtdbxI"
+
+- title: "LiveView Native 18 Months In: Are We There Yet?"
+  slug: "liveview-native-18-months"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "We began working with LiveView Native in early 2023, developing our real-time financial analysis alerting application. This talk covers the journey, the delays, and the lessons learned."
+  speakers:
+    - davidbluestein
+  topics:
+    - liveview
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "jGQK4vYUT5Y"
+      url: "https://www.youtube.com/watch?v=jGQK4vYUT5Y"
+
+- title: "Using Livebook to Build and Deploy Internal Tools"
+  slug: "livebook-internal-tools"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "Our primary job as developers is to deliver new features. As the product grows, a second job emerges: building internal tools. Livebook can help."
+  speakers:
+    - hugobarauna
+  topics:
+    - elixir
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "VIbVKO9CW5E"
+      url: "https://www.youtube.com/watch?v=VIbVKO9CW5E"
+
+- title: "Why the World Needs PhoenixTest"
+  slug: "why-world-needs-phoenixtest"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "PhoenixTest is the missing library in the Elixir/Phoenix ecosystem. A unified testing library for Phoenix controllers and LiveView."
+  speakers:
+    - germanvelasco
+  topics:
+    - phoenix
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "Fi6rUKeaoNM"
+      url: "https://www.youtube.com/watch?v=Fi6rUKeaoNM"
+
+- title: "Set-theoretic Types: The Theory, The Practice"
+  slug: "set-theoretic-types"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 39
+  abstract: "This talk explores the ongoing research and practical efforts to introduce typing capabilities into Elixir, focusing on the development and integration of a set-theoretic type system."
+  speakers:
+    - guillaumeduboc
+  topics:
+    - elixir
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "Bf7dp0Yj8Po"
+      url: "https://www.youtube.com/watch?v=Bf7dp0Yj8Po"
+
+- title: "Using NeuralProphet, Nx and Livebook to Forecast Business Data in Elixir"
+  slug: "neuralprophet-nx-livebook-forecasting"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Elixir has become an excellent ecosystem for doing Machine Learning productively. Combining NeuralProphet, Nx, and Livebook for business data forecasting."
+  speakers:
+    - georgeguimaraes
+  topics:
+    - elixir
+    - machine-learning
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "3LmKRrLUn5w"
+      url: "https://www.youtube.com/watch?v=3LmKRrLUn5w"
+
+- title: "Engineering Elixir Applications: If You Don't Deploy It, It Ain't Real"
+  slug: "engineering-elixir-applications"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "The phrase 'DevOps' sparks the idea of an intersection between dev and ops teams. But decision fatigue and the perceived complexity of the operations world have often caused these teams to drift apart."
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "10b8dZK_ZnA"
+      url: "https://www.youtube.com/watch?v=10b8dZK_ZnA"
+
+- title: "Engineering Your Promotion for Elixir-ists: A Practical Guide to Career Advancement"
+  slug: "engineering-your-promotion"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 29
+  abstract: "Many engineers start their careers by writing a lot of code. 'Getting in the reps' and learning by doing are critical, but what's next? A guide to career advancement beyond just writing code."
+  speakers:
+    - christiankoch
+    - sundimyint
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "dm-fE7GOV04"
+      url: "https://www.youtube.com/watch?v=dm-fE7GOV04"
+
+- title: "Retro Meets Modern: Transforming a Vintage Rotary Dial MonoPhone into a Cellphone with Elixir/Nerves"
+  slug: "retro-rotary-phone-nerves"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "Transforming a vintage rotary dial telephone into a working cellphone using Elixir and Nerves for the embedded software."
+  speakers:
+    - bryangreen
+  topics:
+    - nerves
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "uQuwkgpeFOY"
+      url: "https://www.youtube.com/watch?v=uQuwkgpeFOY"
+
+- title: "Dancing with Data: Your Guide to ETLs in the Small"
+  slug: "dancing-with-data-etls"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Data needs to grow up and change over time, so how do you manage that? Observe the evolution of simple functions into a larger ETL pipeline. When is Oban helpful? Should I use Broadway? Can I get away with just OTP?"
+  speakers:
+    - davidbernheisel
+  topics:
+    - elixir
+    - otp
+    - oban
+  recordings:
+    - provider: youtube
+      external_id: "r5_kW7QpMSw"
+      url: "https://www.youtube.com/watch?v=r5_kW7QpMSw"
+
+- title: "Scaling Past Joins! A Framework for Incremental Materialized Views with Ecto"
+  slug: "scaling-past-joins-materialized-views"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 29
+  abstract: "Databases are the heart of your application. A framework for building incremental materialized views with Ecto to scale past traditional join-heavy queries."
+  speakers:
+    - chrisbailey
+  topics:
+    - ecto
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Ro82tU2OFEU"
+      url: "https://www.youtube.com/watch?v=Ro82tU2OFEU"
+
+- title: "Unlocking the Potential of OTP: Proven Strategies for Application Development"
+  slug: "unlocking-potential-otp"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "Understanding Elixir processes, how lightweight processes differ from OS processes, and how they enable concurrency and fault tolerance."
+  speakers:
+    - alvarocallero
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "mmXiWL6VyXc"
+      url: "https://www.youtube.com/watch?v=mmXiWL6VyXc"
+
+- title: "Messaging with Limits: Concurrent, Multi-Stage Data Processing in the Real World"
+  slug: "messaging-with-limits"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Our team at GetThru found ourselves with a scaling problem. Years of bewildering external requirements had led us to the point where the existing system was both incorrect and difficult to reason about."
+  speakers:
+    - brianmeeker
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "_wT_49Btr5Q"
+      url: "https://www.youtube.com/watch?v=_wT_49Btr5Q"
+
+- title: "Introducing Plox: Server-Side Rendered SVG Graphing Components for Phoenix and LiveView"
+  slug: "introducing-plox"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "A deep dive into building loosely coupled SVG graphing components that fit nicely into Phoenix and LiveView."
+  speakers:
+    - chrisdose
+  topics:
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "C7HeKbc_-1Q"
+      url: "https://www.youtube.com/watch?v=C7HeKbc_-1Q"
+
+- title: "LiveView Native is Ready!"
+  slug: "liveview-native-is-ready"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "With the release of v0.3, LiveView Native is now being recommended to build your native applications. Learn about what LiveView Native is, what it isn't, and our design philosophy."
+  speakers:
+    - briancardarella
+  topics:
+    - liveview
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "9D9LYRKqkhM"
+      url: "https://www.youtube.com/watch?v=9D9LYRKqkhM"
+
+- title: "The Trials and Tribulations of LiveView RPG Development"
+  slug: "liveview-rpg-development"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: "Elixir and Phoenix LiveView give us everything we need to make games in the browser, but sometimes things get weird. This talk is about when things get weird."
+  speakers:
+    - chrisertel
+  topics:
+    - liveview
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "EFJaTs33erQ"
+      url: "https://www.youtube.com/watch?v=EFJaTs33erQ"
+
+- title: "Unlocking Livebook's Potential"
+  slug: "unlocking-livebooks-potential"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 49
+  abstract: "Livebook is an interactive notebook-style Elixir application that lets you write reproducible, shareable, deployable, extensible, interactive, and integrated Elixir workflows."
+  speakers:
+    - andresalejos
+  topics:
+    - elixir
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "2YVfHNFLROw"
+      url: "https://www.youtube.com/watch?v=2YVfHNFLROw"

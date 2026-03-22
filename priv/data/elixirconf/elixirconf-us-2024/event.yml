@@ -1,0 +1,13 @@
+name: "ElixirConf US 2024"
+slug: "elixirconf-us-2024"
+venue_slug: "gaylord-texan"
+kind: conference
+status: completed
+format: in_person
+start_date: "2024-08-28"
+end_date: "2024-08-30"
+timezone: "America/Chicago"
+language: en
+location: "Orlando, FL, USA"
+website: "https://elixirconf.com/2024"
+color: "#6B46C1"

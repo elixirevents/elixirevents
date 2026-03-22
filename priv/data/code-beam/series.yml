@@ -1,0 +1,10 @@
+name: "Code BEAM"
+slug: "code-beam"
+kind: conference
+frequency: yearly
+language: en
+website: "https://codebeameurope.com"
+color: "#3182CE"
+social_links:
+  - platform: twitter
+    url: "https://twitter.com/CodeBEAMio"

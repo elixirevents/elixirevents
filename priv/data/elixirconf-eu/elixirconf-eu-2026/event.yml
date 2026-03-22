@@ -1,0 +1,13 @@
+name: "ElixirConf EU 2026"
+slug: "elixirconf-eu-2026"
+kind: conference
+status: confirmed
+format: hybrid
+start_date: "2026-04-23"
+end_date: "2026-04-24"
+timezone: "Europe/Madrid"
+language: en
+location: "Malaga, Spain"
+website: "https://www.elixirconf.eu"
+color: "#6B46C1"
+description: "Europe's largest Elixir & Phoenix conference. Hundreds of developers come together to learn about, share, and inspire the progress of the ecosystem."

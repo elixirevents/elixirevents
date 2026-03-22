@@ -1,0 +1,816 @@
+## Keynotes
+
+
+- title: "Chris Grainger - The Future AI Stack"
+  slug: "chris-grainger-the-future-ai-stack"
+  kind: keynote
+  language: en
+  duration: 55
+  abstract: "We switched our machine learning research, production inference, and ETL pipelines to Elixir. This is the story of how we made that decision and how it's going."
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "Y2Nr4dNu6hI"
+      url: "https://www.youtube.com/watch?v=Y2Nr4dNu6hI"
+
+
+## Talks
+
+
+- title: "José Valim - Elixir v1.14"
+  slug: "jose-valim-elixir-v114"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "KmLw58qEtuM"
+      url: "https://www.youtube.com/watch?v=KmLw58qEtuM"
+
+- title: "Aldebaran Alonso - Let's talk to Industrial devices"
+  slug: "aldebaran-alonso-lets-talk-to-industrial-devices"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "A look inside a common problem for startups when developing products focused on the industrial environment: how to interact with industrial devices."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Oq3yIllAyTw"
+      url: "https://www.youtube.com/watch?v=Oq3yIllAyTw"
+
+- title: "Onorio Catenacci - Searching Your Elixir Code"
+  slug: "onorio-catenacci-searching-your-elixir-code"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "To paraphrase the old cliche, most software isn't written it's refactored. A job that comes up over and over again for many of us is searching our code base, looking for the definition of some symbol or function.  It's not an accident that, over the years, developers have figured out so many ways to"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "am9NSuTjOhA"
+      url: "https://www.youtube.com/watch?v=am9NSuTjOhA"
+
+- title: "Jason Stiebs - I was wrong about LiveView"
+  slug: "jason-stiebs-i-was-wrong-about-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "As a core team member, I tried to talk Chris out of building LiveView. I was wrong."
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "INgpJ3eIKZY"
+      url: "https://www.youtube.com/watch?v=INgpJ3eIKZY"
+
+- title: "Chris Nelson - Embedded Web Apps in Elixir with LiveState"
+  slug: "chris-nelson-embedded-web-apps-in-elixir-with-livestate"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "For building conventional “SPA” type web apps in Elixir, LiveView is the perfect choice. But if we are writing an embedded web app or one that is designed to be hosted in a larger web page that we don’t control, LiveView is no longer a viable option."
+  topics:
+    - elixir
+    - liveview
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "jLamITBMoVI"
+      url: "https://www.youtube.com/watch?v=jLamITBMoVI"
+
+- title: "Willian Frantz - Understanding common network protocols with Elixir"
+  slug: "willian-frantz-understanding-common-network-protocols-with-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "Have you ever asked yourself how the common network protocols work? like HTTP(S), SMTP, POP3, FTP?"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "yOvfQxJPgwY"
+      url: "https://www.youtube.com/watch?v=yOvfQxJPgwY"
+
+- title: "Mike Binns - Profiling Elixir and Phoenix apps with Flame Graphs in Live Dashboard"
+  slug: "mike-binns-profiling-elixir-and-phoenix-apps-with-flame-grap"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Elixir and Phoenix are a powerhouse combo when it comes to handling extreme volumes of traffic on minimal hardware with ease, but that doesn’t mean they can’t be made faster and more performant. Inefficiencies can creep in a number of ways, from poorly designed database queries to issues with depend"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "CV4q_qLUxcc"
+      url: "https://www.youtube.com/watch?v=CV4q_qLUxcc"
+
+- title: "Angel Martinez - Designing Data Intensive Applications in Elixir with Flow"
+  slug: "angel-martinez-designing-data-intensive-applications-in-elix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Designing Data-Intensive Applications in Elixir with Flow."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "MmxlJJu3SUE"
+      url: "https://www.youtube.com/watch?v=MmxlJJu3SUE"
+
+- title: "Roger Roelofs - A Javascripter's trip to Phoenix and LiveView"
+  slug: "roger-roelofs-a-javascripters-trip-to-phoenix-and-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "Web app development over the last two decades has been a pendulum swinging between back-end and front-end. That is because we want as much interactivity as close to the user as we can manage without driving ourselves crazy. The incompatibilities of client execution environments pushed the developmen"
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "0nlrQmn_9Mo"
+      url: "https://www.youtube.com/watch?v=0nlrQmn_9Mo"
+
+- title: "Miki Rezentes - To MVP and beyond, a year in LiveView"
+  slug: "miki-rezentes-to-mvp-and-beyond-a-year-in-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "This talk covers challenges faced and lessons learned while taking a product from `mix phx.new` to MVP. Why did we use LiveView? What type of paradigm shift did I have to go through? How did I help my team with the paradigm shift? What strategies did I use to conquer some of the challenges? What fee"
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "yclERDXdT1Y"
+      url: "https://www.youtube.com/watch?v=yclERDXdT1Y"
+
+- title: "Justin Wood - Introduction to query debugging and optimization in Postgres"
+  slug: "justin-wood-introduction-to-query-debugging-and-optimization"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 24
+  abstract: "When it comes to performance, it is better to be proactive and constantly looking for potential issues instead of waiting for them to appear by having our customers complain about them or, worse, by silently leaving our platforms because of them. This talk will give you some tools and tips to be pro"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "2qWNsPzFMcY"
+      url: "https://www.youtube.com/watch?v=2qWNsPzFMcY"
+
+- title: "Natalie Perpepaj & Geoff Smith - Connect the Docs"
+  slug: "natalie-perpepaj-geoff-smith-connect-the-docs"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "Generating and maintaining web API documentation is daunting for a large code base, and many solutions require regular manual maintenance that does not guarantee correctness or accuracy."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jtunZCzj8Ow"
+      url: "https://www.youtube.com/watch?v=jtunZCzj8Ow"
+
+- title: "Holden Oullette - Shifting Left: Secure Coding in Elixir Livebooks"
+  slug: "holden-oullette-shifting-left-secure-coding-in-elixir-livebo"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "One of Elixir's strengths has always been its secure-by-default approach while using it to build (web) applications. Paired with other modern technology stacks, such as GraphQL or React, you can build incredibly secure applications."
+  topics:
+    - elixir
+    - security
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "EY_rSubdo1M"
+      url: "https://www.youtube.com/watch?v=EY_rSubdo1M"
+
+- title: "Elayne Juten - Learn you some pattern matching for great good!"
+  slug: "elayne-juten-learn-you-some-pattern-matching-for-great-good"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: 'Move `if` to the bottom of your toolbox. Have you ever looked at a function with numerous conditionals buried within and thought, \"there has to be a better way\"? Well, there is! It''s pattern matching!'
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "pNf4keccOLE"
+      url: "https://www.youtube.com/watch?v=pNf4keccOLE"
+
+- title: "Ed Bond - Review of using Elixir for 4 years in production"
+  slug: "ed-bond-review-of-using-elixir-for-4-years-in-production"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Sharing my experiences building a TV App business powered by Elixir using Absinthe, Kubernetes, Clustering, and no downtime releases."
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "oaUBTd-DX1Q"
+      url: "https://www.youtube.com/watch?v=oaUBTd-DX1Q"
+
+- title: "Theo Harris - Wordle: Elixir Flavour"
+  slug: "theo-harris-wordle-elixir-flavour"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 20
+  abstract: "How does a beginner learn a new language? By building a project from the ground up! Theo talks about how his onboarding as a technical consultant at Alembic involved picking apart and reconstructing the popular browser-based language game Wordle."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Dvv5bZ8V1pM"
+      url: "https://www.youtube.com/watch?v=Dvv5bZ8V1pM"
+
+- title: "Chris Keathley - SOLID code isn't flexible"
+  slug: "chris-keathley-solid-code-isnt-flexible"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "The only constant in software development is change. As engineers, we're presented with new bugs, new integrations, and new requirements on a regular basis. In order to handle these changes, software engineers have adopted a number of different principles and techniques designed to aid them in code "
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fifbMZliHjI"
+      url: "https://www.youtube.com/watch?v=fifbMZliHjI"
+
+- title: "Kimberly Johnson - Self Taught to First Job!"
+  slug: "kimberly-johnson-self-taught-to-first-job"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "How I dove into the community and got my first job as a self-taught software engineer; how TravelPass Group has helped facilitate growth."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "myEpnnUb-A4"
+      url: "https://www.youtube.com/watch?v=myEpnnUb-A4"
+
+- title: "Brooklin Myers - Using Livebook to Teach Elixir"
+  slug: "brooklin-myers-using-livebook-to-teach-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "Livebook allows you to create interactive code notebooks often used for teaching, documentation, and rapid prototyping."
+  topics:
+    - elixir
+    - type-system
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "glPx8gcu-ek"
+      url: "https://www.youtube.com/watch?v=glPx8gcu-ek"
+
+- title: "Sean Moriarity - Axon: Functional Programming for Deep Learning"
+  slug: "sean-moriarity-axon-functional-programming-for-deep-learning"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "An overview of designing a deep learning framework in a functional programming language and how it differs from languages in the Python ecosystem."
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "NWXSiZ-vi-o"
+      url: "https://www.youtube.com/watch?v=NWXSiZ-vi-o"
+
+- title: "Erik Guzman - Serverless to Serving Elixir: Migrating Serverless app to Phoenix"
+  slug: "erik-guzman-serverless-to-serving-elixir-migrating-serverles"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Increasing productivity, affordability, scalability, and even less coding (gasp!) are the goals for any web application. Add on top unpredictable server traffic, then a solution you might consider is going serverless and throwing in one of those nifty NoSQL database solutions. Easy enough, but at wh"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "Tf3U3HPC1X8"
+      url: "https://www.youtube.com/watch?v=Tf3U3HPC1X8"
+
+- title: "Christian Koch - Have you got the ExFactor? Writing a refactor helper"
+  slug: "christian-koch-have-you-got-the-exfactor-writing-a-refactor"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "If you’ve ever used IntelliJ, you may appreciate how nice the “refactor function” command can be. Is it possible to write an elixir library that can help with refactoring all the function calls in a given app?"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fds0aIM0CgU"
+      url: "https://www.youtube.com/watch?v=fds0aIM0CgU"
+
+- title: "Zack Kayser - The Launch of Elixir and LiveView at Scale on the New Cars.com"
+  slug: "zack-kayser-the-launch-of-elixir-and-liveview-at-scale-on-th"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Full Title: Roll Cages, Pit Stops, and Victory Laps: The Launch of Elixir and LiveView at Scale on the New Cars.com"
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "XzAupUHiryg"
+      url: "https://www.youtube.com/watch?v=XzAupUHiryg"
+
+- title: "Ryan Cooke - E2E Reactivity - using Svelte with Phoenix LiveView"
+  slug: "ryan-cooke-e2e-reactivity-using-svelte-with-phoenix-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "In this talk, Ryan will demonstrate how to use Svelte with Phoenix LiveView to create a dramatically reactive and fast user web experience. By leveraging Svelte's reactive component properties, combined with LiveView's web socket assignments, page rendering and state management transforms into a ful"
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "asm2TTm035o"
+      url: "https://www.youtube.com/watch?v=asm2TTm035o"
+
+- title: "Jenny Bramble - Seems Good to Me: Working w/ Testers to Derisk Elixir Upgrades"
+  slug: "jenny-bramble-seems-good-to-me-working-w-testers-to-derisk-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "It's that time again! You have a legacy app running business-critical functions, and it's on an old version of Elixir. You need to upgrade to stay safe, have access to the most modern features of the ecosystem, and be current with your community. But a full regression of the app will take days, if n"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "aXXga-z8bpo"
+      url: "https://www.youtube.com/watch?v=aXXga-z8bpo"
+
+- title: "Alan Feuerlein - Selling Elixir"
+  slug: "alan-feuerlein-selling-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "For whatever reason, you may see Elixir as the best choice for your organization, but perhaps others are resistant or don't feel ready. I'll explain our organization's journey to Elixir adoption and provide an overview and explanation of the main selling points of Elixir to a group of solid (but per"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "UD5s_qZKFsI"
+      url: "https://www.youtube.com/watch?v=UD5s_qZKFsI"
+
+- title: "Chase Granberry - Caching with the Postgres WAL"
+  slug: "chase-granberry-caching-with-the-postgres-wal"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "There are only two hard things in Computer Science: cache invalidation and naming things."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "QubB19Dnxh0"
+      url: "https://www.youtube.com/watch?v=QubB19Dnxh0"
+
+- title: "Owen Bickford - WebAuthn + LiveView"
+  slug: "owen-bickford-webauthn-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "As I build my side project, a collaborative music application called LiveShowy, I want to avoid the development and customer support headaches of password management. I also want the app to run over Websockets as much as possible using LiveView."
+  topics:
+    - elixir
+    - liveview
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "krbriAecqUk"
+      url: "https://www.youtube.com/watch?v=krbriAecqUk"
+
+- title: "Meks McClure & Nikki Kyllonen - A guide to mentoring in an Elixir Environment"
+  slug: "meks-mcclure-nikki-kyllonen-a-guide-to-mentoring-in-an-elixi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "“How to Grow your own Juniors”: A guide to mentoring in an Elixir Environment"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "NjFI46Yc2Sc"
+      url: "https://www.youtube.com/watch?v=NjFI46Yc2Sc"
+
+- title: "Jason Axelson - Quick Iteration in Elixir - Tips from 6 Yrs of Elixir Development"
+  slug: "jason-axelson-quick-iteration-in-elixir-tips-from-6-yrs-of-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "I fell in love with Elixir in 2016 and have been coding in it professionally (and for fun!) ever since. Over the past 6 years, I've amassed a series of micro-techniques and tips that help me move code from my brain into my editor quickly and with minimal fuss. In this talk, I will share my bag of ti"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "BotVs6TXR-c"
+      url: "https://www.youtube.com/watch?v=BotVs6TXR-c"
+
+- title: "Kevin Hoffman - In Production with Elixir, Rust, and WebAssembly"
+  slug: "kevin-hoffman-in-production-with-elixir-rust-and-webassembly"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "We maintain a Phoenix cluster that serves up a GraphQL API, a user-installable Elixir application that becomes part of a peer network running WebAssembly modules, and a user-installable Elixir application that performs Kubernetes-like autonomous agent activities. Some of these apps interact with Rus"
+  topics:
+    - elixir
+    - phoenix
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "l0QS_iXlQto"
+      url: "https://www.youtube.com/watch?v=l0QS_iXlQto"
+
+- title: "De Wet Blomerus - Onboarding New Elixir Members"
+  slug: "de-wet-blomerus-onboarding-new-elixir-members"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "I onboarded onto Elixir myself, and after consuming a bunch of podcasts, videos, books, and mentoring, I started to regularly get asked to help new people onboard."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "61sBPCRhyeU"
+      url: "https://www.youtube.com/watch?v=61sBPCRhyeU"
+
+- title: "Mark Ericksen - Going Global with a Normal Phoenix App"
+  slug: "mark-ericksen-going-global-with-a-normal-phoenix-app"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: 'The Elixir and Phoenix combo natively supports clustering and pubsub. This superpower isn''t readily available to most web-focused languages and frameworks. Fly.io makes it easy to deploy your application to multiple regions globally. Once you deploy your \"regular\" Phoenix app into multiple regions, '
+  topics:
+    - elixir
+    - phoenix
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "_lBnAB_ClFs"
+      url: "https://www.youtube.com/watch?v=_lBnAB_ClFs"
+
+- title: "Kip Cole - Time algebra: a new way to think about and work with time"
+  slug: "kip-cole-time-algebra-a-new-way-to-think-about-and-work-with"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: 'Time is hard. Made harder by the traditional representation of time in computer languages. Why do we have separate types for dates, times, and date time?  Why can we express \"11am\", which can be on any day, but we can''t say \"November\" without specifying the year and day?  Why is it challenging to an'
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "4VfPvCI901c"
+      url: "https://www.youtube.com/watch?v=4VfPvCI901c"
+
+- title: "Chris Ertel - Making Elixir Honk: Implementing An Elixir Audio Library In Zig"
+  slug: "chris-ertel-making-elixir-honk-implementing-an-elixir-audio"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Elixir lacks a simple, friendly audio library suitable for game development, and I attempted to make one."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ObDf2_fQmYQ"
+      url: "https://www.youtube.com/watch?v=ObDf2_fQmYQ"
+
+- title: "Mike Waud - Keeping your IoT fleet afloat with Sink"
+  slug: "mike-waud-keeping-your-iot-fleet-afloat-with-sink"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Elixir and Nerves let you build and launch IoT systems in record time, but you've still got the vast sea of the internet between you and your devices. At SparkMeter we run servers that tell embedded devices how to do things and embedded devices that tell servers what they did. All of this needs to h"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "BxTIUvyZHKw"
+      url: "https://www.youtube.com/watch?v=BxTIUvyZHKw"
+
+- title: "Jamie Wright - Introducing Juvet: Building Bots in Elixir"
+  slug: "jamie-wright-introducing-juvet-building-bots-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "There is another massive shift happening with how we interact with companies through software. Users feel comfortable naturally talking with their applications through chatbots. Chat is the next generation of the user interface."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "FyRLeAggi6o"
+      url: "https://www.youtube.com/watch?v=FyRLeAggi6o"
+
+- title: "Chris Keele - Match Specs: Fast Functional Filtering with Matcha"
+  slug: "chris-keele-match-specs-fast-functional-filtering-with-match"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "This talk explores a powerful but inaccessible feature of the BEAM VM, match specifications, through a library designed to make using them much more ergonomic from Elixir, Matcha."
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "5cj3cqAy81M"
+      url: "https://www.youtube.com/watch?v=5cj3cqAy81M"
+
+- title: "Tyler Young - Delightful Multiplayer Editing with Phoenix"
+  slug: "tyler-young-delightful-multiplayer-editing-with-phoenix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "This talk distills the lessons we’ve learned at Felt while building a highly collaborative, “multiplayer” editing tool on top of Phoenix and React. Phoenix Channels are our (not so) secret weapon for delivering low-latency collaboration, but Channels alone aren’t enough to guarantee a delightful exp"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "lGuqvApTvbc"
+      url: "https://www.youtube.com/watch?v=lGuqvApTvbc"
+
+- title: "Jason Johnson - Workflows and use cases for Elixir Nerves"
+  slug: "jason-johnson-workflows-and-use-cases-for-elixir-nerves"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "Elixir Nerves offers so many options for developing and deploying firmware that it can be hard to know where to start! We'll explore a variety of workflows along with real-world examples and suggestions for how to make the most of your work with Nerves."
+  topics:
+    - elixir
+    - nerves
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "bwcf5gvHjmw"
+      url: "https://www.youtube.com/watch?v=bwcf5gvHjmw"
+
+- title: "David Bernheisel - Ecto in Production: Migration Edition"
+  slug: "david-bernheisel-ecto-in-production-migration-edition"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "Scaling an application comes with 3 phases of growing:"
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "mOeONt6Hkf8"
+      url: "https://www.youtube.com/watch?v=mOeONt6Hkf8"
+
+- title: "Arno Dirlam - Infer: A pragmatic inference system based on your Ecto schema"
+  slug: "arno-dirlam-infer-a-pragmatic-inference-system-based-on-your"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Docs: https://infer-beam.github.io/infer/"
+  topics:
+    - elixir
+    - ecto
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "0JSaBOgeW3w"
+      url: "https://www.youtube.com/watch?v=0JSaBOgeW3w"
+
+- title: "Héctor Iván Patricio Moreno - Cryptography and Elixir"
+  slug: "hector-ivan-patricio-moreno-cryptography-and-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "We all know that our digital security and anonymity relies on sophisticated algorithms that allows us to maintain secrecy and store information securely. We will talk about the main types of cryptographic algorithms (block and stream ciphers, hashes, MAC's) and the right way to use each one. Finally"
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "9_unSpHNEyQ"
+      url: "https://www.youtube.com/watch?v=9_unSpHNEyQ"
+
+- title: "Matthew Platts - Building a HEEX component library"
+  slug: "matthew-platts-building-a-heex-component-library"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "Components have long been standard in Javascript frameworks, however, are relatively new in Phoenix. Now, with HEEX released, it's time to start building component libraries to supercharge your web app development."
+  topics:
+    - elixir
+    - phoenix
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "GgEQJXfsI58"
+      url: "https://www.youtube.com/watch?v=GgEQJXfsI58"
+
+- title: "Miguel Michelson - Build a Soundcloud like app in a 7-dollar box in a week"
+  slug: "miguel-michelson-build-a-soundcloud-like-app-in-a-7-dollar-b"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Make a Soundcloud like app in a month and make it fit in a seven dollar box with Elixir."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7Sv6TQJ4BlY"
+      url: "https://www.youtube.com/watch?v=7Sv6TQJ4BlY"
+
+- title: "Yiming Chen - Porting Legacy Backend Services into Elixir, Seamlessly"
+  slug: "yiming-chen-porting-legacy-backend-services-into-elixir-seam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "A summary of how we ported 2 legacy Node.js backends into Elixir,"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aEq47fSt1WE"
+      url: "https://www.youtube.com/watch?v=aEq47fSt1WE"
+
+- title: "Michael Lubas - Classifying Bot IP Addresses in Phoenix"
+  slug: "michael-lubas-classifying-bot-ip-addresses-in-phoenix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 17
+  abstract: "Cloud providers today publish the IP ranges of their servers. This is useful data for stopping malicious traffic to your Phoenix app. Learn how to classify incoming requests using persistent_term, radix trees, and a simple plug."
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "XAMFqWf6kAI"
+      url: "https://www.youtube.com/watch?v=XAMFqWf6kAI"
+
+- title: "Stephen Ball - Livebook smart cells are amazing"
+  slug: "stephen-ball-livebook-smart-cells-are-amazing"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "In May 2022 Livebook 0.6 introduced smart cells. These are units of abstraction to wrap complex code in a simple user interface which means we can make a lot of amazing things happen behind the scenes while presenting users with a smart workflow. In this talk, we'll go from Livebook itself to smart "
+  topics:
+    - elixir
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "Yw_EqX_KAw4"
+      url: "https://www.youtube.com/watch?v=Yw_EqX_KAw4"
+
+- title: "Susumu Yamazaki - Robust, Distributed, and Parallel Processing for Enormous Images"
+  slug: "susumu-yamazaki-robust-distributed-and-parallel-processing-f"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "What do you use when you process enormous images? Of course, Python, Numpy, and OpenCV will be helpful for it, but don't you want to speed it up by processing it in a distributed and parallel way? Elixir can do it:"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "RkMzCQm-Ws4"
+      url: "https://www.youtube.com/watch?v=RkMzCQm-Ws4"
+
+- title: "Constantin Cheptea - The Elixir Of Web Scraping"
+  slug: "constantin-cheptea-the-elixir-of-web-scraping"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "This talk is about how we implemented a simple crawler for an MVP for one of our clients. I will talk about how we used a Stream to implement the crawler, the Eager vs Lazy topic, applying concurrency to improve performance, understanding the difference between concurrency and parallelism, and how i"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "mkkPgL6pXPc"
+      url: "https://www.youtube.com/watch?v=mkkPgL6pXPc"
+
+- title: "Chris McCord - Phoenix + LiveView Updates"
+  slug: "chris-mccord-phoenix-liveview-updates"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "9-rqBLjr5Eo"
+      url: "https://www.youtube.com/watch?v=9-rqBLjr5Eo"
+
+- title: "Brian Cardarella - What is LiveView Native?"
+  slug: "brian-cardarella-what-is-liveview-native"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "dnDGh_Jmw-s"
+      url: "https://www.youtube.com/watch?v=dnDGh_Jmw-s"
+
+- title: "ElixirConf US 2021 Recap"
+  slug: "elixirconf-us-2021-recap"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "q49vsCjpWGs"
+      url: "https://www.youtube.com/watch?v=q49vsCjpWGs"
+
+
+## Lightning Talks
+
+
+- title: "Lightning Talks"
+  slug: "lt-lightning-talks"
+  kind: lightning_talk
+  language: en
+  duration: 64
+  abstract: "Index:"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "f1lNK5gDlwA"
+      url: "https://www.youtube.com/watch?v=f1lNK5gDlwA"

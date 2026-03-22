@@ -1,0 +1,74 @@
+<div class="max-w-3xl mx-auto">
+  <%!-- Header --%>
+  <div class="mb-12">
+    <div class="inline-flex items-center gap-2 text-sm font-semibold text-primary tracking-wide uppercase mb-5">
+      <svg
+        viewBox="0 0 16 16"
+        class="h-4 w-4 text-secondary"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path d="M8 0 L9.5 5.5 L16 8 L9.5 10.5 L8 16 L6.5 10.5 L0 8 L6.5 5.5Z" />
+      </svg>
+      About
+    </div>
+    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-base-content leading-tight">
+      About ElixirEvents
+    </h1>
+  </div>
+
+  <div class="space-y-12 text-base-content/70 leading-relaxed">
+    <%!-- Origin story --%>
+    <div class="space-y-4">
+      <p>
+        ElixirEvents is inspired by
+        <a
+          href="https://www.rubyevents.org/"
+          class="text-primary hover:text-primary/70 transition-colors"
+          target="_blank"
+          rel="noopener"
+        >RubyEvents.org</a>.
+        The Elixir and BEAM community deserves its own directory of conferences,
+        meetups, talks, speakers, and recordings.
+      </p>
+      <p>
+        The whole thing is open source. Event data comes in as YAML files via pull
+        requests, so anyone can add events or fix mistakes. See
+        <a href="/contribute" class="text-primary hover:text-primary/70 transition-colors">how to contribute</a>.
+      </p>
+    </div>
+
+    <%!-- Built with --%>
+    <section>
+      <h2 class="font-display text-2xl font-bold tracking-tight text-base-content mb-6">
+        Built With
+      </h2>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <h3 class="font-display font-bold text-base-content mb-1">Phoenix 1.8 + LiveView</h3>
+          <p class="text-sm text-base-content/55">
+            Server-rendered real-time UI. The app is almost entirely LiveView.
+          </p>
+        </div>
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <h3 class="font-display font-bold text-base-content mb-1">Elixir on the BEAM</h3>
+          <p class="text-sm text-base-content/55">
+            An Elixir community tool, built in Elixir. As it should be.
+          </p>
+        </div>
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <h3 class="font-display font-bold text-base-content mb-1">Fly.io</h3>
+          <p class="text-sm text-base-content/55">
+            Hosting and deployment.
+          </p>
+        </div>
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <h3 class="font-display font-bold text-base-content mb-1">Supabase</h3>
+          <p class="text-sm text-base-content/55">
+            Managed PostgreSQL.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

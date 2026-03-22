@@ -1,0 +1,12 @@
+name: "EMPEX NYC 2023"
+slug: "empex-2023"
+kind: conference
+status: completed
+format: in_person
+start_date: "2023-06-08"
+end_date: "2023-06-08"
+timezone: "America/New_York"
+language: en
+location: "New York, NY, USA"
+website: "https://empex.co"
+color: "#805AD5"

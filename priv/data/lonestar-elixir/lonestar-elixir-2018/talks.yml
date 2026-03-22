@@ -1,0 +1,347 @@
+## Keynotes
+
+
+- title: "Lonestar ElixirConf 2018 -  Keynote - Tim Mechlem"
+  slug: "lonestar-elixirconf-2018-keynote-tim-mechlem"
+  kind: keynote
+  language: en
+  duration: 45
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1PS-s0JXSjg"
+      url: "https://www.youtube.com/watch?v=1PS-s0JXSjg"
+
+- title: "Lonestar ElixirConf 2018 - Keynote -  Aaron Patterson"
+  slug: "lonestar-elixirconf-2018-keynote-aaron-patterson"
+  kind: keynote
+  language: en
+  duration: 47
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "WvYtaVW4ACo"
+      url: "https://www.youtube.com/watch?v=WvYtaVW4ACo"
+
+- title: "Lonestar ElixirConf 2018 - Customize your car: An Adventure in... - Brien Wankel"
+  slug: "lonestar-elixirconf-2018-customize-your-car-an-adventure-in"
+  kind: keynote
+  language: en
+  duration: 56
+  abstract: "Customize your car: An Adventure in Using Elixir and Nerves to Hack Your Vehicle's Electronics Network"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "ykVktdc7Ggc"
+      url: "https://www.youtube.com/watch?v=ykVktdc7Ggc"
+
+- title: "Lonestar ElixirConf 2018 - Keynote - Tim Mechlem"
+  slug: "lonestar-elixirconf-2018-keynote-tim-mechlem-1"
+  kind: keynote
+  language: en
+  duration: 44
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "y8373byme_Q"
+      url: "https://www.youtube.com/watch?v=y8373byme_Q"
+
+- title: "Lonestar ElixirConf 2018 - Day 1 Keynote - Chris McCord"
+  slug: "lonestar-elixirconf-2018-day-1-keynote-chris-mccord"
+  kind: keynote
+  language: en
+  duration: 56
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qhXjq3XU9_I"
+      url: "https://www.youtube.com/watch?v=qhXjq3XU9_I"
+
+
+## Talks
+
+
+- title: "Lonestar ElixirConf 2018 - Building on Sand : Firm Foundations from Legacy Databases - Ben Cates"
+  slug: "lonestar-elixirconf-2018-building-on-sand-firm-foundations-f"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "EZZ6SSEbAb0"
+      url: "https://www.youtube.com/watch?v=EZZ6SSEbAb0"
+
+- title: "Lonestar ElixirConf 2018 - Usercentered API Versioning - Niall Burkley"
+  slug: "lonestar-elixirconf-2018-usercentered-api-versioning-niall-b"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "puUr9_zzTm4"
+      url: "https://www.youtube.com/watch?v=puUr9_zzTm4"
+
+- title: "Lonestar ElixirConf 2018 -  Why Elixir Matters A Genealogy of Functional Programming - OsaGaius"
+  slug: "lonestar-elixirconf-2018-why-elixir-matters-a-genealogy-of-f"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "X2u0bBqhRKE"
+      url: "https://www.youtube.com/watch?v=X2u0bBqhRKE"
+
+- title: "Lonestar ElixirConf 2018 - Wrap up"
+  slug: "lonestar-elixirconf-2018-wrap-up"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Qt8E1ePhiAM"
+      url: "https://www.youtube.com/watch?v=Qt8E1ePhiAM"
+
+- title: "Lonestar ElixirConf 2018- The Next Phase of Elixir Deployment Tools - Paul Schoenfelder"
+  slug: "lonestar-elixirconf-2018-the-next-phase-of-elixir-deployment"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "waIBDxD_QNY"
+      url: "https://www.youtube.com/watch?v=waIBDxD_QNY"
+
+- title: "Lonestar ElixirConf 2018 - Consistent Distributed Elixir - Chris Keathley"
+  slug: "lonestar-elixirconf-2018-consistent-distributed-elixir-chris"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jcWcQ3uXsS4"
+      url: "https://www.youtube.com/watch?v=jcWcQ3uXsS4"
+
+- title: "Lonestar ElixirConf  2018 - Managing state in distributed Elixer - Jerel Unruh"
+  slug: "lonestar-elixirconf-2018-managing-state-in-distributed-elixe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "HZTjOVsLhMI"
+      url: "https://www.youtube.com/watch?v=HZTjOVsLhMI"
+
+- title: "Lonestar ElixirConf  2018 - Let's Talk Process Dictionary - Greg Vaughn"
+  slug: "lonestar-elixirconf-2018-lets-talk-process-dictionary-greg-v"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "4mLe7ghXy70"
+      url: "https://www.youtube.com/watch?v=4mLe7ghXy70"
+
+- title: "Lonestar ElixirConf  2018 -  Welcome"
+  slug: "lonestar-elixirconf-2018-welcome"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 6
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RrdJgnwo6Ow"
+      url: "https://www.youtube.com/watch?v=RrdJgnwo6Ow"
+
+- title: "Lonestar ElixirConf 2018 - Intermediate SQL with Ecto - Dennis Beatty"
+  slug: "lonestar-elixirconf-2018-intermediate-sql-with-ecto-dennis-b"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "sTB-TwsKrYY"
+      url: "https://www.youtube.com/watch?v=sTB-TwsKrYY"
+
+- title: "Lonestar ElixirConf 2018 - The Next Phase of Elixir Deployment Tools - Paul Schoenfelder"
+  slug: "lonestar-elixirconf-2018-the-next-phase-of-elixir-deployment-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "ufDuqrKd2fo"
+      url: "https://www.youtube.com/watch?v=ufDuqrKd2fo"
+
+- title: "Lonestar ElixirConf 2018 - Building on Sand: Firm Foundations from Legacy Databases - Ben Cates"
+  slug: "lonestar-elixirconf-2018-building-on-sand-firm-foundations-f-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fLA9euV7f5g"
+      url: "https://www.youtube.com/watch?v=fLA9euV7f5g"
+
+- title: "Lonestar ElixirConf 2018 - Wrap Up"
+  slug: "lonestar-elixirconf-2018-wrap-up-1"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "czcQhdXBI4M"
+      url: "https://www.youtube.com/watch?v=czcQhdXBI4M"
+
+- title: "Lonestar ElixirConf 2018 - Why Elixir Matters: A Genealogy of Functional Programming - Osa Gaius"
+  slug: "lonestar-elixirconf-2018-why-elixir-matters-a-genealogy-of-f-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "WCDRuHrzmVA"
+      url: "https://www.youtube.com/watch?v=WCDRuHrzmVA"
+
+- title: "Lonestar ElixirConf 2018 - Let's Talk Process Dictionary - Greg Vaughn"
+  slug: "lonestar-elixirconf-2018-lets-talk-process-dictionary-greg-v-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "zDIoFWwfBO0"
+      url: "https://www.youtube.com/watch?v=zDIoFWwfBO0"
+
+- title: "Lonestar ElixirConf 2018 - Consistent, Distributed Elixir - Chris Keathley"
+  slug: "lonestar-elixirconf-2018-consistent-distributed-elixir-chris-2"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7vHw5UfNmJA"
+      url: "https://www.youtube.com/watch?v=7vHw5UfNmJA"
+
+- title: "Lonestar ElixirConf 2018 - Managing state in distributed Elixir - Jerel Unruh"
+  slug: "lonestar-elixirconf-2018-managing-state-in-distributed-elixi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "V3iBgStaPmA"
+      url: "https://www.youtube.com/watch?v=V3iBgStaPmA"
+
+- title: "Lonestar ElixirConf 2018 - Elixir is for Startups - Angle Jose"
+  slug: "lonestar-elixirconf-2018-elixir-is-for-startups-angle-jose"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "FWPcslL-tNs"
+      url: "https://www.youtube.com/watch?v=FWPcslL-tNs"
+
+
+## Lightning Talks
+
+
+- title: "Lonestar ElixirConf  2018 - Lightning Talks 3"
+  slug: "lt-lonestar-elixirconf-2018-lightning-talks-3"
+  kind: lightning_talk
+  language: en
+  duration: 9
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ewW0RER9oJM"
+      url: "https://www.youtube.com/watch?v=ewW0RER9oJM"
+
+- title: "Lonestar ElixirConf  2018 -  Lightning Talk 4"
+  slug: "lt-lonestar-elixirconf-2018-lightning-talk-4"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RGRbMNNQHj4"
+      url: "https://www.youtube.com/watch?v=RGRbMNNQHj4"
+
+- title: "Lonestar ElixirConf  2018 - Lightning Talks - Gheda"
+  slug: "lt-lonestar-elixirconf-2018-lightning-talks-gheda"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aidnd-_eTTE"
+      url: "https://www.youtube.com/watch?v=aidnd-_eTTE"

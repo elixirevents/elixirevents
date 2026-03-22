@@ -1,0 +1,12 @@
+name: "ElixirConf US 2019"
+slug: "elixirconf-us-2019"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-08-27"
+end_date: "2019-08-30"
+timezone: "America/Denver"
+language: en
+location: "Aurora, CO, USA"
+website: "https://elixirconf.com/2019"
+color: "#6B46C1"

@@ -1,0 +1,12 @@
+name: "MQ Summit 2025"
+slug: "mq-summit-2025"
+kind: conference
+status: completed
+format: in_person
+start_date: "2025-02-04"
+end_date: "2025-02-04"
+timezone: "Europe/London"
+language: en
+location: "London, UK"
+website: "https://codesync.global"
+color: "#2B6CB0"

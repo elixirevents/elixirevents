@@ -1,0 +1,351 @@
+## Keynotes
+
+
+- title: "Clarity | Saša Jurić"
+  slug: "keynote-httpswwwelixirconfeu"
+  kind: keynote
+  language: en
+  duration: 69
+  abstract: "Clarity | Saša Jurić - Elixir mentor"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "6sNmJtoKDCo"
+      url: "https://www.youtube.com/watch?v=6sNmJtoKDCo"
+
+- title: "Q&A with Chris McCord & José Valim"
+  slug: "keynote-httpswwwelixirconfeu-1"
+  kind: keynote
+  language: en
+  duration: 65
+  abstract: "Q&A with Chris McCord | José Valim - Creator of Elixir, Chris McCord - Creator of Phoenix"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "_Bnhwv9JLzs"
+      url: "https://www.youtube.com/watch?v=_Bnhwv9JLzs"
+
+- title: "Surviving your First Big Customer as a Startup | Johanna Larsson"
+  slug: "keynote-httpswwwelixirconfeu-2"
+  kind: keynote
+  language: en
+  duration: 55
+  abstract: "Surviving your First Big Customer as a Startup | Johanna Larsson - Software Engineer @ Duffel"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ZMgUTPcHeo4"
+      url: "https://www.youtube.com/watch?v=ZMgUTPcHeo4"
+
+
+## Talks
+
+
+- title: "ElixirConf EU 2021 - José Valim invites to the conference"
+  slug: "elixirconf-eu-2021-jose-valim-invites-to-the-conference"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 1
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "dFOrKIjkBzk"
+      url: "https://www.youtube.com/watch?v=dFOrKIjkBzk"
+
+- title: "Digitalizing the Steel Industry with Elixir | Kristian Hildebrandt"
+  slug: "digitalizing-the-steel-industry-with-elixir-kristian-hildebr"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Digitalizing the Steel Industry with Elixir | Kristian Hildebrandt - Senior Software Engineer at Kloeckner.i"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hj4p3OQcZlM"
+      url: "https://www.youtube.com/watch?v=hj4p3OQcZlM"
+
+- title: "Control Node: Continuous Delivery &  (...) for Elixir | Vanshdeep Singh"
+  slug: "control-node-continuous-delivery-for-elixir-vanshdeep-singh"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Control Node: Continuous Delivery and Orchestration as code for Elixir | Vanshdeep Singh - Senior Backend Engineer at Adjust GmbH"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Fp6q_4hKptQ"
+      url: "https://www.youtube.com/watch?v=Fp6q_4hKptQ"
+
+- title: "Testing Asynchronous OTP | AndreaLeopardi"
+  slug: "testing-asynchronous-otp-andrealeopardi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Testing Asynchronous OTP | AndreaLeopardi - Elixir Core Team Member"
+  topics:
+    - elixir
+    - otp
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "clAHOdIzkW0"
+      url: "https://www.youtube.com/watch?v=clAHOdIzkW0"
+
+- title: "Eventsourcing and CQRS in Elixir | VasilisSpilka"
+  slug: "eventsourcing-and-cqrs-in-elixir-vasilisspilka"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Eventsourcing and CQRS in Elixir | VasilisSpilka - Elixir developer & advocate, DDD architect"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "NTzP_5CHqKk"
+      url: "https://www.youtube.com/watch?v=NTzP_5CHqKk"
+
+- title: "Diving into Ecto.Query | Willian Frantz"
+  slug: "diving-into-ectoquery-willian-frantz"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Diving into Ecto.Query | Willian Frantz - Elixir Enthusiast, Software Alchemist at Trybe"
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "Hm34v0pVpX0"
+      url: "https://www.youtube.com/watch?v=Hm34v0pVpX0"
+
+- title: "Doing weird things with Ecto | Nikola Begedin"
+  slug: "doing-weird-things-with-ecto-nikola-begedin"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Doing weird things with Ecto | Nikola Begedin - Full-stack Engineer at V7 Labs"
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "zrfZ1GiOc-I"
+      url: "https://www.youtube.com/watch?v=zrfZ1GiOc-I"
+
+- title: "Building a real-time collaborative editor with Phoenix | Sheharyar Naseer"
+  slug: "building-a-real-time-collaborative-editor-with-phoenix-sheha"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "Building a real-time collaborative editor with Phoenix | Sheharyar Naseer - Manager at GDG Lahore"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "HTB4mQyMAmg"
+      url: "https://www.youtube.com/watch?v=HTB4mQyMAmg"
+
+- title: "Going Multi-Node with ExUnit | DevonEstes"
+  slug: "going-multi-node-with-exunit-devonestes"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "Going Multi-Node with ExUnit | DevonEstes - Head of Engineering at Forza FC"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "elC_8PhWRTg"
+      url: "https://www.youtube.com/watch?v=elC_8PhWRTg"
+
+- title: "Elixir, WebAssembly, and Rust - The Ultimate Hybrid | Kevin Hoffman"
+  slug: "elixir-webassembly-and-rust-the-ultimate-hybrid-kevin-hoffma"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: 'Elixir, WebAssembly, and Rust - The Ultimate Hybrid | KevinHoffman - Author, \"Programming WebAssembly with Rust\" and \"Cloud Native Go\"'
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "7Lj6ATt_2jY"
+      url: "https://www.youtube.com/watch?v=7Lj6ATt_2jY"
+
+- title: "Exercism v3 | AngelikaTyborska"
+  slug: "exercism-v3-angelikatyborska"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Exercism v3 | AngelikaTyborska - Elixir track maintainer on Exercism.io"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "mpOwAL7cAaE"
+      url: "https://www.youtube.com/watch?v=mpOwAL7cAaE"
+
+- title: "Love Your Crash Dumps | Michał Ślaski"
+  slug: "love-your-crash-dumps-micha-slaski"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Love Your Crash Dumps | Michał Ślaski - Co-Founder of koderki.pl"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "wyjWR731uSU"
+      url: "https://www.youtube.com/watch?v=wyjWR731uSU"
+
+- title: "Nerves - An industrialization journey | Jean Parapaillon"
+  slug: "nerves-an-industrialization-journey-jean-parapaillon"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "Nerves - An industrialization journey | JeanParapaillon - Senior Elixir Engineer at Zola Electric"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "6MDNm7k2OoI"
+      url: "https://www.youtube.com/watch?v=6MDNm7k2OoI"
+
+- title: "Creating a scalable (...) with Elixir, Python & Tensorflow | Arjan Scherpenisse"
+  slug: "creating-a-scalable-with-elixir-python-tensorflow-arjan-sche"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 50
+  abstract: "Creating a scalable intent classifier with Elixir, Python and Tensorflow | Arjan Scherpenisse - Founder at Botsquad"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "U8c_hsWC2jE"
+      url: "https://www.youtube.com/watch?v=U8c_hsWC2jE"
+
+- title: "Monitoring Elixir With OpenTelemetry | Kamil Kowalski"
+  slug: "monitoring-elixir-with-opentelemetry-kamil-kowalski"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "Monitoring Elixir With OpenTelemetry | Kamil Kowalski - Lead Architect @ Fresha"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "4OBtc_eIKIE"
+      url: "https://www.youtube.com/watch?v=4OBtc_eIKIE"
+
+- title: "The pillars of Metaprogramming in Elixir | Adi Iyengar"
+  slug: "the-pillars-of-metaprogramming-in-elixir-adi-iyengar"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "The pillars of Metaprogramming in Elixir | Adi Iyengar  - Senior Software Engineer"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "oikF1Ze2Vao"
+      url: "https://www.youtube.com/watch?v=oikF1Ze2Vao"
+
+- title: "Debugging Elixir Code - The Tools, The Mindset | Michal Buszkiewicz"
+  slug: "debugging-elixir-code-the-tools-the-mindset-michal-buszkiewi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "Debugging Elixir Code - The Tools, The Mindset | Michal Buszkiewicz - CTO & Founder @ Curiosum"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "x9OMlrrKYyE"
+      url: "https://www.youtube.com/watch?v=x9OMlrrKYyE"
+
+- title: "Lessons learned from Elixir Learning Paths | Elaine Watanabe"
+  slug: "lessons-learned-from-elixir-learning-paths-elaine-watanabe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Lessons learned from Elixir Learning Paths | Elaine Watanabe - Elixir Lab co-founder"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "I1jUWz1RP2U"
+      url: "https://www.youtube.com/watch?v=I1jUWz1RP2U"
+
+- title: "Membrane SFU: Bringing WebRTC to Elixir | Mateusz Front"
+  slug: "membrane-sfu-bringing-webrtc-to-elixir-mateusz-front"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "Membrane SFU: Bringing WebRTC to Elixir | Mateusz Front - Co-creator of Membrane"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qXFziCT5I6c"
+      url: "https://www.youtube.com/watch?v=qXFziCT5I6c"
+
+- title: "A safer Elixir | Esteban Ibarra"
+  slug: "a-safer-elixir-esteban-ibarra"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "A safer Elixir | Esteban Ibarra - Software Engineer at Stack Builders"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "0XFkdS-MrM4"
+      url: "https://www.youtube.com/watch?v=0XFkdS-MrM4"
+
+
+## Lightning Talks
+
+
+- title: "Lightning talk: Typechecking Elixir | Radek Szymczyszyn"
+  slug: "lt-lightning-talk-typechecking-elixir-radek-szymczyszyn"
+  kind: lightning_talk
+  language: en
+  duration: 10
+  abstract: "Lightning talk: Typechecking Elixir | Radek Szymczyszyn - Technical Lead at Erlang Solutions"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "c42yJLL2VEI"
+      url: "https://www.youtube.com/watch?v=c42yJLL2VEI"

@@ -1,0 +1,96 @@
+<section>
+  <div class="mb-10">
+    <h1 class="font-display text-3xl sm:text-4xl font-bold text-base-content">
+      Talks
+      <span class="text-base-content/50 font-normal text-lg ml-1">
+        ({@page_data.total_count})
+      </span>
+    </h1>
+    <p class="text-base-content/55 mt-2 text-lg">
+      Watch and revisit talks from across the community
+    </p>
+  </div>
+
+  <%!-- Filter & Sort toolbar --%>
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50">
+    <%!-- Filter tabs --%>
+    <div class="flex items-center gap-1 p-0.5">
+      <.link
+        :for={
+          {label, value} <- [
+            {"All", "all"},
+            {"Published", "published"},
+            {"Scheduled", "scheduled"}
+          ]
+        }
+        patch={
+          ~p"/talks?#{%{filter: value, sort: @current_sort} |> Enum.reject(fn {_, v} -> v in ["all", "newest"] end)}"
+        }
+        class={[
+          "px-4 py-2 rounded-xl text-sm font-semibold cursor-pointer transition-all duration-200",
+          if(@current_filter == value,
+            do: "bg-primary text-primary-content shadow-sm",
+            else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+          )
+        ]}
+      >
+        {label}
+      </.link>
+    </div>
+
+    <%!-- Sort --%>
+    <div class="flex items-center gap-0.5 px-1">
+      <span class="text-xs text-base-content/40 mr-2">Sort:</span>
+      <.link
+        :for={{label, value} <- [{"Newest", "newest"}, {"Oldest", "oldest"}, {"A–Z", "title"}]}
+        patch={
+          ~p"/talks?#{%{filter: @current_filter, sort: value} |> Enum.reject(fn {_, v} -> v in ["all", "newest"] end)}"
+        }
+        class={[
+          "px-3 py-1.5 rounded-lg text-xs font-medium cursor-pointer transition-all duration-200",
+          if(@current_sort == value,
+            do: "bg-base-300/80 text-base-content",
+            else: "text-base-content/40 hover:text-base-content/70"
+          )
+        ]}
+      >
+        {label}
+      </.link>
+    </div>
+  </div>
+
+  <%!-- Empty state --%>
+  <div :if={@talks == []} class="text-center py-20">
+    <p :if={@current_filter == "published"} class="text-base-content/55 text-lg">
+      No published talks with recordings yet.
+    </p>
+    <p :if={@current_filter == "scheduled"} class="text-base-content/55 text-lg">
+      No scheduled talks without recordings.
+    </p>
+    <p :if={@current_filter == "all"} class="text-base-content/55 text-lg">
+      No talks yet. They'll appear here as events are added.
+    </p>
+    <.link
+      :if={@current_filter != "all"}
+      patch={~p"/talks"}
+      class="text-sm text-primary hover:text-primary/70 mt-3 inline-block"
+    >
+      View all talks <span aria-hidden="true">&rarr;</span>
+    </.link>
+  </div>
+
+  <%!-- Talk grid --%>
+  <div :if={@talks != []} class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <.talk_card :for={talk <- @talks} talk={talk} />
+  </div>
+
+  <.pagination
+    page_data={@page_data}
+    path="/talks"
+    params={
+      %{filter: @current_filter, sort: @current_sort}
+      |> Enum.reject(fn {_, v} -> v in ["all", "newest"] end)
+      |> Map.new()
+    }
+  />
+</section>

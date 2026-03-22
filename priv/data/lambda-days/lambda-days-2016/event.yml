@@ -1,0 +1,12 @@
+name: "Lambda Days 2016"
+slug: "lambda-days-2016"
+kind: conference
+status: completed
+format: in_person
+start_date: "2016-02-18"
+end_date: "2016-02-19"
+timezone: "Europe/Warsaw"
+language: en
+location: "Krakow, Poland"
+website: "https://www.lambdadays.org/lambdadays2016"
+color: "#DD6B20"

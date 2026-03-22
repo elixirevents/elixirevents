@@ -1,0 +1,112 @@
+<div class="mx-auto max-w-lg">
+  <div class="mb-10">
+    <h1 class="font-display text-3xl font-bold text-base-content">Edit Profile</h1>
+    <p class="text-base-content/55 mt-2">Update your public profile</p>
+  </div>
+
+  <.form for={@form} id="profile-form" phx-change="validate" phx-submit="save">
+    <div class="p-6 rounded-2xl bg-base-200/30 border border-base-300/50 mb-6">
+      <h2 class="font-display text-lg font-bold text-base-content mb-4">About</h2>
+      <.input
+        field={@form[:headline]}
+        type="text"
+        label="Headline"
+        placeholder="e.g. Elixir Core Team"
+      />
+      <.input field={@form[:bio]} type="textarea" label="Bio" />
+      <.input
+        field={@form[:website]}
+        type="text"
+        label="Website"
+        placeholder="https://example.com"
+      />
+      <.input field={@form[:avatar_url]} type="text" label="Avatar URL" placeholder="https://..." />
+    </div>
+
+    <div class="p-6 rounded-2xl bg-base-200/30 border border-base-300/50 mb-6">
+      <.input
+        field={@form[:is_speaker]}
+        type="checkbox"
+        label="I am a speaker"
+      />
+      <p class="text-sm text-base-content/50 mt-1">
+        Check this if you've given talks at Elixir or BEAM events
+      </p>
+    </div>
+
+    <div class="p-6 rounded-2xl bg-base-200/30 border border-base-300/50 mb-6">
+      <h2 class="font-display text-lg font-bold text-base-content mb-4">Social Links</h2>
+
+      <div class="space-y-3">
+        <.inputs_for :let={link_form} field={@form[:social_links]}>
+          <input type="hidden" name="profile[social_links_sort][]" value={link_form.index} />
+          <div class="flex items-center gap-3">
+            <div class="w-40 shrink-0">
+              <.custom_select
+                id={"social-link-platform-#{link_form.index}"}
+                name={link_form[:platform].name}
+                value={link_form[:platform].value}
+                options={platform_options()}
+                prompt="Platform..."
+                form_id="profile-form"
+              />
+            </div>
+            <div class="flex-1 min-w-0">
+              <input
+                type="text"
+                id={link_form[:url].id}
+                name={link_form[:url].name}
+                value={link_form[:url].value}
+                placeholder="https://..."
+                class="w-full input"
+              />
+            </div>
+            <button
+              type="button"
+              name="profile[social_links_drop][]"
+              value={link_form.index}
+              phx-click={JS.dispatch("change")}
+              class="shrink-0 p-2 rounded-lg text-base-content/30 hover:text-error hover:bg-error/10 transition-colors"
+              title="Remove link"
+            >
+              <.icon name="hero-x-mark-micro" class="size-4" />
+            </button>
+          </div>
+        </.inputs_for>
+      </div>
+
+      <input type="hidden" name="profile[social_links_drop][]" />
+
+      <button
+        type="button"
+        name="profile[social_links_sort][]"
+        value="new"
+        phx-click={JS.dispatch("change")}
+        class="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary/70 transition-colors"
+      >
+        <.icon name="hero-plus-micro" class="size-4" /> Add link
+      </button>
+    </div>
+
+    <div class="flex items-center gap-4">
+      <.button phx-disable-with="Saving...">
+        Save changes
+      </.button>
+      <.link
+        navigate={~p"/profiles/#{@profile.handle}"}
+        class="text-sm text-base-content/55 hover:text-base-content transition-colors"
+      >
+        Cancel
+      </.link>
+    </div>
+  </.form>
+
+  <div class="mt-6 text-right">
+    <.link
+      navigate={~p"/profiles/#{@profile.handle}"}
+      class="text-sm text-primary hover:text-primary/70 transition-colors"
+    >
+      View profile &rarr;
+    </.link>
+  </div>
+</div>

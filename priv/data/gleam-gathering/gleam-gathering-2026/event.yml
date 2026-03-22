@@ -1,0 +1,13 @@
+name: "Gleam Gathering 2026"
+slug: "gleam-gathering-2026"
+kind: conference
+status: completed
+format: in_person
+start_date: "2026-02-21"
+end_date: "2026-02-21"
+timezone: "Europe/London"
+language: en
+location: "Bristol, United Kingdom"
+website: "https://gleamgathering.com"
+color: "#FFAFF3"
+description: "The first-ever dedicated Gleam conference. A celebration of the language, the community and all things Gleamy."

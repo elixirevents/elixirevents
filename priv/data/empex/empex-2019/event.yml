@@ -1,0 +1,12 @@
+name: "EMPEX NYC 2019"
+slug: "empex-2019"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-05-18"
+end_date: "2019-05-18"
+timezone: "America/New_York"
+language: en
+location: "New York, NY, USA"
+website: "https://empex.co"
+color: "#805AD5"

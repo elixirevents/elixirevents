@@ -1,0 +1,197 @@
+
+## Talks
+
+
+- title: "Geoffrey Lessel - Controlling MIDI Devices in Real Time with Elixir and Nerves"
+  slug: "geoffrey-lessel-controlling-midi-devices-in-real-time-with-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "MIDI is a specification developed in the 80s to allow musical instruments to talk to each other in near real-time. This inter-instrument talk involved sending notes, changing syntesizer patches, and modifying a song's BPM. Since the 80s, MIDI has continued to be the go-to specification for controlli"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "4o4FzOFL2eE"
+      url: "https://www.youtube.com/watch?v=4o4FzOFL2eE"
+
+- title: "Michael Ries - Nerves Takes to the Sky"
+  slug: "michael-ries-nerves-takes-to-the-sky"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 13
+  abstract: "The problem with a paper airplane, is that it always seems to turn one way or the other. I can never get them to maintain a steady course. What if Nerves was riding along as the pilot?"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "9V30iMUqQJ8"
+      url: "https://www.youtube.com/watch?v=9V30iMUqQJ8"
+
+- title: "Bruce Tate - Bring On the WorkerBees (Designing Elixir Systems with OTP)"
+  slug: "bruce-tate-bring-on-the-workerbees-designing-elixir-systems"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: '\"If you want to be a great Elixir developers, you need to learn to build your programs in layers, the way the experts do. In this session, we will explore the advice:'
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "CsmJ_xfzKxw"
+      url: "https://www.youtube.com/watch?v=CsmJ_xfzKxw"
+
+- title: "Peer Stritzinger - Erlang Ecosystem Foundation"
+  slug: "peer-stritzinger-erlang-ecosystem-foundation"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 9
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "OE9iVWOQ98w"
+      url: "https://www.youtube.com/watch?v=OE9iVWOQ98w"
+
+- title: "Jeff Grunewald - Stream-processing connected vehicle data in Elixir"
+  slug: "jeff-grunewald-stream-processing-connected-vehicle-data-in-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "“Smart” and connected vehicles generate TONS of data. To make use of that data from a fleet of vehicles for analysis of V2V interactions, traffic patterns, or control flow, you have to consume as much of it as fast as possible with high fidelity. The team at SmartColumbus has spent the last year bui"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "OKnY2hO2JdA"
+      url: "https://www.youtube.com/watch?v=OKnY2hO2JdA"
+
+- title: "Shanti Chellaram - High Performance Data Structures in Erlang"
+  slug: "shanti-chellaram-high-performance-data-structures-in-erlang"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "Writing efficient data structures in Erlang isn't something that's normally done - but by borrowing from both Purely Functional Data Structures, some additional work on Finger Trees, and occasionally cheating with some C code, we can get performance that beats the native OTP implementations. I've wr"
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "fdxhxAqxR94"
+      url: "https://www.youtube.com/watch?v=fdxhxAqxR94"
+
+- title: "Todd Resudek - It's Time to Embrace Erlang"
+  slug: "todd-resudek-its-time-to-embrace-erlang"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "About Todd: Todd is a lead software engineer at SimpleBet and member of the Hex core team. He lives in the Denver area with his family and spends his free time tinkering with Nerves projects."
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "mJb9wjUJhm4"
+      url: "https://www.youtube.com/watch?v=mJb9wjUJhm4"
+
+- title: "Jesse Anderson - Powering Pixels with Scenic"
+  slug: "jesse-anderson-powering-pixels-with-scenic"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Scenic is a powerful new library that empowers us to build our own user interfaces from scratch that work outside of the browser. Let’s put it to the test in building our very own video game. We’ll explore a variety of techniques for basic game development such as animation, finite state machines, a"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "w3L-VZtP_dY"
+      url: "https://www.youtube.com/watch?v=w3L-VZtP_dY"
+
+- title: "Ryan Trontz : Messaging Metamorphosis: Using Kafka and GenStage to..."
+  slug: "ryan-trontz-messaging-metamorphosis-using-kafka-and-genstage"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: "Messaging Metamorphosis: Using Kafka and GenStage to Transform Transactional Messaging @ Dollar Shave Club"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "xWItOcqxCE0"
+      url: "https://www.youtube.com/watch?v=xWItOcqxCE0"
+
+- title: "Peer Stritzinger - GRiSP Ecosystem for Real Bare Metal Erlang VM"
+  slug: "peer-stritzinger-grisp-ecosystem-for-real-bare-metal-erlang"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: "The Erlang and Elixir embedded software and hardware platform GRiSP is out over 3 years now and now covers Elixir and Erlang with mix and rebar3 tooling and is looking at further places where Erlang VM as a Unikernel might shine."
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "48O7jZxlORM"
+      url: "https://www.youtube.com/watch?v=48O7jZxlORM"
+
+- title: "Zack Kayser, Beau Heubach - Building Real Time Experiences with LiveView and UX Principles"
+  slug: "zack-kayser-beau-heubach-building-real-time-experiences-with"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "The need for fast and clear real-time responses are not new to user experience and application development. Instant feedback and system status are core to building better interactive interfaces. Now, our ability to deliver real-time user experiences is becoming more straightforward with the use of L"
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "cMFZbYBPfqA"
+      url: "https://www.youtube.com/watch?v=cMFZbYBPfqA"
+
+- title: "Aaron Harpole - The Case Against Scale Aaron Harpole"
+  slug: "aaron-harpole-the-case-against-scale-aaron-harpole"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Scale is a very popular topic among software engineers, and it is something many of us strive to do well, but we rarely discuss its consequences. We think of scale as an inherently good thing. After all, you can make more money, run more efficiently, and solve tough problems. But with this year's th"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7VnuaTV4BCU"
+      url: "https://www.youtube.com/watch?v=7VnuaTV4BCU"
+
+- title: "Julian Doherty - Real Time Strategy At Light Speed"
+  slug: "julian-doherty-real-time-strategy-at-light-speed"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "Real time space battle multiplayer browser games are cool. But what if we want to play a real time space battle multiplayer game where the players are hundreds of millions of miles apart, and the speed of light is a factor in who sees what happening, and when?"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "_-J09mr9AEQ"
+      url: "https://www.youtube.com/watch?v=_-J09mr9AEQ"

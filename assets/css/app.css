@@ -1,0 +1,304 @@
+/* See the Tailwind configuration guide for advanced usage
+   https://tailwindcss.com/docs/configuration */
+
+@import "tailwindcss" source(none);
+@source "../css";
+@source "../js";
+@source "../../lib/elixir_events_web";
+
+/* A Tailwind plugin that makes "hero-#{ICON}" classes available.
+   The heroicons installation itself is managed by your mix.exs */
+@plugin "../vendor/heroicons";
+
+/* daisyUI Tailwind Plugin. You can update this file by fetching the latest version with:
+   curl -sLO https://github.com/saadeghi/daisyui/releases/latest/download/daisyui.js
+   Make sure to look at the daisyUI changelog: https://daisyui.com/docs/changelog/ */
+@plugin "../vendor/daisyui" {
+  themes: false;
+}
+
+/* daisyUI theme plugin. You can update this file by fetching the latest version with:
+  curl -sLO https://github.com/saadeghi/daisyui/releases/latest/download/daisyui-theme.js
+  ElixirEvents branded themes — warm editorial aesthetic */
+@plugin "../vendor/daisyui-theme" {
+  name: "dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: oklch(20% 0.025 285);
+  --color-base-200: oklch(16% 0.02 285);
+  --color-base-300: oklch(13% 0.015 285);
+  --color-base-content: oklch(95% 0.012 285);
+  --color-primary: oklch(68% 0.17 310);
+  --color-primary-content: oklch(15% 0.05 310);
+  --color-secondary: oklch(70% 0.17 25);
+  --color-secondary-content: oklch(15% 0.04 25);
+  --color-accent: oklch(65% 0.12 170);
+  --color-accent-content: oklch(15% 0.03 170);
+  --color-neutral: oklch(30% 0.03 285);
+  --color-neutral-content: oklch(95% 0.005 285);
+  --color-info: oklch(65% 0.15 245);
+  --color-info-content: oklch(97% 0.013 236.62);
+  --color-success: oklch(65% 0.14 155);
+  --color-success-content: oklch(98% 0.014 155);
+  --color-warning: oklch(70% 0.16 70);
+  --color-warning-content: oklch(20% 0.04 70);
+  --color-error: oklch(62% 0.22 20);
+  --color-error-content: oklch(96% 0.015 20);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "../vendor/daisyui-theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(97.5% 0.005 85);
+  --color-base-200: oklch(94.5% 0.007 85);
+  --color-base-300: oklch(90% 0.01 85);
+  --color-base-content: oklch(20% 0.02 285);
+  --color-primary: oklch(45% 0.2 310);
+  --color-primary-content: oklch(97% 0.01 310);
+  --color-secondary: oklch(62% 0.2 25);
+  --color-secondary-content: oklch(98% 0.015 25);
+  --color-accent: oklch(52% 0.1 170);
+  --color-accent-content: oklch(97% 0.01 170);
+  --color-neutral: oklch(38% 0.025 285);
+  --color-neutral-content: oklch(97% 0.005 285);
+  --color-info: oklch(55% 0.18 255);
+  --color-info-content: oklch(97% 0.014 255);
+  --color-success: oklch(55% 0.14 155);
+  --color-success-content: oklch(98% 0.014 155);
+  --color-warning: oklch(66% 0.179 58.318);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(55% 0.22 20);
+  --color-error-content: oklch(96% 0.015 20);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
+
+/* ElixirEvents custom font families */
+@theme {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+/* Add variants based on LiveView classes */
+@custom-variant phx-click-loading (.phx-click-loading&, .phx-click-loading &);
+@custom-variant phx-submit-loading (.phx-submit-loading&, .phx-submit-loading &);
+@custom-variant phx-change-loading (.phx-change-loading&, .phx-change-loading &);
+
+/* Use the data attribute for dark mode  */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Make LiveView wrapper divs transparent for layout */
+[data-phx-session], [data-phx-teleported-src] { display: contents }
+
+/* === ElixirEvents Custom Styles === */
+
+/* Hide scrollbar for horizontal carousel */
+.carousel-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.carousel-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Staggered entrance animations */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* === Dropdown === */
+
+.ee-dropdown {
+  position: relative;
+}
+
+.ee-dropdown-panel {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  min-width: 12rem;
+  padding: 0.375rem;
+  border-radius: var(--radius-box);
+  border: 1px solid oklch(50% 0.02 285 / 0.15);
+  background: oklch(22% 0.025 285);
+  box-shadow: 0 8px 24px oklch(0% 0 0 / 0.35), 0 2px 8px oklch(0% 0 0 / 0.2);
+  z-index: 60;
+  opacity: 0;
+  scale: 0.95;
+  pointer-events: none;
+  transform-origin: top right;
+  transition: opacity 0.15s ease, scale 0.15s ease;
+}
+
+[data-theme="light"] .ee-dropdown-panel {
+  background: oklch(99% 0.003 85);
+  border-color: oklch(50% 0.01 85 / 0.15);
+  box-shadow: 0 8px 24px oklch(0% 0 0 / 0.12), 0 2px 8px oklch(0% 0 0 / 0.06);
+}
+
+.ee-dropdown-panel[data-state="open"] {
+  opacity: 1;
+  scale: 1;
+  pointer-events: auto;
+}
+
+.ee-dropdown-panel--end {
+  right: 0;
+}
+
+.ee-dropdown-panel--start {
+  left: 0;
+}
+
+.ee-dropdown-label {
+  display: block;
+  padding: 0.375rem 0.625rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: oklch(85% 0.01 285);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+[data-theme="light"] .ee-dropdown-label {
+  color: oklch(30% 0.02 285);
+}
+
+.ee-dropdown-divider {
+  height: 1px;
+  margin: 0.25rem 0;
+  background: oklch(50% 0.02 285 / 0.12);
+}
+
+[data-theme="light"] .ee-dropdown-divider {
+  background: oklch(50% 0.01 85 / 0.12);
+}
+
+.ee-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 0.625rem;
+  border-radius: calc(var(--radius-box) - 0.125rem);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: oklch(80% 0.01 285);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease;
+  white-space: nowrap;
+}
+
+[data-theme="light"] .ee-dropdown-item {
+  color: oklch(35% 0.02 285);
+}
+
+.ee-dropdown-item:hover {
+  background: oklch(50% 0.02 285 / 0.1);
+  color: oklch(95% 0.01 285);
+}
+
+[data-theme="light"] .ee-dropdown-item:hover {
+  background: oklch(50% 0.01 85 / 0.08);
+  color: oklch(20% 0.02 285);
+}
+
+.ee-dropdown-item--active {
+  color: oklch(75% 0.15 310);
+}
+
+[data-theme="light"] .ee-dropdown-item--active {
+  color: oklch(45% 0.2 310);
+}
+
+.ee-dropdown-item--danger {
+  color: oklch(65% 0.2 20);
+}
+
+.ee-dropdown-item--danger:hover {
+  background: oklch(65% 0.2 20 / 0.1);
+  color: oklch(70% 0.22 20);
+}
+
+/* === Avatar trigger === */
+
+.ee-avatar-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: ring 0.15s ease, opacity 0.15s ease;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.ee-avatar-trigger:hover {
+  outline-color: oklch(68% 0.17 310 / 0.5);
+}
+
+.ee-avatar-trigger img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-fade-up {
+    animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}

@@ -1,0 +1,59 @@
+- name: "Elixir"
+  slug: "elixir"
+  description: "The Elixir programming language"
+
+- name: "Phoenix"
+  slug: "phoenix"
+  description: "Phoenix web framework"
+
+- name: "LiveView"
+  slug: "liveview"
+  description: "Phoenix LiveView for real-time UIs"
+
+- name: "OTP"
+  slug: "otp"
+  description: "Open Telecom Platform"
+
+- name: "Ecto"
+  slug: "ecto"
+  description: "Database toolkit for Elixir"
+
+- name: "Nerves"
+  slug: "nerves"
+  description: "IoT and embedded systems with Elixir"
+
+- name: "Erlang"
+  slug: "erlang"
+  description: "The Erlang programming language"
+
+- name: "Testing"
+  slug: "testing"
+  description: "Testing strategies and tools"
+
+- name: "Deployment"
+  slug: "deployment"
+  description: "Deployment and operations"
+
+- name: "Machine Learning"
+  slug: "machine-learning"
+  description: "ML and AI with Elixir"
+
+- name: "Oban"
+  slug: "oban"
+  description: "Background job processing with Oban"
+
+- name: "Security"
+  slug: "security"
+  description: "Application security and secure development"
+
+- name: "Type System"
+  slug: "type-system"
+  description: "Type systems and type checking"
+
+- name: "Livebook"
+  slug: "livebook"
+  description: "Livebook interactive notebooks for Elixir"
+
+- name: "Embedded"
+  slug: "embedded"
+  description: "Embedded systems, microcontrollers, and IoT"

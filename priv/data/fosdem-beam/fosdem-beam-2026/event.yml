@@ -1,0 +1,13 @@
+name: "FOSDEM 2026 - BEAM Devroom"
+slug: "fosdem-beam-2026"
+kind: conference
+status: completed
+format: in_person
+start_date: "2026-02-01"
+end_date: "2026-02-02"
+timezone: "Europe/Brussels"
+language: en
+location: "Brussels, Belgium"
+website: "https://beam-fosdem.dev"
+color: "#E53E3E"
+description: "Erlang, Elixir, Gleam and Friends at FOSDEM 2026. A distributed BEAM devroom with talks across multiple tracks."

@@ -1,0 +1,12 @@
+name: "EMPEX 2020"
+slug: "empex-2020"
+kind: conference
+status: completed
+format: online
+start_date: "2020-10-03"
+end_date: "2020-10-03"
+timezone: "America/New_York"
+language: en
+location: "Online"
+website: "https://empex.co"
+color: "#805AD5"

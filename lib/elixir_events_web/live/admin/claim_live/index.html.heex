@@ -1,0 +1,89 @@
+<section>
+  <div class="mb-10">
+    <h1 class="font-display text-3xl sm:text-4xl font-bold text-base-content">
+      Claims
+    </h1>
+    <p class="text-base-content/55 text-lg mt-2">Manage profile and entity claims</p>
+  </div>
+
+  <%!-- Status filter --%>
+  <div class="flex flex-wrap gap-2 mb-8">
+    <.link
+      patch={~p"/admin/claims"}
+      class={"inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition-colors #{if @status_filter in [nil, ""], do: "bg-primary text-white", else: "bg-base-200 text-base-content/60 hover:text-base-content hover:bg-base-300"}"}
+    >
+      All
+    </.link>
+    <.link
+      :for={status <- ~w(pending approved rejected revoked)}
+      patch={~p"/admin/claims?status=#{status}"}
+      class={"inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition-colors #{if @status_filter == status, do: "bg-primary text-white", else: "bg-base-200 text-base-content/60 hover:text-base-content hover:bg-base-300"}"}
+    >
+      {String.capitalize(status)}
+    </.link>
+  </div>
+
+  <%!-- Claims table --%>
+  <div :if={@claims == []} class="text-base-content/55 text-lg mt-10 text-center py-20">
+    No claims found.
+  </div>
+
+  <div :if={@claims != []} class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="border-b border-base-300 text-left text-base-content/55">
+          <th class="pb-3 pr-4 font-medium">Claimant</th>
+          <th class="pb-3 pr-4 font-medium">Confirmed?</th>
+          <th class="pb-3 pr-4 font-medium">Entity</th>
+          <th class="pb-3 pr-4 font-medium">Status</th>
+          <th class="pb-3 pr-4 font-medium">Dispute?</th>
+          <th class="pb-3 pr-4 font-medium">Date</th>
+          <th class="pb-3 font-medium">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          :for={%{claim: claim, profile: profile, is_dispute: is_dispute} <- @claims}
+          class="border-b border-base-300/50 hover:bg-base-200/30"
+        >
+          <td class="py-3 pr-4 text-base-content">
+            {claim.user.email}
+          </td>
+          <td class="py-3 pr-4">
+            <span :if={claim.user.confirmed_at} class="text-green-400">Yes</span>
+            <span :if={is_nil(claim.user.confirmed_at)} class="text-amber-400">No</span>
+          </td>
+          <td class="py-3 pr-4 text-base-content">
+            <span :if={profile}>{profile.name}</span>
+            <span :if={is_nil(profile)} class="text-base-content/40">
+              {claim.claimable_type} #{claim.claimable_id}
+            </span>
+          </td>
+          <td class="py-3 pr-4">
+            <span class={[
+              "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium",
+              claim_status_class(claim.status)
+            ]}>
+              {claim.status}
+            </span>
+          </td>
+          <td class="py-3 pr-4">
+            <span :if={is_dispute} class="text-amber-400 font-medium">Yes</span>
+            <span :if={!is_dispute} class="text-base-content/40">No</span>
+          </td>
+          <td class="py-3 pr-4 text-base-content/55">
+            {Calendar.strftime(claim.inserted_at, "%b %d, %Y")}
+          </td>
+          <td class="py-3">
+            <.link
+              navigate={~p"/admin/claims/#{claim.id}"}
+              class="text-primary hover:text-primary/80 font-medium transition-colors"
+            >
+              View
+            </.link>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

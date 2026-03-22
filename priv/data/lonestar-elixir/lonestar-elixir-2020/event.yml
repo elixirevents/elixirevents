@@ -1,0 +1,12 @@
+name: "Lonestar Elixir 2020"
+slug: "lonestar-elixir-2020"
+kind: conference
+status: completed
+format: in_person
+start_date: "2020-02-27"
+end_date: "2020-02-28"
+timezone: "America/Chicago"
+language: en
+location: "Austin, TX, USA"
+website: "https://lonestarelixir.com"
+color: "#D69E2E"

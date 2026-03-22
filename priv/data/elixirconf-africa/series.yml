@@ -1,0 +1,7 @@
+name: "ElixirConf Africa"
+slug: "elixirconf-africa"
+kind: conference
+frequency: yearly
+language: en
+website: "https://elixirconf.africa"
+color: "#38A169"

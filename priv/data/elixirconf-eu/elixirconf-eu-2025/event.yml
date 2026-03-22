@@ -1,0 +1,13 @@
+name: "ElixirConf EU 2025"
+slug: "elixirconf-eu-2025"
+venue_slug: "ice-krakow"
+kind: conference
+status: completed
+format: in_person
+start_date: "2025-05-15"
+end_date: "2025-05-16"
+timezone: "Europe/Warsaw"
+language: en
+location: "Krakow, Poland"
+website: "https://www.elixirconf.eu"
+color: "#6B46C1"

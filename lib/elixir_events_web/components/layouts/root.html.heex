@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <meta
+      name="description"
+      content="The home for Elixir & BEAM events. Conferences, meetups, and talks across the Elixir ecosystem. Discover events, watch talks, and explore speakers."
+    />
+    <%!-- Favicon --%>
+    <link rel="icon" type="image/x-icon" href={~p"/favicon.ico"} />
+    <link rel="icon" type="image/svg+xml" href={~p"/images/logo.svg"} />
+    <link rel="apple-touch-icon" href={~p"/images/logo.svg"} />
+    <%!-- Open Graph --%>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ElixirEvents" />
+    <meta property="og:title" content={assigns[:page_title] || "ElixirEvents"} />
+    <meta
+      property="og:description"
+      content="The home for Elixir & BEAM events. Conferences, meetups, and talks across the Elixir ecosystem. Discover events, watch talks, and explore speakers."
+    />
+    <meta property="og:url" content="https://elixirevents.org" />
+    <%!-- Twitter Card --%>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={assigns[:page_title] || "ElixirEvents"} />
+    <meta
+      name="twitter:description"
+      content="The home for Elixir & BEAM events. Conferences, meetups, and talks across the Elixir ecosystem. Discover events, watch talks, and explore speakers."
+    />
+    <%!-- Additional metadata --%>
+    <meta name="theme-color" content="#8a3897" />
+    <meta name="application-name" content="ElixirEvents" />
+    <.live_title default="Home" suffix=" · ElixirEvents">
+      {assigns[:page_title]}
+    </.live_title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link phx-track-static rel="stylesheet" href={~p"/assets/css/app.css"} />
+    <script defer phx-track-static type="text/javascript" src={~p"/assets/js/app.js"}>
+    </script>
+    <script>
+      (() => {
+        const setTheme = (theme) => {
+          if (theme === "system") {
+            localStorage.removeItem("phx:theme");
+            document.documentElement.removeAttribute("data-theme");
+          } else {
+            localStorage.setItem("phx:theme", theme);
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        };
+        if (!document.documentElement.hasAttribute("data-theme")) {
+          setTheme(localStorage.getItem("phx:theme") || "dark");
+        }
+        window.addEventListener("storage", (e) => e.key === "phx:theme" && setTheme(e.newValue || "system"));
+
+        window.addEventListener("phx:set-theme", (e) => setTheme(e.target.dataset.phxTheme));
+      })();
+    </script>
+  </head>
+  <body class="font-body antialiased">
+    {@inner_content}
+  </body>
+</html>

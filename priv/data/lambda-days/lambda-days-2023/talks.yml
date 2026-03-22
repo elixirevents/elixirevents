@@ -1,0 +1,609 @@
+## Keynotes
+
+
+- title: "Beyond functional programming: a taste of Verse. Simon Peyton Jones & Tim Sweeney | Lambda Days 2023"
+  slug: "beyond-functional-programming-a-taste-of-verse-simon-peyton"
+  kind: keynote
+  language: en
+  duration: 72
+  abstract: "Keynote talk by Simon Peyton Jones and Tim Sweeney from Epic Games."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "OJv8rFap0Nw"
+      url: "https://www.youtube.com/watch?v=OJv8rFap0Nw"
+
+- title: "Keynote: Delimited Continuations, Demystified by Alexis King | Lambda Days 2023"
+  slug: "keynote-delimited-continuations-demystified-by-alexis-king-l"
+  kind: keynote
+  language: en
+  duration: 63
+  abstract: "Although delimited continuations are not a new idea, they have recently seen renewed interest from several programming language communities as a powerful tool for implementing schedulers and effect systems."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "TE48LsgVlIU"
+      url: "https://www.youtube.com/watch?v=TE48LsgVlIU"
+
+- title: "How to regulate Large Language Models by Filip Konopczyński | Lambda Days 2023"
+  slug: "how-to-regulate-large-language-models-by-filip-konopczynski"
+  kind: keynote
+  language: en
+  duration: 71
+  abstract: "Keynote: General Purpose, Generative or Foundation: how to regulate Large Language Models"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "IBwLGS3cSiI"
+      url: "https://www.youtube.com/watch?v=IBwLGS3cSiI"
+
+- title: "Keynote: Why Functional Programming Matters to Kids by Michał Ślaski | Lambda Days 2023"
+  slug: "keynote-why-functional-programming-matters-to-kids-by-micha"
+  kind: keynote
+  language: en
+  duration: 58
+  abstract: "A decade ago we began organising the Lambda Days conference. Over the years of hosting a conference I have learned that it is all about the people: attendees, speakers and the crew running the event. In the keynote opening the 10th anniversary edition I review what contributes to a positive conferen"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "58nD7OP4fOI"
+      url: "https://www.youtube.com/watch?v=58nD7OP4fOI"
+
+- title: "How to Find the Right Rhythm for your Software Composition by Jordan Miller | Lambda Days 2023"
+  slug: "how-to-find-the-right-rhythm-for-your-software-composition-b"
+  kind: keynote
+  language: en
+  duration: 67
+  abstract: "🎶Creating software is like composing a symphony,"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "-NggQSmcPuk"
+      url: "https://www.youtube.com/watch?v=-NggQSmcPuk"
+
+- title: "Functional infrastructure as code by Łukasz Biały | Lambda Days 2023"
+  slug: "functional-infrastructure-as-code-by-ukasz-biay-lambda-days"
+  kind: keynote
+  language: en
+  duration: 52
+  abstract: "Infrastructure as code is a problem space dominated by declarative yet not functional solutions that leave a lot to wish for. On the other hand, functional languages seem ideally positioned to support declarative yet expressive and powerful tools to manage the complexity inherent to infrastructural "
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "wDIUQ6TP640"
+      url: "https://www.youtube.com/watch?v=wDIUQ6TP640"
+
+
+## Talks
+
+
+- title: "Lambda Days 2023 - Trailer"
+  slug: "lambda-days-2023-trailer"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  abstract: "For nearly a decade, Lambda Days have brought the functional programming worlds of academia and industry together. The collision of practical application and research has offered an exciting fresh approach, regardless of your level of expertise. This year, we’re celebrating our 10th anniversary and "
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "_RcKCuvqvHk"
+      url: "https://www.youtube.com/watch?v=_RcKCuvqvHk"
+
+- title: "How great was it? Lambda Days 2023 Highlights"
+  slug: "how-great-was-it-lambda-days-2023-highlights"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "X6fLQGEUcn0"
+      url: "https://www.youtube.com/watch?v=X6fLQGEUcn0"
+
+- title: "Michał Ślaski at Lambda Days 2023"
+  slug: "micha-slaski-at-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "h8QPyNpVw8A"
+      url: "https://www.youtube.com/watch?v=h8QPyNpVw8A"
+
+- title: "The Actor Model as a Load Testing Framework by Nelson Vides | Lambda Days 2023"
+  slug: "the-actor-model-as-a-load-testing-framework-by-nelson-vides"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Scalability under load. The holy grail of much of a developer's life is that our software survives its beginning. The system went live. Made it to production. Got its first user. But surely, the true test of good software is how it lives up to expectation over its lifetime? After all, you wouldn't s"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "DXd7ld80xAU"
+      url: "https://www.youtube.com/watch?v=DXd7ld80xAU"
+
+- title: "Meta programmable functional notebooks with Livebook by José Valim | Lambda Days 2023"
+  slug: "meta-programmable-functional-notebooks-with-livebook-by-jose"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "In this talk José Valim - creator of Elixir - discusses Livebook, a computational notebook platform for Elixir: the challenges and opportunities in implementing computational notebooks for a functional language, and how we can enrich a programming environment once we have rich visualizations and int"
+  topics:
+    - elixir
+    - livebook
+  recordings:
+    - provider: youtube
+      external_id: "5Zt5TNqKhcA"
+      url: "https://www.youtube.com/watch?v=5Zt5TNqKhcA"
+
+- title: "A Hitchhiker's Guide to Linearity by Daniel Marshall | Lambda Days 2023"
+  slug: "a-hitchhikers-guide-to-linearity-by-daniel-marshall-lambda-d"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "Ever since Girard came up with linear logic back in the 1980s, computer scientists have been trying to figure out how to bring the idea of linearity into the realm of programming languages in order to demonstrate benefits in the real world."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "QtlkqJGdnuM"
+      url: "https://www.youtube.com/watch?v=QtlkqJGdnuM"
+
+- title: "Functional Programming in Postgresql by Jônatas Paganini | Lambda Days 2023"
+  slug: "functional-programming-in-postgresql-by-jonatas-paganini-lam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "The Timescaledb toolkit is a PostgreSQL extension that leverages the power of data analytics inside the SQL. Leveraging custom types and operators, it's possible to build functional pipelines directly in the SQL."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "vX8i0Bcb08I"
+      url: "https://www.youtube.com/watch?v=vX8i0Bcb08I"
+
+- title: "Adventures in the Land of Language Servers by Jakub Kozłowski | Lambda Days 2023"
+  slug: "adventures-in-the-land-of-language-servers-by-jakub-kozowski"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "HF0xVrBZqtI"
+      url: "https://www.youtube.com/watch?v=HF0xVrBZqtI"
+
+- title: "Jordan Miller @ Lambda Days 2023"
+  slug: "jordan-miller-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  abstract: "✨✨✨"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "-ZREOpAvfwI"
+      url: "https://www.youtube.com/watch?v=-ZREOpAvfwI"
+
+- title: "Kimberley Huizing at Lambda Days 2023"
+  slug: "kimberley-huizing-at-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  abstract: "✨✨✨"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "wkk-P73zhY0"
+      url: "https://www.youtube.com/watch?v=wkk-P73zhY0"
+
+- title: "Bringing LAMBDA to Excel | Lambda Days 2023"
+  slug: "bringing-lambda-to-excel-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "The world's most widely used programming language, Excel, is now Turing complete."
+  speakers:
+    - jackwilliams
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "g9_OkSFR1fg"
+      url: "https://www.youtube.com/watch?v=g9_OkSFR1fg"
+
+- title: "Composition Intuition by Conor Hoekstra | Lambda Days 2023"
+  slug: "composition-intuition-by-conor-hoekstra-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "Conor Hoekstra, Research Scientist, NVIDIA:"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Mj8jxYS-hi4"
+      url: "https://www.youtube.com/watch?v=Mj8jxYS-hi4"
+
+- title: "Mario Rogic @ Lambda Days 2023"
+  slug: "mario-rogic-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 2
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "vWHLdQg2b8Q"
+      url: "https://www.youtube.com/watch?v=vWHLdQg2b8Q"
+
+- title: "The unbearable weight of glue by Mario Rogic | Lambda Days 2023"
+  slug: "the-unbearable-weight-of-glue-by-mario-rogic-lambda-days-202"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RkiooBCkA_0"
+      url: "https://www.youtube.com/watch?v=RkiooBCkA_0"
+
+- title: "Nikhil Barthwal at Lambda Days 2023"
+  slug: "nikhil-barthwal-at-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 1
+  abstract: "✨✨✨"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qi1RQ0zr91Q"
+      url: "https://www.youtube.com/watch?v=qi1RQ0zr91Q"
+
+- title: "Building your own Trading Bot in F# by Nikhil Barthwal | Lambda Days 2023"
+  slug: "building-your-own-trading-bot-in-f-by-nikhil-barthwal-lambda"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "The objective of the talk is to show how to create a trading bot in F# and demonstrate how easily various trading strategies can be translated into functionally correct code."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "bvJmQ5qP--Y"
+      url: "https://www.youtube.com/watch?v=bvJmQ5qP--Y"
+
+- title: "Tobias Pfeiffer @ Lambda Days 2023"
+  slug: "tobias-pfeiffer-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 3
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "5hbLIteSsCk"
+      url: "https://www.youtube.com/watch?v=5hbLIteSsCk"
+
+- title: "Stories in Open Source by Tobias Pfeiffer | Lambda Days 2023"
+  slug: "stories-in-open-source-by-tobias-pfeiffer-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "What’s it like to work on Open Source projects? They’re all the same, aren’t they? No, they’re not - the longer I work on Open Source the more I realize how different the experience and feeling are for each one of them."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "WU5u2x_5QLA"
+      url: "https://www.youtube.com/watch?v=WU5u2x_5QLA"
+
+- title: "Tauri: Build Secure and Reliable Native Apps using Rust and Elm by Jonas Kruckenberg |Lambda Days 23"
+  slug: "tauri-build-secure-and-reliable-native-apps-using-rust-and-e"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Tauri is a fully open-source Rust framework that lets you build Windows, macOS, Linux, iOS and Android apps using a web-frontend and supercharged native code. And the best part? Tauri apps are tiny and super secure!"
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "kztj9iMrajo"
+      url: "https://www.youtube.com/watch?v=kztj9iMrajo"
+
+- title: "When testing just doesn’t cut it by Lars Hupel | Lambda Days 2023"
+  slug: "when-testing-just-doesnt-cut-it-by-lars-hupel-lambda-days-20"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "Writing unit tests is pretty much standard practice these days. Otherwise, how would you make sure that your code does what you expect? Yet, some software is mission-critical and merely testing a few examples – or even randomized testing – is not enough. To reach higher levels of assurance, we need "
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "dJ5Z2M9iCzk"
+      url: "https://www.youtube.com/watch?v=dJ5Z2M9iCzk"
+
+- title: "Let it Be by Ariel Alexi | Lambda Days 2023"
+  slug: "let-it-be-by-ariel-alexi-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "Are you tired of staring at a screen full of confusing error messages when working with a LISP?"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "60CSbaXF79w"
+      url: "https://www.youtube.com/watch?v=60CSbaXF79w"
+
+- title: "Concurrent All the Way Down: Functional Concurrency with Libretto by Tomas Mikula | Lambda Days 2023"
+  slug: "concurrent-all-the-way-down-functional-concurrency-with-libr"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: '\"In this talk, I will present Libretto, a Scala DSL that is concurrent by default, with no notion of a thread. The goal is for causal dependence to be the only form of sequencing. Everything else is automatically concurrent—no need to manage concurrency manually. Session types facilitate safe intera'
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jDCoR0o4qVY"
+      url: "https://www.youtube.com/watch?v=jDCoR0o4qVY"
+
+- title: "Unison: program differently by Adam Warski | Lambda Days 2023"
+  slug: "unison-program-differently-by-adam-warski-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Combined with an effect system based on abilities, Unison solves many common problems in a novel way. From editing code and publishing libraries, through avoiding dependency hell and implementing dependency injection, to running distributed computations in the cloud."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Z-fUqrvmxgo"
+      url: "https://www.youtube.com/watch?v=Z-fUqrvmxgo"
+
+- title: "Wire all the things! by Eric Torreborre | Lambda Days 2023"
+  slug: "wire-all-the-things-by-eric-torreborre-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "This talk presents three apparently different situations: protocol evolution, flexible data generation, and modular applications. In each case, the main concern is how the code can be easily wired and rewired. It turns out that a simple idea, building a list of functions and values, can help us solv"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fFCcvsbCrH8"
+      url: "https://www.youtube.com/watch?v=fFCcvsbCrH8"
+
+- title: "Keeping real-time auctions running during rollout. (...) by Rafał Studnicki | Lambda Days 2023"
+  slug: "keeping-real-time-auctions-running-during-rollout-by-rafa-st"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Keeping real-time auctions running during rollout. From white-knuckle to continuous deployments"
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "rxLeK1DlU3E"
+      url: "https://www.youtube.com/watch?v=rxLeK1DlU3E"
+
+- title: "QuickCheck Dynamic: testing hard properties and staying sane by Maximilian Algehed |Lambda Days 2023"
+  slug: "quickcheck-dynamic-testing-hard-properties-and-staying-sane"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: "Have you ever tried testing that your system fairly delivers requests to worker threads or that updates eventually reach all your nodes? These are “liveness properties” and testing them is hard work! Wouldn’t it be great if you could say roughly what your system does and what it takes for the proper"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "qimeNfslrHg"
+      url: "https://www.youtube.com/watch?v=qimeNfslrHg"
+
+- title: "Examples of easy dependently typed programming (in Idris) by Andor Penzes | Lambda Days 2023"
+  slug: "examples-of-easy-dependently-typed-programming-in-idris-by-a"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Dependently typed programming is a green field. I want to present my experiences with Idris and how dependent types would fit into everyday programming, where proofs are not relevant but software correctness is still essential. I think dependently typed programming is not only for proof engineering."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "t7d4-w_gUbc"
+      url: "https://www.youtube.com/watch?v=t7d4-w_gUbc"
+
+- title: "Predictable Systems Design with Clearly Defined Doubt & Uncertainty by K. Hammond | Lambda Days 2023"
+  slug: "predictable-systems-design-with-clearly-defined-doubt-uncert"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: "Towards Clearly Defined Doubt and Uncertainty: Probabilistic Design-Time Modelling for a Real-Time Globally Distributed Blockchain"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "RGYsP2o7yeU"
+      url: "https://www.youtube.com/watch?v=RGYsP2o7yeU"
+
+- title: "ElectricSQL | Lambda Days 2023"
+  slug: "electricsql-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: "Local-first is a new paradigm for developing apps, where you code against an embedded database in the client and have reactive, real-time, multi-user sync in the background."
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "aJh2VVEDWw4"
+      url: "https://www.youtube.com/watch?v=aJh2VVEDWw4"
+
+- title: "Why Design Your Own Levels When Your Computer Can Do It? by Thomas Gebert | Lambda Days 2023"
+  slug: "why-design-your-own-levels-when-your-computer-can-do-it-by-t"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Anyone who has played Minecraft, The Binding of Isaac, or Diablo has experienced the wonders of procedurally-generated levels in a video game, but very few ponder of the algorithms being used to drive such innovations."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "IZUp1g9GcDE"
+      url: "https://www.youtube.com/watch?v=IZUp1g9GcDE"
+
+- title: "Daml | Lambda Days 2023"
+  slug: "daml-lambda-days-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "If you like pure FP on production - take a look at Daml."
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "PzGGKlIsUrY"
+      url: "https://www.youtube.com/watch?v=PzGGKlIsUrY"
+
+
+## Lightning Talks
+
+
+- title: "Lightning Talk: Functional Females by Becca Williams | Lambda Days 2023"
+  slug: "lt-lightning-talk-functional-females-by-becca-williams-lambd"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "KbPOhcrhZio"
+      url: "https://www.youtube.com/watch?v=KbPOhcrhZio"
+
+- title: "Lightning Talk: Rules for young programmers by Michał Moroz | Lambda Days 2023"
+  slug: "lt-lightning-talk-rules-for-young-programmers-by-micha-moroz"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "XXhuw8lOAkU"
+      url: "https://www.youtube.com/watch?v=XXhuw8lOAkU"
+
+- title: "Lightning Talk: GRiSP Roadmap, great things to come by Peer Stritzinger | Lambda Days 2023"
+  slug: "lt-lightning-talk-grisp-roadmap-great-things-to-come-by-peer"
+  kind: lightning_talk
+  language: en
+  duration: 8
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "xXSWv6stLO0"
+      url: "https://www.youtube.com/watch?v=xXSWv6stLO0"
+
+- title: "Lightning Talk: The Erlang VM & Eventsourcing is a match made (...) -Yuri Leikind | Lambda Days 2023"
+  slug: "lt-lightning-talk-the-erlang-vm-eventsourcing-is-a-match-mad"
+  kind: lightning_talk
+  language: en
+  duration: 7
+  abstract: "Let's keep in touch! Follow us on:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "3_oCzMYwONs"
+      url: "https://www.youtube.com/watch?v=3_oCzMYwONs"
+
+- title: "Lightning Talk: Information Programming by Adam Vandervorst | Lambda Days 2023"
+  slug: "lt-lightning-talk-information-programming-by-adam-vandervors"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jLQ6cZ3_xrg"
+      url: "https://www.youtube.com/watch?v=jLQ6cZ3_xrg"
+
+- title: "Lightning Talk: C++ vs Haskell vs BQN by Conor Hoekstra | Lambda Days 2023"
+  slug: "lt-lightning-talk-c-vs-haskell-vs-bqn-by-conor-hoekstra-lamb"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "Let's keep in touch! Follow us on:"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "XJ3QWOSZ8Nk"
+      url: "https://www.youtube.com/watch?v=XJ3QWOSZ8Nk"

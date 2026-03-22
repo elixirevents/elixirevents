@@ -1,0 +1,412 @@
+## Keynotes
+
+
+- title: "What's Ahead for Elixir?"
+  slug: "keynote-jose-valim"
+  kind: keynote
+  language: en
+  duration: 53
+  abstract: "José Valim, Elixir Creator, is a member of the Ruby on Rails Core Team and a writer for Pragmatic Programmers. Software developer for 8 years, he graduated in Engineering from the São Paulo University, Brazil and has a Master of Science from Politecnico di Torino, Italy. He is also the lead-develope"
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "A60nxws_iVs"
+      url: "https://www.youtube.com/watch?v=A60nxws_iVs"
+
+- title: "Phoenix 1.2 and Beyond"
+  slug: "keynote-chris-mccord"
+  kind: keynote
+  language: en
+  duration: 54
+  abstract: "Chris McCord is the creator of the Phoenix framework, and author of Metaprogramming Elixir and Programming Phoenix. He spends his days crafting OSS and web applications at DockYard. His current interests focus on new web technologies, distributed programming, and teaching others the tools of the tra"
+  speakers:
+    - chrismccord
+  topics:
+    - elixir
+    - phoenix
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "n338leKvqnA"
+      url: "https://www.youtube.com/watch?v=n338leKvqnA"
+
+- title: "Enhanced Embedded Systems with Nerves"
+  slug: "keynote-justin-schneck"
+  kind: keynote
+  language: en
+  duration: 56
+  abstract: "Nerves defines an entirely new way to build embedded systems with Elixir that could revolutionize an industry. Imagine booting to the BEAM VM in just a few seconds with your Elixir app in control of the entire system. Nerves makes this possible while replacing the traditional plethora of Linux init "
+  speakers:
+    - justinschneck
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "118-g0ODfgg"
+      url: "https://www.youtube.com/watch?v=118-g0ODfgg"
+
+
+## Talks
+
+
+- title: "Credo - Analysing AST for Fun and Profit"
+  slug: "credo-analysing-ast-for-fun-and-profit"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Today's developer tools are mostly used in a very technocratic fashion where there's success and failure, 1 and 0. Either a tool thinks you're totally wrong or you're 100% right. You get shouted at or praised. There is no middle ground. Except there is. Credo, the first teaching code linter for Elix"
+  speakers:
+    - renefohring
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "gQJPusuG0vI"
+      url: "https://www.youtube.com/watch?v=gQJPusuG0vI"
+
+- title: "Building Multiplayer Games with Phoenix and Phaser"
+  slug: "building-multiplayer-games-with-phoenix-and-phaser"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Phoenix and Phaser might sound like a cheesy pop band but get these two frameworks playing nice together and you're guaranteed a party. Both are blistering fast, and incredibly easy to use. Building multiplayer games has never been easier."
+  speakers:
+    - keithsalisbury
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "I5L9_cXwBcU"
+      url: "https://www.youtube.com/watch?v=I5L9_cXwBcU"
+
+- title: "Discovering Processes"
+  slug: "discovering-processes"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: "Elixir/Erlang systems are typically powered by thousands, or sometimes even millions of processes, which, in order to work together, frequently send messages to each other. To send a message to a process, we need to obtain its process id (aka pid). In this talk I'll present various ways of achieving"
+  speakers:
+    - sasajuric
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "y_b6RTes83c"
+      url: "https://www.youtube.com/watch?v=y_b6RTes83c"
+
+- title: "Zandra Norman - Scaling Distributed Erlang"
+  slug: "zandra-norman-scaling-distributed-erlang"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "One of the great things with Erlang is how easy it is to distribute. Distributed Erlang makes applications transparent when porting them from a single computer to multiple computers in a network. There are still areas for improvement though, and the OTP team is working on improving the scalability a"
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "usEs3GPnZDg"
+      url: "https://www.youtube.com/watch?v=usEs3GPnZDg"
+
+- title: "Concurrent and Resilient Connections to Outside the BEAM"
+  slug: "concurrent-and-resilient-connections-to-outside-the-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "In Elixir applications, there's often the need to have persistent connections to external services such as TCP connections to database servers. In this talk, we'll explore how to build such connections in a way that takes advantage of some of Elixir's most appreciated features: concurrency and resil"
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "U1Ry7STEFiY"
+      url: "https://www.youtube.com/watch?v=U1Ry7STEFiY"
+
+- title: "Ecto - the Past, the Present, the Future"
+  slug: "ecto-the-past-the-present-the-future"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "With nearly 3000 commits and 200 contributors Ecto is one of the biggest and oldest Elixir repositories. Not only that - it's one of the most popular Elixir projects. And yet there's a lot happening all the time, especially now with the 2.0 release. Looking at the commit history of Ecto one can disc"
+  speakers:
+    - michamuskaa
+  topics:
+    - elixir
+    - ecto
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "msdYuidWYQA"
+      url: "https://www.youtube.com/watch?v=msdYuidWYQA"
+
+- title: "Three Games In Elixir"
+  slug: "three-games-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "We have built backends for three games in Elixir. Going to talk about what we learnedand how we did these. Also share a bit about our journey to using Elixir/Erlang."
+  speakers:
+    - roopekangas
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "QQsOYe4zyVM"
+      url: "https://www.youtube.com/watch?v=QQsOYe4zyVM"
+
+- title: "How to Build a Slack-Controlled, Saxophone-Playing Robot (...)"
+  slug: "how-to-build-a-slack-controlled-saxophone-playing-robot"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "How to Build a Slack-Controlled, Saxophone-Playing Robot (on Wheels) Using Elixir and Nerves"
+  speakers:
+    - paulwilson
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "-MzJ-HxRcVI"
+      url: "https://www.youtube.com/watch?v=-MzJ-HxRcVI"
+
+- title: "From a Ruby on Rails Monolith to Elixir and Elm Microservices"
+  slug: "from-a-ruby-on-rails-monolith-to-elixir-and-elm-microservice"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: '\"A Transmuting Journey: From a Ruby on Rails Monolith to Elixir and Elm Microservices \"'
+  speakers:
+    - volkerrabe
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ZCYEX6ZIJgM"
+      url: "https://www.youtube.com/watch?v=ZCYEX6ZIJgM"
+
+- title: "The Road to 2 Million Websocket Connections in Phoenix"
+  slug: "the-road-to-2-million-websocket-connections-in-phoenix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "This talk will discuss how the Phoenix team was able to create a single chat room with 2 million users on a single machine. Benchmarking WebSockets is a little more in depth than benchmarking HTTP requests, this talk covers the Tsung tool which was used for the benchmarks and how it can be configure"
+  speakers:
+    - garyrennie
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "c6JcVwbOGXc"
+      url: "https://www.youtube.com/watch?v=c6JcVwbOGXc"
+
+- title: "Securing Elixir Applications"
+  slug: "securing-elixir-applications"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "Every new language or framework needs time to prove itself in production, for its early adopter to try, fail, iterate, and document what they have learned. Elixir and Phoenix can leverage the 30 years head-start of the underlying Erlang platform, but for newcomers to the platform it is not always ea"
+  speakers:
+    - bramverburg
+  topics:
+    - elixir
+    - phoenix
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "r0DuAse9tK8"
+      url: "https://www.youtube.com/watch?v=r0DuAse9tK8"
+
+- title: "(...) Phoenix on Riak_Core (ElixirconfEU 2016)"
+  slug: "phoenix-on-riak-core-elixirconfeu-2016"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Experimenting with Superpowered Web Services: Phoenix on Riak_Core"
+  speakers:
+    - bentyler
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "sYYOLaJ-VDQ"
+      url: "https://www.youtube.com/watch?v=sYYOLaJ-VDQ"
+
+- title: "Phoenix Is Not Your Application"
+  slug: "phoenix-is-not-your-application"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Frameworks are a great help to web developers in all languages. The productivity increases are real, but there's a catch. Framework elements tend to entangle and overshadow an application's domain entities. This effectively chains the application to the framework. Choosing a new framework, or choosi"
+  speakers:
+    - lancehalvorsen
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "lDKCSheBc-8"
+      url: "https://www.youtube.com/watch?v=lDKCSheBc-8"
+
+
+## Lightning Talks
+
+
+- title: "Lightning Talks - Moritz Schmale"
+  slug: "lt-lightning-talks-moritz-schmale"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fdjD5QHjNH4"
+      url: "https://www.youtube.com/watch?v=fdjD5QHjNH4"
+
+- title: "Lightning Talks - Tetiana Dushenkivska"
+  slug: "lt-lightning-talks-tetiana-dushenkivska"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "GqFVgQKlEAM"
+      url: "https://www.youtube.com/watch?v=GqFVgQKlEAM"
+
+- title: "Lightning Talks - Guilherme Gonçalves Pasqualino"
+  slug: "lt-lightning-talks-guilherme-goncalves-pasqualino"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "j4BbKyRzXEY"
+      url: "https://www.youtube.com/watch?v=j4BbKyRzXEY"
+
+- title: "Lightning Talks - Andreas Böhrnsen"
+  slug: "lt-lightning-talks-andreas-bohrnsen"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "NOP8vgDzlLA"
+      url: "https://www.youtube.com/watch?v=NOP8vgDzlLA"
+
+- title: "Lightning Talks - Ley Missailidis"
+  slug: "lt-lightning-talks-ley-missailidis"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "EI1oDiQyz_o"
+      url: "https://www.youtube.com/watch?v=EI1oDiQyz_o"
+
+- title: "Lightning Talks - Sergii Boiko"
+  slug: "lt-lightning-talks-sergii-boiko"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "k3OHyzUhiOU"
+      url: "https://www.youtube.com/watch?v=k3OHyzUhiOU"
+
+- title: "Lightning Talks - Jakub Pawlowicz"
+  slug: "lt-lightning-talks-jakub-pawlowicz"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "wDBNDPD9_Gw"
+      url: "https://www.youtube.com/watch?v=wDBNDPD9_Gw"
+
+- title: "Lightning Talks - Przemyslaw Krowinski"
+  slug: "lt-lightning-talks-przemyslaw-krowinski"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ZwaTWFkDARI"
+      url: "https://www.youtube.com/watch?v=ZwaTWFkDARI"
+
+- title: "Lightning Talks - Martin Schürrer"
+  slug: "lt-lightning-talks-martin-schurrer"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Kh6m4EQBb0k"
+      url: "https://www.youtube.com/watch?v=Kh6m4EQBb0k"
+
+- title: "Lightning Talks - Wojtek Mach"
+  slug: "lt-lightning-talks-wojtek-mach"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "5EtV2JUU0Z4"
+      url: "https://www.youtube.com/watch?v=5EtV2JUU0Z4"
+
+- title: "Lightning Talks - Magnus Rex"
+  slug: "lt-lightning-talks-magnus-rex"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "KET0j2Uog-U"
+      url: "https://www.youtube.com/watch?v=KET0j2Uog-U"

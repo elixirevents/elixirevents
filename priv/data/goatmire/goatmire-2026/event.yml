@@ -1,0 +1,13 @@
+name: "Goatmire Elixir & NervesConf EU 2026"
+slug: "goatmire-2026"
+kind: conference
+status: confirmed
+format: in_person
+start_date: "2026-09-30"
+end_date: "2026-10-02"
+timezone: "Europe/Stockholm"
+language: en
+location: "Varberg, Sweden"
+website: "https://goatmire.com"
+color: "#48BB78"
+description: "A gathering emphasizing the people, the intent, and the willingness to engage. Day 1 focused on Nerves/NervesConf EU."

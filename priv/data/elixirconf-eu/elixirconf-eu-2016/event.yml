@@ -1,0 +1,12 @@
+name: "ElixirConf EU 2016"
+slug: "elixirconf-eu-2016"
+kind: conference
+status: completed
+format: in_person
+start_date: "2016-05-23"
+end_date: "2016-05-24"
+timezone: "Europe/Berlin"
+language: en
+location: "Berlin, Germany"
+website: "https://www.elixirconf.eu/2016"
+color: "#6B46C1"

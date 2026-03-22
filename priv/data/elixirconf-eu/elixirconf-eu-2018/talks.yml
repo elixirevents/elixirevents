@@ -1,0 +1,357 @@
+## Keynotes
+
+
+- title: "Keynote: Building a Task Queue System - Evadne Wu - ElixirConf EU 2018"
+  slug: "keynote-wu"
+  kind: keynote
+  language: en
+  duration: 61
+  abstract: "Most applications have background jobs that require managing. While a basic queue implementation is simple to write, it could riddle your system with tight coupling, and straddle the developers with multiple nearly-duplicate implementations."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "tytHbbjeHMM"
+      url: "https://www.youtube.com/watch?v=tytHbbjeHMM"
+
+- title: "Keynote: Introducing HDD: Hughes Driven Development - José Valim - Elixir Conf EU 2018"
+  slug: "keynote-valim"
+  kind: keynote
+  language: en
+  duration: 57
+  abstract: 'The next two Elixir releases, v1.6 and v1.7, will include a code formatter and a property-based testing functionality as part of the standard library. The code formatter is built on top of document algebra, an idea introduced by Hughes in \"The Design of a Pretty-Printing Library\", and property-based'
+  topics:
+    - elixir
+    - testing
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "x2ckfhqB9nA"
+      url: "https://www.youtube.com/watch?v=x2ckfhqB9nA"
+
+
+## Talks
+
+
+- title: "Ship Your Code While It's Hot - Albert Zak - ElixirConf EU 2018"
+  slug: "ship-your-code-while-its-hot-albert-zak-elixirconf-eu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "You built an app with Elixir, and now you want to deploy it. Of course, you'll also want to ship upgrades, with no downtime, multiple times a day. Learn about an exciting and different kind of build pipeline that aims to make deployments boring non-events. Setting up a Continuous Delivery pipeline u"
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "KGNfqiVF234"
+      url: "https://www.youtube.com/watch?v=KGNfqiVF234"
+
+- title: "SOLID Elixir - Georgina McFadyen - ElixirConf EU 2018"
+  slug: "solid-elixir-georgina-mcfadyen-elixirconf-eu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 46
+  abstract: "Design is an important part of Software Development, and plays a key role in creating extendible maintainable solutions."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "eldYot7uxUc"
+      url: "https://www.youtube.com/watch?v=eldYot7uxUc"
+
+- title: "Going low level with TCP sockets and :gen_tcp - Orestis Markou - ElixirConf EU 2018"
+  slug: "going-low-level-with-tcp-sockets-and-gen-tcp-orestis-markou"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: "TCP sockets are used everywhere, though most of the time the details are hidden in high-level APIs and protocols. However, the BEAM makes writing such low-level network code a breeze — this talk will give a brief overview of how Erlang’s built-in :gen_tcp can be used to build low-level client and se"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "-FiQhkV7JYk"
+      url: "https://www.youtube.com/watch?v=-FiQhkV7JYk"
+
+- title: "Phoenix and the World of Tomorrow - Ley Missailidis - ElixirConf EU 2018"
+  slug: "phoenix-and-the-world-of-tomorrow-ley-missailidis-elixirconf"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: "Phoenix has already proven to be the framework of choice when dealing with a large number of users, on possibly intermittent connections, and all that other well architected Erlang stuff. Which is great when you are behaving as a responsible---ish adult on the backend of the site."
+  topics:
+    - elixir
+    - phoenix
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "qR5u6HiBn50"
+      url: "https://www.youtube.com/watch?v=qR5u6HiBn50"
+
+- title: "Coupling Data and Behaviour - Guilherme de Maio - ElixirConf EU 2018"
+  slug: "coupling-data-and-behaviour-guilherme-de-maio-elixirconf-eu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "Although the mystical land of functional programming preaches separation of data and behavior, keeping everything explicit, there are cases when coupling those (or dispatching based on type) are useful. This talks is about when, how and why to couple data and behavior, showcasing real code where Eli"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fnfcYKq373w"
+      url: "https://www.youtube.com/watch?v=fnfcYKq373w"
+
+- title: "He Has the Nerve - Justin Scheck - Elixironf EU 2018"
+  slug: "he-has-the-nerve-justin-scheck-elixironf-eu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "jmkq4SwV2Ss"
+      url: "https://www.youtube.com/watch?v=jmkq4SwV2Ss"
+
+- title: "Property-based Testing is a Mindset - Andrea Leopardi - ElixirConf EU 2018"
+  slug: "property-based-testing-is-a-mindset-andrea-leopardi-elixirco"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Property-based testing is a technique that allows to reduce the number of unit tests and at the same time increase the robustness of a test suite by introducing randomness. It also changes the way you think about code. We now have a robust property testing library in Elixir, so time to jump into it!"
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "p84DMv8TQuo"
+      url: "https://www.youtube.com/watch?v=p84DMv8TQuo"
+
+- title: "The Phoenix Boot Process - Xavier Noria - ElixirConf EU 2018"
+  slug: "the-phoenix-boot-process-xavier-noria-elixirconf-eu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 49
+  abstract: "This talk covers how Phoenix boots. There are pointers to important spots in the source code, but the talk is not a walkthrough, it digests the boot process and presents it in a way that is intended to be didactic for end-users."
+  topics:
+    - elixir
+    - phoenix
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "dcLryii0kgQ"
+      url: "https://www.youtube.com/watch?v=dcLryii0kgQ"
+
+- title: "Fleet management solution for autonomous vehicles - Serge Boucher - ElixirConf Eu 2018"
+  slug: "fleet-management-solution-for-autonomous-vehicles-serge-bouc"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "O2gQc4Kh4-Y"
+      url: "https://www.youtube.com/watch?v=O2gQc4Kh4-Y"
+
+- title: "Robust Data Processing Pipeline with Elixir and Flow - Laszlo Bacsi  - ElixirConf EU 2018"
+  slug: "robust-data-processing-pipeline-with-elixir-and-flow-laszlo"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: 'It doesn''t matter if you have \"big data\" or \"small data\" if you need to import and process it in near realtime you want to have a system that is robust and maintainable. This is where the failure tolerance and scalability of Erlang/OTP, the expressiveness of Elixir, and the flexibility of Flow and G'
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "3XL-31nqcX4"
+      url: "https://www.youtube.com/watch?v=3XL-31nqcX4"
+
+- title: "Building communication platforms for IoT - Troels Brødsgaard - ElixirConf EU 2018"
+  slug: "building-communication-platforms-for-iot-troels-brdsgaard-el"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "In the EcoGrid 2.0 project, we're researching how to optimize power consumption to enable integration of more renewable energy in the electricity grid. We remotely control a thousand heat pumps and electric heating panels, using different kinds of off-the-shelf home energy management systems. We're "
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "QjWl4kjdIgQ"
+      url: "https://www.youtube.com/watch?v=QjWl4kjdIgQ"
+
+- title: "Rewriting a legacy application in Elixir - Raphael Costa - ElixirConf Eu 2018"
+  slug: "rewriting-a-legacy-application-in-elixir-raphael-costa-elixi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: "My company had a legacy application to deal with (around 100,000 LOC), and it was starting to take it’s toll on the team. Lack of consistency through the codebase, code that is hard to understand, constant rewrites because new code seemed to become legacy in a matter of weeks. It was like the applic"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "P9z9UIidVxE"
+      url: "https://www.youtube.com/watch?v=P9z9UIidVxE"
+
+- title: "Instrumenting mayhem: functional chaos engineering - Szymon Mentel - ElixirConf EU 2018"
+  slug: "instrumenting-mayhem-functional-chaos-engineering-szymon-men"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "In this talk we explore the basics of Chaos Engineering. We take a look at an system design that supports conducting chaos experiments and then we dive into some more low level approaches to injecting faults into a system under test."
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "ALL7n7FaOf4"
+      url: "https://www.youtube.com/watch?v=ALL7n7FaOf4"
+
+- title: "Orchestrating Consumers and Producers Like an Octopus - Jusabe Guedes - ElixirConfEU 2018"
+  slug: "orchestrating-consumers-and-producers-like-an-octopus-jusabe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "Imagine a scenario, where a queue needs to be consumed and each element must pass through a pipeline; the results may then go to different buckets. Each bucket must work independently, making sure all elements are correctly processed and flushed whenever possible."
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "_4ENJB3qkLo"
+      url: "https://www.youtube.com/watch?v=_4ENJB3qkLo"
+
+- title: "Building videochat with Elixir and Phoenix - Anil Wadghule - ElixirConf EU 2018"
+  slug: "building-videochat-with-elixir-and-phoenix-anil-wadghule-eli"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "Anil Wadghule reports back on the videochat system he has been building with Elixir and Phoenix."
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "-n5IlXBOaBE"
+      url: "https://www.youtube.com/watch?v=-n5IlXBOaBE"
+
+- title: "Event-driven architectures in Elixir - Maciej Kaszubowski - ElixirConf EU 2018"
+  slug: "event-driven-architectures-in-elixir-maciej-kaszubowski-elix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Have you ever worked on a huge, poorly designed, monolithic application? Because of tight coupling, such applications are really hard to change and understand. The only solution is to migrate to microservices, right? Actually, there's another way."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "8qDXG7tnl9w"
+      url: "https://www.youtube.com/watch?v=8qDXG7tnl9w"
+
+- title: "SSH server/client in Erlang - Milad Rastian - ElixirConf EU 2018"
+  slug: "ssh-serverclient-in-erlang-milad-rastian-elixirconf-eu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "Most Elixir developers know about the Erlang SSH module but they may be unaware of just how flexible it is."
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "66sNfqOrSJw"
+      url: "https://www.youtube.com/watch?v=66sNfqOrSJw"
+
+- title: "State and distributed data structures - Arkadiusz Gil - ElixirConf EU 2018"
+  slug: "state-and-distributed-data-structures-arkadiusz-gil-elixirco"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: 'For many people the answer to the question \"Why Elixir?\" is simply \"Because of the message exchange between nodes\". This great property is unfortunately often misused or omitted altogether. When our applications become stateful and we need to coordinate that state between multiple nodes, the go to s'
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "VmRr67yW6kU"
+      url: "https://www.youtube.com/watch?v=VmRr67yW6kU"
+
+- title: "Knee Deep Into P2P - Fernando Mendes - ElixirConfEU 2018"
+  slug: "knee-deep-into-p2p-fernando-mendes-elixirconfeu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "What happens when you don't like centralized things? You do P2P! I created a distributed smart office using Elixir that runs in a single P2P network. There are a lot of subtleties into this. How can we prevent someone from entering the network? How do we manage shared data? What topology do we use? "
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Y545Tp6iM28"
+      url: "https://www.youtube.com/watch?v=Y545Tp6iM28"
+
+- title: "ElixirConf EU 2018 Highlights Video"
+  slug: "elixirconf-eu-2018-highlights-video"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 4
+  abstract: "The 2019 edition will take place in Prague between 8-9 April with training on 10 April. Would you like to be a speaker at this year's conference? Call for talks is open, José Valim and Chris McCord are confirmed to keynote again."
+  speakers:
+    - chrismccord
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ncv-D8GbNBg"
+      url: "https://www.youtube.com/watch?v=ncv-D8GbNBg"
+
+- title: "Let's do Elixir and Phoenix together - Chris McCord - ElixirConf EU 2018"
+  slug: "lets-do-elixir-and-phoenix-together-chris-mccord-elixirconf"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Are you going to be in london on 16 AUG 2018? Why not attend Code Elixir, a one day Elixir conference from our partners Code Sync?"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "MTT1Jl4Fs-E"
+      url: "https://www.youtube.com/watch?v=MTT1Jl4Fs-E"
+
+- title: "SPAs Without the SPA - Ian Duggan - ElixirConf EU 2018"
+  slug: "spas-without-the-spa-ian-duggan-elixirconf-eu-2018"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Are you jealous of how quickly your Javascript friends can whip up front-end single page applications? Confused about React, Angular, Vue, and all that other nonsense?"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "j-sKlKvZrfY"
+      url: "https://www.youtube.com/watch?v=j-sKlKvZrfY"

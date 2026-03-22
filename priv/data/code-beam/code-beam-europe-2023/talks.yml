@@ -1,0 +1,744 @@
+## Keynotes
+
+
+- title: "Speaking Openly about Accomplishments and Overcoming Imposter Syndrome - Code BEAM Europe 2023"
+  slug: "speaking-openly-about-accomplishments-and-overcoming-imposte"
+  kind: keynote
+  language: en
+  duration: 54
+  abstract: "A keynote talk by Ioana Rosu from Code BEAM Europe 2023:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "4WL6iOqXew0"
+      url: "https://www.youtube.com/watch?v=4WL6iOqXew0"
+
+
+## Talks
+
+
+- title: "A Year in Production with Machine Learning on the BEAM | Code BEAM Europe 23"
+  slug: "a-year-in-production-with-machine-learning-on-the-beam-code"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 47
+  abstract: "Christopher Grainger shares his experience with Machine Learning with Elixir ecosystem:"
+  speakers:
+    - christophergrainger
+  topics:
+    - elixir
+    - erlang
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "HP86Svk4hzI"
+      url: "https://www.youtube.com/watch?v=HP86Svk4hzI"
+
+- title: "Apocalypse How? New Rules For Writing Code in the Newfound Era of Ethical Ambiguity - Randall Thomas"
+  slug: "apocalypse-how-new-rules-for-writing-code-in-the-newfound-er"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Let's keep in touch! Follow us on:"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "PIM6jcQGEhs"
+      url: "https://www.youtube.com/watch?v=PIM6jcQGEhs"
+
+- title: "Fully Utilizing the BEAM: José Valim and Saša Jurić in live podcast episode hosted by Lars Wikman"
+  slug: "fully-utilizing-the-beam-jose-valim-and-sasa-juric-in-live-p"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "Whether you do Elixir, Erlang, Gleam or any of the others you are running on top of a uniquely capable runtime. The BEAM has a reputation for rock-solid reliability and unique facilities in realtime, concurrency and.. well, you've probably heard it all before."
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "ZZrgOyQafHs"
+      url: "https://www.youtube.com/watch?v=ZZrgOyQafHs"
+
+- title: "Against the Grain by Saša Jurić | Code BEAM Europe 2023"
+  slug: "against-the-grain-by-sasa-juric-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "iVHpFoDXim4"
+      url: "https://www.youtube.com/watch?v=iVHpFoDXim4"
+
+- title: "Observability at Scale by Natalia Chechina | Code BEAM Europe 2023"
+  slug: "observability-at-scale-by-natalia-chechina-code-beam-europe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "qYW63O2E7fU"
+      url: "https://www.youtube.com/watch?v=qYW63O2E7fU"
+
+- title: "Building and growing the community by Sigu Magwa and Njoki Kiarie | Code BEAM Europe 2023"
+  slug: "building-and-growing-the-community-by-sigu-magwa-and-njoki-k"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "1nHy67HRZyY"
+      url: "https://www.youtube.com/watch?v=1nHy67HRZyY"
+
+- title: "Refactoring Made Easy | Code BEAM Europe 2023"
+  slug: "refactoring-made-easy-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 17
+  abstract: "Abstract:"
+  speakers:
+    - alanzimmerman
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Lrn6ReSexgs"
+      url: "https://www.youtube.com/watch?v=Lrn6ReSexgs"
+
+- title: "TDD ❤️ Erlang by Brujo Benavides | Code BEAM Europe 2023"
+  slug: "tdd-erlang-by-brujo-benavides-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "About the talk:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "AH2DVMK7n6I"
+      url: "https://www.youtube.com/watch?v=AH2DVMK7n6I"
+
+- title: "BEAM: The Perfect Fit for Networks | Code BEAM Europe 2023"
+  slug: "beam-the-perfect-fit-for-networks-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "Abstract:"
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "pSrbsM0ieH8"
+      url: "https://www.youtube.com/watch?v=pSrbsM0ieH8"
+
+- title: "Scaling CLIP based Natural Language Media Search with Bumblebee and Broadway by Raj Rajhans"
+  slug: "scaling-clip-based-natural-language-media-search-with-bumble"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "Abstract:"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7NEOWfFm3Os"
+      url: "https://www.youtube.com/watch?v=7NEOWfFm3Os"
+
+- title: "etylizer: Set-theoretic Types for Erlang by Annette Bieniusa, Albert Schimpf | Code BEAM Europe 2023"
+  slug: "etylizer-set-theoretic-types-for-erlang-by-annette-bieniusa"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "O7Lg0HoJwVw"
+      url: "https://www.youtube.com/watch?v=O7Lg0HoJwVw"
+
+- title: "The Design Principles of the Elixir Type System | Code BEAM Europe 2023"
+  slug: "the-design-principles-of-the-elixir-type-system-code-beam-eu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "Abstract:"
+  speakers:
+    - guillaumeduboc
+  topics:
+    - elixir
+    - erlang
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "eBzoZWgZ334"
+      url: "https://www.youtube.com/watch?v=eBzoZWgZ334"
+
+- title: "Code as infrastructure in the BEAM ecosystem | Code BEAM Europe 2023"
+  slug: "code-as-infrastructure-in-the-beam-ecosystem-code-beam-europ"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: "Abstract:"
+  speakers:
+    - jadeallen
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "hkXBQ7VK1a8"
+      url: "https://www.youtube.com/watch?v=hkXBQ7VK1a8"
+
+- title: "Update from the OTP Team | Code BEAM Europe 2023"
+  slug: "update-from-the-otp-team-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 12
+  abstract: "Latest changes and plans from the OTP Team."
+  speakers:
+    - ingelaandin
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "noWvFgooh6M"
+      url: "https://www.youtube.com/watch?v=noWvFgooh6M"
+
+- title: "Craft your domain-specific query language with NimbleParsec and Ecto | Code BEAM Europe"
+  slug: "craft-your-domain-specific-query-language-with-nimbleparsec"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: 'Imagine you want to ask your API \"\"List all devices which are not located in Europe and are currently connected or are either tagged ''maintenance'' or ''retired''\"\". Expressing this kind of selection with query parameters quickly becomes unwieldy, and even a more structured query language like GraphQL '
+  topics:
+    - elixir
+    - ecto
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "T4komUAGMp8"
+      url: "https://www.youtube.com/watch?v=T4komUAGMp8"
+
+- title: "Update from the Elixir Core Team | Code BEAM Europe 2023"
+  slug: "update-from-the-elixir-core-team-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "What the Elixir team has done in the last few months, what projects they’re working on, what’s going on on the research side, and what features will be in the next release."
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - erlang
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "xQ5V3_edi20"
+      url: "https://www.youtube.com/watch?v=xQ5V3_edi20"
+
+- title: "Introducing Bondy: The IoT, Web and Mobile Platform by Alejandro Ramallo | Code BEAM Europe 2023"
+  slug: "introducing-bondy-the-iot-web-and-mobile-platform-by-alejand"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "19neQdxbYGM"
+      url: "https://www.youtube.com/watch?v=19neQdxbYGM"
+
+- title: "Reimplementing technical debt with state machines by Nelson Vides & Paweł Chrząszcz | Code BEAM"
+  slug: "reimplementing-technical-debt-with-state-machines-by-nelson"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "SWvv3XO6jNs"
+      url: "https://www.youtube.com/watch?v=SWvv3XO6jNs"
+
+- title: "Want to hear about code smells in Elixir? See you at Code BEAM Europe 2023!"
+  slug: "want-to-hear-about-code-smells-in-elixir-see-you-at-code-bea"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 1
+  abstract: "Why should you work on code smells and refactoring?"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "wX3SftkXuAE"
+      url: "https://www.youtube.com/watch?v=wX3SftkXuAE"
+
+- title: "Exploring code smells in Elixir by Elaine Watanabe | Code BEAM Europe 2023"
+  slug: "exploring-code-smells-in-elixir-by-elaine-watanabe-code-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "6r5b574ttV8"
+      url: "https://www.youtube.com/watch?v=6r5b574ttV8"
+
+- title: "Do You Really Need Processes? by Brian Underwood | Code BEAM Europe 2023"
+  slug: "do-you-really-need-processes-by-brian-underwood-code-beam-eu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "3vEhHmESf5Q"
+      url: "https://www.youtube.com/watch?v=3vEhHmESf5Q"
+
+- title: "End-to-end types: full-stack Web apps with Gleam by Hayleigh Thompson | Code BEAM Europe 2023"
+  slug: "end-to-end-types-full-stack-web-apps-with-gleam-by-hayleigh"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "eVtkYQva0Ic"
+      url: "https://www.youtube.com/watch?v=eVtkYQva0Ic"
+
+- title: "Building Trust in Open Networks by Ingela Andin | Code BEAM Europe 2023"
+  slug: "building-trust-in-open-networks-by-ingela-andin-code-beam-eu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "YXKTTfA6HDM"
+      url: "https://www.youtube.com/watch?v=YXKTTfA6HDM"
+
+- title: "Deumbrellization – cheap microservices by Artur Sulej | Code BEAM Europe 2023"
+  slug: "deumbrellization-cheap-microservices-by-artur-sulej-code-bea"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "wMQuSg3_ybI"
+      url: "https://www.youtube.com/watch?v=wMQuSg3_ybI"
+
+- title: "Hypermnesia: Auto reconciliation in Mnesia by Vincent Liu | Code BEAM Europe 2023"
+  slug: "hypermnesia-auto-reconciliation-in-mnesia-by-vincent-liu-cod"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "tHdPRyMjmW8"
+      url: "https://www.youtube.com/watch?v=tHdPRyMjmW8"
+
+- title: "Don’t let it crash & Dániel Horpácsi | Code BEAM"
+  slug: "dont-let-it-crash-daniel-horpacsi-code-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Abstract:"
+  speakers:
+    - danielhorpacsi
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "0kGbRpd2DYg"
+      url: "https://www.youtube.com/watch?v=0kGbRpd2DYg"
+
+- title: "The Tamagotchi in my Hands: Anarcho-transhumanist Biohacking with Nerves | Code BEAM"
+  slug: "the-tamagotchi-in-my-hands-anarcho-transhumanist-biohacking"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Abstract:"
+  speakers:
+    - quinnwilton
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "1hiJjHFdZbQ"
+      url: "https://www.youtube.com/watch?v=1hiJjHFdZbQ"
+
+- title: "Building analytic systems with Elixir by Dmitry Russ | Code BEAM Europe 2023"
+  slug: "building-analytic-systems-with-elixir-by-dmitry-russ-code-be"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "1eYIo55dgf0"
+      url: "https://www.youtube.com/watch?v=1eYIo55dgf0"
+
+- title: "Bits and Pieces by Sebastian Weddmark Olsson | Code BEAM Europe 2023"
+  slug: "bits-and-pieces-by-sebastian-weddmark-olsson-code-beam-europ"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 16
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "BsbuQxapuro"
+      url: "https://www.youtube.com/watch?v=BsbuQxapuro"
+
+- title: "Building Multiplayer Tetris from scratch with OTP, Elixir, and Phoenix by Merlin Webster | Code BEAM"
+  slug: "building-multiplayer-tetris-from-scratch-with-otp-elixir-and"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - phoenix
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "87iFws4c78s"
+      url: "https://www.youtube.com/watch?v=87iFws4c78s"
+
+- title: "Fuzzing the Erlang ecosystem by Robin Morisset | Code BEAM Europe 2023"
+  slug: "fuzzing-the-erlang-ecosystem-by-robin-morisset-code-beam-eur"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "NMYy3EgWze0"
+      url: "https://www.youtube.com/watch?v=NMYy3EgWze0"
+
+- title: "Prototyping a remote-controlled telescope with Elixir by Lucas Sifoni | Code BEAM Europe 2023"
+  slug: "prototyping-a-remote-controlled-telescope-with-elixir-by-luc"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "q7bleFzA11c"
+      url: "https://www.youtube.com/watch?v=q7bleFzA11c"
+
+- title: "Building Jellyfish: multimedia server powered by Membrane & Phoenix | Code BEAM Europe"
+  slug: "building-jellyfish-multimedia-server-powered-by-membrane-pho"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: "Abstract:"
+  speakers:
+    - ukaszwala
+  topics:
+    - elixir
+    - phoenix
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "HyrAymnUZiM"
+      url: "https://www.youtube.com/watch?v=HyrAymnUZiM"
+
+- title: "LiveView: Best Practices for Building Real-Time Interactive Interfaces | Code BEAM"
+  slug: "liveview-best-practices-for-building-real-time-interactive-i"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Abstract:"
+  speakers:
+    - herminiotorres
+  topics:
+    - elixir
+    - liveview
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "uvyULSB7cFo"
+      url: "https://www.youtube.com/watch?v=uvyULSB7cFo"
+
+- title: "ChatGPT as your Erlang coach by Georgiana Chelu | Code BEAM Europe 2023"
+  slug: "chatgpt-as-your-erlang-coach-by-georgiana-chelu-code-beam-eu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "Sj2vXbyh1OM"
+      url: "https://www.youtube.com/watch?v=Sj2vXbyh1OM"
+
+- title: "What the shell | Code BEAM Europe 2023"
+  slug: "what-the-shell-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "FwdS6E4kSMc"
+      url: "https://www.youtube.com/watch?v=FwdS6E4kSMc"
+
+- title: "Empowering Edge Devices with Lightweight Neural Network Inference Framework by Cocoa Xu"
+  slug: "empowering-edge-devices-with-lightweight-neural-network-infe"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "EN7uU81ncnk"
+      url: "https://www.youtube.com/watch?v=EN7uU81ncnk"
+
+- title: "Erlang Language Platform: Revolutionizing the Erlang Development Experience"
+  slug: "erlang-language-platform-revolutionizing-the-erlang-developm"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "lQzppfC11O0"
+      url: "https://www.youtube.com/watch?v=lQzppfC11O0"
+
+- title: "Khepri: Replacing Mnesia in RabbitMQ by Michael Davis | Code BEAM Europe 2023"
+  slug: "khepri-replacing-mnesia-in-rabbitmq-by-michael-davis-code-be"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  abstract: "Abstract:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "whVqpgvep90"
+      url: "https://www.youtube.com/watch?v=whVqpgvep90"
+
+- title: "How I grew to love Erlang type specs | Code BEAM Europe 2023"
+  slug: "how-i-grew-to-love-erlang-type-specs-code-beam-europe-2023"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: "Abstract:"
+  speakers:
+    - marcsugiyama
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "yAkvVHnAKNI"
+      url: "https://www.youtube.com/watch?v=yAkvVHnAKNI"
+
+
+## Lightning Talks
+
+
+- title: "Structs for Erlang | Code BEAM Europe 2023"
+  slug: "lt-structs-for-erlang-code-beam-europe-2023"
+  kind: lightning_talk
+  language: en
+  duration: 10
+  abstract: "There is a number of problems if you want to try and run Elixir code from Erlang, and this talk will discuss one of them: that Elixir uses structs. A proof of concept, by means of a simple parse transform, will enable an Erlang module to be able to call Elixir code and harness the full capabilities "
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "3m1JSq75C3g"
+      url: "https://www.youtube.com/watch?v=3m1JSq75C3g"
+
+- title: "Erlang and Elixir on IoT devices using AtomVM | Code BEAM Europe 2023"
+  slug: "lt-erlang-and-elixir-on-iot-devices-using-atomvm-code-beam-e"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  abstract: '\"This talk will present AtomVM, a tiny portable virtual machine that allows Elixir and Erlang code to run on microcontrollers with less than 500KB of RAM such as the ESP32 or several STM32.'
+  topics:
+    - elixir
+    - nerves
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "m9hX9hzQ4F4"
+      url: "https://www.youtube.com/watch?v=m9hX9hzQ4F4"
+
+- title: "Fighting the Behemoth | Code BEAM Europe 2023"
+  slug: "lt-fighting-the-behemoth-code-beam-europe-2023"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "Fighting the Behemoth: turning a 2500-LOC module into some actually readable, testable Elixir code"
+  topics:
+    - elixir
+    - erlang
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "gdB9sBCjFnc"
+      url: "https://www.youtube.com/watch?v=gdB9sBCjFnc"
+
+- title: "EEF - community engagement | Code BEAM Europe 2023"
+  slug: "lt-eef-community-engagement-code-beam-europe-2023"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "An Update from the Erlang Ecosystem Foundation."
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "poXalAQx6Ws"
+      url: "https://www.youtube.com/watch?v=poXalAQx6Ws"
+
+- title: "Becoming a Stronger Developer | Code BEAM Europe 2023"
+  slug: "lt-becoming-a-stronger-developer-code-beam-europe-2023"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  abstract: "Dennis Palmer:"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "NSOMLqAlgfQ"
+      url: "https://www.youtube.com/watch?v=NSOMLqAlgfQ"
+
+- title: "Kraken | Code BEAM Europe 2023"
+  slug: "lt-kraken-code-beam-europe-2023"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "9OLHkhHH5WE"
+      url: "https://www.youtube.com/watch?v=9OLHkhHH5WE"

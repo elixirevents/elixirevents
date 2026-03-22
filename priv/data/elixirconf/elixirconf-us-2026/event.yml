@@ -1,0 +1,13 @@
+name: "ElixirConf US 2026"
+slug: "elixirconf-us-2026"
+kind: conference
+status: confirmed
+format: hybrid
+start_date: "2026-09-10"
+end_date: "2026-09-11"
+timezone: "America/Chicago"
+language: en
+location: "Chicago, IL, USA"
+website: "https://elixirconf.com"
+color: "#6B46C1"
+description: "America's premier Elixir & Phoenix conference. 30+ sessions covering production war stories, LiveView, security, performance, AI, and more."

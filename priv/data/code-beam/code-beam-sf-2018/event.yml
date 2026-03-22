@@ -1,0 +1,12 @@
+name: "Code BEAM SF 2018"
+slug: "code-beam-sf-2018"
+kind: conference
+status: completed
+format: in_person
+start_date: "2018-03-15"
+end_date: "2018-03-16"
+timezone: "America/Los_Angeles"
+language: en
+location: "San Francisco, CA, USA"
+website: "https://codesync.global/conferences/code-beam-sf-2018"
+color: "#3182CE"

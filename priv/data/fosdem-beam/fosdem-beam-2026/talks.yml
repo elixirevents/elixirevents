@@ -1,0 +1,129 @@
+- title: "Making Web Components Work: A Framework's Perspective"
+  slug: "web-components-frameworks-perspective"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  speakers:
+    - hayleighthompson
+  topics:
+    - elixir
+  recordings: []
+
+- title: "You Do Not Need an ORM"
+  slug: "you-do-not-need-an-orm"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  speakers:
+    - giacomocavalieri
+  topics:
+    - elixir
+    - ecto
+  recordings: []
+
+- title: "Build Your Funding Toolkit"
+  slug: "build-your-funding-toolkit"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  speakers:
+    - danjanowski
+  topics:
+    - elixir
+  recordings: []
+
+- title: "Erlang/OTP's Journey Toward CRA Compliance"
+  slug: "erlang-otp-cra-compliance"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  speakers:
+    - kikofernandezreyes
+  topics:
+    - erlang
+    - security
+  recordings: []
+
+- title: "Bonfire: Building Modular, Consentful, and Federated Social Networks"
+  slug: "bonfire-modular-federated-social"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  speakers:
+    - mayeldeborniol
+    - ivanminutillo
+  topics:
+    - elixir
+    - phoenix
+  recordings: []
+
+- title: "Anatomy of a Resilient Nameserver: Concurrency, Resolution, and Protection"
+  slug: "resilient-nameserver-concurrency"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 25
+  speakers:
+    - nelsonvides
+  topics:
+    - erlang
+    - otp
+  recordings: []
+
+- title: "ElectricSQL: Query-driven Sync in TanStack DBs"
+  slug: "electricsql-query-driven-sync"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  speakers:
+    - kevindeporre
+  topics:
+    - elixir
+  recordings: []
+
+- title: "AtomVM: Elixir, Erlang, and Gleam on Microcontrollers"
+  slug: "atomvm-microcontrollers"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 15
+  speakers:
+    - davidebettio
+  topics:
+    - elixir
+    - embedded
+  recordings: []
+
+- title: "midiMESH: Network MIDI with Elixir on ESP32 via AtomVM"
+  slug: "midimesh-network-midi-atomvm"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  speakers:
+    - asepbagjapriandana
+  topics:
+    - elixir
+    - nerves
+    - embedded
+  recordings: []
+
+- title: "Bonfire: Modular Communication Tools on the Open Social Web"
+  slug: "bonfire-modular-communication"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  speakers:
+    - mayeldeborniol
+    - ivanminutillo
+  topics:
+    - elixir
+    - phoenix
+  recordings: []

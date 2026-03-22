@@ -1,0 +1,12 @@
+name: "ElixirConf EU 2022"
+slug: "elixirconf-eu-2022"
+kind: conference
+status: completed
+format: in_person
+start_date: "2022-06-09"
+end_date: "2022-06-10"
+timezone: "Europe/London"
+language: en
+location: "London, UK"
+website: "https://www.elixirconf.eu/2022"
+color: "#6B46C1"

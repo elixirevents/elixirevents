@@ -1,0 +1,13 @@
+name: "Code BEAM Lite Vancouver 2026"
+slug: "codebeam-lite-van-2026"
+kind: conference
+status: completed
+format: in_person
+start_date: "2026-03-23"
+end_date: "2026-03-23"
+timezone: "America/Vancouver"
+language: en
+location: "Vancouver, Canada"
+website: "https://codebeamvancouver.com"
+color: "#3182CE"
+description: "Full day of first-rate BEAM-related talks with Erlang, Elixir and Gleam programming language enthusiasts."

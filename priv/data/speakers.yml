@@ -1,0 +1,1454 @@
+- name: "Jose Valim"
+  slug: "josevalim"
+  headline: "Creator of Elixir"
+  bio: "Creator of the Elixir programming language and co-founder of Dashbit."
+  website: "https://dashbit.co"
+  social_links:
+    - platform: github
+      url: "https://github.com/josevalim"
+    - platform: twitter
+      url: "https://twitter.com/josevalim"
+
+- name: "Chris McCord"
+  slug: "chrismccord"
+  headline: "Creator of Phoenix"
+  bio: "Creator of the Phoenix Framework."
+  social_links:
+    - platform: github
+      url: "https://github.com/chrismccord"
+    - platform: twitter
+      url: "https://twitter.com/chris_mccord"
+
+- name: "Andrea Leopardi"
+  slug: "andrealeopardi"
+  headline: "Elixir Core Team"
+  bio: "Member of the Elixir core team and engineering manager at Community."
+  social_links:
+    - platform: github
+      url: "https://github.com/whatyouhide"
+
+- name: "Lars Wikman"
+  slug: "larswikman"
+  headline: "Underjord"
+  bio: "Elixir developer, writer, and podcaster at Underjord."
+  website: "https://underjord.io"
+  social_links:
+    - platform: github
+      url: "https://github.com/lawik"
+
+- name: "Brooklyn Zelenka"
+  slug: "brooklynzelenka"
+  headline: "Fission / IPFS"
+  bio: "CTO at Fission and distributed systems researcher."
+  social_links:
+    - platform: github
+      url: "https://github.com/expede"
+
+- name: "Parker Selbert"
+  slug: "parkerselbert"
+  headline: "Creator of Oban"
+  bio: "Creator of Oban, the robust job processing library for Elixir. Co-founder of Oban Pro."
+  website: "https://oban.pro"
+  social_links:
+    - platform: github
+      url: "https://github.com/sorentwo"
+    - platform: twitter
+      url: "https://twitter.com/soaborern"
+
+- name: "Shannon Selbert"
+  slug: "shannonselbert"
+  headline: "Co-creator of Oban Web"
+  bio: "Co-creator of Oban Web, the dashboard and management interface for Oban."
+
+- name: "Sola Aremu 'Pelumi"
+  slug: "solaaremupelumi"
+  headline: "Elixir developer and co-creator of the Whisperer"
+  bio: "Elixir developer and co-creator of the Whisperer multi-agent workflow framework."
+
+- name: "Ridwan Otun"
+  slug: "ridwanotun"
+  headline: "Elixir developer and co-creator of the Whisperer"
+  bio: "Elixir developer and co-creator of the Whisperer multi-agent workflow framework."
+
+- name: "Riccardo Binetti"
+  slug: "riccardobinetti"
+  headline: "Elixir & Embedded Developer"
+  bio: "Elixir developer and creator of TigerBeetlex, an Elixir client for TigerBeetle."
+  social_links:
+    - platform: github
+      url: "https://github.com/rbino"
+
+- name: "Guillaume Duboc"
+  slug: "guillaumeduboc"
+  headline: "PhD Student at Dashbit + IRIF"
+  bio: "Researcher working on the set-theoretic type system for Elixir."
+  website: "https://gldubc.github.io"
+  social_links:
+    - platform: github
+      url: "https://github.com/gldubc"
+
+- name: "Anita Ludermann"
+  slug: "anitaludermann"
+  headline: "Engineer with experience migrating legacy systems"
+  bio: "Engineer with experience migrating legacy systems to Elixir."
+
+- name: "Gus Workman"
+  slug: "gusworkman"
+  headline: "Nerves Contributor"
+  bio: "Creator of Trellis, an open source hardware platform for Nerves."
+
+- name: "Fernando Hamasaki de Amorim"
+  slug: "fernandohamasakideamorim"
+  headline: "Distributed Systems Developer"
+  bio: "Developer focused on distributed systems and async workflows."
+  social_links:
+    - platform: github
+      url: "https://github.com/prodis"
+
+- name: "Rauan Assis"
+  slug: "rauanassis"
+  headline: "Elixir Developer"
+  bio: "Developer working on asynchronous booking systems."
+
+- name: "Jonatan Klosko"
+  slug: "jonatanklosko"
+  headline: "Creator of Livebook"
+  bio: "Creator of Livebook and core contributor to the Elixir ecosystem at Dashbit."
+  social_links:
+    - platform: github
+      url: "https://github.com/jonatanklosko"
+    - platform: twitter
+      url: "https://twitter.com/JonatanKlosko"
+
+- name: "Jakub Skalecki"
+  slug: "jakubskalecki"
+  headline: "Elixir Developer"
+  bio: "Developer exploring LiveView and frontend framework integration."
+  social_links:
+    - platform: github
+      url: "https://github.com/jskla"
+
+- name: "James Arthur"
+  slug: "jamesarthur"
+  headline: "Electric SQL / Phoenix Sync"
+  bio: "Creator of Phoenix Sync and contributor to Electric SQL, building local-first sync for Phoenix apps."
+  social_links:
+    - platform: github
+      url: "https://github.com/thruflo"
+
+- name: "Bjorn Gustavsson"
+  slug: "bjorngustavsson"
+  headline: "Erlang/OTP Team"
+  bio: "Long-time member of the Erlang/OTP team at Ericsson, contributor to the BEAM virtual machine."
+  social_links:
+    - platform: github
+      url: "https://github.com/bjorng"
+
+- name: "Johanna Larsson"
+  slug: "johannalarsson"
+  headline: "Distributed Systems Engineer"
+  bio: "Software engineer specializing in distributed Elixir systems."
+  social_links:
+    - platform: github
+      url: "https://github.com/joladev"
+
+- name: "Chris Beck"
+  slug: "chrisbeck"
+  headline: "Creator of rag"
+  bio: "Creator of rag.ex, building code intelligence tools in Elixir."
+
+- name: "Mackenzie Morgan"
+  slug: "mackenziemorgan"
+  headline: "Elixir Developer"
+  bio: "Developer specializing in complex Ecto query optimization."
+
+- name: "Herman Langner"
+  slug: "hermanlangner"
+  headline: "Data Engineer"
+  bio: "Software engineer building data lakehouse architecture with Elixir."
+
+- name: "Marc Nickert"
+  slug: "marcnickert"
+  headline: "Elixir & HPC"
+  bio: "Software engineer running Elixir FLAME workloads on HPC clusters."
+
+- name: "Anderson Konzen"
+  slug: "andersonkonzen"
+  headline: "Elixir Developer"
+  bio: "Developer with 8+ years of Elixir adoption experience."
+
+- name: "Conor Sinclair"
+  slug: "conorsinclair"
+  headline: "Elixir Developer"
+  bio: "Developer exploring metaprogramming and LLM integration in Elixir."
+
+- name: "Piotr Szmielew"
+  slug: "piotrszmielew"
+  headline: "Elixir & DevOps"
+  bio: "Software engineer with extensive experience running Elixir on Kubernetes in Google Cloud."
+
+- name: "Bart Blast"
+  slug: "bartblast"
+  headline: "Creator of Hologram"
+  bio: "Creator of Hologram, a framework for running Elixir in the browser via WebAssembly."
+  social_links:
+    - platform: github
+      url: "https://github.com/nicebody"
+
+- name: "Robert Virding"
+  slug: "robertvirding"
+  headline: "Co-creator of Erlang"
+  bio: "Co-creator of the Erlang programming language and pioneer of concurrent programming."
+  social_links:
+    - platform: github
+      url: "https://github.com/rvirding"
+    - platform: twitter
+      url: "https://twitter.com/raborvirding"
+
+- name: "Philipp Tessenow"
+  slug: "philipptessenow"
+  headline: "Creator of Wasmex"
+  bio: "Creator of Wasmex, a library for running WebAssembly modules from Elixir."
+  social_links:
+    - platform: github
+      url: "https://github.com/tessi"
+
+- name: "Gary Rennie"
+  slug: "garyrennie"
+  headline: "Elixir Core Contributor"
+  bio: "Elixir core team member and experienced developer building terminal applications with Elixir."
+  social_links:
+    - platform: github
+      url: "https://github.com/Gazler"
+    - platform: twitter
+      url: "https://twitter.com/TheGazler"
+
+- name: "Eli Kroumova"
+  slug: "elikroumova"
+  headline: "Security Engineer"
+  bio: "Security-focused developer specializing in secure Phoenix web application development."
+
+- name: "David Fuenmayor"
+  slug: "davidfuenmayor"
+  headline: "Researcher"
+  bio: "Researcher exploring automated reasoning and formal methods with Elixir."
+
+- name: "Feliks Pobiedzinski"
+  slug: "felikspobiedzinski"
+  headline: "Membrane Framework"
+  bio: "Developer working on the Membrane multimedia framework and Boombox media tools."
+  social_links:
+    - platform: github
+      url: "https://github.com/FelonEkoworworworwor"
+
+- name: "Ettore Berardi"
+  slug: "ettoreberardi"
+  headline: "BBC Engineering"
+  bio: "Software engineer at the BBC, building production services at scale with Elixir."
+
+- name: "Zach Daniel"
+  slug: "zachdaniel"
+  headline: "Creator of Ash Framework"
+  bio: "Creator of the Ash Framework, a declarative, resource-oriented application framework for Elixir."
+  website: "https://ash-hq.org"
+  social_links:
+    - platform: github
+      url: "https://github.com/zachdaniel"
+    - platform: twitter
+      url: "https://twitter.com/ZachDaniel3"
+
+- name: "Davide Bettio"
+  slug: "davidebettio"
+  headline: "AtomVM Creator"
+  bio: "Creator of AtomVM, a lightweight BEAM virtual machine for microcontrollers and embedded devices."
+  social_links:
+    - platform: github
+      url: "https://github.com/bettio"
+
+- name: "Mateusz Front"
+  slug: "mateuszfront"
+  headline: "AtomVM Contributor"
+  bio: "Contributor to AtomVM, working on bringing Elixir to embedded devices."
+
+- name: "Aleksandr Lossenko"
+  slug: "aleksandrlossenko"
+  headline: "Creator of ContextKit"
+  bio: "Creator of ContextKit."
+
+- name: "Marton Veres"
+  slug: "martonveres"
+  headline: "Elixir Community Organizer"
+  bio: "Community organizer fostering Elixir communities in Germany."
+
+- name: "Meks McClure"
+  slug: "meksmcclure"
+  headline: "Elixir Developer"
+  bio: "Software engineer building LiveView-based data visualization tools."
+
+- name: "Nikola Begedin"
+  slug: "nikolabegedin"
+  headline: "Game Developer"
+  bio: "Developer exploring game development with ECS and LiveView."
+  social_links:
+    - platform: github
+      url: "https://github.com/nbegedin"
+
+- name: "Hernan Rivas Acosta"
+  slug: "hernanrivasacosta"
+  headline: "Elixir Game Developer"
+  bio: "Developer exploring game development with Elixir."
+
+- name: "Juan Azambuja"
+  slug: "juanazambuja"
+  headline: "Creator of Elixir Observer"
+  bio: "Creator of Elixir Observer."
+
+- name: "Krzysztof Nalepa"
+  slug: "krzysztofnalepa"
+  headline: "Creator of LiveDebugger"
+  bio: "Creator of LiveDebugger, a debugging tool for Phoenix LiveView."
+
+- name: "Boris Kuznetsov"
+  slug: "boriskuznetsov"
+  headline: "Elixir Developer"
+  bio: "Developer with expertise in file uploads and the Waffle library."
+
+- name: "Denys Gonchar"
+  slug: "denysgonchar"
+  headline: "Erlang/Elixir Developer"
+  bio: "Developer working on OpenTelemetry testing tools for the BEAM ecosystem."
+
+- name: "Alistair Woodman"
+  slug: "alistairwoodman"
+  headline: "EEF Board Member"
+  bio: "Board member of the Erlang Ecosystem Foundation."
+
+- name: "Jonatan Mannchen"
+  slug: "jonatanmannchen"
+  headline: "EEF Board Member"
+  bio: "Board member of the Erlang Ecosystem Foundation."
+
+- name: "Dan Janowski"
+  slug: "danjanowski"
+  headline: "EEF Board Member"
+  bio: "Board member of the Erlang Ecosystem Foundation."
+
+# ElixirConf US 2024 speakers
+
+- name: "Reid Morrison"
+  slug: "reidmorrison"
+  headline: "Elixir Developer"
+  bio: "Software engineer specializing in high-throughput Broadway processing."
+
+- name: "Wojtek Mach"
+  slug: "wojtekmach"
+  headline: "Dashbit / Elixir Core"
+  bio: "Member of the Elixir core team at Dashbit, maintainer of Req and contributor to many Elixir ecosystem libraries."
+  social_links:
+    - platform: github
+      url: "https://github.com/wojtekmach"
+    - platform: twitter
+      url: "https://twitter.com/wojaborern"
+
+- name: "Shuaib Afegbua"
+  slug: "shuaibafegbua"
+  headline: "Elixir Developer, Africa"
+  bio: "Developer building information networks in Africa with Elixir."
+
+- name: "Sam McDavid"
+  slug: "sammcdavid"
+  headline: "ML Engineer"
+  bio: "Developer exploring machine learning and reinforcement learning in Elixir."
+
+- name: "Paulo Valente"
+  slug: "paulovalente"
+  headline: "Nx Contributor"
+  bio: "Contributor to Nx, working on compiling and running machine learning models on edge devices."
+  social_links:
+    - platform: github
+      url: "https://github.com/polvalente"
+
+- name: "Michael St Clair"
+  slug: "michaelstclair"
+  headline: "Software Engineer, PDQ"
+  bio: "Software engineer at PDQ, load testing Phoenix WebSockets at scale."
+
+- name: "Vanessa Lee"
+  slug: "vanessalee"
+  headline: "Livebook Advocate"
+  bio: "Developer and Livebook advocate."
+
+- name: "Patrick Smith"
+  slug: "patricksmith"
+  headline: "Creator of Orb"
+  bio: "Creator of Orb, enabling WebAssembly development in Elixir, and GoldenOrb for AI-generated UI components."
+
+- name: "Lukasz Kita"
+  slug: "lukaszkita"
+  headline: "Membrane Framework"
+  bio: "Developer at Firework working on conversational AI and video processing with the Membrane framework."
+
+- name: "Nick Dichev"
+  slug: "nickdichev"
+  headline: "Membrane Developer"
+  bio: "Developer at Firework working on AI chatbots with Membrane."
+
+- name: "Sasa Juric"
+  slug: "sasajuric"
+  headline: "Author of Elixir in Action"
+  bio: "Author of 'Elixir in Action' and experienced Elixir developer advocating for simpler project structures."
+  social_links:
+    - platform: github
+      url: "https://github.com/sasa1977"
+    - platform: twitter
+      url: "https://twitter.com/sasajuric"
+
+- name: "Scott Mueller"
+  slug: "scottmueller"
+  headline: "Elixir ML Developer"
+  bio: "Developer working on advancing Axon's training capabilities for state-of-the-art image models."
+
+- name: "Stephanie Lane"
+  slug: "stephanielane"
+  headline: "Elixir Developer"
+  bio: "Developer exploring the intersection of Elixir processes and music."
+
+- name: "Tyler Young"
+  slug: "tyleryoung"
+  headline: "Elixir Developer"
+  bio: "Software engineer focused on pragmatic testing strategies."
+
+- name: "Nicholas Henry"
+  slug: "nicholashenry"
+  headline: "Elixir Developer"
+  bio: "Developer exploring testing approaches beyond mocks in Elixir."
+
+- name: "Miki Rezentes"
+  slug: "mikirezentes"
+  headline: "Elixir Developer"
+  bio: "Developer specializing in Ecto Multi, Oban, and transaction patterns."
+
+- name: "Leandro Pereira"
+  slug: "leandropereira"
+  headline: "Beacon CMS Creator"
+  bio: "Creator of Beacon CMS and builder of the HEEx visual editor for Phoenix."
+  social_links:
+    - platform: github
+      url: "https://github.com/leandrocp"
+
+- name: "Jason Stiebs"
+  slug: "jasonstiebs"
+  headline: "Elixir Developer"
+  bio: "Developer exploring FLAME and BEAM-based deployment patterns."
+
+- name: "James Isenhart"
+  slug: "jamesisenhart"
+  headline: "Observability Engineer"
+  bio: "Software engineer implementing OpenTelemetry in Elixir services."
+
+- name: "Holden Oullette"
+  slug: "holdenoullette"
+  headline: "Security Engineer"
+  bio: "Security-focused developer working on making Elixir the safest programming language."
+
+- name: "Eric Saxby"
+  slug: "ericsaxby"
+  headline: "Elixir Developer"
+  bio: "Developer advocating for leveraging Elixir's standard library."
+
+- name: "Divya Sasidharan"
+  slug: "divyasasidharan"
+  headline: "Developer Advocate"
+  bio: "Developer advocate exploring the internals of Phoenix plugs and the request-response cycle."
+
+- name: "David Bluestein"
+  slug: "davidbluestein"
+  headline: "Elixir Developer"
+  bio: "Developer building financial analysis apps with LiveView Native."
+
+- name: "Hugo Barauna"
+  slug: "hugobarauna"
+  headline: "Dashbit"
+  bio: "Developer at Dashbit, building and deploying internal tools with Livebook."
+  social_links:
+    - platform: github
+      url: "https://github.com/hugobarauna"
+    - platform: twitter
+      url: "https://twitter.com/hugobarauna"
+
+- name: "German Velasco"
+  slug: "germanvelasco"
+  headline: "Creator of PhoenixTest"
+  bio: "Creator of PhoenixTest, a unified testing library for Phoenix controllers and LiveView."
+  social_links:
+    - platform: github
+      url: "https://github.com/germsvel"
+
+- name: "George Guimaraes"
+  slug: "georgeguimaraes"
+  headline: "Experienced Elixir developer working on ML"
+  bio: "Experienced Elixir developer working on ML forecasting."
+  social_links:
+    - platform: github
+      url: "https://github.com/georgeguimaraes"
+
+- name: "Christian Koch"
+  slug: "christiankoch"
+  headline: "Software engineer at Cars"
+  bio: "Software engineer at Cars.com, focused on performance optimization with Elixir."
+
+- name: "Sundi Myint"
+  slug: "sundimyint"
+  headline: "Engineering Manager"
+  bio: "Engineering manager focused on career growth and mentorship."
+
+- name: "Bryan Green"
+  slug: "bryangreen"
+  headline: "Nerves Developer"
+  bio: "Hardware hacker who transformed a vintage rotary dial phone into a cellphone using Elixir and Nerves."
+
+- name: "David Bernheisel"
+  slug: "davidbernheisel"
+  headline: "Elixir developer and expert on ETL pipeline"
+  bio: "Elixir developer and expert on ETL pipeline patterns."
+  social_links:
+    - platform: github
+      url: "https://github.com/dbernheisel"
+
+- name: "Chris Bailey"
+  slug: "chrisbailey"
+  headline: "Elixir Developer"
+  bio: "Developer building incremental materialized view frameworks with Ecto."
+
+- name: "Alvaro Callero"
+  slug: "alvarocallero"
+  headline: "Elixir Developer"
+  bio: "Developer focused on OTP patterns for application development."
+
+- name: "Brian Meeker"
+  slug: "brianmeeker"
+  headline: "Software Engineer, GetThru"
+  bio: "Software engineer at GetThru, building concurrent data processing systems."
+
+- name: "Chris Dose"
+  slug: "chrisdose"
+  headline: "Creator of Plox"
+  bio: "Creator of Plox, server-side rendered SVG graphing components for Phoenix and LiveView."
+
+- name: "Brian Cardarella"
+  slug: "briancardarella"
+  headline: "Creator of LiveView Native"
+  bio: "Founder of DockYard and creator of LiveView Native, bringing Phoenix LiveView to native mobile platforms."
+  website: "https://dockyard.com"
+  social_links:
+    - platform: github
+      url: "https://github.com/bcardarella"
+    - platform: twitter
+      url: "https://twitter.com/bcardarella"
+
+- name: "Chris Ertel"
+  slug: "chrisertel"
+  headline: "Elixir Game Developer"
+  bio: "Developer building RPG games with Phoenix LiveView."
+
+- name: "Andres Alejos"
+  slug: "andresalejos"
+  headline: "Livebook Advocate"
+  bio: "Developer and Livebook advocate."
+
+- name: "Andrew Accuardi"
+  slug: "andrewaccuardi"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf."
+
+- name: "Ben Tyler"
+  slug: "bentyler"
+  headline: "Distributed Systems Engineer"
+  bio: "Engineer exploring distributed systems with Phoenix and Riak Core."
+
+- name: "Bram Verburg"
+  slug: "bramverburg"
+  headline: "Security Expert"
+  bio: "Elixir security expert and author of secure coding guidelines for the BEAM."
+
+- name: "Justin Schneck"
+  slug: "justinschneck"
+  headline: "Nerves Co-creator"
+  bio: "Co-creator of the Nerves project for embedded Elixir systems."
+
+- name: "Keith Salisbury"
+  slug: "keithsalisbury"
+  headline: "Game Developer"
+  bio: "Developer building multiplayer games with Phoenix and Phaser."
+
+- name: "Lance Halvorsen"
+  slug: "lancehalvorsen"
+  headline: "Author, Functional Web Development"
+  bio: "Author of Functional Web Development with Elixir, OTP, and Phoenix."
+
+- name: "Michał Muskała"
+  slug: "michamuskaa"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf."
+
+- name: "Paul Wilson"
+  slug: "paulwilson"
+  headline: "Elixir and Nerves developer, builder of creative"
+  bio: "Elixir and Nerves developer, builder of creative hardware projects."
+
+- name: "René Föhring"
+  slug: "renefohring"
+  headline: "Creator of Credo"
+  bio: "Creator of Credo, the static analysis tool for Elixir."
+
+- name: "Roope Kangas"
+  slug: "roopekangas"
+  headline: "Game Developer"
+  bio: "Developer building game backends with Elixir at Supercell."
+
+- name: "Simon Zelazny"
+  slug: "simonzelazny"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf."
+
+- name: "Volker Rabe"
+  slug: "volkerrabe"
+  headline: "Elixir Developer"
+  bio: "Developer migrating Ruby on Rails applications to Elixir microservices."
+
+- name: "Aaron Cruz"
+  slug: "aaroncruz"
+  headline: "Elixir Developer"
+  bio: "Elixir developer and conference speaker in the European community."
+
+- name: "Adam Lindberg"
+  slug: "adamlindberg"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Alan Zimmerman"
+  slug: "alanzimmerman"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Alexey Nikitin"
+  slug: "alexeynikitin"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Benjamin Philip"
+  slug: "benjaminphilip"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Bikram Chatterjee"
+  slug: "bikramchatterjee"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Boris Okner"
+  slug: "borisokner"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Carlos Rodrigues"
+  slug: "carlosrodrigues"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Christopher Grainger"
+  slug: "christophergrainger"
+  headline: "ML Engineer"
+  bio: "Machine learning engineer working with Elixir and Nx ecosystem."
+
+- name: "Christopher Miller"
+  slug: "christophermiller"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Dániel Horpácsi"
+  slug: "danielhorpacsi"
+  headline: "Researcher, Eötvös Loránd University"
+  bio: "Assistant professor researching formal semantics and verification of Erlang programs."
+
+- name: "Dániel Szoboszlay"
+  slug: "danielszoboszlay"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Dennis Palmer"
+  slug: "dennispalmer"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Dima Mikielewicz"
+  slug: "dimamikielewicz"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Filipe Fróes"
+  slug: "filipefroes"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Gonçalo Tomás"
+  slug: "goncalotomas"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Herminio Torres"
+  slug: "herminiotorres"
+  headline: "Elixir developer and community member"
+  bio: "Elixir developer and community member."
+
+- name: "Ingela Andin"
+  slug: "ingelaandin"
+  headline: "Senior Erlang/OTP Developer"
+  bio: "Senior developer on the Erlang/OTP team at Ericsson."
+
+- name: "Isaac Harris-Holt"
+  slug: "isaacharrisholt"
+  headline: "Developer & Content Creator"
+  bio: "Developer and content creator focused on Gleam and functional programming."
+
+- name: "Jade Allen"
+  slug: "jadeallen"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Jakub Hajto"
+  slug: "jakubhajto"
+  headline: "Elixir developer from the Polish community"
+  bio: "Elixir developer from the Polish community."
+
+- name: "Kyle Oba"
+  slug: "kyleoba"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Lekha Surasani"
+  slug: "lekhasurasani"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Lucas Sifoni"
+  slug: "lucassifoni"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Maciej Gryka"
+  slug: "maciejgryka"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Marc Lainez"
+  slug: "marclainez"
+  headline: "Nerves Developer"
+  bio: "Developer exploring smartphone upcycling with Nerves."
+
+- name: "Marc Sugiyama"
+  slug: "marcsugiyama"
+  headline: "Erlang Developer"
+  bio: "Erlang developer and distributed systems engineer."
+
+- name: "Markus Kuhnt"
+  slug: "markuskuhnt"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Nicholas Scheurich"
+  slug: "nicholasscheurich"
+  headline: "Elixir Developer"
+  bio: "Developer building conversational web APIs with Phoenix Channels."
+
+- name: "Quinn Wilton"
+  slug: "quinnwilton"
+  headline: "Distributed Systems Researcher"
+  bio: "Distributed systems researcher and Elixir community member."
+
+- name: "Rickard Green"
+  slug: "rickardgreen"
+  headline: "Erlang/OTP Team"
+  bio: "Member of the Erlang/OTP development team at Ericsson."
+
+- name: "Samanta Araújo"
+  slug: "samantaaraujo"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Shubham Gupta"
+  slug: "shubhamgupta"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Thibault Poncelet"
+  slug: "thibaultponcelet"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Thibaut Barrère"
+  slug: "thibautbarrere"
+  headline: "Creator of Kiba ETL"
+  bio: "Creator of Kiba, an ETL framework, and Elixir developer."
+
+- name: "Thomas Arts"
+  slug: "thomasarts"
+  headline: "Quviq Founder"
+  bio: "Founder of Quviq, pioneer of property-based testing with QuickCheck."
+
+- name: "Łukasz Wala"
+  slug: "ukaszwala"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Vittoria Bitton"
+  slug: "vittoriabitton"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Walid Salah"
+  slug: "walidsalah"
+  headline: "Elixir Developer"
+  bio: "Speaker at ElixirConf/Code BEAM."
+
+- name: "Adam Chlipala"
+  slug: "adamchlipala"
+  headline: "Professor, MIT"
+  bio: "Professor at MIT, creator of the Ur/Web programming language and author of Certified Programming with Dependent Types."
+
+- name: "Adam Warski"
+  slug: "adamwarski"
+  headline: "Co-founder, SoftwareMill"
+  bio: "Co-founder of SoftwareMill, creator of sttp and tapir Scala libraries."
+
+- name: "Alberto Schiabel"
+  slug: "albertoschiabel"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Almir Mesic"
+  slug: "almirmesic"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Amedeo Molnár"
+  slug: "amedeomolnar"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Andor Pénzes"
+  slug: "andorpenzes"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Andy Gordon"
+  slug: "andygordon"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Artem Gayardo-Matrosov"
+  slug: "artemgayardomatrosov"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Arthur Jamet"
+  slug: "arthurjamet"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Bartosz Milewski"
+  slug: "bartoszmilewski"
+  headline: "Physicist & Programmer"
+  bio: "Physicist, programmer, and author of Category Theory for Programmers."
+
+- name: "Brett Cameron"
+  slug: "brettcameron"
+  headline: "FP Developer"
+  bio: "Software engineer and functional programming speaker."
+
+- name: "Brian Carroll"
+  slug: "briancarroll"
+  headline: "Elm Developer"
+  bio: "Developer contributing to the Elm programming language ecosystem."
+
+- name: "Christoffer Ekeroth"
+  slug: "christofferekeroth"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Daan van Berkel"
+  slug: "daanvanberkel"
+  headline: "FP Developer"
+  bio: "Software engineer and functional programming enthusiast."
+
+- name: "Dame Muffy Calder"
+  slug: "damemuffycalder"
+  headline: "Professor, University of Glasgow"
+  bio: "Vice-Principal at University of Glasgow, former Chief Scientific Adviser to the Scottish Government. DBE."
+
+- name: "Damian Frolich"
+  slug: "damianfrolich"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Dave Kimber"
+  slug: "davekimber"
+  headline: "Functional programming speaker at Lambda Days"
+  bio: "Functional programming speaker at Lambda Days."
+
+- name: "David Ware"
+  slug: "davidware"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Dirk Fröhner"
+  slug: "dirkfrohner"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Dmitry Boulytchev"
+  slug: "dmitryboulytchev"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Dominik Katkó"
+  slug: "dominikkatko"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Duncan McGreggor"
+  slug: "duncanmcgreggor"
+  headline: "LFE Contributor"
+  bio: "Principal engineer and contributor to Lisp Flavoured Erlang (LFE)."
+
+- name: "Edwin Brady"
+  slug: "edwinbrady"
+  headline: "Creator of Idris"
+  bio: "Creator of the Idris programming language, researcher in dependent types."
+
+- name: "Eric Torreborre"
+  slug: "erictorreborre"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Eryk Ciepiela"
+  slug: "erykciepiela"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Evan Czaplicki"
+  slug: "evanczaplicki"
+  headline: "Creator of Elm"
+  bio: "Creator of the Elm programming language for reliable web applications."
+
+- name: "Farhad Mehta"
+  slug: "farhadmehta"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Felipe Almeida Lessa"
+  slug: "felipealmeidalessa"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Felix Miño"
+  slug: "felixmino"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Flavio Brasil"
+  slug: "flaviobrasil"
+  headline: "Creator of Kyo"
+  bio: "Creator of Kyo, a toolkit for building concurrent and distributed systems in Scala."
+
+- name: "Gergő Érdi"
+  slug: "gergoerdi"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Giacomo Cavalieri"
+  slug: "giacomocavalieri"
+  headline: "Gleam Core Team"
+  bio: "Member of the Gleam core team."
+
+- name: "Gwendal Laurent"
+  slug: "gwendallaurent"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Haemin Yoo"
+  slug: "haeminyoo"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Hayleigh Thompson"
+  slug: "hayleighthompson"
+  headline: "Gleam Core Team"
+  bio: "Member of the Gleam core team."
+
+- name: "Isaac Abraham"
+  slug: "isaacabraham"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Jack Williams"
+  slug: "jackwilliams"
+  headline: "TypeScript Team"
+  bio: "Developer on the TypeScript compiler team at Microsoft."
+
+- name: "James Carlson"
+  slug: "jamescarlson"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "JB Onofré"
+  slug: "jbonofre"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Jezen Thomas"
+  slug: "jezenthomas"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Jônatas Paganini"
+  slug: "jonataspaganini"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Jordan Miller"
+  slug: "jordanmiller"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Jørgen Villadsen"
+  slug: "jrgenvilladsen"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Juan Manuel Serrano Hidalgo"
+  slug: "juanmanuelserranohidalgo"
+  headline: "CTO, Habla Computing"
+  bio: "CTO and co-founder of Habla Computing, professor at Rey Juan Carlos University."
+
+- name: "Junya Nose"
+  slug: "junyanose"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Kamil Grondys"
+  slug: "kamilgrondys"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Karolina Iwańska"
+  slug: "karolinaiwanska"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Kathi Fisler"
+  slug: "kathifisler"
+  headline: "Research Professor, Brown University"
+  bio: "Computing education researcher, co-founder of Bootstrap, SIGPLAN Distinguished Educator."
+
+- name: "KC Sivaramakrishnan"
+  slug: "kcsivaramakrishnan"
+  headline: "CTO, Tarides / IIT Madras"
+  bio: "Led the development of Multicore OCaml. Assistant Professor at IIT Madras."
+
+- name: "Ken Liao"
+  slug: "kenliao"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Kyle Davis"
+  slug: "kyledavis"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Maciej Gorywoda"
+  slug: "maciejgorywoda"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Magnus Madsen"
+  slug: "magnusmadsen"
+  headline: "Creator of Flix"
+  bio: "Associate professor at Aarhus University, creator of the Flix programming language."
+
+- name: "Maja Trela"
+  slug: "majatrela"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Marcus Crestani"
+  slug: "marcuscrestani"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Markus Schlegel"
+  slug: "markusschlegel"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Mart Lubbers"
+  slug: "martlubbers"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Martin Janiczek"
+  slug: "martinjaniczek"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Martin Odersky"
+  slug: "martinodersky"
+  headline: "Creator of Scala"
+  bio: "Creator of the Scala programming language, professor at EPFL."
+
+- name: "Matt Pavlovich"
+  slug: "mattpavlovich"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Matteo Merli"
+  slug: "matteomerli"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Miao ZhiCheng"
+  slug: "miaozhicheng"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Michał Płachta"
+  slug: "michapachta"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Michał Pawlik"
+  slug: "michapawlik"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Mihaela Gheorghe-Roman"
+  slug: "mihaelagheorgheroman"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Monica McGuigan"
+  slug: "monicamcguigan"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Natalia Chechina"
+  slug: "nataliachechina"
+  headline: "Researcher"
+  bio: "Researcher in scalable distributed Erlang systems."
+
+- name: "Nelson Vides"
+  slug: "nelsonvides"
+  headline: "Erlang Developer"
+  bio: "Erlang developer working on resilient nameserver systems."
+
+- name: "Nicolas Rinaudo"
+  slug: "nicolasrinaudo"
+  headline: "Scala Developer"
+  bio: "Scala developer and functional programming educator."
+
+- name: "Olivier Melançon"
+  slug: "oliviermelancon"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Pat Hanrahan"
+  slug: "pathanrahan"
+  headline: "Professor, Stanford"
+  bio: "Computer scientist, co-founder of Tableau, ACM Turing Award winner."
+
+- name: "Paul Dawson"
+  slug: "pauldawson"
+  headline: "FP Developer"
+  bio: "Software engineer and functional programming speaker."
+
+- name: "Paweł Szulc"
+  slug: "paweszulc"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Perdita Stevens"
+  slug: "perditastevens"
+  headline: "Professor, University of Edinburgh"
+  bio: "Professor of mathematics of software engineering at the University of Edinburgh."
+
+- name: "Péter Bereczky"
+  slug: "peterbereczky"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Philip Wadler"
+  slug: "philipwadler"
+  headline: "Professor, University of Edinburgh"
+  bio: "Renowned computer scientist, co-designer of Haskell, contributor to Java generics."
+
+- name: "Pierre Ricadat"
+  slug: "pierrericadat"
+  headline: "Developer"
+  bio: "Software engineer and conference speaker."
+
+- name: "Rob Parker"
+  slug: "robparker"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Roberto Luna Rojas"
+  slug: "robertolunarojas"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Romain Michon"
+  slug: "romainmichon"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Sam Newman"
+  slug: "samnewman"
+  headline: "Author, Building Microservices"
+  bio: "Author of Building Microservices, independent consultant on distributed systems."
+
+- name: "Simon Peyton Jones"
+  slug: "simonpeytonjones"
+  headline: "Researcher, Epic Games"
+  bio: "Co-creator of Haskell and pioneer of functional programming research."
+
+- name: "Sophie Collard"
+  slug: "sophiecollard"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Susan Potter"
+  slug: "susanpotter"
+  headline: "Infrastructure Engineer"
+  bio: "Infrastructure engineer and functional programming advocate."
+
+- name: "Szymon Rodziewicz"
+  slug: "szymonrodziewicz"
+  headline: "Scala 3 Compiler Team, VirtusLab"
+  bio: "Leads the Scala Toolkit project and contributes to the Scala 3 compiler."
+
+- name: "Taine Zhao"
+  slug: "tainezhao"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Thomas Gebert"
+  slug: "thomasgebert"
+  headline: "PhD Student, University of York"
+  bio: "Software engineer and PhD student, former Apple and Reddit. Regular Lambda Days speaker."
+
+- name: "Łukasz Biały"
+  slug: "ukaszbiay"
+  headline: "Scala Developer Advocate, VirtusLab"
+  bio: "Polyglot developer and Scala Developer Advocate at VirtusLab."
+
+- name: "Veronika Yastrebova"
+  slug: "veronikayastrebova"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Victor Winter"
+  slug: "victorwinter"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Vít Šefl"
+  slug: "vitsefl"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Yoshikuni Kato"
+  slug: "yoshikunikato"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Yusuf Motara"
+  slug: "yusufmotara"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Zainab Ali"
+  slug: "zainabali"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Zhenjiang Hu"
+  slug: "zhenjianghu"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+# 2026 upcoming event speakers
+
+- name: "Alvise Susmel"
+  slug: "alvisesusmel"
+  headline: "Elixir Developer"
+  bio: "Elixir developer and conference speaker."
+
+- name: "Andre Albuquerque"
+  slug: "andrealbuquerque"
+  headline: "Remote"
+  bio: "Conference speaker."
+
+- name: "Asep Bagja Priandana"
+  slug: "asepbagjapriandana"
+  headline: "Developer"
+  bio: "Conference speaker."
+
+- name: "Barry O'Reilly"
+  slug: "barryoreilly"
+  headline: "CEO/Founder, Black Tulip Technology"
+  bio: "Conference speaker."
+
+- name: "Benjamin Milde"
+  slug: "benjaminmilde"
+  headline: "Elixir developer and community educator"
+  bio: "Elixir developer and community educator."
+
+- name: "Bruce Tate"
+  slug: "brucetate"
+  headline: "Author, Founder of Grox.IO"
+  bio: "Conference speaker."
+
+- name: "Bryan Hunter"
+  slug: "bryanhunter"
+  headline: "Elixir Developer"
+  bio: "Developer and conference speaker in the Elixir community."
+
+- name: "Daniel Widgren"
+  slug: "danielwidgren"
+  headline: "Erlang Developer"
+  bio: "Erlang developer and BEAM ecosystem contributor."
+
+- name: "Danielle Maywood"
+  slug: "daniellemaywood"
+  headline: "Gleam Contributor"
+  bio: "Contributor to the Gleam programming language."
+
+- name: "Frank Hunleth"
+  slug: "frankhunleth"
+  headline: "Nerves Core Team"
+  bio: "Conference speaker."
+
+- name: "Guillaume Heu"
+  slug: "guillaumeheu"
+  headline: "Gleam Developer"
+  bio: "Developer and Gleam community member."
+
+- name: "Ingela Anderton Andin"
+  slug: "ingelaandertonandin"
+  headline: "Senior Erlang/OTP Core Developer"
+  bio: "Conference speaker."
+
+- name: "Ivan Minutillo"
+  slug: "ivanminutillo"
+  headline: "Bonfire Developer"
+  bio: "Conference speaker."
+
+- name: "James Aimonetti"
+  slug: "jamesaimonetti"
+  headline: "Lead Systems Architect, Ooma"
+  bio: "Conference speaker."
+
+- name: "John Mikael Lindbakk"
+  slug: "johnmikaellindbakk"
+  headline: "Gleam Developer"
+  bio: "Developer and Gleam community member."
+
+- name: "Joseph Koski"
+  slug: "josephkoski"
+  headline: "Author, Advanced FP with Elixir"
+  bio: "Conference speaker."
+
+- name: "Kevin De Porre"
+  slug: "kevindeporre"
+  headline: "ElectricSQL"
+  bio: "Conference speaker."
+
+- name: "Kiko Fernandez-Reyes"
+  slug: "kikofernandezreyes"
+  headline: "Erlang/OTP Developer"
+  bio: "Conference speaker."
+
+- name: "Kristoffer Gronlund"
+  slug: "kristoffergronlund"
+  headline: "Ziran AB"
+  bio: "Conference speaker."
+
+- name: "Lorena Mireles"
+  slug: "lorenamireles"
+  headline: "Elixir Developer, Erlang Solutions"
+  bio: "Conference speaker."
+
+- name: "Louis Pilfold"
+  slug: "louispilfold"
+  headline: "Creator of Gleam"
+  bio: "Conference speaker."
+
+- name: "Mat Trudel"
+  slug: "mattrudel"
+  headline: "Creator of Bandit"
+  bio: "Creator of Bandit, a pure-Elixir HTTP server for Plug and WebSock."
+
+- name: "Mayel de Borniol"
+  slug: "mayeldeborniol"
+  headline: "Bonfire / Fediverse Developer"
+  bio: "Conference speaker."
+
+- name: "Michael Begley"
+  slug: "michaelbegley"
+  headline: "Head of RAN Compute, Ericsson"
+  bio: "Conference speaker."
+
+- name: "Nicholas Geraedts"
+  slug: "nicholasgeraedts"
+  headline: "Senior Software Engineer, Hiive"
+  bio: "Conference speaker."
+
+- name: "Niclas Axelsson"
+  slug: "niclasaxelsson"
+  headline: "Erlang Developer"
+  bio: "Erlang developer and BEAM ecosystem contributor."
+
+- name: "Peer Stritzinger"
+  slug: "peerstritzinger"
+  headline: "GRiSP Inventor"
+  bio: "Conference speaker."
+
+- name: "Rebecca Reusch"
+  slug: "rebeccareusch"
+  headline: "Gleam Developer"
+  bio: "Developer and Gleam community member."
+
+- name: "Robert Durst"
+  slug: "robertdurst"
+  headline: "Gleam Developer"
+  bio: "Developer and Gleam community member."
+
+- name: "Sam Aaron"
+  slug: "samaaron"
+  headline: "Creator of Sonic Pi"
+  bio: "Conference speaker."
+
+- name: "Sofia Silva"
+  slug: "sofiasilva"
+  headline: "Remote"
+  bio: "Conference speaker."
+
+- name: "Surya Rose"
+  slug: "suryarose"
+  headline: "Gleam Developer"
+  bio: "Developer and Gleam community member."
+
+- name: "Yutaka Kikuchi"
+  slug: "yutakakikuchi"
+  headline: "Professor, Kochi Tech"
+  bio: "Conference speaker."

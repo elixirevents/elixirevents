@@ -1,0 +1,10 @@
+- name: "Platinum"
+  level: 1
+  sponsors:
+    - slug: "fly-io"
+      badge: keynote
+
+- name: "Gold"
+  level: 2
+  sponsors:
+    - slug: "dashbit"

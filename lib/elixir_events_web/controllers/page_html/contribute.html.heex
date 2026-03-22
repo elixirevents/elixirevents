@@ -1,0 +1,432 @@
+<div class="max-w-4xl mx-auto">
+  <%!-- Header --%>
+  <div class="mb-12">
+    <div class="inline-flex items-center gap-2 text-sm font-semibold text-primary tracking-wide uppercase mb-5">
+      <svg
+        viewBox="0 0 16 16"
+        class="h-4 w-4 text-secondary"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path d="M8 0 L9.5 5.5 L16 8 L9.5 10.5 L8 16 L6.5 10.5 L0 8 L6.5 5.5Z" />
+      </svg>
+      Open Source
+    </div>
+    <h1 class="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-base-content leading-tight">
+      How to Contribute
+    </h1>
+    <p class="mt-4 text-lg text-base-content/55 max-w-2xl leading-relaxed">
+      ElixirEvents is open source and built by the community. You can add events and
+      talks, improve the codebase, or claim your speaker profile.
+    </p>
+  </div>
+
+  <div class="space-y-16">
+    <%!-- ============ ADDING DATA ============ --%>
+    <section>
+      <h2 class="font-display text-2xl font-bold tracking-tight text-base-content mb-2">
+        Adding Events, Speakers & Talks
+      </h2>
+      <p class="text-base-content/55 mb-6 leading-relaxed">
+        All event data is stored as YAML files in the
+        <a
+          href="https://github.com/elixirevents/elixirevents/tree/main/priv/data"
+          class="text-primary hover:text-primary/70 transition-colors font-medium"
+          target="_blank"
+          rel="noopener"
+        >priv/data</a>
+        directory. To add or update something, edit the YAML and open a pull request.
+        Most of the current data was AI-scraped and needs cleanup &mdash; wrong
+        speaker bios, placeholder abstracts, missing topics on talks, incomplete
+        event details. Corrections are very welcome.
+      </p>
+
+      <%!-- Directory structure --%>
+      <div class="rounded-xl border border-base-300/60 bg-base-200/30 p-6 mb-8">
+        <h3 class="text-sm font-semibold text-base-content/70 uppercase tracking-wider mb-4">
+          Directory Structure
+        </h3>
+        <pre class="text-sm text-base-content/80 font-mono leading-relaxed overflow-x-auto"><code>priv/data/
+  topics.yml              # Global topic definitions
+  speakers.yml            # Speaker profiles
+  venues.yml              # Venue information
+  organizations.yml       # Organizations
+  &lt;series-slug&gt;/
+    series.yml            # Event series info (e.g. EMPEX, ElixirConf)
+    &lt;event-slug&gt;/
+      event.yml           # Individual event details
+      talks.yml           # Talks for this event
+      cfp.yml             # Call for proposals (optional)
+      sponsors.yml        # Sponsors (optional)
+      schedule.yml        # Schedule (optional)
+      roles.yml           # Organizer roles (optional)</code></pre>
+      </div>
+
+      <%!-- YAML examples --%>
+      <div class="space-y-6">
+        <h3 class="text-sm font-semibold text-base-content/70 uppercase tracking-wider">
+          YAML Examples
+        </h3>
+
+        <%!-- Add a new event series --%>
+        <details class="group rounded-xl border border-base-300/60 bg-base-200/20 overflow-hidden">
+          <summary class="flex items-center justify-between cursor-pointer px-6 py-4 hover:bg-base-200/40 transition-colors">
+            <span class="font-display font-bold text-base-content">Add an Event Series</span>
+            <svg
+              class="h-4 w-4 text-base-content/40 transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-6 pb-5 pt-2">
+            <p class="text-sm text-base-content/55 mb-3">
+              Create a new folder <code class="text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded">priv/data/&lt;series-slug&gt;/series.yml</code>
+            </p>
+            <pre class="text-sm text-base-content/80 font-mono leading-relaxed bg-base-200/40 rounded-lg p-4 overflow-x-auto"><code>name: "My Conference"
+slug: "my-conference"
+kind: conference        # conference | meetup | retreat | hackathon | summit | workshop
+frequency: yearly       # yearly | monthly | quarterly | biannual | irregular | once
+language: en
+website: "https://myconference.com"
+color: "#805AD5"</code></pre>
+          </div>
+        </details>
+
+        <%!-- Add an event --%>
+        <details class="group rounded-xl border border-base-300/60 bg-base-200/20 overflow-hidden">
+          <summary class="flex items-center justify-between cursor-pointer px-6 py-4 hover:bg-base-200/40 transition-colors">
+            <span class="font-display font-bold text-base-content">Add an Event</span>
+            <svg
+              class="h-4 w-4 text-base-content/40 transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-6 pb-5 pt-2">
+            <p class="text-sm text-base-content/55 mb-3">
+              Create <code class="text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded">priv/data/&lt;series-slug&gt;/&lt;event-slug&gt;/event.yml</code>
+            </p>
+            <pre class="text-sm text-base-content/80 font-mono leading-relaxed bg-base-200/40 rounded-lg p-4 overflow-x-auto"><code>name: "My Conference 2026"
+slug: "my-conference-2026"
+kind: conference
+status: announced       # announced | confirmed | cancelled | completed
+format: in_person       # in_person | online | hybrid
+start_date: "2026-09-15"
+end_date: "2026-09-17"
+timezone: "America/New_York"
+language: en
+location: "New York, NY, USA"
+website: "https://myconference.com/2026"
+color: "#805AD5"</code></pre>
+          </div>
+        </details>
+
+        <%!-- Add talks --%>
+        <details class="group rounded-xl border border-base-300/60 bg-base-200/20 overflow-hidden">
+          <summary class="flex items-center justify-between cursor-pointer px-6 py-4 hover:bg-base-200/40 transition-colors">
+            <span class="font-display font-bold text-base-content">Add Talks</span>
+            <svg
+              class="h-4 w-4 text-base-content/40 transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-6 pb-5 pt-2">
+            <p class="text-sm text-base-content/55 mb-3">
+              Create <code class="text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded">priv/data/&lt;series-slug&gt;/&lt;event-slug&gt;/talks.yml</code>
+            </p>
+            <pre class="text-sm text-base-content/80 font-mono leading-relaxed bg-base-200/40 rounded-lg p-4 overflow-x-auto"><code>- title: "Building Real-Time Systems with Phoenix"
+  slug: "building-real-time-systems-with-phoenix"
+  kind: talk             # keynote | talk | workshop | panel | lightning_talk
+  level: intermediate    # beginner | intermediate | advanced
+  language: en
+  duration: 40
+  abstract: "A deep dive into..."
+  speakers:
+    - josevalim          # Speaker slug from speakers.yml
+  topics:
+    - phoenix            # Topic slug from topics.yml
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "dQw4w9WgXcQ"
+      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"</code></pre>
+          </div>
+        </details>
+
+        <%!-- Add a speaker --%>
+        <details class="group rounded-xl border border-base-300/60 bg-base-200/20 overflow-hidden">
+          <summary class="flex items-center justify-between cursor-pointer px-6 py-4 hover:bg-base-200/40 transition-colors">
+            <span class="font-display font-bold text-base-content">Add a Speaker</span>
+            <svg
+              class="h-4 w-4 text-base-content/40 transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-6 pb-5 pt-2">
+            <p class="text-sm text-base-content/55 mb-3">
+              Add an entry to <code class="text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded">priv/data/speakers.yml</code>
+            </p>
+            <pre class="text-sm text-base-content/80 font-mono leading-relaxed bg-base-200/40 rounded-lg p-4 overflow-x-auto"><code>- name: "Jane Smith"
+  slug: "janesmith"
+  headline: "Senior Engineer at Acme"
+  bio: "Elixir enthusiast and open source contributor."
+  website: "https://janesmith.dev"
+  social_links:
+    - platform: github
+      url: "https://github.com/janesmith"
+    - platform: twitter
+      url: "https://twitter.com/janesmith"
+    - platform: linkedin
+      url: "https://linkedin.com/in/janesmith"</code></pre>
+          </div>
+        </details>
+
+        <%!-- Add a topic --%>
+        <details class="group rounded-xl border border-base-300/60 bg-base-200/20 overflow-hidden">
+          <summary class="flex items-center justify-between cursor-pointer px-6 py-4 hover:bg-base-200/40 transition-colors">
+            <span class="font-display font-bold text-base-content">Add a Topic</span>
+            <svg
+              class="h-4 w-4 text-base-content/40 transition-transform group-open:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-6 pb-5 pt-2">
+            <p class="text-sm text-base-content/55 mb-3">
+              Add an entry to <code class="text-primary/80 bg-primary/5 px-1.5 py-0.5 rounded">priv/data/topics.yml</code>
+            </p>
+            <pre class="text-sm text-base-content/80 font-mono leading-relaxed bg-base-200/40 rounded-lg p-4 overflow-x-auto"><code>- name: "Machine Learning"
+  slug: "machine-learning"
+  description: "ML and AI applications in the BEAM ecosystem"</code></pre>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <%!-- ============ CODE CONTRIBUTIONS ============ --%>
+    <section>
+      <h2 class="font-display text-2xl font-bold tracking-tight text-base-content mb-2">
+        Code & Application Improvements
+      </h2>
+      <p class="text-base-content/55 mb-6 leading-relaxed">
+        This is a hobby project, built with a lot of AI assistance. The code works, but it doesn't
+        always follow idiomatic Elixir patterns. If you see something that could be better,
+        please open a PR. Here are some areas we'd especially appreciate help with:
+      </p>
+
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+              <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="font-display font-bold text-base-content">Testing</h3>
+          </div>
+          <p class="text-sm text-base-content/55 leading-relaxed">
+            Test coverage is thin. Integration tests, context tests, LiveView tests
+            &mdash; all of it needs work.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-8 h-8 rounded-lg bg-secondary/10 flex items-center justify-center">
+              <svg class="w-4 h-4 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+            </div>
+            <h3 class="font-display font-bold text-base-content">Idiomatic Elixir</h3>
+          </div>
+          <p class="text-sm text-base-content/55 leading-relaxed">
+            Refactoring towards more idiomatic patterns, better use of contexts,
+            cleaner pipelines, that sort of thing.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-8 h-8 rounded-lg bg-info/10 flex items-center justify-center">
+              <svg class="w-4 h-4 text-info" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+              </svg>
+            </div>
+            <h3 class="font-display font-bold text-base-content">UI & UX</h3>
+          </div>
+          <p class="text-sm text-base-content/55 leading-relaxed">
+            Better responsive layouts, accessibility fixes, design polish.
+            If something looks off on your device, we want to know.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-5">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center">
+              <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3 class="font-display font-bold text-base-content">Features & Bug Fixes</h3>
+          </div>
+          <p class="text-sm text-base-content/55 leading-relaxed">
+            Bug fixes, new features, performance work. Check
+            <a
+              href="https://github.com/elixirevents/elixirevents/issues"
+              class="text-primary hover:text-primary/70 transition-colors"
+              target="_blank"
+              rel="noopener"
+            >GitHub issues</a> or open one to discuss your idea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <%!-- ============ CLAIM YOUR PROFILE ============ --%>
+    <section>
+      <h2 class="font-display text-2xl font-bold tracking-tight text-base-content mb-2">
+        Claim Your Speaker Profile
+      </h2>
+      <p class="text-base-content/55 mb-6 leading-relaxed">
+        Already in the directory as a speaker? Claim your profile so you can
+        edit your bio, social links, and keep things current.
+      </p>
+
+      <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-6">
+        <ol class="space-y-4 text-base-content/70">
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-primary/10 text-primary font-display font-bold text-sm flex items-center justify-center">
+              1
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Create an account</span>
+              <span class="text-base-content/55">
+                &mdash; <a href="/join" class="text-primary hover:text-primary/70 transition-colors">sign up</a> if you haven't already.
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-primary/10 text-primary font-display font-bold text-sm flex items-center justify-center">
+              2
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Find your profile</span>
+              <span class="text-base-content/55">
+                &mdash; look for yourself in <a href="/speakers" class="text-primary hover:text-primary/70 transition-colors">speakers</a>.
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-primary/10 text-primary font-display font-bold text-sm flex items-center justify-center">
+              3
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Click "This is me"</span>
+              <span class="text-base-content/55">
+                &mdash; you'll see the button on any unclaimed profile when logged in.
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-primary/10 text-primary font-display font-bold text-sm flex items-center justify-center">
+              4
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Wait for approval</span>
+              <span class="text-base-content/55">
+                &mdash; a maintainer will review your claim. Once approved,
+                you can edit your profile from your account.
+              </span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <%!-- ============ GETTING STARTED ============ --%>
+    <section>
+      <h2 class="font-display text-2xl font-bold tracking-tight text-base-content mb-2">
+        Getting Started
+      </h2>
+      <p class="text-base-content/55 mb-6 leading-relaxed">
+        The standard fork-and-PR workflow:
+      </p>
+
+      <div class="rounded-xl border border-base-300/60 bg-base-200/20 p-6">
+        <ol class="space-y-4 text-base-content/70">
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-secondary/10 text-secondary font-display font-bold text-sm flex items-center justify-center">
+              1
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Fork the repository</span>
+              <span class="text-base-content/55">
+                &mdash;
+                <a
+                  href="https://github.com/elixirevents/elixirevents/fork"
+                  class="text-primary hover:text-primary/70 transition-colors"
+                  target="_blank"
+                  rel="noopener"
+                >fork on GitHub</a>.
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-secondary/10 text-secondary font-display font-bold text-sm flex items-center justify-center">
+              2
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Make your changes</span>
+              <span class="text-base-content/55">
+                &mdash; add YAML data or improve the application code.
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-3">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-secondary/10 text-secondary font-display font-bold text-sm flex items-center justify-center">
+              3
+            </span>
+            <div>
+              <span class="font-semibold text-base-content">Open a pull request</span>
+              <span class="text-base-content/55">
+                &mdash; describe what you changed and why.
+              </span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <%!-- ============ CTA ============ --%>
+    <section class="text-center py-8">
+      <a
+        href="https://github.com/elixirevents/elixirevents"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-content font-display font-bold text-sm tracking-wide hover:bg-primary/90 transition-colors"
+        target="_blank"
+        rel="noopener"
+      >
+        <svg viewBox="0 0 16 16" class="h-4 w-4" fill="currentColor" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+        </svg>
+        View on GitHub
+      </a>
+    </section>
+  </div>
+</div>

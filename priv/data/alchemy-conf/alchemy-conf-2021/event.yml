@@ -1,0 +1,12 @@
+name: "Alchemy Conf 2021"
+slug: "alchemy-conf-2021"
+kind: conference
+status: completed
+format: online
+start_date: "2021-03-04"
+end_date: "2021-03-05"
+timezone: "Europe/Lisbon"
+language: en
+location: "Online"
+website: "https://alchemyconf.com"
+color: "#E53E3E"

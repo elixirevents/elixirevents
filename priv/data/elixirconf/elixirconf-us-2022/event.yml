@@ -1,0 +1,12 @@
+name: "ElixirConf US 2022"
+slug: "elixirconf-us-2022"
+kind: conference
+status: completed
+format: in_person
+start_date: "2022-08-31"
+end_date: "2022-09-02"
+timezone: "America/Denver"
+language: en
+location: "Aurora, CO, USA"
+website: "https://elixirconf.com/2022"
+color: "#6B46C1"

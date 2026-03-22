@@ -1,0 +1,12 @@
+name: "Lambda Days 2024"
+slug: "lambda-days-2024"
+kind: conference
+status: completed
+format: in_person
+start_date: "2024-02-01"
+end_date: "2024-02-02"
+timezone: "Europe/Warsaw"
+language: en
+location: "Krakow, Poland"
+website: "https://www.lambdadays.org/lambdadays2024"
+color: "#DD6B20"

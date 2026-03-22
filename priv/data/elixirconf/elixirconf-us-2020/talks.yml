@@ -1,0 +1,566 @@
+## Keynotes
+
+
+- title: "Opening Keynote - Chris McCord"
+  slug: "opening-keynote-chris-mccord"
+  kind: keynote
+  language: en
+  duration: 42
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "QJkopba8yyE"
+      url: "https://www.youtube.com/watch?v=QJkopba8yyE"
+
+- title: "Keynote - Jenn Gamble"
+  slug: "keynote-jenn-gamble"
+  kind: keynote
+  language: en
+  duration: 50
+  abstract: "Robust data pipelines for machine learning-driven industrial IoT"
+  topics:
+    - elixir
+    - nerves
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "btIvtN9ws_I"
+      url: "https://www.youtube.com/watch?v=btIvtN9ws_I"
+
+- title: "Justin Schneck - Closing Keynote"
+  slug: "justin-schneck-closing-keynote"
+  kind: keynote
+  language: en
+  duration: 48
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "vX93Skmboas"
+      url: "https://www.youtube.com/watch?v=vX93Skmboas"
+
+
+## Talks
+
+
+- title: "José Valim"
+  slug: "jose-valim"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 20
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "guc16D_0Imk"
+      url: "https://www.youtube.com/watch?v=guc16D_0Imk"
+
+- title: "Jeremy Searls - If you programmed here, you’d be home already!"
+  slug: "jeremy-searls-if-you-programmed-here-youd-be-home-already"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "If you programmed here, you’d be home already! Give back to the Elixir Community with your first Hex Package."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "zTHCEZVL4Kw"
+      url: "https://www.youtube.com/watch?v=zTHCEZVL4Kw"
+
+- title: "Juliana Helena - How Elixir made me a better Java programmer"
+  slug: "juliana-helena-how-elixir-made-me-a-better-java-programmer"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "In this talk I intend to share about my experience navigating between two different worlds: FP and OOP, and how it is possible to apply Functional concepts, such as immutability, even with our old and well-known Java"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "O86LQ58PvKU"
+      url: "https://www.youtube.com/watch?v=O86LQ58PvKU"
+
+- title: "German Velasco - Testing LiveView"
+  slug: "german-velasco-testing-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  topics:
+    - elixir
+    - liveview
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "h8NURVLysrk"
+      url: "https://www.youtube.com/watch?v=h8NURVLysrk"
+
+- title: "Leandro Pereira - Contributing to Elixir and the ecosystem: how to be in the loop"
+  slug: "leandro-pereira-contributing-to-elixir-and-the-ecosystem-how"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 24
+  abstract: "Have you ever wanted to contribute to the Elixir ecosystem but was not sure what to do or was afraid that your contribution would not be good enough? In this talk, you'll learn practical tips and tricks to give the first steps."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "0gmRnBa5pEM"
+      url: "https://www.youtube.com/watch?v=0gmRnBa5pEM"
+
+- title: "Jeffery Utter - Debugging Live Systems on the BEAM"
+  slug: "jeffery-utter-debugging-live-systems-on-the-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Production issues happen when we least expect them. Sometimes logging and tracing don't give you the whole picture. Let's roll up our sleeves and dig into the debugging tools built into the BEAM!"
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "sR9h3DZAA74"
+      url: "https://www.youtube.com/watch?v=sR9h3DZAA74"
+
+- title: "Sophie DeBenedetto - Instrumenting Phoenix 1.5 with Telemetry and LiveDashboard"
+  slug: "sophie-debenedetto-instrumenting-phoenix-15-with-telemetry-a"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Phoenix 1.5 is here and it comes powered up with Telemetry and Live Dashboard. Learn how to treat observability like the first-class citizen it is by using these tools to ship fully observable code with Phoenix, right out of the box!"
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "6GT0UwIVkQI"
+      url: "https://www.youtube.com/watch?v=6GT0UwIVkQI"
+
+- title: "Quinn Wilton - Type-Safe LiveView with Gleam"
+  slug: "quinn-wilton-type-safe-liveview-with-gleam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "UCIcJBM_YDw"
+      url: "https://www.youtube.com/watch?v=UCIcJBM_YDw"
+
+- title: "Austin Hammer - How Elixir Releases and Clustering Lowers Complexity"
+  slug: "austin-hammer-how-elixir-releases-and-clustering-lowers-comp"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "Getting data out of private networks (with permission!) is tricky. We've put together a device and accompanying software that reduces headaches for on-site IT teams and delivers data to Savi Solutions in a reliable and consistent fashion. Learn how we leverage Elixir's new mix release task and pair "
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "gsnjstLQigQ"
+      url: "https://www.youtube.com/watch?v=gsnjstLQigQ"
+
+- title: "Ben Wheat - Nobody: Literally no one: Me: Let's Write CSS in Elixir!"
+  slug: "ben-wheat-nobody-literally-no-one-me-lets-write-css-in-elixi"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 23
+  abstract: "Quickly developing a useful UI with CSS is easy….if you are good at CSS. What if we could bring the parts of CSS that make layouts such a breeze and bring them to Scenic? Enter The Layout-O-Matic, the must-have layout library for Scenic!"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "anXCZ7NScYE"
+      url: "https://www.youtube.com/watch?v=anXCZ7NScYE"
+
+- title: "Berenice Medel - Rendering Supervision Trees with Phoenix LiveView"
+  slug: "berenice-medel-rendering-supervision-trees-with-phoenix-live"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "How can we know what happens within our Phoenix applications? A visual aid can be very useful. However, how difficult would it be to render our application supervision trees? ... wait, it already exists! In this talk, I'll show you all it took to render the supervision trees that you can enjoy since"
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "sw-m9an2zFM"
+      url: "https://www.youtube.com/watch?v=sw-m9an2zFM"
+
+- title: "Brian Cardarella - Elixir Survey"
+  slug: "brian-cardarella-elixir-survey"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "-nVgAcy9wB0"
+      url: "https://www.youtube.com/watch?v=-nVgAcy9wB0"
+
+- title: "Brian Marick - Tricks and tools for writing Elixir tests"
+  slug: "brian-marick-tricks-and-tools-for-writing-elixir-tests"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: 'There are \"tricks of the trade\" for writing readable, maintainable tests that help produce a more coherent system. This talk shows some of them, with an emphasis on code you can use or copy today.'
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "-8ax7-UtXCQ"
+      url: "https://www.youtube.com/watch?v=-8ax7-UtXCQ"
+
+- title: "Catalina Astengo - gRPC + Elixir Microservices = A Love Story?"
+  slug: "catalina-astengo-grpc-elixir-microservices-a-love-story"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "How to setup gRPC in elixir and get it working. gRPC is great for microservices infrastructure where multiple languages are involved At Nav we have created a repository with all the proto definitions from which we generate the code for each language library where services communicate with each other"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "0a1iabJZLbQ"
+      url: "https://www.youtube.com/watch?v=0a1iabJZLbQ"
+
+- title: "ElixirConf - Chase Granberry - Distributed Rate Limiting with PubSub and ETS"
+  slug: "elixirconf-chase-granberry-distributed-rate-limiting-with-pu"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: "Everyone at some point needs to build a rate limiter. Here we'll look at how to build a distributed rate limiter with PubSub and ETS. No databases required!"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "BAeTpux3FMw"
+      url: "https://www.youtube.com/watch?v=BAeTpux3FMw"
+
+- title: "Dan Lindeman - Short Circuit IoT Development Time with Nerves"
+  slug: "dan-lindeman-short-circuit-iot-development-time-with-nerves"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: "Learn how you could leverage Nerves and Elixir to develop a Solar Microgrid. Don't worry, we did all the hard parts so you don't have to."
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "LHysKONykf8"
+      url: "https://www.youtube.com/watch?v=LHysKONykf8"
+
+- title: "Dorian Karter - Building Multiplayer Games with LiveView"
+  slug: "dorian-karter-building-multiplayer-games-with-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Learn how to build interactive, real-time multiplayer games on the web using Elixir and Phoenix LiveView, no JavaScript required."
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "0UnLZlMr1Ug"
+      url: "https://www.youtube.com/watch?v=0UnLZlMr1Ug"
+
+- title: "Eric Oestrich - Writing Game Servers in Elixir"
+  slug: "eric-oestrich-writing-game-servers-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: "Expand what you think Elixir is good at by looking through some game servers."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "gXHKYERj05E"
+      url: "https://www.youtube.com/watch?v=gXHKYERj05E"
+
+- title: "Feather Knee - LiveView Components FTW!"
+  slug: "feather-knee-liveview-components-ftw"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 16
+  abstract: "Use LiveView Components for efficient code reuse while also creating a consistent look and feel throughout your app(s)."
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "qUZ5uN4gqNg"
+      url: "https://www.youtube.com/watch?v=qUZ5uN4gqNg"
+
+- title: "Japa Swadia - Domain-Driven Design with Elixir"
+  slug: "japa-swadia-domain-driven-design-with-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Writing an Elixir app but don't know where to start? Come learn about Domain-Driven Design to build easy-to-iterate, easy-to-collaborate and easy-to-maintain apps using some of Elixir's most powerful features."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fx3BmpzitUg"
+      url: "https://www.youtube.com/watch?v=fx3BmpzitUg"
+
+- title: "Jason Axelson - A Peek Inside the Elixir Language Server"
+  slug: "jason-axelson-a-peek-inside-the-elixir-language-server"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: "A look inside ElixirLS and why shared governance is important for software projects."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "9CEvLmDlqt4"
+      url: "https://www.youtube.com/watch?v=9CEvLmDlqt4"
+
+- title: "Jonathan Yeong - Deep dive into Elixir"
+  slug: "jonathan-yeong-deep-dive-into-elixir"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 28
+  abstract: "Have you ever wondered what makes Elixir, Elixir? From helpful abstractions to the Erlang VM. I aim to answer this question by diving deep into Elixir."
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "iNbqpT0elbA"
+      url: "https://www.youtube.com/watch?v=iNbqpT0elbA"
+
+- title: "Luciano Ramalho - UintSet: enumerable, streamable, understandable"
+  slug: "luciano-ramalho-uintset-enumerable-streamable-understandable"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: "Building idiomatic Elixir data structures from scratch using protocols and streams."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7QtURbPF6Vw"
+      url: "https://www.youtube.com/watch?v=7QtURbPF6Vw"
+
+- title: "Luke Imhoff - Lumen"
+  slug: "luke-imhoff-lumen"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "-381kMYvCA8"
+      url: "https://www.youtube.com/watch?v=-381kMYvCA8"
+
+- title: "Melvin Cedeno - Teaching Functional Programming With Elixir"
+  slug: "melvin-cedeno-teaching-functional-programming-with-elixir"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 25
+  abstract: "These are the things I've learned from teaching over a dozen intro to functional programming classes with Elixir, that you can utilize in your company trainings."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "q4_nPyoPmGo"
+      url: "https://www.youtube.com/watch?v=q4_nPyoPmGo"
+
+- title: "Nicholas Henry - The Upside Down Dimension of Elixir - An Intro to Metaprogramming"
+  slug: "nicholas-henry-the-upside-down-dimension-of-elixir-an-intro"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Open the gate and enter into the Upside Down Dimension of Elixir that is metaprogramming. If you have become frustrated with boilerplate code in your modules, wanted to program in a language closer to your domain, or create new programming constructs in Elixir, then this presentation is for you. The"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "EFAgc7YqDP8"
+      url: "https://www.youtube.com/watch?v=EFAgc7YqDP8"
+
+- title: "Parker Selbert - Distribution in Restricted Environments"
+  slug: "parker-selbert-distribution-in-restricted-environments"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: "Bring distributed computing to restricted environments like Heroku by leveraging PubSub to build a RAFT implementation."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "M1JOcSNlC6I"
+      url: "https://www.youtube.com/watch?v=M1JOcSNlC6I"
+
+- title: "Patrick Thompson - Liven up your LiveViews (even further) with AlpineJS"
+  slug: "patrick-thompson-liven-up-your-liveviews-even-further-with-a"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: "How to create production-ready modal LiveViews that transition smoothly in and out of view and survive LiveView reconnects."
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "Dv64_tGJhHo"
+      url: "https://www.youtube.com/watch?v=Dv64_tGJhHo"
+
+- title: "Simon de Haan - Using Elixir and WhatsApp to launch WHO’s global COVID-19 response"
+  slug: "simon-de-haan-using-elixir-and-whatsapp-to-launch-whos-globa"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "The inside story of how the World Health Organisation’s WhatsApp COVID-19 hotline service was launched in 5 days time using Elixir."
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ct1t-dBLvMY"
+      url: "https://www.youtube.com/watch?v=ct1t-dBLvMY"
+
+- title: "Steve Bussey - The Joy of an Elixir Monolith"
+  slug: "steve-bussey-the-joy-of-an-elixir-monolith"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 24
+  abstract: "Should you go with a microservice or monolith architecture for your Elixir app? This talk looks at the tradeoffs of the different approaches, with a focus on the BEAM process architecture."
+  topics:
+    - elixir
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "xC6j5Ngnhe0"
+      url: "https://www.youtube.com/watch?v=xC6j5Ngnhe0"
+
+- title: "Susumu Yamazaki - Pelemay: Real-time, High-Resolution Satellite Image Processing"
+  slug: "susumu-yamazaki-pelemay-real-time-high-resolution-satellite"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: "Do you know there is a plan to launch artificial satellites by Japanese companies? Don’t be surprised, but it will have the potential to enable us to observe everywhere on the Earth within only 10 minutes! However, it has a serious issue: it requires too much volume of image processing, which may co"
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "9H0AsmAsxgk"
+      url: "https://www.youtube.com/watch?v=9H0AsmAsxgk"
+
+- title: "Thomas Depierre - How we built a distributed datastore in Elixir"
+  slug: "thomas-depierre-how-we-built-a-distributed-datastore-in-elix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  abstract: "Best practice: do not build your own distributed database. Problem: no existing database covers our needs. Solution: Bad idea. Let's do it anyway. In Elixir!"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "8DtZbE29evg"
+      url: "https://www.youtube.com/watch?v=8DtZbE29evg"
+
+- title: "Yutaka Kikuchi - Applying Elixir for driving small hydropower plants with Nerves"
+  slug: "yutaka-kikuchi-applying-elixir-for-driving-small-hydropower"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: "Have you seen any power plant controlled with Nerves? We have been challenging to use tiny boards to regulate 240V and 6600V of small hydropower plants according to the conditions, e.g., water flow level of rivers. Should we use conventional PLCs? No, we can use Nerves systems for it more pleasantly"
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "SQhMsRPVwMc"
+      url: "https://www.youtube.com/watch?v=SQhMsRPVwMc"
+
+- title: "Zach Daniel - Introduction to the Ash Framework"
+  slug: "zach-daniel-introduction-to-the-ash-framework"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 32
+  abstract: "In this talk we go about building an application with the Ash Framework from scratch. We'll start from `mix new`, and end with a full featured JSON:API and GraphQL, backed by multiple data sources, with complex authorization rules and customizations."
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "2U3vQHXCF0s"
+      url: "https://www.youtube.com/watch?v=2U3vQHXCF0s"
+
+
+## Lightning Talks
+
+
+- title: "ElixirConf 2020 Lightning Talks"
+  slug: "lt-elixirconf-2020-lightning-talks"
+  kind: lightning_talk
+  language: en
+  duration: 35
+  abstract: "Lightning talks from Mike Binns, Zach Daniel, Hal Fulton, Isaac Yonemoto, and Brian Glusman"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "WMYc3VzOSpg"
+      url: "https://www.youtube.com/watch?v=WMYc3VzOSpg"
+
+- title: "ElixirConf 2020 Lightning Talks"
+  slug: "lt-elixirconf-2020-lightning-talks-1"
+  kind: lightning_talk
+  language: en
+  duration: 35
+  abstract: "Lightning talks from Mike Binns, Zach Daniel, Hal Fulton, Isaac Yonemoto, and Brian Glusman"
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "JXQZhyPK3Zw"
+      url: "https://www.youtube.com/watch?v=JXQZhyPK3Zw"
