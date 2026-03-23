@@ -19,7 +19,7 @@ mix phx.server
 
 Visit [localhost:4000](http://localhost:4000).
 
-`mix setup` handles deps, database creation, migrations, seeds, and asset builds.
+That's it. `mix setup` installs dependencies, creates the database, runs migrations, imports all YAML event data, and builds assets.
 
 ## Working with Data
 
@@ -33,13 +33,15 @@ mix elixir_events.validate
 
 This checks YAML syntax, required fields, slug formats, duplicates, and cross-file references — no database needed. It runs in CI too, so catching issues locally saves a round-trip.
 
-To populate your local database with all YAML data:
+To re-import data after making YAML changes:
 
 ```bash
 mix elixir_events.import
 ```
 
-This is idempotent — safe to run multiple times. You can also auto-fix common YAML issues (bad slugs, quoting problems):
+This is idempotent — safe to run multiple times. To start completely fresh, `mix ecto.reset` will drop the database, recreate it, and import everything.
+
+You can also auto-fix common YAML issues (bad slugs, quoting problems):
 
 ```bash
 mix elixir_events.data.fix        # apply fixes

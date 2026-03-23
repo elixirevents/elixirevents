@@ -34,6 +34,7 @@ defmodule ElixirEvents.Events do
   def list_events(opts \\ []) do
     Event
     |> listed_events_only()
+    |> maybe_filter_by_kinds(opts[:kinds])
     |> order_by([e], desc: e.start_date)
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
@@ -45,6 +46,7 @@ defmodule ElixirEvents.Events do
 
     Event
     |> listed_events_only()
+    |> maybe_filter_by_kinds(opts[:kinds])
     |> where([e], e.start_date >= ^today)
     |> where([e], e.status not in [:cancelled, :completed])
     |> order_by([e], asc: e.start_date)
@@ -58,6 +60,7 @@ defmodule ElixirEvents.Events do
 
     Event
     |> listed_events_only()
+    |> maybe_filter_by_kinds(opts[:kinds])
     |> where([e], e.start_date < ^today or e.status == :completed)
     |> order_by([e], desc: e.start_date)
     |> maybe_preload(opts[:preload])
@@ -135,6 +138,10 @@ defmodule ElixirEvents.Events do
       where: is_nil(s.id) or s.listed == true
     )
   end
+
+  defp maybe_filter_by_kinds(queryable, nil), do: queryable
+  defp maybe_filter_by_kinds(queryable, []), do: queryable
+  defp maybe_filter_by_kinds(queryable, kinds), do: where(queryable, [e], e.kind in ^kinds)
 
   defp maybe_preload(queryable, nil), do: queryable
   defp maybe_preload(queryable, preloads), do: from(q in queryable, preload: ^preloads)
