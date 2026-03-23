@@ -13,6 +13,16 @@ defmodule ElixirEvents.Release do
     end
   end
 
+  def sync_data do
+    load_app()
+
+    {:ok, _, _} =
+      Ecto.Migrator.with_repo(ElixirEvents.Repo, fn _repo ->
+        data_dir = Application.app_dir(@app, "priv/data")
+        ElixirEvents.Import.Sync.run(data_dir)
+      end)
+  end
+
   def rollback(repo, version) do
     load_app()
     {:ok, _, _} = Ecto.Migrator.with_repo(repo, &Ecto.Migrator.run(&1, :down, to: version))

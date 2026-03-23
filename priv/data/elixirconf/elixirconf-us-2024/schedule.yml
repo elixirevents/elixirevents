@@ -14,16 +14,16 @@ days:
       - start_time: "09:00"
         end_time: "10:00"
         sessions:
-          - talk_slug: "keynote-jose-valim"
+          - talk_slug: "keynote-livebook-cloud"
             track: "Main Stage"
             kind: keynote
       - start_time: "10:15"
         end_time: "10:55"
         sessions:
-          - talk_slug: "liveview-future-frontend"
+          - talk_slug: "dancing-with-data-etls"
             track: "Main Stage"
             kind: talk
-          - talk_slug: "distributed-elixir-in-practice"
+          - talk_slug: "opentelemetry-desire-to-dashboard"
             track: "Track B"
             kind: talk
       - start_time: "10:55"

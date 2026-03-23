@@ -593,7 +593,7 @@
 
 - name: "Paul Wilson"
   slug: "paulwilson"
-  headline: "Elixir and Nerves developer, builder of creative"
+  headline: "Elixir and Nerves developer"
   bio: "Elixir and Nerves developer, builder of creative hardware projects."
 
 - name: "René Föhring"
@@ -698,7 +698,7 @@
 
 - name: "Herminio Torres"
   slug: "herminiotorres"
-  headline: "Elixir developer and community member"
+  headline: "Elixir developer"
   bio: "Elixir developer and community member."
 
 - name: "Ingela Andin"
@@ -718,7 +718,7 @@
 
 - name: "Jakub Hajto"
   slug: "jakubhajto"
-  headline: "Elixir developer from the Polish community"
+  headline: "Elixir developer"
   bio: "Elixir developer from the Polish community."
 
 - name: "Kyle Oba"
@@ -1286,8 +1286,6 @@
   headline: "Developer"
   bio: "Conference speaker."
 
-# 2026 upcoming event speakers
-
 - name: "Alvise Susmel"
   slug: "alvisesusmel"
   headline: "Elixir Developer"
@@ -1310,7 +1308,7 @@
 
 - name: "Benjamin Milde"
   slug: "benjaminmilde"
-  headline: "Elixir developer and community educator"
+  headline: "Elixir developer"
   bio: "Elixir developer and community educator."
 
 - name: "Bruce Tate"
