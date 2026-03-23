@@ -88,5 +88,9 @@ config :phoenix_live_view,
   # Enable helpful, but potentially expensive runtime checks
   enable_expensive_runtime_checks: true
 
+config :elixir_events, ElixirEvents.Mailer,
+  from_email: "noreply@elixirevents.org",
+  from_name: "Elixir Events"
+
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false

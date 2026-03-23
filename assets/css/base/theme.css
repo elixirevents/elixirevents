@@ -1,0 +1,78 @@
+/* daisyUI theme plugin. You can update this file by fetching the latest version with:
+  curl -sLO https://github.com/saadeghi/daisyui/releases/latest/download/daisyui-theme.js
+  ElixirEvents branded themes — warm editorial aesthetic */
+@plugin "../../vendor/daisyui-theme" {
+  name: "dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: oklch(20% 0.025 285);
+  --color-base-200: oklch(16% 0.02 285);
+  --color-base-300: oklch(13% 0.015 285);
+  --color-base-content: oklch(95% 0.012 285);
+  --color-primary: oklch(68% 0.17 310);
+  --color-primary-content: oklch(15% 0.05 310);
+  --color-secondary: oklch(70% 0.17 25);
+  --color-secondary-content: oklch(15% 0.04 25);
+  --color-accent: oklch(65% 0.12 170);
+  --color-accent-content: oklch(15% 0.03 170);
+  --color-neutral: oklch(30% 0.03 285);
+  --color-neutral-content: oklch(95% 0.005 285);
+  --color-info: oklch(65% 0.15 245);
+  --color-info-content: oklch(97% 0.013 236.62);
+  --color-success: oklch(65% 0.14 155);
+  --color-success-content: oklch(98% 0.014 155);
+  --color-warning: oklch(70% 0.16 70);
+  --color-warning-content: oklch(20% 0.04 70);
+  --color-error: oklch(62% 0.22 20);
+  --color-error-content: oklch(96% 0.015 20);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "../../vendor/daisyui-theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(97.5% 0.005 85);
+  --color-base-200: oklch(94.5% 0.007 85);
+  --color-base-300: oklch(90% 0.01 85);
+  --color-base-content: oklch(20% 0.02 285);
+  --color-primary: oklch(45% 0.2 310);
+  --color-primary-content: oklch(97% 0.01 310);
+  --color-secondary: oklch(62% 0.2 25);
+  --color-secondary-content: oklch(98% 0.015 25);
+  --color-accent: oklch(52% 0.1 170);
+  --color-accent-content: oklch(97% 0.01 170);
+  --color-neutral: oklch(38% 0.025 285);
+  --color-neutral-content: oklch(97% 0.005 285);
+  --color-info: oklch(55% 0.18 255);
+  --color-info-content: oklch(97% 0.014 255);
+  --color-success: oklch(55% 0.14 155);
+  --color-success-content: oklch(98% 0.014 155);
+  --color-warning: oklch(66% 0.179 58.318);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(55% 0.22 20);
+  --color-error-content: oklch(96% 0.015 20);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
+
+/* ElixirEvents custom font families */
+@theme {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}

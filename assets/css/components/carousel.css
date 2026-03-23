@@ -1,0 +1,11 @@
+/* Featured events carousel */
+.carousel-marquee {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.carousel-marquee::-webkit-scrollbar {
+  display: none;
+}
