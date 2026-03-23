@@ -10,6 +10,9 @@ defmodule ElixirEvents.DataValidator do
   - Date format
   - Duplicate slugs within scope
   - Speaker/topic references resolve to global files
+  - Event venue_slug references resolve to venues.yml
+  - Schedule session talk_slug references resolve to talks.yml
+  - Sponsor slug references resolve to organizations.yml
   """
 
   alias ElixirEvents.Slug
@@ -32,6 +35,8 @@ defmodule ElixirEvents.DataValidator do
     # Load global references for cross-validation
     speaker_slugs = load_slugs(Path.join(data_dir, "speakers.yml"))
     topic_slugs = load_slugs(Path.join(data_dir, "topics.yml"))
+    venue_slugs = load_slugs(Path.join(data_dir, "venues.yml"))
+    organization_slugs = load_slugs(Path.join(data_dir, "organizations.yml"))
 
     errors = errors ++ validate_global_file(data_dir, "speakers.yml", &validate_speaker/1)
     errors = errors ++ validate_global_file(data_dir, "topics.yml", &validate_topic/1)
@@ -54,7 +59,13 @@ defmodule ElixirEvents.DataValidator do
       Enum.reduce(series_dirs, errors, fn series_dir, acc ->
         acc
         |> validate_series_file(series_dir)
-        |> validate_events_in_series(series_dir, speaker_slugs, topic_slugs)
+        |> validate_events_in_series(
+          series_dir,
+          speaker_slugs,
+          topic_slugs,
+          venue_slugs,
+          organization_slugs
+        )
       end)
 
     case errors do
@@ -146,17 +157,26 @@ defmodule ElixirEvents.DataValidator do
 
   # --- Event validation ---
 
-  defp validate_events_in_series(errors, series_dir, speaker_slugs, topic_slugs) do
+  defp validate_events_in_series(
+         errors,
+         series_dir,
+         speaker_slugs,
+         topic_slugs,
+         venue_slugs,
+         organization_slugs
+       ) do
     series_dir
     |> list_event_dirs()
     |> Enum.reduce(errors, fn event_dir, acc ->
       acc
-      |> validate_event_file(event_dir)
+      |> validate_event_file(event_dir, venue_slugs)
       |> validate_talks_file(event_dir, speaker_slugs, topic_slugs)
+      |> validate_schedule_file(event_dir)
+      |> validate_sponsors_file(event_dir, organization_slugs)
     end)
   end
 
-  defp validate_event_file(errors, event_dir) do
+  defp validate_event_file(errors, event_dir, venue_slugs) do
     path = Path.join(event_dir, "event.yml")
 
     case parse_yaml(path) do
@@ -177,6 +197,7 @@ defmodule ElixirEvents.DataValidator do
           |> validate_date(data, "start_date")
           |> validate_date(data, "end_date")
           |> require_field(data, "timezone")
+          |> validate_reference(data, "venue_slug", venue_slugs, "venues.yml")
           |> Enum.map(&prepend_location(&1, path))
 
         errors ++ errs
@@ -273,9 +294,96 @@ defmodule ElixirEvents.DataValidator do
     end
   end
 
-  # Validate recording entries within talks
-  # (omitted from talk validation for now — recordings are optional and
-  # the provider enum is checked at import time)
+  # --- Schedule validation ---
+
+  defp validate_schedule_file(errors, event_dir) do
+    path = Path.join(event_dir, "schedule.yml")
+    talks_path = Path.join(event_dir, "talks.yml")
+
+    if File.exists?(path) do
+      talk_slugs =
+        case parse_yaml(talks_path) do
+          {:ok, data} when is_list(data) ->
+            data |> Enum.map(& &1["slug"]) |> Enum.reject(&is_nil/1) |> MapSet.new()
+
+          _ ->
+            MapSet.new()
+        end
+
+      case parse_yaml(path) do
+        {:ok, data} when is_map(data) ->
+          errors ++ validate_schedule_talk_refs(data, path, talk_slugs)
+
+        {:ok, _} ->
+          errors ++ [error(path, "expected a YAML map")]
+
+        {:error, reason} ->
+          errors ++ [error(path, "YAML parse error: #{reason}")]
+      end
+    else
+      errors
+    end
+  end
+
+  defp validate_schedule_talk_refs(data, path, talk_slugs) do
+    days = data["days"] || []
+
+    days
+    |> Enum.flat_map(fn day -> day["time_slots"] || [] end)
+    |> Enum.flat_map(fn slot -> slot["sessions"] || [] end)
+    |> Enum.flat_map(fn session ->
+      validate_session_talk_ref(session, path, talk_slugs)
+    end)
+  end
+
+  defp validate_session_talk_ref(%{"talk_slug" => slug}, path, talk_slugs) when is_binary(slug) do
+    if MapSet.member?(talk_slugs, slug),
+      do: [],
+      else: [error(path, "session talk_slug '#{slug}' not found in talks.yml")]
+  end
+
+  defp validate_session_talk_ref(_session, _path, _talk_slugs), do: []
+
+  # --- Sponsors validation ---
+
+  defp validate_sponsors_file(errors, event_dir, organization_slugs) do
+    path = Path.join(event_dir, "sponsors.yml")
+
+    if File.exists?(path) do
+      case parse_yaml(path) do
+        {:ok, data} when is_list(data) ->
+          errors ++ validate_sponsor_refs(data, path, organization_slugs)
+
+        {:ok, _} ->
+          errors ++ [error(path, "expected a YAML list")]
+
+        {:error, reason} ->
+          errors ++ [error(path, "YAML parse error: #{reason}")]
+      end
+    else
+      errors
+    end
+  end
+
+  defp validate_sponsor_refs(tiers, path, organization_slugs) do
+    tiers
+    |> Enum.flat_map(fn tier ->
+      tier_name = tier["name"]
+
+      (tier["sponsors"] || [])
+      |> Enum.flat_map(&validate_sponsor_ref(&1, path, tier_name, organization_slugs))
+    end)
+  end
+
+  defp validate_sponsor_ref(%{"slug" => slug}, path, _tier_name, organization_slugs) do
+    if MapSet.member?(organization_slugs, slug),
+      do: [],
+      else: [error(path, "sponsor '#{slug}' not found in organizations.yml")]
+  end
+
+  defp validate_sponsor_ref(_sponsor, path, tier_name, _organization_slugs) do
+    [error(path, "sponsor missing 'slug' in tier '#{tier_name}'")]
+  end
 
   # --- Helpers ---
 
@@ -331,6 +439,23 @@ defmodule ElixirEvents.DataValidator do
 
       other ->
         errors ++ ["slug must be a string, got: #{inspect(other)}"]
+    end
+  end
+
+  defp validate_reference(errors, data, field, slugs, source_file) do
+    case data[field] do
+      nil ->
+        errors
+
+      slug when is_binary(slug) ->
+        if MapSet.member?(slugs, slug) do
+          errors
+        else
+          errors ++ ["#{field} '#{slug}' not found in #{source_file}"]
+        end
+
+      _ ->
+        errors
     end
   end
 
