@@ -660,7 +660,7 @@ defmodule ElixirEventsWeb.CoreComponents do
 
   def dropdown(assigns) do
     ~H"""
-    <div class="ee-dropdown" phx-click-away={close_dropdown(@id)} id={@id}>
+    <div class="dropdown" phx-click-away={close_dropdown(@id)} id={@id}>
       <div
         aria-haspopup="true"
         aria-expanded="false"
@@ -672,7 +672,7 @@ defmodule ElixirEventsWeb.CoreComponents do
 
       <div
         id={"#{@id}-panel"}
-        class={["ee-dropdown-panel", "ee-dropdown-panel--#{@align}"]}
+        class={["dropdown-panel", "dropdown-panel--#{@align}"]}
         role="menu"
         data-state="closed"
       >
@@ -687,7 +687,7 @@ defmodule ElixirEventsWeb.CoreComponents do
 
   def dropdown_label(assigns) do
     ~H"""
-    <span class="ee-dropdown-label">
+    <span class="dropdown-label">
       {render_slot(@inner_block) || @label}
     </span>
     """
@@ -695,7 +695,7 @@ defmodule ElixirEventsWeb.CoreComponents do
 
   def dropdown_divider(assigns) do
     ~H"""
-    <div class="ee-dropdown-divider" />
+    <div class="dropdown-divider" />
     """
   end
 
@@ -710,7 +710,7 @@ defmodule ElixirEventsWeb.CoreComponents do
     <.link
       href={@href}
       method={@method}
-      class={["ee-dropdown-item", @variant == "danger" && "ee-dropdown-item--danger"]}
+      class={["dropdown-item", @variant == "danger" && "dropdown-item--danger"]}
       role="menuitem"
       {@rest}
     >
@@ -749,7 +749,7 @@ defmodule ElixirEventsWeb.CoreComponents do
     assigns = assign(assigns, :selected_label, selected_label)
 
     ~H"""
-    <div class="ee-dropdown relative" phx-click-away={close_dropdown(@id)} id={@id}>
+    <div class="dropdown relative" phx-click-away={close_dropdown(@id)} id={@id}>
       <input type="hidden" name={@name} value={@value} id={"#{@id}-value"} />
       <button
         type="button"
@@ -765,7 +765,7 @@ defmodule ElixirEventsWeb.CoreComponents do
 
       <div
         id={"#{@id}-panel"}
-        class={["ee-dropdown-panel", "ee-dropdown-panel--start", "w-full", "min-w-[10rem]"]}
+        class={["dropdown-panel", "dropdown-panel--start", "w-full", "min-w-[10rem]"]}
         role="listbox"
         data-state="closed"
       >
@@ -775,8 +775,8 @@ defmodule ElixirEventsWeb.CoreComponents do
           role="option"
           aria-selected={to_string(val) == to_string(@value)}
           class={[
-            "ee-dropdown-item w-full text-left",
-            to_string(val) == to_string(@value) && "ee-dropdown-item--active"
+            "dropdown-item w-full text-left",
+            to_string(val) == to_string(@value) && "dropdown-item--active"
           ]}
           phx-click={
             JS.set_attribute({"value", to_string(val)}, to: "##{@id}-value")

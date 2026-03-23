@@ -369,16 +369,16 @@ defmodule ElixirEventsWeb.Layouts do
 
   defp admin_sidebar(assigns) do
     ~H"""
-    <aside class="ee-admin-sidebar">
-      <div class="ee-admin-sidebar-inner">
-        <div class="ee-admin-sidebar-header">
+    <aside class="admin-sidebar">
+      <div class="admin-sidebar-inner">
+        <div class="admin-sidebar-header">
           <.icon name="hero-shield-check-solid" class="size-5 text-primary" />
           <span class="font-display font-bold text-sm tracking-tight">Admin</span>
         </div>
 
-        <nav class="ee-admin-nav">
-          <div class="ee-admin-nav-section">
-            <span class="ee-admin-nav-label">Manage</span>
+        <nav class="admin-nav">
+          <div class="admin-nav-section">
+            <span class="admin-nav-label">Manage</span>
             <.admin_nav_link
               href="/admin/claims"
               icon="hero-hand-raised"
@@ -387,8 +387,8 @@ defmodule ElixirEventsWeb.Layouts do
             />
           </div>
 
-          <div class="ee-admin-nav-section">
-            <span class="ee-admin-nav-label">Tools</span>
+          <div class="admin-nav-section">
+            <span class="admin-nav-label">Tools</span>
             <.admin_nav_link
               href="/admin/lotus"
               icon="hero-circle-stack"
@@ -398,10 +398,10 @@ defmodule ElixirEventsWeb.Layouts do
           </div>
         </nav>
 
-        <div class="ee-admin-sidebar-footer">
+        <div class="admin-sidebar-footer">
           <a
             href="/"
-            class="ee-admin-nav-link"
+            class="admin-nav-link"
           >
             <.icon name="hero-arrow-left" class="size-4" />
             <span>Back to site</span>
@@ -419,7 +419,7 @@ defmodule ElixirEventsWeb.Layouts do
 
   defp admin_nav_link(assigns) do
     ~H"""
-    <a href={@href} class={["ee-admin-nav-link", @active && "ee-admin-nav-link--active"]}>
+    <a href={@href} class={["admin-nav-link", @active && "admin-nav-link--active"]}>
       <.icon name={@icon} class="size-4" />
       <span>{@label}</span>
     </a>
@@ -439,7 +439,7 @@ defmodule ElixirEventsWeb.Layouts do
     ~H"""
     <.dropdown id="user-menu">
       <:trigger>
-        <button class="ee-avatar-trigger" title={@current_scope.user.email}>
+        <button class="avatar-trigger" title={@current_scope.user.email}>
           <img
             :if={@profile && @profile.avatar_url}
             src={@profile.avatar_url}
