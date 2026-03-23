@@ -1,8 +1,9 @@
-- title: "MCP in Phoenix"
+- title: "MCP in Phoenix: Architecture and Lessons from Remote Agents"
   slug: "mcp-in-phoenix"
+  abstract: "At Remote, we implemented the Model Context Protocol (MCP) in Elixir, so our Remote Agents can safely use tools and data from our Phoenix backend. This talk explains how we built the server, how we wired it to authentication and authorization, and what we learned shipping it. For anyone curious about MCP or bringing AI agents into an existing Elixir stack."
   kind: talk
   language: en
-  duration: 45
+  duration: 30
   speakers:
     - antoniosilva
   topics:
