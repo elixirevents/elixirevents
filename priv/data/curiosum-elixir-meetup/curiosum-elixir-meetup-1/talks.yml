@@ -1,0 +1,45 @@
+## Talks
+
+- title: "Reliability of Elixir & Erlang"
+  slug: "reliability-of-elixir-and-erlang"
+  kind: talk
+  language: en
+  duration: 45
+  speakers:
+    - krzysztofkempinski
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "LZPu4zzODjk"
+      url: "https://www.youtube.com/watch?v=LZPu4zzODjk"
+
+- title: "Debugging Elixir Code - The tools, the mindset"
+  slug: "debugging-elixir-code-the-tools-the-mindset"
+  kind: talk
+  language: en
+  duration: 47
+  speakers:
+    - michalbuszkiewicz
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "0U8o3-5zlr8"
+      url: "https://www.youtube.com/watch?v=0U8o3-5zlr8"
+
+- title: "Structuring Elixir & Phoenix project - our approach"
+  slug: "structuring-elixir-and-phoenix-project-our-approach"
+  kind: talk
+  language: en
+  duration: 33
+  speakers:
+    - szymonsoppa
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "oMFQ5N3WzfE"
+      url: "https://www.youtube.com/watch?v=oMFQ5N3WzfE"

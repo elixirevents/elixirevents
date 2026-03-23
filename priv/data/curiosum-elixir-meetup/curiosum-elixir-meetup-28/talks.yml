@@ -1,0 +1,16 @@
+## Talks
+
+- title: "Why – and how! Load-testing as Part of your TDD Cycle"
+  slug: "why-and-how-load-testing-as-part-of-your-tdd-cycle"
+  kind: talk
+  language: en
+  duration: 64
+  speakers:
+    - nelsonvides
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "fNEa1WyEwHI"
+      url: "https://www.youtube.com/watch?v=fNEa1WyEwHI"

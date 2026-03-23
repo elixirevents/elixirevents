@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Tidy up your translations with Kanta - introduction"
+  slug: "tidy-up-your-translations-with-kanta-introduction"
+  kind: talk
+  language: en
+  duration: 20
+  speakers:
+    - krzysztofjaniec
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "4StnKPv4vAk"
+      url: "https://www.youtube.com/watch?v=4StnKPv4vAk"

@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Permit - An Uniform Authorization Library for Elixir"
+  slug: "permit-an-uniform-authorization-library-for-elixir"
+  kind: talk
+  language: en
+  duration: 46
+  speakers:
+    - michalbuszkiewicz
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qNl3fKpzQFY"
+      url: "https://www.youtube.com/watch?v=qNl3fKpzQFY"

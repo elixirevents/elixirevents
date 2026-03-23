@@ -1,0 +1,11 @@
+name: "YOW! 2020"
+slug: "yow-2020"
+kind: conference
+status: completed
+format: in_person
+start_date: "2020-12-01"
+end_date: "2020-12-03"
+timezone: "Australia/Sydney"
+language: en
+location: "Sydney, Australia"
+website: "https://yowconference.com"

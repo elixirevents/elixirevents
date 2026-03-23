@@ -1,0 +1,12 @@
+name: "BBUG #8 - MCP in Phoenix"
+slug: "bbug-8"
+kind: meetup
+status: confirmed
+format: in_person
+start_date: "2026-03-26"
+end_date: "2026-03-26"
+timezone: "Europe/Lisbon"
+language: en
+location: "Braga, Portugal"
+website: "https://www.meetup.com/bragabeam/events/313666565/"
+description: "Building MCP servers in Phoenix — learn how Remote implemented the Model Context Protocol in Elixir to enable their agents to safely access tools and data from their Phoenix backend."

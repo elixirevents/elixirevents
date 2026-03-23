@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Learn Elixir: Resource Gems for Better Comprehension"
+  slug: "learn-elixir-resource-gems-for-better-comprehension"
+  kind: talk
+  language: en
+  duration: 30
+  speakers:
+    - savannahmanning
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "M7mq_ySxeeI"
+      url: "https://www.youtube.com/watch?v=M7mq_ySxeeI"

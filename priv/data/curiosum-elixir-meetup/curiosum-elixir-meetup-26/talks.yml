@@ -1,0 +1,18 @@
+## Talks
+
+- title: "Secrets of testing in Phoenix LiveView"
+  slug: "secrets-of-testing-in-phoenix-liveview"
+  kind: talk
+  language: en
+  duration: 34
+  speakers:
+    - michaelmunavu
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "BuzbkUtqGpw"
+      url: "https://www.youtube.com/watch?v=BuzbkUtqGpw"

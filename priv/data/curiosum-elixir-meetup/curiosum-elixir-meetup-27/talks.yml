@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Unlocking the power of Absinthe part 2 - subscriptions and graphQL"
+  slug: "unlocking-the-power-of-absinthe-part-2-subscriptions-and-graphql"
+  kind: talk
+  language: en
+  duration: 34
+  speakers:
+    - niteshmishra
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "G5hUDRSHmG4"
+      url: "https://www.youtube.com/watch?v=G5hUDRSHmG4"

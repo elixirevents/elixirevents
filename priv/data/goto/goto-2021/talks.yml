@@ -1,0 +1,13 @@
+- title: "Erlang, the Hidden Gem: Solving Problems at Scale for 30+ Years"
+  slug: "erlang-the-hidden-gem-solving-problems-at-scale"
+  kind: talk
+  language: en
+  speakers:
+    - francescocesarini
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "-m31ag9z4VY"
+      url: "https://www.youtube.com/watch?v=-m31ag9z4VY"

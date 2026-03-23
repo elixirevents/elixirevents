@@ -1,0 +1,32 @@
+## Talks
+
+- title: "Phoenix LiveView: A Solution to Madness"
+  slug: "phoenix-liveview-a-solution-to-madness"
+  kind: talk
+  language: en
+  duration: 67
+  speakers:
+    - joshuaplicque
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "_QLf9-X0XBo"
+      url: "https://www.youtube.com/watch?v=_QLf9-X0XBo"
+
+- title: "Lightning Talk: A walk-thru of a full Nerves application"
+  slug: "a-walk-thru-of-a-full-nerves-application"
+  kind: talk
+  language: en
+  duration: 46
+  speakers:
+    - robraisch
+  topics:
+    - elixir
+    - nerves
+  recordings:
+    - provider: youtube
+      external_id: "pFANuX7XOV4"
+      url: "https://www.youtube.com/watch?v=pFANuX7XOV4"

@@ -1,0 +1,12 @@
+- title: "Simplifying Systems with Elixir"
+  slug: "simplifying-systems-with-elixir"
+  kind: talk
+  language: en
+  speakers:
+    - sasajuric
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "EDfm2fVS4Bo"
+      url: "https://www.youtube.com/watch?v=EDfm2fVS4Bo"

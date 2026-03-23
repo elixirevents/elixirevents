@@ -1,0 +1,16 @@
+## Talks
+
+- title: "How to leverage Live Sessions to make more DRY code"
+  slug: "how-to-leverage-live-sessions-to-make-more-dry-code"
+  kind: talk
+  language: en
+  duration: 39
+  speakers:
+    - joaoferreira
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "EjE7i4w_XpM"
+      url: "https://www.youtube.com/watch?v=EjE7i4w_XpM"

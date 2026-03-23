@@ -1,0 +1,13 @@
+- title: "BEAM Concurrency in Action"
+  slug: "beam-concurrency-in-action"
+  kind: talk
+  language: en
+  speakers:
+    - sasajuric
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "A4x6IfceJCM"
+      url: "https://www.youtube.com/watch?v=A4x6IfceJCM"

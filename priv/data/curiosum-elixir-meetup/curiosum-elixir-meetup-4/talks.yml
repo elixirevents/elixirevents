@@ -1,0 +1,31 @@
+## Talks
+
+- title: "Throttling and Blocking Bad Requests in Phoenix with PlugAttack"
+  slug: "throttling-and-blocking-bad-requests-in-phoenix-with-plugattack"
+  kind: talk
+  language: en
+  duration: 30
+  speakers:
+    - michaellubas
+  topics:
+    - elixir
+    - phoenix
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "dIZ-98pjgRk"
+      url: "https://www.youtube.com/watch?v=dIZ-98pjgRk"
+
+- title: "Tracking your Elixir applications using Telemetry and Metrics"
+  slug: "tracking-your-elixir-applications-using-telemetry-and-metrics"
+  kind: talk
+  language: en
+  duration: 46
+  speakers:
+    - bartoszgorka
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "HTpOkGeDCgI"
+      url: "https://www.youtube.com/watch?v=HTpOkGeDCgI"

@@ -1,0 +1,15 @@
+## Talks
+
+- title: "gRPC vs REST. How to use gRPC in Elixir?"
+  slug: "grpc-vs-rest-how-to-use-grpc-in-elixir"
+  kind: talk
+  language: en
+  duration: 48
+  speakers:
+    - samuelpereira
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "XQY_lPjiE7U"
+      url: "https://www.youtube.com/watch?v=XQY_lPjiE7U"

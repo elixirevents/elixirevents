@@ -1,0 +1,12 @@
+- title: "MCP in Phoenix"
+  slug: "mcp-in-phoenix"
+  kind: talk
+  language: en
+  duration: 45
+  speakers:
+    - antoniosilva
+  topics:
+    - elixir
+    - phoenix
+    - machine-learning
+  recordings: []

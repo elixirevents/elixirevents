@@ -1,0 +1,7 @@
+name: "GOTO Conferences"
+slug: "goto"
+kind: conference
+frequency: yearly
+language: en
+listed: false
+website: "https://gotopia.tech"

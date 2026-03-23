@@ -1,0 +1,11 @@
+name: "YOW! 2022"
+slug: "yow-2022"
+kind: conference
+status: completed
+format: in_person
+start_date: "2022-12-01"
+end_date: "2022-12-03"
+timezone: "Australia/Sydney"
+language: en
+location: "Sydney, Australia"
+website: "https://yowconference.com"

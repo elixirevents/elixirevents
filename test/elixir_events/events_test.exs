@@ -134,6 +134,53 @@ defmodule ElixirEvents.EventsTest do
       assert [found] = Events.list_events()
       assert found.id == event.id
     end
+
+    test "excludes events from unlisted series" do
+      {:ok, listed_series} =
+        Events.create_event_series(%{@valid_series_attrs | slug: "listed-series"})
+
+      {:ok, unlisted_series} =
+        Events.create_event_series(%{
+          @valid_series_attrs
+          | slug: "unlisted-series",
+            name: "External Conf"
+        })
+
+      Events.upsert_event_series(%{
+        name: "External Conf",
+        slug: "unlisted-series",
+        kind: :conference,
+        listed: false
+      })
+
+      {:ok, _listed_event} =
+        Events.create_event(
+          %{
+            @valid_event_attrs
+            | slug: "listed-event"
+          }
+          |> Map.put(:event_series_id, listed_series.id)
+        )
+
+      {:ok, _unlisted_event} =
+        Events.create_event(
+          %{
+            @valid_event_attrs
+            | slug: "unlisted-event"
+          }
+          |> Map.put(:event_series_id, unlisted_series.id)
+        )
+
+      events = Events.list_events()
+      slugs = Enum.map(events, & &1.slug)
+      assert "listed-event" in slugs
+      refute "unlisted-event" in slugs
+    end
+
+    test "includes events without a series" do
+      {:ok, _event} = Events.create_event(@valid_event_attrs)
+      assert [%{slug: "elixirconf-us-2025"}] = Events.list_events()
+    end
   end
 
   describe "get_event_by_slug/1" do
@@ -144,10 +191,27 @@ defmodule ElixirEvents.EventsTest do
   end
 
   describe "list_event_series/0" do
-    test "returns all series" do
+    test "returns all listed series" do
       {:ok, series} = Events.create_event_series(@valid_series_attrs)
       assert [found] = Events.list_event_series()
       assert found.id == series.id
+    end
+
+    test "excludes unlisted series" do
+      {:ok, _listed} = Events.create_event_series(@valid_series_attrs)
+
+      {:ok, _unlisted} =
+        Events.create_event_series(%{
+          name: "YOW!",
+          slug: "yow",
+          kind: :conference,
+          listed: false
+        })
+
+      series = Events.list_event_series()
+      slugs = Enum.map(series, & &1.slug)
+      assert "elixirconf" in slugs
+      refute "yow" in slugs
     end
   end
 
@@ -191,6 +255,32 @@ defmodule ElixirEvents.EventsTest do
       upcoming = Events.list_upcoming_events()
       assert [%{slug: "upcoming"}] = upcoming
     end
+
+    test "excludes events from unlisted series" do
+      {:ok, unlisted} =
+        Events.create_event_series(%{
+          name: "YOW!",
+          slug: "yow",
+          kind: :conference,
+          listed: false
+        })
+
+      future_date = Date.add(Date.utc_today(), 30)
+
+      {:ok, _} =
+        Events.create_event(
+          %{
+            @valid_event_attrs
+            | slug: "yow-upcoming",
+              start_date: future_date,
+              end_date: Date.add(future_date, 2),
+              status: :confirmed
+          }
+          |> Map.put(:event_series_id, unlisted.id)
+        )
+
+      assert [] = Events.list_upcoming_events()
+    end
   end
 
   describe "list_past_events/0" do
@@ -215,6 +305,29 @@ defmodule ElixirEvents.EventsTest do
 
       past = Events.list_past_events()
       assert [%{slug: "past-event"}] = past
+    end
+
+    test "excludes events from unlisted series" do
+      {:ok, unlisted} =
+        Events.create_event_series(%{
+          name: "YOW!",
+          slug: "yow",
+          kind: :conference,
+          listed: false
+        })
+
+      {:ok, _} =
+        Events.create_event(
+          %{
+            @valid_event_attrs
+            | slug: "yow-past",
+              start_date: ~D[2020-01-01],
+              end_date: ~D[2020-01-02]
+          }
+          |> Map.put(:event_series_id, unlisted.id)
+        )
+
+      assert [] = Events.list_past_events()
     end
   end
 

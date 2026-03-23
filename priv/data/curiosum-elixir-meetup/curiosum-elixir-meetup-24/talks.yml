@@ -1,0 +1,16 @@
+## Talks
+
+- title: "Unraveling the Enigma of Supervision Trees"
+  slug: "unraveling-the-enigma-of-supervision-trees"
+  kind: talk
+  language: en
+  duration: 38
+  speakers:
+    - samuelpereira
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "zoSaqzA5DuY"
+      url: "https://www.youtube.com/watch?v=zoSaqzA5DuY"

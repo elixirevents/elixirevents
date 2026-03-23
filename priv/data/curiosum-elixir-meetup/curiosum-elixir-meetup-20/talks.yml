@@ -1,0 +1,30 @@
+## Talks
+
+- title: "How to get a job with Elixir"
+  slug: "how-to-get-a-job-with-elixir"
+  kind: talk
+  language: en
+  duration: 30
+  speakers:
+    - gustavooliveira
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "Jo7fUEDPaNk"
+      url: "https://www.youtube.com/watch?v=Jo7fUEDPaNk"
+
+- title: "Practical explanation of Elixir's concurrency"
+  slug: "practical-explanation-of-elixirs-concurrency"
+  kind: talk
+  language: en
+  duration: 42
+  speakers:
+    - mateuszosinski
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "J2UJY_-qR1M"
+      url: "https://www.youtube.com/watch?v=J2UJY_-qR1M"

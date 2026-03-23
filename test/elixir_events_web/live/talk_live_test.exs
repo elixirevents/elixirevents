@@ -58,6 +58,42 @@ defmodule ElixirEventsWeb.TalkLiveTest do
     end
   end
 
+  describe "talks from unlisted series" do
+    test "talks from unlisted series appear on talks page", %{conn: conn} do
+      {:ok, unlisted} =
+        Events.create_event_series(%{
+          name: "YOW!",
+          slug: "yow",
+          kind: :conference,
+          listed: false
+        })
+
+      {:ok, event} =
+        Events.create_event(%{
+          name: "YOW! 2021",
+          slug: "yow-2021",
+          kind: :conference,
+          status: :completed,
+          format: :in_person,
+          start_date: ~D[2021-12-01],
+          end_date: ~D[2021-12-03],
+          timezone: "Australia/Sydney",
+          event_series_id: unlisted.id
+        })
+
+      {:ok, _} =
+        Talks.create_talk(%{
+          event_id: event.id,
+          title: "Fault-tolerant Elixir",
+          slug: "fault-tolerant-elixir",
+          kind: :talk
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/talks")
+      assert html =~ "Fault-tolerant Elixir"
+    end
+  end
+
   describe "Show" do
     setup [:create_event_and_talk]
 

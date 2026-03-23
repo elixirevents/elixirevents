@@ -59,6 +59,36 @@ defmodule ElixirEventsWeb.EventLiveTest do
     end
   end
 
+  describe "unlisted series" do
+    test "events from unlisted series do not appear on events page", %{conn: conn} do
+      {:ok, unlisted} =
+        Events.create_event_series(%{
+          name: "YOW!",
+          slug: "yow",
+          kind: :conference,
+          listed: false
+        })
+
+      future = Date.add(Date.utc_today(), 30)
+
+      {:ok, _} =
+        Events.create_event(%{
+          name: "YOW! 2026",
+          slug: "yow-2026",
+          kind: :conference,
+          status: :confirmed,
+          format: :in_person,
+          start_date: future,
+          end_date: Date.add(future, 2),
+          timezone: "Australia/Sydney",
+          event_series_id: unlisted.id
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events")
+      refute html =~ "YOW! 2026"
+    end
+  end
+
   describe "Series Show" do
     test "renders series page with events", %{conn: conn} do
       {:ok, series} =

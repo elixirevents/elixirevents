@@ -1,0 +1,16 @@
+## Talks
+
+- title: "Perfecting local and remote Elixir CI pipeline"
+  slug: "perfecting-local-and-remote-elixir-ci-pipeline"
+  kind: talk
+  language: en
+  duration: 49
+  speakers:
+    - szymonsoppa
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "M6Wf1wjunjY"
+      url: "https://www.youtube.com/watch?v=M6Wf1wjunjY"

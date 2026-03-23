@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Error handling in Elixir: From Blunders to Brilliance"
+  slug: "error-handling-in-elixir-from-blunders-to-brilliance"
+  kind: talk
+  language: en
+  duration: 49
+  speakers:
+    - zvonimirrudinski
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "KDM6CI-iwGM"
+      url: "https://www.youtube.com/watch?v=KDM6CI-iwGM"

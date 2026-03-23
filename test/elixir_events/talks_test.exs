@@ -136,6 +136,44 @@ defmodule ElixirEvents.TalksTest do
       assert [%{title: "Talk 1"}] = Talks.list_talks()
     end
 
+    test "includes talks from unlisted series", %{event: _event} do
+      {:ok, unlisted_series} =
+        Events.create_event_series(%{
+          name: "YOW!",
+          slug: "yow",
+          kind: :conference,
+          listed: false
+        })
+
+      {:ok, unlisted_event} =
+        Events.create_event(%{
+          name: "YOW! 2021",
+          slug: "yow-2021",
+          kind: :conference,
+          status: :completed,
+          format: :in_person,
+          start_date: ~D[2021-12-01],
+          end_date: ~D[2021-12-03],
+          timezone: "Australia/Sydney",
+          event_series_id: unlisted_series.id
+        })
+
+      {:ok, _} =
+        Talks.create_talk(%{
+          event_id: unlisted_event.id,
+          title: "Elixir at YOW!",
+          slug: "elixir-at-yow",
+          kind: :talk
+        })
+
+      talks = Talks.list_talks()
+      assert Enum.any?(talks, &(&1.slug == "elixir-at-yow"))
+
+      # But the event should NOT appear in event listings
+      events = Events.list_events()
+      refute Enum.any?(events, &(&1.slug == "yow-2021"))
+    end
+
     test "filters by published (has recordings)", %{event: event} do
       {:ok, talk} =
         Talks.create_talk(%{event_id: event.id, title: "T", slug: "t-pub", kind: :talk})
@@ -204,6 +242,42 @@ defmodule ElixirEvents.TalksTest do
       Talks.create_talk_speaker(%{talk_id: talk.id, profile_id: profile.id, role: :speaker})
 
       assert [%{title: "T"}] = Talks.list_talks_for_profile(profile.id)
+    end
+
+    test "includes talks from unlisted series", %{profile: profile} do
+      {:ok, unlisted_series} =
+        Events.create_event_series(%{
+          name: "GOTO",
+          slug: "goto",
+          kind: :conference,
+          listed: false
+        })
+
+      {:ok, unlisted_event} =
+        Events.create_event(%{
+          name: "GOTO 2021",
+          slug: "goto-2021",
+          kind: :conference,
+          status: :completed,
+          format: :in_person,
+          start_date: ~D[2021-11-01],
+          end_date: ~D[2021-11-03],
+          timezone: "Europe/Copenhagen",
+          event_series_id: unlisted_series.id
+        })
+
+      {:ok, talk} =
+        Talks.create_talk(%{
+          event_id: unlisted_event.id,
+          title: "Erlang Talk at GOTO",
+          slug: "erlang-talk-goto",
+          kind: :talk
+        })
+
+      Talks.create_talk_speaker(%{talk_id: talk.id, profile_id: profile.id, role: :speaker})
+
+      talks = Talks.list_talks_for_profile(profile.id)
+      assert Enum.any?(talks, &(&1.slug == "erlang-talk-goto"))
     end
   end
 

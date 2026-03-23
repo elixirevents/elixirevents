@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Instilling a passion for functional programming in (pre-)junior web developers"
+  slug: "instilling-a-passion-for-functional-programming-in-pre-junior-devs"
+  kind: talk
+  language: en
+  duration: 81
+  speakers:
+    - mikolajkubera
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "ZL4gH2WwcBw"
+      url: "https://www.youtube.com/watch?v=ZL4gH2WwcBw"
