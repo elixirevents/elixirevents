@@ -66,9 +66,9 @@ jobs:
       - run: mix test --max-failures 1 --warnings-as-errors
 
   static:
-    name: Static checks (format, credo)
+    name: Static checks (format, credo, dialyzer)
     env:
-      MIX_ENV: test
+      MIX_ENV: dev
     runs-on: ubuntu-latest
     if: ${{ !contains(github.event.pull_request.labels.*.name, 'no ci') || (github.event.action == 'unlabeled' && github.event.label.name == 'no ci') }}
     steps:
@@ -77,6 +77,7 @@ jobs:
           fetch-depth: 0
 
       - uses: erlef/setup-beam@v1
+        id: beam
         with:
           elixir-version: ${{ env.ELIXIR_VERSION }}
           otp-version: ${{ env.OTP_VERSION }}
@@ -91,11 +92,19 @@ jobs:
             static-${{ env.MIX_ENV }}-${{ env.CACHE_VERSION }}-${{ github.head_ref || github.ref }}-
             static-${{ env.MIX_ENV }}-${{ env.CACHE_VERSION }}-refs/heads/main-
 
+      - uses: actions/cache@v4
+        with:
+          path: priv/plts
+          key: plt-${{ env.CACHE_VERSION }}-${{ steps.beam.outputs.otp-version }}-${{ steps.beam.outputs.elixir-version }}-${{ hashFiles('**/mix.lock') }}
+          restore-keys: |
+            plt-${{ env.CACHE_VERSION }}-${{ steps.beam.outputs.otp-version }}-${{ steps.beam.outputs.elixir-version }}-
+
       - run: mix deps.get
       - run: mix compile --warnings-as-errors --all-warnings
       - run: mix format --check-formatted
       - run: mix deps.unlock --check-unused
       - run: mix credo diff --from-git-merge-base origin/main
+      - run: mkdir -p priv/plts && mix dialyzer
 
   validate-data:
     name: Validate YAML data
