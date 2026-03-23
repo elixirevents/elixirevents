@@ -1,0 +1,16 @@
+## Talks
+
+- title: "Testing with ExMachina"
+  slug: "testing-with-exmachina"
+  kind: talk
+  language: en
+  duration: 30
+  speakers:
+    - mateuszosinski
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "qW9q8IIvHeA"
+      url: "https://www.youtube.com/watch?v=qW9q8IIvHeA"

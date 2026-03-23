@@ -70,6 +70,46 @@ config :logger, :default_formatter,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
+# Lotus — database explorer for admin
+config :lotus,
+  ecto_repo: ElixirEvents.Repo,
+  default_repo: "elixir_events",
+  data_repos: %{
+    "elixir_events" => ElixirEvents.Repo
+  },
+  cache: %{
+    adapter: Lotus.Cache.ETS,
+    namespace: "lotus_cache",
+    profiles: %{
+      results: [ttl_ms: :timer.minutes(10)],
+      schema: [ttl_ms: :timer.hours(24)],
+      options: [ttl_ms: :timer.hours(1)]
+    }
+  },
+  schema_visibility: %{
+    default: [
+      deny: [
+        "pg_catalog",
+        "information_schema",
+        "pg_toast"
+      ]
+    ]
+  },
+  table_visibility: %{
+    default: [
+      deny: [
+        "users_tokens"
+      ]
+    ]
+  },
+  column_visibility: %{
+    default: [
+      deny: [
+        "hashed_password"
+      ]
+    ]
+  }
+
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 

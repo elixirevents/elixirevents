@@ -81,3 +81,10 @@
   city: "Varberg"
   country: "Sweden"
   country_code: "SE"
+
+- name: "Subvisual"
+  slug: "subvisual-braga"
+  street: "Av. Dom João II 404"
+  city: "Braga"
+  country: "Portugal"
+  country_code: "PT"

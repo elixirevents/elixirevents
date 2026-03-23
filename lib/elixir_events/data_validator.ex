@@ -391,7 +391,6 @@ defmodule ElixirEvents.DataValidator do
     case YamlElixir.read_from_file(path) do
       {:ok, data} -> {:ok, data}
       {:error, %{message: msg}} -> {:error, msg}
-      {:error, reason} -> {:error, inspect(reason)}
     end
   rescue
     e -> {:error, Exception.message(e)}

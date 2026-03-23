@@ -1,0 +1,15 @@
+## Talks
+
+- title: "An open source library - Periscope"
+  slug: "an-open-source-library-periscope"
+  kind: talk
+  language: en
+  duration: 35
+  speakers:
+    - calebbeers
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "DPCtoOe8q64"
+      url: "https://www.youtube.com/watch?v=DPCtoOe8q64"

@@ -5,12 +5,16 @@ defmodule ElixirEvents.Accounts.UserNotifier do
 
   alias ElixirEvents.Mailer
 
+  defp mailer_config(key) do
+    Application.get_env(:elixir_events, ElixirEvents.Mailer)[key]
+  end
+
   # Delivers the email using the application mailer.
   defp deliver(recipient, subject, body) do
     email =
       new()
       |> to(recipient)
-      |> from({"ElixirEvents", "contact@example.com"})
+      |> from({mailer_config(:from_name), mailer_config(:from_email)})
       |> subject(subject)
       |> text_body(body)
 

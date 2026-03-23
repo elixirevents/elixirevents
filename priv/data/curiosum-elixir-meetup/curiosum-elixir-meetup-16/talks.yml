@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Monolith vs Umbrella Apps vs MicroServices - which, why and when"
+  slug: "monolith-vs-umbrella-apps-vs-microservices-which-why-and-when"
+  kind: talk
+  language: en
+  duration: 53
+  speakers:
+    - szymonsoppa
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "6JUUddrKtVk"
+      url: "https://www.youtube.com/watch?v=6JUUddrKtVk"

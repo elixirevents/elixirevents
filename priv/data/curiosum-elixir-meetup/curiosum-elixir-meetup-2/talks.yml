@@ -1,0 +1,30 @@
+## Talks
+
+- title: "Three levels to think using LiveView"
+  slug: "three-levels-to-think-using-liveview"
+  kind: talk
+  language: en
+  duration: 50
+  speakers:
+    - gustavooliveira
+  topics:
+    - elixir
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "dz9tMKP6tcQ"
+      url: "https://www.youtube.com/watch?v=dz9tMKP6tcQ"
+
+- title: "\"config.exs is simple\" and other lies"
+  slug: "config-exs-is-simple-and-other-lies"
+  kind: talk
+  language: en
+  duration: 31
+  speakers:
+    - lukaszniemier
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "dNGX3aeLh0c"
+      url: "https://www.youtube.com/watch?v=dNGX3aeLh0c"

@@ -19,6 +19,21 @@
     - platform: twitter
       url: "https://twitter.com/chris_mccord"
 
+- name: "Francesco Cesarini"
+  slug: "francescocesarini"
+  headline: "Founder of Erlang Solutions"
+  bio: "Founder of Erlang Solutions and author of Erlang Programming and Designing for Scalability with Erlang/OTP."
+
+- name: "Brad Urani"
+  slug: "bradurani"
+  headline: "Software Engineer"
+  bio: "Software engineer and speaker on Elixir and Ecto."
+
+- name: "António Silva"
+  slug: "antoniosilva"
+  headline: "Engineer at Remote"
+  bio: "Software engineer at Remote with production experience building MCP servers in Elixir/Phoenix."
+
 - name: "Andrea Leopardi"
   slug: "andrealeopardi"
   headline: "Elixir Core Team"
@@ -323,15 +338,22 @@
   headline: "EEF Board Member"
   bio: "Board member of the Erlang Ecosystem Foundation."
 
-- name: "Jonatan Mannchen"
+- name: "Jonatan Männchen"
   slug: "jonatanmannchen"
-  headline: "EEF Board Member"
-  bio: "Board member of the Erlang Ecosystem Foundation."
+  headline: "CISO & Member Security WG at EEF"
+  bio: "CISO at the Erlang Ecosystem Foundation, Course Instructor at Bbc, and Technical Advisor to Sustema AG. Based in Winterthur, Switzerland."
+  website: "https://maennchen.dev/"
+  social_links:
+    - platform: github
+      url: "https://github.com/maennchen"
 
 - name: "Dan Janowski"
   slug: "danjanowski"
-  headline: "EEF Board Member"
-  bio: "Board member of the Erlang Ecosystem Foundation."
+  headline: "Elixir Principal Engineer"
+  bio: "With a decade of great outcomes using Elixir, after many years with other languages, Dan is an active Principal Engineer building systems and products with Elixir. Motivated by the unique ecosystem based on the super powers of OTP, the BEAM, all its languages, and talented community, Dan now dedicates part of his time to further the EEF mission to build a stronger, more engaged community, and spread the secrets of OTP to new audiences."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dan-janowski/"
 
 # ElixirConf US 2024 speakers
 
@@ -1487,3 +1509,233 @@
   social_links:
     - platform: github
       url: "https://github.com/PragTob"
+
+- name: "Krzysztof Kempiński"
+  slug: "krzysztofkempinski"
+  headline: "IT Leader & Podcast Host"
+  bio: "Working in IT since 2005, specializing in backend development of web applications and IT department management. Host of the 'Let's talk about IT' podcast."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/kkempinski/"
+
+- name: "Michał Buszkiewicz"
+  slug: "michalbuszkiewicz"
+  headline: "Elixir Expert at Curiosum"
+  bio: "Expert in Elixir, Phoenix Framework and related technologies. Developer trainer at Curiosum."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/michal-buszkiewicz/"
+    - platform: github
+      url: "https://github.com/vincentvanbush"
+
+- name: "Szymon Soppa"
+  slug: "szymonsoppa"
+  headline: "CEO at Curiosum"
+  bio: "Experienced developer and CEO at Curiosum. Led multiple outsourcing projects and founded an event discovery startup."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/szymon-soppa/"
+    - platform: github
+      url: "https://github.com/szsoppa"
+
+- name: "Gustavo Oliveira"
+  slug: "gustavooliveira"
+  headline: "Elixir Educator at ELXPRO"
+  bio: "Owner of ELXPRO YouTube channels teaching Elixir from basic to advanced. Runs a mentoring program training Elixir professionals in Brazil."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/gustavo-oliveira-642b23aa/"
+    - platform: github
+      url: "https://github.com/theguuholi"
+
+- name: "Łukasz Niemier"
+  slug: "lukaszniemier"
+  headline: "Elixir & Erlang Developer"
+  bio: "Elixir and Erlang developer with a passion for observability and cryptography. Author of hauleth.dev blog. Member of the Erlang Ecosystem Foundation Observability WG."
+  website: "https://hauleth.dev"
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/niemier/"
+    - platform: github
+      url: "https://github.com/hauleth"
+
+- name: "Joshua Plicque"
+  slug: "joshuaplicque"
+  headline: "Founder of Or Equals"
+  bio: "Founder of Or Equals, a US-based software consultancy specializing in Phoenix LiveView and Elixir."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/joshua-plicque-3b7b2850/"
+    - platform: github
+      url: "https://github.com/plicjo"
+
+- name: "Rob Raisch"
+  slug: "robraisch"
+  headline: "Chief Architect at SimpliSafe"
+  bio: "Chief Architect of Monitoring Integration at SimpliSafe. Early member of the IETF, contributed to the design of HTTP, HTML, and CSS. Building Elixir services for over five years."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/robraisch/"
+    - platform: github
+      url: "https://github.com/raisch"
+
+- name: "Michael Lubas"
+  slug: "michaellubas"
+  headline: "Founder of Paraxial.io"
+  bio: "Founder of Paraxial.io, a company that secures Elixir and Phoenix applications."
+
+- name: "Bartosz Górka"
+  slug: "bartoszgorka"
+  headline: "Software Engineer"
+  bio: "Software Engineer and author of bartoszgorka.com blog about Elixir, productivity and team management."
+  website: "https://bartoszgorka.com"
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/bartoszgorka96"
+    - platform: github
+      url: "https://github.com/bartoszgorka"
+
+- name: "Miguel Cobá"
+  slug: "miguelcoba"
+  headline: "Software Developer & Author"
+  bio: "Software Developer in Barcelona. Author of two books about Elixir and a book for helping developers write technical books."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/MiguelCoba_"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/miguelcoba/"
+    - platform: github
+      url: "https://github.com/miguelcoba"
+
+- name: "Adolfo Neto"
+  slug: "adolfoneto"
+  headline: "Associate Professor & Podcast Host"
+  bio: "Associate Professor at the Federal University of Technology, Paraná. Co-creator of the Elixir em Foco and Hello, Erlang! podcasts."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/adolfont/"
+    - platform: github
+      url: "https://github.com/adolfont"
+
+- name: "Mika Kalathil"
+  slug: "mikakalathil"
+  headline: "Chief Architect at Blitz.gg"
+  bio: "Chief Architect at Blitz.gg serving millions of users and processing over 1 billion rows daily. Runs learn-elixir.dev."
+  website: "https://learn-elixir.dev"
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/mikakalathil/"
+    - platform: github
+      url: "https://github.com/mikaak"
+
+- name: "Pedro Paulino"
+  slug: "pedropaulino"
+  headline: "UX Designer"
+  bio: "Working in IT since 2009. Currently UX Designer, working on side project Gearcloud."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/pedro-m5s/"
+
+- name: "Samuel Pereira"
+  slug: "samuelpereira"
+  headline: "Elixir Developer"
+  bio: "Elixir developer from Brazil."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/samuelpp/"
+    - platform: github
+      url: "https://github.com/samuel-88"
+
+- name: "Caleb Beers"
+  slug: "calebbeers"
+  headline: "Elixir Developer"
+  bio: "Elixir developer from Ohio, USA who has worked on front and back end development."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/caleb-b-a3301a221/"
+    - platform: github
+      url: "https://github.com/caleb-bb"
+
+- name: "João Ferreira"
+  slug: "joaoferreira"
+  headline: "Elixir Developer at Fly.io"
+  bio: "Elixir developer at Fly.io."
+
+- name: "Savannah Manning"
+  slug: "savannahmanning"
+  headline: "Software Engineer"
+  bio: "Full-stack software engineer at Iconic Moments, building an NFT marketplace for museums using Elixir."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/savannah-manning/"
+    - platform: github
+      url: "https://github.com/savhappy"
+
+- name: "Krzysztof Janiec"
+  slug: "krzysztofjaniec"
+  headline: "Elixir Developer"
+  bio: "Elixir, React and React Native developer. Passionate about exploring niche programming languages."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/krzysztof-janiec/"
+
+- name: "Mateusz Osiński"
+  slug: "mateuszosinski"
+  headline: "Elixir Developer at Curiosum"
+  bio: "Elixir Developer at Curiosum with expertise in React technology."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/osinski-mateusz/"
+
+- name: "Zvonimir Rudinski"
+  slug: "zvonimirrudinski"
+  headline: "Technical Lead at Noubis"
+  bio: "Full-stack developer and Technical Lead at Noubis. Works on the open-source project Tenantee."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/zvonimirr/"
+    - platform: github
+      url: "https://github.com/zvonimirr"
+
+- name: "Mikołaj Kubera"
+  slug: "mikolajkubera"
+  headline: "IT Mentor & Career Coach"
+  bio: "Freelance IT Mentor and Career Coach. Former Fullstack Web Dev and IT College Lecturer in Scotland."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/mikolaj-kubera/"
+    - platform: github
+      url: "https://github.com/mkubera"
+
+- name: "Sigu Magwa"
+  slug: "sigumagwa"
+  headline: "Community Advocate & Software Writer"
+  bio: "Community advocate and software writer focused on promoting code quality and building scalable systems."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/sigu/"
+
+- name: "Nitesh Mishra"
+  slug: "niteshmishra"
+  headline: "Elixir Developer"
+  bio: "Experienced Elixir developer dedicated to writing clean, maintainable code and building scalable systems."
+
+- name: "Michael Munavu"
+  slug: "michaelmunavu"
+  headline: "Founder & Software Engineer"
+  bio: "Founder, Software Engineer, and hackathon enthusiast with a background in Elixir, Ruby, and React."
+
+- name: "Paulo Renato"
+  slug: "paulorenato"
+  headline: "Software Engineer & Developer Advocate"
+  bio: "Software Engineer with over 14 years of experience. Developer Advocate for Mobile API Security."
+
+- name: "Anton Frolov"
+  slug: "antonfrolov"
+  headline: "Software Developer"
+  bio: "Software Developer with over ten years of experience in Web, Telephony, Automotive, and Computer Vision."
+
+- name: "Maksymilian Jodłowski"
+  slug: "maksymilianjodlowski"
+  headline: "Software Developer at Curiosum"
+  bio: "Software developer at Curiosum, specializing in Elixir and the Phoenix framework."

@@ -1,0 +1,30 @@
+## Talks
+
+- title: "Multi-node Communication & Strategies"
+  slug: "multi-node-communication-and-strategies"
+  kind: talk
+  language: en
+  duration: 29
+  speakers:
+    - mikakalathil
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "Z2r6ZEPX5e4"
+      url: "https://www.youtube.com/watch?v=Z2r6ZEPX5e4"
+
+- title: "Elixir: Choosing the Right Tool"
+  slug: "elixir-choosing-the-right-tool"
+  kind: talk
+  language: en
+  duration: 16
+  speakers:
+    - pedropaulino
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "brMKflDaVPw"
+      url: "https://www.youtube.com/watch?v=brMKflDaVPw"

@@ -1,0 +1,15 @@
+## Talks
+
+- title: "3 Secrets to Unlocking Elite Developer Productivity"
+  slug: "3-secrets-to-unlocking-elite-developer-productivity"
+  kind: talk
+  language: en
+  duration: 50
+  speakers:
+    - joshuaplicque
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1KqxFMhKyJc"
+      url: "https://www.youtube.com/watch?v=1KqxFMhKyJc"

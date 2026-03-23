@@ -1,0 +1,32 @@
+## Talks
+
+- title: "TDD with LiveView simpler than you imagine!"
+  slug: "tdd-with-liveview-simpler-than-you-imagine"
+  kind: talk
+  language: en
+  duration: 35
+  speakers:
+    - gustavooliveira
+  topics:
+    - elixir
+    - liveview
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "QOX2WdOnqrc"
+      url: "https://www.youtube.com/watch?v=QOX2WdOnqrc"
+
+- title: "Learning Erlang and Elixir through Exercism and Advent of Code"
+  slug: "learning-erlang-and-elixir-through-exercism-and-advent-of-code"
+  kind: talk
+  language: en
+  duration: 59
+  speakers:
+    - adolfoneto
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "m1yTDJE-ht8"
+      url: "https://www.youtube.com/watch?v=m1yTDJE-ht8"

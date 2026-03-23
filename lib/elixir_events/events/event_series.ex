@@ -8,7 +8,7 @@ defmodule ElixirEvents.Events.EventSeries do
   @kinds [:conference, :meetup, :retreat, :hackathon, :summit, :workshop]
   @frequencies [:yearly, :monthly, :quarterly, :biannual, :irregular, :once]
 
-  @permitted ~w(name slug description kind frequency language website color ended)a
+  @permitted ~w(name slug description kind frequency language website color ended listed)a
   @required ~w(name slug kind)a
 
   schema "event_series" do
@@ -21,6 +21,7 @@ defmodule ElixirEvents.Events.EventSeries do
     field :website, :string
     field :color, :string
     field :ended, :boolean, default: false
+    field :listed, :boolean, default: true
 
     embeds_many :social_links, SocialLink, on_replace: :delete
 

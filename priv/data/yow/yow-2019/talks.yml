@@ -1,0 +1,13 @@
+- title: "Elixir's Ecto: Functional-Relational Data Access Done Right"
+  slug: "elixirs-ecto-functional-relational-data-access-done-right"
+  kind: talk
+  language: en
+  speakers:
+    - bradurani
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "t4-hxJBJLcw"
+      url: "https://www.youtube.com/watch?v=t4-hxJBJLcw"

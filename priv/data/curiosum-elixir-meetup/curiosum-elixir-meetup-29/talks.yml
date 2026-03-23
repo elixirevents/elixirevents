@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Elixir Scribe Tool - Clean Code in a Clean Software Architecture"
+  slug: "elixir-scribe-tool-clean-code-in-a-clean-software-architecture"
+  kind: talk
+  language: en
+  duration: 40
+  speakers:
+    - paulorenato
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "D6STbb9Zogk"
+      url: "https://www.youtube.com/watch?v=D6STbb9Zogk"

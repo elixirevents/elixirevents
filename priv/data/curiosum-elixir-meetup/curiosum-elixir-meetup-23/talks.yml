@@ -1,0 +1,31 @@
+## Talks
+
+- title: "Tips and tricks on 'How to develop an app on OTP'"
+  slug: "tips-and-tricks-on-how-to-develop-an-app-on-otp"
+  kind: talk
+  language: en
+  duration: 43
+  speakers:
+    - alvarocallero
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "sHNpUuw3u40"
+      url: "https://www.youtube.com/watch?v=sHNpUuw3u40"
+
+- title: "Understanding Elixir GenServers"
+  slug: "understanding-elixir-genservers"
+  kind: talk
+  language: en
+  duration: 29
+  speakers:
+    - sigumagwa
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "rtmIw3Yflgs"
+      url: "https://www.youtube.com/watch?v=rtmIw3Yflgs"

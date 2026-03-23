@@ -1,0 +1,30 @@
+## Talks
+
+- title: "Simplifying complex Phoenix contexts: Introducing Contexted library"
+  slug: "simplifying-complex-phoenix-contexts-introducing-contexted-library"
+  kind: talk
+  language: en
+  duration: 36
+  speakers:
+    - szymonsoppa
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "cjsyPausofM"
+      url: "https://www.youtube.com/watch?v=cjsyPausofM"
+
+- title: "Teaching Functional Programming with Elixir"
+  slug: "teaching-functional-programming-with-elixir"
+  kind: talk
+  language: en
+  duration: 41
+  speakers:
+    - adolfoneto
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1l1_rHC3lSo"
+      url: "https://www.youtube.com/watch?v=1l1_rHC3lSo"

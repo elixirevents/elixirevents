@@ -1,0 +1,30 @@
+## Talks
+
+- title: "Elixir, Kubernetes and Minikube"
+  slug: "elixir-kubernetes-and-minikube"
+  kind: talk
+  language: en
+  duration: 49
+  speakers:
+    - miguelcoba
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "g-E4qIg3fK8"
+      url: "https://www.youtube.com/watch?v=g-E4qIg3fK8"
+
+- title: "A Framework for Unified Authorization in Elixir"
+  slug: "a-framework-for-unified-authorization-in-elixir"
+  kind: talk
+  language: en
+  duration: 38
+  speakers:
+    - michalbuszkiewicz
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "hvUBR_4T76E"
+      url: "https://www.youtube.com/watch?v=hvUBR_4T76E"

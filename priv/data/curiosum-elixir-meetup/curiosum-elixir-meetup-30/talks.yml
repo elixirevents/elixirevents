@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Memory debugging tools for Elixir"
+  slug: "memory-debugging-tools-for-elixir"
+  kind: talk
+  language: en
+  duration: 42
+  speakers:
+    - antonfrolov
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "50QdN19i9Ms"
+      url: "https://www.youtube.com/watch?v=50QdN19i9Ms"

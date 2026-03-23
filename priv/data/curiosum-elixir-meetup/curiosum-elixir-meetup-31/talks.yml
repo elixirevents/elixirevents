@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Mixing Languages in Elixir: Rust NIFs and More"
+  slug: "mixing-languages-in-elixir-rust-nifs-and-more"
+  kind: talk
+  language: en
+  duration: 34
+  speakers:
+    - maksymilianjodlowski
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "PDNonKBEpv4"
+      url: "https://www.youtube.com/watch?v=PDNonKBEpv4"

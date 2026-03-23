@@ -2,6 +2,7 @@ defmodule ElixirEventsWeb.Router do
   use ElixirEventsWeb, :router
 
   import ElixirEventsWeb.UserAuth
+  import Lotus.Web.Router
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -45,14 +46,24 @@ defmodule ElixirEventsWeb.Router do
     pipe_through [:browser, :require_authenticated_user]
 
     live_session :admin,
-      layout: {ElixirEventsWeb.Layouts, :app},
+      layout: {ElixirEventsWeb.Layouts, :admin},
       on_mount: [
         {ElixirEventsWeb.UserAuth, :require_authenticated},
-        {ElixirEventsWeb.Plugs.AdminAuth, :ensure_admin_authenticated}
+        {ElixirEventsWeb.Plugs.AdminAuth, :ensure_admin_authenticated},
+        {ElixirEventsWeb.Plugs.AdminAuth, :assign_admin_path}
       ] do
       live "/claims", ClaimLive.Index, :index
       live "/claims/:id", ClaimLive.Show, :show
     end
+  end
+
+  scope "/admin" do
+    pipe_through [:browser, :require_authenticated_user]
+
+    lotus_dashboard("/lotus",
+      resolver: ElixirEventsWeb.LotusResolver,
+      on_mount: [{ElixirEventsWeb.UserAuth, :mount_current_scope}]
+    )
   end
 
   # Other scopes may use custom stacks.

@@ -1,0 +1,30 @@
+## Talks
+
+- title: "Challenges and procedures when dealing with an open-source project - Tenantee"
+  slug: "challenges-and-procedures-when-dealing-with-an-open-source-project"
+  kind: talk
+  language: en
+  duration: 23
+  speakers:
+    - zvonimirrudinski
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "GOghID-JqBY"
+      url: "https://www.youtube.com/watch?v=GOghID-JqBY"
+
+- title: "How to Learn Elixir Security"
+  slug: "how-to-learn-elixir-security"
+  kind: talk
+  language: en
+  duration: 24
+  speakers:
+    - michaellubas
+  topics:
+    - elixir
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "3STSwMOivQA"
+      url: "https://www.youtube.com/watch?v=3STSwMOivQA"

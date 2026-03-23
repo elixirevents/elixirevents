@@ -6,7 +6,9 @@ defmodule ElixirEvents.Events do
   alias ElixirEvents.Repo
 
   def list_event_series do
-    Repo.all(EventSeries)
+    EventSeries
+    |> where([s], s.listed == true)
+    |> Repo.all()
   end
 
   def get_event_series_by_slug(slug) do
@@ -31,6 +33,7 @@ defmodule ElixirEvents.Events do
 
   def list_events(opts \\ []) do
     Event
+    |> listed_events_only()
     |> order_by([e], desc: e.start_date)
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
@@ -41,6 +44,7 @@ defmodule ElixirEvents.Events do
     today = Date.utc_today()
 
     Event
+    |> listed_events_only()
     |> where([e], e.start_date >= ^today)
     |> where([e], e.status not in [:cancelled, :completed])
     |> order_by([e], asc: e.start_date)
@@ -53,6 +57,7 @@ defmodule ElixirEvents.Events do
     today = Date.utc_today()
 
     Event
+    |> listed_events_only()
     |> where([e], e.start_date < ^today or e.status == :completed)
     |> order_by([e], desc: e.start_date)
     |> maybe_preload(opts[:preload])
@@ -122,6 +127,13 @@ defmodule ElixirEvents.Events do
         link
       end)
     end)
+  end
+
+  defp listed_events_only(queryable) do
+    from(e in queryable,
+      left_join: s in assoc(e, :event_series),
+      where: is_nil(s.id) or s.listed == true
+    )
   end
 
   defp maybe_preload(queryable, nil), do: queryable

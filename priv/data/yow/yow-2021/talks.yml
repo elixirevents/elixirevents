@@ -1,0 +1,13 @@
+- title: "Idioms for Building Fault-tolerant Applications with Elixir"
+  slug: "idioms-for-building-fault-tolerant-applications-with-elixir"
+  kind: talk
+  language: en
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "mkGq1WoEvI4"
+      url: "https://www.youtube.com/watch?v=mkGq1WoEvI4"

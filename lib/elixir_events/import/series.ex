@@ -18,6 +18,7 @@ defmodule ElixirEvents.Import.Series do
         language: data["language"],
         website: data["website"],
         ended: data["ended"] || false,
+        listed: if(data["listed"] == false, do: false, else: true),
         description: data["description"],
         social_links: ProfileImport.parse_social_links(data["social_links"])
       }

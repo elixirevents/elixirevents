@@ -1,0 +1,11 @@
+name: "GOTO 2021"
+slug: "goto-2021"
+kind: conference
+status: completed
+format: in_person
+start_date: "2021-11-01"
+end_date: "2021-11-03"
+timezone: "Europe/Copenhagen"
+language: en
+location: "Copenhagen, Denmark"
+website: "https://gotopia.tech"

@@ -1,0 +1,15 @@
+## Talks
+
+- title: "Unlocking the power of Absinthe"
+  slug: "unlocking-the-power-of-absinthe"
+  kind: talk
+  language: en
+  duration: 43
+  speakers:
+    - niteshmishra
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "zVQyWjUUkdk"
+      url: "https://www.youtube.com/watch?v=zVQyWjUUkdk"
