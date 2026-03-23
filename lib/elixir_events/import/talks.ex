@@ -9,9 +9,12 @@ defmodule ElixirEvents.Import.Talks do
     path = Path.join(event_dir, "talks.yml")
 
     if File.exists?(path) do
-      path
-      |> YamlElixir.read_from_file!()
-      |> Enum.each(&import_talk(&1, event))
+      talks_data = YamlElixir.read_from_file!(path)
+
+      Enum.each(talks_data, &import_talk(&1, event))
+
+      yaml_slugs = Enum.map(talks_data, & &1["slug"]) |> Enum.reject(&is_nil/1)
+      Talks.delete_orphaned_talks(event.id, yaml_slugs)
 
       :ok
     else

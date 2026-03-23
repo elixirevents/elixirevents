@@ -3,7 +3,7 @@ defmodule ElixirEvents.DataFixtures do
   Test helpers for creating data entities via their contexts.
   """
 
-  alias ElixirEvents.{Organizations, Profiles, Topics, Venues}
+  alias ElixirEvents.{Events, Organizations, Profiles, Talks, Topics, Venues}
 
   def unique_slug, do: "slug-#{System.unique_integer([:positive])}"
   def unique_handle, do: "handle#{System.unique_integer([:positive])}"
@@ -53,6 +53,52 @@ defmodule ElixirEvents.DataFixtures do
       |> Venues.upsert_venue()
 
     venue
+  end
+
+  def event_series_fixture(attrs \\ %{}) do
+    {:ok, series} =
+      attrs
+      |> Enum.into(%{
+        name: "Series #{System.unique_integer([:positive])}",
+        slug: unique_slug(),
+        kind: :conference
+      })
+      |> Events.upsert_event_series()
+
+    series
+  end
+
+  def event_fixture(series, attrs \\ %{}) do
+    {:ok, event} =
+      attrs
+      |> Enum.into(%{
+        name: "Event #{System.unique_integer([:positive])}",
+        slug: unique_slug(),
+        event_series_id: series.id,
+        kind: :conference,
+        status: :confirmed,
+        format: :in_person,
+        start_date: ~D[2026-01-01],
+        end_date: ~D[2026-01-02],
+        timezone: "UTC"
+      })
+      |> Events.upsert_event()
+
+    event
+  end
+
+  def talk_fixture(event, attrs \\ %{}) do
+    {:ok, talk} =
+      attrs
+      |> Enum.into(%{
+        title: "Talk #{System.unique_integer([:positive])}",
+        slug: unique_slug(),
+        event_id: event.id,
+        kind: :talk
+      })
+      |> Talks.upsert_talk()
+
+    talk
   end
 
   def organization_fixture(attrs \\ %{}) do

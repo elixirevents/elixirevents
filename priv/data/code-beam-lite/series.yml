@@ -1,0 +1,10 @@
+name: "Code BEAM Lite"
+slug: "code-beam-lite"
+kind: conference
+frequency: irregular
+language: en
+website: "https://codesync.global/conferences/"
+description: "One-day community-driven conferences celebrating the BEAM ecosystem, hosted in cities around the world."
+social_links:
+  - platform: twitter
+    url: "https://twitter.com/CodeBEAMio"

@@ -7,7 +7,8 @@
   duration: 68
   abstract: "Exploring Livebook's cloud capabilities, including GPU-accelerated workflows and clustered notebook execution."
   speakers:
-    - josevalim
+    - chrismccord
+    - christophergrainger
   topics:
     - elixir
     - livebook
@@ -23,6 +24,8 @@
   language: en
   duration: 65
   abstract: "A keynote exploring the intersection of biology and computation, examining how human judgment integrates with automated systems."
+  speakers:
+    - justinschneck
   topics:
     - elixir
   recordings:
@@ -511,11 +514,14 @@
 
 - title: "Engineering Elixir Applications: If You Don't Deploy It, It Ain't Real"
   slug: "engineering-elixir-applications"
-  kind: talk
+  kind: keynote
   level: intermediate
   language: en
   duration: 45
   abstract: "The phrase 'DevOps' sparks the idea of an intersection between dev and ops teams. But decision fatigue and the perceived complexity of the operations world have often caused these teams to drift apart."
+  speakers:
+    - elliefairholm
+    - josepgiraltdlacoste
   topics:
     - elixir
     - deployment

@@ -75,6 +75,13 @@ defmodule ElixirEvents.Talks do
     )
   end
 
+  def delete_orphaned_talks(event_id, yaml_slugs) do
+    from(t in Talk,
+      where: t.event_id == ^event_id and t.slug not in ^yaml_slugs
+    )
+    |> Repo.delete_all()
+  end
+
   def create_recording(attrs) do
     %Recording{}
     |> Recording.changeset(attrs)
