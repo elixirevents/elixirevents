@@ -141,11 +141,11 @@ defmodule ElixirEventsWeb.Helpers do
     end
   end
 
-  @doc "Group events by year"
+  @doc "Group events by year, preserving SQL ordering"
   def group_by_year(events) do
     events
-    |> Enum.group_by(& &1.start_date.year)
-    |> Enum.sort_by(&elem(&1, 0), :desc)
+    |> Enum.chunk_by(& &1.start_date.year)
+    |> Enum.map(fn chunk -> {hd(chunk).start_date.year, chunk} end)
   end
 
   @doc "Series name or 'Independent'"
