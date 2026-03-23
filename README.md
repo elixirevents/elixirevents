@@ -1,5 +1,7 @@
 # ElixirEvents
 
+![ElixirEvents Banner](priv/static/images/elixirevents-banner.png)
+
 Community directory for Elixir & BEAM conferences, talks, speakers, and topics.
 
 Live at [elixirevents.org](https://elixirevents.org).
