@@ -31,8 +31,9 @@ defmodule ElixirEvents.Talks do
   def list_talks_for_profile(profile_id, opts \\ []) do
     from(t in Talk,
       join: ts in assoc(t, :talk_speakers),
+      join: e in assoc(t, :event),
       where: ts.profile_id == ^profile_id,
-      order_by: [desc: t.inserted_at]
+      order_by: [desc: e.start_date]
     )
     |> maybe_preload(opts[:preload])
     |> Repo.all()
