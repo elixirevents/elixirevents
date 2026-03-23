@@ -53,4 +53,13 @@ defmodule ElixirEventsWeb.Plugs.AdminAuth do
       {:halt, socket}
     end
   end
+
+  # Assigns the current request path for admin sidebar navigation.
+  def on_mount(:assign_admin_path, _params, _session, socket) do
+    {:cont,
+     Phoenix.LiveView.attach_hook(socket, :assign_admin_path, :handle_params, fn
+       _params, uri, socket ->
+         {:cont, Phoenix.Component.assign(socket, :current_path, URI.parse(uri).path)}
+     end)}
+  end
 end

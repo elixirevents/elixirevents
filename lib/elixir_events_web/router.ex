@@ -45,10 +45,11 @@ defmodule ElixirEventsWeb.Router do
     pipe_through [:browser, :require_authenticated_user]
 
     live_session :admin,
-      layout: {ElixirEventsWeb.Layouts, :app},
+      layout: {ElixirEventsWeb.Layouts, :admin},
       on_mount: [
         {ElixirEventsWeb.UserAuth, :require_authenticated},
-        {ElixirEventsWeb.Plugs.AdminAuth, :ensure_admin_authenticated}
+        {ElixirEventsWeb.Plugs.AdminAuth, :ensure_admin_authenticated},
+        {ElixirEventsWeb.Plugs.AdminAuth, :assign_admin_path}
       ] do
       live "/claims", ClaimLive.Index, :index
       live "/claims/:id", ClaimLive.Show, :show

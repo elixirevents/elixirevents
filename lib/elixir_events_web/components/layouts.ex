@@ -344,6 +344,81 @@ defmodule ElixirEventsWeb.Layouts do
     """
   end
 
+  # ── Admin layout ──────────────────────────────────────────
+
+  attr :flash, :map, required: true
+  attr :current_scope, :map, default: nil
+  slot :inner_block
+
+  def admin(assigns) do
+    ~H"""
+    <div class="min-h-screen bg-base-100 flex flex-col">
+      <.site_nav current_scope={assigns[:current_scope]} />
+      <div class="flex flex-1">
+        <.admin_sidebar current_path={assigns[:current_path]} />
+        <main class="flex-1 min-w-0 py-10 sm:py-12 px-6 sm:px-10 lg:px-14">
+          {if assigns[:inner_content], do: @inner_content, else: render_slot(@inner_block)}
+        </main>
+      </div>
+    </div>
+    <.flash_group flash={@flash} />
+    """
+  end
+
+  attr :current_path, :string, default: nil
+
+  defp admin_sidebar(assigns) do
+    ~H"""
+    <aside class="ee-admin-sidebar">
+      <div class="ee-admin-sidebar-inner">
+        <div class="ee-admin-sidebar-header">
+          <.icon name="hero-shield-check-solid" class="size-5 text-primary" />
+          <span class="font-display font-bold text-sm tracking-tight">Admin</span>
+        </div>
+
+        <nav class="ee-admin-nav">
+          <div class="ee-admin-nav-section">
+            <span class="ee-admin-nav-label">Manage</span>
+            <.admin_nav_link
+              href="/admin/claims"
+              icon="hero-hand-raised"
+              label="Claims"
+              active={active_admin_path?(@current_path, "/admin/claims")}
+            />
+          </div>
+        </nav>
+
+        <div class="ee-admin-sidebar-footer">
+          <a
+            href="/"
+            class="ee-admin-nav-link"
+          >
+            <.icon name="hero-arrow-left" class="size-4" />
+            <span>Back to site</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+    """
+  end
+
+  attr :href, :string, required: true
+  attr :icon, :string, required: true
+  attr :label, :string, required: true
+  attr :active, :boolean, default: false
+
+  defp admin_nav_link(assigns) do
+    ~H"""
+    <a href={@href} class={["ee-admin-nav-link", @active && "ee-admin-nav-link--active"]}>
+      <.icon name={@icon} class="size-4" />
+      <span>{@label}</span>
+    </a>
+    """
+  end
+
+  defp active_admin_path?(nil, _prefix), do: false
+  defp active_admin_path?(current_path, prefix), do: String.starts_with?(current_path, prefix)
+
   # ── User menu (top bar dropdown) ──────────────────────────
 
   attr :current_scope, :map, required: true
@@ -383,7 +458,7 @@ defmodule ElixirEventsWeb.Layouts do
       </.dropdown_item>
       <.dropdown_divider :if={@current_scope.user.role == :admin} />
       <.dropdown_item :if={@current_scope.user.role == :admin} href={~p"/admin/claims"}>
-        <.icon name="hero-shield-check-micro" class="size-4" /> Claims
+        <.icon name="hero-shield-check-micro" class="size-4" /> Admin
       </.dropdown_item>
       <.dropdown_divider />
       <.dropdown_item href="/logout" method="delete" variant="danger">
