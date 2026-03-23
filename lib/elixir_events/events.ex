@@ -94,6 +94,13 @@ defmodule ElixirEvents.Events do
     )
   end
 
+  def delete_orphaned_events(series_id, yaml_slugs) do
+    from(e in Event,
+      where: e.event_series_id == ^series_id and e.slug not in ^yaml_slugs
+    )
+    |> Repo.delete_all()
+  end
+
   def create_event_link(attrs) do
     %EventLink{}
     |> EventLink.changeset(attrs)

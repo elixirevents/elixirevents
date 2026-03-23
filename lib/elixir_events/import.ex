@@ -3,7 +3,7 @@ defmodule ElixirEvents.Import do
 
   require Logger
 
-  alias ElixirEvents.Import
+  alias ElixirEvents.{Events, Import}
 
   def run(data_dir) do
     Logger.info("Starting import from #{data_dir}")
@@ -28,9 +28,17 @@ defmodule ElixirEvents.Import do
           {:ok, series} ->
             Logger.info("Imported series: #{series.name}")
 
-            series_dir
-            |> list_event_dirs()
-            |> Enum.reduce(acc, fn event_dir, inner_acc ->
+            event_dirs = list_event_dirs(series_dir)
+
+            yaml_event_slugs =
+              Enum.map(event_dirs, fn dir ->
+                dir |> Path.join("event.yml") |> YamlElixir.read_from_file!() |> Map.get("slug")
+              end)
+              |> Enum.reject(&is_nil/1)
+
+            Events.delete_orphaned_events(series.id, yaml_event_slugs)
+
+            Enum.reduce(event_dirs, acc, fn event_dir, inner_acc ->
               import_event(event_dir, series, inner_acc)
             end)
 

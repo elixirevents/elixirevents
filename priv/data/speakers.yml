@@ -1450,3 +1450,40 @@
   slug: "yutakakikuchi"
   headline: "Professor, Kochi Tech"
   bio: "Conference speaker."
+
+- name: "Ellie Fairholm"
+  slug: "elliefairholm"
+  headline: "Co-author of Engineering Elixir Applications"
+  bio: "Full stack developer and co-founder of BEAMOps Software Consultancy. Co-author of Engineering Elixir Applications."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/ellie-fairholm-3a694b138/"
+
+- name: "Josep Giralt D'Lacoste"
+  slug: "josepgiraltdlacoste"
+  headline: "Co-author of Engineering Elixir Applications"
+  bio: "Co-founder of BEAMOps Software Consultancy. Has been working with Elixir for 10 years. Co-author of Engineering Elixir Applications."
+  website: "https://beamops.co.uk"
+  social_links:
+    - platform: github
+      url: "https://github.com/gilacost"
+    - platform: linkedin
+      url: "https://uk.linkedin.com/in/joseplluisgiraltdlacoste"
+
+- name: "Julia Mathias"
+  slug: "juliamathias"
+  headline: "Elixir developer"
+  bio: "Engineer at Turn.io, building WhatsApp-based helpdesk systems with Elixir."
+
+- name: "Christoph Beck"
+  slug: "christophbeck"
+  headline: "Elixir developer"
+  bio: "Developer working on AI-powered documentation tools with Elixir."
+
+- name: "Tobias Pfeiffer"
+  slug: "tobiaspfeiffer"
+  headline: "Elixir developer"
+  bio: "Developer, speaker, and author exploring software craft through diverse perspectives."
+  social_links:
+    - platform: github
+      url: "https://github.com/PragTob"

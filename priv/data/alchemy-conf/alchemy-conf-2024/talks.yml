@@ -1,15 +1,15 @@
 ## Keynotes
 
-
-- title: "Saša Jurić // Tell Me a Story"
-  slug: "sasa-juric-tell-me-a-story"
+- title: "Tell Me a Story"
+  slug: "tell-me-a-story"
   kind: keynote
   language: en
   duration: 52
-  abstract: 'Saša Jurić''s \"Tell Me a Story\" from Alchemy Conf 2025 addresses why code reviews are frustrating for both authors and reviewers.'
+  abstract: "Why code reviews are frustrating for both authors and reviewers, and what we can do about it."
+  speakers:
+    - sasajuric
   topics:
     - elixir
-    - security
   recordings:
     - provider: youtube
       external_id: "FmEw86nE3SY"
@@ -18,14 +18,15 @@
 
 ## Talks
 
-
-- title: "Wojtek Mach // Library Client/Server Simmetry"
-  slug: "wojtek-mach-library-clientserver-simmetry"
+- title: "Library Client/Server Symmetry"
+  slug: "library-client-server-symmetry"
   kind: talk
   level: intermediate
   language: en
   duration: 31
-  abstract: "Wojtek Mach from Dashbit explored an overlooked opportunity in Elixir's HTTP handling at Alchemy Conf 2025."
+  abstract: "Exploring an overlooked opportunity in Elixir's HTTP handling."
+  speakers:
+    - wojtekmach
   topics:
     - elixir
   recordings:
@@ -33,13 +34,15 @@
       external_id: "hijmuPuWJz0"
       url: "https://www.youtube.com/watch?v=hijmuPuWJz0"
 
-- title: "Aaron Cruz // Elixir in Real-Time: Race Coordination"
-  slug: "aaron-cruz-elixir-in-real-time-race-coordination"
+- title: "Elixir in Real-Time: Race Coordination"
+  slug: "elixir-in-real-time-race-coordination"
   kind: talk
   level: intermediate
   language: en
   duration: 37
-  abstract: "Aaron Cruz shared three lessons from building Foot Race, a real-time running app where runners get matched globally and race together, at Alchemy Conf 2025."
+  abstract: "Three lessons from building Foot Race, a real-time running app where runners get matched globally and race together."
+  speakers:
+    - aaroncruz
   topics:
     - elixir
   recordings:
@@ -47,13 +50,15 @@
       external_id: "vIsDgiFtGrY"
       url: "https://www.youtube.com/watch?v=vIsDgiFtGrY"
 
-- title: "Julia Mathias // Building a Smart Helpdesk: Using Elixir for Social Good"
-  slug: "julia-mathias-building-a-smart-helpdesk-using-elixir-for-soc"
+- title: "Building a Smart Helpdesk: Using Elixir for Social Good"
+  slug: "building-a-smart-helpdesk"
   kind: talk
   level: intermediate
   language: en
   duration: 26
-  abstract: "Julia Mathias walked through Turn.io's architecture for routing WhatsApp help desk conversations at Alchemy Conf 2025."
+  abstract: "Turn.io's architecture for routing WhatsApp helpdesk conversations using Elixir."
+  speakers:
+    - juliamathias
   topics:
     - elixir
   recordings:
@@ -61,13 +66,15 @@
       external_id: "kzxFCZwnMpg"
       url: "https://www.youtube.com/watch?v=kzxFCZwnMpg"
 
-- title: "Hugo Baraúna // The Architecture Behind Deploying Livebook Apps with Livebook Teams"
-  slug: "hugo-barauna-the-architecture-behind-deploying-livebook-apps"
+- title: "The Architecture Behind Deploying Livebook Apps with Livebook Teams"
+  slug: "architecture-deploying-livebook-apps"
   kind: talk
   level: intermediate
   language: en
   duration: 39
-  abstract: "What really happens when you click a deploy button? In his Alchemy Conf 2025 talk, Hugo Baraúna takes us behind the scenes of Livebook Teams' distributed architecture, revealing the sophisticated system that turns a simple button click into a running application across distributed infrastructure."
+  abstract: "What really happens when you click a deploy button? A look behind the scenes of Livebook Teams' distributed architecture."
+  speakers:
+    - hugobarauna
   topics:
     - elixir
     - deployment
@@ -77,45 +84,47 @@
       external_id: "iJoodWvLYXg"
       url: "https://www.youtube.com/watch?v=iJoodWvLYXg"
 
-- title: "Bruce Tate // Elixir 10 Years In"
-  slug: "bruce-tate-elixir-10-years-in"
+- title: "Elixir 10 Years In"
+  slug: "elixir-10-years-in"
   kind: talk
   level: intermediate
   language: en
   duration: 36
-  abstract: 'In our latest Alchemy Conf 2025 talk upload, Bruce Tate—author of \"Seven Languages in Seven Weeks\" and \"Adopting Elixir\"—talks about understanding technology adoption cycles through the lens of Elixir''s first decade.'
+  abstract: "Understanding technology adoption cycles through the lens of Elixir's first decade."
+  speakers:
+    - brucetate
   topics:
     - elixir
-    - testing
-    - security
   recordings:
     - provider: youtube
       external_id: "eOy2GzqP71w"
       url: "https://www.youtube.com/watch?v=eOy2GzqP71w"
 
-- title: "Christoph Beck // Interactive Documentation: Creating a Secure, Elixir-Powered RAG System"
-  slug: "christoph-beck-interactive-documentation-creating-a-secure-e"
+- title: "Interactive Documentation: Creating a Secure, Elixir-Powered RAG System"
+  slug: "interactive-documentation-rag-system"
   kind: talk
   level: intermediate
   language: en
   duration: 28
-  abstract: "In the latest Alchemy Conf talk upload, Christoph Beck addresses the persistent gap between library creators and adopters regarding documentation. Even well-maintained docs can be difficult to navigate in larger projects, leaving developers hunting for the right information."
+  abstract: "Addressing the persistent gap between library creators and adopters regarding documentation, using a RAG-based approach."
+  speakers:
+    - christophbeck
   topics:
     - elixir
-    - testing
-    - security
   recordings:
     - provider: youtube
       external_id: "dLnQbxdyPeE"
       url: "https://www.youtube.com/watch?v=dLnQbxdyPeE"
 
-- title: "Zach Daniel // The Next Dimension of Developer Experience"
-  slug: "zach-daniel-the-next-dimension-of-developer-experience"
+- title: "The Next Dimension of Developer Experience"
+  slug: "next-dimension-developer-experience"
   kind: talk
   level: intermediate
   language: en
   duration: 33
-  abstract: 'Zach Daniel tackles one of Elixir''s most persistent pain points: the fragmented onboarding experience that forces developers to choose between saying \"no\" to features or manually integrating complex setups later. Through live coding demonstrations, he shows how Igniter transforms this experience by '
+  abstract: "How Igniter transforms the fragmented onboarding experience that forces developers to choose between saying no to features or manually integrating complex setups."
+  speakers:
+    - zachdaniel
   topics:
     - elixir
   recordings:
@@ -123,13 +132,15 @@
       external_id: "aSJak5JvdMY"
       url: "https://www.youtube.com/watch?v=aSJak5JvdMY"
 
-- title: "Tobias Pfeiffer // Metaphors are Everywhere: Ideas to Improve Software Development"
-  slug: "tobias-pfeiffer-metaphors-are-everywhere-ideas-to-improve-so"
+- title: "Metaphors are Everywhere: Ideas to Improve Software Development"
+  slug: "metaphors-are-everywhere"
   kind: talk
   level: intermediate
   language: en
   duration: 42
-  abstract: "Tobias Pfeiffer explores how basketball, fiction writing, game development, and trading card games provide unexpected lessons for building more effective software teams."
+  abstract: "How basketball, fiction writing, game development, and trading card games provide unexpected lessons for building more effective software teams."
+  speakers:
+    - tobiaspfeiffer
   topics:
     - elixir
   recordings:
@@ -137,13 +148,15 @@
       external_id: "GYwFAht6GbY"
       url: "https://www.youtube.com/watch?v=GYwFAht6GbY"
 
-- title: "André Albuquerque // The Journey of an Elixir Monolith"
-  slug: "andre-albuquerque-the-journey-of-an-elixir-monolith"
+- title: "The Journey of an Elixir Monolith"
+  slug: "journey-of-an-elixir-monolith"
   kind: talk
   level: intermediate
   language: en
   duration: 42
   abstract: "From zero to more than three million lines of code!"
+  speakers:
+    - andrealbuquerque
   topics:
     - elixir
   recordings:
@@ -151,13 +164,15 @@
       external_id: "Rs1NZsjp9HY"
       url: "https://www.youtube.com/watch?v=Rs1NZsjp9HY"
 
-- title: "Andrea Leopardi // Gen_Statem - OTP's Unsung Hero"
-  slug: "andrea-leopardi-gen-statem-otps-unsung-hero"
+- title: "Gen_Statem - OTP's Unsung Hero"
+  slug: "gen-statem-otps-unsung-hero"
   kind: talk
   level: intermediate
   language: en
   duration: 40
-  abstract: "In the first Alchemy Conf 2025 talk uploaded to our Content Hub, we are glad to present Andrea Leopardi's riveting closing talk."
+  abstract: "A closing talk on gen_statem and its power in the OTP ecosystem."
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
     - otp
@@ -166,13 +181,15 @@
       external_id: "WzdsdbGTUdo"
       url: "https://www.youtube.com/watch?v=WzdsdbGTUdo"
 
-- title: "A Chat with Julia Mathias - Building a career in Elixir from the start!"
-  slug: "a-chat-with-julia-mathias-building-a-career-in-elixir-from-t"
+- title: "Building a Career in Elixir from the Start!"
+  slug: "building-a-career-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 31
-  abstract: "Zamith had the chance to speak with Julia Mathias, an engineer that has built her entire career working with Elixir, from a junior position to where she is now."
+  abstract: "An interview with Julia Mathias, an engineer that has built her entire career working with Elixir."
+  speakers:
+    - juliamathias
   topics:
     - elixir
   recordings:
@@ -180,13 +197,15 @@
       external_id: "rsbJZHW6bms"
       url: "https://www.youtube.com/watch?v=rsbJZHW6bms"
 
-- title: "A Chat with Zach Daniel – Creating the Ash Framework, over a decade working with Elixir and more!"
-  slug: "a-chat-with-zach-daniel-creating-the-ash-framework-over-a-de"
+- title: "Creating the Ash Framework, over a Decade Working with Elixir and More!"
+  slug: "creating-ash-framework-decade-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 35
-  abstract: "Subvisual's very own Zamith sat down with Ash Framework creator Zach Daniel to have a chat about his ten years working with Elixir."
+  abstract: "A conversation with Ash Framework creator Zach Daniel about his ten years working with Elixir."
+  speakers:
+    - zachdaniel
   topics:
     - elixir
   recordings:
@@ -194,13 +213,15 @@
       external_id: "nyTkwRZlXa4"
       url: "https://www.youtube.com/watch?v=nyTkwRZlXa4"
 
-- title: "A Chat with Andrea Leopardi – The Elixir Community, the Language, and much more!"
-  slug: "a-chat-with-andrea-leopardi-the-elixir-community-the-languag"
+- title: "The Elixir Community, the Language, and Much More!"
+  slug: "elixir-community-language-and-more"
   kind: talk
   level: intermediate
   language: en
   duration: 31
-  abstract: "Zamith had a lovely conversation with Elixir core member Andrea Leopardi, and we got to know his history from the beginning."
+  abstract: "A conversation with Elixir core member Andrea Leopardi about his history with the language."
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
   recordings:
@@ -208,13 +229,15 @@
       external_id: "A4IE4D6TXJQ"
       url: "https://www.youtube.com/watch?v=A4IE4D6TXJQ"
 
-- title: "A Chat with Saša Jurić – Insights on Elixir & More!"
-  slug: "a-chat-with-sasa-juric-insights-on-elixir-more"
+- title: "Insights on Elixir & More!"
+  slug: "insights-on-elixir-and-more"
   kind: talk
   level: intermediate
   language: en
   duration: 32
-  abstract: "Did Saša reveal a bit more about his talk at #AlchemyConf2025?"
+  abstract: "Saša Jurić sharing insights on Elixir and a preview of his conference talk."
+  speakers:
+    - sasajuric
   topics:
     - elixir
   recordings:

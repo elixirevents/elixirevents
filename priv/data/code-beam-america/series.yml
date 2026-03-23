@@ -1,0 +1,10 @@
+name: "Code BEAM America"
+slug: "code-beam-america"
+kind: conference
+frequency: yearly
+language: en
+website: "https://codebeamamerica.com"
+description: "Two-day conference on innovation and open-source applications built on the BEAM VM, including Erlang, Elixir, and Gleam."
+social_links:
+  - platform: twitter
+    url: "https://twitter.com/CodeBEAMio"

@@ -221,35 +221,64 @@ defmodule ElixirEvents.Import.Sync do
       case Import.Series.run(series_dir) do
         {:ok, series} ->
           Logger.info("Synced series: #{series.name}")
-          sync_affected_events(series_slug, series, affected_events, series_dir)
+
+          affected_event_slugs =
+            affected_events
+            |> Enum.filter(fn {s, _e} -> s == series_slug end)
+            |> Enum.map(fn {_s, event_slug} -> event_slug end)
+
+          sync_affected_events(affected_event_slugs, series, series_dir)
 
         {:error, reason} ->
           Logger.warning("Failed to sync series #{series_slug}: #{inspect(reason)}")
       end
+    else
+      Logger.info("Series #{series_slug} removed from YAML — skipping (clean up manually).")
     end
   end
 
-  defp sync_affected_events(series_slug, series, affected_events, series_dir) do
-    affected_events
-    |> Enum.filter(fn {s, _e} -> s == series_slug end)
-    |> Enum.each(fn {_s, event_slug} ->
+  defp sync_affected_events(event_slugs, series, series_dir) do
+    Enum.each(event_slugs, fn event_slug ->
       event_dir = Path.join(series_dir, event_slug)
 
       if File.exists?(Path.join(event_dir, "event.yml")) do
-        case Import.Events.run(event_dir, series) do
-          {:ok, event} ->
-            Logger.info("Synced event: #{event.name}")
-            Import.Talks.run(event_dir, event)
-            Import.Schedule.run(event_dir, event)
-            Import.Sponsors.run(event_dir, event)
-            Import.CFPs.run(event_dir, event)
-            Import.Roles.run(event_dir, event)
-
-          {:error, reason} ->
-            Logger.warning("Failed to sync event from #{event_dir}: #{inspect(reason)}")
-        end
+        import_single_event(event_dir, series)
+      else
+        delete_removed_event(event_slug, series.id)
       end
     end)
+  end
+
+  defp import_single_event(event_dir, series) do
+    case Import.Events.run(event_dir, series) do
+      {:ok, event} ->
+        Logger.info("Synced event: #{event.name}")
+        Import.Talks.run(event_dir, event)
+        Import.Schedule.run(event_dir, event)
+        Import.Sponsors.run(event_dir, event)
+        Import.CFPs.run(event_dir, event)
+        Import.Roles.run(event_dir, event)
+
+      {:error, reason} ->
+        Logger.warning("Failed to sync event from #{event_dir}: #{inspect(reason)}")
+    end
+  end
+
+  defp delete_removed_event(event_slug, series_id) do
+    import Ecto.Query
+
+    case Repo.one(
+           from(e in ElixirEvents.Events.Event,
+             where: e.slug == ^event_slug and e.event_series_id == ^series_id
+           )
+         ) do
+      nil ->
+        :ok
+
+      event ->
+        Logger.info("Deleting removed event: #{event.name} (#{event_slug})")
+        Repo.delete(event)
+    end
   end
 
   # -- YAML Parsing (mirrors existing import modules) --
