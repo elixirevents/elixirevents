@@ -6,22 +6,181 @@
     <p class="text-base-content/55 mt-2 text-lg">Where the community is gathering</p>
   </div>
 
-  <%!-- Filter toolbar --%>
-  <div class="mb-8 p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50 inline-flex items-center gap-1">
-    <.link
-      :for={{label, value} <- [{"All", "all"}, {"Upcoming", "upcoming"}, {"Past", "past"}]}
-      patch={~p"/events?#{if(value == "all", do: %{}, else: %{filter: value})}"}
-      class={[
-        "px-4 py-2 rounded-xl text-sm font-semibold cursor-pointer transition-all duration-200",
-        if(@current_filter == value,
-          do: "bg-primary text-primary-content shadow-sm",
-          else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
-        )
-      ]}
-    >
-      {label}
-    </.link>
+  <%!-- Filter toolbar — Row 1: Controls --%>
+  <div class="flex flex-wrap items-center gap-3" role="toolbar" aria-label="Event filters">
+    <%!-- Time filter pills --%>
+    <div class="p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50 inline-flex items-center gap-1">
+      <.link
+        :for={{label, value} <- [{"All", "all"}, {"Upcoming", "upcoming"}, {"Past", "past"}]}
+        patch={~p"/events?#{build_filter_params(value, @selected_kinds)}"}
+        class={[
+          "px-4 py-2 rounded-xl text-sm font-semibold cursor-pointer transition-all duration-200",
+          if(@current_filter == value,
+            do: "bg-primary text-primary-content shadow-sm",
+            else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+          )
+        ]}
+      >
+        {label}
+      </.link>
+    </div>
+
+    <%!-- Divider between time and attribute filters --%>
+    <div class="hidden sm:block w-px h-6 bg-base-300/60" aria-hidden="true"></div>
+
+    <%!-- Kind filter dropdown --%>
+    <div class="relative" phx-click-away="close-kind-filter">
+      <button
+        type="button"
+        phx-click="toggle-kind-filter"
+        aria-expanded={to_string(@show_kind_filter)}
+        aria-haspopup="true"
+        class={[
+          "inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold cursor-pointer transition-all duration-200 border",
+          if(@selected_kinds != [],
+            do: "bg-primary/10 border-primary/40 text-primary hover:bg-primary/15",
+            else:
+              "bg-base-200/50 border-base-300/50 text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+          )
+        ]}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-4 h-4"
+          aria-hidden="true"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 0 1 .628.74v2.288a2.25 2.25 0 0 1-.659 1.59l-4.682 4.683a2.25 2.25 0 0 0-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 0 1 8 18.25v-5.757a2.25 2.25 0 0 0-.659-1.591L2.659 6.22A2.25 2.25 0 0 1 2 4.629V2.34a.75.75 0 0 1 .628-.74Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <span>Type</span>
+        <span
+          :if={@selected_kinds != []}
+          class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-primary text-primary-content text-xs font-bold"
+        >
+          {length(@selected_kinds)}
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class={[
+            "w-3.5 h-3.5 transition-transform duration-200",
+            if(@show_kind_filter, do: "rotate-180")
+          ]}
+          aria-hidden="true"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
+
+      <%!-- Dropdown panel --%>
+      <div
+        :if={@show_kind_filter}
+        class="absolute left-0 top-full mt-2 z-50"
+        role="group"
+        aria-label="Filter by event type"
+        phx-mounted={
+          JS.transition(
+            {"transition-all duration-200 ease-out", "opacity-0 -translate-y-2 scale-95",
+             "opacity-100 translate-y-0 scale-100"}
+          )
+        }
+      >
+        <div class="p-3 rounded-2xl bg-base-200 border border-base-300/60 shadow-xl shadow-black/20 min-w-[280px]">
+          <div class="flex items-center justify-between mb-3 px-1">
+            <span class="text-xs font-semibold text-base-content/40 uppercase tracking-wider">
+              Event type
+            </span>
+            <button
+              :if={@selected_kinds != []}
+              type="button"
+              phx-click="clear-kinds"
+              class="text-xs text-primary/70 hover:text-primary font-medium cursor-pointer transition-colors"
+            >
+              Clear all
+            </button>
+          </div>
+
+          <div class="flex flex-wrap gap-2">
+            <button
+              :for={{kind, label} <- kind_options()}
+              type="button"
+              phx-click="toggle-kind"
+              phx-value-kind={kind}
+              aria-pressed={to_string(kind in @selected_kinds)}
+              class={[
+                "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer transition-all duration-150",
+                if(kind in @selected_kinds,
+                  do:
+                    "bg-primary/20 text-primary border border-primary/40 shadow-sm shadow-primary/10",
+                  else:
+                    "bg-base-300/40 text-base-content/60 border border-transparent hover:bg-base-300/70 hover:text-base-content"
+                )
+              ]}
+            >
+              <span
+                class={[
+                  "w-2 h-2 rounded-full transition-all duration-150",
+                  kind_dot_color(kind),
+                  if(kind in @selected_kinds, do: "scale-125", else: "opacity-60")
+                ]}
+                aria-hidden="true"
+              >
+              </span>
+              {label}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%!-- Future filter dropdowns go here (Format, Location, etc.) --%>
   </div>
+
+  <%!-- Row 2: Active filter summary — only shown when filters are active --%>
+  <div :if={@selected_kinds != []} class="mt-3 mb-6 flex flex-wrap items-center gap-2">
+    <span class="text-xs text-base-content/35 font-medium mr-0.5">Showing:</span>
+    <button
+      :for={{kind, label} <- Enum.filter(kind_options(), fn {k, _} -> k in @selected_kinds end)}
+      type="button"
+      phx-click="toggle-kind"
+      phx-value-kind={kind}
+      aria-label={"Remove #{label} filter"}
+      class="inline-flex items-center gap-1.5 pl-2.5 pr-2 py-1 rounded-lg text-xs font-medium bg-primary/8 text-primary/90 border border-primary/20 cursor-pointer hover:bg-primary/15 hover:border-primary/35 transition-all duration-150 group"
+    >
+      <span class={["w-1.5 h-1.5 rounded-full shrink-0", kind_dot_color(kind)]} aria-hidden="true">
+      </span>
+      {label}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 16 16"
+        fill="currentColor"
+        class="w-3 h-3 ml-0.5 opacity-40 group-hover:opacity-100 transition-opacity"
+        aria-hidden="true"
+      >
+        <path d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      phx-click="clear-kinds"
+      class="text-xs text-base-content/35 hover:text-base-content/60 font-medium cursor-pointer transition-colors ml-1"
+    >
+      Clear all
+    </button>
+  </div>
+
+  <%!-- Spacing when no active filters --%>
+  <div :if={@selected_kinds == []} class="mb-8"></div>
 
   <%!-- Empty state --%>
   <div :if={@events == []} class="text-center py-20">
@@ -34,8 +193,11 @@
     <p :if={@current_filter == "all"} class="text-base-content/55 text-lg">
       No events found yet. Check back soon!
     </p>
+    <p :if={@selected_kinds != []} class="text-base-content/40 text-sm mt-2">
+      Try adjusting your type filters to see more events.
+    </p>
     <.link
-      :if={@current_filter != "all"}
+      :if={@current_filter != "all" || @selected_kinds != []}
       patch={~p"/events"}
       class="text-sm text-primary hover:text-primary/70 mt-3 inline-block"
     >
