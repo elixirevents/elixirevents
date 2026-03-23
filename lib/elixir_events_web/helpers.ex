@@ -145,7 +145,6 @@ defmodule ElixirEventsWeb.Helpers do
   def group_by_year(events) do
     events
     |> Enum.group_by(& &1.start_date.year)
-    |> Enum.map(fn {year, evts} -> {year, Enum.sort_by(evts, & &1.start_date, {:desc, Date})} end)
     |> Enum.sort_by(&elem(&1, 0), :desc)
   end
 
