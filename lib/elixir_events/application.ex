@@ -12,8 +12,7 @@ defmodule ElixirEvents.Application do
       ElixirEvents.Repo,
       {DNSCluster, query: Application.get_env(:elixir_events, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: ElixirEvents.PubSub},
-      # Start a worker by calling: ElixirEvents.Worker.start_link(arg)
-      # {ElixirEvents.Worker, arg},
+      Lotus,
       # Start to serve requests, typically the last entry
       ElixirEventsWeb.Endpoint
     ]

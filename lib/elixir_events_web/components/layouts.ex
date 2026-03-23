@@ -386,6 +386,16 @@ defmodule ElixirEventsWeb.Layouts do
               active={active_admin_path?(@current_path, "/admin/claims")}
             />
           </div>
+
+          <div class="ee-admin-nav-section">
+            <span class="ee-admin-nav-label">Tools</span>
+            <.admin_nav_link
+              href="/admin/lotus"
+              icon="hero-circle-stack"
+              label="Database"
+              active={active_admin_path?(@current_path, "/admin/lotus")}
+            />
+          </div>
         </nav>
 
         <div class="ee-admin-sidebar-footer">

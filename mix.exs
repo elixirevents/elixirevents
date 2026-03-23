@@ -56,6 +56,8 @@ defmodule ElixirEvents.MixProject do
        compile: false,
        depth: 1},
       {:jason, "~> 1.2"},
+      {:lotus, "~> 0.16"},
+      {:lotus_web, "~> 0.14"},
       {:lazy_html, ">= 0.1.0", only: :test},
       {:phoenix, "~> 1.8.3"},
       {:phoenix_ecto, "~> 4.5"},

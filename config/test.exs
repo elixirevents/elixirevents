@@ -24,7 +24,10 @@ config :elixir_events, ElixirEventsWeb.Endpoint,
   server: false
 
 # In test we don't send emails
-config :elixir_events, ElixirEvents.Mailer, adapter: Swoosh.Adapters.Test
+config :elixir_events, ElixirEvents.Mailer,
+  adapter: Swoosh.Adapters.Test,
+  from_email: "noreply@elixirevents.org",
+  from_name: "Elixir Events"
 
 # Disable swoosh api client as it is only required for production adapters
 config :swoosh, :api_client, false
