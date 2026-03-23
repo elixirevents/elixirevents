@@ -112,18 +112,16 @@
             </a>
           </div>
         </div>
-        <div class="carousel-scroll overflow-x-auto snap-x snap-mandatory scroll-smooth pb-6">
-          <div
-            class="flex gap-5 px-4 sm:px-6 lg:px-8"
-            style="padding-right: max(1rem, calc((100vw - 80rem) / 2 + 2rem));"
-          >
+        <div id="featured-carousel" class="carousel-marquee pb-6">
+          <div class="flex gap-5 pr-5 w-max">
             <a
               :for={event <- @upcoming_events}
               href={~p"/events/#{event.slug}"}
               class="snap-start shrink-0 group relative w-[320px] sm:w-[380px] h-[260px] sm:h-[280px] rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-[1.02]"
             >
               <div class="absolute inset-0" style={card_style(event)}></div>
-              <div class="absolute inset-0 opacity-[0.06]" style={card_pattern(event.name)}></div>
+              <div class="absolute inset-0 opacity-[0.06]" style={card_pattern(event.name)}>
+              </div>
               <div class="relative h-full flex flex-col justify-between p-6 text-white">
                 <div class="flex items-start justify-between">
                   <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/15 backdrop-blur-sm">
@@ -406,3 +404,52 @@
 
   <Layouts.site_footer />
 </div>
+
+<script>
+  (function() {
+    const carousel = document.getElementById("featured-carousel");
+    if (!carousel) return;
+    // Mobile: swipe-only, no auto-scroll. Also respect reduced motion.
+    if (window.innerWidth < 640 || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const track = carousel.firstElementChild;
+    // Duplicate cards for seamless looping
+    track.innerHTML += track.innerHTML;
+
+    const speed = 0.5; // px per frame
+    let paused = false;
+    let pauseTimer = null;
+    let started = false;
+
+    function step() {
+      if (!paused) {
+        carousel.scrollLeft += speed;
+        // Reset to start when we've scrolled past the first set
+        if (carousel.scrollLeft >= track.scrollWidth / 2) {
+          carousel.scrollLeft = 0;
+        }
+      }
+      requestAnimationFrame(step);
+    }
+
+    // Start after 2s delay
+    setTimeout(function() {
+      started = true;
+      requestAnimationFrame(step);
+    }, 2000);
+
+    function pauseAutoScroll() {
+      paused = true;
+      clearTimeout(pauseTimer);
+      pauseTimer = setTimeout(function() { paused = false; }, 3000);
+    }
+
+    carousel.addEventListener("pointerdown", pauseAutoScroll);
+    carousel.addEventListener("wheel", pauseAutoScroll, { passive: true });
+    carousel.addEventListener("mouseenter", function() { paused = true; });
+    carousel.addEventListener("mouseleave", function() {
+      clearTimeout(pauseTimer);
+      pauseTimer = setTimeout(function() { paused = false; }, 1000);
+    });
+  })();
+</script>

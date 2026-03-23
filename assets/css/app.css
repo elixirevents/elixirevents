@@ -109,12 +109,15 @@
 
 /* === ElixirEvents Custom Styles === */
 
-/* Hide scrollbar for horizontal carousel */
-.carousel-scroll {
+/* Featured events carousel */
+.carousel-marquee {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
-.carousel-scroll::-webkit-scrollbar {
+.carousel-marquee::-webkit-scrollbar {
   display: none;
 }
 

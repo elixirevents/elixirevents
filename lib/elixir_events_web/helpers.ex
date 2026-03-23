@@ -128,11 +128,16 @@ defmodule ElixirEventsWeb.Helpers do
     start_day = start_date.day
     end_day = end_date.day
 
-    if start_date.month == end_date.month do
-      "#{start_month} #{start_day} – #{end_day}"
-    else
-      end_month = Calendar.strftime(end_date, "%b")
-      "#{start_month} #{start_day} – #{end_month} #{end_day}"
+    cond do
+      start_date == end_date ->
+        "#{start_month} #{start_day}"
+
+      start_date.month == end_date.month ->
+        "#{start_month} #{start_day} – #{end_day}"
+
+      true ->
+        end_month = Calendar.strftime(end_date, "%b")
+        "#{start_month} #{start_day} – #{end_month} #{end_day}"
     end
   end
 
