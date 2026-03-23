@@ -67,15 +67,17 @@ defmodule ElixirEventsWeb.UserLive.Registration do
   def handle_event("save", %{"user" => user_params}, socket) do
     case Accounts.register_user(user_params) do
       {:ok, user} ->
-        {:ok, _} =
-          Accounts.deliver_confirmation_instructions(
-            user,
-            &url(~p"/confirm/#{&1}")
-          )
+        Accounts.deliver_confirmation_instructions(
+          user,
+          &url(~p"/confirm/#{&1}")
+        )
 
         {:noreply,
          socket
-         |> put_flash(:info, "Check your inbox at #{user.email} for a confirmation link.")
+         |> put_flash(
+           :info,
+           "Account created! Check your inbox at #{user.email} for a confirmation link."
+         )
          |> push_navigate(to: ~p"/login")}
 
       {:error, %Ecto.Changeset{} = changeset} ->
