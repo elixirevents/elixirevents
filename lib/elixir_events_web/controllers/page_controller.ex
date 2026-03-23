@@ -12,9 +12,15 @@ defmodule ElixirEventsWeb.PageController do
   end
 
   def home(conn, _params) do
-    upcoming_events =
+    featured_events =
       Events.list_upcoming_events(
         kinds: [:conference, :summit],
+        preload: [:event_series, :cfps],
+        limit: 6
+      )
+
+    upcoming_events =
+      Events.list_upcoming_events(
         preload: [:event_series, :cfps],
         limit: 6
       )
@@ -40,6 +46,7 @@ defmodule ElixirEventsWeb.PageController do
     conn
     |> put_layout(false)
     |> render(:home,
+      featured_events: featured_events,
       upcoming_events: upcoming_events,
       profiles: profiles,
       topics: topics,

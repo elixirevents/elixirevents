@@ -95,7 +95,7 @@
 
       <%!-- Featured Events Carousel --%>
       <div
-        :if={@upcoming_events != []}
+        :if={@featured_events != []}
         class="mt-12 animate-fade-up"
         style="animation-delay:150ms"
       >
@@ -115,7 +115,7 @@
         <div id="featured-carousel" class="carousel-marquee pb-6">
           <div class="flex gap-5 pr-5 w-max">
             <a
-              :for={event <- @upcoming_events}
+              :for={event <- @featured_events}
               href={~p"/events/#{event.slug}"}
               class="snap-start shrink-0 group relative w-[320px] sm:w-[380px] h-[260px] sm:h-[280px] rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-[1.02]"
             >
