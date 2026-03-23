@@ -13,7 +13,11 @@ defmodule ElixirEventsWeb.PageController do
 
   def home(conn, _params) do
     upcoming_events =
-      Events.list_upcoming_events(preload: [:event_series, :cfps], limit: 6)
+      Events.list_upcoming_events(
+        kinds: [:conference, :summit],
+        preload: [:event_series, :cfps],
+        limit: 6
+      )
 
     profiles =
       Profiles.list_profiles(
