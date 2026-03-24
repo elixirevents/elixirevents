@@ -364,4 +364,48 @@ defmodule ElixirEvents.AccountsTest do
       refute inspect(%User{password: "123456"}) =~ "password: \"123456\""
     end
   end
+
+  describe "register_user/2 with claim" do
+    alias ElixirEvents.Claims
+    alias ElixirEvents.Profiles
+
+    test "creates user, profile, and pending claim when claim_profile_id provided" do
+      {:ok, speaker} = Profiles.create_profile(%{name: "Speaker", handle: "speaker"})
+
+      attrs = valid_user_attributes(handle: "speaker1")
+
+      assert {:ok, user} =
+               Accounts.register_user(attrs,
+                 claim_profile_id: speaker.id,
+                 claim_user_notes: "DM me on Twitter"
+               )
+
+      profile = Profiles.get_profile_for_user(user.id)
+      assert profile.handle == "speaker1"
+
+      claim = Claims.get_user_claim(user, "profile", speaker.id)
+      assert claim != nil
+      assert claim.status == :pending
+      assert claim.user_notes == "DM me on Twitter"
+    end
+
+    test "creates user without claim when claim_profile_id not provided (regression)" do
+      attrs = valid_user_attributes()
+      assert {:ok, user} = Accounts.register_user(attrs)
+
+      profile = Profiles.get_profile_for_user(user.id)
+      assert profile != nil
+    end
+
+    test "skips claim silently if profile no longer exists" do
+      attrs = valid_user_attributes(handle: "newhandle")
+
+      assert {:ok, user} =
+               Accounts.register_user(attrs, claim_profile_id: 0)
+
+      assert user.id
+      profile = Profiles.get_profile_for_user(user.id)
+      assert profile != nil
+    end
+  end
 end
