@@ -58,6 +58,17 @@ defmodule ElixirEvents.ClaimsTest do
 
       assert claim.user_notes == "This is me"
     end
+
+    test "rejects user_notes longer than 1000 characters" do
+      user = user_fixture()
+      profile = create_profile()
+      long_notes = String.duplicate("a", 1001)
+
+      assert {:error, changeset} =
+               Claims.create_claim(user, "profile", profile.id, %{user_notes: long_notes})
+
+      assert "should be at most 1000 character(s)" in errors_on(changeset).user_notes
+    end
   end
 
   describe "approve_claim/2" do
