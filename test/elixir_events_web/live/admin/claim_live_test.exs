@@ -3,6 +3,7 @@ defmodule ElixirEventsWeb.Admin.ClaimLiveTest do
 
   import Phoenix.LiveViewTest
   import ElixirEvents.AccountsFixtures
+  import Swoosh.TestAssertions
 
   alias ElixirEvents.{Claims, Profiles}
 
@@ -69,6 +70,23 @@ defmodule ElixirEventsWeb.Admin.ClaimLiveTest do
         |> render_submit()
 
       assert html =~ "rejected" or follow_redirect(lv, conn)
+    end
+
+    test "sends approval email when claim is approved", %{conn: conn, claim: claim} do
+      {:ok, lv, _html} = live(conn, ~p"/admin/claims/#{claim.id}")
+      lv |> element("[phx-click=approve]") |> render_click()
+
+      assert_email_sent(subject: "Your profile claim has been approved")
+    end
+
+    test "sends rejection email when claim is rejected", %{conn: conn, claim: claim} do
+      {:ok, lv, _html} = live(conn, ~p"/admin/claims/#{claim.id}")
+
+      lv
+      |> form("[phx-submit=reject]", admin_notes: "Not enough evidence")
+      |> render_submit()
+
+      assert_email_sent(subject: "Update on your profile claim")
     end
   end
 

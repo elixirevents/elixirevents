@@ -44,6 +44,25 @@ defmodule ElixirEvents.Profiles do
     |> Repo.get_by!(handle: handle)
   end
 
+  def get_profile_by_handle_with_owner_status(handle) do
+    case Repo.get_by(Profile, handle: handle) do
+      nil -> nil
+      %Profile{user_id: nil} = profile -> {:unclaimed, profile}
+      %Profile{} = profile -> {:claimed, profile}
+    end
+  end
+
+  def suggest_available_handle(handle) do
+    candidates = [handle | Enum.map(1..10, &"#{handle}#{&1}")]
+
+    existing =
+      from(p in Profile, where: p.handle in ^candidates, select: p.handle)
+      |> Repo.all()
+      |> MapSet.new()
+
+    Enum.find(candidates, fn candidate -> candidate not in existing end)
+  end
+
   def create_profile(attrs) do
     %Profile{}
     |> Profile.changeset(attrs)

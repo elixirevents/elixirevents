@@ -364,4 +364,85 @@ defmodule ElixirEvents.AccountsTest do
       refute inspect(%User{password: "123456"}) =~ "password: \"123456\""
     end
   end
+
+  describe "claim notification emails" do
+    alias ElixirEvents.Accounts.UserNotifier
+    alias ElixirEvents.Profiles
+
+    test "deliver_claim_approved/2 sends email with profile name" do
+      user = user_fixture()
+      {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
+
+      assert {:ok, email} = UserNotifier.deliver_claim_approved(user, profile)
+      assert email.subject == "Your profile claim has been approved"
+      assert email.text_body =~ "Hugo Barauna"
+      assert email.text_body =~ "approved"
+    end
+
+    test "deliver_claim_rejected/3 sends email with profile name and admin notes" do
+      user = user_fixture()
+      {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
+
+      assert {:ok, email} =
+               UserNotifier.deliver_claim_rejected(user, profile, "Insufficient evidence")
+
+      assert email.subject == "Update on your profile claim"
+      assert email.text_body =~ "Hugo Barauna"
+      assert email.text_body =~ "wasn't approved"
+      assert email.text_body =~ "Insufficient evidence"
+    end
+
+    test "deliver_claim_rejected/3 without admin notes omits notes section" do
+      user = user_fixture()
+      {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
+
+      assert {:ok, email} = UserNotifier.deliver_claim_rejected(user, profile, nil)
+      assert email.text_body =~ "wasn't approved"
+      refute email.text_body =~ "Reviewer notes"
+    end
+  end
+
+  describe "register_user/2 with claim" do
+    alias ElixirEvents.Claims
+    alias ElixirEvents.Profiles
+
+    test "creates user, profile, and pending claim when claim_profile_id provided" do
+      {:ok, speaker} = Profiles.create_profile(%{name: "Speaker", handle: "speaker"})
+
+      attrs = valid_user_attributes(handle: "speaker1")
+
+      assert {:ok, user} =
+               Accounts.register_user(attrs,
+                 claim_profile_id: speaker.id,
+                 claim_user_notes: "DM me on Twitter"
+               )
+
+      profile = Profiles.get_profile_for_user(user.id)
+      assert profile.handle == "speaker1"
+
+      claim = Claims.get_user_claim(user, "profile", speaker.id)
+      assert claim != nil
+      assert claim.status == :pending
+      assert claim.user_notes == "DM me on Twitter"
+    end
+
+    test "creates user without claim when claim_profile_id not provided (regression)" do
+      attrs = valid_user_attributes()
+      assert {:ok, user} = Accounts.register_user(attrs)
+
+      profile = Profiles.get_profile_for_user(user.id)
+      assert profile != nil
+    end
+
+    test "skips claim silently if profile no longer exists" do
+      attrs = valid_user_attributes(handle: "newhandle")
+
+      assert {:ok, user} =
+               Accounts.register_user(attrs, claim_profile_id: 0)
+
+      assert user.id
+      profile = Profiles.get_profile_for_user(user.id)
+      assert profile != nil
+    end
+  end
 end

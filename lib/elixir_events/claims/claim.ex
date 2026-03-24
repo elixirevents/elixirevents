@@ -27,6 +27,7 @@ defmodule ElixirEvents.Claims.Claim do
     claim
     |> cast(attrs, @permitted)
     |> validate_required(@required)
+    |> validate_length(:user_notes, max: 1000)
     |> validate_inclusion(:claimable_type, ["profile", "organization"])
     |> foreign_key_constraint(:user_id)
     |> unique_constraint([:user_id, :claimable_type, :claimable_id])

@@ -2,6 +2,7 @@ defmodule ElixirEventsWeb.Admin.ClaimLive.Show do
   use ElixirEventsWeb, :live_view
 
   alias ElixirEvents.{Claims, Profiles}
+  alias ElixirEvents.Accounts.UserNotifier
 
   @impl true
   def mount(_params, _session, socket) do
@@ -33,6 +34,11 @@ defmodule ElixirEventsWeb.Admin.ClaimLive.Show do
 
     case Claims.approve_claim(claim, admin) do
       {:ok, updated_claim} ->
+        if claim.claimable_type == "profile" do
+          profile = Profiles.get_profile(claim.claimable_id)
+          if profile, do: UserNotifier.deliver_claim_approved(claim.user, profile)
+        end
+
         {:noreply,
          socket
          |> assign(:claim, updated_claim)
@@ -49,6 +55,11 @@ defmodule ElixirEventsWeb.Admin.ClaimLive.Show do
 
     case Claims.reject_claim(claim, admin, notes) do
       {:ok, updated_claim} ->
+        if claim.claimable_type == "profile" do
+          profile = Profiles.get_profile(claim.claimable_id)
+          if profile, do: UserNotifier.deliver_claim_rejected(claim.user, profile, notes)
+        end
+
         {:noreply,
          socket
          |> assign(:claim, updated_claim)

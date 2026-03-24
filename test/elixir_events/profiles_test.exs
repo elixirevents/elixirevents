@@ -147,6 +147,54 @@ defmodule ElixirEvents.ProfilesTest do
     end
   end
 
+  describe "get_profile_by_handle_with_owner_status/1" do
+    import ElixirEvents.AccountsFixtures
+
+    test "returns {:unclaimed, profile} for profile with no user_id" do
+      {:ok, profile} = Profiles.create_profile(@valid_attrs)
+      assert {:unclaimed, found} = Profiles.get_profile_by_handle_with_owner_status("josevalim")
+      assert found.id == profile.id
+    end
+
+    test "returns {:claimed, profile} for profile with user_id" do
+      user = user_fixture()
+      profile = Profiles.get_profile_for_user(user.id)
+      assert {:claimed, found} = Profiles.get_profile_by_handle_with_owner_status(profile.handle)
+      assert found.id == profile.id
+    end
+
+    test "returns nil for nonexistent handle" do
+      assert Profiles.get_profile_by_handle_with_owner_status("nonexistent") == nil
+    end
+  end
+
+  describe "suggest_available_handle/1" do
+    test "returns handle with suffix 1 when base handle is taken" do
+      {:ok, _} = Profiles.create_profile(%{name: "Test", handle: "taken"})
+      assert Profiles.suggest_available_handle("taken") == "taken1"
+    end
+
+    test "increments suffix when lower suffixes are taken" do
+      {:ok, _} = Profiles.create_profile(%{name: "Test 1", handle: "taken"})
+      {:ok, _} = Profiles.create_profile(%{name: "Test 2", handle: "taken1"})
+      assert Profiles.suggest_available_handle("taken") == "taken2"
+    end
+
+    test "returns nil when all 10 suffixes are taken" do
+      {:ok, _} = Profiles.create_profile(%{name: "Base", handle: "taken"})
+
+      for i <- 1..10 do
+        {:ok, _} = Profiles.create_profile(%{name: "Test #{i}", handle: "taken#{i}"})
+      end
+
+      assert Profiles.suggest_available_handle("taken") == nil
+    end
+
+    test "returns the handle itself if it is available" do
+      assert Profiles.suggest_available_handle("available") == "available"
+    end
+  end
+
   describe "upsert_profile/1" do
     test "inserts a new profile" do
       assert {:ok, profile} = Profiles.upsert_profile(@valid_attrs)

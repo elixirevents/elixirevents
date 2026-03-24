@@ -74,7 +74,7 @@ defmodule ElixirEvents.Accounts do
       {:error, %Ecto.Changeset{}}
 
   """
-  def register_user(attrs) do
+  def register_user(attrs, opts \\ []) do
     Repo.transaction(fn ->
       case %User{}
            |> User.registration_changeset(attrs)
@@ -86,14 +86,42 @@ defmodule ElixirEvents.Accounts do
           }
 
           case ElixirEvents.Profiles.create_profile_for_user(user, profile_attrs) do
-            {:ok, _profile} -> user
-            {:error, changeset} -> Repo.rollback(changeset)
+            {:ok, _profile} ->
+              maybe_create_claim(user, opts)
+              user
+
+            {:error, changeset} ->
+              Repo.rollback(changeset)
           end
 
         {:error, changeset} ->
           Repo.rollback(changeset)
       end
     end)
+  end
+
+  defp maybe_create_claim(_user, []), do: :skip
+
+  defp maybe_create_claim(user, opts) do
+    case Keyword.get(opts, :claim_profile_id) do
+      nil ->
+        :skip
+
+      profile_id ->
+        if ElixirEvents.Profiles.get_profile(profile_id) do
+          user_notes = Keyword.get(opts, :claim_user_notes)
+
+          claim_attrs =
+            if user_notes, do: %{user_notes: user_notes}, else: %{}
+
+          case ElixirEvents.Claims.create_claim(user, "profile", profile_id, claim_attrs) do
+            {:ok, claim} -> {:ok, claim}
+            {:error, _} -> :skip
+          end
+        else
+          :skip
+        end
+    end
   end
 
   defp build_name(attrs) do

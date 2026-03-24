@@ -43,6 +43,18 @@
       </dl>
     </div>
 
+    <%!-- Claim details --%>
+    <div
+      :if={@claim.user_notes && @claim.user_notes != ""}
+      class="rounded-xl border border-base-300 p-6"
+    >
+      <h2 class="font-display text-lg font-bold text-base-content mb-4">Claim Details</h2>
+      <div class="text-sm">
+        <p class="text-base-content/55 font-medium mb-1">Note from user</p>
+        <p class="text-base-content whitespace-pre-wrap">{@claim.user_notes}</p>
+      </div>
+    </div>
+
     <%!-- Claimed entity --%>
     <div class="rounded-xl border border-base-300 p-6">
       <h2 class="font-display text-lg font-bold text-base-content mb-4">Claimed Entity</h2>
