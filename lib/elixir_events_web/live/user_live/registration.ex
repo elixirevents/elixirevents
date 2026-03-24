@@ -3,6 +3,7 @@ defmodule ElixirEventsWeb.UserLive.Registration do
 
   alias ElixirEvents.Accounts
   alias ElixirEvents.Accounts.User
+  alias ElixirEvents.Profiles
 
   @impl true
   def render(assigns) do
@@ -32,7 +33,15 @@ defmodule ElixirEventsWeb.UserLive.Registration do
               label="Handle"
               required
               placeholder="e.g. josevalim"
+              phx-debounce="500"
             />
+
+            <.handle_conflict_notice
+              handle_conflict={@handle_conflict}
+              claim_profile={@claim_profile}
+              suggested_handle={@suggested_handle}
+            />
+
             <.input field={@form[:email]} type="email" label="Email" autocomplete="username" required />
             <.input
               field={@form[:password]}
@@ -51,6 +60,94 @@ defmodule ElixirEventsWeb.UserLive.Registration do
     """
   end
 
+  defp handle_conflict_notice(%{handle_conflict: nil} = assigns) do
+    ~H"""
+    """
+  end
+
+  defp handle_conflict_notice(%{handle_conflict: {:unclaimed, _profile}} = assigns) do
+    ~H"""
+    <div class="mt-2 mb-4 p-4 rounded-xl bg-primary/10 border border-primary/30">
+      <p class="text-sm text-base-content">
+        A speaker profile for <strong>{elem(@handle_conflict, 1).name}</strong> already exists.
+        You can claim this speaker profile during registration, or use a different handle.
+      </p>
+      <p :if={@suggested_handle} class="text-sm text-base-content/70 mt-2">
+        Suggested alternative: <code class="font-mono text-primary">{@suggested_handle}</code>
+      </p>
+
+      <div class="mt-3">
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input
+            type="checkbox"
+            name="claim_profile"
+            value="true"
+            checked={@claim_profile}
+            phx-click="toggle_claim"
+            class="checkbox checkbox-primary checkbox-sm"
+          />
+          <span class="text-sm font-medium text-base-content">
+            I want to claim this speaker profile
+          </span>
+        </label>
+      </div>
+
+      <div :if={@claim_profile} class="mt-3">
+        <label class="block text-sm font-medium text-base-content mb-1">
+          Notes for reviewers (optional)
+        </label>
+        <textarea
+          name="claim_user_notes"
+          rows="2"
+          class="textarea textarea-bordered w-full text-sm"
+          placeholder="Help us verify your identity, e.g. link to your talk or social profile"
+        ></textarea>
+      </div>
+    </div>
+    """
+  end
+
+  defp handle_conflict_notice(%{handle_conflict: {:claimed, _profile}} = assigns) do
+    ~H"""
+    <div class="mt-2 mb-4 p-4 rounded-xl bg-amber-500/10 border border-amber-500/30">
+      <p class="text-sm text-base-content">
+        This handle is taken. If you believe this is your profile, you can submit a claim for review.
+      </p>
+      <p :if={@suggested_handle} class="text-sm text-base-content/70 mt-2">
+        Suggested alternative: <code class="font-mono text-primary">{@suggested_handle}</code>
+      </p>
+
+      <div class="mt-3">
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input
+            type="checkbox"
+            name="claim_profile"
+            value="true"
+            checked={@claim_profile}
+            phx-click="toggle_claim"
+            class="checkbox checkbox-primary checkbox-sm"
+          />
+          <span class="text-sm font-medium text-base-content">
+            I want to dispute this profile's ownership
+          </span>
+        </label>
+      </div>
+
+      <div :if={@claim_profile} class="mt-3">
+        <label class="block text-sm font-medium text-base-content mb-1">
+          Notes for reviewers (optional)
+        </label>
+        <textarea
+          name="claim_user_notes"
+          rows="2"
+          class="textarea textarea-bordered w-full text-sm"
+          placeholder="Help us verify your identity, e.g. link to your talk or social profile"
+        ></textarea>
+      </div>
+    </div>
+    """
+  end
+
   @impl true
   def mount(_params, _session, %{assigns: %{current_scope: %{user: user}}} = socket)
       when not is_nil(user) do
@@ -60,24 +157,53 @@ defmodule ElixirEventsWeb.UserLive.Registration do
   def mount(_params, _session, socket) do
     changeset = Accounts.change_user_registration(%User{}, %{}, validate_unique: false)
 
-    {:ok, assign_form(socket, changeset), temporary_assigns: [form: nil]}
+    socket =
+      socket
+      |> assign(handle_conflict: nil, claim_profile: false, suggested_handle: nil)
+      |> assign_form(changeset)
+
+    {:ok, socket, temporary_assigns: [form: nil]}
   end
 
   @impl true
-  def handle_event("save", %{"user" => user_params}, socket) do
-    case Accounts.register_user(user_params) do
+  def handle_event("save", params, socket) do
+    user_params = params["user"]
+    claim_profile = params["claim_profile"] == "true"
+    claim_user_notes = params["claim_user_notes"]
+
+    opts =
+      case {claim_profile, socket.assigns.handle_conflict} do
+        {true, {_status, profile}} ->
+          opts = [claim_profile_id: profile.id]
+
+          if claim_user_notes && claim_user_notes != "",
+            do: opts ++ [claim_user_notes: claim_user_notes],
+            else: opts
+
+        _ ->
+          []
+      end
+
+    case Accounts.register_user(user_params, opts) do
       {:ok, user} ->
         Accounts.deliver_confirmation_instructions(
           user,
           &url(~p"/confirm/#{&1}")
         )
 
+        flash_msg =
+          if opts[:claim_profile_id] do
+            {_, profile} = socket.assigns.handle_conflict
+
+            "Account created! We've submitted a claim for the speaker profile \"#{profile.name}\". " <>
+              "Check your inbox at #{user.email} to confirm your email — claims can only be approved after confirmation."
+          else
+            "Account created! Check your inbox at #{user.email} for a confirmation link."
+          end
+
         {:noreply,
          socket
-         |> put_flash(
-           :info,
-           "Account created! Check your inbox at #{user.email} for a confirmation link."
-         )
+         |> put_flash(:info, flash_msg)
          |> push_navigate(to: ~p"/login")}
 
       {:error, %Ecto.Changeset{} = changeset} ->
@@ -86,8 +212,55 @@ defmodule ElixirEventsWeb.UserLive.Registration do
   end
 
   def handle_event("validate", %{"user" => user_params}, socket) do
+    handle = (user_params["handle"] || "") |> String.downcase()
+    user_params = Map.put(user_params, "handle", handle)
+
+    {handle_conflict, claim_profile, suggested_handle, user_params} =
+      detect_handle_conflict(
+        handle,
+        socket.assigns.handle_conflict,
+        socket.assigns.suggested_handle,
+        user_params
+      )
+
     changeset = Accounts.change_user_registration(%User{}, user_params, validate_unique: false)
-    {:noreply, assign_form(socket, Map.put(changeset, :action, :validate))}
+
+    {:noreply,
+     socket
+     |> assign(
+       handle_conflict: handle_conflict,
+       claim_profile: claim_profile,
+       suggested_handle: suggested_handle
+     )
+     |> assign_form(Map.put(changeset, :action, :validate))}
+  end
+
+  def handle_event("toggle_claim", _params, socket) do
+    {:noreply, assign(socket, claim_profile: !socket.assigns.claim_profile)}
+  end
+
+  defp detect_handle_conflict(handle, current_conflict, current_suggested, user_params)
+       when handle != "" do
+    case Profiles.get_profile_by_handle_with_owner_status(handle) do
+      nil ->
+        {nil, false, nil, user_params}
+
+      {status, _profile} = conflict ->
+        if is_nil(current_conflict) do
+          # First detection: compute suggested handle and swap in params
+          suggested = Profiles.suggest_available_handle(handle)
+          updated_params = Map.put(user_params, "handle", suggested || handle)
+          default_claim = status == :unclaimed
+          {conflict, default_claim, suggested, updated_params}
+        else
+          # Re-detection: keep existing suggested handle, don't swap
+          {conflict, false, current_suggested, user_params}
+        end
+    end
+  end
+
+  defp detect_handle_conflict(_handle, _current_conflict, _current_suggested, user_params) do
+    {nil, false, nil, user_params}
   end
 
   defp assign_form(socket, %Ecto.Changeset{} = changeset) do
