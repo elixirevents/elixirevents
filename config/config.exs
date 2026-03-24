@@ -110,6 +110,10 @@ config :lotus,
     ]
   }
 
+config :elixir_events, Oban,
+  repo: ElixirEvents.Repo,
+  queues: [search: 5]
+
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 

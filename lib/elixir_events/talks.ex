@@ -23,6 +23,7 @@ defmodule ElixirEvents.Talks do
       as: :event
     )
     |> maybe_filter(opts[:filter])
+    |> maybe_search(opts[:search])
     |> maybe_sort(opts[:sort])
     |> maybe_preload(opts[:preload])
     |> Repo.paginate(page: opts[:page], per_page: opts[:per_page] || 36)
@@ -63,13 +64,13 @@ defmodule ElixirEvents.Talks do
   def create_talk(attrs) do
     %Talk{}
     |> Talk.changeset(attrs)
-    |> Repo.insert()
+    |> Repo.insert_and_index()
   end
 
   def upsert_talk(attrs) do
     %Talk{}
     |> Talk.changeset(attrs)
-    |> Repo.insert(
+    |> Repo.insert_and_index(
       on_conflict: {:replace_all_except, [:id, :inserted_at]},
       conflict_target: [:event_id, :slug],
       returning: true
@@ -148,6 +149,14 @@ defmodule ElixirEvents.Talks do
   end
 
   defp maybe_filter(queryable, _), do: queryable
+
+  defp maybe_search(queryable, nil), do: queryable
+  defp maybe_search(queryable, ""), do: queryable
+
+  defp maybe_search(queryable, q) do
+    pattern = "%#{q}%"
+    from(t in queryable, where: ilike(t.title, ^pattern))
+  end
 
   defp maybe_sort(queryable, "oldest"),
     do: from([t, event: e] in queryable, order_by: [asc: e.start_date, asc: t.title])

@@ -14,6 +14,7 @@ defmodule ElixirEventsWeb.EventLive.Index do
   @impl true
   def handle_params(params, _uri, socket) do
     filter = if params["filter"] in @valid_filters, do: params["filter"], else: "all"
+    search = params["q"]
 
     kinds =
       case params["kinds"] do
@@ -21,7 +22,11 @@ defmodule ElixirEventsWeb.EventLive.Index do
         str -> str |> String.split(",") |> Enum.filter(&(&1 in @valid_kinds))
       end
 
-    query_opts = [preload: [:event_series, :cfps], kinds: if(kinds == [], do: nil, else: kinds)]
+    query_opts = [
+      preload: [:event_series, :cfps],
+      kinds: if(kinds == [], do: nil, else: kinds),
+      search: search
+    ]
 
     events =
       case filter do
@@ -36,6 +41,7 @@ defmodule ElixirEventsWeb.EventLive.Index do
      |> assign(:events, events)
      |> assign(:current_filter, filter)
      |> assign(:selected_kinds, kinds)
+     |> assign(:search, search)
      |> assign(:event_count, length(events))}
   end
 
@@ -56,12 +62,12 @@ defmodule ElixirEventsWeb.EventLive.Index do
         do: List.delete(current, kind),
         else: current ++ [kind]
 
-    params = build_filter_params(socket.assigns.current_filter, new_kinds)
+    params = build_filter_params(socket.assigns.current_filter, new_kinds, socket.assigns.search)
     {:noreply, push_patch(socket, to: ~p"/events?#{params}")}
   end
 
   def handle_event("clear-kinds", _params, socket) do
-    params = build_filter_params(socket.assigns.current_filter, [])
+    params = build_filter_params(socket.assigns.current_filter, [], socket.assigns.search)
     {:noreply, push_patch(socket, to: ~p"/events?#{params}")}
   end
 
@@ -84,8 +90,9 @@ defmodule ElixirEventsWeb.EventLive.Index do
   def kind_dot_color("workshop"), do: "bg-success"
   def kind_dot_color(_), do: "bg-base-content/40"
 
-  def build_filter_params(filter, kinds) do
+  def build_filter_params(filter, kinds, search \\ nil) do
     params = if filter == "all", do: %{}, else: %{filter: filter}
-    if kinds == [], do: params, else: Map.put(params, :kinds, Enum.join(kinds, ","))
+    params = if kinds == [], do: params, else: Map.put(params, :kinds, Enum.join(kinds, ","))
+    if search in [nil, ""], do: params, else: Map.put(params, :q, search)
   end
 end

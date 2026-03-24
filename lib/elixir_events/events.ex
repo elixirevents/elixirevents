@@ -18,13 +18,13 @@ defmodule ElixirEvents.Events do
   def create_event_series(attrs) do
     %EventSeries{}
     |> EventSeries.changeset(attrs)
-    |> Repo.insert()
+    |> Repo.insert_and_index()
   end
 
   def upsert_event_series(attrs) do
     %EventSeries{}
     |> EventSeries.changeset(attrs)
-    |> Repo.insert(
+    |> Repo.insert_and_index(
       on_conflict: {:replace_all_except, [:id, :inserted_at]},
       conflict_target: :slug,
       returning: true
@@ -35,6 +35,7 @@ defmodule ElixirEvents.Events do
     Event
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
+    |> maybe_search(opts[:search])
     |> by_year_desc_date_asc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
@@ -47,6 +48,7 @@ defmodule ElixirEvents.Events do
     Event
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
+    |> maybe_search(opts[:search])
     |> where([e], e.start_date >= ^today)
     |> where([e], e.status not in [:cancelled, :completed])
     |> by_date_asc()
@@ -61,6 +63,7 @@ defmodule ElixirEvents.Events do
     Event
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
+    |> maybe_search(opts[:search])
     |> where([e], e.start_date < ^today or e.status == :completed)
     |> by_date_desc()
     |> maybe_preload(opts[:preload])
@@ -89,13 +92,13 @@ defmodule ElixirEvents.Events do
   def create_event(attrs) do
     %Event{}
     |> Event.changeset(attrs)
-    |> Repo.insert()
+    |> Repo.insert_and_index()
   end
 
   def upsert_event(attrs) do
     %Event{}
     |> Event.changeset(attrs)
-    |> Repo.insert(
+    |> Repo.insert_and_index(
       on_conflict: {:replace_all_except, [:id, :inserted_at]},
       conflict_target: :slug,
       returning: true
@@ -151,6 +154,14 @@ defmodule ElixirEvents.Events do
   defp maybe_filter_by_kinds(queryable, nil), do: queryable
   defp maybe_filter_by_kinds(queryable, []), do: queryable
   defp maybe_filter_by_kinds(queryable, kinds), do: where(queryable, [e], e.kind in ^kinds)
+
+  defp maybe_search(queryable, nil), do: queryable
+  defp maybe_search(queryable, ""), do: queryable
+
+  defp maybe_search(queryable, q) do
+    pattern = "%#{q}%"
+    from(e in queryable, where: ilike(e.name, ^pattern))
+  end
 
   defp maybe_preload(queryable, nil), do: queryable
   defp maybe_preload(queryable, preloads), do: from(q in queryable, preload: ^preloads)

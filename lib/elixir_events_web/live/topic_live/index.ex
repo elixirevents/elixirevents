@@ -9,12 +9,14 @@ defmodule ElixirEventsWeb.TopicLive.Index do
   end
 
   @impl true
-  def handle_params(_params, _uri, socket) do
-    topics = Topics.list_topics(with_counts: true)
+  def handle_params(params, _uri, socket) do
+    search = params["q"]
+    topics = Topics.list_topics(with_counts: true, search: search)
 
     {:noreply,
      socket
      |> assign(:page_title, "Topics")
-     |> assign(:topics, topics)}
+     |> assign(:topics, topics)
+     |> assign(:search, search)}
   end
 end
