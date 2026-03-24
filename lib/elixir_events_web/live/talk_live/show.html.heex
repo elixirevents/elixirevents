@@ -87,7 +87,10 @@
 
       <h1 class="font-display text-2xl sm:text-3xl font-bold text-base-content">{@talk.title}</h1>
 
-      <div :if={@talk.abstract} class="text-base-content/55 mt-4 leading-relaxed whitespace-pre-line">
+      <div
+        :if={@talk.abstract}
+        class="text-base-content/55 mt-4 leading-relaxed whitespace-pre-line"
+      >
         {@talk.abstract}
       </div>
 
