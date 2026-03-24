@@ -1,4 +1,11 @@
 defmodule ElixirEvents.Search.IndexWorker do
+  @moduledoc """
+  Oban worker responsible for syncing records with the search backend
+  (Typesense): upsert, delete, and full reindex operations per collection.
+
+  This worker resolves the appropriate document module per schema and delegates
+  serialization and collection metadata accordingly.
+  """
   use Oban.Worker, queue: :search, max_attempts: 3
 
   alias ElixirEvents.Repo
@@ -90,9 +97,10 @@ defmodule ElixirEvents.Search.IndexWorker do
     # Drop existing — ignore errors (collection may not exist yet)
     ExTypesense.drop_collection(collection_name)
 
-    with {:ok, _} <- ExTypesense.create_collection(schema) do
-      do_reindex(doc_module, schema_name, collection_name)
-    else
+    case ExTypesense.create_collection(schema) do
+      {:ok, _} ->
+        do_reindex(doc_module, schema_name, collection_name)
+
       {:error, reason} ->
         Logger.error("Failed to create collection #{collection_name}: #{inspect(reason)}")
         {:error, reason}

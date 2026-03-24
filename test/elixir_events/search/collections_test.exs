@@ -2,10 +2,10 @@ defmodule ElixirEvents.Search.CollectionsTest do
   use ElixirEvents.DataCase
 
   alias ElixirEvents.Search.Collections.EventDocument
-  alias ElixirEvents.Search.Collections.TalkDocument
-  alias ElixirEvents.Search.Collections.ProfileDocument
-  alias ElixirEvents.Search.Collections.TopicDocument
   alias ElixirEvents.Search.Collections.EventSeriesDocument
+  alias ElixirEvents.Search.Collections.ProfileDocument
+  alias ElixirEvents.Search.Collections.TalkDocument
+  alias ElixirEvents.Search.Collections.TopicDocument
 
   import ElixirEvents.DataFixtures
 

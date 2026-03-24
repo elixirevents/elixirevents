@@ -4,8 +4,6 @@ defmodule ElixirEvents.Search.IndexWorkerTest do
 
   alias ElixirEvents.Search.IndexWorker
 
-  import ElixirEvents.DataFixtures
-
   describe "upsert action" do
     test "enqueues correctly with schema and id" do
       assert {:ok, _} =

@@ -1,4 +1,8 @@
 defmodule ElixirEventsWeb.CommandPaletteComponent do
+  @moduledoc """
+  A LiveComponent that renders the global command palette UI and delegates
+  navigation events. It integrates with client-side JS for interactive search.
+  """
   use ElixirEventsWeb, :live_component
 
   @impl true
