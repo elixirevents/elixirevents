@@ -59,6 +59,76 @@ defmodule ElixirEventsWeb.EventLiveTest do
     end
   end
 
+  describe "meetup events on index" do
+    test "all filter shows meetup events alongside conferences", %{conn: conn} do
+      future = Date.add(Date.utc_today(), 30)
+
+      {:ok, _conference} =
+        Events.create_event(%{
+          name: "ElixirConf US 2026",
+          slug: "elixirconf-us-2026",
+          kind: :conference,
+          status: :confirmed,
+          format: :in_person,
+          start_date: future,
+          end_date: Date.add(future, 2),
+          timezone: "America/Chicago"
+        })
+
+      {:ok, _meetup} =
+        Events.create_event(%{
+          name: "Braga BEAM #8",
+          slug: "bbug-8",
+          kind: :meetup,
+          status: :confirmed,
+          format: :in_person,
+          start_date: Date.add(future, 5),
+          end_date: Date.add(future, 5),
+          timezone: "Europe/Lisbon"
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events")
+      assert html =~ "ElixirConf US 2026"
+      assert html =~ "Braga BEAM #8"
+    end
+
+    test "upcoming filter shows meetup events", %{conn: conn} do
+      future = Date.add(Date.utc_today(), 30)
+
+      {:ok, _meetup} =
+        Events.create_event(%{
+          name: "Braga BEAM #8",
+          slug: "bbug-8",
+          kind: :meetup,
+          status: :confirmed,
+          format: :in_person,
+          start_date: future,
+          end_date: future,
+          timezone: "Europe/Lisbon"
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events?filter=upcoming")
+      assert html =~ "Braga BEAM #8"
+    end
+
+    test "past filter shows past meetup events", %{conn: conn} do
+      {:ok, _meetup} =
+        Events.create_event(%{
+          name: "Braga BEAM #7",
+          slug: "bbug-7",
+          kind: :meetup,
+          status: :completed,
+          format: :in_person,
+          start_date: ~D[2024-06-15],
+          end_date: ~D[2024-06-15],
+          timezone: "Europe/Lisbon"
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events?filter=past")
+      assert html =~ "Braga BEAM #7"
+    end
+  end
+
   describe "unlisted series" do
     test "events from unlisted series do not appear on events page", %{conn: conn} do
       {:ok, unlisted} =
