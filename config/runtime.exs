@@ -125,6 +125,12 @@ if config_env() == :prod do
     typesense_search_key: System.fetch_env!("TYPESENSE_SEARCH_KEY"),
     typesense_search_host: System.fetch_env!("TYPESENSE_SEARCH_HOST")
 
+  config :appsignal, :config,
+    active: true,
+    otp_app: :elixir_events,
+    name: "elixir_events",
+    push_api_key: System.fetch_env!("APPSIGNAL_PUSH_API_KEY")
+
   config :elixir_events, Oban,
     repo: ElixirEvents.Repo,
     queues: [search: 5]

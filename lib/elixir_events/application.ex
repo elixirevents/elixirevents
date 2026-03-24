@@ -7,6 +7,10 @@ defmodule ElixirEvents.Application do
 
   @impl true
   def start(_type, _args) do
+    with {:module, mod} <- Code.ensure_loaded(Appsignal.Phoenix.LiveView) do
+      mod.attach()
+    end
+
     children = [
       ElixirEventsWeb.Telemetry,
       ElixirEvents.Repo,
