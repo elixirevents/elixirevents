@@ -35,7 +35,7 @@ defmodule ElixirEvents.Events do
     Event
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
-    |> order_by([e], desc: e.start_date)
+    |> by_year_desc_date_asc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
     |> Repo.all()
@@ -49,7 +49,7 @@ defmodule ElixirEvents.Events do
     |> maybe_filter_by_kinds(opts[:kinds])
     |> where([e], e.start_date >= ^today)
     |> where([e], e.status not in [:cancelled, :completed])
-    |> order_by([e], asc: e.start_date)
+    |> by_date_asc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
     |> Repo.all()
@@ -62,7 +62,7 @@ defmodule ElixirEvents.Events do
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
     |> where([e], e.start_date < ^today or e.status == :completed)
-    |> order_by([e], desc: e.start_date)
+    |> by_date_desc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
     |> Repo.all()
@@ -136,6 +136,15 @@ defmodule ElixirEvents.Events do
     from(e in queryable,
       left_join: s in assoc(e, :event_series),
       where: is_nil(s.id) or s.listed == true
+    )
+  end
+
+  defp by_date_asc(queryable), do: order_by(queryable, [e], asc: e.start_date)
+  defp by_date_desc(queryable), do: order_by(queryable, [e], desc: e.start_date)
+
+  defp by_year_desc_date_asc(queryable) do
+    from(e in queryable,
+      order_by: [desc: fragment("extract(year from ?)", e.start_date), asc: e.start_date]
     )
   end
 

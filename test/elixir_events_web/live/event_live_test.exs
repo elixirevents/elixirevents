@@ -127,6 +127,45 @@ defmodule ElixirEventsWeb.EventLiveTest do
       {:ok, _lv, html} = live(conn, ~p"/events?filter=past")
       assert html =~ "Braga BEAM #7"
     end
+
+    test "meetups appear in correct date order within the same year", %{conn: conn} do
+      future = Date.add(Date.utc_today(), 60)
+
+      {:ok, _conference} =
+        Events.create_event(%{
+          name: "Big Conference",
+          slug: "big-conf",
+          kind: :conference,
+          status: :confirmed,
+          format: :in_person,
+          start_date: future,
+          end_date: Date.add(future, 2),
+          timezone: "America/Chicago"
+        })
+
+      {:ok, _meetup} =
+        Events.create_event(%{
+          name: "Local Meetup",
+          slug: "local-meetup",
+          kind: :meetup,
+          status: :confirmed,
+          format: :in_person,
+          start_date: Date.add(future, -30),
+          end_date: Date.add(future, -30),
+          timezone: "Europe/Lisbon"
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events")
+
+      assert html =~ "Big Conference"
+      assert html =~ "Local Meetup"
+
+      meetup_pos = :binary.match(html, "Local Meetup") |> elem(0)
+      conf_pos = :binary.match(html, "Big Conference") |> elem(0)
+
+      assert meetup_pos < conf_pos,
+             "Meetup (earlier date) should appear before conference (later date) in chronological order within year"
+    end
   end
 
   describe "unlisted series" do
