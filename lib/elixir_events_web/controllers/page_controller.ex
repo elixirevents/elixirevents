@@ -3,14 +3,6 @@ defmodule ElixirEventsWeb.PageController do
 
   alias ElixirEvents.{Events, Profiles, Talks, Topics}
 
-  def contribute(conn, _params) do
-    render(conn, :contribute)
-  end
-
-  def about(conn, _params) do
-    render(conn, :about)
-  end
-
   def home(conn, _params) do
     featured_events =
       Events.list_upcoming_events(

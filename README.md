@@ -52,6 +52,10 @@ mix elixir_events.data.fix --dry-run  # preview without changing files
 
 PRs welcome for data additions, bug fixes, tests, and code improvements. Run `mix test` and `mix elixir_events.validate` before submitting. See [CONTRIBUTING](https://elixirevents.org/contribute).
 
+## Credits
+
+Thank you [Typesense](https://typesense.org) for sponsoring a Typesense Cloud cluster that powers the search functionality.
+
 ## License
 
 [MIT](LICENSE)
