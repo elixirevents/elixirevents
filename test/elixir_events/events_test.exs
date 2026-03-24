@@ -135,6 +135,32 @@ defmodule ElixirEvents.EventsTest do
       assert found.id == event.id
     end
 
+    test "returns events of all kinds including meetups" do
+      {:ok, _conference} = Events.create_event(@valid_event_attrs)
+
+      {:ok, _meetup} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | name: "Braga BEAM #8",
+            slug: "bbug-8",
+            kind: :meetup
+        })
+
+      {:ok, _retreat} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | name: "EMPEX Retreat",
+            slug: "empex-retreat",
+            kind: :retreat
+        })
+
+      events = Events.list_events()
+      kinds = Enum.map(events, & &1.kind)
+      assert :conference in kinds
+      assert :meetup in kinds
+      assert :retreat in kinds
+    end
+
     test "excludes events from unlisted series" do
       {:ok, listed_series} =
         Events.create_event_series(%{@valid_series_attrs | slug: "listed-series"})
@@ -254,6 +280,60 @@ defmodule ElixirEvents.EventsTest do
 
       upcoming = Events.list_upcoming_events()
       assert [%{slug: "upcoming"}] = upcoming
+    end
+
+    test "returns all kinds including meetups when no kinds filter" do
+      future_date = Date.add(Date.utc_today(), 30)
+
+      {:ok, _conference} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "conf-upcoming",
+            start_date: future_date,
+            end_date: Date.add(future_date, 2)
+        })
+
+      {:ok, _meetup} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | name: "Braga BEAM #8",
+            slug: "meetup-upcoming",
+            kind: :meetup,
+            start_date: future_date,
+            end_date: future_date
+        })
+
+      upcoming = Events.list_upcoming_events()
+      kinds = Enum.map(upcoming, & &1.kind)
+      assert :conference in kinds
+      assert :meetup in kinds
+    end
+
+    test "filters by kinds when specified" do
+      future_date = Date.add(Date.utc_today(), 30)
+
+      {:ok, _conference} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "conf-upcoming",
+            start_date: future_date,
+            end_date: Date.add(future_date, 2)
+        })
+
+      {:ok, _meetup} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | name: "Braga BEAM #8",
+            slug: "meetup-upcoming",
+            kind: :meetup,
+            start_date: future_date,
+            end_date: future_date
+        })
+
+      filtered = Events.list_upcoming_events(kinds: [:conference, :summit])
+      kinds = Enum.map(filtered, & &1.kind)
+      assert :conference in kinds
+      refute :meetup in kinds
     end
 
     test "excludes events from unlisted series" do
