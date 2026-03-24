@@ -1,12 +1,13 @@
 ## Keynotes
 
-
-- title: "Speaking Openly about Accomplishments and Overcoming Imposter Syndrome - Code BEAM Europe 2023"
+- title: "Speaking Openly about Accomplishments and Overcoming Imposter Syndrome"
   slug: "speaking-openly-about-accomplishments-and-overcoming-imposte"
   kind: keynote
   language: en
   duration: 54
-  abstract: "A keynote talk by Ioana Rosu from Code BEAM Europe 2023:"
+  abstract: "Imposter syndrome, a common psychological phenomenon characterized by self-doubt and an inability to internalize one’s accomplishments, affects individuals across various domains. The talk seeks to explore the journey from awareness to action in addressing imposter syndrome giving the participants the actionable insights needed to leave the conference equipped with a renewed sense of confidence, enabling them to navigate their professional journeys with authenticity and resilience."
+  speakers:
+    - ioanarosu
   topics:
     - elixir
     - erlang
@@ -15,17 +16,22 @@
       external_id: "4WL6iOqXew0"
       url: "https://www.youtube.com/watch?v=4WL6iOqXew0"
 
-
 ## Talks
 
-
-- title: "A Year in Production with Machine Learning on the BEAM | Code BEAM Europe 23"
-  slug: "a-year-in-production-with-machine-learning-on-the-beam-code"
-  kind: talk
+- title: "A Year in Production with Machine Learning on the BEAM"
+  slug: "a-year-in-production-with-machine-learning-on-the-beam"
+  kind: keynote
   level: intermediate
   language: en
   duration: 47
-  abstract: "Christopher Grainger shares his experience with Machine Learning with Elixir ecosystem:"
+  abstract: |
+    Christopher Grainger shares his experience with Machine Learning with Elixir ecosystem:
+
+    "Last year we made the decision to switch our machine learning research, inference, and ETL pipelines to Elixir. Python was our first choice but, with the rest of our codebase in Elixir, we ran into problems with siloing and context shifting. The advent of the Numerical Elixir (Nx) project made the transition possible. The move to an all-Elixir codebase led to streamlining development, less complexity, and swift experimentation – all force multipliers for a small startup. We’ve since woven the Nx ecosystem into our workflows, relying on Livebook for daily operations, and rolled out Scholar for a key feature. In this talk, I’ll share our insights and discoveries over the past year since our complete transition to Elixir, how we integrated the Nx ecosystem into our operations, and the practicalities and challenges of managing machine learning in production using the BEAM
+
+    The Nx ecosystem is ready for production today. It’s surprising because of how new it is but, for many, many use cases, it’s possible to put machine learning into production only using Elixir. And we’re not just talking about trivial things: we run a bespoke large language model (LLM) (that we were able to fine tune in Elixir!) with millions of parameters and run inference with millions of documents each week.
+
+    But it’s new and there’s not a lot of information out there about the practicalities with deployment, or real-world assessments of benefits and challenges. So I can talk to that as a CTO and founder who made the choice and reaped the benefits."
   speakers:
     - christophergrainger
   topics:
@@ -37,13 +43,15 @@
       external_id: "HP86Svk4hzI"
       url: "https://www.youtube.com/watch?v=HP86Svk4hzI"
 
-- title: "Apocalypse How? New Rules For Writing Code in the Newfound Era of Ethical Ambiguity - Randall Thomas"
+- title: "Apocalypse How? New Rules For Writing Code in the Newfound Era of Ethical Ambiguity"
   slug: "apocalypse-how-new-rules-for-writing-code-in-the-newfound-er"
-  kind: talk
+  kind: keynote
   level: intermediate
   language: en
   duration: 38
-  abstract: "Let's keep in touch! Follow us on:"
+  abstract: "As programmers, we use our skills to create new possibilities. Sometimes for good, other times just for profit. Increasingly, the costs of the tools we build are borne by people we will never meet, and those with little or no say in how the tools we, as software engineers, have built are used. As software moves from niche domain to “dual use” technology, what level of responsibility do we as software engineers have to “first: do no harm”?"
+  speakers:
+    - randallthomas
   topics:
     - elixir
   recordings:
@@ -53,11 +61,20 @@
 
 - title: "Fully Utilizing the BEAM: José Valim and Saša Jurić in live podcast episode hosted by Lars Wikman"
   slug: "fully-utilizing-the-beam-jose-valim-and-sasa-juric-in-live-p"
-  kind: talk
+  kind: panel
   level: intermediate
   language: en
   duration: 27
-  abstract: "Whether you do Elixir, Erlang, Gleam or any of the others you are running on top of a uniquely capable runtime. The BEAM has a reputation for rock-solid reliability and unique facilities in realtime, concurrency and.. well, you've probably heard it all before."
+  abstract: |
+    Whether you do Elixir, Erlang, Gleam or any of the others you are running on top of a uniquely capable runtime. The BEAM has a reputation for rock-solid reliability and unique facilities in realtime, concurrency and.. well, you've probably heard it all before.
+
+    But there is so much more to the BEAM. There are many parts with lots of potential that we are not fully utilizing today.
+
+    Lars Wikman sits down with The Erlangelist, Saša Jurić, and the creator of Elixir, José Valim, with the goal of getting their thoughts on what further potential they see in the BEAM. What should the community be exploring? What could we do that we currently are not?
+  speakers:
+    - josevalim
+    - sasajuric
+    - larswikman
   topics:
     - elixir
     - erlang
@@ -66,28 +83,39 @@
       external_id: "ZZrgOyQafHs"
       url: "https://www.youtube.com/watch?v=ZZrgOyQafHs"
 
-- title: "Against the Grain by Saša Jurić | Code BEAM Europe 2023"
-  slug: "against-the-grain-by-sasa-juric-code-beam-europe-2023"
+- title: "Against the Grain"
+  slug: "against-the-grain"
   kind: talk
   level: intermediate
   language: en
   duration: 37
-  abstract: "Abstract:"
+  abstract: |
+    This talk tells the story of developing a bespoke Kafka client. None of the existing libraries in the BEAM ecosystem fulfilled the needs of the team, and it was estimated that contributing new changes to those projects would be very difficult. At the same time, writing and maintaining a client from scratch would require a lot of time, much more than the team could afford.
+
+    So what can we do in such situation? Join me and find out how by making some atypical choices we got ourselves out of a tricky situation.
+  speakers:
+    - sasajuric
   topics:
     - elixir
     - erlang
+    - kafka
   recordings:
     - provider: youtube
       external_id: "iVHpFoDXim4"
       url: "https://www.youtube.com/watch?v=iVHpFoDXim4"
 
-- title: "Observability at Scale by Natalia Chechina | Code BEAM Europe 2023"
-  slug: "observability-at-scale-by-natalia-chechina-code-beam-europe"
+- title: "Observability at Scale"
+  slug: "observability-at-scale"
   kind: talk
   level: intermediate
   language: en
   duration: 37
-  abstract: "Abstract:"
+  abstract: |
+    Observability is about understanding your system – its performance, reasons for actions, inactions, and failures, and the ability to pre-emptively act on various system limitations before they become a problem. The main tools of observability are metrics and logs. To empower developers, rather than introduce overheads and endless useless data, both metrics and logs should be designed into the system, rather than be added on. This is particularly true for large-scale systems.
+
+    In this talk, I will share my experience and the rules of thumb for working with metrics and logs at scale. I will also cover the theory behind these concepts.
+  speakers:
+    - nataliachechina
   topics:
     - elixir
     - erlang
@@ -96,13 +124,21 @@
       external_id: "qYW63O2E7fU"
       url: "https://www.youtube.com/watch?v=qYW63O2E7fU"
 
-- title: "Building and growing the community by Sigu Magwa and Njoki Kiarie | Code BEAM Europe 2023"
-  slug: "building-and-growing-the-community-by-sigu-magwa-and-njoki-k"
+- title: "Building and growing the community"
+  slug: "building-and-growing-the-community"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 18
-  abstract: "Abstract:"
+  abstract: |
+    We have spent a couple of years recruiting, training and engaging community members into elixir. The community has grown and remained active throughout the years since its inception. We believe that expanding the ecosystem fuels innovation, enhances flexibility, improves productivity, enables specialised solutions, fosters diverse communities, and promotes continuous learning
+
+    Our goal is to get the community members to be able to compete internationally and also by upskilling so that the Kenyan ecosystem can adopt elixir now that we have more developers using Elixir. We have encouraging results so far :-)
+
+    We want to share our experience on how we grew this community, what we did - right and wrong and our future plans
+  speakers:
+    - sigumagwa
+    - njikikiarie
   topics:
     - elixir
     - erlang
@@ -111,45 +147,62 @@
       external_id: "1nHy67HRZyY"
       url: "https://www.youtube.com/watch?v=1nHy67HRZyY"
 
-- title: "Refactoring Made Easy | Code BEAM Europe 2023"
-  slug: "refactoring-made-easy-code-beam-europe-2023"
+- title: "Refactoring Made Easy"
+  slug: "refactoring-made-easy"
   kind: talk
   level: intermediate
   language: en
   duration: 17
-  abstract: "Abstract:"
+  abstract: |
+    From small projects to large monorepos, refactoring plays a crucial role in ensuring the maintainability, the extensibility and the overall code quality of a codebase. Codemods allow developers to write scripts that define patterns and transformations across a codebase, reducing the manual effort involved in refactoring.
+
+    In this talk we present a number of tools and techniques that can assist you in tackling the complexities of refactoring Erlang code and improving code maintainability. We discuss how to combine the concepts of refactoring and codemods with the power of diagnostics and code actions (quick fixes) in the IDE.
+
+    By using practical examples, we show how to implement a refactor, a linter and the respective fix by using a brand new framework which you can use in multiple contexts, from the IDE to the CLI, at industrial scale.
   speakers:
     - alanzimmerman
   topics:
     - elixir
     - erlang
+    - refactoring
   recordings:
     - provider: youtube
       external_id: "Lrn6ReSexgs"
       url: "https://www.youtube.com/watch?v=Lrn6ReSexgs"
 
-- title: "TDD ❤️ Erlang by Brujo Benavides | Code BEAM Europe 2023"
-  slug: "tdd-erlang-by-brujo-benavides-code-beam-europe-2023"
+- title: "TDD ❤️ Erlang"
+  slug: "tdd-erlang"
   kind: talk
   level: intermediate
   language: en
   duration: 34
-  abstract: "About the talk:"
+  abstract: |
+    Test Driven Development is a great way of writing code, both for simple programs and also for large systems. Erlang, in particular, is a language that's fantastically suited to work this way. But you need to learn how to use the tools that the language provides to get the most out of it.
+    This talk covers exactly that. It's the answer to the question "How can I easily and effectively implement TDD to work with any Erlang system?"
+  speakers:
+    - brujobenavides
   topics:
-    - elixir
+    - testing
     - erlang
   recordings:
     - provider: youtube
       external_id: "AH2DVMK7n6I"
       url: "https://www.youtube.com/watch?v=AH2DVMK7n6I"
 
-- title: "BEAM: The Perfect Fit for Networks | Code BEAM Europe 2023"
-  slug: "beam-the-perfect-fit-for-networks-code-beam-europe-2023"
+- title: "BEAM: The Perfect Fit for Networks"
+  slug: "beam-the-perfect-fit-for-networks"
   kind: talk
   level: intermediate
   language: en
   duration: 45
-  abstract: "Abstract:"
+  abstract: |
+    Networking can seem like a challenging task, but the BEAM is truly one of the best matches for tackling it. In this talk, we’ll mostly focus on two things: when the BEAM is the right fit for networking applications, especially compared to “lower-level” languages (such as Rust or Go), and then we’ll shift our focus to using the BEAM to write TCP applications.
+
+    We'll discuss how the BEAM's lightweight processes and messaging system provide a powerful and intuitive way to handle TCP sockets and data.
+    We'll explore how to use acceptor pools and supervision trees to build scalable and fault-tolerant TCP servers.
+    I’ll show you how to use the gen_statem behaviour to build reliable TCP clients.
+
+    This stuff is at the foundation of Phoenix, LiveView, channels, and more. Even if you’re not working at the lower levels of the networking stack, this talk will help you understand how many of the tools and patterns we use every day work under the hood.
   speakers:
     - andrealeopardi
   topics:
@@ -160,81 +213,93 @@
       external_id: "pSrbsM0ieH8"
       url: "https://www.youtube.com/watch?v=pSrbsM0ieH8"
 
-- title: "Scaling CLIP based Natural Language Media Search with Bumblebee and Broadway by Raj Rajhans"
+- title: "Scaling CLIP based Natural Language Media Search with Bumblebee and Broadway"
   slug: "scaling-clip-based-natural-language-media-search-with-bumble"
   kind: talk
   level: intermediate
   language: en
   duration: 26
   abstract: "Abstract:"
+  speakers:
+    - rajrajhans
   topics:
     - elixir
+    - libraries
   recordings:
     - provider: youtube
       external_id: "7NEOWfFm3Os"
       url: "https://www.youtube.com/watch?v=7NEOWfFm3Os"
 
-- title: "etylizer: Set-theoretic Types for Erlang by Annette Bieniusa, Albert Schimpf | Code BEAM Europe 2023"
-  slug: "etylizer-set-theoretic-types-for-erlang-by-annette-bieniusa"
+- title: "etylizer: Set-theoretic Types for Erlang"
+  slug: "etylizer-set-theoretic-types-for-erlang"
   kind: talk
   level: intermediate
   language: en
   duration: 23
-  abstract: "Abstract:"
+  abstract: |
+    Erlang’s type language provides powerful such as parametric polymorphism, equi-recursive types, as well as singleton, union, and (a variant of) intersection types.
+    But its type signatures mainly serve as documentation as language features such as pattern matching and dynamic type tests complicate the design of a static type system.
+
+    In our talk, we present etylizer, a static type checker for Erlang that adopts set-theoretic types as its foundation. With a demo on selected case studies, we will demonstrate how existing Erlang code can be statically typechecked without or with only minor modifications to the code. We will further show how set-theoretic types can enhance the development process and improve code quality for idiomatic Erlang code. The etylizer project is funded by the Erlang Ecosystem Foundation and developed as free open-source software here: https://github.com/etylizer/
+  speakers:
+    - annettebieniusa
+    - albertschimpf
   topics:
-    - elixir
     - erlang
+    - type-system
   recordings:
     - provider: youtube
       external_id: "O7Lg0HoJwVw"
       url: "https://www.youtube.com/watch?v=O7Lg0HoJwVw"
 
-- title: "The Design Principles of the Elixir Type System | Code BEAM Europe 2023"
-  slug: "the-design-principles-of-the-elixir-type-system-code-beam-eu"
+- title: "The Design Principles of the Elixir Type System"
+  slug: "the-design-principles-of-the-elixir-type-system"
   kind: talk
   level: intermediate
   language: en
   duration: 39
-  abstract: "Abstract:"
+  abstract: |
+    This talk will present the current state of Guillaume Duboc's PhD thesis on introducing a type system to Elixir. We will present set-theoretic types, and how they are uniquely suited to represent Elixir programs. Then, we will showcase the potential benefits of a type system designed for Elixir, such as detecting common bugs and providing direct feedback on code quality.
+
+    In addition to exploring the use of types to describe and enforce function interfaces, we will provide examples of new syntax for types that could be added to the language. We will also delve into the concept of gradual typing and its ability to mix typed and untyped code, as well as ease the optional transition of existing codebases towards types.
+
+    We will share my perspective on the state of the project, the forthcoming work, and the challenges we have faced, as this is joint work with Giuseppe Castagna and José Valim.
   speakers:
     - guillaumeduboc
   topics:
     - elixir
-    - erlang
     - type-system
   recordings:
     - provider: youtube
       external_id: "eBzoZWgZ334"
       url: "https://www.youtube.com/watch?v=eBzoZWgZ334"
 
-- title: "Code as infrastructure in the BEAM ecosystem | Code BEAM Europe 2023"
-  slug: "code-as-infrastructure-in-the-beam-ecosystem-code-beam-europ"
+- title: "Code as infrastructure in the BEAM ecosystem"
+  slug: "code-as-infrastructure-in-the-beam-ecosystem"
   kind: talk
   level: intermediate
   language: en
   duration: 38
-  abstract: "Abstract:"
+  abstract: "Building applications in the BEAM ecosystem is generally a good developer experience, but dealing with the packaging, deployment and configuration of those applications into operational environments has few best practices and often leads to ad-hoc and manual processes which are fine for small deployments - but completely inadequate for managing a fleet of servers. In this talk, I will share many of the lessons I learned building Erlang releases for both Debian installations and minimally small Docker containers - and how we used ansible to script application configuration, software upgrades and automated deployments into various environments."
   speakers:
     - jadeallen
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "hkXBQ7VK1a8"
       url: "https://www.youtube.com/watch?v=hkXBQ7VK1a8"
 
-- title: "Update from the OTP Team | Code BEAM Europe 2023"
-  slug: "update-from-the-otp-team-code-beam-europe-2023"
+- title: "Update from the OTP Team"
+  slug: "update-from-the-otp-team"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 12
   abstract: "Latest changes and plans from the OTP Team."
   speakers:
     - ingelaandin
   topics:
-    - elixir
     - otp
     - erlang
   recordings:
@@ -242,24 +307,33 @@
       external_id: "noWvFgooh6M"
       url: "https://www.youtube.com/watch?v=noWvFgooh6M"
 
-- title: "Craft your domain-specific query language with NimbleParsec and Ecto | Code BEAM Europe"
+- title: "Craft your domain-specific query language with NimbleParsec and Ecto"
   slug: "craft-your-domain-specific-query-language-with-nimbleparsec"
   kind: talk
   level: intermediate
   language: en
   duration: 21
-  abstract: 'Imagine you want to ask your API \"\"List all devices which are not located in Europe and are currently connected or are either tagged ''maintenance'' or ''retired''\"\". Expressing this kind of selection with query parameters quickly becomes unwieldy, and even a more structured query language like GraphQL '
+  abstract: |
+    Imagine you want to ask your API ""List all devices which are not located in Europe and are currently connected or are either tagged 'maintenance' or 'retired'"". Expressing this kind of selection with query parameters quickly becomes unwieldy, and even a more structured query language like GraphQL can feel clunky to express this, especially if the target user is not a technical one.
+
+    Ideally, we'd want users to be able to write something like:
+    (not attributes[""continent""] == ""EU"") and (connected or (""maintenance"" in tags or ""retired"" in tags))
+
+    In this talk I will show you how this can be achieved with the power of Elixir, NimbleParsec and Ecto.
+
+    We will use NimbleParsec to parse the domain-specific language into an Abstract Syntax Tree represented using Elixir structs, and then we will traverse that AST to produce a valid query using the power of Ecto dynamic queries.
+  speakers:
+    - riccardobinetti
   topics:
     - elixir
     - ecto
-    - erlang
   recordings:
     - provider: youtube
       external_id: "T4komUAGMp8"
       url: "https://www.youtube.com/watch?v=T4komUAGMp8"
 
-- title: "Update from the Elixir Core Team | Code BEAM Europe 2023"
-  slug: "update-from-the-elixir-core-team-code-beam-europe-2023"
+- title: "Update from the Elixir Core Team"
+  slug: "update-from-the-elixir-core-team"
   kind: talk
   level: intermediate
   language: en
@@ -276,154 +350,177 @@
       external_id: "xQ5V3_edi20"
       url: "https://www.youtube.com/watch?v=xQ5V3_edi20"
 
-- title: "Introducing Bondy: The IoT, Web and Mobile Platform by Alejandro Ramallo | Code BEAM Europe 2023"
-  slug: "introducing-bondy-the-iot-web-and-mobile-platform-by-alejand"
+- title: "Introducing Bondy: The IoT, Web and Mobile Platform"
+  slug: "introducing-bondy-the-iot-web-and-mobile-platform"
   kind: talk
   level: intermediate
   language: en
   duration: 42
-  abstract: "Abstract:"
+  abstract: |
+    Bondy is an open source, always-on and scaleable application networking platform connecting all elements of a distributed application—offering service and event mesh capabilities combined such as service authentication, fine-grained authorisation, service discovery, routed remote procedure calls (RPC) and publish/subscribe.
+
+    From web and mobile apps to IoT devices and backend microservices, Bondy allows everything to talk using an open, simple and secured application networking protocol that provides two-way communications and peer-2-peer programming model (WAMP - the Web Application Messaging Protocol).
+
+    Bondy is written in Erlang and uses Partisan for scalable clustering and distribution.
+  speakers:
+    - alejandroramallo
   topics:
-    - elixir
-    - nerves
     - erlang
+    - iot
   recordings:
     - provider: youtube
       external_id: "19neQdxbYGM"
       url: "https://www.youtube.com/watch?v=19neQdxbYGM"
 
-- title: "Reimplementing technical debt with state machines by Nelson Vides & Paweł Chrząszcz | Code BEAM"
-  slug: "reimplementing-technical-debt-with-state-machines-by-nelson"
+- title: "Reimplementing technical debt with state machines"
+  slug: "reimplementing-technical-debt-with-state-machines"
   kind: talk
   level: intermediate
   language: en
   duration: 36
-  abstract: "Abstract:"
+  abstract: |
+    An extensible protocol implementation means that its core code has to be extensible, right? But it also means the core is the first piece of code ever written for this project, and which everything else will depend on, which means, well, highly likely future technical debt.
+    Fast-forward over a decade, and this code might have become not just intractable, but also impossible to understand. What's next? Incremental improvements, top-bottom or bottom-up, a full rewrite and replug, experiment with a mysterious and not fully tested spaghetti?
+    In our chat’s backend service, we kept coming back to this topic, until one day that looked like it’d be just a boring day, we came up with a prototype for a remorseless full rewrite that immediately looked promising. Based on the OTP’s gen_statem behaviour, we wrote a new core set of extensible rules where everything can gracefully plug in.
+    Let's solve the quagmire putting together old code, RFCs, state machines and a telemetry-like event mechanism.
+  speakers:
+    - nelsonvides
+    - pawelchrzaszcz
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "SWvv3XO6jNs"
       url: "https://www.youtube.com/watch?v=SWvv3XO6jNs"
 
-- title: "Want to hear about code smells in Elixir? See you at Code BEAM Europe 2023!"
-  slug: "want-to-hear-about-code-smells-in-elixir-see-you-at-code-bea"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 1
-  abstract: "Why should you work on code smells and refactoring?"
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "wX3SftkXuAE"
-      url: "https://www.youtube.com/watch?v=wX3SftkXuAE"
-
-- title: "Exploring code smells in Elixir by Elaine Watanabe | Code BEAM Europe 2023"
-  slug: "exploring-code-smells-in-elixir-by-elaine-watanabe-code-beam"
+- title: "Exploring code smells in Elixir"
+  slug: "exploring-code-smells-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 23
-  abstract: "Abstract:"
+  abstract: |
+    Code smells are indicators of potential design problems in software code. They can impact maintainability, readability, and overall code quality.
+
+    While code smells have been extensively studied in object-oriented programming languages, their applicability and identification in functional programming languages like Elixir remain a fascinating area of exploration.
+
+    In this talk, we will dive into the world of Elixir and uncover code smells that may arise in its codebase. We will explore the traditional code smells (including the newly cataloged Elixir-specific code smells), discuss their impact on Elixir applications, and provide practical insights into refactoring techniques to eliminate them.
+  speakers:
+    - elainewatanabe
   topics:
     - elixir
-    - erlang
   recordings:
     - provider: youtube
       external_id: "6r5b574ttV8"
       url: "https://www.youtube.com/watch?v=6r5b574ttV8"
 
-- title: "Do You Really Need Processes? by Brian Underwood | Code BEAM Europe 2023"
-  slug: "do-you-really-need-processes-by-brian-underwood-code-beam-eu"
+- title: "Do You Really Need Processes?"
+  slug: "do-you-really-need-processes"
   kind: talk
   level: intermediate
   language: en
   duration: 36
-  abstract: "Abstract:"
+  abstract: |
+    You probably know that the power of the BEAM comes from processes which operate concurrently and supervisors which, in many cases, allow service to continue. Maybe you’ve thought that your application needs to use more GenServers and Supervisors to become the best that it can be. But then again, maybe everything is fine.
+
+    In this talk, Brian will present a demo of a ride-sharing application which he created to understand what is possible with a standard Phoenix + PostgreSQL application. He will explore what performance and resiliency gains can (or can’t) be achieved by designing various process and supervision architectures using an external database, process state, ETS tables, and combinations therein.
+  speakers:
+    - brianunderwood
   topics:
     - elixir
-    - otp
     - erlang
+    - otp
   recordings:
     - provider: youtube
       external_id: "3vEhHmESf5Q"
       url: "https://www.youtube.com/watch?v=3vEhHmESf5Q"
 
-- title: "End-to-end types: full-stack Web apps with Gleam by Hayleigh Thompson | Code BEAM Europe 2023"
-  slug: "end-to-end-types-full-stack-web-apps-with-gleam-by-hayleigh"
+- title: "End-to-end types: full-stack Web apps with Gleam"
+  slug: "end-to-end-types-full-stack-web-apps-with-gleam"
   kind: talk
   level: intermediate
   language: en
   duration: 32
-  abstract: "Abstract:"
+  abstract: "Gleam is a friendly statically typed language that runs on both the BEAM and in the browser. In this talk we'll see a brief tour of the language, before taking a look at how it was used to build a fun interactive audio application. We'll explore a typed Phoenix-like setup and demo a multi-user Web Audio app to show off."
+  speakers:
+    - hayleighthompson
   topics:
-    - elixir
-    - erlang
+    - gleam
   recordings:
     - provider: youtube
       external_id: "eVtkYQva0Ic"
       url: "https://www.youtube.com/watch?v=eVtkYQva0Ic"
 
-- title: "Building Trust in Open Networks by Ingela Andin | Code BEAM Europe 2023"
-  slug: "building-trust-in-open-networks-by-ingela-andin-code-beam-eu"
+- title: "Building Trust in Open Networks"
+  slug: "building-trust-in-open-networks"
   kind: talk
   level: intermediate
   language: en
   duration: 33
-  abstract: "Abstract:"
+  abstract: "TLS ( Transport Layer Security previous known as SSL) is used widely to accomplish privacy, integrity and authenticity over open networks. This talk focuses on the authenticity part and the challenges, tradeoffs and pitfalls we faced in the Erlang/OTP team implementing and testing this functionality providing it for a wide range of users in many different business areas."
+  speakers:
+    - ingelaandin
   topics:
-    - elixir
+    - otp
     - erlang
   recordings:
     - provider: youtube
       external_id: "YXKTTfA6HDM"
       url: "https://www.youtube.com/watch?v=YXKTTfA6HDM"
 
-- title: "Deumbrellization – cheap microservices by Artur Sulej | Code BEAM Europe 2023"
-  slug: "deumbrellization-cheap-microservices-by-artur-sulej-code-bea"
+- title: "Deumbrellization – cheap microservices"
+  slug: "deumbrellization-cheap-microservices"
   kind: talk
   level: intermediate
   language: en
   duration: 33
-  abstract: "Abstract:"
+  abstract: |
+    Elixir's umbrella projects have long been a go-to choice for structuring applications. While they provide a great foundation for modular code organisation, they still fall short when it comes to fully embracing the benefits of a microservices architecture.
+
+    In my talk, I will unveil a strategy for transforming umbrella monoliths into scalable microservices. The best part? This approach requires little effort and leverages the built-in, battle-tested mechanisms provided by Erlang and Elixir.
+
+    I will guide you through a step-by-step guide, demonstrating how to transition from an umbrella monolith to a distributed microservices architecture – with practical code examples.
+  speakers:
+    - artursulej
   topics:
     - elixir
-    - erlang
+    - microservices
   recordings:
     - provider: youtube
       external_id: "wMQuSg3_ybI"
       url: "https://www.youtube.com/watch?v=wMQuSg3_ybI"
 
-- title: "Hypermnesia: Auto reconciliation in Mnesia by Vincent Liu | Code BEAM Europe 2023"
-  slug: "hypermnesia-auto-reconciliation-in-mnesia-by-vincent-liu-cod"
+- title: "Hypermnesia: Auto reconciliation in Mnesia"
+  slug: "hypermnesia-auto-reconciliation-in-mnesia"
   kind: talk
   level: intermediate
   language: en
   duration: 21
-  abstract: "Abstract:"
+  abstract: |
+    Mnesia is an embedded database for Erlang/OTP applications that offers outstanding performance thanks to its tight integration with Erlang. However, its lack of conflict resolution after network partitions is a notable limitation that demands manual restart by developers to reconcile replicas.
+    In this talk, I will discuss eventual consistency and CRDTs to achieve automatic conflict resolution within Mnesia. I will introduce Hypermnesia, an extension to Mnesia featuring a new access context async_ec that streamlines replica reconciliation after a partition.
+    Hypermnesia is also designed with minimising overhead and out-of-box usage in mind. In the talk, I will present benchmarking results, and demonstrate practical examples of using Hypermnesia.
+    This project is a collaboration between the University of Cambridge and Erlang Solutions.
+  speakers:
+    - vincentliu
   topics:
-    - elixir
     - erlang
+    - libraries
   recordings:
     - provider: youtube
       external_id: "tHdPRyMjmW8"
       url: "https://www.youtube.com/watch?v=tHdPRyMjmW8"
 
-- title: "Don’t let it crash & Dániel Horpácsi | Code BEAM"
-  slug: "dont-let-it-crash-daniel-horpacsi-code-beam"
+- title: "Don’t let it crash"
+  slug: "dont-let-it-crash"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "Abstract:"
+  abstract: "Something to love about the BEAM is the principle of ‘let it crash’: exceptions are isolated and handled by design. Indeed, various kinds of data checks can be mercifully omitted, but it would be rash to conclude that all input validation is redundant and unnecessary. In 2020, the Erlang Ecosystem Foundation curated an extensive list of secure coding principles to raise programmers’ awareness and assist them in creating secure Erlang systems. But the reality is always messy: Erlang/Elixir projects rarely follow these guidelines, and legacy have been running for years with well-known vulnerabilities. In this talk, we will explain how static analysis can be useful for detecting critical security issues in new or legacy Erlang code bases, mitigating and even eliminating them semi-automatically. In particular, we will present use cases of vulnerabilities found in open-source projects and demonstrate how techniques like data-flow analysis can reveal and cure them."
   speakers:
     - danielhorpacsi
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
@@ -448,43 +545,57 @@
       external_id: "1hiJjHFdZbQ"
       url: "https://www.youtube.com/watch?v=1hiJjHFdZbQ"
 
-- title: "Building analytic systems with Elixir by Dmitry Russ | Code BEAM Europe 2023"
-  slug: "building-analytic-systems-with-elixir-by-dmitry-russ-code-be"
+- title: "Building analytic systems with Elixir"
+  slug: "building-analytic-systems-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 37
-  abstract: "Abstract:"
+  abstract: |
+    Today's world is one where all of our information is increasingly locked behind centralized services, and mined as training data for large machine learning models.
+
+    A better world is possible though, and we first glimpsed it in the mid 90s, with the release of an unassuming update to Microsoft Office that changed our conception of virtual assistants forever. His name is Clippy, and I have a copy of him loaded onto a computer chip embedded in my body.
+  speakers:
+    - dmitryruss
   topics:
     - elixir
-    - erlang
   recordings:
     - provider: youtube
       external_id: "1eYIo55dgf0"
       url: "https://www.youtube.com/watch?v=1eYIo55dgf0"
 
-- title: "Bits and Pieces by Sebastian Weddmark Olsson | Code BEAM Europe 2023"
-  slug: "bits-and-pieces-by-sebastian-weddmark-olsson-code-beam-europ"
+- title: "Bits and Pieces"
+  slug: "bits-and-pieces"
   kind: talk
   level: intermediate
   language: en
   duration: 16
-  abstract: "Abstract:"
+  abstract: "You like specifications, protocols, codecs, or arbitrary binary strings? Then this session is for you. The session will go through the mindset and tooling for investigating how to bring arbitrary unknown bitstrings to messages with meaning, and why Erlang is a really good fit for it. At last OTC, a library for for decoding certain telecom protocols and messages, will be presented. There will be a bunch of acronyms in this talk because the telecom industry really likes them, but similar to complex binaries, all those acronyms can be debunked: don't be afraid."
+  speakers:
+    - sebastianolsson
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "BsbuQxapuro"
       url: "https://www.youtube.com/watch?v=BsbuQxapuro"
 
-- title: "Building Multiplayer Tetris from scratch with OTP, Elixir, and Phoenix by Merlin Webster | Code BEAM"
-  slug: "building-multiplayer-tetris-from-scratch-with-otp-elixir-and"
+- title: "Building Multiplayer Tetris from scratch with OTP, Elixir, and Phoenix"
+  slug: "building-multiplayer-tetris-from-scratch-with-otp-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 28
-  abstract: "Abstract:"
+  abstract: |
+    Let’s play Tetris together!
+
+    In this talk we’ll play a live game of Tetris battles together, and then have a look at how it works under the hood. We’ll take a tour through the code and show how a multi-participant browser based game or tool can be built using only Elixir and Phoenix LiveView.
+
+    The goal of this talk is to teach you something about how OTP processes and supervision works, and show some patterns for creating large interactive experiences using Phoenix.
+
+    We’ll use my game Tetrex (https://github.com/mjftw/Tetrex) as a case study, and I’ll aim to share some insights learned on my journey from Elixir newbie to video game copyright infringer.
+  speakers:
+    - merlinwebster
   topics:
     - elixir
     - phoenix
@@ -494,111 +605,157 @@
       external_id: "87iFws4c78s"
       url: "https://www.youtube.com/watch?v=87iFws4c78s"
 
-- title: "Fuzzing the Erlang ecosystem by Robin Morisset | Code BEAM Europe 2023"
-  slug: "fuzzing-the-erlang-ecosystem-by-robin-morisset-code-beam-eur"
+- title: "Fuzzing the Erlang ecosystem"
+  slug: "fuzzing-the-erlang-ecosystem"
   kind: talk
   level: intermediate
   language: en
   duration: 34
-  abstract: "Abstract:"
+  abstract: |
+    Erlfuzz is a recently open-sourced tool that produces random valid Erlang programs, used to test erlc, the BEAM VM, and a variety of other tools (dialyzer, eqWAlizer, erlfmt, infer, etc..). It has found more than 80 bugs to date, including more than 60 bugs in erlc.
+    In this talk I'll explain how erlfuzz works, what tricks were used to detect subtle VM bugs, and how to use it for any tool you may want to test. I'll also mention some of the dark corners of the language that it revealed, mostly around the Erlang scoping rules.
+  speakers:
+    - robinmorisset
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "NMYy3EgWze0"
       url: "https://www.youtube.com/watch?v=NMYy3EgWze0"
 
-- title: "Prototyping a remote-controlled telescope with Elixir by Lucas Sifoni | Code BEAM Europe 2023"
-  slug: "prototyping-a-remote-controlled-telescope-with-elixir-by-luc"
+- title: "Prototyping a remote-controlled telescope with Elixir"
+  slug: "prototyping-a-remote-controlled-telescope-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 22
-  abstract: "Abstract:"
+  abstract: |
+    The different facets of Elixir enabled me to design, prototype, and build a physical device, from initial exploration of the problem domain with written research interleaved with code, to software prototypes that help grasp the actual problems a physical device can have, to a built terrestrial telescope, driven by a low-end RISC-V SoC running Elixir and Rust code.
+    By the end, you'll also have a quick introduction to optics and the inner workings of telescopes !
+  speakers:
+    - lucassifoni
   topics:
     - elixir
-    - erlang
-    - type-system
+    - rust
   recordings:
     - provider: youtube
       external_id: "q7bleFzA11c"
       url: "https://www.youtube.com/watch?v=q7bleFzA11c"
 
-- title: "Building Jellyfish: multimedia server powered by Membrane & Phoenix | Code BEAM Europe"
-  slug: "building-jellyfish-multimedia-server-powered-by-membrane-pho"
+- title: "Building Jellyfish: multimedia server powered by Membrane & Phoenix"
+  slug: "building-jellyfish-multimedia-server-powered-by-membrane"
   kind: talk
   level: intermediate
   language: en
   duration: 31
-  abstract: "Abstract:"
+  abstract: |
+    Discover how we utilized Elixir to develop the initial version of Jellyfish, a Multimedia Server that bridges various streaming protocols such as WebRTC, HLS and RTSP. Don’t worry if these acronyms don’t ring any bells with you! Multimedia is a complex topic, streaming - even more so, but with Membrane as a base for our media processing and Phoenix for REST and WebSocket API, we’ve built a straightforward-to-use solution, that lets you create video-conferencing app, clone of Twitch, or both at the same time, regardless of the programming language you use.
+
+    In this talk, I’ll dive into the architecture of Jellyfish, discuss the underlying media processing pipelines, examine the design of its APIs, and share the struggles we faced while building this product. Additionally, I’ll present some example scenarios that can be achieved with Jellyfish.
   speakers:
     - ukaszwala
   topics:
-    - elixir
+    - membrane
     - phoenix
-    - erlang
   recordings:
     - provider: youtube
       external_id: "HyrAymnUZiM"
       url: "https://www.youtube.com/watch?v=HyrAymnUZiM"
 
-- title: "LiveView: Best Practices for Building Real-Time Interactive Interfaces | Code BEAM"
+- title: "LiveView: Best Practices for Building Real-Time Interactive Interfaces"
   slug: "liveview-best-practices-for-building-real-time-interactive-i"
   kind: talk
   level: intermediate
   language: en
   duration: 24
-  abstract: "Abstract:"
+  abstract: "In this talk, we will explore the best practices for using LiveView to build real-time interactive interfaces. We will cover fundamental concepts such as context, live components and function components, a single source of truth, and send_update. Additionally, we will discuss the approach of scoped CSS and its benefits in LiveView applications."
   speakers:
     - herminiotorres
   topics:
-    - elixir
     - liveview
-    - erlang
   recordings:
     - provider: youtube
       external_id: "uvyULSB7cFo"
       url: "https://www.youtube.com/watch?v=uvyULSB7cFo"
 
-- title: "ChatGPT as your Erlang coach by Georgiana Chelu | Code BEAM Europe 2023"
-  slug: "chatgpt-as-your-erlang-coach-by-georgiana-chelu-code-beam-eu"
+- title: "ChatGPT as your Erlang coach"
+  slug: "chatgpt-as-your-erlang-coach"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 24
-  abstract: "Abstract:"
+  abstract: |
+    With ChatGPT gaining a lot of popularity, it’s time to rethink the way to learn new concepts. More and more tutorials, projects, libraries are becoming available online and it’s hard to decide how to start.
+
+    ChatGPT is the 24/7 mentor you need. It is good at explaining specific concepts and answering simple questions.
+
+    We are going to learn how to use ChatGPT as a more knowledgeable friend to help us grasp the new concepts.
+
+    Start with the key concepts in Erlang. You get a bunch of things to explore like: concurrency, message passing, pattern patching, immutable data, behaviors, supervision tree, hot code updates.
+
+    Ask ChatGPT to create a plan with resources and a timeline to cover the Erlang concepts.
+
+    Show the code generated by ChatGPT for several Erlang concepts and discuss the solutions.
+
+    Use ChatGPT for finding project ideas, improving pieces of code, discovering other ways of implementing an idea.
+
+    Show the benefits and the downsides of using ChatGPT with concrete examples.
+  speakers:
+    - georgianachelu
   topics:
-    - elixir
+    - learning
     - erlang
-    - machine-learning
+    - ai
   recordings:
     - provider: youtube
       external_id: "Sj2vXbyh1OM"
       url: "https://www.youtube.com/watch?v=Sj2vXbyh1OM"
 
-- title: "What the shell | Code BEAM Europe 2023"
-  slug: "what-the-shell-code-beam-europe-2023"
+- title: "What the shell - Prototyping with LLMs"
+  slug: "what-the-shell-prototyping-with-llms"
   kind: talk
   level: intermediate
   language: en
   duration: 43
-  abstract: "Abstract:"
+  abstract: |
+    With OTP-26 we've launched a number of improvements to the shell that we hope is appreciated by the Erlang Community.
+    Multiline expressions
+    Function definitions
+    Module creation (26.1)
+    Type completions
+    Keyboard shortcut configurations (26.1)
+    This presentation introducers these features by initiating a conversation with ChatGPT erlang module in the shell, to write functions for some kind of app.
+    Copy pasting the function definition response with a -spec into the shell, maybe even a couple of tests.
+    We will iteratively complete the function or app with the help of ChatGPT, tracing, type completions and open an external editor (VSCode) connected to LSP.
+  speakers:
+    - fredrikfrantzen
   topics:
-    - elixir
     - erlang
+    - otp
+    - ai
   recordings:
     - provider: youtube
       external_id: "FwdS6E4kSMc"
       url: "https://www.youtube.com/watch?v=FwdS6E4kSMc"
 
-- title: "Empowering Edge Devices with Lightweight Neural Network Inference Framework by Cocoa Xu"
+- title: "Empowering Edge Devices with Lightweight Neural Network Inference Framework"
   slug: "empowering-edge-devices-with-lightweight-neural-network-infe"
   kind: talk
-  level: intermediate
+  level: advanced
   language: en
   duration: 21
-  abstract: "Abstract:"
+  abstract: |
+    This project aims to create a lightweight neural network inference library, TFLiteBEAM, powered by TensorFlow Lite (TFLite).
+
+    Firstly, TFLiteBEAM has a small footprint. It sits around 10MBs compared to 500+ MBs when using EXLA or 700+ MBs for torchx, making it a great option for edge devices and resource-constrained systems such as Raspberry Pi.
+
+    Secondly, TFLiteBEAM is primarily optimised for mobile and embedded devices. It provides optimized model parsers and inference engines for these devices, delivering fast and low-latency inference performance.
+
+    Thirdly, using TFLiteBEAM also allows us to run models on Edge TPU like Coral, a hardware accelerator. In comparison, it's still nearly impossible to use any desktop GPUs on devices like Raspberry Pi, while adding a Coral edge TPU as the hardware accelerator is relatively more accessible and practical.
+
+    Lastly, as its name suggests, this library can benefit all BEAM languages (as long as they have support for using Erlang NIF libraries).
+  speakers:
+    - cocoaxu
   topics:
     - elixir
     - machine-learning
@@ -613,57 +770,74 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "Abstract:"
+  abstract: |
+    In this talk we unveil the ""Erlang Language Platform"" (in short ""ELP""), a groundbreaking, open-source project poised to transform the development experience for the Erlang programming language.
+
+    Designed at WhatsApp and inspired by the success of the Rust Analyzer project, ELP is a compiler front-end for Erlang providing a scalable, fully incremental, IDE-first library for the semantic analysis of Erlang code.
+    By implementing support for the LSP protocol, ELP acts as a next-generation language server, revolutionizing the way developers write, debug and maintain Erlang Code.
+
+    In this talk we provide a high-level introduction to the project, discover what is necessary for a good interactive compiler and how it differs from more traditional compilers.
+  speakers:
+    - robertoaloi
+    - michalmuskala
   topics:
-    - elixir
     - erlang
+    - compilers
   recordings:
     - provider: youtube
       external_id: "lQzppfC11O0"
       url: "https://www.youtube.com/watch?v=lQzppfC11O0"
 
-- title: "Khepri: Replacing Mnesia in RabbitMQ by Michael Davis | Code BEAM Europe 2023"
-  slug: "khepri-replacing-mnesia-in-rabbitmq-by-michael-davis-code-be"
+- title: "Khepri: Replacing Mnesia in RabbitMQ"
+  slug: "khepri-replacing-mnesia-in-rabbitmq"
   kind: talk
   level: intermediate
   language: en
   duration: 20
-  abstract: "Abstract:"
+  abstract: |
+    Khepri is a tree-like, replicated database library from the RabbitMQ team using the Raft distributed consensus algorithm. Khepri aims to replace Mnesia for persistent and replicated metadata storage within RabbitMQ. This talk touches on why and how the Rabbit team chose to create Khepri, some basic usage examples and implementation details, recent large changes in Khepri, and updates on Khepri's progress into the RabbitMQ codebase:
+
+    A new feature called ""projections"" allows us to match or beat mnesia's read speed in many cases.
+    We've overhauled the API to be more ergonomic and also made it friendlier for Elixir.
+    We plan on landing the Khepri branch in the next minor release under a feature flag!
+  speakers:
+    - michaeldavis
   topics:
-    - elixir
+    - libraries
     - erlang
   recordings:
     - provider: youtube
       external_id: "whVqpgvep90"
       url: "https://www.youtube.com/watch?v=whVqpgvep90"
 
-- title: "How I grew to love Erlang type specs | Code BEAM Europe 2023"
-  slug: "how-i-grew-to-love-erlang-type-specs-code-beam-europe-2023"
+- title: "How I grew to love Erlang type specs"
+  slug: "how-i-grew-to-love-erlang-type-specs"
   kind: talk
   level: intermediate
   language: en
   duration: 19
-  abstract: "Abstract:"
+  abstract: |
+    Erlang is a typeless language, but our programs have types. Large teams and long running projects need to communicate how our programs work. Typing structures and functions beyond the Erlang base types makes code easier to understand, change, and debug. This talk covers how I grew from finding type specs an annoyance to loving them.
   speakers:
     - marcsugiyama
   topics:
-    - elixir
     - erlang
+    - type-system
   recordings:
     - provider: youtube
       external_id: "yAkvVHnAKNI"
       url: "https://www.youtube.com/watch?v=yAkvVHnAKNI"
 
-
 ## Lightning Talks
 
-
-- title: "Structs for Erlang | Code BEAM Europe 2023"
-  slug: "lt-structs-for-erlang-code-beam-europe-2023"
+- title: "Structs for Erlang"
+  slug: "structs-for-erlang"
   kind: lightning_talk
   language: en
   duration: 10
   abstract: "There is a number of problems if you want to try and run Elixir code from Erlang, and this talk will discuss one of them: that Elixir uses structs. A proof of concept, by means of a simple parse transform, will enable an Erlang module to be able to call Elixir code and harness the full capabilities "
+  speakers:
+    - robertvirding
   topics:
     - elixir
     - erlang
@@ -672,12 +846,14 @@
       external_id: "3m1JSq75C3g"
       url: "https://www.youtube.com/watch?v=3m1JSq75C3g"
 
-- title: "Erlang and Elixir on IoT devices using AtomVM | Code BEAM Europe 2023"
-  slug: "lt-erlang-and-elixir-on-iot-devices-using-atomvm-code-beam-e"
+- title: "Erlang and Elixir on IoT devices using AtomVM"
+  slug: "erlang-and-elixir-on-iot-devices-using-atomvm"
   kind: lightning_talk
   language: en
   duration: 4
   abstract: '\"This talk will present AtomVM, a tiny portable virtual machine that allows Elixir and Erlang code to run on microcontrollers with less than 500KB of RAM such as the ESP32 or several STM32.'
+  speakers:
+    - davidebettio
   topics:
     - elixir
     - nerves
@@ -687,57 +863,69 @@
       external_id: "m9hX9hzQ4F4"
       url: "https://www.youtube.com/watch?v=m9hX9hzQ4F4"
 
-- title: "Fighting the Behemoth | Code BEAM Europe 2023"
-  slug: "lt-fighting-the-behemoth-code-beam-europe-2023"
+- title: "Fighting the Behemoth"
+  slug: "fighting-the-behemoth"
   kind: lightning_talk
   language: en
   duration: 5
   abstract: "Fighting the Behemoth: turning a 2500-LOC module into some actually readable, testable Elixir code"
+  speakers:
+    - arnaldocesco
   topics:
     - elixir
-    - erlang
+    - refactoring
     - testing
   recordings:
     - provider: youtube
       external_id: "gdB9sBCjFnc"
       url: "https://www.youtube.com/watch?v=gdB9sBCjFnc"
 
-- title: "EEF - community engagement | Code BEAM Europe 2023"
-  slug: "lt-eef-community-engagement-code-beam-europe-2023"
+- title: "EEF - community engagement"
+  slug: "eef-community-engagement"
   kind: lightning_talk
   language: en
   duration: 5
   abstract: "An Update from the Erlang Ecosystem Foundation."
+  speakers:
+    - alistairwoodman
   topics:
-    - elixir
+    - community
     - erlang
   recordings:
     - provider: youtube
       external_id: "poXalAQx6Ws"
       url: "https://www.youtube.com/watch?v=poXalAQx6Ws"
 
-- title: "Becoming a Stronger Developer | Code BEAM Europe 2023"
-  slug: "lt-becoming-a-stronger-developer-code-beam-europe-2023"
+- title: "Becoming a Stronger Developer"
+  slug: "becoming-a-stronger-developer"
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "Dennis Palmer:"
+  abstract: |
+    "We get paid to sit (or stand) at a desk all day. Most of us want to be in better physical shape, but carving out a few hours per week to go to the gym can be a real challenge. My back hurt too much to do most forms of exercise. Through the book “Body by Science” I learned that it really only takes less than 15 minutes per week in the gym to build muscle and get in good physical shape. I was skeptical of this approach but gave it a try and proved for myself that it works. My back hurts less, I’m stronger than I have been since my 20’s, and I will soon be in the best shape of my life.
+
+    My genes say I won’t be a bodybuilder, and I never wanted to be. However, maximizing my own physical strength with the optimal amount of effort has given me new energy and helps me focus on my work every day.
+
+    I will give some highlights of the science presented in the book and a quick overview of the workout I do once per week as recommended by the book. I may also show the Phoenix LiveView app I am building to track my workouts."
+  speakers:
+    - dennispalmer
   topics:
     - elixir
-    - erlang
   recordings:
     - provider: youtube
       external_id: "NSOMLqAlgfQ"
       url: "https://www.youtube.com/watch?v=NSOMLqAlgfQ"
 
-- title: "Kraken | Code BEAM Europe 2023"
-  slug: "lt-kraken-code-beam-europe-2023"
+- title: "Kraken"
+  slug: "lt-kraken"
   kind: lightning_talk
   language: en
   duration: 5
+  speakers:
+    - antonishchuk
   topics:
-    - elixir
     - erlang
+    - libraries
   recordings:
     - provider: youtube
       external_id: "9OLHkhHH5WE"

@@ -57,3 +57,51 @@
 - name: "Embedded"
   slug: "embedded"
   description: "Embedded systems, microcontrollers, and IoT"
+
+- name: "Libraries"
+  slug: "libraries"
+  description: "Reusable Elixir & BEAM libraries, packages, and ecosystem tools"
+
+- name: "Community"
+  slug: "community"
+  description: "Building and growing the BEAM ecosystem community"
+
+- name: "Refactoring"
+  slug: "refactoring"
+  description: "Improving code structure, readability, and maintainability without changing behavior"
+
+- name: "Compilers"
+  slug: "compilers"
+  description: "Compiler design, language tooling, and code transformation"
+
+- name: "AI"
+  slug: "ai"
+  description: "Integrating and interacting with AI systems and large language models"
+
+- name: "Learning"
+  slug: "learning"
+  description: "Learning strategies, educational approaches, and resources for the BEAM ecosystem"
+
+- name: "Membrane"
+  slug: "membrane"
+  description: "Multimedia processing and streaming with the Membrane Framework"
+
+- name: "Rust"
+  slug: "rust"
+  description: "Using Rust with Elixir and the BEAM, including NIFs and native extensions"
+
+- name: "Microservices"
+  slug: "microservices"
+  description: "Designing and operating microservice-based architectures"
+
+- name: "Gleam"
+  slug: "gleam"
+  description: "The Gleam programming language for the BEAM"
+
+- name: "IoT"
+  slug: "iot"
+  description: "Internet of Things development and connected devices with the BEAM"
+
+- name: "Kafka"
+  slug: "kafka"
+  description: "Event streaming and distributed messaging with Apache Kafka"

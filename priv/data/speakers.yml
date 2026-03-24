@@ -700,8 +700,13 @@
 
 - name: "Dennis Palmer"
   slug: "dennispalmer"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Elixir Developer at Erlang Solutions"
+  bio: "Dennis first started programming 40 years ago in BASIC on the family’s TI-99/4A. He’s written code professionally using Perl, Delphi, PHP, C#, JavaScript, TypeScript, Elm, and Elixir. He was the founder of the Dallas Functional Programmers user group, which he led for five years before moving with his family to Sweden in 2019."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/CoderDennis"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dennispalmerjr/"
 
 - name: "Dima Mikielewicz"
   slug: "dimamikielewicz"
@@ -1739,3 +1744,274 @@
   slug: "maksymilianjodlowski"
   headline: "Software Developer at Curiosum"
   bio: "Software developer at Curiosum, specializing in Elixir and the Phoenix framework."
+
+- name: "Ioana Rosu"
+  slug: "ioanarosu"
+  headline: "Solaris SE, Software Engineer"
+  bio: "Ioana Rosu is a dynamic and highly adaptable Software Engineer who has demonstrated proficiency in a diverse range of technologies, including Elixir, Ruby on Rails, and AWS. Currently based in Berlin, she is dedicated to her work and passionate about exploring new projects. Beyond her professional endeavours, she also actively engages in volunteer work. However, when she seeks a respite from her busy schedule, she can often be found cycling beyond the confines of the city, immersing herself in nature and indulging in a good book."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/ioana-rosu/"
+    - platform: twitter
+      url: "https://x.com/alexanderspace_"
+
+- name: "Randall Thomas"
+  slug: "randallthomas"
+  headline: "Hacker, Drinker, Geek, Bon-Vivant (not always in that order)"
+  bio: |
+    Randall has been working in the technology industry for more than 20 years with experiences covering everything from embedded systems, to digital video, to applied statistics and cloud computing. His experiences grant him a unique appreciation for how difficult it can be can be to use technology to solve business problems.
+
+    In technology and software, it’s important to recognize that not everything is going to work; The best way to get past failure: evolve — fail better and fail differently. What looks like failure at the outset becomes hard-won experience with hindsight.
+
+    Randall has traveled globally to speak on technology, innovation, and business systems. Randall welcomes the opportunity to connect with other tech start-up executives, engineers, and systems architects.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/daksis"
+
+- name: "Njoki Kiarie"
+  slug: "njikikiarie"
+  headline: "Hacker, Drinker, Geek, Bon-Vivant (not always in that order)"
+  bio: "Njoki is a Software Developer with 5+ years of experience. Passionate about tech communities and teaching. Experienced in Elixir, with 3+ years of hands-on development. Involved in the Elixir community, regularly facilitating and attending meetups and conferences. Njoki enjoys sharing the knowledge and helping others learn new technologies. Njoki is always looking for new challenges and opportunities to grow her skills."
+  social_links:
+    - platform: github
+      url: "https://github.com/GraceKiarie"
+    - platform: twitter
+      url: "https://x.com/njoki_kiarieG"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/njoki-kiarie-4312528a/"
+
+- name: "Brujo Benavides"
+  slug: "brujobenavides"
+  headline: "Education WG Member @ the EEF"
+  bio: "Argentinian Erlanger, currently living in sunny Catalunya. Member of the Education Working Group @ The Erlang Ecosystem Foundation. Used to be an Spawnfest organizer. Amateur table tennis player and long-distance walker."
+  website: "about.me/elbrujohalcon"
+  social_links:
+    - platform: github
+      url: "https://github.com/elbrujohalcon"
+    - platform: twitter
+      url: "https://x.com/elbrujohalcon"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/elbrujohalcon/"
+
+- name: "Raj Rajhans"
+  slug: "rajrajhans"
+  headline: "Software Engineer at InVideo"
+  bio: "Raj is a Software Engineer at Invideo AI working with Elixir, where he spends his time building the best web based video creator application. He loves helping and mentoring others, and has channeled that into writing blogs on his personal website. When not coding for work or fun, Raj can usually be found with a book."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/_rajrajhans"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rajrajhans/"
+
+- name: "Annette Bieniusa"
+  slug: "annettebieniusa"
+  headline: "Professor at University of Kaiserslautern-Landau"
+  bio: "Annette is a professor of Software Technology at the University of Kaiserslautern-Landau. Her research interests include the semantics of concurrent and distributed programming, with a focus on replication, synchronization, and how they are reflected on a programming language level. She is passionate about CRDTs, verification, and engaging students with the BEAM."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/anne_biene"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/annette-bieniusa-b0807b145/"
+
+- name: "Albert Schimpf"
+  slug: "albertschimpf"
+  headline: "Phd Student @ RPTU"
+  bio: "Albert is a PhD student at the Department of Computer Science of the University of Kaiserslautern-Landau. His interests are bringing the world of types to the world of Erlang! Albeert’s previous work includes building tools for verification, mainly propositional satisfiablility and regular language inclusion solvers."
+
+- name: "Alejandro Ramallo"
+  slug: "alejandroramallo"
+  headline: "CEO | CTO Leapsight, Creator of Bondy, Maintainer of Partisan"
+  bio: "Alejandro is an experienced executive with more than 25 years in start-ups and multinational organisations. He has a track record in business and technology innovation. He is also an autodidact hacker and architect, with experience in the design and development of distributed applications using NeXT/OpenStep/WebObjects Objective-C, Java, JINI/Javaspaces and Erlang/OTP. He is the founder of Leapsight, author of Bondy and maintainer of Partisan."
+  social_links:
+    - platform: github
+      url: "https://github.com/aramallo"
+    - platform: twitter
+      url: "https://x.com/aramallo"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/aleramallo/"
+    - platform: mastodon
+      url: "https://mastodon.social/@aramallo@genserver.social"
+
+- name: "Paweł Chrząszcz"
+  slug: "pawelchrzaszcz"
+  headline: "Software Architect and MongooseIM Team Lead at Erlang Solutions"
+  bio: "Paweł graduated from the AGH University of Science and Technology in Kraków, Poland, and followed his studies with a doctorate in the field of natural language processing. He started programming in Erlang in 2007, and worked for Klarna AB (Stockholm, Sweden) for a few years, developing fintech solutions. In 2012 he joined Erlang Solutions Ltd., where he’s had the opportunity to design, implement and optimize highly scalable Erlang systems, finally becoming the lead of the MongooseIM messaging platform team."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/pawe%C5%82-chrz%C4%85szcz-97408457/"
+
+- name: "Elaine Watanabe"
+  slug: "elainewatanabe"
+  headline: "Staff Software Engineer | Elixir Lab & Rails Girls SP & Elixir São Paulo Meetup Organizer"
+  bio: "Elaine has been a Software Developer since 2008. She holds an M.Sc. in Computer Science and a B.Sc. in Computer Engineering, and is fascinated by Elixir and Ruby languages, software engineering, technical leadership, and scientific research in software development. Since 2017, she has delivered 15+ talks at tech conferences for audiences of all levels — from beginner to advanced — on topics related to Ruby and Elixir languages, programming fundamentals, code design, and code review practices. She is a meetup organizer — Elixir Lab & Elixir São Paulo — and an active Rails Girls São Paulo community member, co-organizing workshops for women at all stages of their coding journey. Also a coffee lover and a former taiko drummer."
+  social_links:
+    - platform: github
+      url: "https://github.com/elainenaomi"
+    - platform: twitter
+      url: "https://x.com/elaine_nw"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/elainenaomi/"
+
+- name: "Brian Underwood"
+  slug: "brianunderwood"
+  headline: "Consultant at Erlang Solutions"
+  bio: |
+    Brian is a consultant at Erlang Solutions specializing in Elixir development and training. Much of his interest and experience has been around understanding languages, databases, data analysis, and APIs in order to be able to have the right tool in hand for whatever problems need solved.
+
+    Brian is also a transplant to Sweden and enjoys, among other things: coffee, running, and gaming.
+  social_links:
+    - platform: github
+      url: "https://github.com/cheerfulstoic"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/brianunderwoodcodes/"
+    - platform: mastodon
+      url: "https://mastodon.social/@cheerfulstoic@genserver.social"
+
+- name: "Artur Sulej"
+  slug: "artursulej"
+  headline: "Senior Software Engineer at Fresha.com"
+  bio: |
+    Artur is a senior software engineer at Fresha. He enjoys DIY and creating stuff. Programming for Artur is one of those things but without creating a mess at home. He enjoys motorcycling and coffee brewing. He’s a happy husband and dad.
+
+    Artur authored a library for detecting unsafe database migrations.
+  social_links:
+    - platform: github
+      url: "https://github.com/Artur-Sulej"
+    - platform: twitter
+      url: "https://x.com/artur_sulej"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/artursulej/"
+
+- name: "Vincent Liu"
+  slug: "vincentliu"
+  headline: "PhD Student @ University Of Cambridge"
+  bio: "Shuntian (Vincent) is a Master’s student studying Computer Science at the University of Cambridge. He is passionate about distributed systems and functional programming, which makes Erlang a perfect programming community to join. He did his undergraduate project building a distributed Datalog engine in Erlang. In his Master’s project, he worked on extending the Mnesia database with eventual consistency as a collaboration between the University of Cambridge and Erlang Solutions."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/Incipit0"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/shuntian-liu/"
+
+- name: "Dmitry Russ"
+  slug: "dmitryruss"
+  headline: "Lead Engineer @ Appian"
+  bio: "Dmitry is a German-based long-time Elixir developer(before that used Erlang), started to use Elixir in 2012. Currently he works at Appian, where he works on Process Mining product. Before Appian he worked on expert systems and distributed telecommunication systems in different companies. Author of open source libraries (Exrun, Dlex, Mariaex), contributed to Elixir (initial maps syntax implementation, initial leex, yecc compilers and others). Currently interested in statistical analysis and data processing."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dmitry-a-russ/"
+
+- name: "Sebastian Weddmark Olsson"
+  slug: "sebastianolsson"
+  headline: "Tech Lead In Working Group Two, Doing Telco Stuff"
+  bio: |
+    First encountered Erlang in university, and got hooked on it ever since. Worked as an Erlang developer in multiple industries in companies of different sizes. What really tickles me is trying to understand how protocols work.
+
+    Other hobbies include coding (not necessarily in Erlang; anyone mentioned COBOL?), and ingesting beers, going to concerts and festivals, especially if there is metal of the darker kind involved.
+
+- name: "Merlin Webster"
+  slug: "merlinwebster"
+  headline: "Pricipal Engineer at Booksy"
+  bio: |
+    Like many of you, Merlin loves to write code, and is a big fan of software in all its forms.
+
+    Having worked his way up from hardware design, through embedded software, to web technologies he’s seen plenty of approaches, but has chosen functional programming as his style of choice. With a strong interest in distributed systems, Elixir & BEAM became an obvious technology to focus on. At Multiverse he helps to lead software architecture initiatives, runs a team, and sometimes if he’s very lucky, gets to use a code editor.
+
+    Software Engineer is one hat he wears, and he’s also rock climber, competition skydiver, and beer brewer!
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/merlin-webster-53275a105/"
+
+- name: "Robin Morisset"
+  slug: "robinmorisset"
+  headline: "WhatsApp: Compiler, Types, and Tooling team"
+  bio: "Robin Morisset did his PhD on the interaction between compiler optimizations and the C++ memory model. This included some work integrating lock-free datastructures into a scheduler for some limited form of green threads, and proving it correct in the C++ memory model. Afterwards he worked for 4 years at Apple in the JavaScriptCore team, which is responsible for the JITs at the heart of Safari. Since 2022 he’s been working at Meta on the Erlang “Compiler, Types and Tooling” team."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/RobinMorisset"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/robinmorisset/"
+
+- name: "Georgiana Chelu"
+  slug: "georgianachelu"
+  headline: "Erlang Developer @ Crafting Software"
+  bio: "Georgiana is an Erlang developer with 6 years of experience with a passion for distributed, highly scalable, fault tolerant systems. She finds joy in teaching and actively contributes to the community by delivering Erlang talks at meetups. She devotes time to staying up-to-date with the latest tools and technologies in functional programming."
+  social_links:
+    - platform: github
+      url: "https://github.com/giach"
+    - platform: twitter
+      url: "https://x.com/giach10"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/georgiana-chelu-9b596045/"
+    - platform: mastodon
+      url: "https://mastodon.social/@giach"
+
+- name: "Fredrik Frantzen"
+  slug: "fredrikfrantzen"
+  headline: "Ericsson Erlang/OTP Developer"
+  bio: "Fredrik has been a developer for 8 years, working with Erlang/OTP for about 1-2 years. During this period he has mostly been developing the new features for the shell. Fredrik has a great interest for automation, code synthesis, AR and everything Generative AI LLMs. Other interests include child raising, climbing, flying and winding down on a beach."
+
+- name: "Cocoa Xu"
+  slug: "cocoaxu"
+  headline: "A Uwu Software Engineer"
+  bio: |
+    Cocoa is a software engineer, and there was a time when they needed to do some image-processing tasks in Elixir, but there were no Elixir libraries that could satisfy their demands. So Cocoa developed this Evision library to address image-processing tasks in Elixir using OpenCV.
+
+    Previously, there were mainly two ways to use OpenCV in Elixir: creating a helper process (written in C++, Python or other languages) and communicating through a pipe, or manually porting OpenCV functions as NIFs, native-implemented functions so that Erlang and Elixir can load and use them directly.
+
+    These two approaches have different pros and cons, and this library focuses on the latter and tries to automate the whole porting process. later received 1-year funding from the Erlang Ecosystem Foundation.
+  social_links:
+    - platform: github
+      url: "https://github.com/cocoa-xu"
+    - platform: twitter
+      url: "https://x.com/_uwu_cocoa"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/cocoa-xu/"
+
+- name: "Roberto Aloi"
+  slug: "robertoaloi"
+  headline: "Erlang DevX @ WhatsApp"
+  bio: |
+    Erlang enthusiast, open-source passionate and speaker, Roberto (he/him) has been working with Erlang technologies since 2007.
+
+    Sicilian by origin, formerly at Erlang Solutions and Klarna, Roberto is now based in Stockholm where he works as a software engineer at WhatsApp, focusing on Erlang tooling and developer experience.
+
+    Main author of the Erlang LS language server, contributor of the ELP project, Roberto is one of the organizers of the Stockholm BEAM meetups.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/robertoaloi"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/robertoaloi/"
+
+- name: "Michał Muskała"
+  slug: "michalmuskala"
+  headline: "Software Engineer at WhatsApp"
+  bio: |
+    Michał is a long-term Elixir and Erlang enthusiast, recently working from London at WhatsApp to improve developer productivity and engineering efficiency.
+
+    In the past, Michał was involved with many Elixir libraries, including Ecto and Jason, and was an Elixir core-team member. His interest in the BEAM focuses around performance and efficiency, proving that functional doesn’t mean slow.
+
+    When not programming, he enjoys reading, travelling, and sailing - no matter if sunny, rainy or stormy. It’s even better if all of those are combined!
+  social_links:
+    - platform: twitter
+      url: "https://x.com/michalmuskala"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/michalmuskala/"
+
+- name: "Michael Davis"
+  slug: "michaeldavis"
+  headline: "Rabbitmq Core Engineering @ VMware"
+  bio: "Michael Davis is a staff member at VMware working on RabbitMQ and focusing on Khepri. Working on open-source by day and night, he is the author of projects like Mint.WebSocket, Slipstream and Spear, a maintainer of the Helix text editor, and he helps maintain tree-sitter grammars for BEAM languages. When he’s away from his keyboard, you’ll usually catch him scuba diving."
+
+- name: "Arnaldo Cesco"
+  slug: "arnaldocesco"
+  headline: "Software Engineer"
+  bio: "I delivered an introductory talk on the superpowers of the BEAM at the “Erlang, Elixir, Gleam and Friends” devroom during FOSDEM 2024."
+  website: "https://annopaolo.github.io/"
+
+- name: "Anton Mishchuk"
+  slug: "antonishchuk"
+  headline: "Writes Code for Humans, Not for Machines"
+  bio: "Anton is a software engineer with more than 10 years of experience. A significant part of his career is related to the Ruby programming language, but he has been passionate about Elixir since 2014. He is an author of the ESpec test framework and two FBP libraries - Flowex and ALF. He is an active speaker at Elixir/Ruby meetups in Kyiv (Elixir Club), Lviv (Pivorak), Australia (Sydney Elixir Meetup), and on other stages."
+  social_links:
+    - platform: github
+      url: "https://github.com/antonmi"

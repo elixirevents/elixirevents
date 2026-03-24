@@ -22,13 +22,12 @@ defmodule ElixirEventsWeb.Router do
   scope "/", ElixirEventsWeb do
     pipe_through :browser
 
-    get "/contribute", PageController, :contribute
-    get "/about", PageController, :about
-
     live_session :default,
       layout: {ElixirEventsWeb.Layouts, :app},
       on_mount: [{ElixirEventsWeb.UserAuth, :mount_current_scope}] do
       live "/", HomeLive, :index
+      live "/about", AboutLive, :index
+      live "/contribute", ContributeLive, :index
       live "/events", EventLive.Index, :index
       live "/events/:slug", EventLive.Show, :show
       live "/series/:slug", SeriesLive.Show, :show

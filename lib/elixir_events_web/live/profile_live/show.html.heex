@@ -40,9 +40,12 @@
       <p :if={@profile.headline} class="text-lg text-primary/70 mt-1 font-medium">
         {@profile.headline}
       </p>
-      <p :if={@profile.bio} class="text-base-content/55 mt-4 leading-relaxed max-w-2xl">
+      <div
+        :if={@profile.bio}
+        class="text-base-content/55 mt-4 leading-relaxed max-w-2xl whitespace-pre-line"
+      >
         {@profile.bio}
-      </p>
+      </div>
 
       <div
         :if={@profile.social_links != [] || @profile.website}
