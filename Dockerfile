@@ -10,9 +10,14 @@ ARG RUNNER_IMAGE="debian:${DEBIAN_VERSION}"
 #----------------------------------
 FROM ${BUILDER_IMAGE} as builder
 
-# Install build dependencies
+# Install build dependencies and curl (for NodeSource)
 RUN apt-get update -y && \
-    apt-get install -y build-essential git && \
+    apt-get install -y build-essential git curl && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install Node 20 (for Phoenix assets bundling)
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -37,6 +42,12 @@ RUN mix deps.compile
 
 COPY priv priv
 COPY lib lib
+
+# Install JS deps with better layer caching: copy only package files first
+COPY assets/package.json assets/package-lock.json ./assets/
+RUN npm ci --prefix ./assets --no-audit --no-fund
+
+# Then copy the rest of the assets
 COPY assets assets
 
 # Compile assets
