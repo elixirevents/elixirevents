@@ -67,41 +67,41 @@ defmodule ElixirEventsWeb.UserLive.Registration do
 
   defp handle_conflict_notice(%{handle_conflict: {:unclaimed, _profile}} = assigns) do
     ~H"""
-    <div class="mt-2 mb-4 p-4 rounded-xl bg-primary/10 border border-primary/30">
-      <p class="text-sm text-base-content">
-        A speaker profile for <strong>{elem(@handle_conflict, 1).name}</strong> already exists.
-        You can claim this speaker profile during registration, or use a different handle.
+    <div class="mt-1 mb-4 pl-4 border-l-2 border-primary/50 space-y-2">
+      <p class="text-sm text-base-content/70">
+        A speaker profile for
+        <strong class="text-base-content">{elem(@handle_conflict, 1).name}</strong>
+        already exists. You can claim it during registration, or use a different handle.
       </p>
-      <p :if={@suggested_handle} class="text-sm text-base-content/70 mt-2">
-        Suggested alternative: <code class="font-mono text-primary">{@suggested_handle}</code>
+      <p :if={@suggested_handle} class="text-sm text-base-content/55">
+        Suggested: <span class="font-mono text-primary">{@suggested_handle}</span>
       </p>
 
-      <div class="mt-3">
-        <label class="flex items-center gap-2 cursor-pointer">
-          <input
-            type="checkbox"
-            name="claim_profile"
-            value="true"
-            checked={@claim_profile}
-            phx-click="toggle_claim"
-            class="checkbox checkbox-primary checkbox-sm"
-          />
-          <span class="text-sm font-medium text-base-content">
-            I want to claim this speaker profile
-          </span>
-        </label>
-      </div>
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input
+          type="checkbox"
+          name="claim_profile"
+          value="true"
+          checked={@claim_profile}
+          phx-click="toggle_claim"
+          class="checkbox checkbox-primary checkbox-sm"
+        />
+        <span class="text-sm text-base-content">
+          I want to claim this speaker profile
+        </span>
+      </label>
 
-      <div :if={@claim_profile} class="mt-3">
-        <label class="block text-sm font-medium text-base-content mb-1">
-          Notes for reviewers (optional)
-        </label>
+      <div :if={@claim_profile}>
         <textarea
           name="claim_user_notes"
           rows="2"
-          class="textarea textarea-bordered w-full text-sm"
+          maxlength="1000"
+          class="w-full rounded-lg border border-base-300/50 bg-base-100/5 text-base-content px-3 py-2 text-sm placeholder:text-base-content/30 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
           placeholder="Help us verify your identity, e.g. link to your talk or social profile"
         ></textarea>
+        <p class="text-xs text-base-content/40 mt-1">
+          Claims can only be approved after you confirm your email.
+        </p>
       </div>
     </div>
     """
@@ -109,40 +109,39 @@ defmodule ElixirEventsWeb.UserLive.Registration do
 
   defp handle_conflict_notice(%{handle_conflict: {:claimed, _profile}} = assigns) do
     ~H"""
-    <div class="mt-2 mb-4 p-4 rounded-xl bg-amber-500/10 border border-amber-500/30">
-      <p class="text-sm text-base-content">
+    <div class="mt-1 mb-4 pl-4 border-l-2 border-amber-500/50 space-y-2">
+      <p class="text-sm text-base-content/70">
         This handle is taken. If you believe this is your profile, you can submit a claim for review.
       </p>
-      <p :if={@suggested_handle} class="text-sm text-base-content/70 mt-2">
-        Suggested alternative: <code class="font-mono text-primary">{@suggested_handle}</code>
+      <p :if={@suggested_handle} class="text-sm text-base-content/55">
+        Suggested: <span class="font-mono text-primary">{@suggested_handle}</span>
       </p>
 
-      <div class="mt-3">
-        <label class="flex items-center gap-2 cursor-pointer">
-          <input
-            type="checkbox"
-            name="claim_profile"
-            value="true"
-            checked={@claim_profile}
-            phx-click="toggle_claim"
-            class="checkbox checkbox-primary checkbox-sm"
-          />
-          <span class="text-sm font-medium text-base-content">
-            I want to dispute this profile's ownership
-          </span>
-        </label>
-      </div>
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input
+          type="checkbox"
+          name="claim_profile"
+          value="true"
+          checked={@claim_profile}
+          phx-click="toggle_claim"
+          class="checkbox checkbox-primary checkbox-sm"
+        />
+        <span class="text-sm text-base-content">
+          I want to dispute this profile's ownership
+        </span>
+      </label>
 
-      <div :if={@claim_profile} class="mt-3">
-        <label class="block text-sm font-medium text-base-content mb-1">
-          Notes for reviewers (optional)
-        </label>
+      <div :if={@claim_profile}>
         <textarea
           name="claim_user_notes"
           rows="2"
-          class="textarea textarea-bordered w-full text-sm"
+          maxlength="1000"
+          class="w-full rounded-lg border border-base-300/50 bg-base-100/5 text-base-content px-3 py-2 text-sm placeholder:text-base-content/30 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
           placeholder="Help us verify your identity, e.g. link to your talk or social profile"
         ></textarea>
+        <p class="text-xs text-base-content/40 mt-1">
+          Claims can only be approved after you confirm your email.
+        </p>
       </div>
     </div>
     """
