@@ -365,6 +365,43 @@ defmodule ElixirEvents.AccountsTest do
     end
   end
 
+  describe "claim notification emails" do
+    alias ElixirEvents.Accounts.UserNotifier
+    alias ElixirEvents.Profiles
+
+    test "deliver_claim_approved/2 sends email with profile name" do
+      user = user_fixture()
+      {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
+
+      assert {:ok, email} = UserNotifier.deliver_claim_approved(user, profile)
+      assert email.subject == "Your profile claim has been approved"
+      assert email.text_body =~ "Hugo Barauna"
+      assert email.text_body =~ "approved"
+    end
+
+    test "deliver_claim_rejected/3 sends email with profile name and admin notes" do
+      user = user_fixture()
+      {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
+
+      assert {:ok, email} =
+               UserNotifier.deliver_claim_rejected(user, profile, "Insufficient evidence")
+
+      assert email.subject == "Update on your profile claim"
+      assert email.text_body =~ "Hugo Barauna"
+      assert email.text_body =~ "not approved"
+      assert email.text_body =~ "Insufficient evidence"
+    end
+
+    test "deliver_claim_rejected/3 without admin notes omits notes section" do
+      user = user_fixture()
+      {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
+
+      assert {:ok, email} = UserNotifier.deliver_claim_rejected(user, profile, nil)
+      assert email.text_body =~ "not approved"
+      refute email.text_body =~ "Reviewer notes"
+    end
+  end
+
   describe "register_user/2 with claim" do
     alias ElixirEvents.Claims
     alias ElixirEvents.Profiles

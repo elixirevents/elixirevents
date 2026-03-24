@@ -62,4 +62,49 @@ defmodule ElixirEvents.Accounts.UserNotifier do
     ==============================
     """)
   end
+
+  @doc """
+  Deliver claim approved notification.
+  """
+  def deliver_claim_approved(user, profile) do
+    deliver(user.email, "Your profile claim has been approved", """
+
+    ==============================
+
+    Hi #{user.email},
+
+    Your claim for the speaker profile "#{profile.name}" on ElixirEvents has been approved.
+    Your accounts have been merged and you can now edit your speaker profile.
+
+    ==============================
+    """)
+  end
+
+  @doc """
+  Deliver claim rejected notification.
+  """
+  def deliver_claim_rejected(user, profile, admin_notes) do
+    notes_section =
+      if admin_notes do
+        """
+
+        Reviewer notes: #{admin_notes}
+        """
+      else
+        ""
+      end
+
+    deliver(user.email, "Update on your profile claim", """
+
+    ==============================
+
+    Hi #{user.email},
+
+    Your claim for the speaker profile "#{profile.name}" on ElixirEvents was not approved.
+    #{notes_section}
+    If you believe this is an error, please reach out to us.
+
+    ==============================
+    """)
+  end
 end
