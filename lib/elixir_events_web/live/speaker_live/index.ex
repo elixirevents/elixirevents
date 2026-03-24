@@ -11,11 +11,13 @@ defmodule ElixirEventsWeb.SpeakerLive.Index do
   @impl true
   def handle_params(params, _uri, socket) do
     page = String.to_integer(params["page"] || "1")
+    search = params["q"]
 
     page_data =
       Profiles.paginate_profiles(
         speakers_only: true,
         with_talk_count: true,
+        search: search,
         page: page
       )
 
@@ -23,6 +25,7 @@ defmodule ElixirEventsWeb.SpeakerLive.Index do
      socket
      |> assign(:page_title, "Speakers")
      |> assign(:profiles, page_data.entries)
-     |> assign(:page_data, page_data)}
+     |> assign(:page_data, page_data)
+     |> assign(:search, search)}
   end
 end

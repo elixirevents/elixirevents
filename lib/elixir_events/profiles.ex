@@ -18,6 +18,7 @@ defmodule ElixirEvents.Profiles do
   def paginate_profiles(opts \\ []) do
     Profile
     |> maybe_filter_speakers(opts[:speakers_only])
+    |> maybe_search(opts[:search])
     |> maybe_with_talk_count(opts[:with_talk_count])
     |> maybe_order(opts[:order_by] || :name_asc)
     |> maybe_preload(opts[:preload])
@@ -66,19 +67,19 @@ defmodule ElixirEvents.Profiles do
   def create_profile(attrs) do
     %Profile{}
     |> Profile.changeset(attrs)
-    |> Repo.insert()
+    |> Repo.insert_and_index()
   end
 
   def update_profile(%Profile{} = profile, attrs) do
     profile
     |> Profile.changeset(attrs)
-    |> Repo.update()
+    |> Repo.update_and_index()
   end
 
   def update_profile_as_owner(%Profile{} = profile, attrs) do
     profile
     |> Profile.owner_changeset(attrs)
-    |> Repo.update()
+    |> Repo.update_and_index()
   end
 
   def get_profile_for_user(user_id) do
@@ -88,13 +89,13 @@ defmodule ElixirEvents.Profiles do
   def create_profile_for_user(user, attrs) do
     %Profile{}
     |> Profile.changeset(Map.put(attrs, :user_id, user.id))
-    |> Repo.insert()
+    |> Repo.insert_and_index()
   end
 
   def upsert_profile(attrs) do
     %Profile{}
     |> Profile.changeset(attrs)
-    |> Repo.insert(
+    |> Repo.insert_and_index(
       on_conflict: {:replace_all_except, [:id, :inserted_at]},
       conflict_target: :handle,
       returning: true
@@ -105,6 +106,14 @@ defmodule ElixirEvents.Profiles do
     do: from(q in queryable, where: q.is_speaker == true)
 
   defp maybe_filter_speakers(queryable, _), do: queryable
+
+  defp maybe_search(queryable, nil), do: queryable
+  defp maybe_search(queryable, ""), do: queryable
+
+  defp maybe_search(queryable, q) do
+    pattern = "%#{q}%"
+    from(p in queryable, where: ilike(p.name, ^pattern))
+  end
 
   defp maybe_with_talk_count(queryable, true) do
     from(p in queryable,

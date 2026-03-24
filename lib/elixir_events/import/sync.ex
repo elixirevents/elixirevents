@@ -277,7 +277,7 @@ defmodule ElixirEvents.Import.Sync do
 
       event ->
         Logger.info("Deleting removed event: #{event.name} (#{event_slug})")
-        Repo.delete(event)
+        Repo.delete_and_index(event)
     end
   end
 

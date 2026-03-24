@@ -52,6 +52,14 @@ defmodule ElixirEventsWeb.Layouts do
             </a>
           </div>
           <div class="flex items-center gap-3">
+            <button
+              type="button"
+              class="p-2 rounded-lg text-base-content/60 hover:text-primary hover:bg-primary/5 transition-colors"
+              onclick="window.dispatchEvent(new CustomEvent('toggle-palette'))"
+              aria-label="Search"
+            >
+              <.icon name="hero-magnifying-glass" class="size-5" />
+            </button>
             <.theme_toggle />
             <button
               class="md:hidden flex items-center justify-center p-2 rounded-lg text-base-content/60 hover:text-base-content hover:bg-base-200/50 transition-colors"
@@ -260,6 +268,12 @@ defmodule ElixirEventsWeb.Layouts do
 
   def app(assigns) do
     ~H"""
+    <.live_component
+      module={ElixirEventsWeb.CommandPaletteComponent}
+      id="command-palette"
+      typesense_search_key={Application.get_env(:elixir_events, :typesense_search_key, "")}
+      typesense_search_host={Application.get_env(:elixir_events, :typesense_search_host, "")}
+    />
     <div class="min-h-screen bg-base-100 flex flex-col">
       <.site_nav current_scope={assigns[:current_scope]} />
       <main class="flex-1 py-12 sm:py-16">

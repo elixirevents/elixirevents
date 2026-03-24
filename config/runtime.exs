@@ -114,4 +114,18 @@ if config_env() == :prod do
     api_key: System.get_env("RESEND_API_KEY"),
     from_email: System.get_env("MAILER_FROM_EMAIL", "noreply@elixirevents.org"),
     from_name: System.get_env("MAILER_FROM_NAME", "Elixir Events")
+
+  config :open_api_typesense,
+    api_key: System.fetch_env!("TYPESENSE_API_KEY"),
+    host: System.fetch_env!("TYPESENSE_HOST"),
+    port: String.to_integer(System.get_env("TYPESENSE_PORT", "443")),
+    scheme: "https"
+
+  config :elixir_events,
+    typesense_search_key: System.fetch_env!("TYPESENSE_SEARCH_KEY"),
+    typesense_search_host: System.fetch_env!("TYPESENSE_SEARCH_HOST")
+
+  config :elixir_events, Oban,
+    repo: ElixirEvents.Repo,
+    queues: [search: 5]
 end

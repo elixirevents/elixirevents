@@ -94,3 +94,13 @@ config :elixir_events, ElixirEvents.Mailer,
 
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false
+
+config :open_api_typesense,
+  api_key: "dev_typesense_api_key",
+  host: "localhost",
+  port: 8108,
+  scheme: "http"
+
+config :elixir_events,
+  typesense_search_key: System.get_env("TYPESENSE_SEARCH_KEY", "dev_typesense_api_key"),
+  typesense_search_host: System.get_env("TYPESENSE_SEARCH_HOST", "http://localhost:8108")

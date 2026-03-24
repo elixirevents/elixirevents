@@ -1,8 +1,8 @@
 defmodule ElixirEventsWeb.Admin.ClaimLive.Show do
   use ElixirEventsWeb, :live_view
 
-  alias ElixirEvents.{Claims, Profiles}
   alias ElixirEvents.Accounts.UserNotifier
+  alias ElixirEvents.{Claims, Profiles}
 
   @impl true
   def mount(_params, _session, socket) do

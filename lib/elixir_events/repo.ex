@@ -5,7 +5,51 @@ defmodule ElixirEvents.Repo do
     otp_app: :elixir_events,
     adapter: Ecto.Adapters.Postgres
 
-  import Ecto.Query
+  import Ecto.Query, except: [update: 2, update: 3]
+
+  alias ElixirEvents.Search.IndexTrigger
+
+  # ---------------------------------------------------------------------------
+  # Indexing wrappers
+  #
+  # Context functions for indexable schemas (Event, EventSeries, Talk, Profile,
+  # Topic) call these instead of bare Repo.insert/update/delete so that every
+  # successful write automatically enqueues an Oban job for Typesense sync.
+  # Non-indexable schemas keep calling Repo.insert/update/delete directly.
+  # ---------------------------------------------------------------------------
+
+  def insert_and_index(changeset, opts \\ []) do
+    case insert(changeset, opts) do
+      {:ok, record} = result ->
+        IndexTrigger.after_insert_or_update(record)
+        result
+
+      error ->
+        error
+    end
+  end
+
+  def update_and_index(changeset, opts \\ []) do
+    case update(changeset, opts) do
+      {:ok, record} = result ->
+        IndexTrigger.after_insert_or_update(record)
+        result
+
+      error ->
+        error
+    end
+  end
+
+  def delete_and_index(struct_or_changeset, opts \\ []) do
+    case delete(struct_or_changeset, opts) do
+      {:ok, record} = result ->
+        IndexTrigger.after_delete(record)
+        result
+
+      error ->
+        error
+    end
+  end
 
   @doc """
   Simple offset-based pagination. Returns a map with entries, page info, and total count.

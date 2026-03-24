@@ -45,3 +45,15 @@ config :phoenix_live_view,
 # Sort query params output of verified routes for robust url comparisons
 config :phoenix,
   sort_verified_routes_query_params: true
+
+config :elixir_events, Oban, testing: :manual
+
+config :open_api_typesense,
+  api_key: "test_typesense_api_key",
+  host: "localhost",
+  port: 8108,
+  scheme: "http"
+
+config :elixir_events,
+  typesense_search_key: "test_typesense_api_key",
+  typesense_search_host: "http://localhost:8108"

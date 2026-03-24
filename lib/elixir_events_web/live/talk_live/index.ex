@@ -16,11 +16,13 @@ defmodule ElixirEventsWeb.TalkLive.Index do
     filter = if params["filter"] in @valid_filters, do: params["filter"], else: "all"
     sort = if params["sort"] in @valid_sorts, do: params["sort"], else: "newest"
     page = String.to_integer(params["page"] || "1")
+    search = params["q"]
 
     page_data =
       Talks.paginate_talks(
         filter: filter,
         sort: sort,
+        search: search,
         preload: [:event, :recordings, talk_speakers: :profile],
         page: page
       )
@@ -31,6 +33,7 @@ defmodule ElixirEventsWeb.TalkLive.Index do
      |> assign(:talks, page_data.entries)
      |> assign(:page_data, page_data)
      |> assign(:current_filter, filter)
-     |> assign(:current_sort, sort)}
+     |> assign(:current_sort, sort)
+     |> assign(:search, search)}
   end
 end

@@ -12,6 +12,7 @@ defmodule ElixirEvents.Application do
       ElixirEvents.Repo,
       {DNSCluster, query: Application.get_env(:elixir_events, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: ElixirEvents.PubSub},
+      {Oban, Application.fetch_env!(:elixir_events, Oban)},
       Lotus,
       # Start to serve requests, typically the last entry
       ElixirEventsWeb.Endpoint

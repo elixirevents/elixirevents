@@ -8,6 +8,7 @@ defmodule ElixirEvents.Topics do
   def list_topics(opts \\ []) do
     Topic
     |> maybe_with_counts(opts[:with_counts])
+    |> maybe_search(opts[:search])
     |> order_by([t], asc: t.name)
     |> Repo.all()
   end
@@ -37,13 +38,13 @@ defmodule ElixirEvents.Topics do
   def create_topic(attrs) do
     %Topic{}
     |> Topic.changeset(attrs)
-    |> Repo.insert()
+    |> Repo.insert_and_index()
   end
 
   def upsert_topic(attrs) do
     %Topic{}
     |> Topic.changeset(attrs)
-    |> Repo.insert(
+    |> Repo.insert_and_index(
       on_conflict: {:replace_all_except, [:id, :inserted_at]},
       conflict_target: :slug,
       returning: true
@@ -65,6 +66,14 @@ defmodule ElixirEvents.Topics do
   end
 
   defp maybe_with_counts(queryable, _), do: queryable
+
+  defp maybe_search(queryable, nil), do: queryable
+  defp maybe_search(queryable, ""), do: queryable
+
+  defp maybe_search(queryable, q) do
+    pattern = "%#{q}%"
+    from(t in queryable, where: ilike(t.name, ^pattern))
+  end
 
   def tag_event(event_id, topic_id) do
     %EventTopic{}
