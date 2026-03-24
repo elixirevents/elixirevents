@@ -388,7 +388,7 @@ defmodule ElixirEvents.AccountsTest do
 
       assert email.subject == "Update on your profile claim"
       assert email.text_body =~ "Hugo Barauna"
-      assert email.text_body =~ "not approved"
+      assert email.text_body =~ "wasn't approved"
       assert email.text_body =~ "Insufficient evidence"
     end
 
@@ -397,7 +397,7 @@ defmodule ElixirEvents.AccountsTest do
       {:ok, profile} = Profiles.create_profile(%{name: "Hugo Barauna", handle: "hugobarauna"})
 
       assert {:ok, email} = UserNotifier.deliver_claim_rejected(user, profile, nil)
-      assert email.text_body =~ "not approved"
+      assert email.text_body =~ "wasn't approved"
       refute email.text_body =~ "Reviewer notes"
     end
   end

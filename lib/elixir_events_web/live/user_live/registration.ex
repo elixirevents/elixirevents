@@ -69,12 +69,12 @@ defmodule ElixirEventsWeb.UserLive.Registration do
     ~H"""
     <div class="mt-1 mb-4 pl-4 border-l-2 border-primary/50 space-y-2">
       <p class="text-sm text-base-content/70">
-        A speaker profile for
-        <strong class="text-base-content">{elem(@handle_conflict, 1).name}</strong>
-        already exists. You can claim it during registration, or use a different handle.
+        The handle <span class="font-mono text-primary">{elem(@handle_conflict, 1).handle}</span>
+        belongs to speaker <strong class="text-base-content">{elem(@handle_conflict, 1).name}</strong>.
+        Want to claim this profile as yours?
       </p>
       <p :if={@suggested_handle} class="text-sm text-base-content/55">
-        Suggested: <span class="font-mono text-primary">{@suggested_handle}</span>
+        Try: <span class="font-mono text-primary">{@suggested_handle}</span>
       </p>
 
       <label class="flex items-center gap-2 cursor-pointer">
@@ -87,7 +87,7 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           class="checkbox checkbox-primary checkbox-sm"
         />
         <span class="text-sm text-base-content">
-          I want to claim this speaker profile
+          Claim this speaker profile
         </span>
       </label>
 
@@ -97,10 +97,10 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           rows="2"
           maxlength="1000"
           class="w-full rounded-lg border border-base-300/50 bg-base-100/5 text-base-content px-3 py-2 text-sm placeholder:text-base-content/30 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
-          placeholder="Help us verify your identity, e.g. link to your talk or social profile"
+          placeholder="How can we verify it's you? e.g. your Twitter/GitHub handle so we can reach out"
         ></textarea>
         <p class="text-xs text-base-content/40 mt-1">
-          Claims can only be approved after you confirm your email.
+          We'll review your claim after you confirm your email.
         </p>
       </div>
     </div>
@@ -111,10 +111,10 @@ defmodule ElixirEventsWeb.UserLive.Registration do
     ~H"""
     <div class="mt-1 mb-4 pl-4 border-l-2 border-amber-500/50 space-y-2">
       <p class="text-sm text-base-content/70">
-        This handle is taken. If you believe this is your profile, you can submit a claim for review.
+        This handle belongs to someone else. If this is actually you, you can dispute it.
       </p>
       <p :if={@suggested_handle} class="text-sm text-base-content/55">
-        Suggested: <span class="font-mono text-primary">{@suggested_handle}</span>
+        Try: <span class="font-mono text-primary">{@suggested_handle}</span>
       </p>
 
       <label class="flex items-center gap-2 cursor-pointer">
@@ -127,7 +127,7 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           class="checkbox checkbox-primary checkbox-sm"
         />
         <span class="text-sm text-base-content">
-          I want to dispute this profile's ownership
+          Dispute this profile
         </span>
       </label>
 
@@ -137,10 +137,10 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           rows="2"
           maxlength="1000"
           class="w-full rounded-lg border border-base-300/50 bg-base-100/5 text-base-content px-3 py-2 text-sm placeholder:text-base-content/30 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
-          placeholder="Help us verify your identity, e.g. link to your talk or social profile"
+          placeholder="How can we verify it's you? e.g. your Twitter/GitHub handle so we can reach out"
         ></textarea>
         <p class="text-xs text-base-content/40 mt-1">
-          Claims can only be approved after you confirm your email.
+          We'll review your claim after you confirm your email.
         </p>
       </div>
     </div>
@@ -194,8 +194,8 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           if opts[:claim_profile_id] do
             {_, profile} = socket.assigns.handle_conflict
 
-            "Account created! We've submitted a claim for the speaker profile \"#{profile.name}\". " <>
-              "Check your inbox at #{user.email} to confirm your email — claims can only be approved after confirmation."
+            "Welcome! Claim submitted for \"#{profile.name}\". " <>
+              "Confirm your email at #{user.email} to proceed."
           else
             "Account created! Check your inbox at #{user.email} for a confirmation link."
           end

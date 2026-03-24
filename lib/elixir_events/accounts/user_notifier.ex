@@ -73,7 +73,7 @@ defmodule ElixirEvents.Accounts.UserNotifier do
 
     Hi #{user.email},
 
-    Your claim for the speaker profile "#{profile.name}" on ElixirEvents has been approved.
+    Great news — your claim for the speaker profile "#{profile.name}" has been approved!
     Your accounts have been merged and you can now edit your speaker profile.
 
     ==============================
@@ -100,7 +100,7 @@ defmodule ElixirEvents.Accounts.UserNotifier do
 
     Hi #{user.email},
 
-    Your claim for the speaker profile "#{profile.name}" on ElixirEvents was not approved.
+    Unfortunately, your claim for the speaker profile "#{profile.name}" wasn't approved.
     #{notes_section}
     If you believe this is an error, please reach out to us.
 

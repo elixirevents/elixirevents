@@ -85,7 +85,7 @@ defmodule ElixirEventsWeb.UserLive.RegistrationTest do
         |> render_change(user: %{"handle" => "hugobarauna"})
 
       assert result =~ "Hugo Barauna"
-      assert result =~ "claim this speaker profile"
+      assert result =~ "Claim this speaker profile"
     end
 
     test "shows claimed conflict notice when handle matches claimed profile", %{conn: conn} do
@@ -99,7 +99,7 @@ defmodule ElixirEventsWeb.UserLive.RegistrationTest do
         |> element("#registration_form")
         |> render_change(user: %{"handle" => profile.handle})
 
-      assert result =~ "This handle is taken"
+      assert result =~ "belongs to someone else"
     end
 
     test "shows no conflict notice for available handle", %{conn: conn} do
@@ -110,8 +110,8 @@ defmodule ElixirEventsWeb.UserLive.RegistrationTest do
         |> element("#registration_form")
         |> render_change(user: %{"handle" => "available"})
 
-      refute result =~ "claim"
-      refute result =~ "This handle is taken"
+      refute result =~ "Claim"
+      refute result =~ "belongs to someone else"
     end
 
     test "suggests alternative handle when conflict detected", %{conn: conn} do
@@ -139,7 +139,7 @@ defmodule ElixirEventsWeb.UserLive.RegistrationTest do
         |> render_change(user: %{"handle" => "hugobarauna"})
 
       assert result =~ "Hugo Barauna"
-      assert result =~ "claim this speaker profile"
+      assert result =~ "Claim this speaker profile"
     end
 
     test "conflict notice disappears when handle changes to non-conflicting", %{conn: conn} do
@@ -153,7 +153,7 @@ defmodule ElixirEventsWeb.UserLive.RegistrationTest do
         |> element("#registration_form")
         |> render_change(user: %{"handle" => "somethingelse"})
 
-      refute result =~ "claim"
+      refute result =~ "Claim"
       refute result =~ "Hugo Barauna"
     end
   end
@@ -185,7 +185,7 @@ defmodule ElixirEventsWeb.UserLive.RegistrationTest do
         |> render_submit()
         |> follow_redirect(conn, ~p"/login")
 
-      assert html =~ "claim for the speaker profile"
+      assert html =~ "Claim submitted for"
       assert html =~ "Hugo Barauna"
 
       # Verify claim was created
