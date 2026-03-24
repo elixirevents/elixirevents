@@ -54,6 +54,8 @@ PRs welcome for data additions, bug fixes, tests, and code improvements. Run `mi
 
 ## Credits
 
+Thank you [AppSignal](https://www.appsignal.com) for sponsoring application monitoring and error tracking for ElixirEvents.
+
 Thank you [Typesense](https://typesense.org) for sponsoring a Typesense Cloud cluster that powers the search functionality.
 
 ## License

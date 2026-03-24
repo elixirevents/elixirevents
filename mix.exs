@@ -44,6 +44,7 @@ defmodule ElixirEvents.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:appsignal_phoenix, "~> 2.0"},
       {:bcrypt_elixir, "~> 3.0"},
       {:bandit, "~> 1.5"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
