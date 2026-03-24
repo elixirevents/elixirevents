@@ -48,7 +48,7 @@ defmodule ElixirEvents.Search.IndexWorker do
       {:ok, _} ->
         :ok
 
-      {:error, %{"message" => "Could not find" <> _}} ->
+      {:error, %OpenApiTypesense.ApiResponse{message: "Could not find" <> _}} ->
         :ok
 
       {:error, reason} ->
