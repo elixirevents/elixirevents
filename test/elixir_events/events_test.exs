@@ -207,6 +207,92 @@ defmodule ElixirEvents.EventsTest do
       {:ok, _event} = Events.create_event(@valid_event_attrs)
       assert [%{slug: "elixirconf-us-2025"}] = Events.list_events()
     end
+
+    test "returns events ordered by year descending, then date ascending within each year" do
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "early-2025",
+            start_date: ~D[2025-03-01],
+            end_date: ~D[2025-03-02]
+        })
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "late-2025",
+            name: "Late 2025",
+            start_date: ~D[2025-11-01],
+            end_date: ~D[2025-11-02]
+        })
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "mid-2025",
+            name: "Mid 2025",
+            kind: :meetup,
+            start_date: ~D[2025-06-15],
+            end_date: ~D[2025-06-15]
+        })
+
+      slugs = Events.list_events() |> Enum.map(& &1.slug)
+      assert slugs == ["early-2025", "mid-2025", "late-2025"]
+    end
+
+    test "meetups are interleaved chronologically within year, not grouped separately" do
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "conf-oct",
+            start_date: ~D[2026-10-01],
+            end_date: ~D[2026-10-02]
+        })
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "meetup-mar",
+            name: "BBUG #8",
+            kind: :meetup,
+            start_date: ~D[2026-03-26],
+            end_date: ~D[2026-03-26]
+        })
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "conf-may",
+            name: "Code BEAM Lite",
+            start_date: ~D[2026-05-18],
+            end_date: ~D[2026-05-19]
+        })
+
+      slugs = Events.list_events() |> Enum.map(& &1.slug)
+      assert slugs == ["meetup-mar", "conf-may", "conf-oct"]
+    end
+
+    test "events from different years are grouped by year descending" do
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "event-2026",
+            start_date: ~D[2026-03-01],
+            end_date: ~D[2026-03-02]
+        })
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "event-2025",
+            name: "Conf 2025",
+            start_date: ~D[2025-11-01],
+            end_date: ~D[2025-11-02]
+        })
+
+      slugs = Events.list_events() |> Enum.map(& &1.slug)
+      assert slugs == ["event-2026", "event-2025"]
+    end
   end
 
   describe "get_event_by_slug/1" do
