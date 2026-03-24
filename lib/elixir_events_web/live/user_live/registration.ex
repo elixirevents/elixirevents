@@ -40,6 +40,7 @@ defmodule ElixirEventsWeb.UserLive.Registration do
               handle_conflict={@handle_conflict}
               claim_profile={@claim_profile}
               suggested_handle={@suggested_handle}
+              claim_user_notes={@claim_user_notes}
             />
 
             <.input field={@form[:email]} type="email" label="Email" autocomplete="username" required />
@@ -71,10 +72,11 @@ defmodule ElixirEventsWeb.UserLive.Registration do
       <p class="text-sm text-base-content/70">
         The handle <span class="font-mono text-primary">{elem(@handle_conflict, 1).handle}</span>
         belongs to speaker <strong class="text-base-content">{elem(@handle_conflict, 1).name}</strong>.
-        Want to claim this profile as yours?
       </p>
       <p :if={@suggested_handle} class="text-sm text-base-content/55">
-        Try: <span class="font-mono text-primary">{@suggested_handle}</span>
+        Register with <span class="font-mono text-primary">{@suggested_handle}</span> for now.
+        If you claim the speaker profile below, we'll merge your account once approved
+        — you'll get the original handle and all associated talks.
       </p>
 
       <label class="flex items-center gap-2 cursor-pointer">
@@ -84,7 +86,7 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           value="true"
           checked={@claim_profile}
           phx-click="toggle_claim"
-          class="checkbox checkbox-primary checkbox-sm"
+          class="checkbox checkbox-sm"
         />
         <span class="text-sm text-base-content">
           Claim this speaker profile
@@ -96,9 +98,9 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           name="claim_user_notes"
           rows="2"
           maxlength="1000"
-          class="w-full rounded-lg border border-base-300/50 bg-base-100/5 text-base-content px-3 py-2 text-sm placeholder:text-base-content/30 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
+          class="w-full input bg-base-200/50 border-base-300 focus:border-primary focus:outline-none focus:ring-0 text-sm text-base-content placeholder:text-base-content/30 py-2"
           placeholder="How can we verify it's you? e.g. your Twitter/GitHub handle so we can reach out"
-        ></textarea>
+        >{@claim_user_notes}</textarea>
         <p class="text-xs text-base-content/40 mt-1">
           We'll review your claim after you confirm your email.
         </p>
@@ -114,7 +116,8 @@ defmodule ElixirEventsWeb.UserLive.Registration do
         This handle belongs to someone else. If this is actually you, you can dispute it.
       </p>
       <p :if={@suggested_handle} class="text-sm text-base-content/55">
-        Try: <span class="font-mono text-primary">{@suggested_handle}</span>
+        Register with <span class="font-mono text-primary">{@suggested_handle}</span> for now.
+        If your dispute is approved, we'll transfer the profile to your account.
       </p>
 
       <label class="flex items-center gap-2 cursor-pointer">
@@ -124,7 +127,7 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           value="true"
           checked={@claim_profile}
           phx-click="toggle_claim"
-          class="checkbox checkbox-primary checkbox-sm"
+          class="checkbox checkbox-sm"
         />
         <span class="text-sm text-base-content">
           Dispute this profile
@@ -136,9 +139,9 @@ defmodule ElixirEventsWeb.UserLive.Registration do
           name="claim_user_notes"
           rows="2"
           maxlength="1000"
-          class="w-full rounded-lg border border-base-300/50 bg-base-100/5 text-base-content px-3 py-2 text-sm placeholder:text-base-content/30 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
+          class="w-full input bg-base-200/50 border-base-300 focus:border-primary focus:outline-none focus:ring-0 text-sm text-base-content placeholder:text-base-content/30 py-2"
           placeholder="How can we verify it's you? e.g. your Twitter/GitHub handle so we can reach out"
-        ></textarea>
+        >{@claim_user_notes}</textarea>
         <p class="text-xs text-base-content/40 mt-1">
           We'll review your claim after you confirm your email.
         </p>
@@ -158,7 +161,12 @@ defmodule ElixirEventsWeb.UserLive.Registration do
 
     socket =
       socket
-      |> assign(handle_conflict: nil, claim_profile: false, suggested_handle: nil)
+      |> assign(
+        handle_conflict: nil,
+        claim_profile: false,
+        suggested_handle: nil,
+        claim_user_notes: ""
+      )
       |> assign_form(changeset)
 
     {:ok, socket, temporary_assigns: [form: nil]}
@@ -210,7 +218,8 @@ defmodule ElixirEventsWeb.UserLive.Registration do
     end
   end
 
-  def handle_event("validate", %{"user" => user_params}, socket) do
+  def handle_event("validate", params, socket) do
+    user_params = params["user"] || %{}
     handle = (user_params["handle"] || "") |> String.downcase()
     user_params = Map.put(user_params, "handle", handle)
 
@@ -229,7 +238,8 @@ defmodule ElixirEventsWeb.UserLive.Registration do
      |> assign(
        handle_conflict: handle_conflict,
        claim_profile: claim_profile,
-       suggested_handle: suggested_handle
+       suggested_handle: suggested_handle,
+       claim_user_notes: params["claim_user_notes"] || socket.assigns.claim_user_notes
      )
      |> assign_form(Map.put(changeset, :action, :validate))}
   end
