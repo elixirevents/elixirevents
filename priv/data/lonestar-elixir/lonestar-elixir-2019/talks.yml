@@ -1,11 +1,12 @@
 ## Keynotes
 
-
-- title: "Lonestar ElixirConf 2019 - Keynote - Justin Schneck"
-  slug: "lonestar-elixirconf-2019-keynote-justin-schneck"
+- title: "Keynote: Justin Schneck"
+  slug: "keynote-justin-schneck"
   kind: keynote
   language: en
   duration: 63
+  speakers:
+    - justinschneck
   topics:
     - elixir
   recordings:
@@ -13,11 +14,13 @@
       external_id: "ItIv2ndtzFM"
       url: "https://www.youtube.com/watch?v=ItIv2ndtzFM"
 
-- title: "Lonestar ElixirConf 2019 - Cadre  Building Reliable Distributed Systems - Paul Schoenfelder"
-  slug: "keynote-cadre-building-reliable-distributed-stateful-systems"
+- title: "Cadre: Building Reliable Distributed Systems"
+  slug: "cadre-building-reliable-distributed-systems"
   kind: keynote
   language: en
   duration: 56
+  speakers:
+    - paulschoenfelder
   topics:
     - elixir
   recordings:
@@ -25,11 +28,13 @@
       external_id: "xSOuB5P_mk0"
       url: "https://www.youtube.com/watch?v=xSOuB5P_mk0"
 
-- title: "Lonestar ElixirConf 2019  - Keynote - José Valim"
-  slug: "lonestar-elixirconf-2019-keynote-jose-valim"
+- title: "Keynote: José Valim"
+  slug: "keynote-jose-valim"
   kind: keynote
   language: en
   duration: 41
+  speakers:
+    - josevalim
   topics:
     - elixir
   recordings:
@@ -37,16 +42,16 @@
       external_id: "a3FtBNMzMxM"
       url: "https://www.youtube.com/watch?v=a3FtBNMzMxM"
 
-
 ## Talks
 
-
-- title: "Lonestar ElixirConf 2019 - Monitoring Your Elixir Application with Prometheus - Eric Oestrich"
-  slug: "lonestar-elixirconf-2019-monitoring-your-elixir-application"
+- title: "Monitoring Your Elixir Application with Prometheus"
+  slug: "monitoring-your-elixir-application-with-prometheus"
   kind: talk
   level: intermediate
   language: en
   duration: 22
+  speakers:
+    - ericoestrich
   topics:
     - elixir
   recordings:
@@ -54,12 +59,14 @@
       external_id: "ETUD9SaRCjY"
       url: "https://www.youtube.com/watch?v=ETUD9SaRCjY"
 
-- title: "Lonestar ElixirConf 2019  - Building a Smart Sprinkler Controller with Nerves - Todd Resudek"
-  slug: "lonestar-elixirconf-2019-building-a-smart-sprinkler-controll"
+- title: "Building a Smart Sprinkler Controller with Nerves"
+  slug: "building-a-smart-sprinkler-controller-with-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 35
+  speakers:
+    - toddresudek
   topics:
     - elixir
     - nerves
@@ -68,12 +75,14 @@
       external_id: "qklciKp7sD8"
       url: "https://www.youtube.com/watch?v=qklciKp7sD8"
 
-- title: "Lonestar ElixirConf 2019 - The Business Case for Elixir -  Brian Cardarella"
-  slug: "lonestar-elixirconf-2019-the-business-case-for-elixir-brian"
+- title: "The Business Case for Elixir"
+  slug: "the-business-case-for-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 37
+  speakers:
+    - briancardarella
   topics:
     - elixir
   recordings:
@@ -81,12 +90,14 @@
       external_id: "jIwWsLTCC4s"
       url: "https://www.youtube.com/watch?v=jIwWsLTCC4s"
 
-- title: "Lonestar ElixirConf 2019 - Socrates and Distributed State on the BEAM - Dan Dresselhaus"
-  slug: "lonestar-elixirconf-2019-socrates-and-distributed-state-on-t"
+- title: "Socrates and Distributed State on the BEAM"
+  slug: "socrates-and-distributed-state-on-the-beam"
   kind: talk
   level: intermediate
   language: en
   duration: 34
+  speakers:
+    - dandresselhaus
   topics:
     - elixir
     - erlang
@@ -95,12 +106,14 @@
       external_id: "-7WCKKhuhfY"
       url: "https://www.youtube.com/watch?v=-7WCKKhuhfY"
 
-- title: "Lonestar ElixirConf 2019 -  Bringing Elixir to Production - Steve Bussey"
-  slug: "lonestar-elixirconf-2019-bringing-elixir-to-production-steve"
+- title: "Bringing Elixir to Production"
+  slug: "bringing-elixir-to-production"
   kind: talk
   level: intermediate
   language: en
   duration: 38
+  speakers:
+    - stevebussey
   topics:
     - elixir
   recordings:
@@ -108,12 +121,14 @@
       external_id: "sXyA4ztG1A4"
       url: "https://www.youtube.com/watch?v=sXyA4ztG1A4"
 
-- title: "Lonestar ElixirConf 2019  - Hastega: Challenge for GPGPU on Elixir - Susumu Yamazaki"
-  slug: "lonestar-elixirconf-2019-hastega-challenge-for-gpgpu-on-elix"
+- title: "Hastega: Challenge for GPGPU on Elixir"
+  slug: "hastega-challenge-for-gpgpu-on-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 24
+  speakers:
+    - susumuyamazaki
   topics:
     - elixir
   recordings:
@@ -121,12 +136,14 @@
       external_id: "lypqlGlK1So"
       url: "https://www.youtube.com/watch?v=lypqlGlK1So"
 
-- title: "Lonestar ElixirConf 2019 - Ecto Without a DB - Greg Vaughn"
-  slug: "lonestar-elixirconf-2019-ecto-without-a-db-greg-vaughn"
+- title: "Ecto Without a DB"
+  slug: "ecto-without-a-db"
   kind: talk
   level: intermediate
   language: en
   duration: 38
+  speakers:
+    - gregvaughn
   topics:
     - elixir
     - ecto
@@ -135,12 +152,14 @@
       external_id: "k_xDi7zAcNM"
       url: "https://www.youtube.com/watch?v=k_xDi7zAcNM"
 
-- title: "Lonestar ElixirConf 2019 - Things You Might Not Have Tried with Ecto - Luke Imhoff"
-  slug: "lonestar-elixirconf-2019-things-you-might-not-have-tried-wit"
+- title: "Things You Might Not Have Tried with Ecto"
+  slug: "things-you-might-not-have-tried-with-ecto"
   kind: talk
   level: intermediate
   language: en
   duration: 37
+  speakers:
+    - lukeimhoff
   topics:
     - elixir
     - ecto
@@ -149,12 +168,14 @@
       external_id: "3EyDkiDzbj8"
       url: "https://www.youtube.com/watch?v=3EyDkiDzbj8"
 
-- title: "Lonestar ElixirConf 2019 -  Erlang Ecosystgem - José Valim"
-  slug: "lonestar-elixirconf-2019-erlang-ecosystgem-jose-valim"
+- title: "Erlang Ecosystem Foundation"
+  slug: "erlang-ecosystem-foundation"
   kind: talk
   level: intermediate
   language: en
   duration: 19
+  speakers:
+    - josevalim
   topics:
     - elixir
     - erlang
@@ -163,12 +184,14 @@
       external_id: "qCA-Qu-TPoM"
       url: "https://www.youtube.com/watch?v=qCA-Qu-TPoM"
 
-- title: "Lonestar ElixirConf 2019 -  The River - Bruce Tate"
-  slug: "lonestar-elixirconf-2019-the-river-bruce-tate"
+- title: "The River"
+  slug: "the-river"
   kind: talk
   level: intermediate
   language: en
   duration: 35
+  speakers:
+    - brucetate
   topics:
     - elixir
   recordings:
@@ -176,12 +199,14 @@
       external_id: "KW85rW6-PgI"
       url: "https://www.youtube.com/watch?v=KW85rW6-PgI"
 
-- title: "Lonestar ElixirConf 2019 - Building the Factory of the Future with Elixir... - Clark Kampfe"
-  slug: "lonestar-elixirconf-2019-building-the-factory-of-the-future"
+- title: "Building the Factory of the Future with Elixir"
+  slug: "building-the-factory-of-the-future-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 49
+  speakers:
+    - clarkkampfe
   topics:
     - elixir
   recordings:
@@ -189,15 +214,15 @@
       external_id: "0Cn_n76qTIQ"
       url: "https://www.youtube.com/watch?v=0Cn_n76qTIQ"
 
-
 ## Lightning Talks
 
-
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 5 - Frank Hunleth"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-5-frank-hunleth"
+- title: "Lightning Talk 5: Frank Hunleth"
+  slug: "lightning-talk-5-frank-hunleth"
   kind: lightning_talk
   language: en
   duration: 6
+  speakers:
+    - frankhunleth
   topics:
     - elixir
   recordings:
@@ -205,11 +230,13 @@
       external_id: "DvwgGz_5D5I"
       url: "https://www.youtube.com/watch?v=DvwgGz_5D5I"
 
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 4 - Jon Forsyth"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-4-jon-forsyth"
+- title: "Lightning Talk 4: Jon Forsyth"
+  slug: "lightning-talk-4-jon-forsyth"
   kind: lightning_talk
   language: en
   duration: 3
+  speakers:
+    - jonforsyth
   topics:
     - elixir
   recordings:
@@ -217,11 +244,13 @@
       external_id: "jTTgdsLaleU"
       url: "https://www.youtube.com/watch?v=jTTgdsLaleU"
 
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 3 - Bryan Naegele"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-3-bryan-naegele"
+- title: "Lightning Talk 3: Bryan Naegele"
+  slug: "lightning-talk-3-bryan-naegele"
   kind: lightning_talk
   language: en
   duration: 5
+  speakers:
+    - bryannaegele
   topics:
     - elixir
   recordings:
@@ -229,11 +258,13 @@
       external_id: "WsUym0ewM_8"
       url: "https://www.youtube.com/watch?v=WsUym0ewM_8"
 
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 2 - Eric Oestrich"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-2-eric-oestrich"
+- title: "Lightning Talk 2: Eric Oestrich"
+  slug: "lightning-talk-2-eric-oestrich"
   kind: lightning_talk
   language: en
   duration: 2
+  speakers:
+    - ericoestrich
   topics:
     - elixir
   recordings:
@@ -241,11 +272,13 @@
       external_id: "jAfSrissuXg"
       url: "https://www.youtube.com/watch?v=jAfSrissuXg"
 
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 1 - Chris Freeze"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-1-chris-freeze"
+- title: "Lightning Talk 1: Chris Freeze"
+  slug: "lightning-talk-1-chris-freeze"
   kind: lightning_talk
   language: en
   duration: 5
+  speakers:
+    - chrisfreeze
   topics:
     - elixir
   recordings:
@@ -253,11 +286,13 @@
       external_id: "QKMqnHQ85A4"
       url: "https://www.youtube.com/watch?v=QKMqnHQ85A4"
 
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 6 - Aldebaran Alonso"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-6-aldebaran-alons"
+- title: "Lightning Talk 6: Aldebaran Alonso"
+  slug: "lightning-talk-6-aldebaran-alonso"
   kind: lightning_talk
   language: en
   duration: 6
+  speakers:
+    - aldebaranalonso
   topics:
     - elixir
   recordings:
@@ -265,11 +300,13 @@
       external_id: "XwcmEX7LHeY"
       url: "https://www.youtube.com/watch?v=XwcmEX7LHeY"
 
-- title: "Lonestar ElixirConf 2019 - Lightning Talk 7 - Steve Bussey"
-  slug: "lt-lonestar-elixirconf-2019-lightning-talk-7-steve-bussey"
+- title: "Lightning Talk 7: Steve Bussey"
+  slug: "lightning-talk-7-steve-bussey"
   kind: lightning_talk
   language: en
   duration: 6
+  speakers:
+    - stevebussey
   topics:
     - elixir
   recordings:

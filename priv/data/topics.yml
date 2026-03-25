@@ -113,3 +113,31 @@
 - name: "WebRTC"
   slug: "webrtc"
   description: "Real-time audio, video, and data communication with WebRTC"
+
+- name: "Haskell"
+  slug: "haskell"
+  description: "The Haskell programming language"
+
+- name: "Scala"
+  slug: "scala"
+  description: "The Scala programming language"
+
+- name: "F#"
+  slug: "fsharp"
+  description: "The F# programming language"
+
+- name: "OCaml"
+  slug: "ocaml"
+  description: "The OCaml programming language"
+
+- name: "Clojure"
+  slug: "clojure"
+  description: "The Clojure programming language"
+
+- name: "Idris"
+  slug: "idris"
+  description: "The Idris dependently typed programming language"
+
+- name: "Functional Programming"
+  slug: "functional-programming"
+  description: "General functional programming concepts, theory, and paradigms"

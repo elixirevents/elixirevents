@@ -1,13 +1,13 @@
-
 ## Talks
 
-
-- title: "Empex Elixir 2019 - Distributed War Stories - Miriam Pena"
-  slug: "empex-elixir-2019-distributed-war-stories-miriam-pena"
+- title: "Distributed War Stories"
+  slug: "distributed-war-stories"
   kind: talk
   level: intermediate
   language: en
   duration: 29
+  speakers:
+    - miriampena
   topics:
     - elixir
   recordings:
@@ -15,12 +15,14 @@
       external_id: "b3JQgyj17hk"
       url: "https://www.youtube.com/watch?v=b3JQgyj17hk"
 
-- title: "EMPEX LA 2019 - Living Things - Ashi Krishnan"
-  slug: "empex-la-2019-living-things-ashi-krishnan"
+- title: "Living Things"
+  slug: "living-things"
   kind: talk
   level: intermediate
   language: en
   duration: 29
+  speakers:
+    - ashikrishnan
   topics:
     - elixir
   recordings:
@@ -28,12 +30,15 @@
       external_id: "5LlpbWuB9Hc"
       url: "https://www.youtube.com/watch?v=5LlpbWuB9Hc"
 
-- title: "EMPEX LA 2019 - Go vs Elixir A concurrency comparison - Anna Neyzberg, Hannah Howard"
-  slug: "empex-la-2019-go-vs-elixir-a-concurrency-comparison-anna-ney"
+- title: "Go vs Elixir: A Concurrency Comparison"
+  slug: "go-vs-elixir-a-concurrency-comparison"
   kind: talk
   level: intermediate
   language: en
   duration: 39
+  speakers:
+    - annaneyzberg
+    - hannahhoward
   topics:
     - elixir
   recordings:
@@ -41,12 +46,14 @@
       external_id: "8Sji1c_MuUQ"
       url: "https://www.youtube.com/watch?v=8Sji1c_MuUQ"
 
-- title: "EMPEX LA 2019 - Making your Elixir API Accessible to non Elixir developers - Kalisa Falzone"
-  slug: "empex-la-2019-making-your-elixir-api-accessible-to-non-elixi"
+- title: "Making Your Elixir API Accessible to Non Elixir Developers"
+  slug: "making-your-elixir-api-accessible-to-non-elixir-developers"
   kind: talk
   level: intermediate
   language: en
   duration: 17
+  speakers:
+    - kalisafalzone
   topics:
     - elixir
   recordings:
@@ -54,12 +61,14 @@
       external_id: "vdfmIFAKNE0"
       url: "https://www.youtube.com/watch?v=vdfmIFAKNE0"
 
-- title: "EMPEX LA 2019 - Lessons From Our First Trillion Messages with Flow  - John Mertens"
-  slug: "empex-la-2019-lessons-from-our-first-trillion-messages-with"
+- title: "Lessons From Our First Trillion Messages with Flow"
+  slug: "lessons-from-our-first-trillion-messages-with-flow"
   kind: talk
   level: intermediate
   language: en
   duration: 22
+  speakers:
+    - johnmertens
   topics:
     - elixir
   recordings:
@@ -67,12 +76,14 @@
       external_id: "b342YwOzIjI"
       url: "https://www.youtube.com/watch?v=b342YwOzIjI"
 
-- title: "EMPEX LA 2019 -  Five Easy Ways To Start With Nerves - Michael Ries"
-  slug: "empex-la-2019-five-easy-ways-to-start-with-nerves-michael-ri"
+- title: "Five Easy Ways To Start With Nerves"
+  slug: "five-easy-ways-to-start-with-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 15
+  speakers:
+    - michaelries
   topics:
     - elixir
     - nerves
@@ -81,12 +92,14 @@
       external_id: "BfWac2y7cJM"
       url: "https://www.youtube.com/watch?v=BfWac2y7cJM"
 
-- title: "EMPEX LA 2019 -  Fake It  Til You Make It where it = Haskell expertise - Libby Horacek"
-  slug: "empex-la-2019-fake-it-til-you-make-it-where-it-haskell-exper"
+- title: "Fake It Til You Make It where it = Haskell Expertise"
+  slug: "fake-it-til-you-make-it-where-it-haskell-expertise"
   kind: talk
   level: intermediate
   language: en
   duration: 18
+  speakers:
+    - libbyhoracek
   topics:
     - elixir
   recordings:
@@ -94,12 +107,14 @@
       external_id: "9MmIzrDmBO0"
       url: "https://www.youtube.com/watch?v=9MmIzrDmBO0"
 
-- title: "EMPEX LA 2019 - Handling Null in Functional Programming - Evelyn Masso"
-  slug: "empex-la-2019-handling-null-in-functional-programming-evelyn"
+- title: "Handling Null in Functional Programming"
+  slug: "handling-null-in-functional-programming"
   kind: talk
   level: intermediate
   language: en
   duration: 14
+  speakers:
+    - evelynmasso
   topics:
     - elixir
   recordings:
@@ -107,13 +122,15 @@
       external_id: "aZBcRsAxG-I"
       url: "https://www.youtube.com/watch?v=aZBcRsAxG-I"
 
-- title: "EMPEX LA 2019 -  Rebuilding a BDD Testing Framework ESpec... - Bruce Park"
-  slug: "empex-la-2019-rebuilding-a-bdd-testing-framework-espec-bruce"
+- title: "Rebuilding a BDD Testing Framework ESpec: Foundations in Metaprogramming"
+  slug: "rebuilding-a-bdd-testing-framework-espec-foundations-in-metaprogramming"
   kind: talk
   level: intermediate
   language: en
   duration: 17
   abstract: "EMPEX LA 2019 -  Rebuilding a BDD Testing Framework ESpec  Foundations in Metaprogramming - Bruce Park"
+  speakers:
+    - brucepark
   topics:
     - elixir
     - testing
@@ -122,12 +139,14 @@
       external_id: "uah3b4IVRDA"
       url: "https://www.youtube.com/watch?v=uah3b4IVRDA"
 
-- title: "EMPEX LA 2019 -  Where did I put my data - Alex Peachey"
-  slug: "empex-la-2019-where-did-i-put-my-data-alex-peachey"
+- title: "Where Did I Put My Data"
+  slug: "where-did-i-put-my-data"
   kind: talk
   level: intermediate
   language: en
   duration: 28
+  speakers:
+    - alexpeachey
   topics:
     - elixir
   recordings:
@@ -135,12 +154,14 @@
       external_id: "9216dUNgKCU"
       url: "https://www.youtube.com/watch?v=9216dUNgKCU"
 
-- title: "EMPEX LA 2019 -  You might say I have mix feelings - Aaron Harpole"
-  slug: "empex-la-2019-you-might-say-i-have-mix-feelings-aaron-harpol"
+- title: "You Might Say I Have Mix Feelings"
+  slug: "you-might-say-i-have-mix-feelings"
   kind: talk
   level: intermediate
   language: en
   duration: 20
+  speakers:
+    - aaronharpole
   topics:
     - elixir
   recordings:
@@ -148,25 +169,14 @@
       external_id: "3c7ekyNUAx8"
       url: "https://www.youtube.com/watch?v=3c7ekyNUAx8"
 
-- title: "EMPEX LA 2019 - Closing Remarks"
-  slug: "empex-la-2019-closing-remarks"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 5
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "v-usVC5Af0U"
-      url: "https://www.youtube.com/watch?v=v-usVC5Af0U"
-
-- title: "EMPEX LA 2019 - Elixir Code is Elixir! Metaprogramming and Elixir - Adrian Cruz"
-  slug: "empex-la-2019-elixir-code-is-elixir-metaprogramming-and-elix"
+- title: "Elixir Code is Elixir! Metaprogramming and Elixir"
+  slug: "elixir-code-is-elixir-metaprogramming-and-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 16
+  speakers:
+    - adriancruz
   topics:
     - elixir
   recordings:
@@ -174,12 +184,14 @@
       external_id: "fHl4PWgop4g"
       url: "https://www.youtube.com/watch?v=fHl4PWgop4g"
 
-- title: "EMPEX LA 2019 - Elixir and Datadog - Ludwik Bukowski"
-  slug: "empex-la-2019-elixir-and-datadog-ludwik-bukowski"
+- title: "Elixir and Datadog"
+  slug: "elixir-and-datadog"
   kind: talk
   level: intermediate
   language: en
   duration: 22
+  speakers:
+    - ludwikbukowski
   topics:
     - elixir
   recordings:

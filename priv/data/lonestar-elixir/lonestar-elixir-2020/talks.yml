@@ -1,14 +1,14 @@
-
 ## Talks
 
-
-- title: "Lonestar Elixir 2020 Talks: Jeff Grunewald: Brook: Distributed Event-based Orchestration in Elixir"
-  slug: "lonestar-elixir-2020-talks-jeff-grunewald-brook-distributed"
+- title: "Brook: Distributed Event-based Orchestration in Elixir"
+  slug: "brook-distributed-event-based-orchestration-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - jeffgrunewald
   topics:
     - elixir
   recordings:
@@ -16,13 +16,15 @@
       external_id: "p8axklAm4-A"
       url: "https://www.youtube.com/watch?v=p8axklAm4-A"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Michael Crumm - Batch Operations with Broadway"
-  slug: "lonestar-elixir-2020-speaker-talks-michael-crumm-batch-opera"
+- title: "Batch Operations with Broadway"
+  slug: "batch-operations-with-broadway"
   kind: talk
   level: intermediate
   language: en
   duration: 16
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - michaelcrumm
   topics:
     - elixir
   recordings:
@@ -30,8 +32,8 @@
       external_id: "g88eT6Ow9aQ"
       url: "https://www.youtube.com/watch?v=g88eT6Ow9aQ"
 
-- title: "Lonestar Elixir 2020 Talks: Live and Uncut from the AlamoDrafthouse: The Wizards and Elixir Outlaws"
-  slug: "lonestar-elixir-2020-talks-live-and-uncut-from-the-alamodraf"
+- title: "Live and Uncut from the Alamo Drafthouse: The Wizards and Elixir Outlaws"
+  slug: "live-and-uncut-from-the-alamo-drafthouse-the-wizards-and-elixir-outlaws"
   kind: talk
   level: intermediate
   language: en
@@ -44,13 +46,15 @@
       external_id: "2eM5ceRmFig"
       url: "https://www.youtube.com/watch?v=2eM5ceRmFig"
 
-- title: "Lonestar Elixir Speaker: Todd Resudek - Why Your Next Hardware Project Should be Built With Nerves"
-  slug: "lonestar-elixir-speaker-todd-resudek-why-your-next-hardware"
+- title: "Why Your Next Hardware Project Should be Built With Nerves"
+  slug: "why-your-next-hardware-project-should-be-built-with-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - toddresudek
   topics:
     - elixir
     - nerves
@@ -59,13 +63,15 @@
       external_id: "BatvEJg5Vsg"
       url: "https://www.youtube.com/watch?v=BatvEJg5Vsg"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Ben Wheat: Let's Write CSS in Elixir!"
-  slug: "lonestar-elixir-2020-speaker-talks-ben-wheat-lets-write-css"
+- title: "Let's Write CSS in Elixir!"
+  slug: "lets-write-css-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 24
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - benwheat
   topics:
     - elixir
   recordings:
@@ -73,13 +79,15 @@
       external_id: "PSj3BejAxVk"
       url: "https://www.youtube.com/watch?v=PSj3BejAxVk"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Anna Neyzburg - Building Community"
-  slug: "lonestar-elixir-2020-speaker-talks-anna-neyzburg-building-co"
+- title: "Building Community"
+  slug: "building-community"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - annaneyzberg
   topics:
     - elixir
   recordings:
@@ -87,13 +95,15 @@
       external_id: "BWMIgJnp_P8"
       url: "https://www.youtube.com/watch?v=BWMIgJnp_P8"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Eric Oestrich - All Aboard the Stateful Train"
-  slug: "lonestar-elixir-2020-speaker-talks-eric-oestrich-all-aboard"
+- title: "All Aboard the Stateful Train"
+  slug: "all-aboard-the-stateful-train"
   kind: talk
   level: intermediate
   language: en
   duration: 22
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - ericoestrich
   topics:
     - elixir
   recordings:
@@ -101,13 +111,15 @@
       external_id: "XQvhjIDhKbE"
       url: "https://www.youtube.com/watch?v=XQvhjIDhKbE"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Melvin Cedeno - From Bootcamp to Contracts in Elixir"
-  slug: "lonestar-elixir-2020-speaker-talks-melvin-cedeno-from-bootca"
+- title: "From Bootcamp to Contracts in Elixir"
+  slug: "from-bootcamp-to-contracts-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - melvincedeno
   topics:
     - elixir
   recordings:
@@ -115,13 +127,15 @@
       external_id: "j0MKYWHsQ_Q"
       url: "https://www.youtube.com/watch?v=j0MKYWHsQ_Q"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Zachary Thomas - Getting the Frog Out of the Well"
-  slug: "lonestar-elixir-2020-speaker-talks-zachary-thomas-getting-th"
+- title: "Getting the Frog Out of the Well"
+  slug: "getting-the-frog-out-of-the-well"
   kind: talk
   level: intermediate
   language: en
   duration: 18
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - zacharythomas
   topics:
     - elixir
   recordings:
@@ -129,13 +143,15 @@
       external_id: "xkfJXtvGmDU"
       url: "https://www.youtube.com/watch?v=xkfJXtvGmDU"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Justin Schneck - Responsible Resources"
-  slug: "lonestar-elixir-2020-speaker-talks-justin-schneck-responsibl"
+- title: "Responsible Resources"
+  slug: "responsible-resources"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - justinschneck
   topics:
     - elixir
   recordings:
@@ -143,13 +159,15 @@
       external_id: "nP2dQwjn0EQ"
       url: "https://www.youtube.com/watch?v=nP2dQwjn0EQ"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Mark Windholtz - Testing: Cable and Chain"
-  slug: "lonestar-elixir-2020-speaker-talks-mark-windholtz-testing-ca"
+- title: "Testing: Cable and Chain"
+  slug: "testing-cable-and-chain"
   kind: talk
   level: intermediate
   language: en
   duration: 20
   abstract: "'Lonestar Elixir was held in Austin, Texas in February 2020 at the Alamo Drafthouse. With a tremendous lineup of 22 speakers and two live recordings of podcasts, the event was packed full of learning opportunities for the novice to the expert.'"
+  speakers:
+    - markwindholtz
   topics:
     - elixir
     - testing
@@ -158,13 +176,15 @@
       external_id: "fjW8f7RZjVI"
       url: "https://www.youtube.com/watch?v=fjW8f7RZjVI"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Greg Mefford - Open Telemetry"
-  slug: "lonestar-elixir-2020-speaker-talks-greg-mefford-open-telemet"
+- title: "Open Telemetry"
+  slug: "open-telemetry"
   kind: talk
   level: intermediate
   language: en
   duration: 21
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - gregmefford
   topics:
     - elixir
   recordings:
@@ -172,13 +192,15 @@
       external_id: "1NjTubmeVj8"
       url: "https://www.youtube.com/watch?v=1NjTubmeVj8"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Luke Imhoff - Lumen"
-  slug: "lonestar-elixir-2020-speaker-talks-luke-imhoff-lumen"
+- title: "Lumen"
+  slug: "lumen"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - lukeimhoff
   topics:
     - elixir
   recordings:
@@ -186,13 +208,15 @@
       external_id: "I_2H16ZM824"
       url: "https://www.youtube.com/watch?v=I_2H16ZM824"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Jon  Carstens - The Grand Bank of Jon Jon *Not FDIC Insured."
-  slug: "lonestar-elixir-2020-speaker-talks-jon-carstens-the-grand-ba"
+- title: "The Grand Bank of Jon Jon *Not FDIC Insured"
+  slug: "the-grand-bank-of-jon-jon-not-fdic-insured"
   kind: talk
   level: intermediate
   language: en
   duration: 21
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - joncarstens
   topics:
     - elixir
   recordings:
@@ -200,13 +224,15 @@
       external_id: "Etcllfo4I_c"
       url: "https://www.youtube.com/watch?v=Etcllfo4I_c"
 
-- title: "Lonestar Elixir 20 Speakers: Andrew Ek - What I Learned about Code Review Teaching 8th Grade Poetry"
-  slug: "lonestar-elixir-20-speakers-andrew-ek-what-i-learned-about-c"
+- title: "What I Learned about Code Review Teaching 8th Grade Poetry"
+  slug: "what-i-learned-about-code-review-teaching-8th-grade-poetry"
   kind: talk
   level: intermediate
   language: en
   duration: 34
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - andrewek
   topics:
     - elixir
   recordings:
@@ -214,13 +240,15 @@
       external_id: "RqV_8qCnOa0"
       url: "https://www.youtube.com/watch?v=RqV_8qCnOa0"
 
-- title: "Lonestar Elixir 2020 Speaker Talks: Dave Thomas - How I'm Becoming a Programmer"
-  slug: "lonestar-elixir-2020-speaker-talks-dave-thomas-how-im-becomi"
+- title: "How I'm Becoming a Programmer"
+  slug: "how-im-becoming-a-programmer"
   kind: talk
   level: intermediate
   language: en
   duration: 50
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - davethomas
   topics:
     - elixir
   recordings:
@@ -228,27 +256,15 @@
       external_id: "sXXh16455LA"
       url: "https://www.youtube.com/watch?v=sXXh16455LA"
 
-- title: "Lonestar Elixir Conference 2020 Sponsor Video"
-  slug: "lonestar-elixir-conference-2020-sponsor-video"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 2
-  abstract: "'Lonestar Elixir is a Functional Programming conference in Austin, TX. We thank our 2020 sponsors! We could not have this conference without you!'"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "KzQEshoQZe0"
-      url: "https://www.youtube.com/watch?v=KzQEshoQZe0"
-
-- title: 'Lonestar Elixir 2020 Speaker Talks: Samuel Mullen "Telemetry: By The Numbers"'
-  slug: "lonestar-elixir-2020-speaker-talks-samuel-mullen-telemetry-b"
+- title: "Telemetry: By The Numbers"
+  slug: "telemetry-by-the-numbers"
   kind: talk
   level: intermediate
   language: en
   duration: 27
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - samuelmullen
   topics:
     - elixir
   recordings:
@@ -256,58 +272,18 @@
       external_id: "Jd9qCdxugHg"
       url: "https://www.youtube.com/watch?v=Jd9qCdxugHg"
 
-- title: 'Lonestar Elixir 2020 Speaker Talks: Randall Thomas "Yeah, But Should We...."'
-  slug: "lonestar-elixir-2020-speaker-talks-randall-thomas-yeah-but-s"
+- title: "Yeah, But Should We..."
+  slug: "yeah-but-should-we"
   kind: talk
   level: intermediate
   language: en
   duration: 41
   abstract: "'The conference is brought to you by Groxio, LLC'"
+  speakers:
+    - randallthomas
   topics:
     - elixir
   recordings:
     - provider: youtube
       external_id: "iTfh3WD09ZE"
       url: "https://www.youtube.com/watch?v=iTfh3WD09ZE"
-
-- title: "Texas' best conference on functional programming - come join us!"
-  slug: "texas-best-conference-on-functional-programming-come-join-us"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 0
-  abstract: "'Follow us on Twitter:'"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "EsZXOvFlrfk"
-      url: "https://www.youtube.com/watch?v=EsZXOvFlrfk"
-
-- title: "Amos King, Community Builder"
-  slug: "amos-king-community-builder"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 1
-  abstract: "'Follow us on Twitter:'"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "EOm8MDNhqHQ"
-      url: "https://www.youtube.com/watch?v=EOm8MDNhqHQ"
-
-- title: "LONESTAR ELIXIR PROMO"
-  slug: "lonestar-elixir-promo"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 0
-  abstract: "'Twitter: https://twitter.com/lonestarelixir'"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "VgP-tru3Rgk"
-      url: "https://www.youtube.com/watch?v=VgP-tru3Rgk"

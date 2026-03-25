@@ -1,11 +1,14 @@
 ## Keynotes
 
-- title: "Keynote: Building an emergency software - Linda Achieng Otieno, Sigu Magwa"
-  slug: "keynote-httpswwwelixirconfeu"
+- title: "Keynote: Building an Emergency Software"
+  slug: "keynote-building-an-emergency-software"
   kind: keynote
   language: en
   duration: 49
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - lindaotieno
+    - sigumagwa
   topics:
     - elixir
   recordings:
@@ -13,12 +16,14 @@
       external_id: "E1EvKNGIYNQ"
       url: "https://www.youtube.com/watch?v=E1EvKNGIYNQ"
 
-- title: "Keynote: Q&A on LiveView - Chris McCord"
-  slug: "keynote-httpswwwelixirconfeu-1"
+- title: "Keynote: Q&A on LiveView"
+  slug: "keynote-qa-on-liveview"
   kind: keynote
   language: en
   duration: 79
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - chrismccord
   topics:
     - elixir
     - liveview
@@ -27,28 +32,17 @@
       external_id: "Rc_iqnZ05ZE"
       url: "https://www.youtube.com/watch?v=Rc_iqnZ05ZE"
 
-- title: "ElixirConf EU Virtual 2020 - Purple Carpet (recording)"
-  slug: "elixirconf-eu-virtual-2020-purple-carpet-recording"
-  kind: keynote
-  language: en
-  duration: 112
-  abstract: "Event takes place 7-8 October tickets available at https://www.elixirconf.eu/"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "mvZzp70VE8A"
-      url: "https://www.youtube.com/watch?v=mvZzp70VE8A"
-
 ## Talks
 
-- title: "Using Elixir and WhatsApp to Response COVID-19 | Simon de Haan"
-  slug: "using-elixir-and-whatsapp-to-response-covid-19-simon-de-haan"
+- title: "Using Elixir and WhatsApp to Response COVID-19"
+  slug: "using-elixir-and-whatsapp-to-response-covid-19"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Using Elixir and WhatsApp to response COVID-19 | Simon de Haan - Co founder and CTO @ Turn.io"
+  speakers:
+    - simondehaan
   topics:
     - elixir
   recordings:
@@ -56,27 +50,15 @@
       external_id: "gaJVxzNbfRM"
       url: "https://www.youtube.com/watch?v=gaJVxzNbfRM"
 
-- title: "How to use the ElixirConf EU App"
-  slug: "how-to-use-the-elixirconf-eu-app"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 6
-  abstract: "Our team walks you through the relevant sections of the Whova app to help you make the most of our virtual conferences."
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "czvkEMceBWw"
-      url: "https://www.youtube.com/watch?v=czvkEMceBWw"
-
-- title: "Telemetry and LiveDashboard | Sophie DeBenedetto"
-  slug: "telemetry-and-livedashboard-sophie-debenedetto"
+- title: "Telemetry and LiveDashboard"
+  slug: "telemetry-and-livedashboard"
   kind: talk
   level: intermediate
   language: en
   duration: 36
   abstract: "Telemetry and LiveDashboard | Sophie DeBenedetto - Software engineer @ GitHub"
+  speakers:
+    - sophiedebenedetto
   topics:
     - elixir
   recordings:
@@ -84,13 +66,15 @@
       external_id: "v9LV0hvPmUQ"
       url: "https://www.youtube.com/watch?v=v9LV0hvPmUQ"
 
-- title: "Taking back control of your life with Nerves - Ju Liu"
-  slug: "taking-back-control-of-your-life-with-nerves-ju-liu"
+- title: "Taking Back Control of Your Life with Nerves"
+  slug: "taking-back-control-of-your-life-with-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - juliu
   topics:
     - elixir
     - nerves
@@ -99,13 +83,15 @@
       external_id: "5TyduIOIGvY"
       url: "https://www.youtube.com/watch?v=5TyduIOIGvY"
 
-- title: "Introducing Surface: A new component-based (...) - Marlus Saraiva"
-  slug: "introducing-surface-a-new-component-based-marlus-saraiva"
+- title: "Introducing Surface: A New Component-Based Library"
+  slug: "introducing-surface-a-new-component-based-library"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - marlussaraiva
   topics:
     - elixir
   recordings:
@@ -113,13 +99,15 @@
       external_id: "6x-Xavz1o9M"
       url: "https://www.youtube.com/watch?v=6x-Xavz1o9M"
 
-- title: "Can we visualize software complexity? - Rafał Studnicki"
-  slug: "can-we-visualize-software-complexity-rafa-studnicki"
+- title: "Can We Visualize Software Complexity?"
+  slug: "can-we-visualize-software-complexity"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - rafalstudnicki
   topics:
     - elixir
   recordings:
@@ -127,13 +115,16 @@
       external_id: "bRJP9xzB1bw"
       url: "https://www.youtube.com/watch?v=bRJP9xzB1bw"
 
-- title: "Taking Elixir Live at a Bank - Thomas O'Rourke & Michał Olczak"
-  slug: "taking-elixir-live-at-a-bank-thomas-orourke-micha-olczak"
+- title: "Taking Elixir Live at a Bank"
+  slug: "taking-elixir-live-at-a-bank"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - thomasorourke
+    - michalolczak
   topics:
     - elixir
   recordings:
@@ -141,13 +132,15 @@
       external_id: "NvyrKcDtpUQ"
       url: "https://www.youtube.com/watch?v=NvyrKcDtpUQ"
 
-- title: "Livecoding a WebAssembly interpreter - Tonći Galić"
-  slug: "livecoding-a-webassembly-interpreter-tonci-galic"
+- title: "Livecoding a WebAssembly Interpreter"
+  slug: "livecoding-a-webassembly-interpreter"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - toncigalic
   topics:
     - elixir
   recordings:
@@ -155,13 +148,15 @@
       external_id: "9qst4GkVMrQ"
       url: "https://www.youtube.com/watch?v=9qst4GkVMrQ"
 
-- title: "From the ground to the stars - Bruno Ripa"
-  slug: "from-the-ground-to-the-stars-bruno-ripa"
+- title: "From the Ground to the Stars"
+  slug: "from-the-ground-to-the-stars"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - brunoripa
   topics:
     - elixir
   recordings:
@@ -169,13 +164,15 @@
       external_id: "4ZfBtDbxEgA"
       url: "https://www.youtube.com/watch?v=4ZfBtDbxEgA"
 
-- title: "Using Elixir for scheduling cloudnative DAG workflows - Lucjan Suski"
-  slug: "using-elixir-for-scheduling-cloudnative-dag-workflows-lucjan"
+- title: "Using Elixir for Scheduling Cloudnative DAG Workflows"
+  slug: "using-elixir-for-scheduling-cloudnative-dag-workflows"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - lucjansuski
   topics:
     - elixir
   recordings:
@@ -183,13 +180,15 @@
       external_id: "z2gtLEAgamM"
       url: "https://www.youtube.com/watch?v=z2gtLEAgamM"
 
-- title: "Elixir + Nerves + keys = Elixir keyboard! André Albuquerque"
-  slug: "elixir-nerves-keys-elixir-keyboard-andre-albuquerque"
+- title: "Elixir + Nerves + Keys = Elixir Keyboard!"
+  slug: "elixir-nerves-keys-elixir-keyboard"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - andrealbuquerque
   topics:
     - elixir
     - nerves
@@ -198,13 +197,15 @@
       external_id: "XmkANcdevOw"
       url: "https://www.youtube.com/watch?v=XmkANcdevOw"
 
-- title: "Types and Erlang from Dialyzer to (...) - Charlotte Lorelei De Oliveira"
-  slug: "types-and-erlang-from-dialyzer-to-charlotte-lorelei-de-olive"
+- title: "Types and Erlang: From Dialyzer to..."
+  slug: "types-and-erlang-from-dialyzer-to"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - charlottedeoliveira
   topics:
     - elixir
     - erlang
@@ -230,13 +231,15 @@
       external_id: "Mvs-PI0hTaE"
       url: "https://www.youtube.com/watch?v=Mvs-PI0hTaE"
 
-- title: "Building Game Engines in Elixir by Gabriel Kolawole"
-  slug: "building-game-engines-in-elixir-by-gabriel-kolawole"
+- title: "Building Game Engines in Elixir"
+  slug: "building-game-engines-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - gabrielkolawole
   topics:
     - elixir
   recordings:
@@ -244,13 +247,15 @@
       external_id: "EhjTnqgFpHw"
       url: "https://www.youtube.com/watch?v=EhjTnqgFpHw"
 
-- title: "Visual concurrency cookbook - Vámosi Dániel"
-  slug: "visual-concurrency-cookbook-vamosi-daniel"
+- title: "Visual Concurrency Cookbook"
+  slug: "visual-concurrency-cookbook"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - danielvamosi
   topics:
     - elixir
   recordings:
@@ -258,13 +263,15 @@
       external_id: "iBGr1_m6Wbk"
       url: "https://www.youtube.com/watch?v=iBGr1_m6Wbk"
 
-- title: "Artificial intelligence with Elixir the Rete (...) - Lorenzo Sinisi"
-  slug: "artificial-intelligence-with-elixir-the-rete-lorenzo-sinisi"
+- title: "Artificial Intelligence with Elixir: The Rete Algorithm"
+  slug: "artificial-intelligence-with-elixir-the-rete-algorithm"
   kind: talk
   level: intermediate
   language: en
   duration: 25
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - lorenzosinisi
   topics:
     - elixir
   recordings:
@@ -272,13 +279,15 @@
       external_id: "pvi5hURNzbk"
       url: "https://www.youtube.com/watch?v=pvi5hURNzbk"
 
-- title: "Event Sourcing with Elixir - Peter Ullrich"
-  slug: "event-sourcing-with-elixir-peter-ullrich"
+- title: "Event Sourcing with Elixir"
+  slug: "event-sourcing-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - peterullrich
   topics:
     - elixir
   recordings:
@@ -286,13 +295,15 @@
       external_id: "mmRxrq8hELY"
       url: "https://www.youtube.com/watch?v=mmRxrq8hELY"
 
-- title: "Mint Disrupting HTTP clients - Andrea Leopardi"
-  slug: "mint-disrupting-http-clients-andrea-leopardi"
+- title: "Mint: Disrupting HTTP Clients"
+  slug: "mint-disrupting-http-clients"
   kind: talk
   level: intermediate
   language: en
   duration: 36
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
   recordings:
@@ -300,13 +311,15 @@
       external_id: "slSH7t3E5YM"
       url: "https://www.youtube.com/watch?v=slSH7t3E5YM"
 
-- title: "Crashing BEAM applications - Guilherme de Maio"
-  slug: "crashing-beam-applications-guilherme-de-maio"
+- title: "Crashing BEAM Applications"
+  slug: "crashing-beam-applications"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - guilhermedemaio
   topics:
     - elixir
     - erlang
@@ -315,13 +328,15 @@
       external_id: "nfwic_RyCbw"
       url: "https://www.youtube.com/watch?v=nfwic_RyCbw"
 
-- title: "Stone Bank: how a team of initially 5  (...) - Victor Nascimento"
-  slug: "stone-bank-how-a-team-of-initially-5-victor-nascimento"
+- title: "Stone Bank: How a Team of Initially 5 Scaled with Elixir"
+  slug: "stone-bank-how-a-team-of-initially-5-scaled-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - victornascimento
   topics:
     - elixir
   recordings:
@@ -329,13 +344,15 @@
       external_id: "SSsfDCIMDDQ"
       url: "https://www.youtube.com/watch?v=SSsfDCIMDDQ"
 
-- title: "Multiplayer games and (...) with LiveView | Wiebe-Marten Wijnja"
-  slug: "multiplayer-games-and-with-liveview-wiebe-marten-wijnja"
+- title: "Multiplayer Games and Collaborative Editing with LiveView"
+  slug: "multiplayer-games-and-collaborative-editing-with-liveview"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "Multiplayer games and collaborative editing with LiveView | Wiebe-Marten Wijnja - Software Engineer"
+  speakers:
+    - wiebemartenwijnja
   topics:
     - elixir
     - liveview

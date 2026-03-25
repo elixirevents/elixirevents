@@ -1,7 +1,7 @@
 ## Keynotes
 
 - title: "Type System and Elixir Updates"
-  slug: "keynote-jose-valim"
+  slug: "keynote-type-system-and-elixir-updates"
   kind: keynote
   language: en
   duration: 41
@@ -16,7 +16,7 @@
       url: "https://www.youtube.com/watch?v=po-ckmSt1gI"
 
 - title: "Code Generators are Dead. Long Live Code Generators"
-  slug: "keynote-chris-mccord"
+  slug: "keynote-code-generators-are-dead-long-live-code-generators"
   kind: keynote
   language: en
   duration: 68

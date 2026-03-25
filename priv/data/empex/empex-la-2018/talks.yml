@@ -1,12 +1,13 @@
 ## Keynotes
 
-
-- title: "EMPEX LA 2018 - Morning Keynote: Embracing an Error-Prone Reality by Emma Cunningham"
-  slug: "empex-la-2018-morning-keynote-embracing-an-error-prone-reali"
+- title: "Morning Keynote: Embracing an Error-Prone Reality"
+  slug: "morning-keynote-embracing-an-error-prone-reality"
   kind: keynote
   language: en
   duration: 39
   abstract: "Emma is a Senior Software Engineer at Second Spectrum, where she gets to solve all kinds of fun problems around how to build compelling data visualization and analytics apps for clients like the NBA and the LA Clippers. She is actively involved in various STEAM education equity initiatives in low-in"
+  speakers:
+    - emmacunningham
   topics:
     - elixir
   recordings:
@@ -14,12 +15,14 @@
       external_id: "KmM9nt7kg68"
       url: "https://www.youtube.com/watch?v=KmM9nt7kg68"
 
-- title: "EMPEX LA 2018 - Closing Keynote by Sarah Gray"
-  slug: "empex-la-2018-closing-keynote-by-sarah-gray"
+- title: "Closing Keynote"
+  slug: "closing-keynote"
   kind: keynote
   language: en
   duration: 45
-  abstract: "Sarah has been a software developer since 2001, when she was spit out of grad school from ITP, NYU’s interactive technology program. Prior to that, she’d been directing experimental theater, which gradually led her deeper and deeper into technology and code. Since 2001, she’s worked on a cross-secti"
+  abstract: "Sarah has been a software developer since 2001, when she was spit out of grad school from ITP, NYU's interactive technology program. Prior to that, she'd been directing experimental theater, which gradually led her deeper and deeper into technology and code. Since 2001, she's worked on a cross-secti"
+  speakers:
+    - sarahgray
   topics:
     - elixir
   recordings:
@@ -27,17 +30,17 @@
       external_id: "i13pumwmq4E"
       url: "https://www.youtube.com/watch?v=i13pumwmq4E"
 
-
 ## Talks
 
-
-- title: "EMPEX LA 2018 - Life is but a Stream by Geoffrey Lessel"
-  slug: "empex-la-2018-life-is-but-a-stream-by-geoffrey-lessel"
+- title: "Life is but a Stream"
+  slug: "life-is-but-a-stream"
   kind: talk
   level: intermediate
   language: en
   duration: 22
   abstract: "A overview and dive into the Stream module. When should you use it over Enum? What are the pros and cons of using Stream for your day-to-day tasks? How are some of the functions implemented? We'll go into those questions and find some answers together."
+  speakers:
+    - geoffreylessel
   topics:
     - elixir
   recordings:
@@ -45,13 +48,15 @@
       external_id: "Bnqvz5W87Yo"
       url: "https://www.youtube.com/watch?v=Bnqvz5W87Yo"
 
-- title: "EMPEX LA 2018 - Building Beautiful Systems with ... by Andrew Hao"
-  slug: "empex-la-2018-building-beautiful-systems-with-by-andrew-hao"
+- title: "Building Beautiful Systems with Phoenix Contexts and Domain-Driven Design"
+  slug: "building-beautiful-systems-with-phoenix-contexts-and-domain-driven-design"
   kind: talk
   level: intermediate
   language: en
   duration: 36
   abstract: "Building Beautiful Systems with Phoenix Contexts and Domain-Driven Design by Andrew Hao"
+  speakers:
+    - andrewhao
   topics:
     - elixir
     - phoenix
@@ -60,13 +65,15 @@
       external_id: "oJghZB9sSuU"
       url: "https://www.youtube.com/watch?v=oJghZB9sSuU"
 
-- title: "EMPEX LA 2018 - Become a Hex Power User by Todd Resudek"
-  slug: "empex-la-2018-become-a-hex-power-user-by-todd-resudek"
+- title: "Become a Hex Power User"
+  slug: "become-a-hex-power-user"
   kind: talk
   level: advanced
   language: en
   duration: 24
   abstract: "We all use Hex every day on our Elixir projects, but how many of us really know everything Hex can do and how it works? Taking a deep dive into the Hex internals will show you some tips and tricks you can use on a future project."
+  speakers:
+    - toddresudek
   topics:
     - elixir
   recordings:
@@ -74,13 +81,16 @@
       external_id: "47hDK6VNcLo"
       url: "https://www.youtube.com/watch?v=47hDK6VNcLo"
 
-- title: "EMPEX LA 2018 - Panel: Elixir Adoption with Shanti Chellaram & Brandon Richey"
-  slug: "empex-la-2018-panel-elixir-adoption-with-shanti-chellaram-br"
+- title: "Panel: Elixir Adoption"
+  slug: "panel-elixir-adoption"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "This panel will discuss strategies for increasing Elixir adoption in your organization, and then take questions."
+  speakers:
+    - shantichellaram
+    - brandonrichey
   topics:
     - elixir
   recordings:
@@ -88,13 +98,17 @@
       external_id: "2TZOtdX1IAI"
       url: "https://www.youtube.com/watch?v=2TZOtdX1IAI"
 
-- title: "EMPEX LA 2018 - Panel: Deployment with Desmond Bowe, Benjamin Brodie & Scott Taylor"
-  slug: "empex-la-2018-panel-deployment-with-desmond-bowe-benjamin-br"
+- title: "Panel: Deployment"
+  slug: "panel-deployment"
   kind: talk
   level: intermediate
   language: en
   duration: 33
   abstract: "This panel will discuss their elixir deployment strategies, and then take questions."
+  speakers:
+    - desmondbowe
+    - benjaminbrodie
+    - scotttaylor
   topics:
     - elixir
     - deployment
@@ -103,13 +117,15 @@
       external_id: "PyZ_LD440vM"
       url: "https://www.youtube.com/watch?v=PyZ_LD440vM"
 
-- title: "EMPEX LA 2018 - Ecto.Schema without Ecto.Repo by Rosemary Ledesma"
-  slug: "empex-la-2018-ectoschema-without-ectorepo-by-rosemary-ledesm"
+- title: "Ecto.Schema without Ecto.Repo"
+  slug: "ecto-schema-without-ecto-repo"
   kind: talk
   level: intermediate
   language: en
   duration: 15
   abstract: "With newer versions of Ecto you can use Ecto.Schema without even importing Ecto.Repo or setting up a traditional database. Why would you wish to?"
+  speakers:
+    - rosemaryledesma
   topics:
     - elixir
     - ecto
@@ -118,13 +134,15 @@
       external_id: "BP-f3Kcqb1A"
       url: "https://www.youtube.com/watch?v=BP-f3Kcqb1A"
 
-- title: "EMPEX LA 2018 - Shipping a Replacement Architecture in Elixir by Chris Bell"
-  slug: "empex-la-2018-shipping-a-replacement-architecture-in-elixir"
+- title: "Shipping a Replacement Architecture in Elixir"
+  slug: "shipping-a-replacement-architecture-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 47
-  abstract: "This talk will be deep-dive of how over the last 6 months at Frame.io we shipped a replacement API architecture built entirely in Elixir and Phoenix to replace an aging Rails monolith. During the talk we’ll dig into the structure, talk about our nifty GenStage event bus, take a quick tour of moving "
+  abstract: "This talk will be deep-dive of how over the last 6 months at Frame.io we shipped a replacement API architecture built entirely in Elixir and Phoenix to replace an aging Rails monolith. During the talk we'll dig into the structure, talk about our nifty GenStage event bus, take a quick tour of moving "
+  speakers:
+    - chrisbell
   topics:
     - elixir
     - phoenix
@@ -133,13 +151,15 @@
       external_id: "Aa--NDjL9SI"
       url: "https://www.youtube.com/watch?v=Aa--NDjL9SI"
 
-- title: "EMPEX LA 2018 - A Swarm of Processes — Simulating Ant Foraging Behavior...  by Will Ockelmann Wagner"
-  slug: "empex-la-2018-a-swarm-of-processes-simulating-ant-foraging-b"
+- title: "A Swarm of Processes: Simulating Ant Foraging Behavior with OTP"
+  slug: "a-swarm-of-processes-simulating-ant-foraging-behavior-with-otp"
   kind: talk
   level: intermediate
   language: en
   duration: 23
   abstract: "A Swarm of Processes — Simulating Ant Foraging Behavior with OTP by Will Ockelmann Wagner"
+  speakers:
+    - willockelmannwagner
   topics:
     - elixir
     - otp
@@ -148,13 +168,15 @@
       external_id: "NKJFL9LpP4M"
       url: "https://www.youtube.com/watch?v=NKJFL9LpP4M"
 
-- title: "EMPEX LA 2018 - Inclusion Starts with Docs by Pete Gamache"
-  slug: "empex-la-2018-inclusion-starts-with-docs-by-pete-gamache"
+- title: "Inclusion Starts with Docs"
+  slug: "inclusion-starts-with-docs"
   kind: talk
   level: beginner
   language: en
   duration: 35
   abstract: "Great documentation is the single most powerful tool for increasing inclusion in a project. Docs can level the playing field between beginners and experts, providing everyone a better understanding of using and contributing to a library."
+  speakers:
+    - petegamache
   topics:
     - elixir
   recordings:

@@ -1,5 +1,21 @@
 ## Talks
 
+- title: "Code Generation in Elixir"
+  slug: "code-generation-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City. EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - bryanweber
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "-mgwW3RVI50"
+      url: "https://www.youtube.com/watch?v=-mgwW3RVI50"
+
 - title: "Concurrency + Distribution = Scalability + Availability"
   slug: "concurrency-distribution-scalability-availability"
   kind: talk
@@ -16,27 +32,15 @@
       external_id: "0SRBqHUGe28"
       url: "https://www.youtube.com/watch?v=0SRBqHUGe28"
 
-- title: "Code Generation in Elixir // Bryan Weber"
-  slug: "code-generation-in-elixir-bryan-weber"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 44
-  abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City. EmpEx 2016 was held on May 21, 2016."
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "-mgwW3RVI50"
-      url: "https://www.youtube.com/watch?v=-mgwW3RVI50"
-
-- title: "Micropatterns: Learning to Reach Quickly for the Right Tool // Cameron Price"
-  slug: "micropatterns-learning-to-reach-quickly-for-the-right-tool-c"
+- title: "Micropatterns: Learning to Reach Quickly for the Right Tool"
+  slug: "micropatterns-learning-to-reach-quickly-for-the-right-tool"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City. EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - cameronprice
   topics:
     - elixir
   recordings:
@@ -44,13 +48,15 @@
       external_id: "9uvp4h7gXHg"
       url: "https://www.youtube.com/watch?v=9uvp4h7gXHg"
 
-- title: "Letting the Phoenix Fly in Production // Monica Hirst"
-  slug: "letting-the-phoenix-fly-in-production-monica-hirst"
+- title: "Letting the Phoenix Fly in Production"
+  slug: "letting-the-phoenix-fly-in-production"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City.  EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - monicahirst
   topics:
     - elixir
     - phoenix
@@ -59,13 +65,15 @@
       external_id: "mRspOj_sRgo"
       url: "https://www.youtube.com/watch?v=mRspOj_sRgo"
 
-- title: "A Journey to the Center of the BEAM // Brian Mitchell"
-  slug: "a-journey-to-the-center-of-the-beam-brian-mitchell"
+- title: "A Journey to the Center of the BEAM"
+  slug: "a-journey-to-the-center-of-the-beam"
   kind: talk
   level: intermediate
   language: en
   duration: 42
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City.  EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - brianmitchell
   topics:
     - elixir
     - erlang
@@ -74,13 +82,15 @@
       external_id: "_HQfS8efVeg"
       url: "https://www.youtube.com/watch?v=_HQfS8efVeg"
 
-- title: "Async Jobs in Phoenix // George Guimarães"
-  slug: "async-jobs-in-phoenix-george-guimaraes"
+- title: "Async Jobs in Phoenix"
+  slug: "async-jobs-in-phoenix"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City.  EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - georgeguimaraes
   topics:
     - elixir
     - phoenix
@@ -89,13 +99,15 @@
       external_id: "neH0d6mWFm4"
       url: "https://www.youtube.com/watch?v=neH0d6mWFm4"
 
-- title: "Giving Back, building your first package // Brian Cardarella"
-  slug: "giving-back-building-your-first-package-brian-cardarella"
+- title: "Giving Back: Building Your First Package"
+  slug: "giving-back-building-your-first-package"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City.  EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - briancardarella
   topics:
     - elixir
   recordings:
@@ -103,13 +115,15 @@
       external_id: "7mHG841hKj4"
       url: "https://www.youtube.com/watch?v=7mHG841hKj4"
 
-- title: "Real World Elixir Deployment // Pete Gamache"
-  slug: "real-world-elixir-deployment-pete-gamache"
+- title: "Real World Elixir Deployment"
+  slug: "real-world-elixir-deployment"
   kind: talk
   level: intermediate
   language: en
   duration: 41
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City. EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - petegamache
   topics:
     - elixir
     - deployment
@@ -118,13 +132,15 @@
       external_id: "H686MDn4Lo8"
       url: "https://www.youtube.com/watch?v=H686MDn4Lo8"
 
-- title: "The Journey to Elixir in Production (at Scale) // Brandon Richey"
-  slug: "the-journey-to-elixir-in-production-at-scale-brandon-richey"
+- title: "The Journey to Elixir in Production (at Scale)"
+  slug: "the-journey-to-elixir-in-production-at-scale"
   kind: talk
   level: intermediate
   language: en
   duration: 24
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City.  EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - brandonrichey
   topics:
     - elixir
   recordings:
@@ -132,13 +148,15 @@
       external_id: "ikMgMScZ2ts"
       url: "https://www.youtube.com/watch?v=ikMgMScZ2ts"
 
-- title: "The Climb - Experiencing the Rise of Elixir from the Inside // Bruce Tate"
-  slug: "the-climb-experiencing-the-rise-of-elixir-from-the-inside-br"
+- title: "The Climb: Experiencing the Rise of Elixir from the Inside"
+  slug: "the-climb-experiencing-the-rise-of-elixir-from-the-inside"
   kind: talk
   level: intermediate
   language: en
   duration: 49
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City.  EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - brucetate
   topics:
     - elixir
   recordings:

@@ -1,7 +1,7 @@
 ## Keynotes
 
 - title: "Keynote: Gang of None? Design Patterns in Elixir"
-  slug: "keynote-jose-valim"
+  slug: "keynote-gang-of-none-design-patterns-in-elixir"
   kind: keynote
   language: en
   duration: 57
@@ -15,8 +15,8 @@
       external_id: "agkXUp0hCW8"
       url: "https://www.youtube.com/watch?v=agkXUp0hCW8"
 
-- title: "Keynote: Ship it! A Roadmap for putting Nx into Production | Christopher Grainger ElixirConf EU 2024"
-  slug: "keynote-ship-it-a-roadmap-for-putting-nx-into-production-chr"
+- title: "Keynote: Ship it! A Roadmap for putting Nx into Production"
+  slug: "keynote-ship-it-a-roadmap-for-putting-nx-into-production"
   kind: keynote
   language: en
   duration: 64
@@ -35,7 +35,7 @@
       url: "https://www.youtube.com/watch?v=5FlZHkc4Mq4"
 
 - title: "Keynote: Rethinking Serverless with FLAME"
-  slug: "keynote-chris-mccord"
+  slug: "keynote-rethinking-serverless-with-flame"
   kind: keynote
   language: en
   duration: 64
