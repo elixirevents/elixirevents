@@ -623,8 +623,13 @@
 
 - name: "Michał Muskała"
   slug: "michamuskaa"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf."
+  headline: "Software Engineer at WhatsApp"
+  bio: |
+    Michał is a long-term Elixir and Erlang enthusiast, recently working from London at WhatsApp to improve developer productivity and engineering efficiency.
+
+    In the past, Michał was involved with many Elixir libraries, including Ecto and Jason, and was an Elixir core-team member. His interest in the BEAM focuses around performance and efficiency, proving that functional doesn’t mean slow.
+
+    When not programming, he enjoys reading, travelling, and sailing - no matter if sunny, rainy or stormy. It’s even better if all of those are combined!
 
 - name: "Paul Wilson"
   slug: "paulwilson"
@@ -2325,3 +2330,57 @@
   slug: "jeffweiss"
   headline: "Software Engineer"
   bio: "Software Engineer"
+
+- name: "Zandra Norman"
+  slug: "zandranorman"
+  headline: "Software Engineer"
+  bio: "Zandra is working in the Erlang/OTP team at Ericsson, and is currently focusing on improving the scalability and efficiency of Distributed Erlang. Although her Elixir experience is limited she is happy to be a part of the community and to see it grow."
+
+- name: "Moritz Schmale"
+  slug: "moritzschmale"
+  headline: "Polyglot, Elixir, Javascript"
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/moritz-schmale-8b706919
+
+- name: "Tetiana Dushenkivska"
+  slug: "tetianadushenkivska"
+  headline: "Software Engineer"
+  bio: |
+    Tetiana is a Software Engineer with a passion for challenges and making learning fun. In her free time she contributes to open source and working on her own software/hardware projects. She is interested in the idea of mixing hardware and software together. That's why her personal projects include integration of Arduino, bunch sensors with visual output to the browser. This allows her to write fun games and enjoy "testing" them. As a social person, she likes to build social games, which include "testing" with friends. After sipping a little bit of Elixir (programming language, not actual booze) she started to fall in love with it. That's the explanation to why all her latest projects include Elixir.
+  social_links:
+    - platform: twitter
+      url: https://x.com/tetiana12345678
+    - platform: github
+      url: https://github.com/tetiana12345678
+
+- name: "Guilherme Pasqualino"
+  slug: "guilhermepasqualino"
+  headline: "Software Developer"
+  social_links:
+    - platform: github
+      url: https://github.com/ggpasqualino
+
+- name: "Andreas Böhrnsen"
+  slug: "andreasbohrnsen"
+  headline: "Software Developer"
+
+- name: "Ley Missailidis"
+  slug: "leymissailidis"
+  headline: "Software Developer"
+
+- name: "Sergii Boiko"
+  slug: "sergiiboiko"
+  headline: "Software Developer"
+
+- name: "Jakub Pawlowicz"
+  slug: "jakubpawlowicz"
+  headline: "Software Developer"
+
+- name: "Przemyslaw Krowinski"
+  slug: "przemyslawlrowinski"
+  headline: "Software Developer"
+
+- name: "Magnus Rex"
+  slug: "magnusrex"
+  headline: "Software Developer"
