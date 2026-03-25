@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "How I learned to stop worrying and love macros - Evadne Wu @ Alchemy Conf 2021"
   slug: "how-i-learned-to-stop-worrying-and-love-macros-evadne-wu-alc"
   kind: keynote
@@ -28,9 +27,7 @@
       external_id: "hE5GymSyKXM"
       url: "https://www.youtube.com/watch?v=hE5GymSyKXM"
 
-
 ## Talks
-
 
 - title: "How can applications become more secure, private, and dependable - Mrinal Wadhwa @ Alchemy Conf 2021"
   slug: "how-can-applications-become-more-secure-private-and-dependab"
@@ -87,6 +84,7 @@
   abstract: "Mateusz designs and develops various multimedia applications and libraries at Software Mansion. He enjoys solving complex problems in simple ways. He is a co-creator of Membrane."
   topics:
     - elixir
+    - webrtc
   recordings:
     - provider: youtube
       external_id: "cFdQ1-Os0EI"

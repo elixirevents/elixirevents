@@ -291,11 +291,6 @@
     - platform: github
       url: "https://github.com/bettio"
 
-- name: "Mateusz Front"
-  slug: "mateuszfront"
-  headline: "AtomVM Contributor"
-  bio: "Contributor to AtomVM, working on bringing Elixir to embedded devices."
-
 - name: "Aleksandr Lossenko"
   slug: "aleksandrlossenko"
   headline: "Creator of ContextKit"
@@ -410,8 +405,13 @@
 
 - name: "Vanessa Lee"
   slug: "vanessalee"
-  headline: "Livebook Advocate"
-  bio: "Developer and Livebook advocate."
+  headline: "Senior Engineering Manager"
+  bio: "Vanessa is a senior engineering manager, who has been developing s/w for over 20 years with a focus on the Erlang Ecosystem since 2011. She also has experience in leading teams of Elixir and QA Engineers to passionately architect and maintain software. In particular, she loves the treasure hunt of troubleshooting bugs and anomalies. In her free time, she is a student of Forensic Genealogy and Machine Learning."
+  social_links:
+    - platform: github
+      url: https://github.com/vanessaklee
+    - platform: twitter
+      url: https://x.com/girlsleuthcom
 
 - name: "Patrick Smith"
   slug: "patricksmith"
@@ -1402,7 +1402,12 @@
 - name: "Bruce Tate"
   slug: "brucetate"
   headline: "Author, Founder of Grox.IO"
-  bio: "Conference speaker."
+  bio: "Bruce Tate is a kayaker, climber, programmer and father of two from Chattanooga, Tennessee. A serial entrepreneur, he has helped start three companies, and most recently served as CTO for icanmakeitbetter. The author of more than a dozen books is active in the Elixir community as a speaker, author, editor and conference organizer. His love for teaching and computer languages led him to found Groxio in 2018."
+  social_links:
+    - platform: github
+      url: https://github.com/batate
+    - platform: twitter
+      url: https://x.com/redrapids
 
 - name: "Bryan Hunter"
   slug: "bryanhunter"
@@ -2671,3 +2676,253 @@
 - name: "Magnus Rex"
   slug: "magnusrex"
   headline: "Software Developer"
+
+- name: "Luke Imhoff"
+  slug: "lukeimhoff"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Paul Schoenfelder"
+  slug: "paulschoenfelder"
+  headline: "OSS contributor & Conference Speaker"
+  bio: |
+    Paul is currently an Architectural Engineer at DockYard, he came to Erlang and Elixir after about 10 years of working with .NET and JVM languages and has spent the past 4 years working with the BEAM professionally.
+
+    Paul is the author of a variety of tools and libraries for Elixir, most notably Distillery and Timex.
+  social_links:
+    - platform: twitter
+      url: https://x.com/gotbones
+    - platform: github
+      url: https://github.com/bitwalker
+
+- name: "Alex Garibay"
+  slug: "alexgaribay"
+  headline: "Principal Software Engineer"
+  bio: "I'm Alex Garibay. I'm an avid Elixir developer out of Kansas City. I work at Symbolic.ai as a Principal Software Engineer creating amazing experiences with Elixir, Rust, and AI. I'm member of the Phoenix Core team. Formerly at DockYard as an Engineering Manager."
+  website: https://alexgaribay.com/
+  social_links:
+    - platform: twitter
+      url: https://x.com/_alexgaribay
+    - platform: github
+      url: https://github.com/alexgaribay
+
+- name: "Scott Hamilton"
+  slug: "scotthamilton"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Geoffrey Lessel"
+  slug: "geoffreylessel"
+  headline: "Software Developer"
+  bio: "Software Developer"
+  website: https://geoffreylessel.com/
+  social_links:
+    - platform: twitter
+      url: https://x.com/geolessel
+    - platform: github
+      url: https://github.com/geolessel
+
+- name: "Lau Taarnskov"
+  slug: "lautaarnskov"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mellisa Caps"
+  slug: "mellisacaps"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Daniel Spofford"
+  slug: "danielspofford"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dennis Beatty"
+  slug: "dennisbeatty"
+  headline: "Software Developer"
+  bio: " I graduated in 2016 from BYU, and I still love going to and watching BYU football and basketball games. Right after graduating, I started working as a software engineer at Podium, building software to help local businesses manage their online reputation and learn from their customers."
+  website: https://dennisbeatty.com/
+  social_links:
+    - platform: twitter
+      url: https://x.com/dnsbty
+    - platform: github
+      url: https://github.com/dnsbty
+    - platform: mastodon
+      url: https://mastodon.social/@dnsbty
+    - platform: linkedin
+      url: https://www.linkedin.com/in/dnsbty/
+
+- name: "Tyler Clemens"
+  slug: "tylerclemens"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Todd Resudek"
+  slug: "toddresudek"
+  headline: "Hex core team member"
+  bio: "Todd is currently a staff engineer at Jackpocket in Denver, and a member of the Hex core team. Before discovering programming, he was a professional graphic designer in Los Angeles. Most things he says are directly quoted from movies or Seinfeld. The most common sources for his material are Road House, Coming To America and Blood In Blood Out (Sangre por Sangre)."
+  social_links:
+    - platform: twitter
+      url: https://x.com/sprsmpl
+    - platform: github
+      url: https://github.com/supersimple
+
+- name: "Anna Neyzberg"
+  slug: "annaneyzberg"
+  headline: "Co-founder of ElixirBridge"
+  bio: "Anna Neyzberg is a San Francisco native who has done a lot of work in the ruby community in SF and currently sits on the board of RailsBridge. She has taken this community organizing experience and last year co-founded ElixirBridge in SF- an organization that offers free weekend long workshops, with the goal of creating an inclusive welcoming space for underrepresented populations in tech to learn elixir. By day she works as a Developer at Carbon Five. When not in front of a keyboard, she is trying to get better at climbing rocks."
+  social_links:
+    - platform: twitter
+      url: https://x.com/aneyzb
+    - platform: github
+      url: https://github.com/aneyzberg
+
+- name: "Hideki Takase"
+  slug: "hidekitakase"
+  headline: "Embedded/IoT Researcher"
+  bio: "Hideki Takase is an Associate Professor at The University of Tokyo, Japan. His research interest includes runtime platform and system-level design methodology for embedded/real-time/IoT computing. He belongs to some tech communities, such as NervesJP, ROS Japan Users Group, IoT ALGYAN, hls-friends, TOPPERS project, etc. He is a member of Embedded and EPC Working Groups in Erlang Ecosystem Foundation."
+  social_links:
+    - platform: twitter
+      url: https://x.com/takasehideki
+    - platform: github
+      url: https://github.com/takasehideki
+
+- name: "Donald Ford"
+  slug: "donaldford"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jason Goldberger"
+  slug: "jasongoldberger"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sophie DeBenedetto"
+  slug: "sophiedebenedetto"
+  headline: "Staff Software Engineer @ GitHub"
+  bio: "Sophie is a Senior Engineer at GitHub and the co-author of Programming Phoenix LiveView. She is the co-host of the BeamRad.io podcast. She is committed to promoting Elixir education through weekly mentoring sessions, frequent blog posts, and by giving trainings and workshops. Historically, she is a cat person but will admit to owning a dog."
+  social_links:
+    - platform: twitter
+      url: https://x.com/sm_debenedetto
+    - platform: github
+      url: https://github.com/SophieDeBenedetto
+
+- name: "Daniel Mackey"
+  slug: "danielmackey"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mike Binns"
+  slug: "mikebinns"
+  headline: "Co-Host of Elixir RoundTable"
+  bio: "Mike Binns is an Elixir Engineer with DockYard where he enjoys taking on interesting and challenging projects. Mike enjoys contributing to the Elixir Open Source ecosystem and is the author of Elixir libraries, including Ets, Ironman, CobolToElixir, and Flame On. In his free time, he enjoys being a Call Firefighter and spending time with his wife and four boys on Boston’s North Shore."
+
+- name: "Jon Grieman"
+  slug: "jongrieman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mateusz Front"
+  slug: "mateuszfront"
+  headline: "Co-creator of Membrane"
+  bio: "Mateusz develops various multimedia applications and libraries at Software Mansion. He enjoys solving complex problems in simple ways. He is a co-creator of Membrane."
+  social_links:
+    - platform: twitter
+      url: https://x.com/uusszz
+    - platform: github
+      url: https://github.com/mat-hek
+
+- name: "Eric Christeson"
+  slug: "ericchristeson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jacqueline Manzi"
+  slug: "jacquelinemanzi"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Miriam Pena"
+  slug: "miriampena"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Scott Southworth"
+  slug: "scottsouthworth"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Keathley"
+  slug: "chriskeathley"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Emerson Macedo"
+  slug: "emersonmacedo"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Adam Mokan"
+  slug: "adammokan"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Marlus Saraiva"
+  slug: "marlussaraiva"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Phil Toland"
+  slug: "philtoland"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "David Schainker"
+  slug: "davidschainker"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Pedro Hernández"
+  slug: "pedrohernandez"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Norberto Ortigoza"
+  slug: "norbertoortigoza"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Amanda Sposito"
+  slug: "amandasposito"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Susumu Yamazaki"
+  slug: "susumuyamazaki"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Yuki Hisae"
+  slug: "yukihisae"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Desmond Bowe"
+  slug: "desmondbowe"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jorge Bejar"
+  slug: "jorgebejar"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Natasha Dowse"
+  slug: "natashadowse"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jacob Parry"
+  slug: "jacobparry"
+  headline: "Software Developer"
+  bio: "Software Developer"
