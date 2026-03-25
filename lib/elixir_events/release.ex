@@ -15,6 +15,7 @@ defmodule ElixirEvents.Release do
 
   def sync_data do
     load_app()
+    Application.ensure_all_started(:req)
 
     {:ok, _, _} =
       Ecto.Migrator.with_repo(ElixirEvents.Repo, fn _repo ->
