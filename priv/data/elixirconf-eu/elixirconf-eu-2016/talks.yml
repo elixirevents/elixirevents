@@ -1,12 +1,11 @@
 ## Keynotes
 
-
 - title: "What's Ahead for Elixir?"
-  slug: "keynote-jose-valim"
+  slug: "whats-ahead-for-elixir"
   kind: keynote
   language: en
   duration: 53
-  abstract: "José Valim, Elixir Creator, is a member of the Ruby on Rails Core Team and a writer for Pragmatic Programmers. Software developer for 8 years, he graduated in Engineering from the São Paulo University, Brazil and has a Master of Science from Politecnico di Torino, Italy. He is also the lead-develope"
+  abstract: "José Valim, Elixir Creator, is a member of the Ruby on Rails Core Team and a writer for Pragmatic Programmers. Software developer for 8 years, he graduated in Engineering from the São Paulo University, Brazil and has a Master of Science from Politecnico di Torino, Italy. He is also the lead-developer of Plataformatec, a consultancy firm based in Brazil, an active member of the Open Source community and is frequently travelling and speaking at conferences."
   speakers:
     - josevalim
   topics:
@@ -17,11 +16,11 @@
       url: "https://www.youtube.com/watch?v=A60nxws_iVs"
 
 - title: "Phoenix 1.2 and Beyond"
-  slug: "keynote-chris-mccord"
+  slug: "phoenix-1-2-and-beyond"
   kind: keynote
   language: en
   duration: 54
-  abstract: "Chris McCord is the creator of the Phoenix framework, and author of Metaprogramming Elixir and Programming Phoenix. He spends his days crafting OSS and web applications at DockYard. His current interests focus on new web technologies, distributed programming, and teaching others the tools of the tra"
+  abstract: "Chris McCord is the creator of the Phoenix framework, and author of Metaprogramming Elixir and Programming Phoenix. He spends his days crafting OSS and web applications at DockYard. His current interests focus on new web technologies, distributed programming, and teaching others the tools of the trade."
   speakers:
     - chrismccord
   topics:
@@ -34,11 +33,26 @@
       url: "https://www.youtube.com/watch?v=n338leKvqnA"
 
 - title: "Enhanced Embedded Systems with Nerves"
-  slug: "keynote-justin-schneck"
+  slug: "enhanced-embedded-systems-with-nerves"
   kind: keynote
   language: en
   duration: 56
-  abstract: "Nerves defines an entirely new way to build embedded systems with Elixir that could revolutionize an industry. Imagine booting to the BEAM VM in just a few seconds with your Elixir app in control of the entire system. Nerves makes this possible while replacing the traditional plethora of Linux init "
+  abstract: |
+    Nerves defines an entirely new way to build embedded systems with Elixir that could revolutionize an industry. Imagine booting to the BEAM VM in just a few seconds with your Elixir app in control of the entire system. Nerves makes this possible while replacing the traditional plethora of Linux init scripts or systemd configuration files with a toolchain that is delightful to use. The Nerves philosophy is that you already have a powerful, concurrent language to define what the system should do at start-up time: Elixir. Together, we'll explore the principles Nerves uses to create embedded systems that control 3d printers, power unmanned areal vehicles, and more. You'll see first-hand how Nerves can support service discovery, hot code swapping, and collaboration through PubSub messages and mesh networking. Finally, we will explore the Nerves development life-cycle; from running ExTest, to deployment and hot code reloading.
+
+    Talk objectives
+
+    Introduce developing embedded systems in Elixir using Nerves
+
+    Explore the Nerves development life-cycle
+
+    Demonstrate autonomous robotics using service discovery and messaging
+
+    Execute tests, create user interfaces with Phoenix, and perform hot code updates
+
+    Target audience
+
+    Creating devices and systems which enhance our environment is fundamental to our nature. The exploration into creating hardware that runs Elixir is geared toward the maker in all of us. Join us for an exciting demonstration into the creation of enhanced embedded systems with Elixir and Nerves.
   speakers:
     - justinschneck
   topics:
@@ -50,9 +64,7 @@
       external_id: "118-g0ODfgg"
       url: "https://www.youtube.com/watch?v=118-g0ODfgg"
 
-
 ## Talks
-
 
 - title: "Credo - Analysing AST for Fun and Profit"
   slug: "credo-analysing-ast-for-fun-and-profit"
@@ -60,7 +72,16 @@
   level: intermediate
   language: en
   duration: 37
-  abstract: "Today's developer tools are mostly used in a very technocratic fashion where there's success and failure, 1 and 0. Either a tool thinks you're totally wrong or you're 100% right. You get shouted at or praised. There is no middle ground. Except there is. Credo, the first teaching code linter for Elix"
+  abstract: |
+    Today's developer tools are mostly used in a very technocratic fashion where there's success and failure, 1 and 0. Either a tool thinks you're totally wrong or you're 100% right. You get shouted at or praised. There is no middle ground. Except there is. Credo, the first teaching code linter for Elixir, puts its focus on the in-between: How errors can be opportunities for learning. How AST analysis can be fun and educational. And how one can combine these features into a professional tool that gives straight results while still treating its users as human beings. This talk will show the importance of teaching, learning, user experience and interface design so everyone can see how the idea of "less dogmatic code analysis" led to the creation of a tool that excites Alchemists around the globe.
+
+    Talk objectives
+
+    To show the educational and community-supporting relevance of human-focused tooling.
+
+    Target audience
+
+    Elixir programmers and everyone interested in becoming one.
   speakers:
     - renefohring
   topics:
@@ -76,7 +97,16 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "Phoenix and Phaser might sound like a cheesy pop band but get these two frameworks playing nice together and you're guaranteed a party. Both are blistering fast, and incredibly easy to use. Building multiplayer games has never been easier."
+  abstract: |
+    Phoenix and Phaser might sound like a cheesy pop band but get these two frameworks playing nice together and you're guaranteed a party. Both are blistering fast, and incredibly easy to use. Building multiplayer games has never been easier.
+
+    Talk objectives
+
+    This talk will take you on a step by step guide building yourself a game template, and then using that template to create several multiplayer games. We will introduce you to the joy of creating games using these two wonderful frameworks, and demonstrate some of the possibilities, as well as highlighting some of the challenges and common pitfalls to avoid when developing multiplayer games.
+
+    Target audience
+
+    Beginners and anyone interested in having fun with Phoenix channels.
   speakers:
     - keithsalisbury
   topics:
@@ -93,7 +123,16 @@
   level: intermediate
   language: en
   duration: 41
-  abstract: "Elixir/Erlang systems are typically powered by thousands, or sometimes even millions of processes, which, in order to work together, frequently send messages to each other. To send a message to a process, we need to obtain its process id (aka pid). In this talk I'll present various ways of achieving"
+  abstract: |
+    Elixir/Erlang systems are typically powered by thousands, or sometimes even millions of processes, which, in order to work together, frequently send messages to each other. To send a message to a process, we need to obtain its process id (aka pid). In this talk I'll present various ways of achieving this seemingly simple task. Drawing from my own experience in wheel reinvention and choosing inappropriate solutions, I'll discuss strengths, weaknesses, and caveats associated with each approach. After the talk you will not only be able to find your processes - you will also be able to select the best approach for each given situation.
+
+    Talk objectives
+
+    To systematically present typical techniques that can be used in one of the most important task of almost every Elixir/Erlang based system.
+
+    Target audience
+
+    Mostly people who are just starting to explore concurrency in Elixir/Erlang. More experienced programmers might also discover some useful tips.
   speakers:
     - sasajuric
   topics:
@@ -105,13 +144,24 @@
       external_id: "y_b6RTes83c"
       url: "https://www.youtube.com/watch?v=y_b6RTes83c"
 
-- title: "Zandra Norman - Scaling Distributed Erlang"
-  slug: "zandra-norman-scaling-distributed-erlang"
+- title: "Scaling Distributed Erlang"
+  slug: "scaling-distributed-erlang"
   kind: talk
   level: intermediate
   language: en
   duration: 47
-  abstract: "One of the great things with Erlang is how easy it is to distribute. Distributed Erlang makes applications transparent when porting them from a single computer to multiple computers in a network. There are still areas for improvement though, and the OTP team is working on improving the scalability a"
+  abstract: |
+    One of the great things with Erlang is how easy it is to distribute. Distributed Erlang makes applications transparent when porting them from a single computer to multiple computers in a network. There are still areas for improvement though, and the OTP team is working on improving the scalability and services of Distributed Erlang. In this talk we'll see what plans we have for the Erlang Distribution.
+
+    Talk objectives:
+    How Distributed Erlang works today, some issues with it and how to avoid them
+
+    The future of Distributed Erlang
+
+    Target audience:
+    Anyone interested in building scalable applications with Elixir or Erlang
+  speakers:
+    - zandranorman
   topics:
     - elixir
     - otp
@@ -127,7 +177,14 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "In Elixir applications, there's often the need to have persistent connections to external services such as TCP connections to database servers. In this talk, we'll explore how to build such connections in a way that takes advantage of some of Elixir's most appreciated features: concurrency and resil"
+  abstract: |
+    In Elixir applications, there's often the need to have persistent connections to external services such as TCP connections to database servers. In this talk, we'll explore how to build such connections in a way that takes advantage of some of Elixir's most appreciated features: concurrency and resiliency. We'll see how to make such connections concurrent, e.g., making them asynchronous or using pooling, and how to make them resilient by reacting to network failures and disconnections. We'll reserve some time to explore TCP connections in particular and talk about dealing with binary protocols.
+
+    Talk objectives:
+    After this talk, you'll be able to take advantage of the techniques I discussed to build connections to external services in your application or in libraries you're developing (database drivers are great candidates for these techniques).
+
+    Target audience:
+    This talk is directed at anyone who has just enough Elixir experience to be able to understand the language syntax and core principles (such as its concurrency models) and that is familiar with the basics of OTP (such as GenServers).
   speakers:
     - andrealeopardi
   topics:
@@ -144,7 +201,20 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "With nearly 3000 commits and 200 contributors Ecto is one of the biggest and oldest Elixir repositories. Not only that - it's one of the most popular Elixir projects. And yet there's a lot happening all the time, especially now with the 2.0 release. Looking at the commit history of Ecto one can disc"
+  abstract: |
+    With nearly 3000 commits and 200 contributors Ecto is one of the biggest and oldest Elixir repositories. Not only that - it's one of the most popular Elixir projects. And yet there's a lot happening all the time, especially now with the 2.0 release. Looking at the commit history of Ecto one can discover a journey most of Elixir developers take - first trying to force object-oriented habits into functional frame, later sprinkling some functional goodness here-and-there to finally entirely accept and embrace it and fully leverage OTP. The talk will take us through this journey focusing though on the more recent changes. Audience will discover how changes in the language affected the library and, in reverse, how the development of Ecto affected Elixir itself. For a short time, the talk will focus on the NoSQL integration, what it means and why it was possible to integrate, rather SQL oriented Ecto, with NoSQL databases that easily. We'll see exactly what architectural choices in Ecto and what features of Elixir allow for creating such a versatile software. Briefly, other database libraries (in Elixir and not only) will be looked into in search for the inspiration of some of the Ecto's features. We'll see how those ideas were incorporated, modified and expanded upon. The bulk part of the talk will centre on the recent changes, exploring and explaining them in depth. It will focus especially on changes affecting application's architecture and promoting functional style of programs: migration from Model to Schema, deprecation of callbacks and introduction of Ecto.Multi. With that last change, we'll discuss a new way of building application's service layer for database interaction that Multi makes possible and easy to build. Finally, together, we'll look into the future and wish how Ecto and it's ecosystem can be further developed and expanded.
+
+    Talk objectives:
+    Gaining a better understanding of what functional programming means through analysis of real code and looking into it's evolution.
+
+    Exploring how Elixir can be used for building flexible and clean software.
+
+    Understanding basic concepts of Ecto, it's recent changes and new features.
+
+    Finding out how database applications can be structured with the use of Ecto.
+
+    Target audience:
+    Intermediate developers familiar with Elixir and it's concepts. Some knowledge of Ecto may help but it is definitely not required.
   speakers:
     - michamuskaa
   topics:
@@ -162,7 +232,14 @@
   level: intermediate
   language: en
   duration: 38
-  abstract: "We have built backends for three games in Elixir. Going to talk about what we learnedand how we did these. Also share a bit about our journey to using Elixir/Erlang."
+  abstract: |
+    We have built backends for three games in Elixir. Going to talk about what we learnedand how we did these. Also share a bit about our journey to using Elixir/Erlang.
+
+    Talk objectives:
+    Learn about working production systems. Learn about solutions used to build realtime PvP, singleplayer and a turn based games. How we deploy the servers.
+
+    Target audience:
+    Game developers, programmers, devops people.
   speakers:
     - roopekangas
   topics:
@@ -179,7 +256,14 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "How to Build a Slack-Controlled, Saxophone-Playing Robot (on Wheels) Using Elixir and Nerves"
+  abstract: |
+    Starting with a brief explanation for why Elixir is an excellent choice for embedded systems, we will look at how to building a cool Elixir robot, using [Nerves](http://nerves-project.org). ​ You will learn how to: ​ * get started (often the hardest part) * structure an embedded OTP appplication * customise an embedded linux using Buildroot/Nerves * control your robot using an embedded web server * control your robot with [Slack](https://slack.com) ​ You will leave this presentation with more than just inspiration; you will have an actionable plan to make something fun with embedded Elixir. You will also have a genuine stepping stone towards creating a robust and secure Internet of Things product.
+
+    Talk objectives:
+    The audience should leave with a clear understanding of how to get started with embedded Elixir. It will be a practical, rather than purely inspirational talk.
+
+    Target audience:
+    Those with some Elixir knowledge, but no experience of using Nerves to embed Elixir.
   speakers:
     - paulwilson
   topics:
@@ -196,7 +280,16 @@
   level: intermediate
   language: en
   duration: 46
-  abstract: '\"A Transmuting Journey: From a Ruby on Rails Monolith to Elixir and Elm Microservices \"'
+  abstract: |
+    "A Transmuting Journey: From a Ruby on Rails Monolith to Elixir and Elm Microservices "
+
+    MyMeds&Me is a startup company based in central London that provides a software as a service for pharmaceuticals to track the side effects of medications in a systematical way and exports the reports in a standardised format for the clients safety system. The current application is based on Ruby on Rails, Postgres and ElasticSearch and is hosted per client in a virtualised infrastructure managed by Puppet at a GxP compliant hosting provider. On the verge to grow the business we face some fundamental issues with the Rails application and it's architectural design. In order to grow the business and be able to scale the Dev team we had to find solutions for it. We addressed the issues in a new platform with a quite different approach. Different to Ruby on Rails but also probably to a typical Elixir/Phoenix application. In this session I want to present the solution we came up with and share the experience we made in this transmuting journey from a Ruby on Rails monolith to Elixir and Elm microservices.
+
+    Talk objectives:
+    What are the benefits and drawbacks of using an event-driven microservice architecture? Why did we need a new infrastructure approach? Why did we choose Elixir? Why didn't we use a distributed Elixir application? Why did we choose Elm for frontend services? Which challenges we had to face? How was the transition phase for the team?
+
+    Target audience:
+    Elixir and Erlang developers with any range of experience interested in software architecture and design.
   speakers:
     - volkerrabe
   topics:
@@ -212,7 +305,14 @@
   level: intermediate
   language: en
   duration: 40
-  abstract: "This talk will discuss how the Phoenix team was able to create a single chat room with 2 million users on a single machine. Benchmarking WebSockets is a little more in depth than benchmarking HTTP requests, this talk covers the Tsung tool which was used for the benchmarks and how it can be configure"
+  abstract: |
+    This talk will discuss how the Phoenix team was able to create a single chat room with 2 million users on a single machine. Benchmarking WebSockets is a little more in depth than benchmarking HTTP requests, this talk covers the Tsung tool which was used for the benchmarks and how it can be configured for different testing scenarios. I will cover how Tsung was used to find the concurrent connection limits that Phoenix could handle. I will then cover the techniques that were used to find the parts of the Phoenix codebase with the bottlenecks that caused these limits and how these limits were overcome.
+
+    Talk objectives:
+    Learn how to benchmark WebSockets using Tsung Explore how to find and fix bottlenecks.
+
+    Target audience:
+    Anyone interested in Phoenix Channel performance.
   speakers:
     - garyrennie
   topics:
@@ -229,25 +329,48 @@
   level: intermediate
   language: en
   duration: 43
-  abstract: "Every new language or framework needs time to prove itself in production, for its early adopter to try, fail, iterate, and document what they have learned. Elixir and Phoenix can leverage the 30 years head-start of the underlying Erlang platform, but for newcomers to the platform it is not always ea"
+  abstract: |
+    Every new language or framework needs time to prove itself in production, for its early adopter to try, fail, iterate, and document what they have learned. Elixir and Phoenix can leverage the 30 years head-start of the underlying Erlang platform, but for newcomers to the platform it is not always easy to find and apply Erlang best practices. This talk explores some specific security-related aspects of Elixir, Phoenix and the Erlang VM, through practical demonstrations and use-cases. Topics covered include: use of Erlang's 'ssl' module, distributed Erlang, and VM hardening against DoS attacks.
+
+    Talk objectives:
+    The purpose of this talk is to make people familiar with some of the Erlang/Elixir specific security considerations. It is focussed on those things that may surprise people coming to Elixir from other languages, and therefore skims over common attack patterns (XSS, CSRF, SQLI, etc.) and their mitigations.
+
+    Target audience:
+    Anyone planning to deploy an Elixir application, with or without experience in deployment/security using other languages/platforms.
   speakers:
     - bramverburg
   topics:
     - elixir
     - phoenix
     - erlang
+    - security
   recordings:
     - provider: youtube
       external_id: "r0DuAse9tK8"
       url: "https://www.youtube.com/watch?v=r0DuAse9tK8"
 
-- title: "(...) Phoenix on Riak_Core (ElixirconfEU 2016)"
-  slug: "phoenix-on-riak-core-elixirconfeu-2016"
+- title: "(...) Phoenix on Riak_Core"
+  slug: "phoenix-on-riak-core"
   kind: talk
   level: intermediate
   language: en
   duration: 38
-  abstract: "Experimenting with Superpowered Web Services: Phoenix on Riak_Core"
+  abstract: |
+    Through Erlang, Elixir developers have access to some amazing tools for building resilient distributed systems. riak_core is one such tool: it provides the framework behind Riak’s high availability KV store. In this talk, I’d like to explore some unconventional architecture by using riak_core and Phoenix to build fault-tolerant stateful web applications. What happens when the app servers are also the database nodes? Can we avoid some of the traditional pitfalls of stateful servers? Is this a remotely good idea? Let’s take a look!
+
+    Talk objectives:
+    1) Stateless/stateful setups for web applications — what do these words mean?
+
+    2) CAP in brief, consistent hash rings for distributing work: what are the tradeoffs?
+
+    3) riak_core - what does it do? Paraphrasing Mariano Guerra’s excellent work.
+
+    4) Build a Phoenix application that cohabitates on a riak_core hash ring. What superpowers do we gain from this? What do we have to watch out for? Can we do cool tricks with load balancing or channels? In-memory databases for super-speedy responses?
+
+    5) Loosely comparable systems in production/prior art - Microsoft Orleans, Facebook Scuba, others
+
+    Target audience:
+    Intermediate+ Elixir programmers, web developers, students of distributed systems.
   speakers:
     - bentyler
   topics:
@@ -264,7 +387,18 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Frameworks are a great help to web developers in all languages. The productivity increases are real, but there's a catch. Framework elements tend to entangle and overshadow an application's domain entities. This effectively chains the application to the framework. Choosing a new framework, or choosi"
+  abstract: |
+    Frameworks are a great help to web developers in all languages. The productivity increases are real, but there's a catch. Framework elements tend to entangle and overshadow an application's domain entities. This effectively chains the application to the framework. Choosing a new framework, or choosing a new interface entirely, almost certainly means a rewrite. Elixir and Phoenix offer a way out. We can build an application in pure Elixir before we ever run "mix phoenix.new". We can test this application in isolation to improve our confidence in it. We can bring it into a new Phoenix project as a dependency. Then Phoenix can do what it does best, be the application's web interface.
+
+    Talk objectives:
+    Expand our understanding beyond traditional patterns of web application development.
+
+    Explore new techniques that Elixir and Phoenix make available.
+
+    Understand the Elixir and Phoenix constructs which make these techniques possible.
+
+    Target audience:
+    This talk is for anybody who is interested in web development.
   speakers:
     - lancehalvorsen
   topics:
@@ -275,15 +409,15 @@
       external_id: "lDKCSheBc-8"
       url: "https://www.youtube.com/watch?v=lDKCSheBc-8"
 
-
 ## Lightning Talks
 
-
-- title: "Lightning Talks - Moritz Schmale"
-  slug: "lt-lightning-talks-moritz-schmale"
+- title: "Lightning Talks: Fixing Audio on the Desktop"
+  slug: "ightning-talks-fixing-audio-on-the-desktop"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - moritzschmale
   topics:
     - elixir
   recordings:
@@ -291,11 +425,13 @@
       external_id: "fdjD5QHjNH4"
       url: "https://www.youtube.com/watch?v=fdjD5QHjNH4"
 
-- title: "Lightning Talks - Tetiana Dushenkivska"
-  slug: "lt-lightning-talks-tetiana-dushenkivska"
+- title: "Lightning Talks: Elixir Flash Cards"
+  slug: "ightning-talks-elixir-flash-cards"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - tetianadushenkivska
   topics:
     - elixir
   recordings:
@@ -303,59 +439,73 @@
       external_id: "GqFVgQKlEAM"
       url: "https://www.youtube.com/watch?v=GqFVgQKlEAM"
 
-- title: "Lightning Talks - Guilherme Gonçalves Pasqualino"
-  slug: "lt-lightning-talks-guilherme-goncalves-pasqualino"
+- title: "Lightning Talks: Meet the Meetup"
+  slug: "lightning-talks-meet-the-meetup"
   kind: lightning_talk
   language: en
   duration: 3
+  speakers:
+    - guilhermepasqualino
   topics:
     - elixir
+    - community
   recordings:
     - provider: youtube
       external_id: "j4BbKyRzXEY"
       url: "https://www.youtube.com/watch?v=j4BbKyRzXEY"
 
-- title: "Lightning Talks - Andreas Böhrnsen"
-  slug: "lt-lightning-talks-andreas-bohrnsen"
+- title: "Lightning Talks: Integrate Phoenix into your existing backend stack"
+  slug: "lightning-talks-integrate-phoenix"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - andreasbohrnsen
   topics:
     - elixir
+    - phoenix
   recordings:
     - provider: youtube
       external_id: "NOP8vgDzlLA"
       url: "https://www.youtube.com/watch?v=NOP8vgDzlLA"
 
-- title: "Lightning Talks - Ley Missailidis"
-  slug: "lt-lightning-talks-ley-missailidis"
+- title: "Lightning Talks: Responsive Design, Elm, and Channels"
+  slug: "lightning-talks-responsive-design-elm-and-channels"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - leymissailidis
   topics:
-    - elixir
+    - elm
+    - phoenix
   recordings:
     - provider: youtube
       external_id: "EI1oDiQyz_o"
       url: "https://www.youtube.com/watch?v=EI1oDiQyz_o"
 
-- title: "Lightning Talks - Sergii Boiko"
-  slug: "lt-lightning-talks-sergii-boiko"
+- title: "Lightning Talks: Learning Elixir in a fun way on CodeWars"
+  slug: "lightning-talks-learning-elixir"
   kind: lightning_talk
   language: en
   duration: 3
+  speakers:
+    - sergiiboiko
   topics:
     - elixir
+    - learning
   recordings:
     - provider: youtube
       external_id: "k3OHyzUhiOU"
       url: "https://www.youtube.com/watch?v=k3OHyzUhiOU"
 
-- title: "Lightning Talks - Jakub Pawlowicz"
-  slug: "lt-lightning-talks-jakub-pawlowicz"
+- title: "Lightning Talks: Smoking Pipe"
+  slug: "lightning-talks-smoking-pipe"
   kind: lightning_talk
   language: en
   duration: 3
+  speakers:
+    - jakubpawlowicz
   topics:
     - elixir
   recordings:
@@ -363,23 +513,29 @@
       external_id: "wDBNDPD9_Gw"
       url: "https://www.youtube.com/watch?v=wDBNDPD9_Gw"
 
-- title: "Lightning Talks - Przemyslaw Krowinski"
-  slug: "lt-lightning-talks-przemyslaw-krowinski"
+- title: "Lightning Talks: Experiements with Elixir, Phoenix, and Elm"
+  slug: "lightning-talks-experiments-with-elixir-phoenix-elm"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - przemyslawlrowinski
   topics:
     - elixir
+    - phoenix
+    - elm
   recordings:
     - provider: youtube
       external_id: "ZwaTWFkDARI"
       url: "https://www.youtube.com/watch?v=ZwaTWFkDARI"
 
-- title: "Lightning Talks - Martin Schürrer"
-  slug: "lt-lightning-talks-martin-schurrer"
+- title: "Lightning Talks: Mocking HTTP APIs with Bypass"
+  slug: "lightning-talks-mocking-http-apis-with-bypass"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - martinschurrer
   topics:
     - elixir
   recordings:
@@ -387,11 +543,13 @@
       external_id: "Kh6m4EQBb0k"
       url: "https://www.youtube.com/watch?v=Kh6m4EQBb0k"
 
-- title: "Lightning Talks - Wojtek Mach"
-  slug: "lt-lightning-talks-wojtek-mach"
+- title: "Lightning Talks: Advanced OOP in Elixir"
+  slug: "lightning-talks-advanced-oop-in-elixir"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - wojtekmach
   topics:
     - elixir
   recordings:
@@ -399,13 +557,16 @@
       external_id: "5EtV2JUU0Z4"
       url: "https://www.youtube.com/watch?v=5EtV2JUU0Z4"
 
-- title: "Lightning Talks - Magnus Rex"
-  slug: "lt-lightning-talks-magnus-rex"
+- title: "Lightning Talks: Building a collaborative editor in Phoenix and Elm"
+  slug: "lightning-talks-building-a-collaborative-editor"
   kind: lightning_talk
   language: en
   duration: 4
+  speakers:
+    - magnusrex
   topics:
-    - elixir
+    - phoenix
+    - elm
   recordings:
     - provider: youtube
       external_id: "KET0j2Uog-U"
