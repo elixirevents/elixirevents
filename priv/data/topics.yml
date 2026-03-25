@@ -82,10 +82,6 @@
   slug: "learning"
   description: "Learning strategies, educational approaches, and resources for the BEAM ecosystem"
 
-- name: "Membrane"
-  slug: "membrane"
-  description: "Multimedia processing and streaming with the Membrane Framework"
-
 - name: "Rust"
   slug: "rust"
   description: "Using Rust with Elixir and the BEAM, including NIFs and native extensions"
@@ -113,3 +109,7 @@
 - name: "Kubernetes"
   slug: "kubernetes"
   description: "Kubernetes orchestration, containerization, and cluster operations"
+
+- name: "WebRTC"
+  slug: "webrtc"
+  description: "Real-time audio, video, and data communication with WebRTC"

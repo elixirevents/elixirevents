@@ -1,11 +1,15 @@
 ## Keynotes
 
-
-- title: "Day 1 Morning Keynote - Brian Cardarella, Luke Imhoff, Paul Schoenfelder"
-  slug: "day-1-morning-keynote-brian-cardarella-luke-imhoff-paul-scho"
+- title: "Keynote: Day 1 Morning"
+  slug: "keynote-day-1-morning"
   kind: keynote
   language: en
   duration: 72
+  abstract: "The ElixirConf 2019 Day 1 Morning Keynote, delivered by Brian Cardarella, Luke Imhoff, and Paul Schoenfelder, focused on Lumen, an alternative BEAM implementation designed for WebAssembly. It introduced how Lumen brings Elixir to the browser and other environments by compiling to WebAssembly rather than running on the standard BEAM VM."
+  speakers:
+    - briancardarella
+    - lukeimhoff
+    - paulschoenfelder
   topics:
     - elixir
   recordings:
@@ -13,77 +17,55 @@
       external_id: "uMgTIlgYB-U"
       url: "https://www.youtube.com/watch?v=uMgTIlgYB-U"
 
-- title: "Day 2 Morning Keynote - Justin Schneck"
-  slug: "day-2-morning-keynote-justin-schneck"
+- title: "Keynote: Day 2 Morning"
+  slug: "keynote-day-2-morning"
   kind: keynote
   language: en
   duration: 56
+  abstract: "In his ElixirConf 2019 keynote, Justin Schneck highlighted the evolution of the Nerves Project, focusing on Elixir 1.9 release integration, Raspberry Pi 4 support, and improved remote management via NervesHub. The presentation featured a live demo of a distributed snake game and discussed experimental Docker integration for embedded systems."
+  speakers:
+    - justinschneck
   topics:
     - elixir
+    - nerves
+    - embedded
   recordings:
     - provider: youtube
       external_id: "fRP_dVton7o"
       url: "https://www.youtube.com/watch?v=fRP_dVton7o"
 
-- title: "Day 1 Morning Keynote - Brian Cardarella, Luke Imhoff, Paul Schoenfelder"
-  slug: "day-1-morning-keynote-brian-cardarella-luke-imhoff-paul-scho-2"
-  kind: keynote
-  language: en
-  duration: 72
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "uMgTIlgYB-U"
-      url: "https://www.youtube.com/watch?v=uMgTIlgYB-U"
-
-- title: "Day 2 Morning Keynote - Justin Schneck"
-  slug: "day-2-morning-keynote-justin-schneck-1"
-  kind: keynote
-  language: en
-  duration: 56
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "fRP_dVton7o"
-      url: "https://www.youtube.com/watch?v=fRP_dVton7o"
-
-- title: "Friday Evening Keynote - Chris McCord"
-  slug: "friday-evening-keynote-chris-mccord"
+- title: "Keynote: Friday Evening"
+  slug: "keynote-friday-evening"
   kind: keynote
   language: en
   duration: 55
+  abstract: "In the ElixirConf 2019 Friday Evening Keynote, Chris McCord introduced Phoenix LiveView, demonstrating its capability to deliver rich, real-time user experiences while reducing the complexity of traditional heavy JavaScript frontends. The presentation highlighted the official release of LiveView and showcased technical capabilities like phx-update, phx-hook, and improved browser history management via live_link."
+  speakers:
+    - chrismccord
   topics:
-    - elixir
+    - phoenix
+    - liveview
   recordings:
     - provider: youtube
       external_id: "XhNv1ikZNLs"
       url: "https://www.youtube.com/watch?v=XhNv1ikZNLs"
 
-- title: "Friday Evening Keynote - Chris McCord"
-  slug: "friday-evening-keynote-chris-mccord-1"
-  kind: keynote
-  language: en
-  duration: 56
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "txk4WAlabvI"
-      url: "https://www.youtube.com/watch?v=txk4WAlabvI"
-
-
 ## Talks
 
-
-- title: "Phoenix LiveView Demystified - Alex Garibay"
-  slug: "phoenix-liveview-demystified-alex-garibay"
+- title: "Phoenix LiveView Demystified"
+  slug: "phoenix-liveview-demystified"
   kind: talk
   level: intermediate
   language: en
   duration: 26
-  abstract: "Phoenix LiveView is here to empower developers to build rich, real-time user experiences in Elixir without needing to write JavaScript. At the surface, this may seem like magic, but a closer look reveals how Phoenix leverages the primitives of the platform, with some front-end help from Morphdom.js,"
+  abstract: |
+    Phoenix LiveView is here to empower developers to build rich, real-time user experiences in Elixir without needing to write JavaScript. At the surface, this may seem like magic, but a closer look reveals how Phoenix leverages the primitives of the platform, with some front-end help from Morphdom.js, to make this programming model a compelling choice for beginners or experts alike.
+
+    Starting from the server to the browser, we’ll explore what makes Phoenix LiveView possible. Along the way, we’ll learn tips and tricks to make the most of your LiveView applications while seeing how Phoenix Channels and LiveEEx templates power the internals. We’ll also learn how LiveView is an abstraction over GenServer, giving us resiliency in the browser. Finally, we’ll cover how Phoenix LiveView interacts with JavaScript to provide bidirectional communication of events between the server and the browser.
+
+    Whether you’re a new or seasoned Elixir developer, you’ll leave with a new mental model of how Phoenix LiveView works to drive real-time user experiences all from server-rendered HTML.
+  speakers:
+    - alexgaribay
   topics:
     - elixir
     - phoenix
@@ -93,28 +75,36 @@
       external_id: "9eOo8hSbMAc"
       url: "https://www.youtube.com/watch?v=9eOo8hSbMAc"
 
-- title: "WebRTC from Start to Finish - Scott Hamilton"
-  slug: "webrtc-from-start-to-finish-scott-hamilton"
+- title: "WebRTC from Start to Finish"
+  slug: "webrtc-from-start-to-finish"
   kind: talk
   level: intermediate
   language: en
   duration: 35
-  abstract: "WebRTC should be in every developer’s toolbox, and yet few developers even try to approach it. You could reach for a WebRTC service like Twilio, but what if you need fine grain control, integration, data compliance (HIPAA, PCI, etc.)? With Phoenix Channels and Janus WebRTC Gateway, you can add WebRT"
+  abstract: |
+    WebRTC should be in every developer’s toolbox, and yet few developers even try to approach it. You could reach for a WebRTC service like Twilio, but what if you need fine grain control, integration, data compliance (HIPAA, PCI, etc.)? With Phoenix Channels and Janus WebRTC Gateway, you can add WebRTC in your developer toolbox. Previous talks covered some of the same topics, but there were gaps in those talks. For example, how do you get Phoenix Channels working as a signaling layer with Janus? In this talk, I will fill those gaps and go from start to finish on getting WebRTC up and running with Phoenix and Janus.
+  speakers:
+    - scotthamilton
   topics:
-    - elixir
+    - webrtc
     - phoenix
   recordings:
     - provider: youtube
       external_id: "3qTUYMOpZGs"
       url: "https://www.youtube.com/watch?v=3qTUYMOpZGs"
 
-- title: "Creating an External Racing Steering... - Geoffrey Lessel"
-  slug: "creating-an-external-racing-steering-geoffrey-lessel"
+- title: "Creating an External Racing Steering..."
+  slug: "creating-an-external-racing-steering"
   kind: talk
   level: intermediate
   language: en
   duration: 43
-  abstract: "I am a sim-racer. I love racing simulated cars online with other people or offline against a good AI. Many of the more complex cars you can race in these simulators have complex steering wheel displays that provide the racer with a lot of information they may need to get the best out of their car du"
+  abstract: |
+    I am a sim-racer. I love racing simulated cars online with other people or offline against a good AI. Many of the more complex cars you can race in these simulators have complex steering wheel displays that provide the racer with a lot of information they may need to get the best out of their car during the race. Many of the top simulators can also provide a detailed feed of information to third-party applications. An on-screen display is sometimes not enough or isn't configurable. I wanted an external device that I could mount on my racing rig that would provide the information I wanted when I wanted it.
+
+    In this talk, I will demonstrate the racing steering wheel display I created using Elixir and the Scenic UI library. It provides real-time updates using information gathered from the game F1 2018 to allow me information at my fingertips. Under the hood, there are interesting problems to solve such as subscribing to and decoding the binary stream from the game, using GenServers to handle the constant stream of information, setting up multiple pub/sub mechanisms to ensure that each "thing" in the system has the information it needs at all times, and using scenic to provide the final display to the screen.
+  speakers:
+    - geoffreylessel
   topics:
     - elixir
   recordings:
@@ -122,42 +112,48 @@
       external_id: "7kg0XrSHrOs"
       url: "https://www.youtube.com/watch?v=7kg0XrSHrOs"
 
-- title: "How LiveView Handles File Uploads - Gary Rennie"
-  slug: "how-liveview-handles-file-uploads-gary-rennie"
-  kind: talk
-  level: advanced
-  language: en
-  duration: 28
-  abstract: "File uploads are an essential part of many web applications, but often handling them can be tricky, which explains why they are one of the most frequently requested features for Live View. In this talk, we will discover how to upload files with Phoenix Live View and what is going on under the hood. "
-  topics:
-    - elixir
-    - phoenix
-    - liveview
-  recordings:
-    - provider: youtube
-      external_id: "svpk-hKvTNk"
-      url: "https://www.youtube.com/watch?v=svpk-hKvTNk"
-
-- title: "Date, Time, and Time Zones in Elixir 1.9 - Lau Taarnskov"
-  slug: "date-time-and-time-zones-in-elixir-19-lau-taarnskov"
+- title: "Date, Time, and Time Zones in Elixir 1.9"
+  slug: "date-time-and-time-zones-in-elixir-1-9"
   kind: talk
   level: intermediate
   language: en
   duration: 43
-  abstract: "Elixir 1.8 and 1.9 bring changes to the date & time features in Elixir. This talk will go through how to get the most out of Elixir, as it stands now, for date and time functionalities."
+  speakers:
+    - lautaarnskov
+  abstract: |
+    Elixir 1.8 and 1.9 bring changes to the date & time features in Elixir. This talk will go through how to get the most out of Elixir, as it stands now, for date and time functionalities.
+
+    Date and time are a part of every Elixir project. Whether it be timestamps in logs, databases, or business logic, date and time issues have the potential to cause significant problems if you are not prepared.
+
+    The `TimeZoneDatabase` behavior in Elixir 1.8+ allows using time zone functionality directly in the standard library. We'll walk through examples of how to use it and take advantage of the potential for fewer dependencies.
+
+    We will look at the different built-in types for date and time in Elixir. And when to use which one. Choosing the correct type is about semantics, meaning, representing information and data you have available, and avoiding creating fake data. This makes it easier for other developers, other libraries, and other systems to make the most of your date and time data.
+
+    We will also look at the new UTC DateTime sigil introduced in Elixir 1.9.
+
+    Learn about persisting the date and time types in databases with Ecto 3.
+
+    Civil time used today ultimately is tied to how the earth and sun move in relation to each other. This affects leap seconds, which are part of UTC. Besides that, there are many time zones which are determined politically and can change often and with short notice. In certain cases, this can be ignored. The types `NaiveDateTime`, `Date` and `Time` follow rules that do not change often because they are not concerned with these issues. But DateTime depend on an ever-changing database concerning time zones.
+
+    How do we keep the time zone database up to date whether deploying to a web server using Phoenix, using containers or to a Nerves device? There are different ways of doing that with different tradeoffs.
+
+    Besides looking at how to configure the Tzdata library to use with the TimeZoneDatabase behavior, also get a behind the scenes look at how this library evolved over the last five years. See how both macros and ETS have been used, and which tradeoffs have been made for performance improvements.
   topics:
     - elixir
+    - ecto
   recordings:
     - provider: youtube
       external_id: "_E988mvPIzU"
       url: "https://www.youtube.com/watch?v=_E988mvPIzU"
 
-- title: "Lighting Talk -  Mellisa Caps"
-  slug: "lighting-talk-mellisa-caps"
-  kind: talk
+- title: "Lightning talk: Mellisa Caps"
+  slug: "lightning-talk-mellisa-caps"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 6
+  speakers:
+    - mellisacaps
   topics:
     - elixir
   recordings:
@@ -165,9 +161,9 @@
       external_id: "5IxpZza3FWY"
       url: "https://www.youtube.com/watch?v=5IxpZza3FWY"
 
-- title: "Lighting Talk -  Introducing Grizzly"
-  slug: "lighting-talk-introducing-grizzly"
-  kind: talk
+- title: "Lightning talk: Introducing Grizzly"
+  slug: "lightning-talk-introducing-grizzly"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 6
@@ -178,9 +174,9 @@
       external_id: "nsf3DkJxOIk"
       url: "https://www.youtube.com/watch?v=nsf3DkJxOIk"
 
-- title: "Lighting Talk - You need a Supervisor"
-  slug: "lighting-talk-you-need-a-supervisor"
-  kind: talk
+- title: "Lightning talk: You Need a Supervisor"
+  slug: "lightning-talk-you-need-a-supervisor"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 5
@@ -192,9 +188,9 @@
       external_id: "NbJhworOFjU"
       url: "https://www.youtube.com/watch?v=NbJhworOFjU"
 
-- title: "Lighting Talk -  Heralding Harald - Daniel Spofford"
-  slug: "lighting-talk-heralding-harald-daniel-spofford"
-  kind: talk
+- title: "Lightning talk: Heralding Harald"
+  slug: "lightning-talk-heralding-harald"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 5
@@ -205,9 +201,9 @@
       external_id: "RtCHJYIR1bs"
       url: "https://www.youtube.com/watch?v=RtCHJYIR1bs"
 
-- title: "Lighting Talk - IOLists are Awesome - Dennis Beatty"
-  slug: "lighting-talk-iolists-are-awesome-dennis-beatty"
-  kind: talk
+- title: "Lightning talk: IOLists are Awesome"
+  slug: "lightning-talk-iolists-are-awesome"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 6
@@ -218,9 +214,9 @@
       external_id: "bUvTc5HcZZE"
       url: "https://www.youtube.com/watch?v=bUvTc5HcZZE"
 
-- title: "Lighting Talk - Phoenix LiveView in Healthcare - Tyler Clemens"
-  slug: "lighting-talk-phoenix-liveview-in-healthcare-tyler-clemens"
-  kind: talk
+- title: "Lightning talk: Phoenix LiveView in Healthcare"
+  slug: "lightning-talk-phoenix-liveview-in-healthcare"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 5
@@ -233,9 +229,9 @@
       external_id: "3SWksXENYJg"
       url: "https://www.youtube.com/watch?v=3SWksXENYJg"
 
-- title: "Lighting Talk - GenServer"
-  slug: "lighting-talk-genserver"
-  kind: talk
+- title: "Lightning talk: GenServer"
+  slug: "lightning-talk-genserver"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 6
@@ -247,9 +243,9 @@
       external_id: "waw5qpq3RHM"
       url: "https://www.youtube.com/watch?v=waw5qpq3RHM"
 
-- title: "Lighting Talk - Nerves @ 433 MHZ"
-  slug: "lighting-talk-nerves-433-mhz"
-  kind: talk
+- title: "Lightning talk: Nerves at 433 MHz"
+  slug: "lightning-talk-nerves-at-433-mhz"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 5
@@ -261,9 +257,9 @@
       external_id: "PEheIY6gGhY"
       url: "https://www.youtube.com/watch?v=PEheIY6gGhY"
 
-- title: "Lighting Talk - Chris Dose"
-  slug: "lighting-talk-chris-dose"
-  kind: talk
+- title: "Lightning talk: Chris Dose"
+  slug: "lightning-talk-chris-dose"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 5
@@ -274,9 +270,9 @@
       external_id: "CtfcLdlUY7A"
       url: "https://www.youtube.com/watch?v=CtfcLdlUY7A"
 
-- title: "Lighting Talk - It's Time To Embrace Erland - Todd Resudek"
-  slug: "lighting-talk-its-time-to-embrace-erland-todd-resudek"
-  kind: talk
+- title: "Lightning talk: It's Time To Embrace Erlang"
+  slug: "lightning-talk-its-time-to-embrace-erlang"
+  kind: lightning_talk
   level: intermediate
   language: en
   duration: 4
@@ -287,8 +283,8 @@
       external_id: "nxWyWiRB8Vc"
       url: "https://www.youtube.com/watch?v=nxWyWiRB8Vc"
 
-- title: "How LiveView Handles File Uploads - Gary Rennie"
-  slug: "how-liveview-handles-file-uploads-gary-rennie-1"
+- title: "How LiveView Handles File Uploads"
+  slug: "how-liveview-handles-file-uploads"
   kind: talk
   level: advanced
   language: en
@@ -302,38 +298,11 @@
     - provider: youtube
       external_id: "svpk-hKvTNk"
       url: "https://www.youtube.com/watch?v=svpk-hKvTNk"
+  speakers:
+    - garyrennie
 
-- title: "Creating an External Racing Steering... - Geoffrey Lessel"
-  slug: "creating-an-external-racing-steering-geoffrey-lessel-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "I am a sim-racer. I love racing simulated cars online with other people or offline against a good AI. Many of the more complex cars you can race in these simulators have complex steering wheel displays that provide the racer with a lot of information they may need to get the best out of their car du"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "7kg0XrSHrOs"
-      url: "https://www.youtube.com/watch?v=7kg0XrSHrOs"
-
-- title: "WebRTC from Start to Finish - Scott Hamilton"
-  slug: "webrtc-from-start-to-finish-scott-hamilton-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 35
-  abstract: "WebRTC should be in every developer’s toolbox, and yet few developers even try to approach it. You could reach for a WebRTC service like Twilio, but what if you need fine grain control, integration, data compliance (HIPAA, PCI, etc.)? With Phoenix Channels and Janus WebRTC Gateway, you can add WebRT"
-  topics:
-    - elixir
-    - phoenix
-  recordings:
-    - provider: youtube
-      external_id: "3qTUYMOpZGs"
-      url: "https://www.youtube.com/watch?v=3qTUYMOpZGs"
-
-- title: "Elixirbridge Lessons Learned from Building Community - Anna Neyzberg"
-  slug: "elixirbridge-lessons-learned-from-building-community-anna-ne"
+- title: "ElixirBridge: Lessons Learned from Building Community"
+  slug: "elixirbridge-lessons-learned-from-building-community"
   kind: talk
   level: intermediate
   language: en
@@ -345,25 +314,11 @@
     - provider: youtube
       external_id: "DpSsIS4CMUM"
       url: "https://www.youtube.com/watch?v=DpSsIS4CMUM"
+  speakers:
+    - annaneyzberg
 
-- title: "Phoenix LiveView Demystified - Alex Garibay"
-  slug: "phoenix-liveview-demystified-alex-garibay-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 26
-  abstract: "Phoenix LiveView is here to empower developers to build rich, real-time user experiences in Elixir without needing to write JavaScript. At the surface, this may seem like magic, but a closer look reveals how Phoenix leverages the primitives of the platform, with some front-end help from Morphdom.js,"
-  topics:
-    - elixir
-    - phoenix
-    - liveview
-  recordings:
-    - provider: youtube
-      external_id: "9eOo8hSbMAc"
-      url: "https://www.youtube.com/watch?v=9eOo8hSbMAc"
-
-- title: "ElixConf 2019 - Cockatrice: A Hardware Design Environment with Elixir - Hideki Takase"
-  slug: "elixconf-2019-cockatrice-a-hardware-design-environment-with"
+- title: "Cockatrice: A Hardware Design Environment with Elixir"
+  slug: "cockatrice-a-hardware-design-environment-with-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -375,9 +330,11 @@
     - provider: youtube
       external_id: "BJbXpwS-g1A"
       url: "https://www.youtube.com/watch?v=BJbXpwS-g1A"
+  speakers:
+    - hidekitakase
 
-- title: "GraphQL Based Microservices in Elixir - Donald Ford"
-  slug: "graphql-based-microservices-in-elixir-donald-ford"
+- title: "GraphQL Based Microservices in Elixir"
+  slug: "graphql-based-microservices-in-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -389,9 +346,11 @@
     - provider: youtube
       external_id: "loX-KFcPXR4"
       url: "https://www.youtube.com/watch?v=loX-KFcPXR4"
+  speakers:
+    - donaldford
 
-- title: "Annex: Introducing an Easy to Use... -  Jason Goldberger"
-  slug: "annex-introducing-an-easy-to-use-jason-goldberger"
+- title: "Annex: Introducing an Easy to Use..."
+  slug: "annex-introducing-an-easy-to-use"
   kind: talk
   level: intermediate
   language: en
@@ -403,9 +362,11 @@
     - provider: youtube
       external_id: "Np5nSEfKLeg"
       url: "https://www.youtube.com/watch?v=Np5nSEfKLeg"
+  speakers:
+    - jasongoldberger
 
-- title: "Alchemy Meets Science: Adopting Elixir in... - Nicholas Geraedts"
-  slug: "alchemy-meets-science-adopting-elixir-in-nicholas-geraedts"
+- title: "Alchemy Meets Science: Adopting Elixir in..."
+  slug: "alchemy-meets-science-adopting-elixir-in"
   kind: talk
   level: intermediate
   language: en
@@ -417,9 +378,11 @@
     - provider: youtube
       external_id: "dkdiwMONJF4"
       url: "https://www.youtube.com/watch?v=dkdiwMONJF4"
+  speakers:
+    - nicholasgeraedts
 
-- title: "Beyond LiveView: Building Real-Time... - Sophie DeBenedetto"
-  slug: "beyond-liveview-building-real-time-sophie-debenedetto"
+- title: "Beyond LiveView: Building Real-Time..."
+  slug: "beyond-liveview-building-real-time"
   kind: talk
   level: intermediate
   language: en
@@ -433,9 +396,11 @@
     - provider: youtube
       external_id: "AbNAuOQ8wBE"
       url: "https://www.youtube.com/watch?v=AbNAuOQ8wBE"
+  speakers:
+    - sophiedebenedetto
 
-- title: "0-60 in under 3: How Cars.com and... - Daniel Mackey, Mike Binns"
-  slug: "0-60-in-under-3-how-carscom-and-daniel-mackey-mike-binns"
+- title: "0-60 in under 3: How Cars.com and..."
+  slug: "0-60-in-under-3-how-cars-com-and"
   kind: talk
   level: intermediate
   language: en
@@ -446,9 +411,12 @@
     - provider: youtube
       external_id: "zKifFG4i-bY"
       url: "https://www.youtube.com/watch?v=zKifFG4i-bY"
+  speakers:
+    - danielmackey
+    - mikebinns
 
-- title: "Elixir + CQRS - Architecting for Availability, Operability, and... - Jon Grieman"
-  slug: "elixir-cqrs-architecting-for-availability-operability-and-jo"
+- title: "Elixir + CQRS - Architecting for Availability, Operability, and..."
+  slug: "elixir-cqrs-architecting-for-availability-operability-and"
   kind: talk
   level: intermediate
   language: en
@@ -461,9 +429,11 @@
     - provider: youtube
       external_id: "-d2NPc8cEnw"
       url: "https://www.youtube.com/watch?v=-d2NPc8cEnw"
+  speakers:
+    - jongrieman
 
-- title: "Membrane Framework - Bringing Elixir into... - Mateusz Front"
-  slug: "membrane-framework-bringing-elixir-into-mateusz-front"
+- title: "Membrane Framework - Bringing Elixir into..."
+  slug: "membrane-framework-bringing-elixir-into"
   kind: talk
   level: intermediate
   language: en
@@ -476,9 +446,11 @@
     - provider: youtube
       external_id: "P7nAOrAiaTQ"
       url: "https://www.youtube.com/watch?v=P7nAOrAiaTQ"
+  speakers:
+    - mateuszfront
 
-- title: "Mint - Disrupting HTTP Clients - Andrea Leopardi"
-  slug: "mint-disrupting-http-clients-andrea-leopardi"
+- title: "Mint - Disrupting HTTP Clients"
+  slug: "mint-disrupting-http-clients"
   kind: talk
   level: intermediate
   language: en
@@ -492,9 +464,11 @@
     - provider: youtube
       external_id: "JGsl0kTBR6E"
       url: "https://www.youtube.com/watch?v=JGsl0kTBR6E"
+  speakers:
+    - andrealeopardi
 
-- title: "A Practical* Use for Nerves - Eric Christeson"
-  slug: "a-practical-use-for-nerves-eric-christeson"
+- title: "A Practical* Use for Nerves"
+  slug: "a-practical-use-for-nerves"
   kind: talk
   level: intermediate
   language: en
@@ -507,9 +481,11 @@
     - provider: youtube
       external_id: "dFTmn5WKvvQ"
       url: "https://www.youtube.com/watch?v=dFTmn5WKvvQ"
+  speakers:
+    - ericchristeson
 
-- title: "Breaking Into Nerves: How to Use Your Elixir... - Jacqueline Manzi"
-  slug: "breaking-into-nerves-how-to-use-your-elixir-jacqueline-manzi"
+- title: "Breaking Into Nerves: How to Use Your Elixir..."
+  slug: "breaking-into-nerves-how-to-use-your-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -523,104 +499,11 @@
     - provider: youtube
       external_id: "IU8epH8FAI4"
       url: "https://www.youtube.com/watch?v=IU8epH8FAI4"
+  speakers:
+    - jacquelinemanzi
 
-- title: "Date, Time, and Time Zones in Elixir 1.9 - Lau Taarnskov"
-  slug: "date-time-and-time-zones-in-elixir-19-lau-taarnskov-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "Elixir 1.8 and 1.9 bring changes to the date & time features in Elixir. This talk will go through how to get the most out of Elixir, as it stands now, for date and time functionalities."
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "_E988mvPIzU"
-      url: "https://www.youtube.com/watch?v=_E988mvPIzU"
-
-- title: "Lighting Talk -  Introducing Grizzly"
-  slug: "lighting-talk-introducing-grizzly-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 6
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "nsf3DkJxOIk"
-      url: "https://www.youtube.com/watch?v=nsf3DkJxOIk"
-
-- title: "Lighting Talk -  Mellisa Caps"
-  slug: "lighting-talk-mellisa-caps-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 6
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "5IxpZza3FWY"
-      url: "https://www.youtube.com/watch?v=5IxpZza3FWY"
-
-- title: "Lighting Talk - IOLists are Awesome - Dennis Beatty"
-  slug: "lighting-talk-iolists-are-awesome-dennis-beatty-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 6
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "bUvTc5HcZZE"
-      url: "https://www.youtube.com/watch?v=bUvTc5HcZZE"
-
-- title: "Lighting Talk - You need a Supervisor"
-  slug: "lighting-talk-you-need-a-supervisor-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 5
-  topics:
-    - elixir
-    - otp
-  recordings:
-    - provider: youtube
-      external_id: "NbJhworOFjU"
-      url: "https://www.youtube.com/watch?v=NbJhworOFjU"
-
-- title: "Lighting Talk - Phoenix LiveView in Healthcare - Tyler Clemens"
-  slug: "lighting-talk-phoenix-liveview-in-healthcare-tyler-clemens-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 5
-  topics:
-    - elixir
-    - phoenix
-    - liveview
-  recordings:
-    - provider: youtube
-      external_id: "3SWksXENYJg"
-      url: "https://www.youtube.com/watch?v=3SWksXENYJg"
-
-- title: "Lighting Talk -  Heralding Harald - Daniel Spofford"
-  slug: "lighting-talk-heralding-harald-daniel-spofford-1"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 5
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "RtCHJYIR1bs"
-      url: "https://www.youtube.com/watch?v=RtCHJYIR1bs"
-
-- title: "Beam Extreme: Don't Do This At Home - Miriam Pena"
-  slug: "beam-extreme-dont-do-this-at-home-miriam-pena"
+- title: "Beam Extreme: Don't Do This At Home"
+  slug: "beam-extreme-dont-do-this-at-home"
   kind: talk
   level: intermediate
   language: en
@@ -634,8 +517,8 @@
       external_id: "-1j36z8SllI"
       url: "https://www.youtube.com/watch?v=-1j36z8SllI"
 
-- title: "Sandbox Wars: Elixir and Luerl - Scott Southworth"
-  slug: "sandbox-wars-elixir-and-luerl-scott-southworth"
+- title: "Sandbox Wars: Elixir and Luerl"
+  slug: "sandbox-wars-elixir-and-luerl"
   kind: talk
   level: intermediate
   language: en
@@ -648,8 +531,8 @@
       external_id: "fZG-K_zgDyI"
       url: "https://www.youtube.com/watch?v=fZG-K_zgDyI"
 
-- title: "Contracts for Building Reliable Systems - Chris Keathley"
-  slug: "contracts-for-building-reliable-systems-chris-keathley"
+- title: "Contracts for Building Reliable Systems"
+  slug: "contracts-for-building-reliable-systems"
   kind: talk
   level: intermediate
   language: en
@@ -662,8 +545,8 @@
       external_id: "tpo3JUyVIjQ"
       url: "https://www.youtube.com/watch?v=tpo3JUyVIjQ"
 
-- title: "Photogenic: Building a Photo Booth with... - Bruce Tate"
-  slug: "photogenic-building-a-photo-booth-with-bruce-tate"
+- title: "Photogenic: Building a Photo Booth with..."
+  slug: "photogenic-building-a-photo-booth-with"
   kind: talk
   level: intermediate
   language: en
@@ -676,8 +559,8 @@
       external_id: "l8JckcZibS4"
       url: "https://www.youtube.com/watch?v=l8JckcZibS4"
 
-- title: "Writing an Ecto Adapter Introducing MyXQL - Wojtek Mach"
-  slug: "writing-an-ecto-adapter-introducing-myxql-wojtek-mach"
+- title: "Writing an Ecto Adapter Introducing MyXQL"
+  slug: "writing-an-ecto-adapter-introducing-myxql"
   kind: talk
   level: intermediate
   language: en
@@ -691,8 +574,8 @@
       external_id: "lBaDmsFTJxY"
       url: "https://www.youtube.com/watch?v=lBaDmsFTJxY"
 
-- title: "Using Phoenix and Broadway with RabbitMQ to Handle... - Emerson Macedo"
-  slug: "using-phoenix-and-broadway-with-rabbitmq-to-handle-emerson-m"
+- title: "Using Phoenix and Broadway with RabbitMQ to Handle..."
+  slug: "using-phoenix-and-broadway-with-rabbitmq-to-handle"
   kind: talk
   level: intermediate
   language: en
@@ -706,8 +589,8 @@
       external_id: "qb2t7PcISFA"
       url: "https://www.youtube.com/watch?v=qb2t7PcISFA"
 
-- title: "Crawling The Web With Elixir - Adam Mokan"
-  slug: "crawling-the-web-with-elixir-adam-mokan"
+- title: "Crawling The Web With Elixir"
+  slug: "crawling-the-web-with-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -720,8 +603,8 @@
       external_id: "HFqE6cAU7Lo"
       url: "https://www.youtube.com/watch?v=HFqE6cAU7Lo"
 
-- title: "Build Efficient Data Processing Pipelines... Marlus Saraiva"
-  slug: "build-efficient-data-processing-pipelines-marlus-saraiva"
+- title: "Build Efficient Data Processing Pipelines..."
+  slug: "build-efficient-data-processing-pipelines"
   kind: talk
   level: intermediate
   language: en
@@ -735,8 +618,8 @@
       external_id: "tPu-P97-cbE"
       url: "https://www.youtube.com/watch?v=tPu-P97-cbE"
 
-- title: "Kubernetes at Small Scale - Phil Toland"
-  slug: "kubernetes-at-small-scale-phil-toland"
+- title: "Kubernetes at Small Scale"
+  slug: "kubernetes-at-small-scale"
   kind: talk
   level: intermediate
   language: en
@@ -745,13 +628,14 @@
   topics:
     - elixir
     - deployment
+    - kubernetes
   recordings:
     - provider: youtube
       external_id: "i3tqGlBWHNs"
       url: "https://www.youtube.com/watch?v=i3tqGlBWHNs"
 
-- title: "High Performance String Processing Scripts in Elixir - Johanna Larsson"
-  slug: "high-performance-string-processing-scripts-in-elixir-johanna"
+- title: "High Performance String Processing Scripts in Elixir"
+  slug: "high-performance-string-processing-scripts-in-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -765,8 +649,8 @@
       external_id: "Y83p_VsvRFA"
       url: "https://www.youtube.com/watch?v=Y83p_VsvRFA"
 
-- title: "ETS Versus ElasticSearch for Queryable Caching - David Schainker"
-  slug: "ets-versus-elasticsearch-for-queryable-caching-david-schaink"
+- title: "ETS Versus ElasticSearch for Queryable Caching"
+  slug: "ets-versus-elasticsearch-for-queryable-caching"
   kind: talk
   level: intermediate
   language: en
@@ -779,8 +663,8 @@
       external_id: "J38RpkA1580"
       url: "https://www.youtube.com/watch?v=J38RpkA1580"
 
-- title: "Building the Tomorrow Classroom with Elixir - Pedro Hernández & Norberto Ortigoza"
-  slug: "building-the-tomorrow-classroom-with-elixir-pedro-hernandez"
+- title: "Building the Tomorrow Classroom with Elixir"
+  slug: "building-the-tomorrow-classroom-with-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -793,8 +677,8 @@
       external_id: "AXxUyGL314U"
       url: "https://www.youtube.com/watch?v=AXxUyGL314U"
 
-- title: "Lessons Learned From an Elixir/OTP Project - Amanda Sposito"
-  slug: "lessons-learned-from-an-elixirotp-project-amanda-sposito"
+- title: "Lessons Learned From an Elixir/OTP Project"
+  slug: "lessons-learned-from-an-elixirotp-project"
   kind: talk
   level: intermediate
   language: en
@@ -808,8 +692,8 @@
       external_id: "VaratZ_5154"
       url: "https://www.youtube.com/watch?v=VaratZ_5154"
 
-- title: "UI Testing is Ruff; Hound Can Help - Vanessa Lee"
-  slug: "ui-testing-is-ruff-hound-can-help-vanessa-lee"
+- title: "UI Testing is Ruff; Hound Can Help"
+  slug: "ui-testing-is-ruff-hound-can-help"
   kind: talk
   level: intermediate
   language: en
@@ -824,8 +708,8 @@
       external_id: "5J5qyP6FOcI"
       url: "https://www.youtube.com/watch?v=5J5qyP6FOcI"
 
-- title: "Return of Wabi-Sabi: Computational Power for Elixir - Susumu Yamazaki & Yuki Hisae"
-  slug: "return-of-wabi-sabi-computational-power-for-elixir-susumu-ya"
+- title: "Return of Wabi-Sabi: Computational Power for Elixir"
+  slug: "return-of-wabi-sabi-computational-power-for-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -838,8 +722,8 @@
       external_id: "uCkPyfFhPxI"
       url: "https://www.youtube.com/watch?v=uCkPyfFhPxI"
 
-- title: "EEF - Miriam Pena & Desmond Bowe"
-  slug: "eef-miriam-pena-desmond-bowe"
+- title: "EEF"
+  slug: "eef"
   kind: talk
   level: intermediate
   language: en
@@ -851,8 +735,8 @@
       external_id: "NyBplIoH6z8"
       url: "https://www.youtube.com/watch?v=NyBplIoH6z8"
 
-- title: "Your Guide to Understand the Initial Commit of a Phoenix Project - Jorge Bejar"
-  slug: "your-guide-to-understand-the-initial-commit-of-a-phoenix-pro"
+- title: "Your Guide to Understand the Initial Commit of a Phoenix Project"
+  slug: "your-guide-to-understand-the-initial-commit-of-a-phoenix-project"
   kind: talk
   level: intermediate
   language: en
@@ -866,8 +750,8 @@
       external_id: "SMN5NRR_DE0"
       url: "https://www.youtube.com/watch?v=SMN5NRR_DE0"
 
-- title: "Re-writing Pseudo Financial Systems in Elixir - Natasha Dowse"
-  slug: "re-writing-pseudo-financial-systems-in-elixir-natasha-dowse"
+- title: "Re-writing Pseudo Financial Systems in Elixir"
+  slug: "re-writing-pseudo-financial-systems-in-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -880,8 +764,8 @@
       external_id: "76Ku3r5n4vI"
       url: "https://www.youtube.com/watch?v=76Ku3r5n4vI"
 
-- title: "Building an Elixir Team When No One Knew Elixir - Jacob Parry"
-  slug: "building-an-elixir-team-when-no-one-knew-elixir-jacob-parry"
+- title: "Building an Elixir Team When No One Knew Elixir"
+  slug: "building-an-elixir-team-when-no-one-knew-elixir"
   kind: talk
   level: intermediate
   language: en
@@ -894,12 +778,10 @@
       external_id: "yXrw82ULUrU"
       url: "https://www.youtube.com/watch?v=yXrw82ULUrU"
 
-
 ## Lightning Talks
 
-
-- title: "All Lightning talks"
-  slug: "lt-all-lightning-talks"
+- title: "Lightning Talks"
+  slug: "lightning-talks"
   kind: lightning_talk
   language: en
   duration: 96

@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "Clarity | Saša Jurić"
   slug: "keynote-httpswwwelixirconfeu"
   kind: keynote
@@ -41,9 +40,7 @@
       external_id: "ZMgUTPcHeo4"
       url: "https://www.youtube.com/watch?v=ZMgUTPcHeo4"
 
-
 ## Talks
-
 
 - title: "ElixirConf EU 2021 - José Valim invites to the conference"
   slug: "elixirconf-eu-2021-jose-valim-invites-to-the-conference"
@@ -313,6 +310,7 @@
   abstract: "Membrane SFU: Bringing WebRTC to Elixir | Mateusz Front - Co-creator of Membrane"
   topics:
     - elixir
+    - webrtc
   recordings:
     - provider: youtube
       external_id: "qXFziCT5I6c"
@@ -332,9 +330,7 @@
       external_id: "0XFkdS-MrM4"
       url: "https://www.youtube.com/watch?v=0XFkdS-MrM4"
 
-
 ## Lightning Talks
-
 
 - title: "Lightning talk: Typechecking Elixir | Radek Szymczyszyn"
   slug: "lt-lightning-talk-typechecking-elixir-radek-szymczyszyn"

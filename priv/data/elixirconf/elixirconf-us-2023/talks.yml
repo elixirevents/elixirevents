@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "José Valim - The foundations of the Elixir type system"
   slug: "jose-valim-the-foundations-of-the-elixir-type-system"
   kind: keynote
@@ -43,9 +42,7 @@
       external_id: "Ckgl9KO4E4M"
       url: "https://www.youtube.com/watch?v=Ckgl9KO4E4M"
 
-
 ## Talks
-
 
 - title: "Katelynn Burns - Motion Commotion: Motion Tracking with Bumblebee and LiveView"
   slug: "katelynn-burns-motion-commotion-motion-tracking-with-bumbleb"
@@ -698,6 +695,7 @@
   abstract: "Pion is currently the most popular, open-source WebRTC implementation written in Go. It’s a base of the awesome Livekit media server, known for its usage in Spotify."
   topics:
     - elixir
+    - webrtc
   recordings:
     - provider: youtube
       external_id: "4XaB4XWg-Qg"
@@ -837,9 +835,7 @@
       external_id: "Fv40UpQH1yw"
       url: "https://www.youtube.com/watch?v=Fv40UpQH1yw"
 
-
 ## Lightning Talks
-
 
 - title: "Lightning Talks"
   slug: "lt-lightning-talks"
