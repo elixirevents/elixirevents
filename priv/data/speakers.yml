@@ -2374,7 +2374,6 @@
   social_links:
     - platform: github
       url: https://github.com/orestis
-    - platform:
 
 - name: "Ley Missailidis"
   slug: "leymissailidis"
