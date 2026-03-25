@@ -246,5 +246,275 @@ defmodule ElixirEvents.DataValidatorTest do
       messages = Enum.map(errors, & &1.message)
       assert Enum.any?(messages, &String.contains?(&1, "YAML parse error"))
     end
+
+    test "detects unknown keys in speaker", %{tmp_dir: dir} do
+      write_yaml(dir, "speakers.yml", ~S"""
+      - name: "Alice"
+        slug: "alice"
+        favourite_color: "purple"
+      """)
+
+      write_yaml(dir, "topics.yml", "[]")
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+
+      assert Enum.any?(
+               messages,
+               &String.contains?(&1, "unknown key 'favourite_color' in speaker")
+             )
+    end
+
+    test "detects unknown keys in event", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+      File.mkdir_p!(Path.join(dir, "s/e"))
+
+      write_yaml(dir, "s/series.yml", ~S"""
+      name: "S"
+      slug: "s"
+      kind: conference
+      """)
+
+      write_yaml(dir, "s/e/event.yml", ~S"""
+      name: "E"
+      slug: "e"
+      kind: conference
+      status: completed
+      format: online
+      start_date: "2024-01-01"
+      end_date: "2024-01-02"
+      timezone: "UTC"
+      capacity: 500
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "unknown key 'capacity' in event"))
+    end
+
+    test "detects unknown keys in talk", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+      File.mkdir_p!(Path.join(dir, "s/e"))
+
+      write_yaml(dir, "s/series.yml", ~S"""
+      name: "S"
+      slug: "s"
+      kind: conference
+      """)
+
+      write_yaml(dir, "s/e/event.yml", ~S"""
+      name: "E"
+      slug: "e"
+      kind: conference
+      status: completed
+      format: online
+      start_date: "2024-01-01"
+      end_date: "2024-01-02"
+      timezone: "UTC"
+      """)
+
+      write_yaml(dir, "s/e/talks.yml", ~S"""
+      - title: "Talk"
+        slug: "talk"
+        kind: talk
+        rating: 5
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "unknown key 'rating' in talk"))
+    end
+
+    test "detects invalid URL in speaker website", %{tmp_dir: dir} do
+      write_yaml(dir, "speakers.yml", ~S"""
+      - name: "Alice"
+        slug: "alice"
+        website: "not-a-url"
+      """)
+
+      write_yaml(dir, "topics.yml", "[]")
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "invalid URL for 'website'"))
+    end
+
+    test "detects invalid social_links platform", %{tmp_dir: dir} do
+      write_yaml(dir, "speakers.yml", ~S"""
+      - name: "Alice"
+        slug: "alice"
+        social_links:
+          - platform: tiktok
+            url: "https://tiktok.com/@alice"
+      """)
+
+      write_yaml(dir, "topics.yml", "[]")
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "invalid platform: 'tiktok'"))
+    end
+
+    test "detects invalid recording provider", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+      File.mkdir_p!(Path.join(dir, "s/e"))
+
+      write_yaml(dir, "s/series.yml", ~S"""
+      name: "S"
+      slug: "s"
+      kind: conference
+      """)
+
+      write_yaml(dir, "s/e/event.yml", ~S"""
+      name: "E"
+      slug: "e"
+      kind: conference
+      status: completed
+      format: online
+      start_date: "2024-01-01"
+      end_date: "2024-01-02"
+      timezone: "UTC"
+      """)
+
+      write_yaml(dir, "s/e/talks.yml", ~S"""
+      - title: "Talk"
+        slug: "talk"
+        kind: talk
+        recordings:
+          - provider: dailymotion
+            url: "https://dailymotion.com/video/123"
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "invalid provider: 'dailymotion'"))
+    end
+
+    test "detects unknown keys in recording", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+      File.mkdir_p!(Path.join(dir, "s/e"))
+
+      write_yaml(dir, "s/series.yml", ~S"""
+      name: "S"
+      slug: "s"
+      kind: conference
+      """)
+
+      write_yaml(dir, "s/e/event.yml", ~S"""
+      name: "E"
+      slug: "e"
+      kind: conference
+      status: completed
+      format: online
+      start_date: "2024-01-01"
+      end_date: "2024-01-02"
+      timezone: "UTC"
+      """)
+
+      write_yaml(dir, "s/e/talks.yml", ~S"""
+      - title: "Talk"
+        slug: "talk"
+        kind: talk
+        recordings:
+          - provider: youtube
+            url: "https://youtube.com/watch?v=123"
+            views: 1000
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "unknown key 'views' in recording"))
+    end
+
+    test "detects invalid sponsor badge", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+
+      write_yaml(dir, "organizations.yml", ~S"""
+      - name: "Acme"
+        slug: "acme"
+      """)
+
+      write_yaml(dir, "venues.yml", "[]")
+      File.mkdir_p!(Path.join(dir, "s/e"))
+
+      write_yaml(dir, "s/series.yml", ~S"""
+      name: "S"
+      slug: "s"
+      kind: conference
+      """)
+
+      write_yaml(dir, "s/e/event.yml", ~S"""
+      name: "E"
+      slug: "e"
+      kind: conference
+      status: completed
+      format: online
+      start_date: "2024-01-01"
+      end_date: "2024-01-02"
+      timezone: "UTC"
+      """)
+
+      write_yaml(dir, "s/e/sponsors.yml", ~S"""
+      - name: "Gold"
+        level: 1
+        sponsors:
+          - slug: "acme"
+            badge: vip
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "invalid badge: 'vip'"))
+    end
+
+    test "detects unknown keys in social_link", %{tmp_dir: dir} do
+      write_yaml(dir, "speakers.yml", ~S"""
+      - name: "Alice"
+        slug: "alice"
+        social_links:
+          - platform: github
+            url: "https://github.com/alice"
+            followers: 100
+      """)
+
+      write_yaml(dir, "topics.yml", "[]")
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "unknown key 'followers' in social_link"))
+    end
+
+    test "detects invalid duration type in talk", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+      File.mkdir_p!(Path.join(dir, "s/e"))
+
+      write_yaml(dir, "s/series.yml", ~S"""
+      name: "S"
+      slug: "s"
+      kind: conference
+      """)
+
+      write_yaml(dir, "s/e/event.yml", ~S"""
+      name: "E"
+      slug: "e"
+      kind: conference
+      status: completed
+      format: online
+      start_date: "2024-01-01"
+      end_date: "2024-01-02"
+      timezone: "UTC"
+      """)
+
+      write_yaml(dir, "s/e/talks.yml", ~S"""
+      - title: "Talk"
+        slug: "talk"
+        kind: talk
+        duration: "thirty minutes"
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "'duration' must be an integer"))
+    end
   end
 end

@@ -867,7 +867,8 @@
   headline: "Senior Software Engineer"
   bio: "Vittoria Bitton is a Software Engineer at Savi Solutions - an edge device cloud computing platform. She has joyfully been building software with Elixir in the past 5 years"
   social_links:
-    - platform: "https://x.com/vittoria_bitton"
+    - platform: twitter
+      url: "https://x.com/vittoria_bitton"
 
 - name: "Walid Salah"
   slug: "walidsalah"
@@ -1827,7 +1828,7 @@
   slug: "brujobenavides"
   headline: "Education WG Member @ the EEF"
   bio: "Argentinian Erlanger, currently living in sunny Catalunya. Member of the Education Working Group @ The Erlang Ecosystem Foundation. Used to be an Spawnfest organizer. Amateur table tennis player and long-distance walker."
-  website: "about.me/elbrujohalcon"
+  website: "https://about.me/elbrujohalcon"
   social_links:
     - platform: github
       url: "https://github.com/elbrujohalcon"
