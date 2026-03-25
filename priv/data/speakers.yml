@@ -2331,6 +2331,195 @@
   headline: "Software Engineer"
   bio: "Software Engineer"
 
+- name: "Evadne Wu"
+  slug: "evadnewu"
+  headline: "Judge of Spawnfest 2021 / Winner of Spawnfest 2020 / Creator of Etso & Packmatic"
+  bio: "Evadne is a software engineer with prior experience in mobile application development and the current focus on Web-based applications and integration of exogenous services."
+  social_links:
+    - platform: github
+      url: https://github.com/evadne
+    - platform: twitter
+      url: https://x.com/evadne
+
+- name: "Albert Zak"
+  slug: "albertzak"
+  headline: "Programmer"
+  bio: "Programmer, designer, slow inventor, mad computer scientist"
+  website: https://albertzak.com/
+  social_links:
+    - platform: mastodon
+      url: https://clj.social/@albertzak
+
+- name: "Georgina McFadyen"
+  slug: "georginamcfadyen"
+  headline: "Software Consultant"
+  bio: "Georgina is a software consultant with a passion for high quality software and helping people build better products. She has delivered training in Elixir and helped build the Elixir Koans. Outside of programming Georgina likes running and playing the violin."
+  social_links:
+    - platform: github
+      url: https://github.com/gemcfadyen
+    - platform: twitter
+      url: https://x.com/gemcfadyen
+
+- name: "Orestis Markou"
+  slug: "orestismarkou"
+  headline: "Software Developer"
+  bio: |
+    I have been working for 15 years as a professional developer. I’m currently working with EDMStudio, developing digital interactives and infrastructure for museums and science centres.
+
+    I’ve developed server apps with Python (Django/Twisted), and in the distant past, Java 1.4. I’ve recently snuck a couple of Elixir apps into production, and it was good.
+
+    I’ve developed UIs with Objective-C (Cocoa, UIKit, SpriteKit), IronPython, PyObjC and of course HTML/CSS/JS. I’ve also dabbled with CoreAudio for real-time audio processing, and goofed around with LEDs, Arduinos and other fun stuff like that.
+
+    I consider myself a polyglot, full-stack developer though I cringe at these specific terms. I originally come from Athens, Greece, but I’m currently living in Luxembourg.
+  social_links:
+    - platform: github
+      url: https://github.com/orestis
+
+- name: "Ley Missailidis"
+  slug: "leymissailidis"
+  headline: "CxO Koan CI"
+  bio: "Ley Missailidis a bon vivant and beam raconteur that has been building web applications for longer than he cares to admit."
+  social_links:
+    - platform: github
+      url: https://github.com/polymetis
+    - platform: twitter
+      url: https://x.com/_polymetis_
+
+- name: "Guilherme de Maio"
+  slug: "guilhermedemaio"
+  headline: "Senior Software Engineer | Elixir São Paulo Meetup Organizer"
+  bio: "Guilherme is a software engineer with 10 years’ worth of experience, focused on web applications, from ops to backend. Currently working at Telnyx, a Chicago based telecom company aiming at democratising universal communications. He has been in love with Elixir since he started working with the language in 2015, being an active member of Elixir Meetups in São Paulo, Brazil and spreading Elixir love all around :) Guilherme also loves science fiction books, movies and tv series."
+  website: https://nirev.dev
+  social_links:
+    - platform: github
+      url: https://github.com/nirev
+    - platform: twitter
+      url: https://x.com/nirev
+    - platform: linkedin
+      url: https://www.linkedin.com/in/nirev/
+
+- name: "Justin Scheck"
+  slug: "justinscheck"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Xavier Noria"
+  slug: "xaviernoria"
+  headline: "Independent Consultant"
+  bio: "Everlasting student, Rails Core Team, Ruby Hero, Freelance, Life lover"
+  social_links:
+    - platform: github
+      url: https://github.com/fxn
+    - platform: twitter
+      url: https://x.com/fxn
+
+- name: "Serge Boucher"
+  slug: "sergeboucher"
+  headline: "Software Developer"
+  bio: "Serge Boucher earned a Master in Software Engineering in 2004 from the University of Brussels, where he worked as a researcher in Artificial Intellignce and Data Modelling for several years before switching to entrepreneurship. He currently works as a Software Developer for EasyMile."
+
+- name: "László Bacsi"
+  slug: "laszlobacsi"
+  headline: "Elixir contributor"
+  bio: "Laszlo has been interested in technology and programming from a young age. He started out professionally with Ruby and co-founded the budapest.rb Ruby meetup. He now works mostly with Elixir and also tries to spend time contributing to it and the community. He is also happily married and has two boys and a dog."
+  social_links:
+    - platform: twitter
+      url: https://x.com/icanscale
+    - platform: github
+      url: https://github.com/lackac
+
+- name: "Troels Brødsgaard"
+  slug: "troelsbrodsgaard"
+  headline: "Building communication platforms for the IoT"
+  bio: "Troels was struck by Elixir in 2015 while studying computer science. Here he used Elixir and Phoenix to build a scalable, storage-backed pub-sub system for sensor data, which opened his eyes to the potential of the BEAM. He has since been obsessed with the idea of building truly interactive systems, where human operators can interact with all the individual workers who carry out the work of the system. Today he works as a polyglot programmer at a small software development and consulting firm. He and his team designs and builds innovative solutions to practical problems for both small companies and large research institutions."
+  social_links:
+    - platform: twitter
+      url: https://x.com/trarbr
+    - platform: github
+      url: https://github.com/trarbr
+
+- name: "Raphael Costa"
+  slug: "raphaelcosta"
+  headline: "Software Engineer"
+  bio: |
+    I am based in Ji-Paraná, a small city in Brazil. And with other four associates, I own a software company called Eficiência Fiscal (http://eficienciafiscal.com.br), where I work as a Technical Lead.
+
+    I am an Elixir lover since day one (the fact that I love Ruby’s syntax and was in love with the Erlang’s concurrency model are to blame, I guess), and I contributed to some Elixir OS projects, live streamed a introduction to the language in portuguese some time ago (https://www.youtube.com/watch?v=7eYA8c8yABU) and have been helping other people at the brazilian Telegram group and #brazil channel at Slack.
+
+    I also gave some talks, workshops and lectures on topics like Functional Programming, Ruby and Elixir.
+  social_links:
+    - platform: twitter
+      url: https://x.com/raphael_vcosta
+    - platform: github
+      url: https://github.com/costaraphael
+
+- name: "Szymon Mentel"
+  slug: "szymonmentel"
+  headline: "Senior System Engineer"
+  bio: "Szymon Mentel works as a senior System Engineer at Erlang Solutions. For the past three years, he has worked on projects related to Software Defined Networking and is involved with system design and development. He teaches both Erlang and Elixir."
+
+- name: "Jusabe Guedes"
+  slug: "jusabeguedes"
+  headline: "Software Engineer"
+  bio: "Jusabe is a Software Engineer who recently discovered Elixir and became passionated about it at the first sight. On his current work he uses mainly Ruby and Elixir to provide solutions for customer’s needs. He is type of person that likes to know how things work instead of just using it. After some years consuming content from the community, he decided to start giving back by going out and producing Elixir content(even being a newbie). You can find some blog posts at medium.com/@dojusa."
+  social_links:
+    - platform: twitter
+      url: https://x.com/dojusa
+    - platform: github
+      url: https://github.com/dojusa
+
+- name: "Anil Wadghule"
+  slug: "anilwadghule"
+  headline: "Elixir Developer"
+  bio: |
+    I'm Anil Wadghule,
+
+    I am currently working with Erlang Solutions as an Elixir Developer.
+
+    With expertise in building software with Elixir programming language & Phoenix web framework, I help my clients to build projects using Elixir language and Phoenix web framework for more than 5 years
+
+    Previously, I worked with Ruby, Ruby on Rails, Java, Node.js/JavaScript, Elm, etc., programming languages.
+
+    I specialize in product development. Follow TDD and Agile principles.
+  website: https://anilwadghule.com/
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/anilwadghule/
+    - platform: github
+      url: https://github.com/anildigital
+    - platform: twitter
+      url: https://x.com/anildigital
+
+- name: "Maciej Kaszubowski"
+  slug: "maciejkaszubowski"
+  headline: "Elixir Developer"
+  bio: "Maciej is a developer at AppUnite where he has been using Elixir for about two years now. He is interested in software architecture, distributed systems, data synchronisation and consistency guarantees. Lately, he has been a frequent s"
+  social_links:
+    - platform: github
+      url: https://github.com/mkaszubowski
+    - platform: twitter
+      url: https://x.com/mkaszubowski94
+
+- name: "Arkadiusz Gil"
+  slug: "arkadiuszgil"
+  headline: "Software Engineer"
+  bio: "I’m a CS student and a software developer. I’m working at Erlang Solutions where I’m a part of the team developing a communication platform. Elixir and Erlang were my first professionally used programming languages, which has sparked my interest in distributed systems and functional programming. When not crafting software or dreaming of static type system for the BEAM, I enjoy running and doing yoga."
+  social_links:
+    - platform: github
+      url: https://github.com/arkgil
+    - platform: twitter
+      url: https://x.com/_arkgil
+
+- name: "Fernando Mendes"
+  slug: "fernandomendes"
+  headline: "Software Developer"
+  bio: "Mendes exchanges coffee for code. He has a background in Distributed Systems and Cryptography, having won multiple national awards for academic excellence. He also does a lot of volunteering, being the founder of #include and the champion of CoderDojo Braga."
+
+- name: "Ian Duggan"
+  slug: "ianduggan"
+  headline: "Software Engineer"
+  bio: "Software engineer at Twitch and recovering technology entrepreneur. I have been dabbling in Elixir for the past few years or so and very much enjoy it. I play guitar and ukelele, and am learning the banjo, mandolin, fiddle, and how to fly a Cessna 120. I'm also an avid ice hockey player, playing several times a week as time allows."
+
 - name: "Timmo Verlaan"
   slug: "timmoverlaan"
   headline: "Software Developer"
@@ -2465,10 +2654,6 @@
 
 - name: "Andreas Böhrnsen"
   slug: "andreasbohrnsen"
-  headline: "Software Developer"
-
-- name: "Ley Missailidis"
-  slug: "leymissailidis"
   headline: "Software Developer"
 
 - name: "Sergii Boiko"

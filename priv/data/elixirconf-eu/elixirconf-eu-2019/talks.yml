@@ -74,13 +74,15 @@
       external_id: "hgDCg3QdZgU"
       url: "https://www.youtube.com/watch?v=hgDCg3QdZgU"
 
-- title: "Evadne Wu - Leveraging ETS Effectively - ElixirConf EU 2019"
-  slug: "evadne-wu-leveraging-ets-effectively-elixirconf-eu-2019"
+- title: "Leveraging ETS Effectively"
+  slug: "leveraging-ets-effectively"
   kind: talk
   level: intermediate
   language: en
   duration: 46
   abstract: "Deck: https://speakerdeck.com/evadne/leveraging-ets-effectively"
+  speakers:
+    - evadnewu
   topics:
     - elixir
   recordings:
