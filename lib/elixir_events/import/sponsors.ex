@@ -10,6 +10,7 @@ defmodule ElixirEvents.Import.Sponsors do
 
     if File.exists?(path) do
       data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing #{length(data)} sponsor tiers for #{event.name}...")
 
       tiers_attrs =
         Enum.map(data, fn tier ->

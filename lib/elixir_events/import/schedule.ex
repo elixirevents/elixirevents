@@ -10,7 +10,9 @@ defmodule ElixirEvents.Import.Schedule do
 
     if File.exists?(path) do
       data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing schedule for #{event.name}...")
       import_schedule(data, event)
+      Logger.info("Schedule import complete for #{event.name}")
       :ok
     else
       {:ok, :skipped}

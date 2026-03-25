@@ -1,6 +1,8 @@
 defmodule ElixirEvents.Import.Roles do
   @moduledoc false
 
+  require Logger
+
   alias ElixirEvents.Events
 
   @role_mapping %{
@@ -15,6 +17,7 @@ defmodule ElixirEvents.Import.Roles do
 
     if File.exists?(path) do
       data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing roles for #{event.name}...")
 
       roles_attrs =
         Enum.flat_map(data, fn group ->

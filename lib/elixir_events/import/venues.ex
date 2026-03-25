@@ -1,7 +1,7 @@
 defmodule ElixirEvents.Import.Venues do
   @moduledoc false
 
-  alias ElixirEvents.Venues
+  alias ElixirEvents.{Import, Venues}
 
   def run(data_dir) do
     path = Path.join(data_dir, "venues.yml")
@@ -9,7 +9,7 @@ defmodule ElixirEvents.Import.Venues do
     if File.exists?(path) do
       path
       |> YamlElixir.read_from_file!()
-      |> Enum.each(&import_venue/1)
+      |> Import.each_with_progress("venues", &import_venue/1)
 
       :ok
     else
