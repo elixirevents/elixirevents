@@ -11,6 +11,7 @@ defmodule ElixirEvents.Import.Events do
 
     if File.exists?(path) do
       data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing event: #{data["name"]}...")
 
       venue_id = resolve_venue(data["venue_slug"])
 

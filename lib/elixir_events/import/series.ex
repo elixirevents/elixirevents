@@ -1,6 +1,8 @@
 defmodule ElixirEvents.Import.Series do
   @moduledoc false
 
+  require Logger
+
   alias ElixirEvents.Events
   alias ElixirEvents.Import.Profiles, as: ProfileImport
 
@@ -9,6 +11,7 @@ defmodule ElixirEvents.Import.Series do
 
     if File.exists?(path) do
       data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing series: #{data["name"]}...")
 
       attrs = %{
         name: data["name"],

@@ -10,12 +10,14 @@ defmodule ElixirEvents.Import.Talks do
 
     if File.exists?(path) do
       talks_data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing #{length(talks_data)} talks for #{event.name}...")
 
       Enum.each(talks_data, &import_talk(&1, event))
 
       yaml_slugs = Enum.map(talks_data, & &1["slug"]) |> Enum.reject(&is_nil/1)
       Talks.delete_orphaned_talks(event.id, yaml_slugs)
 
+      Logger.info("Talks import complete for #{event.name}")
       :ok
     else
       {:ok, :skipped}

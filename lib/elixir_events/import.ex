@@ -89,6 +89,22 @@ defmodule ElixirEvents.Import do
     end
   end
 
+  @doc false
+  def each_with_progress(entries, label, fun) do
+    total = length(entries)
+    Logger.info("Importing #{total} #{label}...")
+
+    entries
+    |> Enum.with_index(1)
+    |> Enum.each(fn {entry, index} ->
+      fun.(entry)
+
+      if rem(index, 50) == 0 or index == total do
+        Logger.info("#{label}: #{index}/#{total} processed")
+      end
+    end)
+  end
+
   defp list_event_dirs(series_dir) do
     series_dir
     |> File.ls!()

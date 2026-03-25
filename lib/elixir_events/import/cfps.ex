@@ -1,6 +1,8 @@
 defmodule ElixirEvents.Import.CFPs do
   @moduledoc false
 
+  require Logger
+
   alias ElixirEvents.Submissions
 
   def run(event_dir, event) do
@@ -8,6 +10,7 @@ defmodule ElixirEvents.Import.CFPs do
 
     if File.exists?(path) do
       data = YamlElixir.read_from_file!(path)
+      Logger.info("Importing #{length(data)} CFPs for #{event.name}...")
 
       cfps_attrs =
         Enum.map(data, fn cfp ->

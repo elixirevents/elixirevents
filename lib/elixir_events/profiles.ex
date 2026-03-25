@@ -96,7 +96,7 @@ defmodule ElixirEvents.Profiles do
     %Profile{}
     |> Profile.changeset(attrs)
     |> Repo.insert_and_index(
-      on_conflict: {:replace_all_except, [:id, :inserted_at]},
+      on_conflict: {:replace_all_except, [:id, :user_id, :inserted_at]},
       conflict_target: :handle,
       returning: true
     )
