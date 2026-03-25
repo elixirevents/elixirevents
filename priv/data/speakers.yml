@@ -76,8 +76,11 @@
 
 - name: "Shannon Selbert"
   slug: "shannonselbert"
-  headline: "Co-creator of Oban Web"
-  bio: "Co-creator of Oban Web, the dashboard and management interface for Oban."
+  headline: "Oban Core Team"
+  bio: "Shannon Selbert is an aspiring polyglot, programmer, product manager, and contract law enthusiast (really!). After a stint doing technical training for the government, her entrepreneurial spirit led her to co-found Soren in 2008, where she consulted for over a decade before transitioning to the development of Oban Pro."
+  social_links:
+    - platform: twitter
+      url: https://x.com/sorentwo
 
 - name: "Sola Aremu 'Pelumi"
   slug: "solaaremupelumi"
@@ -680,8 +683,13 @@
 
 - name: "Boris Okner"
   slug: "borisokner"
-  headline: "Elixir Developer"
+  headline: "Elixir/Erlang developer"
   bio: "Speaker at ElixirConf/Code BEAM."
+  social_links:
+    - platform: github
+      url: https://github.com/bokner
+    - platform: linkedin
+      url: https://www.linkedin.com/in/boris-okner-080a99/
 
 - name: "Carlos Rodrigues"
   slug: "carlosrodrigues"
@@ -691,7 +699,12 @@
 - name: "Christopher Grainger"
   slug: "christophergrainger"
   headline: "ML Engineer"
-  bio: "Machine learning engineer working with Elixir and Nx ecosystem."
+  bio: "Chris is the co-founder and CTO of Amplified. Prior to founding Amplified, Chris was an economist and researcher focusing on the application of deep learning methodologies to innovation econometrics. Chris is also a loving father, having won his family’s annual ‘Father of the Year’ competition five years running."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/cigrainger/
+    - platform: twitter
+      url: https://x.com/cigrainger
 
 - name: "Christopher Miller"
   slug: "christophermiller"
@@ -788,6 +801,9 @@
   slug: "lekhasurasani"
   headline: "Elixir Developer"
   bio: "Speaker at ElixirConf/Code BEAM."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/lekha-surasani/
 
 - name: "Lucas Sifoni"
   slug: "lucassifoni"
@@ -851,6 +867,9 @@
   slug: "thibautbarrere"
   headline: "Creator of Kiba ETL"
   bio: "Creator of Kiba, an ETL framework, and Elixir developer."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/barrere/
 
 - name: "Thomas Arts"
   slug: "thomasarts"
@@ -1782,7 +1801,10 @@
 - name: "Anton Frolov"
   slug: "antonfrolov"
   headline: "Software Developer"
-  bio: "Software Developer with over ten years of experience in Web, Telephony, Automotive, and Computer Vision."
+  bio: "Software Developer specializing in Elixir at Choosy AG since April 2023. Previously, as a Senior Software Engineer at 8x8 Inc. (Dec 2020 - May 2023), Anton led the development of an Elixir-based instant messaging service, achieving 99.995% service reliability. He designed features like MS Teams integration and initiated metrics coverage. Earlier, at BMW Group (Jun 2019 - Nov 2020), Anton contributed to the BMW Intelligent Personal Voice Assistant infrastructure and mentored junior developers. His journey began at RingCentral (May 2017 - May 2019), where he developed telephony signaling servers in Erlang and C++, and created an IMS proof of concept for mobile network integration."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/tony-frolov/
 
 - name: "Maksymilian Jodłowski"
   slug: "maksymilianjodlowski"
@@ -2059,3 +2081,130 @@
   social_links:
     - platform: github
       url: "https://github.com/antonmi"
+
+- name: "Filipe Cabaço"
+  slug: filipecabaco
+  headline: "Software Engineer @ Supabase"
+  bio: |
+    I'm a Software Engineer, willing to go the extra mile to learn more about programming,  acquiring the most I can so I can deliver the best products. I try to follow the best practices in software development, focusing on implementing stable, scalable systems.
+
+    Throughout my year's programming I was able to work in various languages and with various frameworks both in the academic level but also in professionally, with production code in languages like Elixir, Kotlin, Scala, Typescript, Javascript, Golang, Ruby, Python and Java and during my free time I'm improving my Elixir and Clojure on multiple side projects including my blog at https://filipecabaco.com
+  website: https://filipecabaco.com/
+  social_links:
+    - platform: github
+      url: https://github.com/filipecabaco
+    - platform: twitter
+      url: https://x.com/filipecabaco
+    - platform: linkedin
+      url: https://www.linkedin.com/in/filipecabaco/
+
+- name: "Akhilesh Negi"
+  slug: akhileshnegi
+  headline: "Software Developer at Project Tech4Dev"
+  bio: |
+    As a Software Developer at Project Tech4Dev, I have contributed to features and open-source products that solve real world problems for NGOs , thus amplifying their social impact. I have a strong background in backend engineering, with experience in designing and maintaining features, implementing AI-driven solutions, rolling out features with well-defined plans and test cases to ensure reliability, optimizing system performance, and integrating third-party services.
+
+    In addition to engineering, I have worked in a consulting capacity, collaborating with NGOs to understand their challenges across operations, technology, and strategy. I have built and maintained dashboards to support decision-making and have been part of cohorts focused on helping NGOs leverage data and AI to improve efficiency and measure impact.
+
+    I am passionate about using technology to empower organizations and communities to achieve their goals. I hold a Bachelor of Technology degree in Computer Science from THDC Institute.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/negiakhilesh/
+
+- name: "Mohd Shamoon"
+  slug: mohdshamoon
+  headline: "Senior Software developer, Project Tech4dev"
+  bio: |
+    Mohd loves to solve problems through his intellect and tech. He loves experimenting with the latest in Tech. Currently leading the frontend part of the Glific project. Mohd’s goto language is Javascript. You can learn more about him through his blogs on medium.
+
+    Some other things that Mohd likes to talk about are running, anime and adventure sports.
+  social_links:
+    - platform: github
+      url: https://github.com/mdshamoon
+    - platform: twitter
+      url: https://x.com/Tech_e_moon
+    - platform: linkedin
+      url: https://www.linkedin.com/in/mohd-shamoon-4aa7a513b/
+
+- name: "Melinda Tóth"
+  slug: melindatoth
+  headline: "Researcher and Trainer"
+  bio: |
+    Melinda Tóth is an associate professor at Eötvös Loránd University (ELTE), teaching distributed systems and Erlang/OTP technology, and the head of the Cooperation Center for IT Research and Education responsible for coordinating the industrial R&D projects of the Faculty of Informatics. She also works as a researcher at ELTE-Soft Nonprofit Ltd. (Budapest, Hungary), leading the ELTE-Ericsson Software Technology Lab. On top of that Melinda is a chief architect of RefactorErl, a static source code analysis and transformation system for Erlang. Her research focuses on static program analysis and its usage in software development and maintenance.
+
+- name: "Matt Whitworth"
+  slug: matthewwhitworth
+  headline: "Lead Software Engineer @ Spellbook"
+  bio: "Currently the Lead Software Engineer for Core Experience at Spellbook - always excited to solve tough problems!"
+  social_links:
+    - platform: github
+      url: https://github.com/mwhitworth
+    - platform: linkedin
+      url: https://www.linkedin.com/in/mwhitworth88/
+
+- name: "Barnabas Jovanovics"
+  slug: barnabasjovanovics
+  headline: "Ash Core Team Member"
+  bio: "When Barnabas started to work, he was doing an apprenticeship as an electrician. After finishing that and looking for something new, he started working as a Service Technician at LTW, where he could combine Travel with Work. After a couple of years of doing that, Barnabas could switch departments inside the company. There he was programming Siemens PLCs to run the Stacker Cranes. He then started to get his A-Levels and earned his BSc in Software Engineering at the University of Applied Sciences Vorarlberg. Barnabas started working as a Software Engineer on the side in the third semester and have mostly worked in Web Technologies since then."
+  social_links:
+    - platform: github
+      url: https://github.com/barnabasJ
+    - platform: linkedin
+      url: https://www.linkedin.com/in/barnabas-jovanovics-216624130/
+
+- name: "Manuel Camejo"
+  slug: manuelcamejo
+  headline: "Engineer and Manager at LambdaClass"
+  bio: "Manuel is the Director of the Computer Science Department at the Computer Science Engineering career at the University of Buenos Aires. He built the infrastructure that managed the Tourism incentives program for the Argentine Tourism Ministry, which was used by millions of people. Manuel spent the last two years designing and implementing backend systems in Elixir. He has been working at LambdaClass as Tech Lead since 2022, where he is using Elixir to build a game backend."
+
+- name: "Tomás Arjovsky"
+  slug: tomasarjovsky
+  headline: "Senior dev at LambdaClass"
+  bio: |
+    Working at LambdaClass since 2021. Ethereum protocol fellow 2023.
+    Spent the last three years working on high-load backends and distributed applications, such as a consensus node, always in elixir.
+    Previously worked on mobile sensors and data processing for machine learning algorithms.
+    Studied computer engineering at University of Buenos Aires.
+  social_links:
+    - platform: twitter
+      url: https://x.com/TArjovsky
+    - platform: linkedin
+      url: https://www.linkedin.com/in/tom%C3%A1s-arjovsky-027b931b6/
+
+- name: "Daniel Caixinha"
+  slug: danielcaixinha
+  headline: "Software Engineer & Lisbon|> Elixir Meet-up Organizer"
+  bio: |
+    Daniel Caixinha is a software engineer, currently working at Sona, where he is using Elixir and Phoenix LiveView to build great products that can also handle the high growth of the business.
+
+    After graduating from Instituto Superior Técnico, he joined the startup world, mainly using Ruby, but he also got the chance to play around with Elixir, which made him fall in love with functional programming in general, and Elixir in particular.
+
+    Besides building Elixir applications, he is fostering the use of Elixir, being a co-organiser of the Lisbon Elixir meetup.
+
+- name: "Milad Rastian"
+  slug: miladrastian
+  headline: "Head of Engineering at HighMobility"
+  bio: |
+    Milad is a polyglot programmer who has found his niche in Elixir&Erlang. He is also one of the co-organizers of the Elixir Berlin group.
+
+    He may not initiate a conversation, but if you say hi to him, he’ll eagerly start talking about programming languages, Event-Based systems, Microservices, (neo)Vim, mechanical keyboards, yoga, bouldering and running.
+  social_links:
+    - platform: twitter
+      url: https://x.com/slashmili
+    - platform: linkedin
+      url: https://www.linkedin.com/in/miladrastian/
+
+- name: "Mikk Rätsep"
+  slug: mikkratsep
+  headline: "Developer at High Mobility"
+  bio: |
+    Mikk is an Estonian software developer who began his career in 2011, initially focusing on macOS and iOS applications. Over the years, he developed a variety of applications, including those for salary management and vehicle telematics, showcasing his proficiency in Swift and Apple platform development.
+
+    In recent years, Mikk pivoted towards BE development, embracing Elixir as his primary language. He’s built numerous microservices using Elixir, leveraging technologies like Kafka to manage data flow and system communications effectively. This shift signifies his growing interest in functional languages and system design.
+
+    Mikk’s journey in software development has been marked by an inclination towards machine learning (ML). He’s experimented with various ML frameworks and tools to explore the potential of artificial intelligence in software solutions. These forays into ML reflects his curiosity and commitment to staying at the forefront of technological advancements.
+
+- name: "Dino"
+  slug: "dino"
+  headline: "Senior Product Engineer @ Bounce"
+  bio: "Senior Product Engineer"
