@@ -1,14 +1,14 @@
-
 ## Talks
 
-
-- title: "Concurrency + Distribution = Scalability + Availability // Francesco Cesarini"
-  slug: "concurrency-distribution-scalability-availability-francesco"
+- title: "Concurrency + Distribution = Scalability + Availability"
+  slug: "concurrency-distribution-scalability-availability"
   kind: talk
   level: intermediate
   language: en
   duration: 46
   abstract: "EmpEx, the Empire City Elixir Conference, is a new conference for the Elixir programming language and ecosystem held in New York City. EmpEx 2016 was held on May 21, 2016."
+  speakers:
+    - francescocesarini
   topics:
     - elixir
   recordings:

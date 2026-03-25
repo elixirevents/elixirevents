@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "José Valim"
   slug: "jose-valim"
   kind: keynote
@@ -44,9 +43,7 @@
       external_id: "pfFpIjFOL-I"
       url: "https://www.youtube.com/watch?v=pfFpIjFOL-I"
 
-
 ## Talks
-
 
 - title: "Timmo Verlaan | Nervous System - Nerves Clustering Using Your Own Distribution"
   slug: "timmo-verlaan-nervous-system-nerves-clustering-using-your-ow"
@@ -278,13 +275,15 @@
       external_id: "tJJMrtJEK1A"
       url: "https://www.youtube.com/watch?v=tJJMrtJEK1A"
 
-- title: "Claudio Ortolina | Always Available"
-  slug: "claudio-ortolina-always-available"
+- title: "Always Available"
+  slug: "always-available"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "Availability should be one of our major concerns when writing web applications, yet more often than not we ship code that is simply not resilient enough. Elixir and OTP provide powerful tools to improve resilience and increase availability: in this talk we'll look at how we can leverage them to prov"
+  speakers:
+    - claudioortolina
   topics:
     - elixir
     - otp
@@ -321,9 +320,7 @@
       external_id: "sJvfCE6PFxY"
       url: "https://www.youtube.com/watch?v=sJvfCE6PFxY"
 
-
 ## Lightning Talks
-
 
 - title: "ElixirConf EU 2017 | Lightning Talks"
   slug: "lt-elixirconf-eu-2017-lightning-talks"

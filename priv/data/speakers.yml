@@ -2208,3 +2208,120 @@
   slug: "dino"
   headline: "Senior Product Engineer @ Bounce"
   bio: "Senior Product Engineer"
+
+- name: "Michael Schaefermeyer"
+  slug: "michaelschaefermeyer"
+  headline: "Software Engineer and Consultant"
+  bio: "Michael started using Elixir in 2014 at his job at Bleacher Report, where he introduced first proof of concepts in Elixir, some of which developed into crucial services still in use today. He went on to co-found Inverse.com, where he wrote the vast majority of backends services in Elixir. He wrote a few hex packages, including CORSPlug and Boltex, a driver for the binary protocol that Neo4j. After Inverse Michael joined the company builder lab25 in Münster, where he acted as interims-CTO for startups written in Elixir."
+  website: https://about.me/mschae
+  social_links:
+    - platform: github
+      url: https://github.com/mschae
+    - platform: linkedin
+      url: https://www.linkedin.com/in/michaelschaefermeyer/
+
+- name: "Eric Meadows-Jönsson"
+  slug: "ericmjonsson"
+  headline: "Developer"
+  bio: "Eric Meadows-Jönsson is a member of the Elixir team and an active member of the Elixir community, being the creator of many libraries, including Ecto and the Hex package manager. Eric is a co-author of the book “Programming Ecto” published by Pragmatic Bookshelf."
+  website: https://about.me/mschae
+  social_links:
+    - platform: github
+      url: https://github.com/ericmj
+    - platform: twitter
+      url: https://x.com/emjii
+
+- name: "Josh Adams"
+  slug: "joshadams"
+  headline: "CTO of Isotope11"
+  bio: |
+    Josh is the CTO of Isotope11, a successful software development company that focuses on Ruby and JavaScript. He is also responsible for http://www.elixirsips.com, a screencast series wherein he walks through elixir as he learns it, and records 2 shortish (5-12 minutes, occasionally longer) videos per week. He’s also been a co-author and a technical reviewer for multiple books on the Arduino microprocessor, and has had a lot of fun doing robotics with Ruby as well. Josh is currently aiming to bring that robotics fun to Erlang (or Elixir).
+
+- name: "Torben Hoffmann"
+  slug: "torbenhoffmann"
+  headline: "Engineering Leader & Architect"
+  bio: |
+    Torben Hoffman has been working with Erlang since 2006. Currently as an architect for Basho, previously as CTO of Erlang Solutions and before that as technical architect and developer for Motorola and Issuu. By day he is an Erlang priest, by night an Elixir alchemist and a Lego Mindstorms hacker. He is devoted to protocols as the way of describing and developing non-trivial software. He has worked extensively with process improvement and people management at Motorola before going back to his engineering roots.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/torbenhoffmann/
+
+- name: "Martin Kavalar"
+  slug: "martinkavalar"
+  headline: "Making science reproducible"
+  bio: "Martin Kavalar is a builder of niche things. He discovered Erlang in 2008 looking to improve stability and performance of his java-written game server for Sauspiel, the worlds biggest and only community for the bavarian card game Schafkopf with over 500 million games played. The game server for his new project Bold Poker was originally written in Erlang and has since been rewritten in Elixir."
+  social_links:
+    - platform: github
+      url: https://github.com/mk
+    - platform: twitter
+      url: https://x.com/mkvlr
+
+- name: "Martin Schürrer"
+  slug: "martinschurrer"
+  headline: "Elixir Developer"
+  bio: "Elixir Developer"
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/martinschuerrer/
+    - platform: twitter
+      url: https://x.com/MSch
+
+- name: "Claudio Ortolina"
+  slug: "claudioortolina"
+  headline: "Software Engineer and Speaker"
+  bio: |
+    Claudio Ortolina is a software professional with almost 15 years of experience. Over time, he wore different hats ranging from engineering, to management and CTO.
+
+    He’s been a proponent of Elixir since 2013, and gave numerous talks on different subjects related to the BEAM ecosystem.
+
+    He previously worked at Nutrient (formerly known as PSPDFKit), Erlang Solutions, New Bamboo Web Development Ltd. (now part of Thoughtbot Inc.) between London and Istanbul.
+  website: https://claudio-ortolina.org/
+  social_links:
+    - platform: github
+      url: https://github.com/cloud8421
+    - platform: twitter
+      url: https://x.com/cloud8421
+
+- name: "Michał Ślaski"
+  slug: "michaslaski"
+  headline: "Co-Founder of koderki.pl"
+  bio: "AGH graduate, Erlang programmer since 2005. In 2014 began organizing the Lambda Days conference, which focuses on functional languages and new trends in computer science. In the same year also started organizing programming workshops for people who would like to learn languages such as Erlang, Elixir or Swift. Co-Founder of koderki.pl and frequent conference speaker."
+  social_links:
+    - platform: github
+      url: https://github.com/michalslaski
+    - platform: twitter
+      url: https://x.com/michalslaski
+
+- name: "Miloš Mošić"
+  slug: "milosmosic"
+  headline: "CTO of Evercam"
+  bio: "CTO of Evercam, a Developer Platform for cameras. Found Elixir while looking for a solution to Ruby concurrency issues, immediately fell in love with the language and the community."
+  social_links:
+    - platform: github
+      url: https://github.com/mosic
+
+- name: "Marco Herbst"
+  slug: "marcoherbst"
+  headline: "Founder & CEO Jobs.ie"
+  bio: "Founder & CEO Jobs.ie - #1 Jobs site in Ireland Founder & CEO Evercam - World’s first app store for IP Cameras. Speaker at NordicAPIs 2014, APIStrat 2014, APICon 2014."
+
+- name: "Simon Thompson"
+  slug: "simonthompson"
+  headline: "Researcher, author and teacher"
+  bio: |
+    Researcher, author and teacher, senior researcher for IOHK and professor at the University of Kent and ELTE, Budapest.
+
+    His research has covered many aspects of functional programming, including verification, tool building and testing for Erlang, Haskell and OCaml. He is an author of books on type theory, Haskell and Erlang, and runs a MOOC on Erlang for FutureLearn. He is currently a senior research lead at IOHK, developing a DSL for financial contracts on blockchain.
+  social_links:
+    - platform: twitter
+      url: https://x.com/thompson_si
+
+- name: "Viktória Fördős"
+  slug: "viktoriafordos"
+  headline: "Erlanger"
+  bio: "Viktória is passionate about security, consistency models, highly available and scalable software. She first came in contact with Erlang in 2010 when she joined the RefactorErl project. Has been active in R&D, and of course in Erlang, ever since. She was contributing to FP7 EU projects (PharaPhrase, RELEASE, SYNCFREE), has published her results in academic and industrial conferences and journals. She believes that research is to be consumed by industry, and promotes research that has immediate impact and helps software engineers. She joined Cisco Systems in 2019. She is an NSO core engineer, she solves (network orchestration) problems in Erlang everyday."
+
+- name: "Jeff Weiss"
+  slug: "jeffweiss"
+  headline: "Software Engineer"
+  bio: "Software Engineer"

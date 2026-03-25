@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "Dependent Types | Lambda Days 2021"
   slug: "keynote-salvation-or-plague"
   kind: keynote
@@ -30,14 +29,18 @@
       external_id: "fPKMmJpAGWc"
       url: "https://www.youtube.com/watch?v=fPKMmJpAGWc"
 
-- title: "Industry versus Academia? (...) | Francesco Cesarini & Simon Thompson | Lambda Days 2021"
-  slug: "industry-versus-academia-francesco-cesarini-simon-thompson-l"
+- title: "Industry versus Academia? (...)"
+  slug: "industry-versus-academia"
   kind: keynote
   language: en
   duration: 64
   abstract: "Industry versus academia? Learning and teaching programming"
+  speakers:
+    - francescocesarini
+    - simonthompson
   topics:
     - elixir
+    - learning
   recordings:
     - provider: youtube
       external_id: "nq9ezsbC12s"
@@ -151,9 +154,7 @@
       external_id: "VEhkhxoGJSk"
       url: "https://www.youtube.com/watch?v=VEhkhxoGJSk"
 
-
 ## Talks
-
 
 - title: "Constructive Bidirectional Programming | Lambda Days 2021"
   slug: "constructive-bidirectional-programming-lambda-days-2021"

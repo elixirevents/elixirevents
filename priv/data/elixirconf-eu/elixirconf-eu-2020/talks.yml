@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "Keynote: Building an emergency software - Linda Achieng Otieno, Sigu Magwa"
   slug: "keynote-httpswwwelixirconfeu"
   kind: keynote
@@ -41,9 +40,7 @@
       external_id: "mvZzp70VE8A"
       url: "https://www.youtube.com/watch?v=mvZzp70VE8A"
 
-
 ## Talks
-
 
 - title: "Using Elixir and WhatsApp to Response COVID-19 | Simon de Haan"
   slug: "using-elixir-and-whatsapp-to-response-covid-19-simon-de-haan"
@@ -217,13 +214,15 @@
       external_id: "00mUmaxbfwc"
       url: "https://www.youtube.com/watch?v=00mUmaxbfwc"
 
-- title: "The Perils of Large Files - Claudio Ortolina"
-  slug: "the-perils-of-large-files-claudio-ortolina"
+- title: "The Perils of Large Files"
+  slug: "the-perils-of-large-files"
   kind: talk
   level: intermediate
   language: en
   duration: 36
   abstract: "More great virtual tech conferences - https://codesync.global"
+  speakers:
+    - claudioortolina
   topics:
     - elixir
   recordings:

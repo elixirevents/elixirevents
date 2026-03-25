@@ -729,7 +729,7 @@ defmodule ElixirEventsWeb.CoreComponents do
         id="platform-select"
         name="profile[social_links][0][platform]"
         value={:twitter}
-        options={[{"Twitter", :twitter}, {"GitHub", :github}]}
+        options={[{"X", :twitter}, {"GitHub", :github}]}
       />
   """
   attr :id, :string, required: true
