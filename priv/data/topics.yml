@@ -109,3 +109,7 @@
 - name: "Elm"
   slug: "elm"
   description: "The Elm programming language for building reliable web frontends"
+
+- name: "Kubernetes"
+  slug: "kubernetes"
+  description: "Kubernetes orchestration, containerization, and cluster operations"

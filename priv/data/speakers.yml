@@ -2331,6 +2331,108 @@
   headline: "Software Engineer"
   bio: "Software Engineer"
 
+- name: "Timmo Verlaan"
+  slug: "timmoverlaan"
+  headline: "Software Developer"
+  bio: "I’m working as a software developer with quite some experience in Voice over IP. I’ve written code in multiple lanugages, currently Elixir stands out the most."
+  website: https://timmo.immo/
+  social_links:
+    - platform: github
+      url: https://github.com/tverlaan
+    - platform: mastodon
+      url: https://fosstodon.org/@timmoverlaan
+    - platform: instagram
+      url: https://www.instagram.com/coldcuppabeer/
+    - platform: linkedin
+      url: https://linkedin.com/in/timmoverlaan/
+
+- name: "Petri Kero"
+  slug: "petrikero"
+  headline: "CTO and co-founder of Ministry of Games"
+  bio: "Petri is the CTO and co-founder of Ministry of Games, a mobile games startup located in central Helsinki, Finland. Petri started his career in 2000, working on computer graphics technology and shader compilers, from which where he has evolved into an entrepreneur and distributed Elixir enthusiast."
+  social_links:
+    - platform: github
+      url: https://github.com/petrikero
+
+- name: "Tomasz Kowal"
+  slug: "tomaszkowal"
+  headline: "Developer @ Clubcollect"
+  bio: "Software Developer"
+  social_links:
+    - platform: github
+      url: https://github.com/tomekowal
+
+- name: "Ben Marx"
+  slug: "benmarx"
+  headline: "Lead Engineer / Co-author of Adopting Elixir"
+  bio: "Software Architect at Bleacher Report, EEF marketing and education working group member, and co-author of Adopting Elixir."
+  social_links:
+    - platform: github
+      url: https://github.com/bgmarx
+    - platform: twitter
+      url: https://x.com/bgmarx
+
+- name: "Andrea Amantini"
+  slug: "andreaamantini"
+  headline: "Engineer at Nextjournal"
+  bio: "Software Engineer"
+
+- name: "Ole Michaelis"
+  slug: "olemichaelis"
+  headline: "Engineer at DNSimple; curator of SoCoded"
+  bio: "Software Engineer"
+
+- name: "Tatsuya Ono"
+  slug: "tatsuyaono"
+  headline: "Freelance Software Engineer"
+  bio: "Software Engineer"
+
+- name: "Claudia Doppioslash"
+  slug: "claudiadoppioslash"
+  headline: "Functional Programmer & Gamedev"
+  bio: "Software Developer"
+
+- name: "Dániel Vámosi"
+  slug: "danielvamosi"
+  headline: "Elixir Team Lead @ Digital Natives and Flyiin"
+  bio: "Software Engineer"
+
+- name: "Eric Weinstein"
+  slug: "ericweinstein"
+  headline: "Software Engineer"
+  bio: "Software Engineer"
+
+- name: "Nathan Herald"
+  slug: "nathanherald"
+  headline: "Engineer (Wunderlist → Microsoft)"
+  bio: "Software Engineer"
+
+- name: "Ian Luites"
+  slug: "ianluites"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Devon Estes"
+  slug: "devonestes"
+  headline: "Elixir Track Maintainer on Exercism.io"
+  bio: "Devon is an independent software development consultant specializing in Elixir and Erlang applications. He has helped companies large and small in Europe and the United States benefit from the power of the BEAM. He is also a writer, international conference speaker, and committed supporter of open source software as a maintainer of Benchee and the Elixir track on exercism.io, as well as a frequent contributor to Elixir."
+  website: https://www.devonestes.com/
+  social_links:
+    - platform: github
+      url: https://github.com/devonestes
+    - platform: twitter
+      url: https://x.com/devoncestes
+
+- name: "Loic Vigneron"
+  slug: "loicvigneron"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kevin Rockwood"
+  slug: "kevinrockwood"
+  headline: "Developer at Skelterlabs"
+  bio: "Software Engineer"
+
 - name: "Zandra Norman"
   slug: "zandranorman"
   headline: "Software Engineer"

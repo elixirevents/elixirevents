@@ -1,43 +1,52 @@
 ## Keynotes
 
-- title: "José Valim"
-  slug: "jose-valim"
+- title: "ElixirConf EU 2017 Keynote"
+  slug: "elixircong-eu-2017-keynote"
   kind: keynote
   language: en
   duration: 57
   abstract: "José Valim is the creator of the Elixir programming language and the Director of R&D at Plataformatec, a consultancy firm based in Brazil. He is author of Adopting Elixir and Programming Phoenix as well as an active member of the Open Source community."
+  speakers:
+    - josevalim
   topics:
     - elixir
     - phoenix
-    - ecto
   recordings:
     - provider: youtube
       external_id: "IZvpKhA6t8A"
       url: "https://www.youtube.com/watch?v=IZvpKhA6t8A"
 
-- title: "Tetiana Dushenkivska & Keith Salisbury | Keynote: The Age of Elixir"
-  slug: "tetiana-dushenkivska-keith-salisbury-keynote-the-age-of-elix"
+- title: "Keynote: The Age of Elixir"
+  slug: "keynote-the-age-of-elixir"
   kind: keynote
   language: en
   duration: 48
-  abstract: "The elixir of life is a mythical potion that supposedly grants the drinker eternal life and eternal youth. This elixir was said to cure all diseases. Alchemists in various ages and cultures sought the means of formulating the elixir. Today, thanks to José we can all use Elixir, and once you have tri"
+  abstract: |
+    The elixir of life is a mythical potion that supposedly grants the drinker eternal life and eternal youth. This elixir was said to cure all diseases. Alchemists in various ages and cultures sought the means of formulating the elixir. Today, thanks to José we can all use Elixir, and once you have tried, it's hard to stop. Why Elixir is so addictive? How is it transforming lives?
+
+    In this talk we will take a fun peek at the development of Elixir, and remind ourselves how it all started. We’ll join a whistle stop tour through the years from inception, learning how both the language and the community got to where we are today. We’ll take a closer look at some examples of how elixir has transformed the lives of those who have jumped in with both feet. And finally we’ll take a cautious but brave look towards the future, what opportunities might lay in the road ahead.
+  speakers:
+    - tetianadushenkivska
+    - keithsalisbury
   topics:
     - elixir
+    - community
   recordings:
     - provider: youtube
       external_id: "79uZENO4OwA"
       url: "https://www.youtube.com/watch?v=79uZENO4OwA"
 
-- title: "Chris McCord | Keynote: Phoenix - Gauging Progress"
-  slug: "chris-mccord-keynote-phoenix-gauging-progress"
+- title: "Keynote: Phoenix - Gauging Progress"
+  slug: "keynote-phoenix-gauging-progress"
   kind: keynote
   language: en
   duration: 49
   abstract: "ElixirConf EU is a community conference created to promote education, networking and collaboration within the Elixir/Erlang/Ruby communities."
+  speakers:
+    - chrismccord
   topics:
     - elixir
     - phoenix
-    - erlang
   recordings:
     - provider: youtube
       external_id: "pfFpIjFOL-I"
@@ -45,15 +54,17 @@
 
 ## Talks
 
-- title: "Timmo Verlaan | Nervous System - Nerves Clustering Using Your Own Distribution"
-  slug: "timmo-verlaan-nervous-system-nerves-clustering-using-your-ow"
+- title: "Nervous System - Nerves Clustering Using Your Own Distribution"
+  slug: "nervous-system-nerves-clustering-using-your-own-distribution"
   kind: talk
   level: intermediate
   language: en
   duration: 40
-  abstract: "Coming with Erlang R19 is the option to use your own distribution module. This creates the possibility for having auto-connecting Nerves devices without worrying about the local network or specifying node names upfront. In this talk I will explore the different solutions up until now. One of which w"
+  abstract: |
+    Coming with Erlang R19 is the option to use your own distribution module. This creates the possibility for having auto-connecting Nerves devices without worrying about the local network or specifying node names upfront. In this talk I will explore the different solutions up until now. One of which was my first go at creating "distributed blinky" (having a led blink on 2+ devices taking turns). Then I will take a look at how we can create our own distribution module and see how we can leverage that so we don't need any upfront knowledge about node names and are independent of the local network. Our goal is to create an autonomously connecting Nerves cluster with zero effort! But, can it be done?
+  speakers:
+    - timmoverlaan
   topics:
-    - elixir
     - nerves
     - erlang
   recordings:
@@ -61,27 +72,34 @@
       external_id: "kMHXd_iMGRU"
       url: "https://www.youtube.com/watch?v=kMHXd_iMGRU"
 
-- title: "Petri Kero | Building a Scalable, Distributed Backend for Mobile Games"
-  slug: "petri-kero-building-a-scalable-distributed-backend-for-mobil"
+- title: "Building a Scalable, Distributed Backend for Mobile Games"
+  slug: "building-a-scalable-distributed-backend-for-mobile-games"
   kind: talk
   level: intermediate
   language: en
   duration: 46
-  abstract: "Successful mobile games have huge amounts of simultaneous users, which requires a scalable server in the backend. Getting featured in a store can also cause a rapid rapid ramp-up, putting even further pressure on the scalability of the backend. In this talk I'll present how Ministry of Games is tack"
+  abstract: |
+    Successful mobile games have huge amounts of simultaneous users, which requires a scalable server in the backend. Getting featured in a store can also cause a rapid rapid ramp-up, putting even further pressure on the scalability of the backend. In this talk I'll present how Ministry of Games is tackling the scalability problem with distributed Elixir. I will cover how our system is implemented in Elixir as well as some practical aspects of deploying the Elixir server to a Kubernetes cluster.
+  speakers:
+    - petrikero
   topics:
     - elixir
+    - kubernetes
   recordings:
     - provider: youtube
       external_id: "nCSO8yeR0c4"
       url: "https://www.youtube.com/watch?v=nCSO8yeR0c4"
 
-- title: "Tomasz Kowal | Elixir and Money"
-  slug: "tomasz-kowal-elixir-and-money"
+- title: "Elixir and Money"
+  slug: "elixir-and-money"
   kind: talk
   level: intermediate
   language: en
   duration: 41
-  abstract: "Dealing with money should be easy, because crunching numbers is the most basic thing that every computer can do. On the other hand, the cost of a mistake may be quite high. I am going to discuss what properties does a financial system need in terms of CAP theorem and how does using Elixir language f"
+  abstract: |
+    Dealing with money should be easy, because crunching numbers is the most basic thing that every computer can do. On the other hand, the cost of a mistake may be quite high. I am going to discuss what properties does a financial system need in terms of CAP theorem and how does using Elixir language fit into the problem domain. The talk will cover handling rounding errors, designing APIs that gracefully handle network and hardware failures, and usage of "let it crash" approach in the design. It is also a case study of using Elixir in real life. Lets discuss Elixir and money!
+  speakers:
+    - tomaszkowal
   topics:
     - elixir
   recordings:
@@ -89,13 +107,15 @@
       external_id: "TZPG8b-Novw"
       url: "https://www.youtube.com/watch?v=TZPG8b-Novw"
 
-- title: "Andrea Leopardi | The Best Library I Ever Designed"
-  slug: "andrea-leopardi-the-best-library-i-ever-designed"
+- title: "The Best Library I Ever Designed"
+  slug: "the-best-library-i-ever-designed"
   kind: talk
   level: intermediate
   language: en
   duration: 31
-  abstract: "I started learning Elixir by creating a couple of simple libraries, and have never stopped writing libraries since. In this process, I learned a lot about Elixir and Erlang, open source, API design, extensibility, documentation, and people. I tried to distil all of this in a data validation library "
+  abstract: "I started learning Elixir by creating a couple of simple libraries, and have never stopped writing libraries since. In this process, I learned a lot about Elixir and Erlang, open source, API design, extensibility, documentation, and people. I tried to distil all of this in a data validation library called Saul. In this talk, I will share my learnings and thoughts on the library side of software, showing off Saul as a practical example."
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
     - otp
@@ -105,13 +125,15 @@
       external_id: "tbo7IV8akvs"
       url: "https://www.youtube.com/watch?v=tbo7IV8akvs"
 
-- title: "Ben Marx | Keeping Code Consistent"
-  slug: "ben-marx-keeping-code-consistent"
+- title: "Keeping Code Consistent"
+  slug: "keeping-code-consistent"
   kind: talk
   level: intermediate
   language: en
   duration: 39
-  abstract: "Introducing Elixir and/or Phoenix to a team is not without its challenges. New languages and frameworks tend to be tech debt heavy as developers learn and iterate. At Bleacher Report, weäó»ve had great success with training developers to use Elixir by focusing on application standards, community dev"
+  abstract: "Introducing Elixir and/or Phoenix to a team is not without its challenges. New languages and frameworks tend to be tech debt heavy as developers learn and iterate. At Bleacher Report, we've had great success with training developers to use Elixir by focusing on application standards, community developed tools and consistent testing practices. As a result of these practices, our code reviews are more meaningful and developers are able to move between applications with relative ease. This talk will provide app standard suggestions, lessons learned and code review guidelines that will help your organization adopt Elixir and Phoenix and enjoy all of the immense benefits they bring without incurring the heavy tech debt that generally comes with new language or framework adoption."
+  speakers:
+    - benmarx
   topics:
     - elixir
     - phoenix
@@ -120,28 +142,36 @@
       external_id: "W1EzF4FdUxM"
       url: "https://www.youtube.com/watch?v=W1EzF4FdUxM"
 
-- title: "Andrea Amantini | Designing a Multi-Language Live Programming Tool With Phoenix and Genstage"
-  slug: "andrea-amantini-designing-a-multi-language-live-programming"
+- title: "Designing a Multi-Language Live Programming Tool With Phoenix and Genstage"
+  slug: "designing-a-multi-language-live-programming-tool-with-phoenix-and-genstage"
   kind: talk
   level: intermediate
   language: en
   duration: 38
-  abstract: "Nextjournal enables living documents for researchers. Our goal is to make technical writing and scientific research easily reproducible and shareable through beautiful typography and live coding tools."
+  abstract: |
+    Nextjournal enables living documents for researchers. Our goal is to make technical writing and scientific research easily reproducible and shareable through beautiful typography and live coding tools.
+
+    In this talk I'll show how Phoenix channels, GenStage and Erlang ports elegantly solved the complex challenges of building a multi-language, browser-based live programming environment.
+  speakers:
+    - andreaamantini
   topics:
     - elixir
     - phoenix
+    - erlang
   recordings:
     - provider: youtube
       external_id: "p58sFfgMvdI"
       url: "https://www.youtube.com/watch?v=p58sFfgMvdI"
 
-- title: "Ole Michaelis | Just Enough Plug to Build a Web server"
-  slug: "ole-michaelis-just-enough-plug-to-build-a-web-server"
+- title: "Just Enough Plug to Build a Web server"
+  slug: "just-enough-plug-to-build-a-web-server"
   kind: talk
   level: intermediate
   language: en
   duration: 39
-  abstract: "Elixir's plug library is one of the most powerful packages we have within hex. It does not only serves as a foundation for Phoenix but also allows everyone to intercept and modify HTTP requests on the fly. Have you ever wondered how phoenix interacts with the underlying web server? In this talk you "
+  abstract: "Elixir's plug library is one of the most powerful packages we have within hex. It does not only serves as a foundation for Phoenix but also allows everyone to intercept and modify HTTP requests on the fly. Have you ever wondered how phoenix interacts with the underlying web server? In this talk you will learn how to work with plug. You will see some of plugs implementation details and learn just enough to build your own web server for plug and gain a better understanding of the relationship between Phoenix and Plug"
+  speakers:
+    - olemichaelis
   topics:
     - elixir
     - phoenix
@@ -150,44 +180,61 @@
       external_id: "ESzZCaaCzyg"
       url: "https://www.youtube.com/watch?v=ESzZCaaCzyg"
 
-- title: "Tatsuya Ono | Background Processing with RabbitMQ"
-  slug: "tatsuya-ono-background-processing-with-rabbitmq"
+- title: "Background Processing with RabbitMQ"
+  slug: "background-processing-with-rabbitmq"
   kind: talk
   level: intermediate
   language: en
   duration: 47
-  abstract: "At SQUARE ENIX, we recently opensourced a background processing library called TaskBunny. In this talk, we will go through:"
+  abstract: |
+    At SQUARE ENIX, we recently opensourced a background processing library called TaskBunny. In this talk, we will go through:
+    the design decision we made to use RabbitMQ instead of using Erlang process/OTP
+    the features the libraries offer
+    some implementations we like to share. For example, how TaskBunny uses the OTP supervisor to handle connection loss
+    Additionally we want to share our story on how we came to opensource our library. We were hesitant to opensource at first, because we thought that using RabbitMQ for background processing wouldn't look attractive to Elixir/Erlang developers. But we did it anyway and we are very happy about it. We hope our story will encourage other developers and teams to share their works as well.
+  speakers:
+    - tatsuyaono
   topics:
     - elixir
     - otp
+    - libraries
   recordings:
     - provider: youtube
       external_id: "itU5_zPddBQ"
       url: "https://www.youtube.com/watch?v=itU5_zPddBQ"
 
-- title: "Claudia Doppioslash | Building a Graphical IDE in Elm/Purescript"
-  slug: "claudia-doppioslash-building-a-graphical-ide-in-elmpurescrip"
+- title: "Building a Graphical IDE in Elm/Purescript"
+  slug: "building-a-graphical-ide-in-elm-purescript"
   kind: talk
   level: intermediate
   language: en
   duration: 41
-  abstract: '\"Building a Graphical IDE in Elm/Purescript for an Embedded Language that Compiles to the Erlang VM\"'
+  abstract: |
+    "Building a Graphical IDE in Elm/Purescript for an Embedded Language that Compiles to the Erlang VM"
+
+    Functional Programming languages that compile to Javascript can be used to develop complex frontend projects successfully, while sparing yourself a lot of pain and obsessive test coverage.
+    In this deep dive into the Typed-FP-languages-targeting-Javascript ecosystem, I'll show you how we used Elm to build a complex IDE for a visual PLC language for embedded hardware (Programmable Logic Controllers).
+    Our PLC programming language implementation gets compiled to BEAM files and runs in the Erlang VM.  That allows us to take advantage of Erlang's distributed model, and through our custom websocket library the IDE can talk directly with a Cowboy handler running on the device, to get debugging information in realtime.
+    We'll also cover our choice of framework when porting the IDE to Purescript, good and less good parts of the two languages, and how they relate to Haskell.
+  speakers:
+    - claudiadoppioslash
   topics:
-    - elixir
-    - nerves
     - erlang
+    - elm
   recordings:
     - provider: youtube
       external_id: "ngWo5e-294o"
       url: "https://www.youtube.com/watch?v=ngWo5e-294o"
 
-- title: "Dániel Vámosi | Visual Reasoning and Mental Maps in Elixir"
-  slug: "daniel-vamosi-visual-reasoning-and-mental-maps-in-elixir"
+- title: "Visual Reasoning and Mental Maps in Elixir"
+  slug: "visual-reasoning-and-mental-maps-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 35
-  abstract: "I would like to present a brief overview of the variety of tools available for visual reasoning about concurrency patterns, ranging from Erlang/OTP (Observer, erlyberly) through Elixir ecosystem (visualixir), to the toolset available for other concurrent platforms like Go (gotrace, streamtools). The"
+  abstract: "I would like to present a brief overview of the variety of tools available for visual reasoning about concurrency patterns, ranging from Erlang/OTP (Observer, erlyberly) through Elixir ecosystem (visualixir), to the toolset available for other concurrent platforms like Go (gotrace, streamtools). The second goal is to showcase a proof of concept for a visual tool that extends the feature set of the aforementioned ones, with a strong focus on specific Elixir abstractions (like GenStage + Flow), rather than concurrency primitives."
+  speakers:
+    - danielvamosi
   topics:
     - elixir
     - otp
@@ -197,47 +244,61 @@
       external_id: "XLOrFRgmczU"
       url: "https://www.youtube.com/watch?v=XLOrFRgmczU"
 
-- title: "Eric Weinstein | Machine Learning with Elixir and Phoenix"
-  slug: "eric-weinstein-machine-learning-with-elixir-and-phoenix"
+- title: "Machine Learning with Elixir and Phoenix"
+  slug: "machine-learning-with-elixir-and-phoenix"
   kind: talk
   level: intermediate
   language: en
   duration: 42
-  abstract: "Machine learning is a popular and rapidly growing field these days, but there aren't a lot of machine learning tools available in Elixir; some in the programming community have even suggested that BEAM isn't suited enough to the necessary number crunching to do serious machine learning work. Not so!"
+  abstract: "Machine learning is a popular and rapidly growing field these days, but there aren't a lot of machine learning tools available in Elixir; some in the programming community have even suggested that BEAM isn't suited enough to the necessary number crunching to do serious machine learning work. Not so! In this talk, we'll walk through training a home-grown neural network written in Elixir on financial data from the S&P 500, then develop a Phoenix application to use that network to try to predict stock prices."
+  speakers:
+    - ericweinstein
   topics:
     - elixir
     - phoenix
-    - erlang
+    - machine-learning
   recordings:
     - provider: youtube
       external_id: "ZgPwqN38xaA"
       url: "https://www.youtube.com/watch?v=ZgPwqN38xaA"
 
-- title: "Nathan Herald | One and Only One Process in a Distributed System"
-  slug: "nathan-herald-one-and-only-one-process-in-a-distributed-syst"
+- title: "One and Only One Process in a Distributed System"
+  slug: "one-and-only-one-process-in-a-distributed-system"
   kind: talk
   level: intermediate
   language: en
   duration: 27
   abstract: "Can you have one and only one process consistently in a distributed system using elixir? :global, :pg2, something else? What about network partitions and stuff? Let's build and test some examples."
+  speakers:
+    - nathanherald
   topics:
     - elixir
     - otp
-    - testing
+    - erlang
   recordings:
     - provider: youtube
       external_id: "SDKiLO2XwIs"
       url: "https://www.youtube.com/watch?v=SDKiLO2XwIs"
 
-- title: "Ian Luites | Wobserver: Easy to Integrate Monitoring and Debugging"
-  slug: "ian-luites-wobserver-easy-to-integrate-monitoring-and-debugg"
+- title: "Wobserver: Easy to Integrate Monitoring and Debugging"
+  slug: "wobserver-easy-to-integrate-monitoring-and-debugging"
   kind: talk
   level: intermediate
   language: en
   duration: 39
-  abstract: "Erlang comes packed with a great tool for manually monitoring, debugging, and visualizing Elixir processes: observer. However, it is not always possible to use observer to monitor due to restrictions in the current world of mixed ecosystems, micro services, and docker containers. We offer a new solu"
+  abstract: |
+    Erlang comes packed with a great tool for manually monitoring, debugging, and visualizing Elixir processes: observer. However, it is not always possible to use observer to monitor due to restrictions in the current world of mixed ecosystems, micro services, and docker containers. We offer a new solution :wobserver. It will allow you to directly monitor any node, while offering additional options like:
+
+    web interface, view from anywhere, from any system [with a browser]
+    api, json api for automated monitoring or integration with other applications
+    system metrics, pre-formatted metrics, simple to integrate with other software
+    node discovery, discover nodes behind load balancers and view them all through one single interface
+    simple, just add it to your mix file and you are up and running
+
+    In the talk we will go through the background of the project and show you how to mount :wobserver into a Phoenix application, hook it up to Prometheus, and deploy it behind a load balancer.
+  speakers:
+    - ianluites
   topics:
-    - elixir
     - otp
     - erlang
   recordings:
@@ -245,13 +306,15 @@
       external_id: "I-5ggHxKNCo"
       url: "https://www.youtube.com/watch?v=I-5ggHxKNCo"
 
-- title: "Thomas Arts | Testing Web Services with QuickCheck"
-  slug: "thomas-arts-testing-web-services-with-quickcheck"
+- title: "Testing Web Services with QuickCheck"
+  slug: "testing-web-services-with-quickcheck"
   kind: talk
   level: intermediate
   language: en
   duration: 45
-  abstract: "Thanks to frameworks like Phoenix, web services can be developed quickly. The result is scalable, fast and easy to adapt. A perfect platform to create really complex web services. When software gets more complex, it gets harder to test. There are many different parameters one can supply, posted JSON"
+  abstract: "Thanks to frameworks like Phoenix, web services can be developed quickly. The result is scalable, fast and easy to adapt. A perfect platform to create really complex web services. When software gets more complex, it gets harder to test. There are many different parameters one can supply, posted JSON data types can have different dependencies and the order in which things happen may play a role. Thus, even if Phoenix helps a lot in getting a correct and complex web service produced, there still are possibilities for mistakes. These mistakes have to be found and testing is a way to do so. QuickCheck helps to automatically generate test cases for such web services."
+  speakers:
+    - thomasarts
   topics:
     - elixir
     - phoenix
@@ -261,15 +324,18 @@
       external_id: "dDDCSDTHRZo"
       url: "https://www.youtube.com/watch?v=dDDCSDTHRZo"
 
-- title: "Devon Estes | Refactoring Elixir - Lessons Learned from a Year on Exercism.Io"
-  slug: "devon-estes-refactoring-elixir-lessons-learned-from-a-year-o"
+- title: "Refactoring Elixir - Lessons Learned from a Year on Exercism.io"
+  slug: "refactoring-elixir-lessons-learned-from-a-year-on-exercism-io"
   kind: talk
   level: intermediate
   language: en
   duration: 36
-  abstract: "There's a lot you can learn about the pitfalls of a language when you see literally hundreds of people all solving the same problems - and frequently making the same mistakes! In this talk we're going to start with some common, but less than optimal, solutions to some of the problems on exercism.io,"
+  abstract: "There's a lot you can learn about the pitfalls of a language when you see literally hundreds of people all solving the same problems - and frequently making the same mistakes! In this talk we're going to start with some common, but less than optimal, solutions to some of the problems on exercism.io, and we'll do a step by step refactoring. We'll also add in some benchmarking to the existing exercism.io test suites to show the performance benefits of some of the refactoring that we do, and discuss the tradeoffs of the decisions that we're making to illustrate why this refactoring is beneficial."
+  speakers:
+    - devonestes
   topics:
     - elixir
+    - refactoring
   recordings:
     - provider: youtube
       external_id: "tJJMrtJEK1A"
@@ -281,38 +347,44 @@
   level: intermediate
   language: en
   duration: 44
-  abstract: "Availability should be one of our major concerns when writing web applications, yet more often than not we ship code that is simply not resilient enough. Elixir and OTP provide powerful tools to improve resilience and increase availability: in this talk we'll look at how we can leverage them to prov"
+  abstract: "Availability should be one of our major concerns when writing web applications, yet more often than not we ship code that is simply not resilient enough. Elixir and OTP provide powerful tools to improve resilience and increase availability: in this talk we'll look at how we can leverage them to provide continuous service even when our database is down. The talk will be a walkthrough of a refactor of an Elixir application with a Phoenix frontend, powered by PostgreSQL."
   speakers:
     - claudioortolina
   topics:
     - elixir
+    - phoenix
     - otp
   recordings:
     - provider: youtube
       external_id: "UTXYiV7nOpM"
       url: "https://www.youtube.com/watch?v=UTXYiV7nOpM"
 
-- title: "Loic Vigneron | Fly like an Eagle"
-  slug: "loic-vigneron-fly-like-an-eagle"
+- title: "Fly like an Eagle"
+  slug: "fly-like-an-eagle"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "It is the story of the birth of a quadcopter built using a 3D printer, a Raspberry Pi 3 and some Elixir magic. I will begin from the genesis of the project up to a flying drone. Expect some code, some hardware and some 3D printing time-lapse."
+  speakers:
+    - loicvigneron
   topics:
     - elixir
+    - embedded
   recordings:
     - provider: youtube
       external_id: "TZnaqnxA4UY"
       url: "https://www.youtube.com/watch?v=TZnaqnxA4UY"
 
-- title: "Kevin Rockwood | A Practical Guide to Elixir Protocols"
-  slug: "kevin-rockwood-a-practical-guide-to-elixir-protocols"
+- title: "A Practical Guide to Elixir Protocols"
+  slug: "a-practical-guide-to-elixir-protocols"
   kind: talk
   level: intermediate
   language: en
   duration: 32
-  abstract: "Protocols are an important part of the Elixir language, and they play a key role in many of its prominent libraries. However, it's not always obvious how and when to use them. In this talk, we'll demystify protocols and see how to leverage them to solve real-world problems. We'll walk through some p"
+  abstract: "Protocols are an important part of the Elixir language, and they play a key role in many of its prominent libraries. However, it's not always obvious how and when to use them. In this talk, we'll demystify protocols and see how to leverage them to solve real-world problems. We'll walk through some practical examples to see how protocols can solve a variety of use cases. We'll start with some simple examples and end with relatively sophisticated scenarios. We'll even dive into the Elixir source code to see how protocols are implemented on the BEAM. After attending this talk, you'll have practical understanding of protocols and the use cases they can help solve."
+  speakers:
+    - kevinrockwood
   topics:
     - elixir
   recordings:
@@ -322,8 +394,8 @@
 
 ## Lightning Talks
 
-- title: "ElixirConf EU 2017 | Lightning Talks"
-  slug: "lt-elixirconf-eu-2017-lightning-talks"
+- title: "Lightning Talks"
+  slug: "lightning-talks"
   kind: lightning_talk
   language: en
   duration: 59
