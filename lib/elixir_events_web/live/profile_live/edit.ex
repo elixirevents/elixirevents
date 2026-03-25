@@ -59,7 +59,7 @@ defmodule ElixirEventsWeb.ProfileLive.Edit do
 
   def platform_options do
     [
-      {"Twitter", :twitter},
+      {"X", :twitter},
       {"GitHub", :github},
       {"LinkedIn", :linkedin},
       {"Mastodon", :mastodon},

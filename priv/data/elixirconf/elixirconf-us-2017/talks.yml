@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "Justin Schneck"
   slug: "justin-schneck"
   kind: keynote
@@ -62,9 +61,7 @@
       external_id: "YqOwzXNkOyg"
       url: "https://www.youtube.com/watch?v=YqOwzXNkOyg"
 
-
 ## Talks
-
 
 - title: "My Journey from Go to Elixir - Veronica Lopez"
   slug: "my-journey-from-go-to-elixir-veronica-lopez"
@@ -201,12 +198,14 @@
       external_id: "3W2dMOQL2CM"
       url: "https://www.youtube.com/watch?v=3W2dMOQL2CM"
 
-- title: "Back on Your Feet - Claudio Ortolina"
-  slug: "back-on-your-feet-claudio-ortolina"
+- title: "Back on Your Feet"
+  slug: "back-on-your-feet"
   kind: talk
   level: intermediate
   language: en
   duration: 37
+  speakers:
+    - claudioortolina
   topics:
     - elixir
   recordings:
@@ -563,9 +562,7 @@
       external_id: "Hc9SbGmzCvc"
       url: "https://www.youtube.com/watch?v=Hc9SbGmzCvc"
 
-
 ## Lightning Talks
-
 
 - title: "ElixirConf 2017 Lightning Talk - Speeding up your program with Steroids - John Wahba"
   slug: "lt-elixirconf-2017-lightning-talk-speeding-up-your-program-w"

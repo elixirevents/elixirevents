@@ -34,7 +34,7 @@ defmodule ElixirEventsWeb.Helpers do
   def short_name(_), do: ""
 
   @platform_labels %{
-    twitter: "Twitter",
+    twitter: "X",
     github: "GitHub",
     linkedin: "LinkedIn",
     mastodon: "Mastodon",

@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "Chris McCord - Keynote: Phoenix LiveView - Interactive Apps without Javascript - ElixirConf EU 2019"
   slug: "chris-mccord-keynote-phoenix-liveview-interactive-apps-witho"
   kind: keynote
@@ -29,9 +28,7 @@
       external_id: "IzFmNQGzApQ"
       url: "https://www.youtube.com/watch?v=IzFmNQGzApQ"
 
-
 ## Talks
-
 
 - title: "Philipp Schmieder - From Zero to Elixir Deployment - ElixirConf EU 2019"
   slug: "philipp-schmieder-from-zero-to-elixir-deployment-elixirconf"
@@ -390,13 +387,16 @@
       external_id: "Q9Awmiyz1Cs"
       url: "https://www.youtube.com/watch?v=Q9Awmiyz1Cs"
 
-- title: "Erlang Ecosystem Foundation - Francesco Cesarini & JoséValim - ElixirConf EU 2019"
-  slug: "erlang-ecosystem-foundation-francesco-cesarini-josevalim-eli"
+- title: "Erlang Ecosystem Foundation"
+  slug: "erlang-ecosystem-foundation"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 21
   abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  speakers:
+    - francescocesarini
+    - josevalim
   topics:
     - elixir
     - erlang
@@ -405,9 +405,7 @@
       external_id: "f6M7rlEyxCQ"
       url: "https://www.youtube.com/watch?v=f6M7rlEyxCQ"
 
-
 ## Lightning Talks
-
 
 - title: "Lightning talk - Broadway + Sqs + Apache Tika - Dave Lee - ElixirConf EU 2019"
   slug: "lt-lightning-talk-broadway-sqs-apache-tika-dave-lee-elixirco"

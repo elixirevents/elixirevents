@@ -1,6 +1,5 @@
 ## Keynotes
 
-
 - title: "Keynote: Bringing Elixir to Life by José Valim"
   slug: "keynote-bringing-elixir-to-life-by-jose-valim"
   kind: keynote
@@ -42,9 +41,7 @@
       external_id: "e2fDjl2hoAk"
       url: "https://www.youtube.com/watch?v=e2fDjl2hoAk"
 
-
 ## Talks
-
 
 - title: "ElixirConf EU 2023 Highlights"
   slug: "elixirconf-eu-2023-highlights"
@@ -90,13 +87,16 @@
       external_id: "K51fj1JGQEY"
       url: "https://www.youtube.com/watch?v=K51fj1JGQEY"
 
-- title: "Erlang Ecosystem Foundation & F. Cesarini"
-  slug: "erlang-ecosystem-foundation-f-cesarini"
+- title: "Erlang Ecosystem Foundation"
+  slug: "erlang-ecosystem-foundation"
   kind: talk
   level: intermediate
   language: en
   duration: 9
   abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  speakers:
+    - francescocesarini
+    - alistairwoodman
   topics:
     - elixir
     - erlang
@@ -500,9 +500,7 @@
       external_id: "wF0H8DulsxY"
       url: "https://www.youtube.com/watch?v=wF0H8DulsxY"
 
-
 ## Lightning Talks
-
 
 - title: "Doomguy visits the BEAM: lightning talk by André Albuquerque"
   slug: "lt-doomguy-visits-the-beam-lightning-talk-by-andre-albuquerq"
