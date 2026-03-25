@@ -1,14 +1,14 @@
-
 ## Talks
 
-
-- title: "Heidi Howard - Making the impossible possible: Building distributed systems worthy of our trust"
-  slug: "heidi-howard-making-the-impossible-possible-building-distrib"
+- title: "Making the Impossible Possible: Building Distributed Systems Worthy of Our Trust"
+  slug: "making-the-impossible-possible-building-distributed-systems-worthy-of-our-trust"
   kind: talk
   level: intermediate
   language: en
   duration: 49
   abstract: "This talk will consider whether we can trust distributed systems to behave as we expect and to be available to us when we need them. We'll take a whistle-stop tour of the academic literature, visiting key results on what's possible, and more importantly, what's impossible, in the context of distribu"
+  speakers:
+    - heidihoward
   topics:
     - elixir
   recordings:
@@ -16,13 +16,15 @@
       external_id: "ASreXQ5MeHo"
       url: "https://www.youtube.com/watch?v=ASreXQ5MeHo"
 
-- title: "Andrea Leopardi - BEAM: The Perfect Fit for Networks"
-  slug: "andrea-leopardi-beam-the-perfect-fit-for-networks"
+- title: "BEAM: The Perfect Fit for Networks"
+  slug: "beam-the-perfect-fit-for-networks"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Networking can seem like a challenging and overwhelming task, but the BEAM is truly one of the best matches for tackling it. I believe this so much that I'm writing a whole book on this topic! But in this talk, we'll mostly focus on two things. First, we'll talk about when the BEAM is the right fit "
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
     - erlang
@@ -31,13 +33,15 @@
       external_id: "pqryxveqJpw"
       url: "https://www.youtube.com/watch?v=pqryxveqJpw"
 
-- title: "Lorena Mireles - Erlang Fundamentals for Debugging Elixir"
-  slug: "lorena-mireles-erlang-fundamentals-for-debugging-elixir"
+- title: "Erlang Fundamentals for Debugging Elixir"
+  slug: "erlang-fundamentals-for-debugging-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 20
   abstract: "In this talk we will explore the fundamentals behind the magic of some of the debugging tools in Elixir and their benefits to debug borderline conditions and find hard to reproduce bugs in live Erlang systems 🔮🪄"
+  speakers:
+    - lorenamireles
   topics:
     - elixir
     - erlang
@@ -46,13 +50,15 @@
       external_id: "CJoWJqWjoiw"
       url: "https://www.youtube.com/watch?v=CJoWJqWjoiw"
 
-- title: "Andy Glassman - Write Admin Tools from Day One"
-  slug: "andy-glassman-write-admin-tools-from-day-one"
+- title: "Write Admin Tools from Day One"
+  slug: "write-admin-tools-from-day-one"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "As a developer, some of the biggest time sucks can be: * Tracking down the cause of unexpected behavior. * Fixing data in production systems. * Answering user, or team member questions. * Running maintenance scripts, or other ad-hoc tasks."
+  speakers:
+    - andyglassman
   topics:
     - elixir
   recordings:
@@ -60,13 +66,15 @@
       external_id: "3c9kMmxeSA0"
       url: "https://www.youtube.com/watch?v=3c9kMmxeSA0"
 
-- title: "Cory O Daniel - Go Features YaMightLikeInElixir"
-  slug: "cory-o-daniel-go-features-yamightlikeinelixir"
+- title: "Go Features You Might Like In Elixir"
+  slug: "go-features-you-might-like-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 21
   abstract: "I do a ton of work in the Kubernetes and Cloud Native space, but I'm also a big fan of Elixir. My general disgust towards Golang drove me to build k8s.ex and Bonny, so that I could work in Kubernetes without touching go."
+  speakers:
+    - coryodaniel
   topics:
     - elixir
     - deployment
@@ -75,13 +83,15 @@
       external_id: "bJVvhNxs-Wg"
       url: "https://www.youtube.com/watch?v=bJVvhNxs-Wg"
 
-- title: "Andrew Forward - Recommending Elixir To Build a Recommendation Engine"
-  slug: "andrew-forward-recommending-elixir-to-build-a-recommendation"
+- title: "Recommending Elixir To Build a Recommendation Engine"
+  slug: "recommending-elixir-to-build-a-recommendation-engine"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "The machine learning (ML) landscape in Elixir is evolving quickly. Our team does not have production ML experience and the go-to right now is clearly (clearly right?) Python. But, we wanted to see if we could stick to our tech stack (aka Elixir/Phoenix) and set out to build a recommendation engine f"
+  speakers:
+    - andrewforward
   topics:
     - elixir
     - phoenix
@@ -91,13 +101,15 @@
       external_id: "YrRmN4LbCuE"
       url: "https://www.youtube.com/watch?v=YrRmN4LbCuE"
 
-- title: "Jace Warren - Replacing a Billion+ Record per Day Cassandra Cluster With Elixir and SQLite"
-  slug: "jace-warren-replacing-a-billion-record-per-day-cassandra-clu"
+- title: "Replacing a Billion+ Record per Day Cassandra Cluster With Elixir and SQLite"
+  slug: "replacing-a-billion-record-per-day-cassandra-cluster-with-elixir-and-sqlite"
   kind: talk
   level: intermediate
   language: en
   duration: 45
   abstract: "At Savi Solutions, our video surveillance platform needs to be able to process billions of records per day for customers including Burger King, Little Caesars, 5 Guys, and more. As a result, we need a low latency, high performance, and linear scalable database, so we chose Cassandra. However, as our"
+  speakers:
+    - jacewarren
   topics:
     - elixir
     - otp
@@ -106,13 +118,15 @@
       external_id: "huGVdGLBJEo"
       url: "https://www.youtube.com/watch?v=huGVdGLBJEo"
 
-- title: "Sean Moriarty - The Future of Large Language Models is Elixir"
-  slug: "sean-moriarty-the-future-of-large-language-models-is-elixir"
+- title: "The Future of Large Language Models is Elixir"
+  slug: "the-future-of-large-language-models-is-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 24
   abstract: "Large-language models (LLMs) are leading a new wave of technological innovation. LLMs make it possible to develop and deploy increasingly complex and impressive applications. However, building LLM-powered applications also brings about a unique set of challenges and considerations. In this talk, I'l"
+  speakers:
+    - seanmoriarty
   topics:
     - elixir
     - deployment

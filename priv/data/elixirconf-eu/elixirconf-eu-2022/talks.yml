@@ -1,12 +1,13 @@
 ## Keynotes
 
-
-- title: "Keynote: Celebrating the 10 Years of Elixir | José Valim"
-  slug: "keynote-httpswwwelixirconfeu"
+- title: "Keynote: Celebrating the 10 Years of Elixir"
+  slug: "keynote-celebrating-the-10-years-of-elixir"
   kind: keynote
   language: en
   duration: 53
-  abstract: "'Celebrating the 10 Years of Elixir | José Valim - Creator of the Elixir programming language'"
+  abstract: "'Celebrating the 10 Years of Elixir | José Valim - Creator of the Elixir programming language'"
+  speakers:
+    - josevalim
   topics:
     - elixir
   recordings:
@@ -14,12 +15,14 @@
       external_id: "Jf5Hsa1KOc8"
       url: "https://www.youtube.com/watch?v=Jf5Hsa1KOc8"
 
-- title: "Keynote: Tiny Data Collectors, Vastly (...) & the Land of Tiny Challenges | Anna Lito Michala"
-  slug: "keynote-httpswwwelixirconfeu-1"
+- title: "Keynote: Tiny Data Collectors, Vastly Distributed Systems & the Land of Tiny Challenges"
+  slug: "keynote-tiny-data-collectors-vastly-distributed-systems"
   kind: keynote
   language: en
   duration: 43
   abstract: "'Tiny Data Collectors, Vastly Distributed Systems & the Land of Tiny Challenges | Anna Lito Michala - Assistant Professor in Understandable Autonomous Systems at the School of Computing Science, University of Glasgow'"
+  speakers:
+    - annalitomichala
   topics:
     - elixir
     - ecto
@@ -28,12 +31,15 @@
       external_id: "ydqTxKDXmrc"
       url: "https://www.youtube.com/watch?v=ydqTxKDXmrc"
 
-- title: "Code & Homicide: What Software Devs (..) from Offender Profiling | Crux Conception & Adam Tornhill"
-  slug: "keynote-httpswwwelixirconfeu-2"
+- title: "Code & Homicide: What Software Developers Can Learn from Offender Profiling"
+  slug: "code-and-homicide-what-software-devs-can-learn-from-offender-profiling"
   kind: keynote
   language: en
   duration: 56
   abstract: "'Code & Homicide: What Software Developers Can Learn from Offender Profiling | Crux Conception & Adam Tornhill - Adjunct Professor/Criminal Profiler & Founder and CTO of CodeScene'"
+  speakers:
+    - cruxconception
+    - adamtornhill
   topics:
     - elixir
   recordings:
@@ -41,12 +47,14 @@
       external_id: "WShenbgc47c"
       url: "https://www.youtube.com/watch?v=WShenbgc47c"
 
-- title: "Keynote: Sonic Pi: Past, Present & Future | Sam Aaron | Code BEAM America 2021"
-  slug: "keynote-httpswwwelixirconfeu-3"
+- title: "Keynote: Sonic Pi: Past, Present & Future"
+  slug: "keynote-sonic-pi-past-present-and-future"
   kind: keynote
   language: en
   duration: 59
   abstract: "'Learning Elixir and OTP through LiveView | Cristine Guadelupe - co-host on the Brazilian podcast Elixir em Foco'"
+  speakers:
+    - samaaron
   topics:
     - elixir
     - liveview
@@ -56,31 +64,17 @@
       external_id: "zisoGS6Mc-w"
       url: "https://www.youtube.com/watch?v=zisoGS6Mc-w"
 
-
 ## Talks
 
-
-- title: "ElixirConf EU 2022 Highlights | Elixir 10 year anniversary"
-  slug: "elixirconf-eu-2022-highlights-elixir-10-year-anniversary"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 4
-  abstract: "'Celebrating the 10 Years of Elixir together with the Elixir community.'"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "DwhlkYCSxAc"
-      url: "https://www.youtube.com/watch?v=DwhlkYCSxAc"
-
-- title: "Building a Block Based Editor in Phoenix LiveView | Nikola Begedin"
-  slug: "building-a-block-based-editor-in-phoenix-liveview-nikola-beg"
+- title: "Building a Block Based Editor in Phoenix LiveView"
+  slug: "building-a-block-based-editor-in-phoenix-liveview"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "'Building a Block Based Editor in Phoenix LiveView | Nikola Begedin - Elixir enthusiast'"
+  speakers:
+    - nikolabegedin
   topics:
     - elixir
     - phoenix
@@ -90,13 +84,15 @@
       external_id: "7yZwxsG7tVs"
       url: "https://www.youtube.com/watch?v=7yZwxsG7tVs"
 
-- title: "Everything about DNS you never dared to ask! | Ole Michaelis"
-  slug: "everything-about-dns-you-never-dared-to-ask-ole-michaelis"
+- title: "Everything About DNS You Never Dared to Ask!"
+  slug: "everything-about-dns-you-never-dared-to-ask"
   kind: talk
   level: intermediate
   language: en
   duration: 20
   abstract: "'Everything about DNS you never dared to ask! | Ole Michaelis - Full Stackoverflow Developer at DNSimple'"
+  speakers:
+    - olemichaelis
   topics:
     - elixir
   recordings:
@@ -104,13 +100,15 @@
       external_id: "8r0iul1jupw"
       url: "https://www.youtube.com/watch?v=8r0iul1jupw"
 
-- title: "Comparing the Actor model & CSP concurrency with Elixir & Clojure | Xiang Ji"
-  slug: "comparing-the-actor-model-csp-concurrency-with-elixir-clojur"
+- title: "Comparing the Actor Model & CSP Concurrency with Elixir & Clojure"
+  slug: "comparing-the-actor-model-and-csp-concurrency-with-elixir-and-clojure"
   kind: talk
   level: intermediate
   language: en
   duration: 34
   abstract: "'Comparing the Actor model & CSP concurrency with Elixir & Clojure | Xiang Ji - Senior Backend Engineer @ Remote'"
+  speakers:
+    - xiangji
   topics:
     - elixir
   recordings:
@@ -118,13 +116,15 @@
       external_id: "lIQCQKPRNCI"
       url: "https://www.youtube.com/watch?v=lIQCQKPRNCI"
 
-- title: "Get Your CRUD Together! | Andrew Ek"
-  slug: "get-your-crud-together-andrew-ek"
+- title: "Get Your CRUD Together!"
+  slug: "get-your-crud-together"
   kind: talk
   level: intermediate
   language: en
   duration: 41
   abstract: "'Get Your CRUD Together! | Andrew Ek - Co-founder of Arid Software'"
+  speakers:
+    - andrewek
   topics:
     - elixir
   recordings:
@@ -132,13 +132,15 @@
       external_id: "2oyYmKtwuas"
       url: "https://www.youtube.com/watch?v=2oyYmKtwuas"
 
-- title: "It's A Livebook | Adam Lancaster"
-  slug: "its-a-livebook-adam-lancaster"
+- title: "It's A Livebook"
+  slug: "its-a-livebook"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "'It's A Livebook | Adam Lancaster - Elixir Core Contributor, Software Engineer at Duffel'"
+  speakers:
+    - adamlancaster
   topics:
     - elixir
     - livebook
@@ -147,13 +149,15 @@
       external_id: "z4O7YnqqUI4"
       url: "https://www.youtube.com/watch?v=z4O7YnqqUI4"
 
-- title: "Observable Elixir | Bernardo Amorim"
-  slug: "observable-elixir-bernardo-amorim"
+- title: "Observable Elixir"
+  slug: "observable-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "'Observable Elixir | Bernardo Amorim - Author of typed_ecto_schema & Software Engineer @ Slab'"
+  speakers:
+    - bernardoamorim
   topics:
     - elixir
     - ecto
@@ -163,13 +167,15 @@
       external_id: "98kYFy6nGXs"
       url: "https://www.youtube.com/watch?v=98kYFy6nGXs"
 
-- title: "Why Is My LiveView Slow and What Can I Do About It | De Wet Blomerus"
-  slug: "why-is-my-liveview-slow-and-what-can-i-do-about-it-de-wet-bl"
+- title: "Why Is My LiveView Slow and What Can I Do About It"
+  slug: "why-is-my-liveview-slow-and-what-can-i-do-about-it"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "'Why Is My LiveView Slow and What Can I Do About It | De Wet Blomerus - Senior Software Engineer at SalesLoft'"
+  speakers:
+    - dewetblomerus
   topics:
     - elixir
     - liveview
@@ -178,13 +184,15 @@
       external_id: "c2x1CrP9Szk"
       url: "https://www.youtube.com/watch?v=c2x1CrP9Szk"
 
-- title: "Porting a Big Rails App to Elixir in Two Months | Miguel Michelson"
-  slug: "porting-a-big-rails-app-to-elixir-in-two-months-miguel-miche"
+- title: "Porting a Big Rails App to Elixir in Two Months"
+  slug: "porting-a-big-rails-app-to-elixir-in-two-months"
   kind: talk
   level: intermediate
   language: en
   duration: 48
   abstract: "'Porting a Big Rails App to Elixir in Two Months | Miguel Michelson - Chaskiq Platform and Dante-Editor Creator'"
+  speakers:
+    - miguelmichelson
   topics:
     - elixir
   recordings:
@@ -192,13 +200,15 @@
       external_id: "7ZDGkD3daiM"
       url: "https://www.youtube.com/watch?v=7ZDGkD3daiM"
 
-- title: "Introducing LiveData: LiveView for JSON endpoints | Hans Elias Josephsen"
-  slug: "introducing-livedata-liveview-for-json-endpoints-hans-elias"
+- title: "Introducing LiveData: LiveView for JSON Endpoints"
+  slug: "introducing-livedata-liveview-for-json-endpoints"
   kind: talk
   level: intermediate
   language: en
   duration: 34
   abstract: "'Introducing LiveData: LiveView for JSON endpoints | Hans Elias Josephsen - Rustler Author, Lumen Core Team Member'"
+  speakers:
+    - hanseliasjosephsen
   topics:
     - elixir
     - phoenix
@@ -208,13 +218,15 @@
       external_id: "I4vVxtrow-E"
       url: "https://www.youtube.com/watch?v=I4vVxtrow-E"
 
-- title: "A Blueprint for Intuitive Internal Elixir Ecosystems | Ryan Young"
-  slug: "a-blueprint-for-intuitive-internal-elixir-ecosystems-ryan-yo"
+- title: "A Blueprint for Intuitive Internal Elixir Ecosystems"
+  slug: "a-blueprint-for-intuitive-internal-elixir-ecosystems"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "'A Blueprint for Intuitive Internal Elixir Ecosystems | Ryan Young - Director of Engineering at theScore'"
+  speakers:
+    - ryanyoung
   topics:
     - elixir
     - ecto
@@ -223,13 +235,15 @@
       external_id: "0wg5S91fam0"
       url: "https://www.youtube.com/watch?v=0wg5S91fam0"
 
-- title: "Building Elixir Apps for Global Audiences or an Audience of One | Kip Cole"
-  slug: "building-elixir-apps-for-global-audiences-or-an-audience-of"
+- title: "Building Elixir Apps for Global Audiences or an Audience of One"
+  slug: "building-elixir-apps-for-global-audiences-or-an-audience-of-one"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "'Building Elixir Applications for Global Audiences or an Audience of One | Kip Cole - Author of ex_cldr and ex_unicode Elixir libraries'"
+  speakers:
+    - kipcole
   topics:
     - elixir
     - security
@@ -238,13 +252,15 @@
       external_id: "b9BQM40UzEs"
       url: "https://www.youtube.com/watch?v=b9BQM40UzEs"
 
-- title: "Exploring Elixir Project Re compilation | Anton Satin"
-  slug: "exploring-elixir-project-re-compilation-anton-satin"
+- title: "Exploring Elixir Project Recompilation"
+  slug: "exploring-elixir-project-recompilation"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "'Exploring Elixir Project Re compilation | Anton Satin - Software Developer AT Mindvalley'"
+  speakers:
+    - antonsatin
   topics:
     - elixir
   recordings:
@@ -252,13 +268,15 @@
       external_id: "09LMYIclZdo"
       url: "https://www.youtube.com/watch?v=09LMYIclZdo"
 
-- title: "Distributing Work With Queues and GCP PubSub | Johanna Larsson"
-  slug: "distributing-work-with-queues-and-gcp-pubsub-johanna-larsson"
+- title: "Distributing Work With Queues and GCP PubSub"
+  slug: "distributing-work-with-queues-and-gcp-pubsub"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "'Distributing Work With Queues and GCP PubSub | Johanna Larsson - Creator of Hex Diff'"
+  speakers:
+    - johannalarsson
   topics:
     - elixir
   recordings:
@@ -266,13 +284,15 @@
       external_id: "E315pukytFI"
       url: "https://www.youtube.com/watch?v=E315pukytFI"
 
-- title: "IntelliJ Elixir Works Even if your Code Doesn't | Elle Imhoff"
-  slug: "intellij-elixir-works-even-if-your-code-doesnt-elle-imhoff"
+- title: "IntelliJ Elixir Works Even if Your Code Doesn't"
+  slug: "intellij-elixir-works-even-if-your-code-doesnt"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "'IntelliJ Elixir Works Even if your Code Doesn't | Elle Imhoff - Creator of IntelliJ Elixir. Principal Software Engineer at DockYard.'"
+  speakers:
+    - elleimhoff
   topics:
     - elixir
   recordings:
@@ -280,13 +300,15 @@
       external_id: "0ObVEElAWjw"
       url: "https://www.youtube.com/watch?v=0ObVEElAWjw"
 
-- title: "Micro Services and Events: Friends or Foes? | Roland Tritsch"
-  slug: "micro-services-and-events-friends-or-foes-roland-tritsch"
+- title: "Micro Services and Events: Friends or Foes?"
+  slug: "micro-services-and-events-friends-or-foes"
   kind: talk
   level: intermediate
   language: en
   duration: 45
   abstract: "'Micro Services and Events: Friends or Foes? | Roland Tritsch - Software Craftsman and Sofware Engineering Manage'"
+  speakers:
+    - rolandtritsch
   topics:
     - elixir
   recordings:
@@ -294,13 +316,15 @@
       external_id: "uY_SgwM2NRI"
       url: "https://www.youtube.com/watch?v=uY_SgwM2NRI"
 
-- title: "The joy of building your startup with Phoenix LiveView | Aswin Mohan"
-  slug: "the-joy-of-building-your-startup-with-phoenix-liveview-aswin"
+- title: "The Joy of Building Your Startup with Phoenix LiveView"
+  slug: "the-joy-of-building-your-startup-with-phoenix-liveview"
   kind: talk
   level: intermediate
   language: en
   duration: 46
   abstract: "'The joy of building your startup with Phoenix LiveView | Aswin Mohan - Solo Founder building his first startup in Elixir'"
+  speakers:
+    - aswinmohan
   topics:
     - elixir
     - phoenix
@@ -310,13 +334,15 @@
       external_id: "cdc7zDOD72A"
       url: "https://www.youtube.com/watch?v=cdc7zDOD72A"
 
-- title: "TypeCheck   Effortless Runtime Type Checking | Wiebe-Marten Wijnja"
-  slug: "typecheck-effortless-runtime-type-checking-wiebe-marten-wijn"
+- title: "TypeCheck: Effortless Runtime Type Checking"
+  slug: "typecheck-effortless-runtime-type-checking"
   kind: talk
   level: intermediate
   language: en
   duration: 36
   abstract: "'TypeCheck   Effortless Runtime Type Checking | Wiebe-Marten Wijnja - Hammock-driven Developer'"
+  speakers:
+    - wiebemartenwijnja
   topics:
     - elixir
   recordings:
@@ -324,14 +350,15 @@
       external_id: "7ykfO2tBwYw"
       url: "https://www.youtube.com/watch?v=7ykfO2tBwYw"
 
-- title: '"config.exs is Simple" and Other Lies | Łukasz Niemier'
-  slug: "configexs-is-simple-and-other-lies-ukasz-niemier"
+- title: '"config.exs is Simple" and Other Lies'
+  slug: "configexs-is-simple-and-other-lies"
   kind: talk
   level: intermediate
   language: en
   duration: 34
   abstract: "\'config.exs is Simple\' and Other Lies | Łukasz Niemier - Member of the EEF Observability WG. Author of Watermelon, mix_machine, mix_unused, and systemd libraries"
-
+  speakers:
+    - lukaszniemier
   topics:
     - elixir
     - security
@@ -340,13 +367,15 @@
       external_id: "Cpx8vigaGW4"
       url: "https://www.youtube.com/watch?v=Cpx8vigaGW4"
 
-- title: "Bringing OpenCV to the Elixir World | Cocoa Xu"
-  slug: "bringing-opencv-to-the-elixir-world-cocoa-xu"
+- title: "Bringing OpenCV to the Elixir World"
+  slug: "bringing-opencv-to-the-elixir-world"
   kind: talk
   level: intermediate
   language: en
   duration: 27
   abstract: "'Bringing OpenCV to the Elixir World | Cocoa Xu - Author of Evision and PhD Student at The University of Glasgow'"
+  speakers:
+    - cocoaxu
   topics:
     - elixir
     - security
@@ -355,13 +384,15 @@
       external_id: "1i_QwpUq9Mo"
       url: "https://www.youtube.com/watch?v=1i_QwpUq9Mo"
 
-- title: "Automating the Automator | Tonći Galić"
-  slug: "automating-the-automator-tonci-galic"
+- title: "Automating the Automator"
+  slug: "automating-the-automator"
   kind: talk
   level: intermediate
   language: en
   duration: 28
-  abstract: "'Automating the Automator | Tonći Galić - Organiser of the Amsterdam Elixir meetup'"
+  abstract: "'Automating the Automator | Tonći Galić - Organiser of the Amsterdam Elixir meetup'"
+  speakers:
+    - toncigalic
   topics:
     - elixir
   recordings:

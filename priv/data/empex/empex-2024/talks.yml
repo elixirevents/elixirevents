@@ -1,12 +1,13 @@
 ## Keynotes
 
-
-- title: "Dave Thomas: Keynote"
-  slug: "dave-thomas-keynote"
+- title: "Keynote: Dave Thomas"
+  slug: "keynote-dave-thomas"
   kind: keynote
   language: en
   duration: 40
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - davethomas
   topics:
     - elixir
     - erlang
@@ -15,9 +16,7 @@
       external_id: "6U7cLUygMeI"
       url: "https://www.youtube.com/watch?v=6U7cLUygMeI"
 
-
 ## Talks
-
 
 - title: "Brooklyn Zelenka"
   slug: "brooklyn-zelenka"
@@ -25,7 +24,9 @@
   level: intermediate
   language: en
   duration: 43
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - brooklynzelenka
   topics:
     - elixir
     - erlang
@@ -34,13 +35,15 @@
       external_id: "DZEs8_QiC8Q"
       url: "https://www.youtube.com/watch?v=DZEs8_QiC8Q"
 
-- title: "Bill Peregoy: Higher Level Functions for the Win"
-  slug: "bill-peregoy-higher-level-functions-for-the-win"
+- title: "Higher Level Functions for the Win"
+  slug: "higher-level-functions-for-the-win"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - billperegoy
   topics:
     - elixir
     - erlang
@@ -49,13 +52,15 @@
       external_id: "G8_SCecwUJ8"
       url: "https://www.youtube.com/watch?v=G8_SCecwUJ8"
 
-- title: "Kate Travers: Pattern Matching: The Gateway to Loving Elixir"
-  slug: "kate-travers-pattern-matching-the-gateway-to-loving-elixir"
+- title: "Pattern Matching: The Gateway to Loving Elixir"
+  slug: "pattern-matching-the-gateway-to-loving-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 19
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - katetravers
   topics:
     - elixir
     - erlang
@@ -64,13 +69,15 @@
       external_id: "FXjpHRMsERI"
       url: "https://www.youtube.com/watch?v=FXjpHRMsERI"
 
-- title: "Wojtek Mach: Recurrences & Intervals"
-  slug: "wojtek-mach-recurrences-intervals"
+- title: "Recurrences & Intervals"
+  slug: "recurrences-and-intervals"
   kind: talk
   level: intermediate
   language: en
   duration: 22
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - wojtekmach
   topics:
     - elixir
     - erlang
@@ -79,13 +86,15 @@
       external_id: "vUOA5GgYg9I"
       url: "https://www.youtube.com/watch?v=vUOA5GgYg9I"
 
-- title: "James Lavin: Lessons Learned Building a Medication Service at Teladoc and How Ecto Saved the Day"
-  slug: "james-lavin-lessons-learned-building-a-medication-service-at"
+- title: "Lessons Learned Building a Medication Service at Teladoc and How Ecto Saved the Day"
+  slug: "lessons-learned-building-a-medication-service-at-teladoc"
   kind: talk
   level: intermediate
   language: en
   duration: 30
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - jameslavin
   topics:
     - elixir
     - ecto
@@ -95,13 +104,15 @@
       external_id: "CUvif-levqk"
       url: "https://www.youtube.com/watch?v=CUvif-levqk"
 
-- title: "Jeff Smith: Neuroevolution in Elixir"
-  slug: "jeff-smith-neuroevolution-in-elixir"
+- title: "Neuroevolution in Elixir"
+  slug: "neuroevolution-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 19
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - jeffsmith
   topics:
     - elixir
     - erlang
@@ -110,13 +121,15 @@
       external_id: "whtvOXZqOGM"
       url: "https://www.youtube.com/watch?v=whtvOXZqOGM"
 
-- title: 'Mat Trudel: `mix new beats` -- Recreating The "Amen Break" with Elixir'
-  slug: "mat-trudel-mix-new-beats-recreating-the-amen-break-with-elix"
+- title: '`mix new beats` -- Recreating The "Amen Break" with Elixir'
+  slug: "mix-new-beats-recreating-the-amen-break-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 37
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - mattrudel
   topics:
     - elixir
     - erlang
@@ -125,13 +138,15 @@
       external_id: "XN4WuOujr38"
       url: "https://www.youtube.com/watch?v=XN4WuOujr38"
 
-- title: "Shanti Chellaram: The Best of Both Worlds: High Performance Recommendations with Elixir NIFs"
-  slug: "shanti-chellaram-the-best-of-both-worlds-high-performance-re"
+- title: "The Best of Both Worlds: High Performance Recommendations with Elixir NIFs"
+  slug: "the-best-of-both-worlds-high-performance-recommendations-with-elixir-nifs"
   kind: talk
   level: intermediate
   language: en
   duration: 28
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - shantichellaram
   topics:
     - elixir
     - erlang
@@ -140,13 +155,15 @@
       external_id: "iL50Ss6Y85k"
       url: "https://www.youtube.com/watch?v=iL50Ss6Y85k"
 
-- title: "Robert Beene: GenStage: Keeping large amounts of data up-to-date with Pipelines"
-  slug: "robert-beene-genstage-keeping-large-amounts-of-data-up-to-da"
+- title: "GenStage: Keeping Large Amounts of Data Up-to-date with Pipelines"
+  slug: "genstage-keeping-large-amounts-of-data-up-to-date-with-pipelines"
   kind: talk
   level: intermediate
   language: en
   duration: 29
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - robertbeene
   topics:
     - elixir
     - erlang
@@ -155,13 +172,15 @@
       external_id: "9mfD4-HUgh0"
       url: "https://www.youtube.com/watch?v=9mfD4-HUgh0"
 
-- title: "Sophie DeBenedetto: Phoenix Presence: The Right Way To Track User Involvement in Real-Time Features"
-  slug: "sophie-debenedetto-phoenix-presence-the-right-way-to-track-u"
+- title: "Phoenix Presence: The Right Way To Track User Involvement in Real-Time Features"
+  slug: "phoenix-presence-the-right-way-to-track-user-involvement"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we’re a premier conference for the curious programmer.'"
+  abstract: "'EMPEX NYC is a regional technical conference focusing on Elixir, Erlang, and all things BEAM. Held annually in New York City, we're a premier conference for the curious programmer.'"
+  speakers:
+    - sophiedebenedetto
   topics:
     - elixir
     - phoenix

@@ -1,8 +1,7 @@
 ## Keynotes
 
-
-- title: "Keynote: You Keep Using That Word | MQ Summit 2025"
-  slug: "keynote-sam-newman"
+- title: "Keynote: You Keep Using That Word"
+  slug: "keynote-you-keep-using-that-word"
   kind: keynote
   language: en
   duration: 46
@@ -16,8 +15,8 @@
       external_id: "8ybqsEg2HYs"
       url: "https://www.youtube.com/watch?v=8ybqsEg2HYs"
 
-- title: "Keynote: The Power of Queues | MQ Summit 2025"
-  slug: "keynote-david-ware"
+- title: "Keynote: The Power of Queues"
+  slug: "keynote-the-power-of-queues"
   kind: keynote
   language: en
   duration: 29
@@ -31,12 +30,10 @@
       external_id: "3UGoG92j8o4"
       url: "https://www.youtube.com/watch?v=3UGoG92j8o4"
 
-
 ## Talks
 
-
-- title: "Apache ActiveMQ and the coming features around cloud and management | MQ Summit 2025"
-  slug: "apache-activemq-and-the-coming-features-around-cloud-and-man"
+- title: "Apache ActiveMQ and the Coming Features Around Cloud and Management"
+  slug: "apache-activemq-and-the-coming-features-around-cloud-and-management"
   kind: talk
   level: intermediate
   language: en
@@ -53,8 +50,8 @@
       external_id: "tbUcAan32cM"
       url: "https://www.youtube.com/watch?v=tbUcAan32cM"
 
-- title: "Multi-Tenant messaging systems, Artem Gayardo-Matrosov | MQ Summit 2025"
-  slug: "multi-tenant-messaging-systems-artem-gayardo-matrosov-mq-sum"
+- title: "Multi-Tenant Messaging Systems"
+  slug: "multi-tenant-messaging-systems"
   kind: talk
   level: intermediate
   language: en
@@ -71,13 +68,15 @@
       external_id: "0khNemjJUeM"
       url: "https://www.youtube.com/watch?v=0khNemjJUeM"
 
-- title: "Beyond CloudEvents: Endpoints, Messages, Schemas – CNCF xRegistry Clemens Vasters | MQ Summit 2025"
+- title: "Beyond CloudEvents: Endpoints, Messages, Schemas - CNCF xRegistry"
   slug: "beyond-cloudevents-endpoints-messages-schemas-cncf-xregistry"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "The CNCF xRegistry project is an offspring of the graduated CNCF CloudEvents project, motivated by the need to formally declare which events can be raised by services and which are available to handle. This session provides an overview of the xRegistry metadata model, its API and the mirroring docum"
+  speakers:
+    - clemensvasters
   topics:
     - elixir
     - phoenix
@@ -86,13 +85,15 @@
       external_id: "TrrMUGF-28Q"
       url: "https://www.youtube.com/watch?v=TrrMUGF-28Q"
 
-- title: "Breaking Storage Barriers: How RabbitMQ Streams Scale Beyond Local Disk - Simon Unge |MQ Summit 2025"
-  slug: "breaking-storage-barriers-how-rabbitmq-streams-scale-beyond"
+- title: "Breaking Storage Barriers: How RabbitMQ Streams Scale Beyond Local Disk"
+  slug: "breaking-storage-barriers-how-rabbitmq-streams-scale-beyond-local-disk"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "As streaming workloads grow, storage becomes the bottleneck that limits RabbitMQ deployments. This technical deep-dive explores how to break through local disk barriers using tiered storage architecture. You'll learn the fundamentals of RabbitMQ stream storage - from segment files to I/O operations "
+  speakers:
+    - simonunge
   topics:
     - elixir
     - deployment
@@ -101,13 +102,13 @@
       external_id: "CimsLxLmnOo"
       url: "https://www.youtube.com/watch?v=CimsLxLmnOo"
 
-- title: "An Introduction to Messaging in Valkey, Kyle Davis | MQ Summit 2025"
-  slug: "an-introduction-to-messaging-in-valkey-kyle-davis-mq-summit"
+- title: "An Introduction to Messaging in Valkey"
+  slug: "an-introduction-to-messaging-in-valkey"
   kind: talk
   level: beginner
   language: en
   duration: 27
-  abstract: "You’ve probably used Valkey (or its predecessor) as a cache, however, hiding below the surface is a messaging powerhouse built for both scale, low latency, and high throughput. In this session, you’ll learn about Valkey, a Linux Foundation back, high-speed, Key-Value datastore, provides both fundame"
+  abstract: "You've probably used Valkey (or its predecessor) as a cache, however, hiding below the surface is a messaging powerhouse built for both scale, low latency, and high throughput. In this session, you'll learn about Valkey, a Linux Foundation back, high-speed, Key-Value datastore, provides both fundame"
   speakers:
     - robertolunarojas
     - kyledavis
@@ -118,8 +119,8 @@
       external_id: "RLR4g07hIew"
       url: "https://www.youtube.com/watch?v=RLR4g07hIew"
 
-- title: "MQTT and Apache Pulsar for IoT: Powering the Connected Vehicle | MQ Summit 2025"
-  slug: "mqtt-and-apache-pulsar-for-iot-powering-the-connected-vehicl"
+- title: "MQTT and Apache Pulsar for IoT: Powering the Connected Vehicle"
+  slug: "mqtt-and-apache-pulsar-for-iot-powering-the-connected-vehicle"
   kind: talk
   level: intermediate
   language: en
@@ -135,8 +136,8 @@
       external_id: "wfGLxecvQ2Y"
       url: "https://www.youtube.com/watch?v=wfGLxecvQ2Y"
 
-- title: "Gateway Architecture 3.0 | MQ Summit 2025"
-  slug: "gateway-architecture-30-mq-summit-2025"
+- title: "Gateway Architecture 3.0"
+  slug: "gateway-architecture-3-0"
   kind: talk
   level: intermediate
   language: en
@@ -152,8 +153,8 @@
       external_id: "ed5tvcO63X8"
       url: "https://www.youtube.com/watch?v=ed5tvcO63X8"
 
-- title: "Message brokers and MCP - Just another protocol or more? | MQ Summit 2025"
-  slug: "message-brokers-and-mcp-just-another-protocol-or-more-mq-sum"
+- title: "Message Brokers and MCP - Just Another Protocol or More?"
+  slug: "message-brokers-and-mcp-just-another-protocol-or-more"
   kind: talk
   level: intermediate
   language: en
@@ -169,8 +170,8 @@
       external_id: "sufuDcuqQcQ"
       url: "https://www.youtube.com/watch?v=sufuDcuqQcQ"
 
-- title: "Replacing legacy message queueing solutions with RabbitMQ | MQ Summit 2025"
-  slug: "replacing-legacy-message-queueing-solutions-with-rabbitmq-mq"
+- title: "Replacing Legacy Message Queueing Solutions with RabbitMQ"
+  slug: "replacing-legacy-message-queueing-solutions-with-rabbitmq"
   kind: talk
   level: intermediate
   language: en
@@ -185,8 +186,8 @@
       external_id: "xK_yE1rKQwY"
       url: "https://www.youtube.com/watch?v=xK_yE1rKQwY"
 
-- title: "Securing your messaging networks: What needs protecting and how? | MQ Summit 2025"
-  slug: "securing-your-messaging-networks-what-needs-protecting-and-h"
+- title: "Securing Your Messaging Networks: What Needs Protecting and How?"
+  slug: "securing-your-messaging-networks-what-needs-protecting-and-how"
   kind: talk
   level: intermediate
   language: en

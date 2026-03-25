@@ -2926,3 +2926,1943 @@
   slug: "jacobparry"
   headline: "Software Developer"
   bio: "Software Developer"
+
+- name: "Aaron Harpole"
+  slug: "aaronharpole"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Adam Lancaster"
+  slug: "adamlancaster"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Adam Tornhill"
+  slug: "adamtornhill"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Adi Iyengar"
+  slug: "adiiyengar"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Adrian Cruz"
+  slug: "adriancruz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Aldebaran Alonso"
+  slug: "aldebaranalonso"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alex Peachey"
+  slug: "alexpeachey"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ali Farhadi"
+  slug: "alifarhadi"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Amos King"
+  slug: "amosking"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "André Graf"
+  slug: "andregraf"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Ek"
+  slug: "andrewek"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Forward"
+  slug: "andrewforward"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Hao"
+  slug: "andrewhao"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Selder"
+  slug: "andrewselder"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andy Glassman"
+  slug: "andyglassman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Angelika Tyborska"
+  slug: "angelikatyborska"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anna Lito Michala"
+  slug: "annalitomichala"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anna Sherman"
+  slug: "annasherman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anton Satin"
+  slug: "antonsatin"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Arjan Scherpenisse"
+  slug: "arjanscherpenisse"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Arjun Gillard"
+  slug: "arjungillard"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ashi Krishnan"
+  slug: "ashikrishnan"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Aswin Mohan"
+  slug: "aswinmohan"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Austin Hammer"
+  slug: "austinhammer"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Basile Nouvellet"
+  slug: "basilenouvellet"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Beau Heubach"
+  slug: "beauheubach"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Benjamin Brodie"
+  slug: "benjaminbrodie"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ben Smith"
+  slug: "bensmith"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ben Wheat"
+  slug: "benwheat"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Berenice Medel"
+  slug: "berenicemedel"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bernardo Amorim"
+  slug: "bernardoamorim"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bill Peregoy"
+  slug: "billperegoy"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Billy Ceskavich"
+  slug: "billyceskavich"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Brandon Richey"
+  slug: "brandonrichey"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Brian Marick"
+  slug: "brianmarick"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Brian Mitchell"
+  slug: "brianmitchell"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Brian Troutwine"
+  slug: "briantroutwine"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bruce Park"
+  slug: "brucepark"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bruno Ripa"
+  slug: "brunoripa"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bryan Joseph"
+  slug: "bryanjoseph"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bryan Naegele"
+  slug: "bryannaegele"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bryan Weber"
+  slug: "bryanweber"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Cameron Price"
+  slug: "cameronprice"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Catalina Astengo"
+  slug: "catalinaastengo"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Charlotte Lorelei De Oliveira"
+  slug: "charlottedeoliveira"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chase Granberry"
+  slug: "chasegranberry"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Bell"
+  slug: "chrisbell"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Freeze"
+  slug: "chrisfreeze"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Miller"
+  slug: "chrismiller"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Nelson"
+  slug: "chrisnelson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Clark Kampfe"
+  slug: "clarkkampfe"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Cory O'Daniel"
+  slug: "coryodaniel"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Crux Conception"
+  slug: "cruxconception"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dan Dresselhaus"
+  slug: "dandresselhaus"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Daniel Serrano"
+  slug: "danielserrano"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Daniils Petrovs"
+  slug: "daniilspetrovs"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dan Lindeman"
+  slug: "danlindeman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dave Lee"
+  slug: "davelee"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dave Thomas"
+  slug: "davethomas"
+  headline: "Author of Programming Elixir, Co-founder of The Pragmatic Bookshelf"
+  bio: "Dave Thomas is a programmer, author, and publisher. He co-authored The Pragmatic Programmer with Andy Hunt, co-founded The Pragmatic Bookshelf, and was an original signatory of the Manifesto for Agile Software Development. He coined the phrases 'Code Kata' and 'DRY' (Don't Repeat Yourself). His book Programming Ruby introduced Ruby to the world, and Programming Elixir did the same for Elixir. He worked with Joe Armstrong on Programming Erlang, which sparked his love for the BEAM. In 2006, he became an ACM Distinguished Member."
+  website: https://pragdave.me/
+  social_links:
+    - platform: twitter
+      url: https://twitter.com/pragdave
+    - platform: linkedin
+      url: https://www.linkedin.com/in/dave-thomas-53aa1057/
+
+- name: "De Wet Blomerus"
+  slug: "dewetblomerus"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dorian Karter"
+  slug: "doriankarter"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Eamon Leonard"
+  slug: "eamonleonard"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Elle Imhoff"
+  slug: "elleimhoff"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Emma Cunningham"
+  slug: "emmacunningham"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Eric Oestrich"
+  slug: "ericoestrich"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Esteban Ibarra"
+  slug: "estebanibarra"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Evelyn Masso"
+  slug: "evelynmasso"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Feather Knee"
+  slug: "featherknee"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Federico Meini"
+  slug: "federicomeini"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Flora Petterson"
+  slug: "florapetterson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Frank Midigo"
+  slug: "frankmidigo"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Fredrick Weya"
+  slug: "fredrickweya"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Gabriel Kolawole"
+  slug: "gabrielkolawole"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Giuseppe Castagna"
+  slug: "giuseppecastagna"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Grace Wamunyu"
+  slug: "gracewamunyu"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Greg Vaughn"
+  slug: "gregvaughn"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Hannah Howard"
+  slug: "hannahhoward"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Hans Elias Josephsen"
+  slug: "hanseliasjosephsen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Heidi Howard"
+  slug: "heidihoward"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jace Warren"
+  slug: "jacewarren"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "James Gray"
+  slug: "jamesgray"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "James Lavin"
+  slug: "jameslavin"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Japa Swadia"
+  slug: "japaswadia"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jason Axelson"
+  slug: "jasonaxelson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jean Parapaillon"
+  slug: "jeanparapaillon"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeffery Utter"
+  slug: "jefferyutter"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeff Grunewald"
+  slug: "jeffgrunewald"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeff Smith"
+  slug: "jeffsmith"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jenn Gamble"
+  slug: "jenngamble"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeremy Searls"
+  slug: "jeremysearls"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jesse Anderson"
+  slug: "jesseanderson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "John Mertens"
+  slug: "johnmertens"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jonathan Yeong"
+  slug: "jonathanyeong"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jon Carstens"
+  slug: "joncarstens"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jon Forsyth"
+  slug: "jonforsyth"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "José San Gil"
+  slug: "josesangil"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "J. Rhodes"
+  slug: "jrhodes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Juliana Helena"
+  slug: "julianahelena"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Julian Doherty"
+  slug: "juliandoherty"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ju Liu"
+  slug: "juliu"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kalisa Falzone"
+  slug: "kalisafalzone"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kamil Kowalski"
+  slug: "kamilkowalski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Karoline Lende"
+  slug: "karolinelende"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kate Travers"
+  slug: "katetravers"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kevin Hoffman"
+  slug: "kevinhoffman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kip Cole"
+  slug: "kipcole"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kristian Hildebrandt"
+  slug: "kristianhildebrandt"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Lars Hesel Christensen"
+  slug: "larsheselchristensen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Libby Horacek"
+  slug: "libbyhoracek"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Linda Achieng Otieno"
+  slug: "lindaotieno"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Lorenzo Sinisi"
+  slug: "lorenzosinisi"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Luca Dei Zotti"
+  slug: "lucadeizotti"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Luciano Ramalho"
+  slug: "lucianoramalho"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Lucjan Suski"
+  slug: "lucjansuski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ludwik Bukowski"
+  slug: "ludwikbukowski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Martin Gausby"
+  slug: "martingausby"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Melvin Cedeno"
+  slug: "melvincedeno"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Meryl Dakin"
+  slug: "meryldakin"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michael Ries"
+  slug: "michaelries"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michał Olczak"
+  slug: "michalolczak"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Miguel Michelson"
+  slug: "miguelmichelson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Monica Hirst"
+  slug: "monicahirst"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mrinal Wadhwa"
+  slug: "mrinalwadhwa"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Nico Mihalich"
+  slug: "nicomihalich"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Njoki Kiarie"
+  slug: "njokikiarie"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Osa Gaius"
+  slug: "osagaius"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Patrick Thompson"
+  slug: "patrickthompson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Paul Valckenaers"
+  slug: "paulvalckenaers"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Pete Gamache"
+  slug: "petegamache"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Péter Gömöri"
+  slug: "petergomori"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Peter Ullrich"
+  slug: "peterullrich"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Petrus Janse van Rensburg"
+  slug: "petrusjansevanrensburg"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Philipp Schmieder"
+  slug: "philippschmieder"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rachael Mwatela"
+  slug: "rachaelmwatela"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Radek Szymczyszyn"
+  slug: "radekszymczyszyn"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rafał Studnicki"
+  slug: "rafalstudnicki"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Renan Ranelli"
+  slug: "renanranelli"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ricardo Echavarria"
+  slug: "ricardoechavarria"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Robert Beene"
+  slug: "robertbeene"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Roland Tritsch"
+  slug: "rolandtritsch"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rosemary Ledesma"
+  slug: "rosemaryledesma"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ryan Trontz"
+  slug: "ryantrontz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ryan Young"
+  slug: "ryanyoung"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ryo Wakabayashi"
+  slug: "ryowakabayashi"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sarah Gray"
+  slug: "sarahgray"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Scott Taylor"
+  slug: "scotttaylor"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sean Moriarty"
+  slug: "seanmoriarty"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sebastian Göttschkes"
+  slug: "sebastiangottschkes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Shankar Dhanasekaran"
+  slug: "shankardhanasekaran"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Shanti Chellaram"
+  slug: "shantichellaram"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sheharyar Naseer"
+  slug: "sheharyarnaseer"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Simon de Haan"
+  slug: "simondehaan"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sophie Troy"
+  slug: "sophietroy"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Stefan Wintermeyer"
+  slug: "stefanwintermeyer"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Steve Bussey"
+  slug: "stevebussey"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Stuart Halloway"
+  slug: "stuarthalloway"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Stuart Page"
+  slug: "stuartpage"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Thomas Depierre"
+  slug: "thomasdepierre"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Thomas O'Rourke"
+  slug: "thomasorourke"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tim Gent"
+  slug: "timgent"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tom Calloway"
+  slug: "tomcalloway"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tonći Galić"
+  slug: "toncigalic"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Vaibhav Sagar"
+  slug: "vaibhavsagar"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Vanshdeep Singh"
+  slug: "vanshdeepsingh"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Vasilis Spilka"
+  slug: "vasilisspilka"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Victor Nascimento"
+  slug: "victornascimento"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Wiebe-Marten Wijnja"
+  slug: "wiebemartenwijnja"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Willian Frantz"
+  slug: "willianfrantz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Will Ockelmann Wagner"
+  slug: "willockelmannwagner"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Wolfgang Loder"
+  slug: "wolfgangloder"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Xiang Ji"
+  slug: "xiangji"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Yosef Arbiv"
+  slug: "yosefarbiv"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Zac Barnes"
+  slug: "zacbarnes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Zack Kayser"
+  slug: "zackkayser"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Aaron Patterson"
+  slug: "aaronpatterson"
+  headline: "Rails Core Team Member"
+  bio: |
+    My talent is inspiring people.  I like to do that by writing fun and interesting programs, and sharing them with others for the express purposes of teaching.  I want everyone I interact with to leave better than they came, and hopefully with a new skill they can use at home.  I am passionate about helping other people in my field, and I think the most effective way for me to impact the most developers is by working on Open Source software.  I choose to work on Ruby and Rails because improving Rails provides a large impact on the developer community.  I believe I have the skills and experience to be one of the most effective framework and language developers.
+
+    I am a popular public speaker.  I have spoken about Ruby and Rails at over 50 conferences world-wide in the past 5 years, and I will continue to speak at more conferences.  I have delivered a keynote at RailsConf (the world wide conference for Ruby on Rails) each year for the past 4 years.  Other keynotes include RubyConf Brazil 2011, RubyKaigi Tokyo in 2012, RubyConf India 2013, RedDot RubyConf in Singapore 2014, among many others.  I am known for my presentation style and relevant technical content.
+
+    I wish to work somewhere that will support me both as a public speaker and as an open source developer.  I want to work for a company that is interested in improving developer productivity and decreasing technical debt, and where improving the developer community is valued.
+  website: https://tenderlovemaking.com/
+  social_links:
+    - platform: github
+      url: https://github.com/tenderlove
+    - platform: twitter
+      url: https://x.com/tenderlove
+    - platform: bluesky
+      url: https://bsky.app/profile/tenderlove.dev
+    - platform: mastodon
+      url: https://mastodon.social/@tenderlove
+    - platform: linkedin
+      url: https://www.linkedin.com/in/tenderlove/
+
+- name: "Angle Jose"
+  slug: "anglejose"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ben Cates"
+  slug: "bencates"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Brien Wankel"
+  slug: "brienwankel"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Clemens Vasters"
+  slug: "clemensvasters"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Greg Mefford"
+  slug: "gregmefford"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jerel Unruh"
+  slug: "jerelunruh"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mark Windholtz"
+  slug: "markwindholtz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michael Crumm"
+  slug: "michaelcrumm"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Niall Burkley"
+  slug: "niallburkley"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Samuel Mullen"
+  slug: "samuelmullen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Simon Unge"
+  slug: "simonunge"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tim Mechlem"
+  slug: "timmechlem"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Zachary Thomas"
+  slug: "zacharythomas"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alexis Huefner"
+  slug: "alexishuefner"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Bennett"
+  slug: "andrewbennett"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ben Wilson"
+  slug: "benwilson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Boyd Multerer"
+  slug: "boydmulterer"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bruce Williams"
+  slug: "brucewilliams"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Christopher Cote"
+  slug: "christophercote"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Darin Wilson"
+  slug: "darinwilson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Eric Entin"
+  slug: "ericentin"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Gabi Zuniga"
+  slug: "gabizuniga"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Griffin Byatt"
+  slug: "griffinbyatt"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "James Smith"
+  slug: "jamessmith"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jamon Holmgren"
+  slug: "jamonholmgren"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "John Wahba"
+  slug: "johnwahba"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Keith Gautreaux"
+  slug: "keithgautreaux"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mathew Gardner"
+  slug: "mathewgardner"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mohd Maqbool Alam"
+  slug: "mohdmaqboolalam"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Powell Kinney"
+  slug: "powellkinney"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Regina Imhoff"
+  slug: "reginaimhoff"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rob Martin"
+  slug: "robmartin"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rockwell Schrock"
+  slug: "rockwellschrock"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Scott Ribe"
+  slug: "scottribe"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tim Mecklem"
+  slug: "timmecklem"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "TJ Stankus"
+  slug: "tjstankus"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Veronica Lopez"
+  slug: "veronicalopez"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Aaron Renner"
+  slug: "aaronrenner"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Aaron Votre"
+  slug: "aaronvotre"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Aish Dahal"
+  slug: "aishdahal"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alex Dovzhanyn"
+  slug: "alexdovzhanyn"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bailey Miller"
+  slug: "baileymiller"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Catherine Zoller"
+  slug: "catherinezoller"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Christopher Krailo"
+  slug: "christopherkrailo"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Daniel Azuma"
+  slug: "danielazuma"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dan McGuire"
+  slug: "danmcguire"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dan Porter"
+  slug: "danporter"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dave Aronson"
+  slug: "davearonson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Doug Wright"
+  slug: "dougwright"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Enio Lopes"
+  slug: "eniolopes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Fahad Almusharraf"
+  slug: "fahadalmusharraf"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Frank Kumro"
+  slug: "frankkumro"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeffrey Gillis"
+  slug: "jeffreygillis"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeff Schomay"
+  slug: "jeffschomay"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeremy Dewar"
+  slug: "jeremydewar"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "João Britto"
+  slug: "joaobritto"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Justus Eapen"
+  slug: "justuseapen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michael Stalker"
+  slug: "michaelstalker"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tian Chen"
+  slug: "tianchen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Zach Porter"
+  slug: "zachporter"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Boshan Sun"
+  slug: "boshansun"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Javier Evans"
+  slug: "javierevans"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeff Ching"
+  slug: "jeffching"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jeff Gillis"
+  slug: "jeffgillis"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Moxley Stratton"
+  slug: "moxleystratton"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Vince Foley"
+  slug: "vincefoley"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Wojciech Gawroński"
+  slug: "wojciechgawronski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alan Feuerlein"
+  slug: "alanfeuerlein"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Angel Martinez"
+  slug: "angelmartinez"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Arno Dirlam"
+  slug: "arnodirlam"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Brooklin Myers"
+  slug: "brooklinmyers"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Keele"
+  slug: "chriskeele"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Constantin Cheptea"
+  slug: "constantincheptea"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ed Bond"
+  slug: "edbond"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Elayne Juten"
+  slug: "elaynejuten"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Erik Guzman"
+  slug: "erikguzman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Geoff Smith"
+  slug: "geoffsmith"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Héctor Moreno"
+  slug: "hectormoreno"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jamie Wright"
+  slug: "jamiewright"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jason Johnson"
+  slug: "jasonjohnson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jenny Bramble"
+  slug: "jennybramble"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Justin Wood"
+  slug: "justinwood"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kimberly Johnson"
+  slug: "kimberlyjohnson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mark Ericksen"
+  slug: "markericksen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Matthew Platts"
+  slug: "matthewplatts"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mike Waud"
+  slug: "mikewaud"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Natalie Perpepaj"
+  slug: "natalieperpepaj"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Nikki Kyllonen"
+  slug: "nikkikyllonen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Onorio Catenacci"
+  slug: "onoriocatenacci"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Owen Bickford"
+  slug: "owenbickford"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Roger Roelofs"
+  slug: "rogerroelofs"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ryan Cooke"
+  slug: "ryancooke"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sean Moriarity"
+  slug: "seanmoriarity"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Stephen Ball"
+  slug: "stephenball"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Theo Harris"
+  slug: "theoharris"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Yiming Chen"
+  slug: "yimingchen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "AJ Foster"
+  slug: "ajfoster"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alexander Webb"
+  slug: "alexanderwebb"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alfonso Gonzalez"
+  slug: "alfonsogonzalez"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Berrien"
+  slug: "andrewberrien"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Moore"
+  slug: "andrewmoore"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anthony Accomazzo"
+  slug: "anthonyaccomazzo"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Barrett Helms"
+  slug: "barretthelms"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Charlie Holtz"
+  slug: "charlieholtz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Gregori"
+  slug: "chrisgregori"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "David Bluestein II"
+  slug: "davidbluesteinii"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Eric Iacutone"
+  slug: "ericiacutone"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Isaac Yonemoto"
+  slug: "isaacyonemoto"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Katelynn Burns"
+  slug: "katelynnburns"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kimberly Erni"
+  slug: "kimberlyerni"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mark Keele"
+  slug: "markkeele"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michał Śledź"
+  slug: "michasledz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Razvan Draghici"
+  slug: "razvandraghici"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tim Gremore"
+  slug: "timgremore"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Toran Billups"
+  slug: "toranbillups"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrew Thompson"
+  slug: "andrewthompson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anthony Molinaro"
+  slug: "anthonymolinaro"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anton Lavrik"
+  slug: "antonlavrik"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Benoit Chesneau"
+  slug: "benoitchesneau"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Bryan Hughes"
+  slug: "bryanhughes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "David Brinnen"
+  slug: "davidbrinnen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Duncan Sparrell"
+  slug: "duncansparrell"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Erik Stenman"
+  slug: "erikstenman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Fred Hebert"
+  slug: "fredhebert"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Irina Guberman"
+  slug: "irinaguberman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "James Fish"
+  slug: "jamesfish"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "James Weaver"
+  slug: "jamesweaver"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jay Hayes"
+  slug: "jayhayes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jean Rouge"
+  slug: "jeanrouge"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jessica DeVita"
+  slug: "jessicadevita"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Joe Armstrong"
+  slug: "joearmstrong"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kostis Sagonas"
+  slug: "kostissagonas"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mariano Guerra"
+  slug: "marianoguerra"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mark Allen"
+  slug: "markallen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mike Watters"
+  slug: "mikewatters"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mohnish Jadwani"
+  slug: "mohnishjadwani"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Murali Kashaboina"
+  slug: "muralikashaboina"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Paul Rogers"
+  slug: "paulrogers"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Raimo Niskanen"
+  slug: "raimoniskanen"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Richard Kallos"
+  slug: "richardkallos"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Robert Carbone"
+  slug: "robertcarbone"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sam Williams"
+  slug: "samwilliams"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Scott Lystig Fritchie"
+  slug: "scottlystigfritchie"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sébastien Merle"
+  slug: "sebastienmerle"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sonny Scroggin"
+  slug: "sonnyscroggin"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andrea Magnorsky"
+  slug: "andreamagnorsky"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Andre van Delft"
+  slug: "andrevandelft"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Artur Skowroński"
+  slug: "arturskowronski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Boldizsár Németh"
+  slug: "boldizsarnemeth"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Chris Brown"
+  slug: "chrisbrown"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Dmitry Ivanov"
+  slug: "dmitryivanov"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Eduard Bopp"
+  slug: "eduardbopp"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Evelina Gabasova"
+  slug: "evelinagabasova"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Felienne Hermans"
+  slug: "feliennehermans"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jan Macháček"
+  slug: "janmachacek"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "John Hughes"
+  slug: "johnhughes"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Konrad Malawski"
+  slug: "konradmalawski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Konrad Szydlo"
+  slug: "konradszydlo"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Krzysztof Borowski"
+  slug: "krzysztofborowski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Laura M Castro"
+  slug: "lauramcastro"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Lech Głowiak"
+  slug: "lechglowiak"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michał Płachta"
+  slug: "michalplachta"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Nami Naserazad"
+  slug: "naminaserazad"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Norbert Wojtowicz"
+  slug: "norbertwojtowicz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rachel Reese"
+  slug: "rachelreese"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Riccardo Terrell"
+  slug: "riccardoterrell"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tomáš Petříček"
+  slug: "tomaspetricek"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Yan Cui"
+  slug: "yancui"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Zaiste"
+  slug: "zaiste"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michał J. Gajda"
+  slug: "michalgajda"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Monem Shennat"
+  slug: "monemshennat"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Nadia Polikarpova"
+  slug: "nadiapolikarpova"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ody Mbegbu"
+  slug: "odymbegbu"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Pieter Koopman"
+  slug: "pieterkoopman"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Adam Vandervorst"
+  slug: "adamvandervorst"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Alexis King"
+  slug: "alexisking"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ariel Alexi"
+  slug: "arielalexi"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Becca Williams"
+  slug: "beccawilliams"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Conor Hoekstra"
+  slug: "conorhoekstra"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Daniel Marshall"
+  slug: "danielmarshall"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Filip Konopczyński"
+  slug: "filipkonopczynski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jakub Kozłowski"
+  slug: "jakubkozlowski"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Jonas Kruckenberg"
+  slug: "jonaskruckenberg"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Kevin Hammond"
+  slug: "kevinghammond"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Lars Hupel"
+  slug: "larshupel"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Mario Rogic"
+  slug: "mariorogic"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Maximilian Algehed"
+  slug: "maximilianalgehed"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michał Moroz"
+  slug: "michalmoroz"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Nikhil Barthwal"
+  slug: "nikhilbarthwal"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tim Sweeney"
+  slug: "timsweeney"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Tomas Mikula"
+  slug: "tomasmikula"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Yuri Leikind"
+  slug: "yurileikind"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Matt Ludwigs"
+  slug: "mattludwigs"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+
+- name: "Christopher Winter"
+  slug: "christopherwinter"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Anil Madhavapeddy"
+  slug: "anilmadhavapeddy"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Carol Silva"
+  slug: "carolsilva"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Daniel Ondus"
+  slug: "danielondus"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "David Corral-Plaza"
+  slug: "davidcorralplaza"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Hécate"
+  slug: "hecate"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Merlin Pahic"
+  slug: "merlinpahic"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Michael Newton"
+  slug: "michaelnewton"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Moa Johansson"
+  slug: "moajohansson"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Ningning Xie"
+  slug: "ningningxie"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Rinus Plasmeijer"
+  slug: "rinusplasmeijer"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Thodoris Sotiropoulos"
+  slug: "theodorissotiropoulos"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Wendy Randolph"
+  slug: "wendyrandolph"
+  headline: "Software Developer"
+  bio: "Software Developer"
+
+- name: "Sriram Ramkrishna"
+  slug: "sriramkrishna"
+  headline: "Open Source Community Leader & GNOME Foundation Board Member"
+  bio: "Sriram (Sri) Ramkrishna is a multi-disciplinary technologist who bridges technical leadership, community architecture, and event management. One of GNOME's longest-serving contributors since 1997 and a former GNOME Foundation Board member, he spent two decades at Intel working at the intersection of enterprise IT and open source."
+  website: https://portfolio.ramkrishna.me/
+  social_links:
+    - platform: github
+      url: https://github.com/sramkrishna
+    - platform: linkedin
+      url: https://www.linkedin.com/in/sriram-ramkrishna/

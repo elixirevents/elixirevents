@@ -1,12 +1,13 @@
 ## Keynotes
 
-
-- title: "Miriam Pena  - Keynote: Unsung Heroes of the BEAM  - Code BEAM SF 2018"
-  slug: "miriam-pena-keynote-unsung-heroes-of-the-beam-code-beam-sf-2"
+- title: "Keynote: Unsung Heroes of the BEAM"
+  slug: "keynote-unsung-heroes-of-the-beam"
   kind: keynote
   language: en
   duration: 36
-  abstract: "There are women –rarely known– who have had a massive impact in the Erlang & Elixir community. We wouldn’t even be here in this conference if it wasn’t for some of them. Their achievements and stories are known only in small circles because often their protagonists have been humble and discreet."
+  abstract: "There are women –rarely known– who have had a massive impact in the Erlang & Elixir community. We wouldn't even be here in this conference if it wasn't for some of them. Their achievements and stories are known only in small circles because often their protagonists have been humble and discreet."
+  speakers:
+    - miriampena
   topics:
     - elixir
     - erlang
@@ -15,12 +16,14 @@
       external_id: "j6wbuV8pMx8"
       url: "https://www.youtube.com/watch?v=j6wbuV8pMx8"
 
-- title: "Kostis Sagonas - Testing Tools for the Erlang Ecosystem - Code BEAM SF 2018"
-  slug: "kostis-sagonas-testing-tools-for-the-erlang-ecosystem-code-b"
+- title: "Keynote: Testing Tools for the Erlang Ecosystem"
+  slug: "keynote-testing-tools-for-the-erlang-ecosystem"
   kind: keynote
   language: en
   duration: 52
   abstract: "The second tool, Concuerror (http://concuerror.com/), has recently seen significant improvements to its underlying technology that allowed it to test and verify protocols for chain repair for CORFU, a distributed shared log which aims to be scalable and reliable in the presence of failures and async"
+  speakers:
+    - kostissagonas
   topics:
     - elixir
     - erlang
@@ -30,12 +33,14 @@
       external_id: "4-vJeCmkCZE"
       url: "https://www.youtube.com/watch?v=4-vJeCmkCZE"
 
-- title: "Joe Armstrong - Keynote: The Forgotten Ideas in Computer Science - Code BEAM SF 2018"
-  slug: "joe-armstrong-keynote-the-forgotten-ideas-in-computer-scienc"
+- title: "Keynote: The Forgotten Ideas in Computer Science"
+  slug: "keynote-the-forgotten-ideas-in-computer-science"
   kind: keynote
   language: en
   duration: 50
   abstract: "In the early days of computing there were many good ideas that were 'before their time' and for one reason or another, these ideas were dropped!"
+  speakers:
+    - joearmstrong
   topics:
     - elixir
     - erlang
@@ -44,17 +49,17 @@
       external_id: "-I_jE0l7sYQ"
       url: "https://www.youtube.com/watch?v=-I_jE0l7sYQ"
 
-
 ## Talks
 
-
-- title: "Raimo Niskanen - Update OTP Team - Code BEAM SF 2018"
-  slug: "raimo-niskanen-update-otp-team-code-beam-sf-2018"
+- title: "Update: OTP Team"
+  slug: "update-otp-team"
   kind: talk
   level: intermediate
   language: en
   duration: 14
   abstract: "In Erlang/OTP 19.0 a new gen_* behaviour targeted at writing state machines was introduced - gen_statem. With its much richer feature set and a more general event model it was intended to replace the gen_fsm behaviour."
+  speakers:
+    - raimoniskanen
   topics:
     - elixir
     - otp
@@ -64,13 +69,15 @@
       external_id: "hHhm0bfdj-4"
       url: "https://www.youtube.com/watch?v=hHhm0bfdj-4"
 
-- title: "Anton Lavrik - A Reflection on Building the WhatsApp Server  -  Code BEAM 2018"
-  slug: "anton-lavrik-a-reflection-on-building-the-whatsapp-server-co"
+- title: "A Reflection on Building the WhatsApp Server"
+  slug: "a-reflection-on-building-the-whatsapp-server"
   kind: talk
   level: intermediate
   language: en
   duration: 47
   abstract: "In this talk, we describe some of the best tools we use for developing reliable and scalable servers in Erlang. Some of these tools and approaches may not be widely known in a broader Erlang community. Others may be considered controversial and going against more conventional Erlang practices."
+  speakers:
+    - antonlavrik
   topics:
     - elixir
     - erlang
@@ -79,12 +86,14 @@
       external_id: "LJx6mUEFAqQ"
       url: "https://www.youtube.com/watch?v=LJx6mUEFAqQ"
 
-- title: "James Fish - Update  Elixir Core Dev  Team - Code BEAM SF 2018"
-  slug: "james-fish-update-elixir-core-dev-team-code-beam-sf-2018"
+- title: "Update: Elixir Core Dev Team"
+  slug: "update-elixir-core-dev-team"
   kind: talk
   level: intermediate
   language: en
   duration: 14
+  speakers:
+    - jamesfish
   topics:
     - elixir
     - erlang
@@ -93,13 +102,15 @@
       external_id: "l4ISqxmZQtE"
       url: "https://www.youtube.com/watch?v=l4ISqxmZQtE"
 
-- title: "Bryan Hughes - LPWAN and Cellular IoT Explained - Code BEAM SF 2018"
-  slug: "bryan-hughes-lpwan-and-cellular-iot-explained-code-beam-sf-2"
+- title: "LPWAN and Cellular IoT Explained"
+  slug: "lpwan-and-cellular-iot-explained"
   kind: talk
   level: intermediate
   language: en
   duration: 25
   abstract: "Industrial IoT has been around for a lot longer than most people think, predating the consumer internet of things. Its early incarnations were originally called M2M, or machine-to-machine, networks. These early systems were always networks of wired machines communicating via Ethernet, Fiber, DSL or "
+  speakers:
+    - bryanhughes
   topics:
     - elixir
     - nerves
@@ -109,13 +120,15 @@
       external_id: "WdetR9B4oUM"
       url: "https://www.youtube.com/watch?v=WdetR9B4oUM"
 
-- title: "James Weaver - Quantum Computing Exposed -Schrödinger's Grumpy Cat - Code BEAM SF 2018"
-  slug: "james-weaver-quantum-computing-exposed-schrodingers-grumpy-c"
+- title: "Quantum Computing Exposed: Schrödinger's Grumpy Cat"
+  slug: "quantum-computing-exposed-schrodingers-grumpy-cat"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "The buzz about quantum computing has been rapidly increasing lately, and a growing number of developers have been looking into the subject. Concepts that developers typically find challenging after a cursory investigation of quantum computing include:"
+  speakers:
+    - jamesweaver
   topics:
     - elixir
     - erlang
@@ -124,13 +137,15 @@
       external_id: "SLgMXDD_KRg"
       url: "https://www.youtube.com/watch?v=SLgMXDD_KRg"
 
-- title: "Raimo Niskanen - gen_statem - The Tool You Never Knew You Always Wanted - Code BEAM SF 2018"
-  slug: "raimo-niskanen-gen-statem-the-tool-you-never-knew-you-always"
+- title: "gen_statem: The Tool You Never Knew You Always Wanted"
+  slug: "gen-statem-the-tool-you-never-knew-you-always-wanted"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "In Erlang/OTP 19.0 a new gen_* behaviour targeted at writing state machines was introduced - gen_statem. With its much richer feature set and a more general event model it was intended to replace the gen_fsm behaviour."
+  speakers:
+    - raimoniskanen
   topics:
     - elixir
     - otp
@@ -140,13 +155,15 @@
       external_id: "f_jl6MR3kXQ"
       url: "https://www.youtube.com/watch?v=f_jl6MR3kXQ"
 
-- title: "Anthony Molinaro - Packaging for Production - Code BEAM SF 2018"
-  slug: "anthony-molinaro-packaging-for-production-code-beam-sf-2018"
+- title: "Packaging for Production"
+  slug: "packaging-for-production"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "The final step in any successful release of Erlang (or Elixir) software is getting the release artifact(s) onto production machines. There are currently many ways this can be accomplished. This talk investigates some of the current approaches I've encountered, addresses some of the ways I've gone ab"
+  speakers:
+    - anthonymolinaro
   topics:
     - elixir
     - erlang
@@ -156,13 +173,15 @@
       external_id: "AXY0d0YXQSU"
       url: "https://www.youtube.com/watch?v=AXY0d0YXQSU"
 
-- title: "Sébastien Merle - From Cloud to Edge Networks - Code BEAM SF 2018"
-  slug: "sebastien-merle-from-cloud-to-edge-networks-code-beam-sf-201"
+- title: "From Cloud to Edge Networks"
+  slug: "from-cloud-to-edge-networks"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Where is Erlang when we move from the cloud towards the edge?"
+  speakers:
+    - sebastienmerle
   topics:
     - elixir
     - erlang
@@ -171,13 +190,16 @@
       external_id: "Iq-9eOijX2s"
       url: "https://www.youtube.com/watch?v=Iq-9eOijX2s"
 
-- title: "Osa Gaius - Why Elixir Matters: A Genealogy of Functional Programming - Code BEAM SF 2018"
-  slug: "osa-gaius-why-elixir-matters-a-genealogy-of-functional-progr"
+- title: "Why Elixir Matters: A Genealogy of Functional Programming"
+  slug: "why-elixir-matters-a-genealogy-of-functional-programming"
   kind: talk
   level: intermediate
   language: en
   duration: 40
-  abstract: 'Members of the Elixir community often receive the question: \"why should I use Elixir?\" The answer to this nuanced question remains elusive, because the answer is not primarily technical.'
+  abstract: |
+    Members of the Elixir community often receive the question: "why should I use Elixir?" The answer to this nuanced question remains elusive, because the answer is not primarily technical.
+  speakers:
+    - osagaius
   topics:
     - elixir
     - erlang
@@ -186,13 +208,15 @@
       external_id: "EE7-MkHwB7o"
       url: "https://www.youtube.com/watch?v=EE7-MkHwB7o"
 
-- title: "Benoit Chesneau - Building and Integrating A Data Platform - Code BEAM SF 2018"
-  slug: "benoit-chesneau-building-and-integrating-a-data-platform-cod"
+- title: "Building and Integrating a Data Platform"
+  slug: "building-and-integrating-a-data-platform"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "Last year, Benoit and others were busy integrating and customising Barrel, a modern and opensource data platform with master-master replication written in Erlang."
+  speakers:
+    - benoitchesneau
   topics:
     - elixir
     - erlang
@@ -201,13 +225,16 @@
       external_id: "dPDAFFSKS18"
       url: "https://www.youtube.com/watch?v=dPDAFFSKS18"
 
-- title: "Brett Cameron, David Brinnen - Next Generation SCADA - Code BEAM SF 2018"
-  slug: "brett-cameron-david-brinnen-next-generation-scada-code-beam"
+- title: "Next Generation SCADA"
+  slug: "next-generation-scada"
   kind: talk
   level: intermediate
   language: en
   duration: 42
   abstract: "Supervisory control and data acquisition (SCADA) is a control system architecture that uses computers, networking, and graphical user interfaces for process monitoring and control, operating in conjunction with peripheral devices such as programmable logic controllers, sensors, and actuators to inte"
+  speakers:
+    - brettcameron
+    - davidbrinnen
   topics:
     - elixir
     - otp
@@ -217,13 +244,15 @@
       external_id: "tl-3EftSK90"
       url: "https://www.youtube.com/watch?v=tl-3EftSK90"
 
-- title: "Brujo Benavides - Opaque Structures and Other Yerbas - Code BEAM SF2018"
-  slug: "brujo-benavides-opaque-structures-and-other-yerbas-code-beam"
+- title: "Opaque Structures and Other Yerbas"
+  slug: "opaque-structures-and-other-yerbas"
   kind: talk
   level: intermediate
   language: en
   duration: 20
   abstract: "Opaque Data Structures provide a very nice technique to structure systems and they are particularly useful within the functional programming paradigm. With the addition of maps and the opaque attribute for modules, Erlang is now perfectly suited to get the best of these structures, if you use it pro"
+  speakers:
+    - brujobenavides
   topics:
     - elixir
     - erlang
@@ -232,13 +261,15 @@
       external_id: "hxLh0qFX9oI"
       url: "https://www.youtube.com/watch?v=hxLh0qFX9oI"
 
-- title: "Richard Kallos - Introducing Wrek; A Library For Executing Dependency Graphs - Code BEAM SF 2018"
-  slug: "richard-kallos-introducing-wrek-a-library-for-executing-depe"
+- title: "Introducing Wrek: A Library For Executing Dependency Graphs"
+  slug: "introducing-wrek-a-library-for-executing-dependency-graphs"
   kind: talk
   level: intermediate
   language: en
   duration: 18
   abstract: "Dependency graphs are a useful representation for exploring opportunities to introduce concurrency in a larger system. They are hidden all over computing (compilers, build systems) and everyday life (to-do lists, cooking recipes). Users can define a set of tasks, as well as dependencies between them"
+  speakers:
+    - richardkallos
   topics:
     - elixir
     - erlang
@@ -247,13 +278,15 @@
       external_id: "dYDdnZoH0uk"
       url: "https://www.youtube.com/watch?v=dYDdnZoH0uk"
 
-- title: "Jay Hayes - Metaprogramming - Programs that Write Programs - Code BEAM SF 2018"
-  slug: "jay-hayes-metaprogramming-programs-that-write-programs-code"
+- title: "Metaprogramming: Programs that Write Programs"
+  slug: "metaprogramming-programs-that-write-programs"
   kind: talk
   level: intermediate
   language: en
   duration: 42
   abstract: "Programs that write programs are called metaprograms. They occupy the space between your problem and its solution. When used haphazardly the results can be confusing and cryptic. But when used wisely, they simplify that space and make it possible to solve hard problems in elegant ways."
+  speakers:
+    - jayhayes
   topics:
     - elixir
     - erlang
@@ -262,13 +295,15 @@
       external_id: "S_WtnSrfR5s"
       url: "https://www.youtube.com/watch?v=S_WtnSrfR5s"
 
-- title: "Mohnish Jadwani - Learning Elixir Better through Collaboration and Giving Back - Code BEAM SF 2018"
-  slug: "mohnish-jadwani-learning-elixir-better-through-collaboration"
+- title: "Learning Elixir Better through Collaboration and Giving Back"
+  slug: "learning-elixir-better-through-collaboration-and-giving-back"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "More details here: https://codesync.global/speaker/mohnish-jadwani/"
+  speakers:
+    - mohnishjadwani
   topics:
     - elixir
     - erlang
@@ -277,13 +312,16 @@
       external_id: "lWIeZlNoVSQ"
       url: "https://www.youtube.com/watch?v=lWIeZlNoVSQ"
 
-- title: "Jean Rouge - The Magic Behind Immutable Maps - Code BEAM SF 2018"
-  slug: "jean-rouge-the-magic-behind-immutable-maps-code-beam-sf-2018"
+- title: "The Magic Behind Immutable Maps"
+  slug: "the-magic-behind-immutable-maps"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "Erlang variables are immutable. But what happens when we do `Map2 = maps:put(Key, Value, Map1)`? Surely the VM doesn't copy all of Map1 to a new Map2 in memory just to add that new Key-Value pair? But then how does it give us the illusion that Map1 still exists, without the new pair? How does it kee"
+  abstract: |
+    Erlang variables are immutable. But what happens when we do `Map2 = maps:put(Key, Value, Map1)`? Surely the VM doesn't copy all of Map1 to a new Map2 in memory just to add that new Key-Value pair? But then how does it give us the illusion that Map1 still exists, without the new pair? How does it keep both copies around?
+  speakers:
+    - jeanrouge
   topics:
     - elixir
     - erlang
@@ -292,13 +330,15 @@
       external_id: "-M1P8TSJcg8"
       url: "https://www.youtube.com/watch?v=-M1P8TSJcg8"
 
-- title: "Duncan Sparrell - Let it Be Hacked - Code Beam SF 2018"
-  slug: "duncan-sparrell-let-it-be-hacked-code-beam-sf-2018"
+- title: "Let it Be Hacked"
+  slug: "let-it-be-hacked"
   kind: talk
   level: intermediate
   language: en
   duration: 46
   abstract: "Cyber-attacks are increasing in terms of sophistication, speed and dynamics. Defenses are not keeping up. Why does the attacker have such an advantage? Because most software is not designed with 'let it fail' in mind. Our community has a significant advantage in the area and we should capitalize on "
+  speakers:
+    - duncansparrell
   topics:
     - elixir
     - erlang
@@ -307,13 +347,15 @@
       external_id: "NYkwvVKlbU8"
       url: "https://www.youtube.com/watch?v=NYkwvVKlbU8"
 
-- title: "Jesse J. Anderson - Intro to Machine Learning -  Code Beam SF 2018"
-  slug: "jesse-j-anderson-intro-to-machine-learning-code-beam-sf-2018"
+- title: "Intro to Machine Learning"
+  slug: "intro-to-machine-learning"
   kind: talk
   level: beginner
   language: en
   duration: 46
   abstract: "Explore the basics of machine learning, deep learning, and neural networks. Discover how to use Elixir to teach your computer how to learn and solve problems with data you already have. No math degree (or previous experience) required!"
+  speakers:
+    - jesseanderson
   topics:
     - elixir
     - erlang
@@ -323,13 +365,15 @@
       external_id: "S9RlMhru29I"
       url: "https://www.youtube.com/watch?v=S9RlMhru29I"
 
-- title: "Emma Cunningham - Hype For Types  Using Dialyzer to Bring...  - Code Beam SF 2018"
-  slug: "emma-cunningham-hype-for-types-using-dialyzer-to-bring-code"
+- title: "Hype For Types: Using Dialyzer to Bring Type Checking"
+  slug: "hype-for-types-using-dialyzer-to-bring-type-checking"
   kind: talk
   level: intermediate
   language: en
   duration: 30
-  abstract: "We’ll start off with a bit of theory around types, starting with some theoretical background around various type systems and making the case for type checking. While motivating type checking, we’ll consider specific scenarios where type checking can add additional assurances in your development proc"
+  abstract: "We'll start off with a bit of theory around types, starting with some theoretical background around various type systems and making the case for type checking. While motivating type checking, we'll consider specific scenarios where type checking can add additional assurances in your development proc"
+  speakers:
+    - emmacunningham
   topics:
     - elixir
     - erlang
@@ -339,13 +383,15 @@
       external_id: "yZO6FkkdJEg"
       url: "https://www.youtube.com/watch?v=yZO6FkkdJEg"
 
-- title: "Bernardo Amorim - CQRS and Event Sourcing - Code Beam SF 2018"
-  slug: "bernardo-amorim-cqrs-and-event-sourcing-code-beam-sf-2018"
+- title: "CQRS and Event Sourcing"
+  slug: "cqrs-and-event-sourcing"
   kind: talk
   level: intermediate
   language: en
   duration: 24
   abstract: "A look into what EventSourcing and Command Query Responsibility Segregation are and how they fit together, followed by a tutorial on how to implement an application using these concepts with Commanded (a framework for elixir)."
+  speakers:
+    - bernardoamorim
   topics:
     - elixir
     - erlang
@@ -354,13 +400,15 @@
       external_id: "S3f6sAXa3-c"
       url: "https://www.youtube.com/watch?v=S3f6sAXa3-c"
 
-- title: "Paul Rogers - Is Security on Your Nerves  - Code BEAM SF 2018"
-  slug: "paul-rogers-is-security-on-your-nerves-code-beam-sf-2018"
+- title: "Is Security on Your Nerves"
+  slug: "is-security-on-your-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 45
   abstract: "TLS based security (https),"
+  speakers:
+    - paulrogers
   topics:
     - elixir
     - nerves
@@ -370,13 +418,15 @@
       external_id: "DP6wYYQ90QI"
       url: "https://www.youtube.com/watch?v=DP6wYYQ90QI"
 
-- title: "Erik Stenman - Aeternity: Scalable Smart Contracts - Code BEAM SF 2018"
-  slug: "erik-stenman-aeternity-scalable-smart-contracts-code-beam-sf"
+- title: "Aeternity: Scalable Smart Contracts"
+  slug: "aeternity-scalable-smart-contracts"
   kind: talk
   level: beginner
   language: en
   duration: 26
   abstract: "In this talk I will tell you about a new blockchain that is built in Erlang and Elixir to run on top of BEAM. I will give you a brief introduction to blockchain technology and then present the AEternity project and some of the features of AEternity, such as State Channels and Oracles."
+  speakers:
+    - erikstenman
   topics:
     - elixir
     - erlang
@@ -385,13 +435,15 @@
       external_id: "VXsqvfPIdWg"
       url: "https://www.youtube.com/watch?v=VXsqvfPIdWg"
 
-- title: "Irina Guberman - High Performance Metrics Through Mutable Counters - Code BEAM SF 2018"
-  slug: "irina-guberman-high-performance-metrics-through-mutable-coun"
+- title: "High Performance Metrics Through Mutable Counters"
+  slug: "high-performance-metrics-through-mutable-counters"
   kind: talk
   level: intermediate
   language: en
   duration: 28
   abstract: "Talk about design and motivation for high performance metrics library in Erlang developed by Xaptum using mutable counters -- based on and inspired by oneup app."
+  speakers:
+    - irinaguberman
   topics:
     - elixir
     - erlang
@@ -400,13 +452,15 @@
       external_id: "peKLuq-tdQo"
       url: "https://www.youtube.com/watch?v=peKLuq-tdQo"
 
-- title: "Fred Hebert - The Hitchhiker's Guide to the Unexpected - Code BEAM SF 2018"
-  slug: "fred-hebert-the-hitchhikers-guide-to-the-unexpected-code-bea"
+- title: "The Hitchhiker's Guide to the Unexpected"
+  slug: "the-hitchhikers-guide-to-the-unexpected"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Bugs you know you will happen in production are usually easy to handle since you know about them. The problem is that we, as humans, have limited knowledge and understanding about the problem domains we write programs for and very often about our programs themselves. This is at the root of all the s"
+  speakers:
+    - fredhebert
   topics:
     - elixir
     - erlang
@@ -415,13 +469,15 @@
       external_id: "W0BR_tWZChQ"
       url: "https://www.youtube.com/watch?v=W0BR_tWZChQ"
 
-- title: "Anna Neyzberg - Crypto + Concurrency - Code BEAM SF 2018"
-  slug: "anna-neyzberg-crypto-concurrency-code-beam-sf-2018"
+- title: "Crypto + Concurrency"
+  slug: "crypto-concurrency"
   kind: talk
   level: intermediate
   language: en
   duration: 34
   abstract: "We know that OTP is an important part of the elixir ecosystem. But why is it important and how does it work? How do we leverage OTP appropriately to build highly concurrent systems at scale. We will walk through the why and the how by building a real time crypto-currency exchange, and then adding lo"
+  speakers:
+    - annaneyzberg
   topics:
     - elixir
     - otp
@@ -431,13 +487,16 @@
       external_id: "X6dmjopTrLE"
       url: "https://www.youtube.com/watch?v=X6dmjopTrLE"
 
-- title: "Robert Carbone - wxErlang & Faithful Representation - Code BEAM SF 2018"
-  slug: "robert-carbone-wxerlang-faithful-representation-code-beam-sf"
+- title: "wxErlang & Faithful Representation"
+  slug: "wxerlang-and-faithful-representation"
   kind: talk
   level: intermediate
   language: en
   duration: 39
-  abstract: "For over a decade, Erlang's cross-platform GUI interface, wxErlang, has sat dormant without a meaningful & practical guide. This talk is wxErlang's long-awaited tutorial."
+  abstract: |
+    For over a decade, Erlang's cross-platform GUI interface, wxErlang, has sat dormant without a meaningful & practical guide. This talk is wxErlang's long-awaited tutorial.
+  speakers:
+    - robertcarbone
   topics:
     - elixir
     - erlang
@@ -446,13 +505,16 @@
       external_id: "3Q_pR1-v1eo"
       url: "https://www.youtube.com/watch?v=3Q_pR1-v1eo"
 
-- title: "Andrew Thompson - Bridging The Physical and Blockchain World With Erlang - Code BEAM SF 2018"
-  slug: "andrew-thompson-bridging-the-physical-and-blockchain-world-w"
+- title: "Bridging The Physical and Blockchain World With Erlang"
+  slug: "bridging-the-physical-and-blockchain-world-with-erlang"
   kind: talk
   level: intermediate
   language: en
   duration: 25
-  abstract: "We're over a decade into the era of the IoT and it still hasn't really arrived. Data privacy, data ownership, network coverage & access, technical fragmentation, vendor longevity and hardware costs are still big obstacles to large deployments. People have great ideas for making the world a better pl"
+  abstract: |
+    We're over a decade into the era of the IoT and it still hasn't really arrived. Data privacy, data ownership, network coverage & access, technical fragmentation, vendor longevity and hardware costs are still big obstacles to large deployments.
+  speakers:
+    - andrewthompson
   topics:
     - elixir
     - nerves
@@ -462,13 +524,15 @@
       external_id: "QnHYWNfvV2c"
       url: "https://www.youtube.com/watch?v=QnHYWNfvV2c"
 
-- title: "Scott Lystig Fritchie - Wide World of Actors  - Code BEAM SF 2018"
-  slug: "scott-lystig-fritchie-wide-world-of-actors-code-beam-sf-2018"
+- title: "Wide World of Actors"
+  slug: "wide-world-of-actors"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "As Erlang & Elixir/OTP programmers, the actor model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted. The Pony language started with the same foundation as Erlang: th"
+  speakers:
+    - scottlystigfritchie
   topics:
     - elixir
     - otp
@@ -478,13 +542,15 @@
       external_id: "uv-3ptTD8hg"
       url: "https://www.youtube.com/watch?v=uv-3ptTD8hg"
 
-- title: "Sonny Scroggin - Taking Erlang Elixir to the Metal - Code BEAM SF 2018"
-  slug: "sonny-scroggin-taking-erlang-elixir-to-the-metal-code-beam-s"
+- title: "Taking Erlang/Elixir to the Metal"
+  slug: "taking-erlang-elixir-to-the-metal"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Elixir is a great choice for most applications. It's powered by the battle-tested Erlang VM know as the BEAM. It allows programmers to build incredibly fast, efficient, scalable, and fault-tolerant distributed systems."
+  speakers:
+    - sonnyscroggin
   topics:
     - elixir
     - erlang
@@ -494,13 +560,15 @@
       external_id: "F86JXaCPowo"
       url: "https://www.youtube.com/watch?v=F86JXaCPowo"
 
-- title: "Mariano Guerra - A Tour Through the Distributed System Zoo - Code BEAM SF 2018"
-  slug: "mariano-guerra-a-tour-through-the-distributed-system-zoo-cod"
+- title: "A Tour Through the Distributed System Zoo"
+  slug: "a-tour-through-the-distributed-system-zoo"
   kind: talk
   level: intermediate
   language: en
   duration: 47
   abstract: "The talk will go through different categories and patterns in distributed systems, compare them and explore them applying each to the case of a distributed key value store."
+  speakers:
+    - marianoguerra
   topics:
     - elixir
     - erlang
@@ -509,13 +577,15 @@
       external_id: "L7OTjuCIZc0"
       url: "https://www.youtube.com/watch?v=L7OTjuCIZc0"
 
-- title: "Sam Williams - Fighting Authoritarianism With Blockchain And Blockweaves - Code BEAM SF 2018"
-  slug: "sam-williams-fighting-authoritarianism-with-blockchain-and-b"
+- title: "Fighting Authoritarianism With Blockchain And Blockweaves"
+  slug: "fighting-authoritarianism-with-blockchain-and-blockweaves"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "It is cliche to say that we live in the age of information, but it is also profoundly true. Information (and access to it) shapes our thoughts and actions as a society, now more than ever. Control and political censorship of that information poses a systemic risk to democratic societies worldwide."
+  speakers:
+    - samwilliams
   topics:
     - elixir
     - erlang
@@ -525,13 +595,15 @@
       external_id: "hd8IQRm0Q1k"
       url: "https://www.youtube.com/watch?v=hd8IQRm0Q1k"
 
-- title: "Mark Allen - Spells, Hexes, and Charms  Running your Own Private Package Service - Code BEAM SF 2018"
-  slug: "mark-allen-spells-hexes-and-charms-running-your-own-private"
+- title: "Spells, Hexes, and Charms: Running Your Own Private Package Service"
+  slug: "spells-hexes-and-charms-running-your-own-private-package-service"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "The hex.pm service is a fantastic tool and fills a huge need in the Elixir and Erlang community. But what if you wanted to run your own private package service behind your own firewall? This talk explores what it takes to get up and running a hex-like service both from the server and client sides. I"
+  speakers:
+    - markallen
   topics:
     - elixir
     - erlang
@@ -540,13 +612,15 @@
       external_id: "lN_KFDyjmnY"
       url: "https://www.youtube.com/watch?v=lN_KFDyjmnY"
 
-- title: "Christopher Coté - Arduino, Elixir And Nerves: A Deep Dive Into... - Code BEAM SF 2018"
-  slug: "christopher-cote-arduino-elixir-and-nerves-a-deep-dive-into"
+- title: "Arduino, Elixir and Nerves: A Deep Dive"
+  slug: "arduino-elixir-and-nerves-a-deep-dive"
   kind: talk
   level: advanced
   language: en
   duration: 41
   abstract: "Details will include:"
+  speakers:
+    - christophercote
   topics:
     - elixir
     - nerves
@@ -556,13 +630,16 @@
       external_id: "sTOOjfUrQ0A"
       url: "https://www.youtube.com/watch?v=sTOOjfUrQ0A"
 
-- title: "Jessica DeVita - Unreachable Code: A Conversation about Safety and Human Factors - Code BEAM SF 2018"
-  slug: "jessica-devita-unreachable-code-a-conversation-about-safety"
+- title: "Unreachable Code: A Conversation about Safety and Human Factors"
+  slug: "unreachable-code-a-conversation-about-safety-and-human-factors"
   kind: talk
   level: intermediate
   language: en
   duration: 47
-  abstract: "“...There's so much talk about the system. And so little understanding.” -Robert Pirsig"
+  abstract: |
+    "...There's so much talk about the system. And so little understanding." -Robert Pirsig
+  speakers:
+    - jessicadevita
   topics:
     - elixir
     - erlang
@@ -571,13 +648,15 @@
       external_id: "BSPVrOR85fo"
       url: "https://www.youtube.com/watch?v=BSPVrOR85fo"
 
-- title: "Paul Schoenfelder -  Releases and Elixir: Envisioning a more perfect union - Code BEAM SF 2018"
-  slug: "paul-schoenfelder-releases-and-elixir-envisioning-a-more-per"
+- title: "Releases and Elixir: Envisioning a More Perfect Union"
+  slug: "releases-and-elixir-envisioning-a-more-perfect-union"
   kind: talk
   level: intermediate
   language: en
   duration: 47
   abstract: "In this talk I am going to share how Elixir's deployment tooling has gotten to where it is today, what problems we've addressed, what problems remain, and going into the future, how we're planning to evolve and improve."
+  speakers:
+    - paulschoenfelder
   topics:
     - elixir
     - erlang
@@ -587,13 +666,15 @@
       external_id: "OS94i3cF6mY"
       url: "https://www.youtube.com/watch?v=OS94i3cF6mY"
 
-- title: "Bruce Williams - A GraphQL-on-Elixir Primer - Code Beam SF 2018"
-  slug: "bruce-williams-a-graphql-on-elixir-primer-code-beam-sf-2018"
+- title: "A GraphQL-on-Elixir Primer"
+  slug: "a-graphql-on-elixir-primer"
   kind: talk
   level: intermediate
   language: en
   duration: 45
   abstract: "GraphQL, a data query language released by Facebook in 2015, has been growing steadily in popularity, with GraphQL APIs supplementing (and in many cases supplanting) REST APIs for use in modern client-side web and mobile applications."
+  speakers:
+    - brucewilliams
   topics:
     - elixir
     - erlang
@@ -603,13 +684,16 @@
       external_id: "enbksvAko98"
       url: "https://www.youtube.com/watch?v=enbksvAko98"
 
-- title: "Murali Kashaboina - Erlang In Action: Creating Scalable Edge Based Iot Solution - Code BEAM SF 2018"
-  slug: "murali-kashaboina-erlang-in-action-creating-scalable-edge-ba"
+- title: "Erlang In Action: Creating Scalable Edge Based IoT Solution"
+  slug: "erlang-in-action-creating-scalable-edge-based-iot-solution"
   kind: talk
   level: intermediate
   language: en
   duration: 45
-  abstract: "Entrigna’s data scientists had an idea to create an IoT software platform that could process large amounts of data and scale while living on the edge. They evaluated several different technologies, however, Erlang was the best fit for their needs. In this presentation, we will speak about Entrigna’s"
+  abstract: |
+    Entrigna's data scientists had an idea to create an IoT software platform that could process large amounts of data and scale while living on the edge. They evaluated several different technologies, however, Erlang was the best fit for their needs.
+  speakers:
+    - muralikashaboina
   topics:
     - elixir
     - otp
@@ -619,13 +703,15 @@
       external_id: "2PQ8OIE8lOM"
       url: "https://www.youtube.com/watch?v=2PQ8OIE8lOM"
 
-- title: "Ben Marx -Trusted Autonomy - Code BEAM SF 2018"
-  slug: "ben-marx-trusted-autonomy-code-beam-sf-2018"
+- title: "Trusted Autonomy"
+  slug: "trusted-autonomy"
   kind: talk
   level: intermediate
   language: en
   duration: 25
   abstract: "Smaller teams are easier to manage just as simpler systems are easier to manage. As your team grows, your system inevitably becomes more complex. Without a clear vision, software quality can decline and, likewise, developers happiness can wane. At Bleacher Report, as we've grown our team, we've put "
+  speakers:
+    - benmarx
   topics:
     - elixir
     - erlang
@@ -634,13 +720,15 @@
       external_id: "NAdCxr6C4DI"
       url: "https://www.youtube.com/watch?v=NAdCxr6C4DI"
 
-- title: "Simon Thompson - Making It Lazy  Never Evaluate Anything More Than Once - Code BEAM SF 2018"
-  slug: "simon-thompson-making-it-lazy-never-evaluate-anything-more-t"
+- title: "Making It Lazy: Never Evaluate Anything More Than Once"
+  slug: "making-it-lazy-never-evaluate-anything-more-than-once"
   kind: talk
   level: advanced
   language: en
   duration: 43
   abstract: "Put some more advanced features of Erlang to work by implementing lazy evaluation. First we find a way of being non-strict, so we only evaluate things by need, and then we find a way of memoising the results. We show how to build infinite, graphical and indeed cyclic data structures, using higher-or"
+  speakers:
+    - simonthompson
   topics:
     - elixir
     - erlang
@@ -649,13 +737,15 @@
       external_id: "uh7qYf8rC00"
       url: "https://www.youtube.com/watch?v=uh7qYf8rC00"
 
-- title: "Adrian Cruz - Mixing in Elixir to Build Search - Code BEAM SF 2018"
-  slug: "adrian-cruz-mixing-in-elixir-to-build-search-code-beam-sf-20"
+- title: "Mixing in Elixir to Build Search"
+  slug: "mixing-in-elixir-to-build-search"
   kind: talk
   level: intermediate
   language: en
   duration: 22
   abstract: "Search is one of the toughest problems in computer science. This talk will discuss the challenges we've gone through at Teachers Pay Teachers while adopting Elixir as our new go-to language. Adrian will discuss some problems they discovered while building out search and more specifically how they ar"
+  speakers:
+    - adriancruz
   topics:
     - elixir
     - erlang
@@ -664,13 +754,15 @@
       external_id: "vogAxP4Sq_g"
       url: "https://www.youtube.com/watch?v=vogAxP4Sq_g"
 
-- title: "Mike Watters - Quaff that potion  saving $millions - Code BEAM SF 2018"
-  slug: "mike-watters-quaff-that-potion-saving-millions-code-beam-sf"
+- title: "Quaff That Potion: Saving $Millions"
+  slug: "quaff-that-potion-saving-millions"
   kind: talk
   level: intermediate
   language: en
   duration: 21
   abstract: "We slashed our Amazon DynamoDB costs by over 75% using Kinesis, DynamoDB streams, and Erlang/OTP to implement a global cache warming system for advertising profile data. Using Elixir and the Flow framework, we subsequently doubled the performance of that system with only minor modifications. This ta"
+  speakers:
+    - mikewatters
   topics:
     - elixir
     - otp
@@ -680,13 +772,16 @@
       external_id: "CvjVpGktLC0"
       url: "https://www.youtube.com/watch?v=CvjVpGktLC0"
 
-- title: "Boshan Sun - Understanding Erlang Term - Code BEAM SF 2018"
-  slug: "boshan-sun-understanding-erlang-term-code-beam-sf-2018"
+- title: "Understanding Erlang Term"
+  slug: "understanding-erlang-term"
   kind: talk
   level: intermediate
   language: en
   duration: 27
-  abstract: "There's an Erlang/Elixir myth that tail-recursive functions are much faster than body-recursive functions. In this talk we will first explore how Erlang terms are represented in bit level, and then take a closer look at this myth to understand what really happens with tail-recursive functions vs bod"
+  abstract: |
+    There's an Erlang/Elixir myth that tail-recursive functions are much faster than body-recursive functions. In this talk we will first explore how Erlang terms are represented in bit level, and then take a closer look at this myth.
+  speakers:
+    - boshansun
   topics:
     - elixir
     - erlang
@@ -695,13 +790,15 @@
       external_id: "mPPbCQ2ffZc"
       url: "https://www.youtube.com/watch?v=mPPbCQ2ffZc"
 
-- title: "Brett Cameron - Getting to Know Your Rabbit - Code BEAM SF 2018"
-  slug: "brett-cameron-getting-to-know-your-rabbit-code-beam-sf-2018"
+- title: "Getting to Know Your Rabbit"
+  slug: "getting-to-know-your-rabbit"
   kind: talk
   level: advanced
   language: en
   duration: 38
   abstract: "RabbitMQ is a popular 100% Erlang-based Open Source message queuing system that implements the Advanced Message Queuing Protocol (AMQP). It was been estimated that there are 50,000+ production deployments of RabbitMQ across the globe, and this number is continuing to grow."
+  speakers:
+    - brettcameron
   topics:
     - elixir
     - erlang
@@ -711,13 +808,15 @@
       external_id: "wN0jqAHmqXc"
       url: "https://www.youtube.com/watch?v=wN0jqAHmqXc"
 
-- title: "Tian Chen - Release, Deploy, Monitor and Upgrade Elixir Services in Real World  - Code BEAM SF 2018"
-  slug: "tian-chen-release-deploy-monitor-and-upgrade-elixir-services"
+- title: "Release, Deploy, Monitor and Upgrade Elixir Services in Real World"
+  slug: "release-deploy-monitor-and-upgrade-elixir-services-in-real-world"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "Although Elixir has been rapidly adopted in the past few years, it still lacks a general guide and practices on releasing, deploying and upgrading (maintaining) the elixir services in a production environment."
+  speakers:
+    - tianchen
   topics:
     - elixir
     - erlang
@@ -727,13 +826,15 @@
       external_id: "kwHtlmyxE6c"
       url: "https://www.youtube.com/watch?v=kwHtlmyxE6c"
 
-- title: "Geoffrey Lessel - Gently Down the Stream - Code BEAM SF 2018"
-  slug: "geoffrey-lessel-gently-down-the-stream-code-beam-sf-2018"
+- title: "Gently Down the Stream"
+  slug: "gently-down-the-stream"
   kind: talk
   level: intermediate
   language: en
   duration: 19
   abstract: "Elixir provides the concept of enumerables, allowing you to transform, sort, group, filter and retrieve items using functions in the enum module. As an alternative to Enum, Elixir provides the Stream module which supports lazy operations. This talk will give an overview of the Stream module. We'll g"
+  speakers:
+    - geoffreylessel
   topics:
     - elixir
     - erlang
@@ -742,13 +843,15 @@
       external_id: "1e6ktNUQuGs"
       url: "https://www.youtube.com/watch?v=1e6ktNUQuGs"
 
-- title: "Jeff Ching - Designing Rich API Clients at Scale - Code BEAM SF 2018"
-  slug: "jeff-ching-designing-rich-api-clients-at-scale-code-beam-sf"
+- title: "Designing Rich API Clients at Scale"
+  slug: "designing-rich-api-clients-at-scale"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "Many APIs are defined as RESTful resources, represented in JSON, and accessed via HTTP. While it's possible to make raw HTTP calls from your program, an API client library can provide significant benefits in safety, security, and readability. This session discusses how Google designs client librarie"
+  speakers:
+    - jeffching
   topics:
     - elixir
     - erlang
@@ -758,13 +861,16 @@
       external_id: "CiSNwmDj6ls"
       url: "https://www.youtube.com/watch?v=CiSNwmDj6ls"
 
-- title: "Robert Virding, Mariano Guerra - Implementing Languages on the BEAM - Code BEAM SF 2018"
-  slug: "robert-virding-mariano-guerra-implementing-languages-on-the"
+- title: "Implementing Languages on the BEAM"
+  slug: "implementing-languages-on-the-beam"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "Why LFE is not just Common Lisp on the BEAM, why Elixir is not just Ruby, why Efene is not just Python?"
+  speakers:
+    - robertvirding
+    - marianoguerra
   topics:
     - elixir
     - erlang

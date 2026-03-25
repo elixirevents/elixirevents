@@ -1,8 +1,7 @@
 ## Keynotes
 
-
-- title: "Gig City Elixir 2019 Speaker Talks: Elixir Outlaws - Live Recording of Podcast"
-  slug: "gig-city-elixir-2019-speaker-talks-elixir-outlaws-live-recor"
+- title: "Elixir Outlaws - Live Recording of Podcast"
+  slug: "elixir-outlaws-live-recording-of-podcast"
   kind: keynote
   language: en
   duration: 50
@@ -14,8 +13,8 @@
       external_id: "87aPd2psgjM"
       url: "https://www.youtube.com/watch?v=87aPd2psgjM"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Better Allies Panel"
-  slug: "gig-city-elixir-2019-speaker-talks-better-allies-panel"
+- title: "Better Allies Panel"
+  slug: "better-allies-panel"
   kind: keynote
   language: en
   duration: 53
@@ -27,17 +26,17 @@
       external_id: "_wQJ1cwcMck"
       url: "https://www.youtube.com/watch?v=_wQJ1cwcMck"
 
-
 ## Talks
 
-
-- title: "Gig City Elixir 2019 Speaker Talks: Stuart Halloway - Sherlock Holmes, Consulting Developer"
-  slug: "gig-city-elixir-2019-speaker-talks-stuart-halloway-sherlock"
+- title: "Sherlock Holmes, Consulting Developer"
+  slug: "sherlock-holmes-consulting-developer"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "Gig City Elixir 2019 Speaker Talks: Stuart Halloway - Sherlock Holmes, Consulting Developer"
+  speakers:
+    - stuarthalloway
   topics:
     - elixir
   recordings:
@@ -45,13 +44,15 @@
       external_id: "ZIKlOvBwrzg"
       url: "https://www.youtube.com/watch?v=ZIKlOvBwrzg"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Osa Gaius - Beyond Functional Programming"
-  slug: "gig-city-elixir-2019-speaker-talks-osa-gaius-beyond-function"
+- title: "Beyond Functional Programming"
+  slug: "beyond-functional-programming"
   kind: talk
   level: intermediate
   language: en
   duration: 25
   abstract: "Gig City Elixir 2019 Speaker Talks: Osa Gaius -  Beyond Functional Programming"
+  speakers:
+    - osagaius
   topics:
     - elixir
   recordings:
@@ -59,13 +60,15 @@
       external_id: "5sM8AF1m0YA"
       url: "https://www.youtube.com/watch?v=5sM8AF1m0YA"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Chris Keathley - How I Failed to Live My Childhood Dreams"
-  slug: "gig-city-elixir-2019-speaker-talks-chris-keathley-how-i-fail"
+- title: "How I Failed to Live My Childhood Dreams"
+  slug: "how-i-failed-to-live-my-childhood-dreams"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "Gig City Elixir 2019 Speaker Talks: Chris Keathley - How I Failed to Live My Childhood Dreams"
+  speakers:
+    - chriskeathley
   topics:
     - elixir
   recordings:
@@ -73,13 +76,15 @@
       external_id: "J_dnXZUZc4w"
       url: "https://www.youtube.com/watch?v=J_dnXZUZc4w"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Ricardo Echavarria - Assembling Lumen"
-  slug: "gig-city-elixir-2019-speaker-talks-ricardo-echavarria-assemb"
+- title: "Assembling Lumen"
+  slug: "assembling-lumen"
   kind: talk
   level: intermediate
   language: en
   duration: 25
   abstract: "Gig City Elixir 2019 Speaker Talks: Ricardo Echavarria - Assembling Lumen"
+  speakers:
+    - ricardoechavarria
   topics:
     - elixir
   recordings:
@@ -87,13 +92,15 @@
       external_id: "DwwJQj59aPo"
       url: "https://www.youtube.com/watch?v=DwwJQj59aPo"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Jeff Grunewald - A Truly SMART City Runs on the BEAM"
-  slug: "gig-city-elixir-2019-speaker-talks-jeff-grunewald-a-truly-sm"
+- title: "A Truly SMART City Runs on the BEAM"
+  slug: "a-truly-smart-city-runs-on-the-beam"
   kind: talk
   level: intermediate
   language: en
   duration: 31
   abstract: "Gig City Elixir 2019 Speaker Talks: Jeff Grunewald - A Truly SMART City Runs on the BEAM"
+  speakers:
+    - jeffgrunewald
   topics:
     - elixir
     - erlang
@@ -102,13 +109,15 @@
       external_id: "qVXN9r6NPXA"
       url: "https://www.youtube.com/watch?v=qVXN9r6NPXA"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Brian Troutwine"
-  slug: "gig-city-elixir-2019-speaker-talks-brian-troutwine"
+- title: "Brian Troutwine"
+  slug: "brian-troutwine"
   kind: talk
   level: intermediate
   language: en
   duration: 28
   abstract: "Gig City Elixir 2019 Speaker Talks: Brian Troutwine"
+  speakers:
+    - briantroutwine
   topics:
     - elixir
   recordings:
@@ -116,13 +125,15 @@
       external_id: "0R6sQEjdzQY"
       url: "https://www.youtube.com/watch?v=0R6sQEjdzQY"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Todd Resudek"
-  slug: "gig-city-elixir-2019-speaker-talks-todd-resudek"
+- title: "Why Your Next (or First) Hardware Project Should be Built with Nerves"
+  slug: "why-your-next-or-first-hardware-project-should-be-built-with-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 31
   abstract: "Why Your Next (or First) Hardware Project Should be Built with Nerves"
+  speakers:
+    - toddresudek
   topics:
     - elixir
     - nerves
@@ -131,13 +142,15 @@
       external_id: "X0Ap_bMqiaU"
       url: "https://www.youtube.com/watch?v=X0Ap_bMqiaU"
 
-- title: "Gig City Elixir 2019 Speaker Talks: Anna Neyzburg: Go vs. Elixir"
-  slug: "gig-city-elixir-2019-speaker-talks-anna-neyzburg-go-vs-elixi"
+- title: "Go vs. Elixir"
+  slug: "go-vs-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "Gig City Elixir 2019 Speaker Talks: Anna Neyzburg: Go vs. Elixir"
+  speakers:
+    - annaneyzberg
   topics:
     - elixir
   recordings:
@@ -145,13 +158,15 @@
       external_id: "UAlkWtJO8AM"
       url: "https://www.youtube.com/watch?v=UAlkWtJO8AM"
 
-- title: "Gig City Elixir Speaker Talks - Martin Gausby"
-  slug: "gig-city-elixir-speaker-talks-martin-gausby"
+- title: "Untitled Queue Talk"
+  slug: "untitled-queue-talk"
   kind: talk
   level: intermediate
   language: en
   duration: 18
   abstract: "Gig City Elixir 2019 Speaker Talks: Martin Gausby - Untitled Queue Talk"
+  speakers:
+    - martingausby
   topics:
     - elixir
   recordings:
@@ -159,13 +174,15 @@
       external_id: "3OP7kSE6bg8"
       url: "https://www.youtube.com/watch?v=3OP7kSE6bg8"
 
-- title: "Gig City Elixir 2019 Speaker Talks:  Dave Thomas"
-  slug: "gig-city-elixir-2019-speaker-talks-dave-thomas"
+- title: "Dave Thomas"
+  slug: "dave-thomas"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "Gig City Elixir is a different kind of programming conference in beautiful Chattanooga, Tennessee. We will focus on sessions that are different from what you're used to seeing, with a variety of talk lengths and formats that will open more learning channels than ever before."
+  speakers:
+    - davethomas
   topics:
     - elixir
   recordings:
@@ -173,13 +190,15 @@
       external_id: "ZHx_1yWkSiA"
       url: "https://www.youtube.com/watch?v=ZHx_1yWkSiA"
 
-- title: "Gig City Elixir Speaker Talks - Amos King"
-  slug: "gig-city-elixir-speaker-talks-amos-king"
+- title: "Thinking is Greater than Typing"
+  slug: "thinking-is-greater-than-typing"
   kind: talk
   level: intermediate
   language: en
   duration: 28
   abstract: "Gig City Elixir 2019 Speaker Talks: Amos King: Thinking is Greater than Typing"
+  speakers:
+    - amosking
   topics:
     - elixir
     - type-system
@@ -188,13 +207,15 @@
       external_id: "ehFKzIKjr3I"
       url: "https://www.youtube.com/watch?v=ehFKzIKjr3I"
 
-- title: "Gig City Elixir 2019 - Miki Rezentes"
-  slug: "gig-city-elixir-2019-miki-rezentes"
+- title: "API's All the Way Down"
+  slug: "apis-all-the-way-down"
   kind: talk
   level: intermediate
   language: en
   duration: 45
   abstract: "Gig City Elixir 2019 - Miki Rezentes: API's All the Way Down"
+  speakers:
+    - mikirezentes
   topics:
     - elixir
   recordings:
@@ -202,13 +223,15 @@
       external_id: "hBpbEsAG4es"
       url: "https://www.youtube.com/watch?v=hBpbEsAG4es"
 
-- title: "Gig City Elixir 2019 Speaker Talks - Justin Schneck"
-  slug: "gig-city-elixir-2019-speaker-talks-justin-schneck"
+- title: "Adopting Nerves for IoT"
+  slug: "adopting-nerves-for-iot"
   kind: talk
   level: intermediate
   language: en
   duration: 47
   abstract: "Gig City Elixir 2019 Speaker Talks - Justin Schneck: Adopting Nerves for IoT."
+  speakers:
+    - justinschneck
   topics:
     - elixir
     - nerves
@@ -217,13 +240,15 @@
       external_id: "6wQufierLQw"
       url: "https://www.youtube.com/watch?v=6wQufierLQw"
 
-- title: "Gig City Elixir 2019 Speaker Talks - Ben Marx"
-  slug: "gig-city-elixir-2019-speaker-talks-ben-marx"
+- title: "Modeling Systems with TLA+"
+  slug: "modeling-systems-with-tla-plus"
   kind: talk
   level: intermediate
   language: en
   duration: 24
   abstract: "Gig City Elixir 2019 Speaker Talks: Ben Marx - Modeling Systems with TLA+"
+  speakers:
+    - benmarx
   topics:
     - elixir
   recordings:
@@ -231,13 +256,15 @@
       external_id: "efCKA-Ug8w4"
       url: "https://www.youtube.com/watch?v=efCKA-Ug8w4"
 
-- title: "Polyglot or not? Why it's beneficial to learn multiple programming languages."
-  slug: "polyglot-or-not-why-its-beneficial-to-learn-multiple-program"
+- title: "Polyglot or Not? Why It's Beneficial to Learn Multiple Programming Languages"
+  slug: "polyglot-or-not-why-its-beneficial-to-learn-multiple-programming-languages"
   kind: talk
   level: intermediate
   language: en
   duration: 5
   abstract: "In this video, Bruce Tate (Author of Seven Languages in Seven Weeks) interviews three developers about their programming language experiences. All of them have used more than one language and talk about why they continue to learn new ones."
+  speakers:
+    - brucetate
   topics:
     - elixir
     - security
@@ -245,32 +272,3 @@
     - provider: youtube
       external_id: "twzLr5ocA30"
       url: "https://www.youtube.com/watch?v=twzLr5ocA30"
-
-- title: "Mentoring Video - Photo Booth Project Updated"
-  slug: "mentoring-video-photo-booth-project-updated"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 1
-  abstract: "Join us for a fun tour of the Nerves Project Photo Booth made from the Elixir Chatt Mentoring Group in Chattanooga, TN."
-  topics:
-    - elixir
-    - nerves
-  recordings:
-    - provider: youtube
-      external_id: "iVhJjZ2NdKI"
-      url: "https://www.youtube.com/watch?v=iVhJjZ2NdKI"
-
-- title: "Sponsor Video for Gig City Elixir 2019"
-  slug: "sponsor-video-for-gig-city-elixir-2019"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 1
-  abstract: "Thank you to all the sponsors that made Gig City Elixir 2019 possible!"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "LIOxc-BaT3c"
-      url: "https://www.youtube.com/watch?v=LIOxc-BaT3c"

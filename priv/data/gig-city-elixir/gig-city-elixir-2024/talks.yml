@@ -1,14 +1,14 @@
-
 ## Talks
 
-
-- title: "Randall Thomas [GigCityElixir24] Freedom Isn't Free"
-  slug: "randall-thomas-gigcityelixir24-freedom-isnt-free"
+- title: "Freedom Isn't Free"
+  slug: "freedom-isnt-free"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Join Randall Thomas for his keynote talk at GigCityElixir 24."
+  speakers:
+    - randallthomas
   topics:
     - elixir
   recordings:
@@ -16,13 +16,15 @@
       external_id: "bLSnlY4rnBk"
       url: "https://www.youtube.com/watch?v=bLSnlY4rnBk"
 
-- title: "Brian Cardarella [GigCiytElixir24] LiveView Native"
-  slug: "brian-cardarella-gigciytelixir24-liveview-native"
+- title: "LiveView Native"
+  slug: "liveview-native"
   kind: talk
   level: intermediate
   language: en
   duration: 29
   abstract: "Join Brian Cardarella for the latest on LiveView Native at GigCityElixir 24."
+  speakers:
+    - briancardarella
   topics:
     - elixir
     - liveview
@@ -32,13 +34,15 @@
       external_id: "ZRRybAR12nM"
       url: "https://www.youtube.com/watch?v=ZRRybAR12nM"
 
-- title: "Lekha Surasani [GigCityElixir24] Using Phoenix LiveView at an Early Stage StartUp"
-  slug: "lekha-surasani-gigcityelixir24-using-phoenix-liveview-at-an"
+- title: "Using Phoenix LiveView at an Early Stage StartUp"
+  slug: "using-phoenix-liveview-at-an-early-stage-startup"
   kind: talk
   level: beginner
   language: en
   duration: 25
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - lekhasurasani
   topics:
     - elixir
     - phoenix
@@ -48,13 +52,15 @@
       external_id: "cwoMxOUs3Kk"
       url: "https://www.youtube.com/watch?v=cwoMxOUs3Kk"
 
-- title: "Andrew Ek [GigCityElixir 24] Opinionated Onboarding"
-  slug: "andrew-ek-gigcityelixir-24-opinionated-onboarding"
+- title: "Opinionated Onboarding"
+  slug: "opinionated-onboarding"
   kind: talk
   level: beginner
   language: en
   duration: 30
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - andrewek
   topics:
     - elixir
   recordings:
@@ -62,13 +68,15 @@
       external_id: "Og7NzaVpceE"
       url: "https://www.youtube.com/watch?v=Og7NzaVpceE"
 
-- title: "Flora Petterson [GigCityElixir24} The Programming Languages Tour"
-  slug: "flora-petterson-gigcityelixir24-the-programming-languages-to"
+- title: "The Programming Languages Tour"
+  slug: "the-programming-languages-tour"
   kind: talk
   level: beginner
   language: en
   duration: 15
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - florapetterson
   topics:
     - elixir
   recordings:
@@ -76,13 +84,16 @@
       external_id: "2ULh1PooXJc"
       url: "https://www.youtube.com/watch?v=2ULh1PooXJc"
 
-- title: "Beamrad.io Podcast [GigCityElixir24] Live From Chattanooga!"
-  slug: "beamradio-podcast-gigcityelixir24-live-from-chattanooga"
+- title: "Beamrad.io Podcast: Live From Chattanooga!"
+  slug: "beamradio-podcast-live-from-chattanooga"
   kind: talk
   level: intermediate
   language: en
   duration: 48
   abstract: "Bruce and Lars are live on stage (and mostly unedited) at GigCityElixir."
+  speakers:
+    - brucetate
+    - larswikman
   topics:
     - elixir
     - erlang
@@ -91,13 +102,15 @@
       external_id: "Htfuony6SA4"
       url: "https://www.youtube.com/watch?v=Htfuony6SA4"
 
-- title: "Frank Hunleth [GigCityElixir24] Nerves Update"
-  slug: "frank-hunleth-gigcityelixir24-nerves-update"
+- title: "Nerves Update"
+  slug: "nerves-update"
   kind: talk
   level: beginner
   language: en
   duration: 27
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - frankhunleth
   topics:
     - elixir
     - nerves
@@ -106,13 +119,15 @@
       external_id: "q0RoVk7h0Fo"
       url: "https://www.youtube.com/watch?v=q0RoVk7h0Fo"
 
-- title: "Anna Sherman [GigCityElixir24] The Joy of Functional Coding"
-  slug: "anna-sherman-gigcityelixir24-the-joy-of-functional-coding"
+- title: "The Joy of Functional Coding"
+  slug: "the-joy-of-functional-coding"
   kind: talk
   level: beginner
   language: en
   duration: 28
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - annasherman
   topics:
     - elixir
   recordings:
@@ -120,13 +135,15 @@
       external_id: "PZ5opD_kSJQ"
       url: "https://www.youtube.com/watch?v=PZ5opD_kSJQ"
 
-- title: "Stuart Page [GigCityElixir24] Stupid AwesomeAI"
-  slug: "stuart-page-gigcityelixir24-stupid-awesomeai"
+- title: "Stupid Awesome AI"
+  slug: "stupid-awesome-ai"
   kind: talk
   level: beginner
   language: en
   duration: 30
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - stuartpage
   topics:
     - elixir
     - machine-learning
@@ -135,13 +152,15 @@
       external_id: "RPidRnYk_So"
       url: "https://www.youtube.com/watch?v=RPidRnYk_So"
 
-- title: "Zach Daniel [GigCityElixir24] Ash Framework"
-  slug: "zach-daniel-gigcityelixir24-ash-framework"
+- title: "Ash Framework"
+  slug: "ash-framework"
   kind: talk
   level: beginner
   language: en
   duration: 28
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - zachdaniel
   topics:
     - elixir
   recordings:
@@ -149,13 +168,15 @@
       external_id: "OB_wAlMfUsM"
       url: "https://www.youtube.com/watch?v=OB_wAlMfUsM"
 
-- title: "Andrea Leopardi [GigCityElixir24] The World is a Network"
-  slug: "andrea-leopardi-gigcityelixir24-the-world-is-a-network"
+- title: "The World is a Network"
+  slug: "the-world-is-a-network"
   kind: talk
   level: beginner
   language: en
   duration: 35
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
   recordings:
@@ -163,28 +184,15 @@
       external_id: "9UFeQ11soQg"
       url: "https://www.youtube.com/watch?v=9UFeQ11soQg"
 
-- title: "Yes, Get your ticket to GigCityElixir24 and NervesConf!"
-  slug: "yes-get-your-ticket-to-gigcityelixir24-and-nervesconf"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 2
-  abstract: "Nestled in a valley along the Tennessee River, Chattanooga is known as Gig City for pioneering gigabit internet speed.  Our community tells us that Gig City Elixir feels like home, and there's a reason for that. We mix great speakers and excellent hospitality in a setting built to foster relationshi"
-  topics:
-    - elixir
-    - nerves
-  recordings:
-    - provider: youtube
-      external_id: "r8WFnnxfgYk"
-      url: "https://www.youtube.com/watch?v=r8WFnnxfgYk"
-
-- title: "Bryan Hunter [GigCityElixir24] Poka Yoke, STAMP and the BEAM"
-  slug: "bryan-hunter-gigcityelixir24-poka-yoke-stamp-and-the-beam"
+- title: "Poka Yoke, STAMP and the BEAM"
+  slug: "poka-yoke-stamp-and-the-beam"
   kind: talk
   level: beginner
   language: en
   duration: 44
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - bryanhunter
   topics:
     - elixir
     - erlang
@@ -193,13 +201,15 @@
       external_id: "0-aJwz6oPow"
       url: "https://www.youtube.com/watch?v=0-aJwz6oPow"
 
-- title: "Chris Miller  [GigCityElixir24]  How to Move Fast and Build Things: Spawnfest 2024 Recap"
-  slug: "chris-miller-gigcityelixir24-how-to-move-fast-and-build-thin"
+- title: "How to Move Fast and Build Things: Spawnfest 2024 Recap"
+  slug: "how-to-move-fast-and-build-things-spawnfest-2024-recap"
   kind: talk
   level: beginner
   language: en
   duration: 33
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - chrismiller
   topics:
     - elixir
   recordings:
@@ -207,13 +217,15 @@
       external_id: "3xYP_ex81oA"
       url: "https://www.youtube.com/watch?v=3xYP_ex81oA"
 
-- title: "Todd Resudek [GigCityElixir24] The Robots Won!"
-  slug: "todd-resudek-gigcityelixir24-the-robots-won"
+- title: "The Robots Won!"
+  slug: "the-robots-won"
   kind: talk
   level: beginner
   language: en
   duration: 45
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - toddresudek
   topics:
     - elixir
   recordings:
@@ -221,13 +233,16 @@
       external_id: "kJ5G1kDA9bk"
       url: "https://www.youtube.com/watch?v=kJ5G1kDA9bk"
 
-- title: "Savannah Manning and Bruce Tate [GigCityElixir24] An Expedition into Elixir ML"
-  slug: "savannah-manning-and-bruce-tate-gigcityelixir24-an-expeditio"
+- title: "An Expedition into Elixir ML"
+  slug: "an-expedition-into-elixir-ml"
   kind: talk
   level: beginner
   language: en
   duration: 28
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - savannahmanning
+    - brucetate
   topics:
     - elixir
     - machine-learning
@@ -236,13 +251,15 @@
       external_id: "M9AQ_nHnCgM"
       url: "https://www.youtube.com/watch?v=M9AQ_nHnCgM"
 
-- title: "Amos King [GigCityElixir24] Five More Minutes"
-  slug: "amos-king-gigcityelixir24-five-more-minutes"
+- title: "Five More Minutes"
+  slug: "five-more-minutes"
   kind: talk
   level: beginner
   language: en
   duration: 24
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - amosking
   topics:
     - elixir
   recordings:
@@ -250,13 +267,15 @@
       external_id: "8OUyP9p_CNc"
       url: "https://www.youtube.com/watch?v=8OUyP9p_CNc"
 
-- title: "Sam McDavid [GigCityElixir24] Machine Learning for Trading"
-  slug: "sam-mcdavid-gigcityelixir24-machine-learning-for-trading"
+- title: "Machine Learning for Trading"
+  slug: "machine-learning-for-trading"
   kind: talk
   level: beginner
   language: en
   duration: 31
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - sammcdavid
   topics:
     - elixir
     - machine-learning
@@ -265,13 +284,15 @@
       external_id: "icZmITJB9nk"
       url: "https://www.youtube.com/watch?v=icZmITJB9nk"
 
-- title: "Chris Nelson [GigCityElixir24] LiveState and Friends"
-  slug: "chris-nelson-gigcityelixir24-livestate-and-friends"
+- title: "LiveState and Friends"
+  slug: "livestate-and-friends"
   kind: talk
   level: beginner
   language: en
   duration: 26
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - chrisnelson
   topics:
     - elixir
   recordings:
@@ -279,13 +300,15 @@
       external_id: "r98EpNcxovs"
       url: "https://www.youtube.com/watch?v=r98EpNcxovs"
 
-- title: "Chris Keathley [GigCityElixir24] Becoming a Principled Engineer"
-  slug: "chris-keathley-gigcityelixir24-becoming-a-principled-enginee"
+- title: "Becoming a Principled Engineer"
+  slug: "becoming-a-principled-engineer"
   kind: talk
   level: beginner
   language: en
   duration: 39
   abstract: "Beginner, hobbyist, or if you use Elixir in your day job, you will find talks here that change the way you look at code."
+  speakers:
+    - chriskeathley
   topics:
     - elixir
   recordings:
@@ -293,13 +316,15 @@
       external_id: "rPlqO0MlTrI"
       url: "https://www.youtube.com/watch?v=rPlqO0MlTrI"
 
-- title: "Lars Wikman [GigCityElixir24]  Simplicity"
-  slug: "lars-wikman-gigcityelixir24-simplicity"
+- title: "Simplicity"
+  slug: "simplicity"
   kind: talk
   level: intermediate
   language: en
   duration: 42
   abstract: "Join Lars Wikman for his keynote talk at GigCityElixir 24."
+  speakers:
+    - larswikman
   topics:
     - elixir
   recordings:

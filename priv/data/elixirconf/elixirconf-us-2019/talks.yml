@@ -167,6 +167,8 @@
   level: intermediate
   language: en
   duration: 6
+  speakers:
+    - mattludwigs
   topics:
     - elixir
   recordings:
@@ -180,6 +182,8 @@
   level: intermediate
   language: en
   duration: 5
+  speakers:
+    - gregvaughn
   topics:
     - elixir
     - otp
@@ -194,6 +198,8 @@
   level: intermediate
   language: en
   duration: 5
+  speakers:
+    - danielspofford
   topics:
     - elixir
   recordings:
@@ -207,6 +213,8 @@
   level: intermediate
   language: en
   duration: 6
+  speakers:
+    - dennisbeatty
   topics:
     - elixir
   recordings:
@@ -220,6 +228,8 @@
   level: intermediate
   language: en
   duration: 5
+  speakers:
+    - tylerclemens
   topics:
     - elixir
     - phoenix
@@ -235,6 +245,8 @@
   level: intermediate
   language: en
   duration: 6
+  speakers:
+    - danielazuma
   topics:
     - elixir
     - otp
@@ -249,6 +261,8 @@
   level: intermediate
   language: en
   duration: 5
+  speakers:
+    - frankhunleth
   topics:
     - elixir
     - nerves
@@ -263,6 +277,8 @@
   level: intermediate
   language: en
   duration: 5
+  speakers:
+    - chrisdose
   topics:
     - elixir
   recordings:
@@ -276,6 +292,8 @@
   level: intermediate
   language: en
   duration: 4
+  speakers:
+    - toddresudek
   topics:
     - elixir
   recordings:
@@ -290,6 +308,8 @@
   language: en
   duration: 28
   abstract: "File uploads are an essential part of many web applications, but often handling them can be tricky, which explains why they are one of the most frequently requested features for Live View. In this talk, we will discover how to upload files with Phoenix Live View and what is going on under the hood. "
+  speakers:
+    - garyrennie
   topics:
     - elixir
     - phoenix
@@ -308,6 +328,8 @@
   language: en
   duration: 34
   abstract: "Several years ago, we started ElixirBridge with the hope of helping bring more folks that are underrepresented into the elixir community. The goal was to help build a more diverse and inclusive community."
+  speakers:
+    - annaneyzberg
   topics:
     - elixir
   recordings:
@@ -324,6 +346,8 @@
   language: en
   duration: 34
   abstract: "Can you imagine that your Elixir code will be executed as a hardware circuit on an FPGA?"
+  speakers:
+    - hidekitakase
   topics:
     - elixir
   recordings:
@@ -340,6 +364,8 @@
   language: en
   duration: 34
   abstract: "Architecting communication between microservices is a vital decision to be made when building scalable, sustainable software. In this talk, you will learn how Podium has leveraged GraphQL and Elixir to improve communication between microservices. This will include a discussion of using the Backend f"
+  speakers:
+    - donaldford
   topics:
     - elixir
   recordings:
@@ -356,6 +382,8 @@
   language: en
   duration: 40
   abstract: "Deep learning has recently exploded as the go-to solution for some very computationally complex problems such as image recognition, text classification, and generalized task learning in robotics."
+  speakers:
+    - jasongoldberger
   topics:
     - elixir
   recordings:
@@ -372,6 +400,8 @@
   language: en
   duration: 25
   abstract: "At Zymeworks Inc., we use a set of web services and high-performance computing to assist in the development of cancer therapeutics. These allow scientists to easily interact with data and computing resources without needing to know about the underlying infrastructure."
+  speakers:
+    - nicholasgeraedts
   topics:
     - elixir
   recordings:
@@ -388,6 +418,8 @@
   language: en
   duration: 38
   abstract: "LiveView's reliance on server-rendered HTML and leveraging of bi-directional communication over WebSockets means that we can build resilient and highly scalable real-time features almost entirely in Elixir––without writing any of our own JavaScript. It's no wonder that developers are starting to flo"
+  speakers:
+    - sophiedebenedetto
   topics:
     - elixir
     - liveview
@@ -405,6 +437,9 @@
   level: intermediate
   language: en
   duration: 41
+  speakers:
+    - danielmackey
+    - mikebinns
   topics:
     - elixir
   recordings:
@@ -422,6 +457,8 @@
   language: en
   duration: 33
   abstract: "At PagerDuty, we run our systems across many geographic regions to ensure we’re always available, even when you might not be. Elixir has been our language of choice for the last several years, and we’ve found a number of patterns for architecting services that mesh very nicely with Elixir, OTP and t"
+  speakers:
+    - jongrieman
   topics:
     - elixir
     - otp
@@ -439,6 +476,8 @@
   language: en
   duration: 27
   abstract: "Media processing has never been a piece of cake - a large amount of data, tons of different formats, protocols and standards, growing latency, and quality requirements. In this talk, I'll introduce you to the world of media processing via Membrane Framework - our solution for dealing with multimedia"
+  speakers:
+    - mateuszfront
   topics:
     - elixir
     - otp
@@ -456,6 +495,8 @@
   language: en
   duration: 41
   abstract: "Mint is a young HTTP/1 and HTTP/2 client for Elixir that aims at disrupting the status quo of HTTP clients for Erlang and Elixir. Mint is built on the idea of having a functional, data-centric client that is not backed up by a process and doesn't impose a process architecture on its users. In this t"
+  speakers:
+    - andrealeopardi
   topics:
     - elixir
     - otp
@@ -491,6 +532,8 @@
   language: en
   duration: 24
   abstract: "Comfortable with Elixir, but new to embedded programming? Great, me too! This talk will go over the steps needed to get started with Nerves and use familiar Elixir concepts like GenServers, GenStages, Ports, and NIFs to create a practical Nerves project, such as a security camera with motion detecti"
+  speakers:
+    - jacquelinemanzi
   topics:
     - elixir
     - otp
@@ -509,6 +552,8 @@
   language: en
   duration: 32
   abstract: "The overarching goal when writing code is to make it easy to read and to understand. However, on rare occasions, you have a heavily used component that could use a boost of performance, and you could use some tricks to make it faster."
+  speakers:
+    - miriampena
   topics:
     - elixir
     - erlang
@@ -524,6 +569,8 @@
   language: en
   duration: 39
   abstract: "Programming languages are an incredibly powerful tool. So powerful that giving end-users access to run them on your production servers is generally seen as dangerously reckless."
+  speakers:
+    - scottsouthworth
   topics:
     - elixir
   recordings:
@@ -538,6 +585,8 @@
   language: en
   duration: 29
   abstract: "It’s mentally taxing to work in a system with a large number of services. One of the ways to combat that cognitive load is to use types to specify contracts between services. This system works well if you need to know if a key is a string or an integer."
+  speakers:
+    - chriskeathley
   topics:
     - elixir
   recordings:
@@ -552,6 +601,8 @@
   language: en
   duration: 33
   abstract: "Designing and Consume APIs Like a Pro!"
+  speakers:
+    - brucetate
   topics:
     - elixir
   recordings:
@@ -566,6 +617,8 @@
   language: en
   duration: 31
   abstract: "In this talk, we will present MyXQL, a new Elixir driver for the MySQL database."
+  speakers:
+    - wojtekmach
   topics:
     - elixir
     - ecto
@@ -581,6 +634,8 @@
   language: en
   duration: 33
   abstract: "On this talk, you'll see the challenges to replace a 15 years old C TCP Service, with lots of memory leaks, using a large legacy database and also unsuitable for maintenance. The new Elixir Microservice had to come without service interruption, so there were also rollout challenges with all client p"
+  speakers:
+    - emersonmacedo
   topics:
     - elixir
     - phoenix
@@ -596,6 +651,8 @@
   language: en
   duration: 36
   abstract: "Crawling the web is something that a large number of people do, but few people really want to talk about. I feel like there is not enough knowledge sharing on this topic, and I want to share my experiences over the past decade crawling at scale."
+  speakers:
+    - adammokan
   topics:
     - elixir
   recordings:
@@ -610,6 +667,8 @@
   language: en
   duration: 40
   abstract: "Announced in February 2019, Broadway is a new open source tool developed by Plataformatec that aims to streamline data processing pipelines with Elixir. It allows developers to build complex GenStage topologies that can consume and process data efficiently from different sources, including Amazon SQ"
+  speakers:
+    - marlussaraiva
   topics:
     - elixir
     - otp
@@ -625,6 +684,8 @@
   language: en
   duration: 32
   abstract: "The consensus seems to be that you need to either be a super genius or have a large ops organization to run Kubernetes. Hippware is a tiny shop with only two engineers working on ops part-time. We have been running Kubernetes in production for about two years, and we think it is a very viable option"
+  speakers:
+    - philtoland
   topics:
     - elixir
     - deployment
@@ -641,6 +702,8 @@
   language: en
   duration: 27
   abstract: "Can you write a performant string processing scripts in Elixir? This talk attempts to answer that question while incrementally optimizing a simple implementation of a script, introducing many interesting parts of Elixir on the way, including ETS, iolists, compiled binary patterns, and concurrency. W"
+  speakers:
+    - johannalarsson
   topics:
     - elixir
     - otp
@@ -656,6 +719,8 @@
   language: en
   duration: 26
   abstract: "ETS provides a simple, familiar, and reusable way to query cached data for your application outside of functional primitives."
+  speakers:
+    - davidschainker
   topics:
     - elixir
   recordings:
@@ -670,6 +735,9 @@
   language: en
   duration: 35
   abstract: "Bunsan has been a software company running 100% remotely since foundation three years ago. We care about continuous learning and find out that remote working platforms and collaboration tools won't cover those needs, cause they are too broad or too specific. So we have built Tich: a virtual classroo"
+  speakers:
+    - pedrohernandez
+    - norbertoortigoza
   topics:
     - elixir
   recordings:
@@ -684,6 +752,8 @@
   language: en
   duration: 24
   abstract: "You started an Elixir project, coming from another language, and you are curious about how everything fits, what are the most common problems encountered, and how is the best way to solve them."
+  speakers:
+    - amandasposito
   topics:
     - elixir
     - otp
@@ -699,6 +769,8 @@
   language: en
   duration: 39
   abstract: "Whether you call it UI testing, End-to-End Testing, End-to-User Testing, or Acceptance Testing--it is often an intensely manual and time-consuming process. An Elixir library, Hound, can carry some of the load through browser automation. Browser automation means that I can automate my user interactio"
+  speakers:
+    - vanessalee
   topics:
     - elixir
     - otp
@@ -715,6 +787,9 @@
   language: en
   duration: 38
   abstract: "Finally, we’ve succeeded in the implementation of Hastega!!! (Maybe until ElixirConf US 2019 :-)"
+  speakers:
+    - susumuyamazaki
+    - yukihisae
   topics:
     - elixir
   recordings:
@@ -742,6 +817,8 @@
   language: en
   duration: 43
   abstract: "Everyone knows that the Phoenix framework makes web development a breeze, and for this reason, it is tempting to start adding code and more code right after running `mix phx.new`, building upon the original files and structure brought by the initial setup."
+  speakers:
+    - jorgebejar
   topics:
     - elixir
     - phoenix
@@ -757,6 +834,8 @@
   language: en
   duration: 31
   abstract: "At LoyaltyNZ we run a coalition loyalty program - this means running a set of pseudo financial systems to track currencies, balances, cumulative earn towards those balances, purchases, transactional history, and a complicated set of calculations around earning rates for currencies dependant on where"
+  speakers:
+    - natashadowse
   topics:
     - elixir
   recordings:
@@ -771,6 +850,8 @@
   language: en
   duration: 28
   abstract: "The first line of Divvy's Elixir code was committed in the summer of 2017. One thousand modules and 200,000 lines of Elixir code later, we have an engineering team of 50+ engineers who, for the vast majority, tried Elixir for the first time with Divvy's tech assessment. How did we grow such a large "
+  speakers:
+    - jacobparry
   topics:
     - elixir
   recordings:

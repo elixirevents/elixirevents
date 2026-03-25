@@ -1,7 +1,5 @@
 ## Keynotes
-
-
-- title: "30+ years of modelling communicating systems in a functional style | Lambda Days"
+- title: "30+ years of modelling communicating systems in a functional style"
   slug: "keynote-dame-muffy-calder"
   kind: keynote
   language: en
@@ -10,52 +8,59 @@
   speakers:
     - damemuffycalder
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "B1kC6XrykGA"
       url: "https://www.youtube.com/watch?v=B1kC6XrykGA"
 
-- title: "Keynote: Algebraic Effect Handlers with Parallelizable Computations by Ningning Xie | Lambda Days 24"
+- title: "Keynote: Algebraic Effect Handlers with Parallelizable Computations"
   slug: "keynote-algebraic-effect-handlers-with-parallelizable-comput"
   kind: keynote
   language: en
   duration: 48
   abstract: "Abstract"
+  speakers:
+    - ningningxie
   topics:
-    - elixir
+    - functional-programming
+    - type-system
   recordings:
     - provider: youtube
       external_id: "XCVg_cc9Jo4"
       url: "https://www.youtube.com/watch?v=XCVg_cc9Jo4"
 
-- title: "Programming for the planet by Anil Madhavapeddy | Lambda Days 2024"
-  slug: "programming-for-the-planet-by-anil-madhavapeddy-lambda-days"
+- title: "Programming for the Planet"
+  slug: "programming-for-the-planet-by-anil-madhavapeddy"
   kind: keynote
   language: en
   duration: 57
   abstract: "Abstract"
+  speakers:
+    - anilmadhavapeddy
   topics:
-    - elixir
+    - ocaml
   recordings:
     - provider: youtube
       external_id: "oIvDTM-iF1Y"
       url: "https://www.youtube.com/watch?v=oIvDTM-iF1Y"
 
-- title: "Task-Oriented Functional Programming for Industrial Applications -Rinus Plasmeijer |Lambda Days 2024"
+- title: "Task-Oriented Functional Programming for Industrial Applications"
   slug: "task-oriented-functional-programming-for-industrial-applicat"
   kind: keynote
   language: en
   duration: 70
   abstract: "Applying Task-Oriented Functional Programming for developing Real-world Multi-user Web-Applications"
+  speakers:
+    - rinusplasmeijer
   topics:
-    - elixir
+    - haskell
   recordings:
     - provider: youtube
       external_id: "4zBpNGSgr9U"
       url: "https://www.youtube.com/watch?v=4zBpNGSgr9U"
 
-- title: "Keynote: The Two Cultures of Artifical Intelligence | Lambda Days 2024"
+- title: "Keynote: The Two Cultures of Artifical Intelligence"
   slug: "keynote-philip-wadler"
   kind: keynote
   language: en
@@ -64,33 +69,15 @@
   speakers:
     - philipwadler
   topics:
-    - elixir
-    - machine-learning
+    - functional-programming
+    - ai
   recordings:
     - provider: youtube
       external_id: "OH6vJZ0PDrQ"
       url: "https://www.youtube.com/watch?v=OH6vJZ0PDrQ"
-
-
 ## Talks
-
-
-- title: "Lambda Days 2024 - highlights"
-  slug: "lambda-days-2024-highlights"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 1
-  abstract: "Let's keep in touch! Follow us on:"
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "Kao-LguvYDU"
-      url: "https://www.youtube.com/watch?v=Kao-LguvYDU"
-
-- title: "How does a programmer think about code? | Lambda Days 2024"
-  slug: "how-does-a-programmer-think-about-code-lambda-days-2024"
+- title: "How does a programmer think about code?"
+  slug: "how-does-a-programmer-think-about-code"
   kind: talk
   level: intermediate
   language: en
@@ -99,13 +86,13 @@
   speakers:
     - szymonrodziewicz
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "V9dKUUQmBcU"
       url: "https://www.youtube.com/watch?v=V9dKUUQmBcU"
 
-- title: "Bidirectional Data Transformations with Functional Optics | Lambda Days 2024"
+- title: "Bidirectional Data Transformations with Functional Optics"
   slug: "bidirectional-data-transformations-with-functional-optics-la"
   kind: talk
   level: intermediate
@@ -115,13 +102,13 @@
   speakers:
     - marcuscrestani
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "YMRgtMYZneY"
       url: "https://www.youtube.com/watch?v=YMRgtMYZneY"
 
-- title: "Automata Unveiled: A Theoretical Exploration of State Machines | Lambda Days 2024"
+- title: "Automata Unveiled: A Theoretical Exploration of State Machines"
   slug: "automata-unveiled-a-theoretical-exploration-of-state-machine"
   kind: talk
   level: intermediate
@@ -131,15 +118,14 @@
   speakers:
     - nelsonvides
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "endy-GrXov4"
       url: "https://www.youtube.com/watch?v=endy-GrXov4"
 
-- title: "Dynamic system behavior control at runtime | Lambda Days 2024"
-  slug: "dynamic-system-behavior-control-at-runtime-lambda-days-2024"
+- title: "Dynamic system behavior control at runtime"
+  slug: "dynamic-system-behavior-control-at-runtime"
   kind: talk
   level: intermediate
   language: en
@@ -154,8 +140,8 @@
       external_id: "bqySFWS8JQc"
       url: "https://www.youtube.com/watch?v=bqySFWS8JQc"
 
-- title: "Gradualize your language with set-theoretic types | Lambda Days 2024"
-  slug: "gradualize-your-language-with-set-theoretic-types-lambda-day"
+- title: "Gradualize your language with set-theoretic types"
+  slug: "gradualize-your-language-with-set-theoretic-types"
   kind: talk
   level: intermediate
   language: en
@@ -165,47 +151,39 @@
     - guillaumeduboc
   topics:
     - elixir
+    - type-system
   recordings:
     - provider: youtube
       external_id: "B4NJz71Ah-k"
       url: "https://www.youtube.com/watch?v=B4NJz71Ah-k"
 
-- title: "Building a Large-Scale, Streaming-Based Logging and Monitoring Solution with Clojure  -  M. Crestani"
+- title: "Building a Large-Scale, Streaming-Based Logging and Monitoring Solution with Clojure"
   slug: "building-a-large-scale-streaming-based-logging-and-monitorin"
   kind: talk
   level: intermediate
   language: en
   duration: 6
   abstract: "Let's keep in touch! Follow us on:"
+  speakers:
+    - marcuscrestani
   topics:
-    - elixir
+    - clojure
   recordings:
     - provider: youtube
       external_id: "S5VWBU-VK3M"
       url: "https://www.youtube.com/watch?v=S5VWBU-VK3M"
 
-- title: "Lambda Days 2024 Invitation"
-  slug: "lambda-days-2024-invitation"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 1
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "MdSGwhb3qKI"
-      url: "https://www.youtube.com/watch?v=MdSGwhb3qKI"
-
-- title: "Lustre Universal Components: the best of Elm and Phoenix LiveView | Lambda Days 2024"
+- title: "Lustre Universal Components: the best of Elm and Phoenix LiveView"
   slug: "lustre-universal-components-the-best-of-elm-and-phoenix-live"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "We are constantly looking for different ways to make communication across the stack in our Web apps easier: GraphQL lets frontend developers write queries directly for the data they need, React Server Components make it possible to render the static parts of a SPA on the server, and Phoenix LiveView"
+  speakers:
+    - hayleighthompson
   topics:
-    - elixir
+    - elm
     - phoenix
     - liveview
   recordings:
@@ -213,8 +191,8 @@
       external_id: "TbCm-zR7qZ0"
       url: "https://www.youtube.com/watch?v=TbCm-zR7qZ0"
 
-- title: "An Effect-ful functional framework for TypeScript | Lambda Days 2024"
-  slug: "an-effect-ful-functional-framework-for-typescript-lambda-day"
+- title: "An Effect-ful functional framework for TypeScript"
+  slug: "an-effect-ful-functional-framework-for-typescript"
   kind: talk
   level: intermediate
   language: en
@@ -223,14 +201,14 @@
   speakers:
     - albertoschiabel
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "29rzkZHYL9g"
       url: "https://www.youtube.com/watch?v=29rzkZHYL9g"
 
-- title: "Lessons learnt from writing 10k LOC in Elm | Lambda Days 2024"
-  slug: "lessons-learnt-from-writing-10k-loc-in-elm-lambda-days-2024"
+- title: "Lessons learnt from writing 10k LOC in Elm"
+  slug: "lessons-learnt-from-writing-10k-loc-in-elm"
   kind: talk
   level: intermediate
   language: en
@@ -239,14 +217,14 @@
   speakers:
     - sophiecollard
   topics:
-    - elixir
+    - elm
   recordings:
     - provider: youtube
       external_id: "-2b_9Lh2TgQ"
       url: "https://www.youtube.com/watch?v=-2b_9Lh2TgQ"
 
-- title: "Far more than you've ever wanted to know about ADTs | Lambda Days 2024"
-  slug: "far-more-than-youve-ever-wanted-to-know-about-adts-lambda-da"
+- title: "Far more than you've ever wanted to know about ADTs"
+  slug: "far-more-than-youve-ever-wanted-to-know-about-adts"
   kind: talk
   level: intermediate
   language: en
@@ -255,27 +233,31 @@
   speakers:
     - nicolasrinaudo
   topics:
-    - elixir
+    - functional-programming
+    - type-system
   recordings:
     - provider: youtube
       external_id: "aSS-CIe_V0g"
       url: "https://www.youtube.com/watch?v=aSS-CIe_V0g"
 
-- title: "David Turner Memorial Session, S. Thompson, L. Augustsson, J. Gibbons | Lambda Days 2024"
+- title: "David Turner Memorial Session"
   slug: "david-turner-memorial-session-s-thompson-l-augustsson-j-gibb"
   kind: talk
   level: intermediate
   language: en
   duration: 49
   abstract: "Late last year, David Turner, a giant of our field and regular Lambda Days participant, passed away unexpectedly. Many may remember chatting to him in the coffee breaks—he was one of the nicest people you could hope to meet."
+  speakers:
+    - simonthompson
+    - johnhughes
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "ZeEj1icGfVg"
       url: "https://www.youtube.com/watch?v=ZeEj1icGfVg"
 
-- title: "The Functional Edge: Robotic Testing with Bowler Studio and Clojure | Lambda Days 24"
+- title: "The Functional Edge: Robotic Testing with Bowler Studio and Clojure"
   slug: "the-functional-edge-robotic-testing-with-bowler-studio-and-c"
   kind: talk
   level: intermediate
@@ -285,15 +267,15 @@
   speakers:
     - thomasgebert
   topics:
-    - elixir
+    - clojure
     - testing
   recordings:
     - provider: youtube
       external_id: "OJ5L29GM4Ac"
       url: "https://www.youtube.com/watch?v=OJ5L29GM4Ac"
 
-- title: "Property-testing all* the things in SerenityOS | Lambda Days 2024"
-  slug: "property-testing-all-the-things-in-serenityos-lambda-days-20"
+- title: "Property-testing all* the things in SerenityOS"
+  slug: "property-testing-all-the-things-in-serenityos"
   kind: talk
   level: intermediate
   language: en
@@ -302,15 +284,15 @@
   speakers:
     - martinjaniczek
   topics:
-    - elixir
+    - functional-programming
     - testing
   recordings:
     - provider: youtube
       external_id: "C6joICx1XMY"
       url: "https://www.youtube.com/watch?v=C6joICx1XMY"
 
-- title: "Embedding of external DSLs in Scala: why and how! | Lambda Days 2024"
-  slug: "embedding-of-external-dsls-in-scala-why-and-how-lambda-days"
+- title: "Embedding of external DSLs in Scala: why and how!"
+  slug: "embedding-of-external-dsls-in-scala-why-and-how"
   kind: talk
   level: intermediate
   language: en
@@ -319,13 +301,13 @@
   speakers:
     - juanmanuelserranohidalgo
   topics:
-    - elixir
+    - scala
   recordings:
     - provider: youtube
       external_id: "L5bOMfLg6Bk"
       url: "https://www.youtube.com/watch?v=L5bOMfLg6Bk"
 
-- title: "SAFE Stack: The Pit of Success for Functional Web Programming | Lambda Days 2024"
+- title: "SAFE Stack: The Pit of Success for Functional Web Programming"
   slug: "safe-stack-the-pit-of-success-for-functional-web-programming"
   kind: talk
   level: intermediate
@@ -335,14 +317,14 @@
   speakers:
     - isaacabraham
   topics:
-    - elixir
+    - fsharp
   recordings:
     - provider: youtube
       external_id: "sg_XTadb6vA"
       url: "https://www.youtube.com/watch?v=sg_XTadb6vA"
 
-- title: "fast - grepping SQL code like a boss | Lambda Days 2024"
-  slug: "fast-grepping-sql-code-like-a-boss-lambda-days-2024"
+- title: "fast - grepping SQL code like a boss"
+  slug: "fast-grepping-sql-code-like-a-boss"
   kind: talk
   level: intermediate
   language: en
@@ -351,14 +333,13 @@
   speakers:
     - jonataspaganini
   topics:
-    - elixir
-    - testing
+    - haskell
   recordings:
     - provider: youtube
       external_id: "hGWXBg4Hkn0"
       url: "https://www.youtube.com/watch?v=hGWXBg4Hkn0"
 
-- title: "WasmRef-Isabelle: how to formally verify a not-slow interpreter... | Lambda Days 2024"
+- title: "WasmRef-Isabelle: how to formally verify a not-slow interpreter..."
   slug: "wasmref-isabelle-how-to-formally-verify-a-not-slow-interpret"
   kind: talk
   level: intermediate
@@ -368,14 +349,14 @@
   speakers:
     - majatrela
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "X_uWLvfgeBA"
       url: "https://www.youtube.com/watch?v=X_uWLvfgeBA"
 
-- title: "Imagine a Dependently Typed Python | Lambda Days 2024"
-  slug: "imagine-a-dependently-typed-python-lambda-days-2024"
+- title: "Imagine a Dependently Typed Python"
+  slug: "imagine-a-dependently-typed-python"
   kind: talk
   level: intermediate
   language: en
@@ -384,13 +365,14 @@
   speakers:
     - andorpenzes
   topics:
-    - elixir
+    - functional-programming
+    - type-system
   recordings:
     - provider: youtube
       external_id: "3zinei9AAq0"
       url: "https://www.youtube.com/watch?v=3zinei9AAq0"
 
-- title: "The Y Combinator: developing intuition around abstract recursion | Lambda Days 2024"
+- title: "The Y Combinator: developing intuition around abstract recursion"
   slug: "the-y-combinator-developing-intuition-around-abstract-recurs"
   kind: talk
   level: intermediate
@@ -400,14 +382,14 @@
   speakers:
     - davekimber
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "_EzB6z_F-Ak"
       url: "https://www.youtube.com/watch?v=_EzB6z_F-Ak"
 
-- title: "Media streaming in the functional world | Lambda Days 2024"
-  slug: "media-streaming-in-the-functional-world-lambda-days-2024"
+- title: "Media streaming in the functional world"
+  slug: "media-streaming-in-the-functional-world"
   kind: talk
   level: intermediate
   language: en
@@ -422,8 +404,8 @@
       external_id: "Tn5PykLSFF8"
       url: "https://www.youtube.com/watch?v=Tn5PykLSFF8"
 
-- title: "Cellular Automata for video games | Lambda Days 2024"
-  slug: "cellular-automata-for-video-games-lambda-days-2024"
+- title: "Cellular Automata for video games"
+  slug: "cellular-automata-for-video-games"
   kind: talk
   level: intermediate
   language: en
@@ -432,28 +414,31 @@
   speakers:
     - maciejgorywoda
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "usTGmtpiMV4"
       url: "https://www.youtube.com/watch?v=usTGmtpiMV4"
 
-- title: "The Power of Mentoring: Nurturing Growth in the IT Industry -hosted by Anna Miler | Lambda Days 2024"
+- title: "The Power of Mentoring: Nurturing Growth in the IT Industry"
   slug: "the-power-of-mentoring-nurturing-growth-in-the-it-industry-h"
   kind: talk
   level: intermediate
   language: en
   duration: 46
   abstract: "Abstract"
+  speakers:
+    - monicamcguigan
   topics:
-    - elixir
+    - functional-programming
+    - community
   recordings:
     - provider: youtube
       external_id: "JNL-wzjALM4"
       url: "https://www.youtube.com/watch?v=JNL-wzjALM4"
 
-- title: "Declarative UIs in a functional language | Lambda Days 2024"
-  slug: "declarative-uis-in-a-functional-language-lambda-days-2024"
+- title: "Declarative UIs in a functional language"
+  slug: "declarative-uis-in-a-functional-language"
   kind: talk
   level: intermediate
   language: en
@@ -462,43 +447,47 @@
   speakers:
     - felipealmeidalessa
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "R51tulAtIoE"
       url: "https://www.youtube.com/watch?v=R51tulAtIoE"
 
-- title: "Types and other techniques as an accessibility tool for the ADHD brain | Lambda Days 2024"
+- title: "Types and other techniques as an accessibility tool for the ADHD brain"
   slug: "types-and-other-techniques-as-an-accessibility-tool-for-the"
   kind: talk
   level: intermediate
   language: en
   duration: 48
   abstract: "Abstract"
+  speakers:
+    - michaelnewton
   topics:
-    - elixir
+    - functional-programming
+    - type-system
   recordings:
     - provider: youtube
       external_id: "DG5gLPFKcbk"
       url: "https://www.youtube.com/watch?v=DG5gLPFKcbk"
 
-- title: "The design and (...) of embedded Domain Specific Languages & M.Lubbers | LambdaDays24"
+- title: "The design and (...) of embedded Domain Specific Languages"
   slug: "the-design-and-of-embedded-domain-specific-languages-mlubber"
   kind: talk
   level: intermediate
   language: en
   duration: 47
   abstract: "Abstract"
+  speakers:
+    - martlubbers
   topics:
-    - elixir
-    - nerves
+    - haskell
   recordings:
     - provider: youtube
       external_id: "iYynIY1m-7c"
       url: "https://www.youtube.com/watch?v=iYynIY1m-7c"
 
-- title: "Code in Unison | Lambda Days 2024"
-  slug: "code-in-unison-lambda-days-2024"
+- title: "Code in Unison"
+  slug: "code-in-unison"
   kind: talk
   level: intermediate
   language: en
@@ -507,13 +496,13 @@
   speakers:
     - daanvanberkel
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "n8IHooBsK7c"
       url: "https://www.youtube.com/watch?v=n8IHooBsK7c"
 
-- title: "Functional Platform Engineering with Scala and Pulumi | Lambda Days 2024"
+- title: "Functional Platform Engineering with Scala and Pulumi"
   slug: "functional-platform-engineering-with-scala-and-pulumi-lambda"
   kind: talk
   level: intermediate
@@ -523,14 +512,14 @@
   speakers:
     - ukaszbiay
   topics:
-    - elixir
+    - scala
   recordings:
     - provider: youtube
       external_id: "2QpiyQmpJDQ"
       url: "https://www.youtube.com/watch?v=2QpiyQmpJDQ"
 
-- title: "My First Year in FP | Lambda Days 2024"
-  slug: "my-first-year-in-fp-lambda-days-2024"
+- title: "My First Year in FP"
+  slug: "my-first-year-in-fp"
   kind: talk
   level: intermediate
   language: en
@@ -539,13 +528,13 @@
   speakers:
     - monicamcguigan
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "HKzgYIE4K9U"
       url: "https://www.youtube.com/watch?v=HKzgYIE4K9U"
 
-- title: "From 1 to 100k users: Lessons learned from scaling a Haskell app | Lambda Days 2024"
+- title: "From 1 to 100k users: Lessons learned from scaling a Haskell app"
   slug: "from-1-to-100k-users-lessons-learned-from-scaling-a-haskell"
   kind: talk
   level: intermediate
@@ -555,13 +544,13 @@
   speakers:
     - felixmino
   topics:
-    - elixir
+    - haskell
   recordings:
     - provider: youtube
       external_id: "1LEjxwahQgY"
       url: "https://www.youtube.com/watch?v=1LEjxwahQgY"
 
-- title: "Detecting Noninterference Violations with Property-Based Testinganda Andrade | Lambda Days 24"
+- title: "Detecting Noninterference Violations with Property-Based Testinganda Andrade"
   slug: "detecting-noninterference-violations-with-property-based-tes"
   kind: talk
   level: intermediate
@@ -569,28 +558,31 @@
   duration: 21
   abstract: "Abstract"
   topics:
-    - elixir
+    - haskell
     - testing
   recordings:
     - provider: youtube
       external_id: "Z6wnB2m2gYc"
       url: "https://www.youtube.com/watch?v=Z6wnB2m2gYc"
 
-- title: "Well-typed Programs Can Go Wrong:(...)Type Checkers in Compilers-Thodoris Sotiropoulos |LambdaDays24"
+- title: "Well-typed Programs Can Go Wrong:(...)Type Checkers in Compilers"
   slug: "well-typed-programs-can-go-wrongtype-checkers-in-compilers-t"
   kind: talk
   level: intermediate
   language: en
   duration: 23
   abstract: "Abstract"
+  speakers:
+    - theodorissotiropoulos
   topics:
-    - elixir
+    - functional-programming
+    - type-system
   recordings:
     - provider: youtube
       external_id: "EAVb8tn_jmo"
       url: "https://www.youtube.com/watch?v=EAVb8tn_jmo"
 
-- title: "A Scientific Document Management System (Elm + Lamdera) | Lambda Days 2024"
+- title: "A Scientific Document Management System (Elm + Lamdera)"
   slug: "a-scientific-document-management-system-elm-lamdera-lambda-d"
   kind: talk
   level: intermediate
@@ -600,31 +592,27 @@
   speakers:
     - jamescarlson
   topics:
-    - elixir
+    - elm
   recordings:
     - provider: youtube
       external_id: "-BncffLe10U"
       url: "https://www.youtube.com/watch?v=-BncffLe10U"
-
-
 ## Lightning Talks
-
-
-- title: "Haskell is just the beginning- a Lightning Talk by Christoffer Ekeroth | Lambda Days 2024"
+- title: "Haskell is just the beginning"
   slug: "lt-haskell-is-just-the-beginning-a-lightning-talk-by-christo"
   kind: lightning_talk
   language: en
   duration: 6
   abstract: "Let's keep in touch! Follow us on:"
   topics:
-    - elixir
+    - haskell
   recordings:
     - provider: youtube
       external_id: "Ggh4c3SomNc"
       url: "https://www.youtube.com/watch?v=Ggh4c3SomNc"
 
-- title: "What's cooking in GRiSP & Gwendal Laurent | Lambda Days 2024"
-  slug: "lt-whats-cooking-in-grisp-gwendal-laurent-lambda-days-2024"
+- title: "What's cooking in GRiSP & Gwendal Laurent"
+  slug: "lt-whats-cooking-in-grisp-gwendal-laurent"
   kind: lightning_talk
   language: en
   duration: 10
@@ -632,60 +620,62 @@
   speakers:
     - gwendallaurent
   topics:
-    - elixir
+    - erlang
   recordings:
     - provider: youtube
       external_id: "HSW52RmTgFo"
       url: "https://www.youtube.com/watch?v=HSW52RmTgFo"
 
-- title: "HVM - automatically parallel functional programs | Lambda Days"
-  slug: "lt-hvm-automatically-parallel-functional-programs-lambda-day"
+- title: "HVM - automatically parallel functional programs"
+  slug: "lt-hvm-automatically-parallel-functional-programs"
   kind: lightning_talk
   language: en
   duration: 6
   abstract: "Let's keep in touch! Follow us on:"
   topics:
-    - elixir
+    - functional-programming
   recordings:
     - provider: youtube
       external_id: "uBRhed9LPr4"
       url: "https://www.youtube.com/watch?v=uBRhed9LPr4"
 
-- title: "Modelling Things with Persistent Types | Lambda Days 2024"
-  slug: "lt-modelling-things-with-persistent-types-lambda-days-2024"
+- title: "Modelling Things with Persistent Types"
+  slug: "lt-modelling-things-with-persistent-types"
   kind: lightning_talk
   language: en
   duration: 6
   abstract: "Let's keep in touch! Follow us on:"
   topics:
-    - elixir
+    - haskell
+    - type-system
   recordings:
     - provider: youtube
       external_id: "MkPtfPwu3DM"
       url: "https://www.youtube.com/watch?v=MkPtfPwu3DM"
 
-- title: "Supercharge your tests with snapshot testing  | Lambda Days"
-  slug: "lt-supercharge-your-tests-with-snapshot-testing-lambda-days"
+- title: "Supercharge your tests with snapshot testing "
+  slug: "lt-supercharge-your-tests-with-snapshot-testing"
   kind: lightning_talk
   language: en
   duration: 5
   abstract: "💥LinkedIn: https://www.linkedin.com/company/lambda-days"
   topics:
-    - elixir
+    - functional-programming
     - testing
   recordings:
     - provider: youtube
       external_id: "s1pZN1kSiLA"
       url: "https://www.youtube.com/watch?v=s1pZN1kSiLA"
 
-- title: "EU Cyber Resiliency Act | Lambda Days 2024"
-  slug: "lt-eu-cyber-resiliency-act-lambda-days-2024"
+- title: "EU Cyber Resiliency Act"
+  slug: "lt-eu-cyber-resiliency-act"
   kind: lightning_talk
   language: en
   duration: 6
   abstract: "Let's keep in touch! Follow us on:"
   topics:
-    - elixir
+    - erlang
+    - security
   recordings:
     - provider: youtube
       external_id: "fI6A9ONLJL8"

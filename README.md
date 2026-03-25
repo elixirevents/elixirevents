@@ -48,6 +48,31 @@ mix elixir_events.data.fix        # apply fixes
 mix elixir_events.data.fix --dry-run  # preview without changing files
 ```
 
+## Search
+
+Search is powered by [Typesense](https://typesense.org). Records are automatically synced to Typesense on every insert, update, and delete — including during deployment data imports. Under normal operation, no manual intervention is needed.
+
+If search results get out of sync (e.g. after a failed deploy, manual database changes, or Typesense downtime), connect to the production console and trigger a reindex:
+
+```bash
+# Connect to the production IEx console
+scripts/fiex.sh
+```
+
+```elixir
+# Reindex all collections
+ElixirEvents.Search.reindex()
+
+# Or reindex a specific collection
+ElixirEvents.Search.reindex("events")
+ElixirEvents.Search.reindex("talks")
+ElixirEvents.Search.reindex("profiles")
+ElixirEvents.Search.reindex("topics")
+ElixirEvents.Search.reindex("event_series")
+```
+
+Reindex jobs run asynchronously via Oban.
+
 ## Contributing
 
 PRs welcome for data additions, bug fixes, tests, and code improvements. Run `mix test` and `mix elixir_events.validate` before submitting. See [CONTRIBUTING](https://elixirevents.org/contribute).

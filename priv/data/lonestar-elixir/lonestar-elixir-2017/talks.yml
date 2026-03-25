@@ -1,12 +1,13 @@
 ## Keynotes
 
-
-- title: "Lonestar ElixirConf 2017- Closing Keynote by Dave Thomas"
-  slug: "keynote-closing-keynote-by-dave-thomas"
+- title: "Closing Keynote: Dave Thomas"
+  slug: "closing-keynote-dave-thomas"
   kind: keynote
   language: en
   duration: 64
   abstract: "Dave Thomas is a programmer, one of the founders of The Pragmatic Bookshelf, noted author of The Pragmatic Programmer, Programming Ruby, and Programming Elixir, as well as many other books and articles."
+  speakers:
+    - davethomas
   topics:
     - elixir
     - security
@@ -15,12 +16,14 @@
       external_id: "L1-amhlGk7c"
       url: "https://www.youtube.com/watch?v=L1-amhlGk7c"
 
-- title: "Lonestar ElixirConf 2017- Opening Keynote by Justin Schneck"
-  slug: "keynote-opening-keynote-by-justin-schneck"
+- title: "Opening Keynote: Justin Schneck"
+  slug: "opening-keynote-justin-schneck"
   kind: keynote
   language: en
   duration: 56
   abstract: 'Developing \"hardware and hardware accessories\" can be difficult and time consuming. Until now, you would have to constantly swap SD cards or create and push full firmware updates in order to iterate on your device. We want to make the development cycle as comfortable as possible by marrying the fund'
+  speakers:
+    - justinschneck
   topics:
     - elixir
     - nerves
@@ -29,12 +32,14 @@
       external_id: "pVHhmqYozOM"
       url: "https://www.youtube.com/watch?v=pVHhmqYozOM"
 
-- title: "Lonestar ElixirConf 2017-  KEYNOTE: Phoenix 1.3 by Chris McCord"
-  slug: "lonestar-elixirconf-2017-keynote-phoenix-13-by-chris-mccord"
+- title: "Phoenix 1.3"
+  slug: "phoenix-1-3"
   kind: keynote
   language: en
   duration: 52
   abstract: "Lonestar Elixir 2017-  KEYNOTE: Phoenix 1.3 by Chris McCord"
+  speakers:
+    - chrismccord
   topics:
     - elixir
     - phoenix
@@ -43,17 +48,17 @@
       external_id: "tMO28ar0lW8"
       url: "https://www.youtube.com/watch?v=tMO28ar0lW8"
 
-
 ## Talks
 
-
-- title: "Lonestar ElixirConf 2017- Elixir Adoption at Scale: A Comprehensive Guide by Ben Marx"
-  slug: "lonestar-elixirconf-2017-elixir-adoption-at-scale-a-comprehe"
+- title: "Elixir Adoption at Scale: A Comprehensive Guide"
+  slug: "elixir-adoption-at-scale-a-comprehensive-guide"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "If you are a developer or company evaluating Elixir and looking for convincing and compelling reasons to do so, Bleacher Report is a case study in the fulfillment of the promises of Elixir and Phoenix. Iterative code samples will illustrate how our understanding and use of Elixir and Phoenix over th"
+  speakers:
+    - benmarx
   topics:
     - elixir
     - phoenix
@@ -63,13 +68,15 @@
       external_id: "W58ltqTajYU"
       url: "https://www.youtube.com/watch?v=W58ltqTajYU"
 
-- title: "Lonestar ElixirConf 2017- Using Ecto outside of Phoenix by Geoffrey Lessel"
-  slug: "lonestar-elixirconf-2017-using-ecto-outside-of-phoenix-by-ge"
+- title: "Using Ecto Outside of Phoenix"
+  slug: "using-ecto-outside-of-phoenix"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "Setting up Ecto outside of Phoenix is really simple and can be a great way to get started learning about Elixir. In this live-coding presentation, we will set up Ecto in a test project and dive into some of the great things about Ecto and how to use it."
+  speakers:
+    - geoffreylessel
   topics:
     - elixir
     - phoenix
@@ -79,13 +86,15 @@
       external_id: "PWJpSRUJDwk"
       url: "https://www.youtube.com/watch?v=PWJpSRUJDwk"
 
-- title: "Lonestar ElixirConf 2017- Using Elixirscript by Bryan Joseph"
-  slug: "lonestar-elixirconf-2017-using-elixirscript-by-bryan-joseph"
+- title: "Using Elixirscript"
+  slug: "using-elixirscript"
   kind: talk
   level: beginner
   language: en
   duration: 35
   abstract: "This talk will discuss ways of using Elixirscript today. It will start with a short introduction into what is Elixirscript and how it works. The rest of the talk will focus on what is currently possible, JavaScript interoperability, use with Phoenix projects, Elixir code sharing, and finally a futur"
+  speakers:
+    - bryanjoseph
   topics:
     - elixir
     - phoenix
@@ -94,13 +103,15 @@
       external_id: "eXiWPiePX2E"
       url: "https://www.youtube.com/watch?v=eXiWPiePX2E"
 
-- title: "Lonestar ElixirConf 2017- Shattering your application into an umbrella project by Luke Imhoff"
-  slug: "lonestar-elixirconf-2017-shattering-your-application-into-an"
+- title: "Shattering Your Application into an Umbrella Project"
+  slug: "shattering-your-application-into-an-umbrella-project"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "With the announcement of Phoenix 1.3 supporting umbrella projects at ElixirConf 2016, I was inspired to start early on converting our Phoenix 1.2 application to umbrella. Since the umbrella project templates weren't publicly available yet, I had to find the seams in our single, monolithic applicatio"
+  speakers:
+    - lukeimhoff
   topics:
     - elixir
     - phoenix
@@ -109,13 +120,15 @@
       external_id: "1ocF_9Nc0ik"
       url: "https://www.youtube.com/watch?v=1ocF_9Nc0ik"
 
-- title: "Lonestar ElixirConf 2017- Holistically built and tested APIs by Brian Cardarella"
-  slug: "lonestar-elixirconf-2017-holistically-built-and-tested-apis"
+- title: "Holistically Built and Tested APIs"
+  slug: "holistically-built-and-tested-apis"
   kind: talk
   level: intermediate
   language: en
   duration: 47
   abstract: "The Elixir eco system is moving fast. So fast that we sometimes look to how we did things in other languages to inform what we should do in Elixir. This is a good starting place but ultimately does us a disservice. Let's take a look at how to TDD a web-based API in Phoenix with a suite a of tools th"
+  speakers:
+    - briancardarella
   topics:
     - elixir
     - phoenix
@@ -125,13 +138,15 @@
       external_id: "LrJpzTvJrMc"
       url: "https://www.youtube.com/watch?v=LrJpzTvJrMc"
 
-- title: "Lonestar ElixirConf 2017- Leveling up your Phoenix Projects with OTP by  Nico Mihalich"
-  slug: "lonestar-elixirconf-2017-leveling-up-your-phoenix-projects-w"
+- title: "Leveling Up Your Phoenix Projects with OTP"
+  slug: "leveling-up-your-phoenix-projects-with-otp"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "With Elixir and Phoenix, the toolkit for building web applications has expanded dramatically. Beyond Phoenix's routers and controllers awaits a whole new world of features and ways to build reliable systems. With this talk, you'll see how."
+  speakers:
+    - nicomihalich
   topics:
     - elixir
     - phoenix
@@ -141,13 +156,15 @@
       external_id: "QRdZDcYq9-Y"
       url: "https://www.youtube.com/watch?v=QRdZDcYq9-Y"
 
-- title: "Lonestar ElixirConf 2017- Raspberry Pi Cluster with the Power of Elixir by Ricardo Echavarria"
-  slug: "lonestar-elixirconf-2017-raspberry-pi-cluster-with-the-power"
+- title: "Raspberry Pi Cluster with the Power of Elixir"
+  slug: "raspberry-pi-cluster-with-the-power-of-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 18
   abstract: "Elixir is an elegant and powerful language. This makes the Raspberry Pi a usable server for Elixir Applications. What would happen if we had a cluster of Raspberry Pi devices? Can Elixir and OTP help with the distribution of the application? What would you do with a 16 core and 4 GB of RAM machine?"
+  speakers:
+    - ricardoechavarria
   topics:
     - elixir
     - otp
@@ -156,14 +173,15 @@
       external_id: "9sdQA0BV4b8"
       url: "https://www.youtube.com/watch?v=9sdQA0BV4b8"
 
-- title: "Lonestar ElixirConf 2017- The NeverEnding Application by James Gray & Paul Dawson"
-  slug: "lonestar-elixirconf-2017-the-neverending-application-by-jame"
+- title: "The NeverEnding Application"
+  slug: "the-neverending-application"
   kind: talk
   level: intermediate
   language: en
   duration: 44
-  abstract: "“Why do you stick everything in a database?” —Joe Armstrong"
+  abstract: "Why do you stick everything in a database? - Joe Armstrong"
   speakers:
+    - jamesgray
     - pauldawson
   topics:
     - elixir
@@ -172,13 +190,15 @@
       external_id: "xzY1C_O3gDk"
       url: "https://www.youtube.com/watch?v=xzY1C_O3gDk"
 
-- title: "Lonestar ElixirConf 2017- Creating a Nerves-based Status Monitor... by Andrew Selder"
-  slug: "lonestar-elixirconf-2017-creating-a-nerves-based-status-moni"
+- title: "Creating a Nerves-based Status Monitor"
+  slug: "creating-a-nerves-based-status-monitor"
   kind: talk
   level: intermediate
   language: en
   duration: 33
   abstract: "Like many of you, the organization I work for is deeply invested in an ecosystem other than Elixir, in our case Rails. However, we have lots of engineers interested in Elixir. The question: how do we get the rest of the developers interested and convince the bosses that Elixir is a worthwhile techno"
+  speakers:
+    - andrewselder
   topics:
     - elixir
     - nerves
@@ -187,13 +207,15 @@
       external_id: "vbPbulimWLk"
       url: "https://www.youtube.com/watch?v=vbPbulimWLk"
 
-- title: "Lonestar ElixirConf 2017- How we Build Vutuv by Stefan Wintermeyer"
-  slug: "lonestar-elixirconf-2017-how-we-build-vutuv-by-stefan-winter"
+- title: "How We Build Vutuv"
+  slug: "how-we-build-vutuv"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "Let me take you through the idea and realisation of vutuv. The fast and free LinkedIn killer."
+  speakers:
+    - stefanwintermeyer
   topics:
     - elixir
   recordings:
@@ -201,12 +223,10 @@
       external_id: "5injICmmVII"
       url: "https://www.youtube.com/watch?v=5injICmmVII"
 
-
 ## Lightning Talks
 
-
-- title: "Lonestar ElixirConf 2017- Lightning Talks by Various Presenters"
-  slug: "lt-lonestar-elixirconf-2017-lightning-talks-by-various-prese"
+- title: "Lightning Talks: Various Presenters"
+  slug: "lightning-talks-various-presenters"
   kind: lightning_talk
   language: en
   duration: 37

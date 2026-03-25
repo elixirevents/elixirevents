@@ -1,12 +1,14 @@
 ## Keynotes
 
-
-- title: "Keynote: Dave Thomas with Brian Mitchell"
-  slug: "keynote-dave-thomas-with-brian-mitchell"
+- title: "Keynote: Dave Thomas"
+  slug: "keynote-dave-thomas"
   kind: keynote
   language: en
   duration: 48
   abstract: 'Dave Thomas delivers a keynote on \"nOTP\" and is joined by Brian Mitchell to offer counterpoint. And then Steven Nunez joins as a panelist for further discussion.'
+  speakers:
+    - davethomas
+    - brianmitchell
   topics:
     - elixir
     - otp
@@ -15,17 +17,17 @@
       external_id: "pcbNT1iKebc"
       url: "https://www.youtube.com/watch?v=pcbNT1iKebc"
 
-
 ## Talks
 
-
-- title: "Jon Carstens:  Dadgineering with Elixir+Nerves"
-  slug: "jon-carstens-dadgineering-with-elixirnerves"
+- title: "Dadgineering with Elixir+Nerves"
+  slug: "dadgineering-with-elixir-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "Are you a parent of children, pets, or just really immature roommates? Do you wish you could use Elixir to help solve household issues and annoyances? Do you frequently over-engineer side projects? Then you might be a dadgineer (or momgineer)."
+  speakers:
+    - joncarstens
   topics:
     - elixir
     - nerves
@@ -34,13 +36,15 @@
       external_id: "SJc4YYYloTQ"
       url: "https://www.youtube.com/watch?v=SJc4YYYloTQ"
 
-- title: "Zack Kayser: Demystifying Purely Functional Data Structures in Elixir"
-  slug: "zack-kayser-demystifying-purely-functional-data-structures-i"
+- title: "Demystifying Purely Functional Data Structures in Elixir"
+  slug: "demystifying-purely-functional-data-structures-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 38
   abstract: "Reasoning about data structures and run times in functional languages like Elixir is a far cry from classic analysis of data structures in imperative languages. While working with immutable data structures helps us reason about the flow of state in our programs, it has implications on the data struc"
+  speakers:
+    - zackkayser
   topics:
     - elixir
   recordings:
@@ -48,13 +52,15 @@
       external_id: "rsQ9-nc0uFo"
       url: "https://www.youtube.com/watch?v=rsQ9-nc0uFo"
 
-- title: "Vaibhav Sagar: Functional DevOps in a Dysfunctional World"
-  slug: "vaibhav-sagar-functional-devops-in-a-dysfunctional-world"
+- title: "Functional DevOps in a Dysfunctional World"
+  slug: "functional-devops-in-a-dysfunctional-world"
   kind: talk
   level: intermediate
   language: en
   duration: 32
   abstract: "What happens after you cut a release? Getting your finished software in the hands of your users can be quite an ordeal, especially if you use tools that make things harder than they need to be. It turns out that a functional approach has benefits even after the development team has written their las"
+  speakers:
+    - vaibhavsagar
   topics:
     - elixir
     - deployment
@@ -63,13 +69,15 @@
       external_id: "P1gE68ESWYE"
       url: "https://www.youtube.com/watch?v=P1gE68ESWYE"
 
-- title: "Eric Meadows Jönsson: Introducing Mint"
-  slug: "eric-meadows-jonsson-introducing-mint"
+- title: "Introducing Mint"
+  slug: "introducing-mint"
   kind: talk
   level: intermediate
   language: en
   duration: 29
   abstract: "In this talk we will present Mint, a new HTTP client for Elixir supporting HTTP/1 and HTTP/2. Mint has a process-less architecture using pure data structures, we will show why this architecture gives the developer more flexibility in how they can use the library but also the possible downsides of th"
+  speakers:
+    - ericmjonsson
   topics:
     - elixir
     - otp
@@ -78,13 +86,15 @@
       external_id: "N26_czzWJFs"
       url: "https://www.youtube.com/watch?v=N26_czzWJFs"
 
-- title: "Billy Ceskavich: Is Elixir Just Lisp?"
-  slug: "billy-ceskavich-is-elixir-just-lisp"
+- title: "Is Elixir Just Lisp?"
+  slug: "is-elixir-just-lisp"
   kind: talk
   level: intermediate
   language: en
   duration: 32
-  abstract: "Metaprogramming is a powerful tool that many Elixir developers use every day. Via macros, we can write concise, reusable code, and even extend the language itself. But, metaprogramming in Elixir can be hard to grok, especially for newcomers. So in this talk, we’re going to review the inner workings "
+  abstract: "Metaprogramming is a powerful tool that many Elixir developers use every day. Via macros, we can write concise, reusable code, and even extend the language itself. But, metaprogramming in Elixir can be hard to grok, especially for newcomers. So in this talk, we're going to review the inner workings "
+  speakers:
+    - billyceskavich
   topics:
     - elixir
   recordings:
@@ -92,13 +102,15 @@
       external_id: "F7qaIqcaTDc"
       url: "https://www.youtube.com/watch?v=F7qaIqcaTDc"
 
-- title: "Meryl Dakin: Process Potential: Multitasking and Fault Tolerance in Elixir"
-  slug: "meryl-dakin-process-potential-multitasking-and-fault-toleran"
+- title: "Process Potential: Multitasking and Fault Tolerance in Elixir"
+  slug: "process-potential-multitasking-and-fault-tolerance-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 28
   abstract: "Much of Elixir's hype has flowed around OTP: the concurrency and parallelism that promises multitasking at lightning speeds. However for newcomers to the language, the tools that enable this can be hard to visualize and intimidating to implement."
+  speakers:
+    - meryldakin
   topics:
     - elixir
     - otp
@@ -107,13 +119,15 @@
       external_id: "V8iqEgZnU5o"
       url: "https://www.youtube.com/watch?v=V8iqEgZnU5o"
 
-- title: "Andrew Forward: LiveView: Rich Client Side Experience Delivered from the Server"
-  slug: "andrew-forward-liveview-rich-client-side-experience-delivere"
+- title: "LiveView: Rich Client Side Experience Delivered from the Server"
+  slug: "liveview-rich-client-side-experience-delivered-from-the-server"
   kind: talk
   level: intermediate
   language: en
   duration: 32
-  abstract: "Let’s welcome LiveView to the Elixir Phoenix ecosystem. Wanted: rich user experience, JavaScript frameworks need not apply."
+  abstract: "Let's welcome LiveView to the Elixir Phoenix ecosystem. Wanted: rich user experience, JavaScript frameworks need not apply."
+  speakers:
+    - andrewforward
   topics:
     - elixir
     - phoenix
@@ -123,12 +137,14 @@
       external_id: "KvvkWiECvjY"
       url: "https://www.youtube.com/watch?v=KvvkWiECvjY"
 
-- title: "Desmond Bowe: Erlang Ecosystem Foundation"
-  slug: "desmond-bowe-erlang-ecosystem-foundation"
+- title: "Erlang Ecosystem Foundation"
+  slug: "erlang-ecosystem-foundation"
   kind: talk
   level: intermediate
   language: en
   duration: 6
+  speakers:
+    - desmondbowe
   topics:
     - elixir
     - erlang

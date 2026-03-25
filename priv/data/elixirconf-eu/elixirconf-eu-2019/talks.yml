@@ -1,11 +1,13 @@
 ## Keynotes
 
-- title: "Chris McCord - Keynote: Phoenix LiveView - Interactive Apps without Javascript - ElixirConf EU 2019"
-  slug: "chris-mccord-keynote-phoenix-liveview-interactive-apps-witho"
+- title: "Keynote: Phoenix LiveView - Interactive Apps without Javascript"
+  slug: "keynote-phoenix-liveview-interactive-apps-without-javascript"
   kind: keynote
   language: en
   duration: 73
   abstract: "ElixirConf EU"
+  speakers:
+    - chrismccord
   topics:
     - elixir
     - phoenix
@@ -15,12 +17,14 @@
       external_id: "8xJzHq8ru0M"
       url: "https://www.youtube.com/watch?v=8xJzHq8ru0M"
 
-- title: "José Valim  - Keynote: Announcing Broadway - ElixirConf EU 2019"
-  slug: "jose-valim-keynote-announcing-broadway-elixirconf-eu-2019"
+- title: "Keynote: Announcing Broadway"
+  slug: "keynote-announcing-broadway"
   kind: keynote
   language: en
   duration: 55
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - josevalim
   topics:
     - elixir
   recordings:
@@ -30,13 +34,15 @@
 
 ## Talks
 
-- title: "Philipp Schmieder - From Zero to Elixir Deployment - ElixirConf EU 2019"
-  slug: "philipp-schmieder-from-zero-to-elixir-deployment-elixirconf"
+- title: "From Zero to Elixir Deployment"
+  slug: "from-zero-to-elixir-deployment"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - philippschmieder
   topics:
     - elixir
     - deployment
@@ -45,13 +51,15 @@
       external_id: "Noawmmd6yxM"
       url: "https://www.youtube.com/watch?v=Noawmmd6yxM"
 
-- title: "José San Gil  - Exploiting PostgreSQL's power with Elixir / Ecto applications - ElixirConf EU 2019"
-  slug: "jose-san-gil-exploiting-postgresqls-power-with-elixir-ecto-a"
+- title: "Exploiting PostgreSQL's Power with Elixir / Ecto Applications"
+  slug: "exploiting-postgresqls-power-with-elixir-ecto-applications"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - josesangil
   topics:
     - elixir
     - ecto
@@ -60,13 +68,15 @@
       external_id: "_WsnytOcJjY"
       url: "https://www.youtube.com/watch?v=_WsnytOcJjY"
 
-- title: "Maciej Kaszubowski - Modular Design in Elixir - ElixirConf EU 2019"
-  slug: "maciej-kaszubowski-modular-design-in-elixir-elixirconf-eu-20"
+- title: "Modular Design in Elixir"
+  slug: "modular-design-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 44
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - maciejkaszubowski
   topics:
     - elixir
   recordings:
@@ -90,13 +100,15 @@
       external_id: "8mXqxBBvNdk"
       url: "https://www.youtube.com/watch?v=8mXqxBBvNdk"
 
-- title: "John Mertens - Lessons From Our First Trillion Messages with Flow - ElixirConf EU 2019"
-  slug: "john-mertens-lessons-from-our-first-trillion-messages-with-f"
+- title: "Lessons From Our First Trillion Messages with Flow"
+  slug: "lessons-from-our-first-trillion-messages-with-flow"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - johnmertens
   topics:
     - elixir
   recordings:
@@ -104,13 +116,15 @@
       external_id: "t46L9RKmlNo"
       url: "https://www.youtube.com/watch?v=t46L9RKmlNo"
 
-- title: "Arkadiusz Gil - Telemetry ...and metrics for all - ElixirConf EU 2019"
-  slug: "arkadiusz-gil-telemetry-and-metrics-for-all-elixirconf-eu-20"
+- title: "Telemetry ...and Metrics for All"
+  slug: "telemetry-and-metrics-for-all"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "The speaker"
+  speakers:
+    - arkadiuszgil
   topics:
     - elixir
   recordings:
@@ -118,13 +132,15 @@
       external_id: "cOuyOmcDV1U"
       url: "https://www.youtube.com/watch?v=cOuyOmcDV1U"
 
-- title: "Renan Ranelli - Rewriting critical software in Elixir - a case study - ElixirConf EU 2019"
-  slug: "renan-ranelli-rewriting-critical-software-in-elixir-a-case-s"
+- title: "Rewriting Critical Software in Elixir - a Case Study"
+  slug: "rewriting-critical-software-in-elixir-a-case-study"
   kind: talk
   level: intermediate
   language: en
   duration: 41
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - renanranelli
   topics:
     - elixir
   recordings:
@@ -132,27 +148,15 @@
       external_id: "WocZIc4mPxs"
       url: "https://www.youtube.com/watch?v=WocZIc4mPxs"
 
-- title: "ElixirConf EU 2019 Highlights"
-  slug: "elixirconf-eu-2019-highlights"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 3
-  abstract: "Across two days, ElixirConf EU brings the best speakers in the community together. It provides more than 30 first-rate Elixir talks and a day of tutorials."
-  topics:
-    - elixir
-  recordings:
-    - provider: youtube
-      external_id: "hvvc8kF5voU"
-      url: "https://www.youtube.com/watch?v=hvvc8kF5voU"
-
-- title: "Chris Keathley  - Building Resilient Systems with Stacking - ElixirConf EU 2019"
-  slug: "chris-keathley-building-resilient-systems-with-stacking-elix"
+- title: "Building Resilient Systems with Stacking"
+  slug: "building-resilient-systems-with-stacking"
   kind: talk
   level: intermediate
   language: en
   duration: 30
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - chriskeathley
   topics:
     - elixir
   recordings:
@@ -160,13 +164,15 @@
       external_id: "lg7M0h9eoug"
       url: "https://www.youtube.com/watch?v=lg7M0h9eoug"
 
-- title: "Ju Liu - Live coding an Escher painting using Scenic - ElixirConf EU 2019"
-  slug: "ju-liu-live-coding-an-escher-painting-using-scenic-elixircon"
+- title: "Live Coding an Escher Painting Using Scenic"
+  slug: "live-coding-an-escher-painting-using-scenic"
   kind: talk
   level: intermediate
   language: en
   duration: 43
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - juliu
   topics:
     - elixir
   recordings:
@@ -174,13 +180,15 @@
       external_id: "sV5ValgY4ck"
       url: "https://www.youtube.com/watch?v=sV5ValgY4ck"
 
-- title: "Ley Missailidis - Designing with Elixir - ElixirConf EU 2019"
-  slug: "ley-missailidis-designing-with-elixir-elixirconf-eu-2019"
+- title: "Designing with Elixir"
+  slug: "designing-with-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 42
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - leymissailidis
   topics:
     - elixir
   recordings:
@@ -188,13 +196,15 @@
       external_id: "wPsX-0xJW1c"
       url: "https://www.youtube.com/watch?v=wPsX-0xJW1c"
 
-- title: "Bram Verburg - Learn you some 'ssl' for much security! - ElixirConfEU 2019"
-  slug: "bram-verburg-learn-you-some-ssl-for-much-security-elixirconf"
+- title: "Learn You Some 'ssl' for Much Security!"
+  slug: "learn-you-some-ssl-for-much-security"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "Audience"
+  speakers:
+    - bramverburg
   topics:
     - elixir
     - security
@@ -203,13 +213,15 @@
       external_id: "0jzcPnsE4nQ"
       url: "https://www.youtube.com/watch?v=0jzcPnsE4nQ"
 
-- title: "Tonci Galic - Building a GameBoy emulator with Elixir and Scenic - ElixirConfEU 2019"
-  slug: "tonci-galic-building-a-gameboy-emulator-with-elixir-and-scen"
+- title: "Building a GameBoy Emulator with Elixir and Scenic"
+  slug: "building-a-gameboy-emulator-with-elixir-and-scenic"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - toncigalic
   topics:
     - elixir
   recordings:
@@ -217,13 +229,15 @@
       external_id: "7WPJDmJJqf0"
       url: "https://www.youtube.com/watch?v=7WPJDmJJqf0"
 
-- title: "Wolfgang Loder - Functional Concepts in Elixir - ElixirConf EU 2019"
-  slug: "wolfgang-loder-functional-concepts-in-elixir-elixirconf-eu-2"
+- title: "Functional Concepts in Elixir"
+  slug: "functional-concepts-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - wolfgangloder
   topics:
     - elixir
   recordings:
@@ -231,13 +245,15 @@
       external_id: "Dzi52dTOxT4"
       url: "https://www.youtube.com/watch?v=Dzi52dTOxT4"
 
-- title: "Daniel Caixinha - A Whirlwind Tour of Testing in Elixir - ElixirConf EU 2019"
-  slug: "daniel-caixinha-a-whirlwind-tour-of-testing-in-elixir-elixir"
+- title: "A Whirlwind Tour of Testing in Elixir"
+  slug: "a-whirlwind-tour-of-testing-in-elixir"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - danielcaixinha
   topics:
     - elixir
     - testing
@@ -246,13 +262,15 @@
       external_id: "uc5aoM_WDqk"
       url: "https://www.youtube.com/watch?v=uc5aoM_WDqk"
 
-- title: "Tomasz Kowal  - Introduction to stateful property based testing - ElixirConf EU 2019"
-  slug: "tomasz-kowal-introduction-to-stateful-property-based-testing"
+- title: "Introduction to Stateful Property Based Testing"
+  slug: "introduction-to-stateful-property-based-testing"
   kind: talk
   level: beginner
   language: en
   duration: 36
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - tomaszkowal
   topics:
     - elixir
     - testing
@@ -261,13 +279,15 @@
       external_id: "q0wZzFUYCuM"
       url: "https://www.youtube.com/watch?v=q0wZzFUYCuM"
 
-- title: "Paul Wilson - A production-grade Nerves System - ElixirConf EU 2019"
-  slug: "paul-wilson-a-production-grade-nerves-system-elixirconf-eu-2"
+- title: "A Production-grade Nerves System"
+  slug: "a-production-grade-nerves-system"
   kind: talk
   level: intermediate
   language: en
   duration: 35
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - paulwilson
   topics:
     - elixir
     - nerves
@@ -276,13 +296,15 @@
       external_id: "ad4rlF_kxSI"
       url: "https://www.youtube.com/watch?v=ad4rlF_kxSI"
 
-- title: "Guilherme de Maio - Ecto without SQL - ElixirConf EU 2019"
-  slug: "guilherme-de-maio-ecto-without-sql-elixirconf-eu-2019"
+- title: "Ecto without SQL"
+  slug: "ecto-without-sql"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - guilhermedemaio
   topics:
     - elixir
     - ecto
@@ -291,13 +313,15 @@
       external_id: "wsNQLGHi9dw"
       url: "https://www.youtube.com/watch?v=wsNQLGHi9dw"
 
-- title: "Michał Muskała - Let there be light: from nothing to a running application - ElixirConfEU 2019"
-  slug: "micha-muskaa-let-there-be-light-from-nothing-to-a-running-ap"
+- title: "Let There Be Light: From Nothing to a Running Application"
+  slug: "let-there-be-light-from-nothing-to-a-running-application"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - michamuskaa
   topics:
     - elixir
   recordings:
@@ -305,13 +329,15 @@
       external_id: "_AqmxltiV9I"
       url: "https://www.youtube.com/watch?v=_AqmxltiV9I"
 
-- title: "Wiebe Marten Wijnja  - An adventure in distributed programming - ElixirConf EU 2019"
-  slug: "wiebe-marten-wijnja-an-adventure-in-distributed-programming"
+- title: "An Adventure in Distributed Programming"
+  slug: "an-adventure-in-distributed-programming"
   kind: talk
   level: intermediate
   language: en
   duration: 39
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - wiebemartenwijnja
   topics:
     - elixir
   recordings:
@@ -319,13 +345,15 @@
       external_id: "u-b4rJ0RTrk"
       url: "https://www.youtube.com/watch?v=u-b4rJ0RTrk"
 
-- title: "Arjan Scherpenisse - The Elixir parser under the microscope - ElixirConfEU"
-  slug: "arjan-scherpenisse-the-elixir-parser-under-the-microscope-el"
+- title: "The Elixir Parser Under the Microscope"
+  slug: "the-elixir-parser-under-the-microscope"
   kind: talk
   level: intermediate
   language: en
   duration: 37
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - arjanscherpenisse
   topics:
     - elixir
   recordings:
@@ -333,13 +361,15 @@
       external_id: "aM0BLWgr0g4"
       url: "https://www.youtube.com/watch?v=aM0BLWgr0g4"
 
-- title: "Sophie Troy - How Elixir is driving Australian product innovation - ElixirConf EU 2019"
-  slug: "sophie-troy-how-elixir-is-driving-australian-product-innovat"
+- title: "How Elixir is Driving Australian Product Innovation"
+  slug: "how-elixir-is-driving-australian-product-innovation"
   kind: talk
   level: intermediate
   language: en
   duration: 27
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - sophietroy
   topics:
     - elixir
   recordings:
@@ -347,13 +377,15 @@
       external_id: "rSeoZdlxJ04"
       url: "https://www.youtube.com/watch?v=rSeoZdlxJ04"
 
-- title: "Martin Gausby - Tortoise Evolved; MQTT 5 support in Tortoise MQTT Client - ElixirConf EU 2019"
-  slug: "martin-gausby-tortoise-evolved-mqtt-5-support-in-tortoise-mq"
+- title: "Tortoise Evolved: MQTT 5 Support in Tortoise MQTT Client"
+  slug: "tortoise-evolved-mqtt-5-support-in-tortoise-mqtt-client"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - martingausby
   topics:
     - elixir
   recordings:
@@ -361,13 +393,15 @@
       external_id: "Bd2gw_o7yzQ"
       url: "https://www.youtube.com/watch?v=Bd2gw_o7yzQ"
 
-- title: "Péter Gömöri - Gradualizer: challenges implementing a type checker - ElixirConf EU 2019"
-  slug: "peter-gomori-gradualizer-challenges-implementing-a-type-chec"
+- title: "Gradualizer: Challenges Implementing a Type Checker"
+  slug: "gradualizer-challenges-implementing-a-type-checker"
   kind: talk
   level: intermediate
   language: en
   duration: 40
   abstract: "Website: www.elixirconf.eu"
+  speakers:
+    - petergomori
   topics:
     - elixir
   recordings:
@@ -375,13 +409,15 @@
       external_id: "mJytzlARCmM"
       url: "https://www.youtube.com/watch?v=mJytzlARCmM"
 
-- title: "Daniel Serrano - From Noob to Contributing Noob - ElixirConf EU 2019"
-  slug: "daniel-serrano-from-noob-to-contributing-noob-elixirconf-eu"
+- title: "From Noob to Contributing Noob"
+  slug: "from-noob-to-contributing-noob"
   kind: talk
   level: intermediate
   language: en
   duration: 36
   abstract: "Objectives"
+  speakers:
+    - danielserrano
   topics:
     - elixir
   recordings:
@@ -409,12 +445,14 @@
 
 ## Lightning Talks
 
-- title: "Lightning talk - Broadway + Sqs + Apache Tika - Dave Lee - ElixirConf EU 2019"
-  slug: "lt-lightning-talk-broadway-sqs-apache-tika-dave-lee-elixirco"
+- title: "Broadway + SQS + Apache Tika"
+  slug: "broadway-sqs-apache-tika"
   kind: lightning_talk
   language: en
   duration: 6
   abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  speakers:
+    - davelee
   topics:
     - elixir
   recordings:
@@ -422,12 +460,14 @@
       external_id: "Gc3_bbfEW_w"
       url: "https://www.youtube.com/watch?v=Gc3_bbfEW_w"
 
-- title: "Lightning Talk - Redex, An Elixir implementation of Redis - Ali Farhadi - ElixirConf EU 2019"
-  slug: "lt-lightning-talk-redex-an-elixir-implementation-of-redis-al"
+- title: "Redex, An Elixir Implementation of Redis"
+  slug: "redex-an-elixir-implementation-of-redis"
   kind: lightning_talk
   language: en
   duration: 7
   abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  speakers:
+    - alifarhadi
   topics:
     - elixir
   recordings:
@@ -435,12 +475,14 @@
       external_id: "sbk4ceR__DU"
       url: "https://www.youtube.com/watch?v=sbk4ceR__DU"
 
-- title: "Lightning Talk - Native Code from Elixir - Daniel Serrano - ElixirConf EU 2019"
-  slug: "lt-lightning-talk-native-code-from-elixir-daniel-serrano-eli"
+- title: "Native Code from Elixir"
+  slug: "native-code-from-elixir"
   kind: lightning_talk
   language: en
   duration: 4
   abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  speakers:
+    - danielserrano
   topics:
     - elixir
   recordings:
@@ -448,12 +490,14 @@
       external_id: "inytR1AOZi0"
       url: "https://www.youtube.com/watch?v=inytR1AOZi0"
 
-- title: "Lightning talk - Ido Keido - Fernando Hamasaki de Amorim - ElixirConf EU 2019"
-  slug: "lt-lightning-talk-ido-keido-fernando-hamasaki-de-amorim-elix"
+- title: "Ido Keido"
+  slug: "ido-keido"
   kind: lightning_talk
   language: en
   duration: 4
   abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  speakers:
+    - fernandohamasakideamorim
   topics:
     - elixir
   recordings:
@@ -461,12 +505,14 @@
       external_id: "ZPRdbfVVKQ0"
       url: "https://www.youtube.com/watch?v=ZPRdbfVVKQ0"
 
-- title: "Lightning talk  - Networking for developers - Eamon Leonard - ElixirConf EU 2019"
-  slug: "lt-lightning-talk-networking-for-developers-eamon-leonard-el"
+- title: "Networking for Developers"
+  slug: "networking-for-developers"
   kind: lightning_talk
   language: en
   duration: 6
   abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  speakers:
+    - eamonleonard
   topics:
     - elixir
   recordings:
