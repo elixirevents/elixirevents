@@ -1,100 +1,121 @@
 ## Keynotes
 
-
-- title: "Keynote: Benchee: 9 Years of Benchmarking on the BEAM -Tobias Pfeiffer | Code BEAM Lite Sto 2024"
-  slug: "keynote-benchee-9-years-of-benchmarking-on-the-beam-tobias-p"
+- title: "Keynote: Benchee: 9 Years of Benchmarking on the BEAM"
+  slug: "keynote-benchee-9-years-of-benchmarking-on-the-beam"
   kind: keynote
   language: en
   duration: 56
-  abstract: "Abstract"
+  abstract: |
+    For nearly nine years, Benchee has been the go-to tool for benchmarking in the Elixir and Erlang ecosystem. But how did it all start? What problems was it meant to solve, and did it succeed? Did the design hold up? Along the way, what surprising lessons emerged about performance on the BEAM? What mistakes were made, and what’s next for Benchee?
+
+    In this talk, I’ll take you on a journey through nearly a decade of benchmarking: the wins, the pitfalls, and the unexpected discoveries. Expect insights, anecdotes, and, of course, some benchmarks!
+
+    Talk objectives:
+
+    Navigating an eco system - when do we need a new library? How do you deal with this?
+    Architecture and design: Benchee has a layered approach focussing on exchangability of the layers as soon as the “contract” is honored - this has worked extremely well and there are a bunch of plugins for benchee just as I always wanted
+    Benchmarking: it’s not a full benchmarking talk, but I’ll introduce a topic of why to benchmark, some results and share some concepts and their importance - such as warmups, the statistics, impact of GC etc.
+    Open source: I’ll talk about open source working and motivate people (hopefully) to participate in open source, talk about the collaboration etc.
+    BEAM: We’ll talk about some specialities of the BEAM, such as every process managing its own memory and messages being copied in full between processes (although they are immutable), might mention reductions. Also, of course some performance characteristics - I’ll probably go to my favorite - tail recursion vs body recursion
+    Failing: I think it’s always important that even “fancy” library authors make mistakes, I made some with benchee and I wanna share them to normalize sharing stories of failures
+  speakers:
+    - tobiaspfeiffer
   topics:
     - elixir
-    - erlang
+    - libraries
+    - open-source
   recordings:
     - provider: youtube
       external_id: "Dlo7gJGUrQo"
       url: "https://www.youtube.com/watch?v=Dlo7gJGUrQo"
 
-- title: "Keynote: My BEAM history | Code BEAM Lite STO 2025"
+- title: "Keynote: My BEAM history"
   slug: "keynote-bjorn-gustavsson"
   kind: keynote
   language: en
   duration: 47
-  abstract: "Abstract"
+  abstract: "Join me as I take you on a personal journey through the evolution of BEAM, which I’ve been deeply involved with for nearly three decades. This session will highlight key moments in BEAM’s evolution from its early days as a fast but memory-hungry Erlang VM to its current role as a robust foundation for Elixir, Gleam, and all the other languages that run on it."
   speakers:
     - bjorngustavsson
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "htWYS2tpVLY"
       url: "https://www.youtube.com/watch?v=htWYS2tpVLY"
 
-
 ## Talks
 
-
-- title: "Squeezing the BEAM into 16MB - Peer Stritzinger| Code BEAM Lite STO 2025"
-  slug: "squeezing-the-beam-into-16mb-peer-stritzinger-code-beam-lite"
+- title: "Squeezing the BEAM into 16MB - Peer Stritzinger"
+  slug: "squeezing-the-beam-into-16mb"
   kind: talk
   level: intermediate
   language: en
   duration: 29
-  abstract: "Abstract"
+  abstract: |
+    Erlang was designed for fault tolerance, not fitting into tiny memory footprints on energy-starved embedded systems. But what happens when you push it into just 16MB of RAM, run it on an RTEMS real-time OS, and power it from temperature gradient energy harvesting?
+
+    In this talk, we’ll dive into the challenges and solutions of making the full Erlang runtime, OTP, a TCP/IP stack, and USB support work under extreme constraints. We’ll explore the brutal trade-offs in memory usage, optimizing the boot process for minimal energy consumption, and the unexpected quirks of running Erlang on hardware where every millijoule counts.
+
+    Along the way, we’ll break down how GRiSP nano boots from a cold start, how energy availability affects system initialization, and what we learned from pushing BEAM into places it was never meant to go.
+
+    If you’re curious about embedded Erlang, extreme resource constraints, or just want to see how far you can push the runtime, this talk is for you.
+  speakers:
+    - peerstritzinger
   topics:
-    - elixir
+    - embedded
     - erlang
   recordings:
     - provider: youtube
       external_id: "XK4dDGC2qRw"
       url: "https://www.youtube.com/watch?v=XK4dDGC2qRw"
 
-- title: "Self Hosted Elixir: A Pi is all you need! | Code BEAM Lite STO 2025"
-  slug: "self-hosted-elixir-a-pi-is-all-you-need-code-beam-lite-sto-2"
+- title: "Self Hosted Elixir: A Pi is all you need!"
+  slug: "self-hosted-elixir-a-pi-is-all-you-need"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "Abstract"
+  abstract: |
+    Self-hosted Elixir applications offer control, cost efficiency, and privacy. This session outlines a modern workflow for deploying Elixir apps sustainably and securely, using Raspberry Pi as a server paired with Cloudflare and Coolify.
+
+    Elixir Leverages BEAM’s concurrency, fault tolerance, and real-time capabilities, amplified by Phoenix’s tooling. By combining this with Cloudflare’s protections and using Coolify to manage a Raspberry Pi server, turning it into a PaaS, we can create a product with minimum recurrent running costs yet the ability to concurrently service close to a million requests.
   speakers:
     - solaaremupelumi
   topics:
     - elixir
-    - erlang
+    - embedded
   recordings:
     - provider: youtube
       external_id: "8vP_yuTGMBw"
       url: "https://www.youtube.com/watch?v=8vP_yuTGMBw"
 
-- title: "What do you learn from not using Erlang? | Code BEAM Lite STO 2025"
-  slug: "what-do-you-learn-from-not-using-erlang-code-beam-lite-sto-2"
+- title: "What do you learn from not using Erlang?"
+  slug: "what-do-you-learn-from-not-using-erlang"
   kind: talk
   level: intermediate
   language: en
   duration: 23
-  abstract: "Abstract"
+  abstract: "About a year ago I decided to make a big career change and after 15 years of working as an Erlang developer try “something different”. Not because I had enough of Erlang, but to catch up with the “outside world” after such a long time. What has changed? How does the Erlang ecosystem compare to its competition? It turns out I didn’t only get answers to these questions, but some more. What makes it easy or hard to onboard someone to not just a new project, but an entirely new tech stack? Do early-phase projects require different tools? Join me for this talk where I try to turn these questions around, and discover how we can improve our ecosystem and also the onboarding journey of newcomers!"
   speakers:
     - danielszoboszlay
   topics:
-    - elixir
     - erlang
   recordings:
     - provider: youtube
       external_id: "DQgvaToEPKQ"
       url: "https://www.youtube.com/watch?v=DQgvaToEPKQ"
 
-- title: "OTP Update  | Code BEAM Lite STO 2025"
-  slug: "otp-update-code-beam-lite-sto-2025"
+- title: "OTP Update"
+  slug: "otp-update"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "Abstract"
+  abstract: "OTP update by Rickard Green."
   speakers:
     - rickardgreen
   topics:
-    - elixir
     - otp
     - erlang
   recordings:
@@ -102,105 +123,117 @@
       external_id: "OGOMcfbkJd4"
       url: "https://www.youtube.com/watch?v=OGOMcfbkJd4"
 
-- title: "Scaling Edge AI with Elixir and Nerves & Paulo Valente | Code BEAM Lite STO 2025"
-  slug: "scaling-edge-ai-with-elixir-and-nerves-paulo-valente-code-be"
+- title: "Scaling Edge AI with Elixir and Nerves"
+  slug: "scaling-edge-ai-with-elixir-and-nerves"
   kind: talk
   level: intermediate
   language: en
   duration: 20
-  abstract: "Abstract"
+  abstract: "Join us in this discovery on how to leverage Elixir and Nerves to build efficient, scalable edge-device AI systems on Raspberry Pi with the Hailo HAT. We will start with a brief overview on Nx and Nerves. Then we will get into the context of edge computing aiming to scale signal processing applications. By the end of this talk, we’ll have built a self-contained on-device data capture and processing pipeline solution."
   speakers:
     - vittoriabitton
     - paulovalente
   topics:
     - elixir
     - nerves
-    - erlang
+    - embedded
+    - ai
   recordings:
     - provider: youtube
       external_id: "nRq5Gnf-n3c"
       url: "https://www.youtube.com/watch?v=nRq5Gnf-n3c"
 
-- title: "Tying it all together - Lars Wikman| Code BEAM Lite STO 2025"
-  slug: "tying-it-all-together-lars-wikman-code-beam-lite-sto-2025"
+- title: "Tying it all together"
+  slug: "tying-it-all-together"
   kind: talk
   level: intermediate
   language: en
   duration: 24
-  abstract: "Abstract"
+  abstract: |
+    Sometimes people ask for an example of an Elixir application. NervesHub is an open source application used in production at scale with a lively development history. It has been through a lot of change, a lot of evolution.
+
+    And it uses a lot of the Elixir ecosystem. Phoenix, Ecto, LiveView, Oban, thousands of WebSocket connections, an Erlang distribution cluster, a lot of PubSub, regular GenServers, PhoenixTest and much more.
+
+    This talk will give a tour of the project, focusing on interesting things, changes that have simplified the system over time. Choices that have been made and hopefully the good reasons behind them.
+
+  speakers:
+    - larswikman
   topics:
     - elixir
-    - erlang
+    - phoenix
   recordings:
     - provider: youtube
       external_id: "jPaU7-sqv_s"
       url: "https://www.youtube.com/watch?v=jPaU7-sqv_s"
 
-- title: "Testing Feature Interactions in Payments& Adam Lindberg | Code BEAM Lite STO 2025"
-  slug: "testing-feature-interactions-in-payments-adam-lindberg-code"
+- title: "Testing Feature Interactions in Payments"
+  slug: "testing-feature-interactions-in-payments"
   kind: talk
   level: intermediate
   language: en
   duration: 26
-  abstract: "Abstract"
+  abstract: |
+    Kivra is a company that allows users to get their official post in a digital mailbox. Invoices can also arrive in that mailbox and Kivra for a long time supports a feature to pay those invoices manually. When a new feature of automatic payments was going to be added to this system, Kivra decided to take help of Quviq for additional testing support. With help of property-based testing the new feature and the interaction between the new feature and existing features has been extensively tested. For Kivra, this meant extra resource to their development team focussing on quality assurance.
+
+    In this talk we give an experience report on adopting the new technology. We explain the benefits for, and impact on, the Kivra team.
   speakers:
     - thomasarts
     - adamlindberg
   topics:
-    - elixir
     - erlang
-    - testing
   recordings:
     - provider: youtube
       external_id: "SaxUJHwgMu4"
       url: "https://www.youtube.com/watch?v=SaxUJHwgMu4"
 
-- title: "Easier Lint Authoring with Semantic Search and (...)- Alan Zimmerman | Code BEAM Lite STO 2025"
-  slug: "easier-lint-authoring-with-semantic-search-and-alan-zimmerma"
+- title: "Easier Lint Authoring with Semantic Search and (...)"
+  slug: "easier-lint-authoring-with-semantic-search-and"
   kind: talk
   level: intermediate
   language: en
   duration: 22
-  abstract: "Abstract"
+  abstract: "A Lint has two parts, identifying a problem, and possibly providing a fix. The first requires scanning the code for patterns that could contain a problematic occurrence, then checking each to see if it does. A fix involves changing the code, based on what has been found. This talk will show how using Semantic Search and Replace, a regex-like string to match Erlang syntax and extract interesting parts, all three of these steps can be simplified dramatically."
+  speakers:
+    - alanzimmerman
   topics:
-    - elixir
     - erlang
-    - security
   recordings:
     - provider: youtube
       external_id: "caEriiYvHcs"
       url: "https://www.youtube.com/watch?v=caEriiYvHcs"
 
-- title: "Torus: PostgreSQL Search in Ecto | Code BEAM Lite STO 2025"
-  slug: "torus-postgresql-search-in-ecto-code-beam-lite-sto-2025"
+- title: "Torus: PostgreSQL Search in Ecto"
+  slug: "torus-postgresql-search-in-ecto"
   kind: talk
   level: intermediate
   language: en
   duration: 21
-  abstract: "Abstract"
+  abstract: "Search is a fundamental part of many applications, but choosing the right approach can be challenging. This talk explores different search strategies - from full-text and similarity searches to semantic and hybrid techniques. I’ll share insights from implementing these in a large-scale codebase serving millions of users, focusing on performance, relevance, and maintainability. Finally, I’ll introduce Torus, a library designed to integrate these search methods seamlessly into Ecto, making it easier to build and refine personalized search experiences within Elixir applications."
   speakers:
     - dimamikielewicz
   topics:
     - elixir
     - ecto
-    - erlang
+    - libraries
   recordings:
     - provider: youtube
       external_id: "OgMo2vzZ6EA"
       url: "https://www.youtube.com/watch?v=OgMo2vzZ6EA"
 
-- title: "How I ended up writing Gleam for a living | Code BEAM Lite STO 2025"
-  slug: "how-i-ended-up-writing-gleam-for-a-living-code-beam-lite-sto"
+- title: "How I ended up writing Gleam for a living"
+  slug: "how-i-ended-up-writing-gleam-for-a-living"
   kind: talk
   level: intermediate
   language: en
   duration: 18
-  abstract: "Abstract"
+  abstract: |
+    Diving into a new language can be pretty daunting. Falling into a new language by accident? That’s a completely different story.
+
+    This talk will discuss how a series of unexpected events led to a career in Gleam, highlighting the lessons learned along the way, Gleam’s strengths - and its pitfalls - and how to write production-ready Gleam code.
   speakers:
     - isaacharrisholt
   topics:
-    - elixir
-    - erlang
+    - gleam
   recordings:
     - provider: youtube
       external_id: "BfPRcanTWXA"

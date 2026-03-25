@@ -44,12 +44,16 @@
 
 - name: "Lars Wikman"
   slug: "larswikman"
-  headline: "Underjord"
-  bio: "Elixir developer, writer, and podcaster at Underjord."
+  headline: "Founder of Underjord"
+  bio: "Lars & Underjord have been a part of the Elixir community for about six years at this point. The loudest swede in Elixir. With blogging, newsletters, videos, podcasts, speaking and code you might have seen him around. As someone who thrives with variety he has touched almost every part of Elixir and the ecosystem. Now his sights are set on hardware. Focusing in on Nerves it is time to share a lot more about upcoming ventures for Lars, for Underjord and what that might mean for Nerves and Elixir."
   website: "https://underjord.io"
   social_links:
     - platform: github
-      url: "https://github.com/lawik"
+      url: https://github.com/lawik
+    - platform: twitter
+      url: https://x.com/lawik
+    - platform: linkedin
+      url: https://www.linkedin.com/in/lawik/
 
 - name: "Brooklyn Zelenka"
   slug: "brooklynzelenka"
@@ -79,6 +83,10 @@
   slug: "solaaremupelumi"
   headline: "Elixir developer and co-creator of the Whisperer"
   bio: "Elixir developer and co-creator of the Whisperer multi-agent workflow framework."
+  website: "https://www.solaaremupelumi.com/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/Pelumi_SA"
 
 - name: "Ridwan Otun"
   slug: "ridwanotun"
@@ -384,11 +392,13 @@
 
 - name: "Paulo Valente"
   slug: "paulovalente"
-  headline: "Nx Contributor"
-  bio: "Contributor to Nx, working on compiling and running machine learning models on edge devices."
+  headline: "Elixir enthusiast, Nx maintainer and Sr Software Engineer at DockYard"
+  bio: "Paulo is an Electronics and Computer Engineer with a passion for coding and for music which always sparked an interest in DSP and Machine Learning. Having worked with Elixir for nearly 5 years now, being able to contribute to the Machine Learning and Numerical Calculus front of Elixir and the BEAM is a dream come true."
   social_links:
     - platform: github
       url: "https://github.com/polvalente"
+    - platform: twitter
+      url: "https://x.com/polvalente"
 
 - name: "Michael St Clair"
   slug: "michaelstclair"
@@ -645,13 +655,13 @@
 
 - name: "Adam Lindberg"
   slug: "adamlindberg"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Software Engineer & Open Source Developer"
+  bio: "Senior software development professional. Experience with distributed architecture, cloud infrastructure, live operations and embedded systems. Focus on dynamic languages, test driven development and agile methods. Author of Meck, an open source mocking framework for Erlang."
 
 - name: "Alan Zimmerman"
   slug: "alanzimmerman"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Software Engineer @ Meta"
+  bio: "Alan began his career working with embedded systems, including radar systems, and the Southern African Large Telescope. He then founded a company, providing Value Added Services to Mobile Network Operators. He discovered Erlang and decided to switch his company’s stack from Java/JBOSS to it. This resulted in a 90% reduction in server costs. As Alan found himself doing more management work, he began working on Open Source Software to keep his programming skills sharp. He chose to revive the dormant Haskell Refactorer (HaRe). This led to becoming a contributor to the Glasgow Haskell Compiler, to improve its use in refactoring. Then Alan founded the Haskell IDE Engine (now the Haskell Language Server), as a single provider of Haskell Tools to IDEs, so people could use HaRe. Alan’s company was affected by bad conditions, which led to its closure. He took the opportunity to join Meta in the UK, where he has been contributing to the Erlang Developer infrastructure."
 
 - name: "Alexey Nikitin"
   slug: "alexeynikitin"
@@ -696,7 +706,10 @@
 - name: "Dániel Szoboszlay"
   slug: "danielszoboszlay"
   headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  bio: "I love working on distributed systems, the hard problems of consistency & reliability, drilling down to the root cause of issues, and talking about all of these on conferences."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dszoboszlay/"
 
 - name: "Dennis Palmer"
   slug: "dennispalmer"
@@ -710,8 +723,18 @@
 
 - name: "Dima Mikielewicz"
   slug: "dimamikielewicz"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Software Engineer at Software Mansion"
+  bio: "4+ years of commercial experience, including 3 years as a Software Engineer at Software Mansion in Kraków, Poland. Currently contracting for a large U.S.-based company, working primarily with Elixir. On a day-to-day basis, we work with an architecture handling tens of thousands of active users at a time, leveraging the strengths of BEAM, Phoenix, Ecto, and Oban. Read more about my experience on my blog: dimamik.com/about."
+  website: https://www.dimamik.com/
+  social_links:
+    - platform: github
+      url: https://github.com/dimamik
+    - platform: linkedin
+      url: https://www.linkedin.com/in/dima-mikielewicz/
+    - platform: twitter
+      url: https://x.com/dimamikielewicz
+    - platform: bluesky
+      url: https://bsky.app/profile/dimamik.bsky.social
 
 - name: "Filipe Fróes"
   slug: "filipefroes"
@@ -735,8 +758,16 @@
 
 - name: "Isaac Harris-Holt"
   slug: "isaacharrisholt"
-  headline: "Developer & Content Creator"
-  bio: "Developer and content creator focused on Gleam and functional programming."
+  headline: "Head of Eng & Content Creator"
+  bio: |
+    Isaac is a recent functional programming convert (coming from a Python and data engineering background) and a YouTube creator producing content around the Gleam programming language.
+
+    Outside of software, Isaac’s biggest passion is his collection of over 50 hats!
+  social_links:
+    - platform: twitter
+      url: https://x.com/IsaacHarrisHolt
+    - platform: linkedin
+      url: https://www.linkedin.com/in/isaac-harris-holt/
 
 - name: "Jade Allen"
   slug: "jadeallen"
@@ -796,7 +827,10 @@
 - name: "Rickard Green"
   slug: "rickardgreen"
   headline: "Erlang/OTP Team"
-  bio: "Member of the Erlang/OTP development team at Ericsson."
+  bio: "Joined the Erlang/OTP team at Ericsson in year 2000. Have since then mainly been working with the runtime system in the VM team. Since about two years ago have the role as operational product owner of Erlang/OTP."
+  social_links:
+    - platform: github
+      url: "https://github.com/rickard-green"
 
 - name: "Samanta Araújo"
   slug: "samantaaraujo"
@@ -821,7 +855,7 @@
 - name: "Thomas Arts"
   slug: "thomasarts"
   headline: "Quviq Founder"
-  bio: "Founder of Quviq, pioneer of property-based testing with QuickCheck."
+  bio: "Thomas Arts co-founder and CTO of Quviq has an academic background with a PhD in theoretical computer science. Directly after his PhD, Thomas started at Ericsson’s computer Science Lab on verification tools for Erlang. After a short return to academia as professor at Chalmers, he is now fully devoted to amazing testing tools. Quviq is the company that productified QuickCheck, a tool that automatically generates tests. The tool is written in Erlang, but can be used to test systems written in a variety of languages. Among other successes, it is heavily used within the telecom and automotive industry, for example for testing 5G base stations and AUTOSAR standard software."
 
 - name: "Łukasz Wala"
   slug: "ukaszwala"
@@ -830,8 +864,10 @@
 
 - name: "Vittoria Bitton"
   slug: "vittoriabitton"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Senior Software Engineer"
+  bio: "Vittoria Bitton is a Software Engineer at Savi Solutions - an edge device cloud computing platform. She has joyfully been building software with Elixir in the past 5 years"
+  social_links:
+    - platform: "https://x.com/vittoria_bitton"
 
 - name: "Walid Salah"
   slug: "walidsalah"
@@ -1445,8 +1481,13 @@
 
 - name: "Peer Stritzinger"
   slug: "peerstritzinger"
-  headline: "GRiSP Inventor"
-  bio: "Conference speaker."
+  headline: "Founder, Board Member Erlang Ecosystem Foundation"
+  bio: "Experienced Founder with a demonstrated history of working in the automotive industry and industrial automation. Strong business development professional skilled in Computer Science, Communication Protocols, Security and Distributed Computing.  Engaged in the Erlang Programming language community as a Board Member of the Erlang Ecosystem Foundation."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/peerstr"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/peerst/"
 
 - name: "Rebecca Reusch"
   slug: "rebeccareusch"
@@ -1514,6 +1555,8 @@
   social_links:
     - platform: github
       url: "https://github.com/PragTob"
+    - platform: twitter
+      url: "https://x.com/PragTob"
 
 - name: "Krzysztof Kempiński"
   slug: "krzysztofkempinski"

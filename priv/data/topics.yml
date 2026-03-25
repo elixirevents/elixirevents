@@ -98,10 +98,10 @@
   slug: "gleam"
   description: "The Gleam programming language for the BEAM"
 
-- name: "IoT"
-  slug: "iot"
-  description: "Internet of Things development and connected devices with the BEAM"
-
 - name: "Kafka"
   slug: "kafka"
   description: "Event streaming and distributed messaging with Apache Kafka"
+
+- name: "Open Source"
+  slug: "open-source"
+  description: "Talks about building, maintaining, and contributing to open source software."
