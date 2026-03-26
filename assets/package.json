@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "leaflet": "^1.9.4",
+    "maplibre-gl": "^5.21.1",
     "tinykeys": "^3.0.0",
     "typesense": "^3.0.3"
   }
