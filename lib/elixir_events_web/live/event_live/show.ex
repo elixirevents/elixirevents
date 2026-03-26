@@ -10,14 +10,17 @@ defmodule ElixirEventsWeb.EventLive.Show do
 
   @impl true
   def handle_params(%{"slug" => slug}, _uri, socket) do
-    case Events.get_event_by_slug(slug,
-           preload: [:event_series, :event_links, :event_roles, :cfps]
-         ) do
+    event =
+      Events.get_event_by_slug(slug,
+        preload: [:event_series, :event_links, :event_roles, :cfps, :venue]
+      )
+
+    case event do
       nil ->
         {:noreply,
          socket
          |> put_flash(:error, "Event not found")
-         |> redirect(to: ~p"/events")}
+         |> push_navigate(to: ~p"/events")}
 
       event ->
         talks =
@@ -31,15 +34,59 @@ defmodule ElixirEventsWeb.EventLive.Show do
           |> ElixirEvents.Repo.preload(time_slots: [sessions: :track])
 
         tracks = Program.list_tracks(event.id)
+        speakers = Talks.list_speakers_for_event(event.id)
+
+        keynote_speakers =
+          speakers
+          |> Enum.filter(fn speaker ->
+            Enum.any?(talks, fn talk ->
+              talk.kind == :keynote &&
+                Enum.any?(talk.talk_speakers, &(&1.profile_id == speaker.id))
+            end)
+          end)
+
+        sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers)
+
+        selected_day =
+          case schedule_days do
+            [first | _] -> first
+            [] -> nil
+          end
 
         {:noreply,
-         socket
-         |> assign(:page_title, event.name)
-         |> assign(:event, event)
-         |> assign(:talks, talks)
-         |> assign(:sponsor_tiers, sponsor_tiers)
-         |> assign(:schedule_days, schedule_days)
-         |> assign(:tracks, tracks)}
+         assign(socket,
+           page_title: event.name,
+           event: event,
+           talks: talks,
+           sponsor_tiers: sponsor_tiers,
+           schedule_days: schedule_days,
+           tracks: tracks,
+           speakers: speakers,
+           keynote_speakers: keynote_speakers,
+           sections: sections,
+           selected_day: selected_day
+         )}
     end
+  end
+
+  @impl true
+  def handle_event("select-day", %{"day-id" => day_id}, socket) do
+    day_id = String.to_integer(day_id)
+    day = Enum.find(socket.assigns.schedule_days, &(&1.id == day_id))
+    {:noreply, assign(socket, :selected_day, day)}
+  end
+
+  defp build_sections(event, talks, schedule_days, sponsor_tiers, speakers) do
+    []
+    |> maybe_add(event.description, %{id: "about", label: "About"})
+    |> maybe_add(speakers != [], %{id: "speakers", label: "Speakers", count: length(speakers)})
+    |> maybe_add(talks != [], %{id: "talks", label: "Talks", count: length(talks)})
+    |> maybe_add(schedule_days != [], %{id: "schedule", label: "Schedule"})
+    |> maybe_add(event.venue, %{id: "venue", label: "Venue"})
+    |> maybe_add(sponsor_tiers != [], %{id: "sponsors", label: "Sponsors"})
+  end
+
+  defp maybe_add(sections, condition, section) do
+    if condition, do: sections ++ [section], else: sections
   end
 end
