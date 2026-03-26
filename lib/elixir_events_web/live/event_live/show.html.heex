@@ -93,7 +93,11 @@
       <%!-- About --%>
       <div :if={@event.description} id="about" class="mb-12 scroll-mt-24">
         <h2 class="font-display text-2xl font-bold text-base-content mb-4">About</h2>
-        <p class="text-base-content/55 leading-relaxed">{@event.description}</p>
+        <div class="text-base-content/55 leading-relaxed space-y-4">
+          <p :for={para <- String.split(@event.description, ~r/\n\s*\n/, trim: true)}>
+            {para}
+          </p>
+        </div>
       </div>
 
       <%!-- Speakers --%>

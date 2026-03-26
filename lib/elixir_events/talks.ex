@@ -41,7 +41,7 @@ defmodule ElixirEvents.Talks do
   end
 
   def list_talks_for_event(event_id) do
-    Talk |> where(event_id: ^event_id) |> Repo.all()
+    Talk |> where(event_id: ^event_id) |> order_by(:id) |> Repo.all()
   end
 
   def list_speakers_for_event(event_id) do

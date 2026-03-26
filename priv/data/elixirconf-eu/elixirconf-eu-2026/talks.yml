@@ -6,7 +6,8 @@
   level: beginner
   language: en
   duration: 45
-  abstract: "Covers Elixir v1.20's progress toward completing the first type system milestone by introducing type inference across all language constructs."
+  abstract: |
+    Four years ago, at ElixirConf EU, José Valim announced an effort to research and develop a type system for Elixir, later broken into three distinct milestones. With the upcoming Elixir v1.20 release, Elixir is finally closing down on the first milestone, which adds type inference to all language constructs. Come learn exactly what that means and where we are going next!
   speakers:
     - josevalim
   topics:
@@ -19,7 +20,12 @@
   level: beginner
   language: en
   duration: 45
-  abstract: "Extends GenServer with automatic state persistence and distributed coordination. Processes survive node failures and move between machines."
+  abstract: |
+    What if your processes could survive node failures, move between machines, and pick up where they left off? DurableServer extends the familiar GenServer contract with automatic state persistence, distributed coordination, and cluster-aware recovery. Watch complexity melt away while you get back to thinking in processes and messages. Durability becomes just another thing your processes do.
+
+    In many applications, processes represent real things like users, game sessions, rooms, or devices. These need to be guaranteed running somewhere on the cluster, recoverable after crashes, and observable by the rest of the system. We’ll explore globally unique processes, state synced to object storage for restoration on any node, capacity-aware placement, sticky routing, and lifecycle events that let your application react as durable processes come and go.
+
+    With DurableServer, routing, load balancing, node pinning, and regional placement are solved problems. You stop thinking about them. It all collapses down to something that feels like writing a regular GenServer.
   speakers:
     - chrismccord
   topics:
