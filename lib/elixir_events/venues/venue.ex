@@ -3,7 +3,7 @@ defmodule ElixirEvents.Venues.Venue do
 
   use ElixirEvents.Schema
 
-  @permitted ~w(name slug street city region country country_code postal_code latitude longitude website)a
+  @permitted ~w(name slug street city region country country_code postal_code latitude longitude website description)a
   @required ~w(name slug)a
 
   schema "venues" do
@@ -18,6 +18,7 @@ defmodule ElixirEvents.Venues.Venue do
     field :latitude, :decimal
     field :longitude, :decimal
     field :website, :string
+    field :description, :string
 
     timestamps()
   end

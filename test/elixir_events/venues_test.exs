@@ -63,4 +63,28 @@ defmodule ElixirEvents.VenuesTest do
       assert [_only_one] = Venues.list_venues()
     end
   end
+
+  describe "venue description" do
+    test "upsert_venue/1 stores description field" do
+      {:ok, venue} =
+        Venues.upsert_venue(%{
+          name: "Test Venue",
+          slug: "test-venue",
+          city: "Portland",
+          description: "A beautiful conference center in downtown Portland."
+        })
+
+      assert venue.description == "A beautiful conference center in downtown Portland."
+    end
+
+    test "upsert_venue/1 works without description" do
+      {:ok, venue} =
+        Venues.upsert_venue(%{
+          name: "Minimal Venue",
+          slug: "minimal-venue"
+        })
+
+      assert venue.description == nil
+    end
+  end
 end
