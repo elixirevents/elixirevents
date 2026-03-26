@@ -39,9 +39,10 @@ const VenueMapHook = {
       (document.documentElement.dataset.theme !== "light" &&
        window.matchMedia("(prefers-color-scheme: dark)").matches)
 
+    // Start zoomed out (world view), then fly to venue
     this.map = L.map(this.el, {
       center: [lat, lng],
-      zoom: 15,
+      zoom: 3,
       zoomControl: false,
       attributionControl: true,
       scrollWheelZoom: false,
@@ -64,9 +65,33 @@ const VenueMapHook = {
       popupAnchor: [0, -42]
     })
 
-    L.marker([lat, lng], { icon: markerIcon })
-      .addTo(this.map)
-      .bindPopup(`<strong>${name}</strong>`, { className: "venue-popup" })
+    const marker = L.marker([lat, lng], { icon: markerIcon }).addTo(this.map)
+    marker.bindPopup(`<strong>${name}</strong>`, { className: "venue-popup" })
+
+    // Fly in from world view when map becomes visible
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+
+    if (prefersReducedMotion) {
+      this.map.setView([lat, lng], 15)
+    } else {
+      this._flyObserver = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting) {
+            this.map.flyTo([lat, lng], 15, {
+              duration: 2.2,
+              easeLinearity: 0.15
+            })
+            this._flyObserver.disconnect()
+          }
+        },
+        { threshold: 0.3 }
+      )
+      this._flyObserver.observe(this.el)
+    }
+
+    // Enable scroll zoom only when mouse is over the map (prevents hijacking page scroll)
+    this.el.addEventListener("mouseenter", () => this.map.scrollWheelZoom.enable())
+    this.el.addEventListener("mouseleave", () => this.map.scrollWheelZoom.disable())
 
     // Move attribution to bottom-right, keep it subtle
     this.map.attributionControl.setPrefix("")
@@ -98,6 +123,9 @@ const VenueMapHook = {
     }
     if (this._themeObserver) {
       this._themeObserver.disconnect()
+    }
+    if (this._flyObserver) {
+      this._flyObserver.disconnect()
     }
   }
 }

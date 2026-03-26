@@ -529,7 +529,7 @@ defmodule ElixirEventsWeb.BrandComponents do
         data-lat={@venue.latitude}
         data-lng={@venue.longitude}
         data-name={@venue.name}
-        class="venue-map-container w-full h-[220px]"
+        class="venue-map-container w-full h-[320px]"
       >
       </div>
       <div class="p-5">
