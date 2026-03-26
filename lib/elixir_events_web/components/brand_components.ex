@@ -289,21 +289,41 @@ defmodule ElixirEventsWeb.BrandComponents do
     ~H"""
     <div class="group">
       <.link navigate={talk_path(@talk)} class="block relative rounded-xl overflow-hidden mb-4">
-        <%!-- YouTube thumbnail or gradient fallback --%>
-        <div :if={talk_thumbnail_url(@talk)} class="aspect-video">
-          <img
-            src={talk_thumbnail_url(@talk)}
-            alt={@talk.title}
-            class="w-full h-full object-cover"
-            loading="lazy"
-          />
-        </div>
-        <div
-          :if={!talk_thumbnail_url(@talk)}
-          class="aspect-video"
-          style={ElixirEvents.Colors.card_style(@talk.title)}
-        >
-        </div>
+        <%= if @talk.kind == :workshop do %>
+          <%!-- Workshop card: branded gradient with icon --%>
+          <div
+            class="aspect-video flex flex-col items-center justify-center gap-3 text-white"
+            style={ElixirEvents.Colors.card_style(@talk.title)}
+          >
+            <div class="w-12 h-12 rounded-full bg-white/15 backdrop-blur-sm flex items-center justify-center">
+              <svg class="w-6 h-6 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+                />
+              </svg>
+            </div>
+            <span class="text-xs font-semibold text-white/60 uppercase tracking-wider">Training</span>
+          </div>
+        <% else %>
+          <%!-- YouTube thumbnail or gradient fallback --%>
+          <div :if={talk_thumbnail_url(@talk)} class="aspect-video">
+            <img
+              src={talk_thumbnail_url(@talk)}
+              alt={@talk.title}
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div
+            :if={!talk_thumbnail_url(@talk)}
+            class="aspect-video"
+            style={ElixirEvents.Colors.card_style(@talk.title)}
+          >
+          </div>
+        <% end %>
 
         <%!-- Kind badge --%>
         <span class={[
@@ -320,15 +340,15 @@ defmodule ElixirEventsWeb.BrandComponents do
           {talk_kind_label(@talk.kind)}
         </span>
 
-        <%!-- Duration badge --%>
+        <%!-- Duration badge (skip for workshops — "8h" isn't useful) --%>
         <span
-          :if={format_duration(@talk.duration)}
+          :if={format_duration(@talk.duration) && @talk.kind != :workshop}
           class="absolute bottom-3 right-3 text-xs font-bold px-2 py-0.5 rounded-full bg-base-content/80 text-base-100"
         >
           {format_duration(@talk.duration)}
         </span>
 
-        <%!-- Play overlay (desktop hover only) --%>
+        <%!-- Play overlay (desktop hover only, not for workshops) --%>
         <div
           :if={has_recording?(@talk)}
           class="absolute inset-0 hidden items-center justify-center lg:group-hover:flex bg-black/30"

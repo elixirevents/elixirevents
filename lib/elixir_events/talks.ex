@@ -8,7 +8,8 @@ defmodule ElixirEvents.Talks do
   def list_talks(opts \\ []) do
     from(t in Talk,
       join: e in assoc(t, :event),
-      as: :event
+      as: :event,
+      where: t.kind != :workshop
     )
     |> maybe_filter(opts[:filter])
     |> maybe_sort(opts[:sort])
@@ -20,7 +21,8 @@ defmodule ElixirEvents.Talks do
   def paginate_talks(opts \\ []) do
     from(t in Talk,
       join: e in assoc(t, :event),
-      as: :event
+      as: :event,
+      where: t.kind != :workshop
     )
     |> maybe_filter(opts[:filter])
     |> maybe_search(opts[:search])
