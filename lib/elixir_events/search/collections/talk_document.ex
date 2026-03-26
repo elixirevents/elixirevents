@@ -28,6 +28,7 @@ defmodule ElixirEvents.Search.Collections.TalkDocument do
       duration: talk.duration || 0,
       event_name: talk.event.name,
       event_slug: talk.event.slug,
+      event_start_date: date_to_gregorian_days(talk.event.start_date),
       speaker_names: speaker_names,
       thumbnail_url: thumbnail_url || ""
     }
@@ -46,9 +47,13 @@ defmodule ElixirEvents.Search.Collections.TalkDocument do
         %{name: "duration", type: "int32", index: false, optional: true},
         %{name: "event_name", type: "string", index: true},
         %{name: "event_slug", type: "string", index: false},
+        %{name: "event_start_date", type: "int64", sort: true},
         %{name: "speaker_names", type: "string[]", index: true},
         %{name: "thumbnail_url", type: "string", index: false, optional: true}
       ]
     }
   end
+
+  defp date_to_gregorian_days(nil), do: 0
+  defp date_to_gregorian_days(%Date{} = date), do: Date.to_gregorian_days(date)
 end

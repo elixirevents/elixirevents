@@ -594,13 +594,13 @@ const CommandBarHook = {
     try {
       const results = await this._client.multiSearch.perform({
         searches: [
-          // Recent talks — fill the main column
+          // Recent talks — fill the main column (sorted by event date, newest first)
           {
             collection: "talks",
             q: "*",
             query_by: "title",
             per_page: 10,
-            sort_by: "_text_match:desc",
+            sort_by: "event_start_date:desc",
           },
           // Upcoming events — start_date >= today, ascending
           {

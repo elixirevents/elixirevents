@@ -37,10 +37,12 @@
 - name: "Andrea Leopardi"
   slug: "andrealeopardi"
   headline: "Elixir Core Team"
-  bio: "Member of the Elixir core team and engineering manager at Community."
+  bio: "Andrea is a human born in the ancient lands of central Italy. He loves programming, writing, and learning stuff. He’s a software architect, speaker, and member of the core team of the Elixir programming language. He also co-wrote a book about testing in Elixir. His weak spot is having red hair."
   social_links:
     - platform: github
       url: "https://github.com/whatyouhide"
+    - platform: twitter
+      url: https://x.com/whatyouhide
 
 - name: "Lars Wikman"
   slug: "larswikman"
@@ -4789,7 +4791,6 @@
   slug: "mattludwigs"
   headline: "Software Developer"
   bio: "Software Developer"
-
 
 - name: "Christopher Winter"
   slug: "christopherwinter"
