@@ -1,3 +1,35 @@
 <section>
-  <h1>Speakers — TODO</h1>
+  <.compact_hero event={@event} title="Speakers" />
+
+  <div :if={@keynote_speakers != []} class="mb-10">
+    <h2 class="font-display text-xl font-bold mb-4">Keynote Speakers</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <.speaker_card
+        :for={speaker <- @keynote_speakers}
+        speaker={speaker}
+        is_keynote={true}
+        talk_count={Map.get(@talk_counts, speaker.id, 0)}
+      />
+    </div>
+  </div>
+
+  <div :if={@regular_speakers != []}>
+    <h2 class="font-display text-xl font-bold mb-4">
+      Speakers
+      <span class="text-base-content/50 font-normal text-base ml-1">
+        ({length(@regular_speakers)})
+      </span>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <.speaker_card
+        :for={speaker <- @regular_speakers}
+        speaker={speaker}
+        talk_count={Map.get(@talk_counts, speaker.id, 0)}
+      />
+    </div>
+  </div>
+
+  <div :if={@keynote_speakers == [] and @regular_speakers == []}>
+    <p class="text-base-content/50">No speakers listed for this event yet.</p>
+  </div>
 </section>
