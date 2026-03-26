@@ -598,11 +598,23 @@ defmodule ElixirEventsWeb.BrandComponents do
             target="_blank"
             rel="noopener"
             class={[
-              "flex items-center justify-center rounded-lg border border-base-300 hover:border-primary/40 transition-all",
+              "flex items-center justify-center rounded-lg border border-base-300 hover:border-primary/40 transition-all bg-white/5",
               sponsor_size_classes(tier.level)
             ]}
+            title={sponsor.organization.name}
           >
-            <span class="text-base-content/60 font-medium" style={sponsor_font_size(tier.level)}>
+            <img
+              :if={sponsor.organization.logo_url}
+              src={sponsor.organization.logo_url}
+              alt={sponsor.organization.name}
+              class={["object-contain", sponsor_logo_classes(tier.level)]}
+              loading="lazy"
+            />
+            <span
+              :if={!sponsor.organization.logo_url}
+              class="text-base-content/60 font-medium"
+              style={sponsor_font_size(tier.level)}
+            >
               {sponsor.organization.name}
             </span>
           </a>
@@ -615,6 +627,10 @@ defmodule ElixirEventsWeb.BrandComponents do
   defp sponsor_size_classes(1), do: "h-16 px-6"
   defp sponsor_size_classes(2), do: "h-13 px-5"
   defp sponsor_size_classes(_), do: "h-12 px-4"
+
+  defp sponsor_logo_classes(1), do: "max-h-10 max-w-[140px]"
+  defp sponsor_logo_classes(2), do: "max-h-8 max-w-[120px]"
+  defp sponsor_logo_classes(_), do: "max-h-7 max-w-[100px]"
 
   defp sponsor_font_size(1), do: "font-size: 0.95rem"
   defp sponsor_font_size(2), do: "font-size: 0.85rem"
