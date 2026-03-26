@@ -28,7 +28,7 @@ defmodule ElixirEvents.Events.Event do
     field :tickets_url, :string
     field :banner_url, :string
     field :color, :string
-    field :venue_id, :integer
+    belongs_to :venue, ElixirEvents.Venues.Venue
 
     embeds_many :social_links, SocialLink, on_replace: :delete
 
