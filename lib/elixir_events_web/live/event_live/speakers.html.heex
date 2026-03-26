@@ -1,21 +1,12 @@
 <section>
   <.compact_hero event={@event} title="Speakers" />
 
-  <div class="mb-10">
-    <h2 class="font-display text-2xl font-bold text-base-content">
-      Speakers
-      <span class="text-base-content/50 font-normal text-lg ml-1">
-        ({length(@keynote_speakers) + length(@regular_speakers)})
-      </span>
-    </h2>
-    <p class="text-base-content/55 mt-1">
-      The people behind the talks at {@event.name}
-    </p>
-  </div>
-
   <%!-- Keynote speakers --%>
   <div :if={@keynote_speakers != []} class="mb-12">
-    <h2 class="font-display text-xl font-bold mb-5">Keynote Speakers</h2>
+    <h2 class="font-display text-xl font-bold mb-5">
+      Keynote Speakers
+      <span class="text-base-content/50 font-normal text-base ml-1">({length(@keynote_speakers)})</span>
+    </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <.speaker_card
         :for={speaker <- @keynote_speakers}
