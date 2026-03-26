@@ -588,20 +588,20 @@ defmodule ElixirEventsWeb.BrandComponents do
 
   def sponsor_display(assigns) do
     ~H"""
-    <div class="space-y-6">
-      <div :for={tier <- @tiers}>
-        <div class="text-[0.65rem] text-base-content/40 uppercase tracking-widest font-semibold mb-2.5">
+    <div class="space-y-8">
+      <div :for={tier <- @tiers} class="text-center">
+        <div class="text-[0.65rem] text-base-content/40 uppercase tracking-widest font-semibold mb-4">
           {tier.name}
         </div>
-        <div class="flex flex-wrap gap-3">
+        <div class={["flex flex-wrap items-center justify-center", sponsor_gap_classes(tier.level)]}>
           <a
             :for={sponsor <- tier.sponsors}
             href={sponsor.organization.website}
             target="_blank"
             rel="noopener"
             class={[
-              "flex items-center justify-center rounded-lg border border-base-300 hover:border-primary/40 transition-all bg-white/5",
-              sponsor_size_classes(tier.level)
+              "flex items-center justify-center rounded-xl transition-all hover:scale-105",
+              sponsor_pad_classes(tier.level)
             ]}
             title={sponsor.organization.name}
           >
@@ -609,12 +609,12 @@ defmodule ElixirEventsWeb.BrandComponents do
               :if={sponsor.organization.logo_url}
               src={sponsor.organization.logo_url}
               alt={sponsor.organization.name}
-              class={["object-contain", sponsor_logo_classes(tier.level)]}
+              class={["object-contain drop-shadow-sm", sponsor_logo_classes(tier.level)]}
               loading="lazy"
             />
             <span
               :if={!sponsor.organization.logo_url}
-              class="text-base-content/60 font-medium"
+              class="text-base-content/60 font-semibold"
               style={sponsor_font_size(tier.level)}
             >
               {sponsor.organization.name}
@@ -626,13 +626,17 @@ defmodule ElixirEventsWeb.BrandComponents do
     """
   end
 
-  defp sponsor_size_classes(1), do: "h-16 px-6"
-  defp sponsor_size_classes(2), do: "h-13 px-5"
-  defp sponsor_size_classes(_), do: "h-12 px-4"
+  defp sponsor_gap_classes(1), do: "gap-8"
+  defp sponsor_gap_classes(2), do: "gap-6"
+  defp sponsor_gap_classes(_), do: "gap-5"
 
-  defp sponsor_logo_classes(1), do: "max-h-10 max-w-[140px]"
-  defp sponsor_logo_classes(2), do: "max-h-8 max-w-[120px]"
-  defp sponsor_logo_classes(_), do: "max-h-7 max-w-[100px]"
+  defp sponsor_pad_classes(1), do: "bg-white/90 rounded-xl px-6 py-4"
+  defp sponsor_pad_classes(2), do: "bg-white/90 rounded-lg px-5 py-3"
+  defp sponsor_pad_classes(_), do: "bg-white/85 rounded-lg px-4 py-2.5"
+
+  defp sponsor_logo_classes(1), do: "max-h-12 max-w-[180px]"
+  defp sponsor_logo_classes(2), do: "max-h-10 max-w-[150px]"
+  defp sponsor_logo_classes(_), do: "max-h-8 max-w-[120px]"
 
   defp sponsor_font_size(1), do: "font-size: 0.95rem"
   defp sponsor_font_size(2), do: "font-size: 0.85rem"
