@@ -1,40 +1,35 @@
 <section>
   <.compact_hero event={@event} title="Talks" />
 
-  <%!-- Filter pills + count --%>
-  <div class="flex flex-wrap items-center justify-between gap-4 mb-8">
-    <div class="flex gap-2 flex-wrap">
-      <button
-        phx-click="filter-kind"
-        phx-value-kind="all"
-        class={[
-          "px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all",
-          if(@selected_kind == nil,
-            do: "bg-primary border-primary text-white",
-            else: "border-base-300 text-base-content/60 hover:border-primary/40 hover:text-base-content"
-          )
-        ]}
-      >
-        All ({length(@talks)})
-      </button>
-      <button
-        :for={kind <- @kinds}
-        phx-click="filter-kind"
-        phx-value-kind={kind}
-        class={[
-          "px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all",
-          if(@selected_kind == kind,
-            do: "bg-primary border-primary text-white",
-            else: "border-base-300 text-base-content/60 hover:border-primary/40 hover:text-base-content"
-          )
-        ]}
-      >
-        {talk_kind_label(kind)} ({Enum.count(@talks, &(&1.kind == kind))})
-      </button>
-    </div>
-    <span class="text-sm text-base-content/40">
-      {length(@filtered_talks)} {if length(@filtered_talks) == 1, do: "talk", else: "talks"}
-    </span>
+  <%!-- Filter toolbar — matches main talks index style --%>
+  <div class="flex items-center gap-1 p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50 mb-8 overflow-x-auto scrollbar-none">
+    <button
+      phx-click="filter-kind"
+      phx-value-kind="all"
+      class={[
+        "px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 whitespace-nowrap",
+        if(@selected_kind == nil,
+          do: "bg-primary text-primary-content shadow-sm",
+          else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+        )
+      ]}
+    >
+      All ({length(@talks)})
+    </button>
+    <button
+      :for={kind <- @kinds}
+      phx-click="filter-kind"
+      phx-value-kind={kind}
+      class={[
+        "px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 whitespace-nowrap",
+        if(@selected_kind == kind,
+          do: "bg-primary text-primary-content shadow-sm",
+          else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+        )
+      ]}
+    >
+      {talk_kind_label(kind)} ({Enum.count(@talks, &(&1.kind == kind))})
+    </button>
   </div>
 
   <%!-- Talk grid --%>
@@ -47,6 +42,8 @@
 
   <%!-- Empty filter state --%>
   <div :if={@filtered_talks == []} class="py-16 text-center">
-    <p class="text-base-content/40">No {if @selected_kind, do: talk_kind_label(@selected_kind) |> String.downcase(), else: ""} talks found.</p>
+    <p class="text-base-content/40">
+      No {if @selected_kind, do: talk_kind_label(@selected_kind) |> String.downcase(), else: ""} talks found.
+    </p>
   </div>
 </section>
