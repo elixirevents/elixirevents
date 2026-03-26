@@ -39,10 +39,10 @@ const VenueMapHook = {
       (document.documentElement.dataset.theme !== "light" &&
        window.matchMedia("(prefers-color-scheme: dark)").matches)
 
-    // Start zoomed out (world view), then fly to venue
+    // Start at regional view, then fly to venue
     this.map = L.map(this.el, {
       center: [lat, lng],
-      zoom: 3,
+      zoom: 10,
       zoomControl: false,
       attributionControl: true,
       scrollWheelZoom: false,
@@ -78,8 +78,8 @@ const VenueMapHook = {
         (entries) => {
           if (entries[0].isIntersecting) {
             this.map.flyTo([lat, lng], 15, {
-              duration: 2.2,
-              easeLinearity: 0.15
+              duration: 1.5,
+              easeLinearity: 0.25
             })
             this._flyObserver.disconnect()
           }
