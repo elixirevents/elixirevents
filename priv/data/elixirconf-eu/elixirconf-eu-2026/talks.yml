@@ -1,0 +1,515 @@
+## Keynotes
+
+- title: "The Latest on Elixir Types"
+  slug: "keynote-the-latest-on-elixir-types"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 45
+  abstract: "Covers Elixir v1.20's progress toward completing the first type system milestone by introducing type inference across all language constructs."
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - type-system
+
+- title: "DurableServer: Always Running Somewhere"
+  slug: "keynote-durableserver-always-running-somewhere"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 45
+  abstract: "Extends GenServer with automatic state persistence and distributed coordination. Processes survive node failures and move between machines."
+  speakers:
+    - chrismccord
+  topics:
+    - phoenix
+    - otp
+
+- title: "One Monolith, Many Teams: Growing an Org with Elixir"
+  slug: "keynote-one-monolith-many-teams"
+  kind: keynote
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "How Remote scaled from one engineering team to fifty teams on a shared Elixir monolith. Covers domain boundaries, compile-time dependency management, and ownership-driven observability."
+  speakers:
+    - sofiasilva
+    - andrealbuquerque
+  topics:
+    - elixir
+
+## Talks
+
+- title: "Agentic Elixir"
+  slug: "agentic-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "How coding agents and LLMs interact with Elixir's strengths. Why test suite startup time compounds into agent bottlenecks."
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - ai
+
+- title: "Distilling the Stream: Kafka-Backed Elixir at Scale"
+  slug: "distilling-the-stream-kafka-backed-elixir-at-scale"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "How Fresha integrates Kafka into Elixir at production scale with standardized patterns."
+  speakers:
+    - antonborisov
+    - piotrrybarczyk
+  topics:
+    - elixir
+    - kafka
+
+- title: "Deterministic LLM UI Rendering in Phoenix LiveView"
+  slug: "deterministic-llm-ui-rendering-in-phoenix-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Transforms unreliable LLM-generated UI into dependable interfaces using custom Markdown blocks in LiveView."
+  speakers:
+    - anthonyleiro
+  topics:
+    - liveview
+    - ai
+
+- title: "Hologram: The Journey to Local-First Elixir in the Browser"
+  slug: "hologram-the-journey-to-local-first-elixir-in-the-browser"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Explores building Local-First applications with pure Elixir in the browser."
+  speakers:
+    - bartblast
+  topics:
+    - elixir
+
+- title: "Surveyor: Extracting Specifications from Legacy Software with Elixir"
+  slug: "surveyor-extracting-specifications-from-legacy-software"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Toolkit for generating documentation and specifications from existing codebases using AI techniques."
+  speakers:
+    - chrisbeck
+  topics:
+    - elixir
+    - ai
+
+- title: "A Murder of LiveViews: Distributed Load Testing with AMoC and FLAME"
+  slug: "a-murder-of-liveviews-distributed-load-testing"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Distributed load testing for LiveView applications measuring mount latency and event round-trip times."
+  speakers:
+    - cobybenveniste
+  topics:
+    - liveview
+    - testing
+
+- title: "Atomic-Scale Elixir"
+  slug: "atomic-scale-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Elixir on resource-constrained microcontrollers using AtomVM for IoT projects."
+  speakers:
+    - davidebettio
+  topics:
+    - elixir
+    - embedded
+
+- title: "Live Coding a Nerves Robot with LiveBook"
+  slug: "live-coding-a-nerves-robot-with-livebook"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Building a self-balancing robot using Nerves, programmed through LiveBook."
+  speakers:
+    - dennispalmer
+  topics:
+    - nerves
+    - livebook
+
+- title: "Legion: Agentic Code Execution with Pure Elixir"
+  slug: "legion-agentic-code-execution-with-pure-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Enables LLMs to execute verified code in isolated sandboxes, spawn agents, and respond to real-time events."
+  speakers:
+    - dimamikielewicz
+  topics:
+    - elixir
+    - ai
+
+- title: "Elixir Beyond Phoenix: Building a Game Server"
+  slug: "elixir-beyond-phoenix-building-a-game-server"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Live refactoring a single-player roguelike into multiplayer using Elixir's actor model."
+  speakers:
+    - ellysecedeno
+  topics:
+    - elixir
+    - otp
+
+- title: "Guaranteed Journeys"
+  slug: "guaranteed-journeys"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Replaced a legacy dashboard with Phoenix LiveView for B2B ride-hailing operations at Cabify."
+  speakers:
+    - gabrielortuno
+  topics:
+    - phoenix
+    - liveview
+
+- title: "Arcana: Production-Ready RAG Entirely in Elixir"
+  slug: "arcana-production-ready-rag-entirely-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Open-source RAG library using Nx, Bumblebee, and pgvector for retrieval-augmented generation on the BEAM."
+  speakers:
+    - georgeguimaraes
+  topics:
+    - elixir
+    - machine-learning
+    - ai
+
+- title: "Nerves, NIFs, and Snake"
+  slug: "nerves-nifs-and-snake"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Bringing Nerves support to a custom e-ink device with Rustler NIFs."
+  speakers:
+    - gusworkman
+  topics:
+    - nerves
+    - rust
+
+- title: "How Elixir Learns Types from Guards"
+  slug: "how-elixir-learns-types-from-guards"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "How the type system extracts type information from guard expressions."
+  speakers:
+    - guillaumeduboc
+  topics:
+    - elixir
+    - type-system
+    - compilers
+
+- title: "Distributed Erlang Lessons from Livebook"
+  slug: "distributed-erlang-lessons-from-livebook"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Three distributed Erlang techniques from Livebook's codebase."
+  speakers:
+    - hugobarauna
+  topics:
+    - erlang
+    - livebook
+
+- title: "Lit Up LiveView"
+  slug: "lit-up-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Web Components as a solution for client-side interactivity in LiveView using Lit."
+  speakers:
+    - idoleshkowitz
+  topics:
+    - liveview
+
+- title: "Hooked on Widgets"
+  slug: "hooked-on-widgets"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Function components with LiveView hooks for independent widgets."
+  speakers:
+    - jakublambrych
+  topics:
+    - liveview
+
+- title: "Elixir Is for DOING Things"
+  slug: "elixir-is-for-doing-things"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Exploring OTP's internal modules and NIF capabilities with Rustler and Zigler."
+  speakers:
+    - jasonstiebs
+  topics:
+    - elixir
+    - otp
+    - rust
+
+- title: "AI-Powered Search at Scale"
+  slug: "ai-powered-search-at-scale"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Frame.io's AI-powered search using Llama 4 and Broadway pipelines."
+  speakers:
+    - jeffweiss
+  topics:
+    - elixir
+    - ai
+
+- title: "Building Real-Time AI Agents with Elixir"
+  slug: "building-real-time-ai-agents-with-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Autonomous AI agents at scale using GenServers and supervision trees."
+  speakers:
+    - kimutaikiprotich
+  topics:
+    - elixir
+    - ai
+    - otp
+
+- title: "Exploring State Management in Phoenix LiveView"
+  slug: "exploring-state-management-in-phoenix-liveview"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "State management challenges and patterns in LiveView."
+  speakers:
+    - krzysztofnalepa
+  topics:
+    - liveview
+
+- title: "The Everything App"
+  slug: "the-everything-app"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "ExNVR by Evercam — production video recorder using Phoenix, Membrane, Nerves, and Nx."
+  speakers:
+    - larswikman
+  topics:
+    - phoenix
+    - nerves
+
+- title: "Rebuilding Workflow Orchestration in Elixir: The Story of Gust"
+  slug: "rebuilding-workflow-orchestration-in-elixir-the-story-of-gust"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Durable workflow orchestration replacing Python/Airflow."
+  speakers:
+    - marcioklepacz
+  topics:
+    - elixir
+    - otp
+
+- title: "Broadcasting Your Terminal with Asciinema"
+  slug: "broadcasting-your-terminal-with-asciinema"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Terminal streaming architecture with Rust integration and LiveView previews."
+  speakers:
+    - marcinkulik
+  topics:
+    - elixir
+    - rust
+    - liveview
+
+- title: "Testing Concurrency and Fault Tolerance in Elixir/Nerves"
+  slug: "testing-concurrency-and-fault-tolerance-in-elixir-nerves"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Real-world audiovisual sensor network testing."
+  speakers:
+    - martahabdas
+  topics:
+    - testing
+    - nerves
+
+- title: "Let's Cut the Cord: Bringing LiveView to the Client with Popcorn"
+  slug: "lets-cut-the-cord-bringing-liveview-to-the-client-with-popcorn"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Executing Phoenix LiveView natively in browsers."
+  speakers:
+    - mateuszfront
+  topics:
+    - liveview
+
+- title: "Your First AI Feature in Elixir"
+  slug: "your-first-ai-feature-in-elixir"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Voice-controlled lighting on Raspberry Pi with Membrane and Nx."
+  speakers:
+    - misaelperez
+  topics:
+    - elixir
+    - ai
+    - nerves
+
+- title: "Background Jobs with Elixir: Oban in the Real World"
+  slug: "background-jobs-with-elixir-oban-in-the-real-world"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Scaling Oban with rate-limiting, distributed patterns, and PostgreSQL health."
+  speakers:
+    - noelialencina
+  topics:
+    - elixir
+    - oban
+
+- title: "Union of the Snake"
+  slug: "union-of-the-snake"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Porting a BEAM-inspired concurrent framework from Elixir to Python."
+  speakers:
+    - parkerselbert
+    - shannonselbert
+  topics:
+    - otp
+    - erlang
+
+- title: "Mapping the Cloud with Elixir"
+  slug: "mapping-the-cloud-with-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Deployed Erlang cluster across 100+ datacenters to visualize global infrastructure."
+  speakers:
+    - peterullrich
+  topics:
+    - elixir
+    - erlang
+    - deployment
+
+- title: "The Hitchhikers Guide to Distributing Code & Math Across Africa"
+  slug: "the-hitchhikers-guide-to-distributing-code-and-math-across-africa"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Distributing self-hostable software offline in Africa."
+  speakers:
+    - princetonpoh
+    - vivekbala
+  topics:
+    - elixir
+    - deployment
+
+- title: "Billions of Records, Three Engineers"
+  slug: "billions-of-records-three-engineers"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Tolemi's migration handling 2 billion records/day with Elixir."
+  speakers:
+    - silviazeamer
+  topics:
+    - elixir
+    - ecto
+
+- title: "Update from the Phoenix Team"
+  slug: "update-from-the-phoenix-team"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Recent Phoenix and LiveView releases and roadmap."
+  speakers:
+    - steffendeusch
+  topics:
+    - phoenix
+    - liveview
+
+- title: "From Idea to Traction: Using Elixir to Ship Fast"
+  slug: "from-idea-to-traction-using-elixir-to-ship-fast"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Rapid product development with LiveView and AI tools."
+  speakers:
+    - tetianadushenkivska
+  topics:
+    - elixir
+    - liveview
+    - ai
+
+- title: "Building Desktop Apps with ElixirKit and Tauri"
+  slug: "building-desktop-apps-with-elixirkit-and-tauri"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Cross-platform desktop applications using ElixirKit and Tauri."
+  speakers:
+    - wojtekmach
+  topics:
+    - elixir
+
+- title: "Model the Work: Real Life Workloads with Ash & Oban"
+  slug: "model-the-work-real-life-workloads-with-ash-and-oban"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Production workflows modeled as domain entities with Ash and Oban."
+  speakers:
+    - zachdaniel
+  topics:
+    - elixir
+    - oban

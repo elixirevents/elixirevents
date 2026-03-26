@@ -52,14 +52,18 @@
   website: "https://viff.org"
   description: "The Vancouver International Film Festival's dedicated screening and event centre in the heart of downtown Vancouver."
 
-- name: "NH Malaga"
+- name: "NH Málaga"
   slug: "nh-malaga"
   street: "C. San Jacinto 2"
-  city: "Malaga"
+  city: "Málaga"
+  region: "Andalusia"
   country: "Spain"
   country_code: "ES"
   postal_code: "29007"
-  description: "A modern hotel and conference venue in the historic centre of Malaga, steps from the city's museums and Mediterranean waterfront."
+  latitude: 36.7213
+  longitude: -4.4214
+  website: "https://www.nh-hotels.com/en/hotel/nh-malaga"
+  description: "A modern hotel in the heart of Málaga with excellent convention facilities, just minutes from the historic city center and Mediterranean coast."
 
 - name: "voco Chicago Downtown"
   slug: "voco-chicago"

@@ -4867,3 +4867,93 @@
       url: https://github.com/sramkrishna
     - platform: linkedin
       url: https://www.linkedin.com/in/sriram-ramkrishna/
+
+- name: "Anton Borisov"
+  slug: "antonborisov"
+  headline: "Software Engineer at Fresha"
+  is_speaker: true
+
+- name: "Piotr Rybarczyk"
+  slug: "piotrrybarczyk"
+  headline: "Software Engineer at Fresha"
+  is_speaker: true
+
+- name: "Anthony Leiro"
+  slug: "anthonyleiro"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Coby Benveniste"
+  slug: "cobybenveniste"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Ellyse Cedeno"
+  slug: "ellysecedeno"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Gabriel Ortuño"
+  slug: "gabrielortuno"
+  headline: "Software Engineer at Cabify"
+  is_speaker: true
+
+- name: "Ido Leshkowitz"
+  slug: "idoleshkowitz"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Jakub Lambrych"
+  slug: "jakublambrych"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Kimutai Kiprotich"
+  slug: "kimutaikiprotich"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Marcio Klepacz"
+  slug: "marcioklepacz"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Marcin Kulik"
+  slug: "marcinkulik"
+  headline: "Creator of asciinema"
+  is_speaker: true
+
+- name: "Marta Habdas"
+  slug: "martahabdas"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Misael Perez Chamorro"
+  slug: "misaelperez"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Noelia Lencina"
+  slug: "noelialencina"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Princeton Poh"
+  slug: "princetonpoh"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "A. Vivekbala"
+  slug: "vivekbala"
+  headline: "Software Engineer"
+  is_speaker: true
+
+- name: "Silvia Zeamer"
+  slug: "silviazeamer"
+  headline: "Engineer at Tolemi"
+  is_speaker: true
+
+- name: "Steffen Deusch"
+  slug: "steffendeusch"
+  headline: "Phoenix Core Team"
+  is_speaker: true

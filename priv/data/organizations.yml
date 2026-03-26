@@ -12,3 +12,38 @@
   slug: "erlang-solutions"
   website: "https://www.erlang-solutions.com"
   description: "Experts in Erlang, Elixir, and distributed systems"
+
+- name: "Remedy Meds"
+  slug: "remedy-meds"
+  website: "https://www.remedymeds.com"
+  description: "Healthcare technology company"
+
+- name: "Curiosum"
+  slug: "curiosum"
+  website: "https://curiosum.com"
+  description: "Elixir and Phoenix software development company"
+
+- name: "Remote"
+  slug: "remote"
+  website: "https://remote.com"
+  description: "Global HR platform for distributed teams"
+
+- name: "WyeWorks"
+  slug: "wyeworks"
+  website: "https://www.wyeworks.com"
+  description: "Software development consultancy specializing in Elixir and Ruby"
+
+- name: "AppSignal"
+  slug: "appsignal"
+  website: "https://www.appsignal.com"
+  description: "Application monitoring for Elixir, Ruby, and Node.js"
+
+- name: "9elements"
+  slug: "9elements"
+  website: "https://9elements.com"
+  description: "Software and design agency"
+
+- name: "Fresha"
+  slug: "fresha"
+  website: "https://www.fresha.com"
+  description: "Beauty and wellness booking platform built with Elixir"

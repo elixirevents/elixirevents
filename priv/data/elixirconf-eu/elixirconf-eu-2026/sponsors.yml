@@ -1,0 +1,27 @@
+- name: "Platinum"
+  level: 1
+  sponsors:
+    - slug: "remedy-meds"
+    - slug: "erlang-solutions"
+
+- name: "Gold"
+  level: 2
+  sponsors:
+    - slug: "curiosum"
+    - slug: "remote"
+    - slug: "wyeworks"
+
+- name: "Silver"
+  level: 3
+  sponsors:
+    - slug: "appsignal"
+
+- name: "Lanyard"
+  level: 4
+  sponsors:
+    - slug: "9elements"
+
+- name: "Diversity & Inclusion"
+  level: 5
+  sponsors:
+    - slug: "fresha"
