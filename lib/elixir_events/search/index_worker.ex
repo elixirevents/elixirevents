@@ -55,7 +55,7 @@ defmodule ElixirEvents.Search.IndexWorker do
       {:ok, {ecto_module, preloads}} ->
         import Ecto.Query
 
-        base_query = from(r in ecto_module, order_by: [asc: r.id])
+        base_query = reindex_query(schema_name, ecto_module)
         batch_size = 100
 
         Stream.resource(
@@ -87,5 +87,35 @@ defmodule ElixirEvents.Search.IndexWorker do
       :error ->
         {:error, "Unknown schema: #{schema_name}"}
     end
+  end
+
+  # Profile needs talk_count (virtual field via join)
+  defp reindex_query("Profile", ecto_module) do
+    import Ecto.Query
+
+    from(p in ecto_module,
+      left_join: ts in assoc(p, :talk_speakers),
+      group_by: p.id,
+      order_by: [asc: p.id],
+      select_merge: %{talk_count: count(ts.id)}
+    )
+  end
+
+  # Topic needs talk_count and event_count (virtual fields via joins)
+  defp reindex_query("Topic", ecto_module) do
+    import Ecto.Query
+
+    from(t in ecto_module,
+      left_join: tt in assoc(t, :talk_topics),
+      left_join: et in assoc(t, :event_topics),
+      group_by: t.id,
+      order_by: [asc: t.id],
+      select_merge: %{talk_count: count(tt.id, :distinct), event_count: count(et.id, :distinct)}
+    )
+  end
+
+  defp reindex_query(_schema_name, ecto_module) do
+    import Ecto.Query
+    from(r in ecto_module, order_by: [asc: r.id])
   end
 end

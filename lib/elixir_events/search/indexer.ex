@@ -56,6 +56,41 @@ defmodule ElixirEvents.Search.Indexer do
     end
   end
 
+  def load_record("Profile", id) do
+    import Ecto.Query
+
+    query =
+      from(p in ElixirEvents.Profiles.Profile,
+        left_join: ts in assoc(p, :talk_speakers),
+        where: p.id == ^id,
+        group_by: p.id,
+        select_merge: %{talk_count: count(ts.id)}
+      )
+
+    case Repo.one(query) do
+      nil -> {:error, "Record not found: Profile #{id}"}
+      record -> {:ok, record}
+    end
+  end
+
+  def load_record("Topic", id) do
+    import Ecto.Query
+
+    query =
+      from(t in ElixirEvents.Topics.Topic,
+        left_join: tt in assoc(t, :talk_topics),
+        left_join: te in assoc(t, :event_topics),
+        where: t.id == ^id,
+        group_by: t.id,
+        select_merge: %{talk_count: count(tt.id, :distinct), event_count: count(te.id, :distinct)}
+      )
+
+    case Repo.one(query) do
+      nil -> {:error, "Record not found: Topic #{id}"}
+      record -> {:ok, record}
+    end
+  end
+
   def load_record(schema_name, id) do
     case Map.fetch(@schema_to_ecto, schema_name) do
       {:ok, {ecto_module, preloads}} ->
