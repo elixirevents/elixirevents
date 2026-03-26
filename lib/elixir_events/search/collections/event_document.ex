@@ -10,6 +10,18 @@ defmodule ElixirEvents.Search.Collections.EventDocument do
 
   @impl true
   def to_search_document(%ElixirEvents.Events.Event{} = event) do
+    series_name =
+      case event.event_series do
+        %{name: name} -> name
+        _ -> ""
+      end
+
+    venue_name =
+      case event.venue do
+        %{name: name} -> name
+        _ -> ""
+      end
+
     %{
       id: to_string(event.id),
       name: event.name,
@@ -21,6 +33,8 @@ defmodule ElixirEvents.Search.Collections.EventDocument do
       start_date: date_to_timestamp(event.start_date),
       end_date: date_to_timestamp(event.end_date),
       location: event.location || "",
+      series_name: series_name,
+      venue_name: venue_name,
       banner: event.banner_url || "",
       color: event.color || ""
     }
@@ -40,6 +54,8 @@ defmodule ElixirEvents.Search.Collections.EventDocument do
         %{name: "start_date", type: "int64", sort: true},
         %{name: "end_date", type: "int64", sort: true, optional: true},
         %{name: "location", type: "string", index: true, optional: true},
+        %{name: "series_name", type: "string", index: true, optional: true},
+        %{name: "venue_name", type: "string", index: true, optional: true},
         %{name: "banner", type: "string", index: false, optional: true},
         %{name: "color", type: "string", index: false, optional: true}
       ],

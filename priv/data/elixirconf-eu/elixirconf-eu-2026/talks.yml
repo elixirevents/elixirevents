@@ -29,8 +29,8 @@
   speakers:
     - chrismccord
   topics:
-    - phoenix
     - otp
+    - distribution
 
 - title: "One Monolith, Many Teams: Growing an Org with Elixir"
   slug: "keynote-one-monolith-many-teams"
@@ -38,7 +38,12 @@
   level: intermediate
   language: en
   duration: 45
-  abstract: "How Remote scaled from one engineering team to fifty teams on a shared Elixir monolith. Covers domain boundaries, compile-time dependency management, and ownership-driven observability."
+  abstract: |
+    Remote grew from a single engineering team into an organization with 50 engineering teams contributing to a large Elixir monolith. As the company expanded and AI continues to accelerate how we write and refactor code, the rate of change across our system keeps increasing.
+
+    In this keynote, we’ll share how we evolved our architecture and our organization to support that pace. From domain boundaries and compile-time dependency management to worker separation, ownership-driven observability, and a dedicated Dev Experience team, we’ll explore the tradeoffs and lessons of keeping a large monolith healthy and productive as it grows.
+
+    This is a story about scaling teams and systems together.
   speakers:
     - sofiasilva
     - andrealbuquerque
@@ -50,10 +55,17 @@
 - title: "Agentic Elixir"
   slug: "agentic-elixir"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 30
-  abstract: "How coding agents and LLMs interact with Elixir's strengths. Why test suite startup time compounds into agent bottlenecks."
+  abstract: |
+    Yeah yeah yeah agents and AI and LLMs. It’s one of those talks.
+
+    Coding agents, for now and obviously, are changing how we write software. How do these weird machinations fare against Elixir? In this talk, I’ll explore what makes Elixir uniquely suited to agentic workflows and where it falls short.
+
+    We’ll see why a few seconds in test suite startup time compound into minutes and hours of agent time, and a bunch more things like that. You’ll learn practical techniques for optimizing your Elixir codebase for having the best possible agentic experience (and, who knows, pleasing the agent robots in case the revolution ever comes).
+
+    A final disclaimer: I promise I’m not an AI fanatic—it’s a tool and I just try to get decent at using that tool. And I typed that em-dash back there, it wasn’t a robot.
   speakers:
     - andrealeopardi
   topics:
@@ -63,10 +75,17 @@
 - title: "Distilling the Stream: Kafka-Backed Elixir at Scale"
   slug: "distilling-the-stream-kafka-backed-elixir-at-scale"
   kind: talk
-  level: intermediate
+  level: advanced
   language: en
   duration: 30
-  abstract: "How Fresha integrates Kafka into Elixir at production scale with standardized patterns."
+  abstract: |
+    At Fresha, Kafka is a core part of how many of our Elixir applications are designed and operated. In this talk, we share how we build Kafka-backed applications in Elixir at scale: the patterns we standardised on, the trade-offs we made and the mistakes we learned from in production.
+
+    We’ll focus on how Kafka fits into application design rather than treating it as a generic messaging layer, and on how we make its use consistent and safe across teams.
+
+    We’ll also cover what we had to build and contribute to support this approach, including upstream work on kafka_ex (authentication, new compression codecs and support for newer Kafka APIs and protocol versions) and internal Elixir tooling, which we’re in the process of open-sourcing, that encodes core patterns such as partitioning and consumer concurrency, Inbox and Outbox patterns, retries with backoff, dead-letter handling, tracing and operational visibility.
+
+    This is a practical, opinionated talk based on real production experience, for teams building serious Kafka-based systems in Elixir.
   speakers:
     - antonborisov
     - piotrrybarczyk
@@ -80,7 +99,8 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Transforms unreliable LLM-generated UI into dependable interfaces using custom Markdown blocks in LiveView."
+  abstract: |
+    LLMs are excellent at text and unreliable at UI. This session shows how to extend Markdown into a deterministic UI contract in Phoenix LiveView by introducing custom blocks that represent interactive components not found in standard Markdown (suggestions, insight cards, charts). We’ll stream tokens (SSE), incrementally parse and validate blocks as they arrive, and render only a set of these custom components the moment each block becomes complete—progressively upgrading from plain Markdown to interactivity without flicker.
   speakers:
     - anthonyleiro
   topics:
@@ -93,11 +113,13 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Explores building Local-First applications with pure Elixir in the browser."
+  abstract: |
+    Since introducing Hologram at ElixirConf 2025, development has focused on building the foundations needed for Local-First applications with pure Elixir in the browser. This talk charts Hologram’s journey over the past year, showcasing concrete progress in client-side capabilities and developer tooling - each piece moving closer to true Local-First functionality. I’ll demonstrate practical examples of enhanced client-side features built entirely in Elixir, discuss the architectural decisions that enable offline-first patterns, and explain how each improvement contributes to the larger Local-First vision. Attendees will see working code, understand the technical building blocks required for Local-First applications, and learn about the roadmap for bringing full Local-First capabilities to the Elixir ecosystem.
   speakers:
     - bartblast
   topics:
     - elixir
+    - hologram
 
 - title: "Surveyor: Extracting Specifications from Legacy Software with Elixir"
   slug: "surveyor-extracting-specifications-from-legacy-software"
@@ -105,12 +127,26 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Toolkit for generating documentation and specifications from existing codebases using AI techniques."
+  abstract: |
+    Legacy software can quickly become a team’s nemesis. A codebase earns the ‘legacy’ label the moment its maintainers lose confidence - and motivation - in it. During the onboarding process, you sometimes hear, ‘And then there’s this legacy system…’. This is shorthand for a part of the architecture that the team no longer believes can meet modern expectations of technology, structure or style.
+
+    Replacing legacy software is especially challenging if it was created ad hoc; in an agile, manner but undocumented. Without specifications. Estimating the effort required for a rewrite becomes little more than an educated guess, and nobody can be sure that every critical function has been accounted for.
+
+    Tools such as Cursor, Deepwiki and Claude can analyse code bases and assist with onboarding and documentation. But how do they work?
+
+    Can we create our own toolset and include game changing tools like Tidewave?
+
+    This talk will explore how commercial AI agents analyse code and demonstrate how these tools can be implemented in Elixir and on-premise.
+
+    Finally, we will introduce Surveyor: a toolkit that brings together these tools to generate documentation and specifications from a codebase.
   speakers:
     - chrisbeck
   topics:
     - elixir
     - ai
+    - code-intelligence
+    - engineering
+    - documentation
 
 - title: "A Murder of LiveViews: Distributed Load Testing with AMoC and FLAME"
   slug: "a-murder-of-liveviews-distributed-load-testing"
@@ -118,20 +154,25 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Distributed load testing for LiveView applications measuring mount latency and event round-trip times."
+  abstract: |
+    A little over a decade ago, Phoenix proved that it could handle 2 million WebSocket connections. A lot has changed since then, and with LiveView, the paradigm has shifted! Connections aren’t the only bottleneck anymore, your LiveView architecture is. How you structure Functional Components, LiveComponents, Streams, and Async Assigns all affect performance under load. How do you know your app can handle real traffic? This talk introduces a distributed approach using AMoC (“A Murder of Crows” from Erlang Solutions) and FLAME to coordinate thousands of users across elastically scaled compute. You’ll learn to write scenarios measuring what actually matters for LiveView performance: mount and event round-trip latencies, diff sizes, and LiveView performance across different LiveView patterns. We’ll explore the architecture, walk through scenario design, and depending on where progress is at, demonstrate spinning up distributed runners against a live application.
   speakers:
     - cobybenveniste
   topics:
     - liveview
-    - testing
+    - distribution
+    - flame
 
 - title: "Atomic-Scale Elixir"
   slug: "atomic-scale-elixir"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 30
-  abstract: "Elixir on resource-constrained microcontrollers using AtomVM for IoT projects."
+  abstract: |
+    Last year at ElixirConf EU 2025, we briefly introduced AtomVM and the new horizons on the web with Popcorn. This year, we’ll go deeper into the hardware world, discovering how Elixir can be used for physical computing, even on inexpensive, resource-constrained microcontrollers.
+
+    This talk will go beyond the introduction, with a hands-on approach to using AtomVM to build a real project, using the Elixir tools and workflow available today.
   speakers:
     - davidebettio
   topics:
@@ -144,7 +185,12 @@
   level: beginner
   language: en
   duration: 30
-  abstract: "Building a self-balancing robot using Nerves, programmed through LiveBook."
+  abstract: |
+    Several years ago, Dennis started reading the book “Arduino Robot Bonanza” by Gordon McComb. He had assumed that an Arduino was required to build robots like those described in the book, but has since discovered that a Raspberry Pi running Elixir via Nerves, along with Hex packages like Circuits.I2C could do much, if not all, the same things.
+
+    Inspired by the Teachbot platform described by McComb, he designed and 3D printed Wobbles, a self-balancing 2-wheel robot powered by Nerves and programmed via Livebook.
+
+    In this session, we will see a hands-on demo of using binary pattern matching in a GenServer to read the gyro/accelerometer data via I2C and control the motors to make Wobbles a little less wobbly. Then we’ll walk through how to use an ultrasonic distance sensor to help prevent collisions when he starts to move.
   speakers:
     - dennispalmer
   topics:
@@ -157,7 +203,8 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Enables LLMs to execute verified code in isolated sandboxes, spawn agents, and respond to real-time events."
+  abstract: |
+    Most AI agents are trapped in a “chat-and-call” loop, restricted by rigid function-calling interfaces. Legion breaks this cycle. It introduces a paradigm where agents don’t just request actions - they execute them. By allowing LLMs to run vetted Elixir code in isolated sandboxes, Legion enables agents to spawn other agents, exchange messages, and react to events in real-time. There is no new DSL or steep learning curve, Legion turns your pure modules and functions into an autonomous toolbox. You write the limbs - Legion provides the nervous system to orchestrate them.
   speakers:
     - dimamikielewicz
   topics:
@@ -170,7 +217,18 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Live refactoring a single-player roguelike into multiplayer using Elixir's actor model."
+  abstract: |
+    Is Elixir great for writing games? I’m not too sure about the client side, but for game servers, I think it’s a swell choice.
+
+    I’m familiar with game servers. I built an MMORPG server at a game platform startup I co-founded (in Java) and ran the tech groups for games at Nickelodeon, including an MMORPG for kids and Neopets.
+
+    In this talk, we’ll start with a simple single-player roguelike running in LiveView. Then, through a series of code reviews and live merges, we’ll turn it into a multiplayer game. You’ll get to connect and, who knows, perhaps even defeat the BBEG!
+
+    You’ll leave understanding why the actor model makes “add more players” straightforward - no promises, no mutexes, just processes talking to each other.
+
+    Bring your phone. You’re part of the demo.
+
+    Ellyse speaks about programming languages, distributed systems, and making complex things tangible. She’s based in Paris and can sometimes be found doing real work instead of having fun.
   speakers:
     - ellysecedeno
   topics:
@@ -183,11 +241,17 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Replaced a legacy dashboard with Phoenix LiveView for B2B ride-hailing operations at Cabify."
+  abstract: |
+    In the world of B2B ride-hailing, reliability is currency. Failing to assign a ride for a corporate client doesn’t just annoy a user—it jeopardizes entire enterprise contracts.
+
+    At Cabify, our operations team initially relied on a Looker Studio dashboard to manage these critical journeys. The result was frustration: data was stale due to polling, BigQuery costs were mounting, and agents were losing precious seconds waiting for refreshes while VIP clients waited for rides.
+
+    We needed a replacement that was real-time, cost-efficient, and reliable. We needed it immediately.
+
+    This talk dissects how a single backend developer replaced that legacy solution with a Phoenix LiveView dashboard in just two weeks, achieving a 99% assignment success rate.
   speakers:
     - gabrielortuno
   topics:
-    - phoenix
     - liveview
 
 - title: "Arcana: Production-Ready RAG Entirely in Elixir"
@@ -196,7 +260,20 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Open-source RAG library using Nx, Bumblebee, and pgvector for retrieval-augmented generation on the BEAM."
+  abstract: |
+    In this talk, I’ll introduce Arcana (https://github.com/georgeguimaraes/arcana), an open-source library that brings RAG to the BEAM. Using Nx and Bumblebee, Arcana runs embedding models locally, no external APIs needed. Combined with pgvector for vector storage and Phoenix LiveView for the dashboard, you get a complete RAG solution that feels native to Elixir.
+
+    We’ll cover:
+
+    - How RAG works and why it matters for AI applications
+    - Running embedding models locally with Nx and Bumblebee
+    - Efficient document chunking strategies
+    - Vector similarity search with pgvector
+    - Building agentic RAG pipelines: query expansion, re-ranking, and self-correcting answers
+    - Pluggable components via behaviour: swap any pipeline step with your own implementation
+    - Building an evaluation framework to measure retrieval quality
+    - You’ll leave with practical knowledge to add semantic search and agentic RAG capabilities to your Phoenix applications, keeping your AI stack simple, fast, and 100% Elixir.
+
   speakers:
     - georgeguimaraes
   topics:
@@ -210,7 +287,12 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Bringing Nerves support to a custom e-ink device with Rustler NIFs."
+  abstract: |
+    This talk will walk you through the process I went through of bringing Nerves support to a custom e-ink device. The story walks through the last year or so of development of this project, including a look at how a LiveView-like model for representing stateful systems can be applied to hardware and e-ink displays.
+
+    Several NIF libraries were developed for this project. I’ll discuss some of the reasons for using NIFs and tips for getting Rustler to play nice with Nerves.
+
+    Finally, I’ll show you my version of e-ink snake, and we’ll talk how you can get started building your own e-ink apps using the open source hardware designed for this project.
   speakers:
     - gusworkman
   topics:
@@ -223,7 +305,7 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "How the type system extracts type information from guard expressions."
+  abstract: "Elixir’s type system derives type information directly from guard expressions rather than introducing a separate type language. This talk examines the mechanics: how the checker interprets is_* guards as base types, how conjunction and disjunction translate to intersection and union types, and how negation types emerge from clause ordering. We’ll look at the inference rules, walk through non-obvious cases, and explore where the current implementation hits its limits."
   speakers:
     - guillaumeduboc
   topics:
@@ -237,12 +319,16 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Three distributed Erlang techniques from Livebook's codebase."
+  abstract: |
+    Livebook runs each notebook on its own BEAM node, connects to Phoenix apps transparently, and spins up runtimes on remote machines, all without EPMD. How?
+
+    In this talk, we’ll highlight three distributed Erlang techniques from Livebook’s source code. For each one, you’ll see the real-world Livebook feature first, then the Erlang primitive that powers it, followed by a simple standalone example you can use immediately.
   speakers:
     - hugobarauna
   topics:
     - erlang
     - livebook
+    - distribution
 
 - title: "Lit Up LiveView"
   slug: "lit-up-liveview"
@@ -250,7 +336,8 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Web Components as a solution for client-side interactivity in LiveView using Lit."
+  abstract: |
+    Almost every LiveView developer reaches a point where they need rich client-side interactivity - a textarea that resizes, a drop zone that responds to dragging, a button that manages its own state. These interactions don’t need the server, and LiveView isn’t designed to handle them. Web Components are a natural fit for this. Unlike framework-specific solutions, they require no integration layer - just custom HTML elements in your HEEx templates that react to attribute changes, exactly how LiveView already works. In this talk, I’ll share why this solution has worked so well for me and why I enjoy its simplicity. We’ll explore how Web Components align with LiveView’s model, then build a real component using Lit and integrate it into a LiveView application. You’ll leave with patterns you can apply immediately.
   speakers:
     - idoleshkowitz
   topics:
@@ -262,7 +349,10 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Function components with LiveView hooks for independent widgets."
+  abstract: |
+    Building reusable, stateful widgets in Phoenix LiveView has been challenging. LiveComponents can’t access the process mailbox for PubSub integration, while embedded LiveViews create performance overhead and complex communication patterns. This talk presents a battle-tested alternative: combining function components with LiveView hooks to create truly independent widgets.
+
+    You’ll learn how to leverage attach_hook/4 to build widgets that manage their own state, handle events, subscribe to PubSub, and seamlessly integrate into any LiveView — without coupling to parent implementations. Through a real-world notification widget example, we’ll demonstrate how this pattern delivers the best of both worlds: LiveComponent-like behavior with direct mailbox access.
   speakers:
     - jakublambrych
   topics:
@@ -274,7 +364,8 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Exploring OTP's internal modules and NIF capabilities with Rustler and Zigler."
+  abstract: |
+    Elixir and Erlang were created to solve problems in the real world. OTP is not just gen_servers and supervisors but a maximalist, batteries included standard library with a deep set documented and undocumented tools. And thanks to NIF’s there really is no limit to what we can accomplish on our computers. Join me on an exploration of some of OTP’s internals and hidden modules and learn about the incredible power of NIF’s.
   speakers:
     - jasonstiebs
   topics:
@@ -288,7 +379,8 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Frame.io's AI-powered search using Llama 4 and Broadway pipelines."
+  abstract: |
+    At Frame.io (Adobe), we built AI-powered search to help creative professionals find the exact shot or moment across millions of assets. This required two AI integrations: an LLM for natural language queries and vector embeddings for semantic visual search. Our LLM component uses Meta’s Llama 4 via AWS Bedrock, translating queries like “videos of people on beaches from last week” into OpenSearch DSL. For visual search, we generate vector embeddings using Adobe’s SearchCut API (CLIP-based models), enabling similarity searches without metadata. The challenge? Video embedding takes 30+ seconds per asset. Our Oban infrastructure—already split across four instances due to database contention—couldn’t handle this load without impacting critical jobs. Our solution: a multi-stage Broadway pipeline consuming from SQS. A router pipeline handles authorization and versioning, fanning out to dedicated embedding and transcription workers. This provides independent scaling, traffic buffering, and complete isolation from our job system. You’ll learn: practical LLM integration patterns, when to choose Broadway over Oban, and how to build observable AI pipelines in Elixir.
   speakers:
     - jeffweiss
   topics:
@@ -301,7 +393,12 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Autonomous AI agents at scale using GenServers and supervision trees."
+  abstract: |
+    Discover how Elixir’s concurrency model enables building autonomous AI agents that handle diverse tasks at massive scale. Whether you’re building agents for web scraping, managing logins across multiple platforms, or processing real-time data, Elixir provides the perfect foundation for reliable, fault-tolerant automation.
+
+    This talk explores practical patterns for building AI agents that work independently and handle millions of operations concurrently. We’ll look at how to integrate AI models with Elixir and use its built-in tools like GenServers and supervision trees to create agents that recover from failures automatically and never stop working.
+
+    You’ll learn proven strategies for common challenges: coordinating multiple agents working together, managing stateful operations like authenticated sessions, processing data in real-time, and scaling to handle massive workloads. We’ll cover real-world examples from web scraping to automated interactions across different platforms.
   speakers:
     - kimutaikiprotich
   topics:
@@ -315,7 +412,10 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "State management challenges and patterns in LiveView."
+  abstract: |
+    State management in Phoenix LiveView becomes increasingly challenging as applications grow in size and complexity. Some of these challenges are recurring ones familiar from other frontend libraries such as React, where developers often deal with shared state, prop drilling, and synchronizing data across components. Others are unique to LiveView’s server-driven model, including maintaining consistent state across nested LiveViews, coordinating updates, and dealing with state loss during disconnects or deployments.
+
+    In this talk, we will explore how these problems are currently addressed within the LiveView ecosystem, examining the tools, patterns, and workarounds developers rely on today. We will also look at how other frontend libraries approach similar challenges and identify which ideas can or cannot be translated into LiveView’s architecture. Finally, we will combine insights from both worlds to outline what simple, predictable, and resilient state management in LiveView could look like.
   speakers:
     - krzysztofnalepa
   topics:
@@ -327,12 +427,21 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "ExNVR by Evercam — production video recorder using Phoenix, Membrane, Nerves, and Nx."
+  abstract: |
+    Phoenix, LiveView, Membrane, Nerves and Nx. This talk shows a production app that exercises a large amount of the Elixir ecosystem. ExNVR by Evercam is a networked video recorder and an open source project. It streams video from multiple IP cameras to store on disk. We will grab frames from the stream to perform inference. We’ll display UI to the user. And we will do it on affordable embedded hardware at respectable speeds.
+
+    And we’ll learn some things along the way.
+
+    ExNVR runs on at least a thousand devices world-wide as part of Evercam.
   speakers:
     - larswikman
   topics:
     - phoenix
+    - liveview
+    - webrtc
     - nerves
+    - machine-learning
+    - ai
 
 - title: "Rebuilding Workflow Orchestration in Elixir: The Story of Gust"
   slug: "rebuilding-workflow-orchestration-in-elixir-the-story-of-gust"
@@ -340,7 +449,7 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Durable workflow orchestration replacing Python/Airflow."
+  abstract: "A case study on building Gust, a durable workflow orchestration system in Elixir, after getting frustrated with Python/Airflow. I’ll break down what “orchestration” really means, what Airflow does well (and where it gets heavy), then walk through Gust’s core pieces: task, scheduling, retries, logs/observability, and secrets. Finally, I’ll show how OTP supervision and lightweight processes enabled a simpler, more reliable engine with major efficiency and performance gains."
   speakers:
     - marcioklepacz
   topics:
@@ -353,7 +462,10 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Terminal streaming architecture with Rust integration and LiveView previews."
+  abstract: |
+    In this talk, we’ll take a look under the hood of asciinema server -the server-side component of asciinema suite for recording and live-streaming terminal sessions - and see how Elixir, Phoenix, and BEAM/OTP enable many great features with minimal effort and ceremony.
+
+    We’ll focus on live terminal streaming, a feature that lets you broadcast terminal sessions on the internet. From stream parsing, through integrating Rust, implementing GenServers that manage live stream state, to LiveView-powered previews (thumbnails), we’ll cover the whole pipeline.
   speakers:
     - marcinkulik
   topics:
@@ -367,24 +479,31 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Real-world audiovisual sensor network testing."
+  abstract: |
+    In my talk, I want to present how Elixir/Nerves performs in a real-world audiovisual sensor network. Using a large number of sensors - some interactive with user input, others environmental - and processing unreliable data can be very challenging, especially for long-running, unattended systems. Sensors can malfunction, and hardware components can fail. As Elixir comes with mechanisms like lightweight processes and isolation, which ensure fault tolerance, it could be a perfect choice in such cases.
+
+    As such systems aren’t easy to simulate, I plan to build a real prototype with physical sensors based on an architecture that combines Arduinos (as sensor controllers), Raspberry Pi (as the backbone of the project running Nerves/Elixir for event processing), and an audiovisual output layer. That allows testing the real system’s behaviour under sensor failures, process crashes, and unreliable data. The audiovisual nature of the project provides immediate visibility into the system in real-time. Thus, I’ll present the system during the talk with controlled audience interaction.
   speakers:
     - martahabdas
   topics:
-    - testing
     - nerves
+    - embedded
 
 - title: "Let's Cut the Cord: Bringing LiveView to the Client with Popcorn"
   slug: "lets-cut-the-cord-bringing-liveview-to-the-client-with-popcorn"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 30
-  abstract: "Executing Phoenix LiveView natively in browsers."
+  abstract: |
+    Phoenix LiveView revolutionized web development by moving state to the server, allowing developers to build rich, interactive experiences without the overhead of complex JavaScript frameworks. But this power comes with a physical constraint: the round-trip time to the server. For high-interactivity features or users on high-latency connections, it can still be a barrier to a truly “instant” feel.
+
+    In this talk, we explore a new frontier for the Elixir ecosystem: running LiveView natively in the browser. Local LiveView preserves the programming model we love — functional components, stateful processes, and HEEx templates — but executes them on the client side. By removing the requirement to reach the server for every event, we can achieve sub-millisecond latency and offline capabilities while staying within the Elixir paradigm.
   speakers:
     - mateuszfront
   topics:
     - liveview
+    - libraries
 
 - title: "Your First AI Feature in Elixir"
   slug: "your-first-ai-feature-in-elixir"
@@ -392,13 +511,14 @@
   level: beginner
   language: en
   duration: 30
-  abstract: "Voice-controlled lighting on Raspberry Pi with Membrane and Nx."
+  abstract: |
+    AI is showing up in everything lately, and as an Elixir engineer it’s not always obvious where to start without falling into the usual toy demos (Is this a banana?). In this talk I’ll share a real app that runs fully locally on a Raspberry Pi: a voice-controlled smart-light system where Elixir owns the whole stack. We’ll walk through the architecture from end to end. You’ll see how Membrane captures and chunks audio, how a Phoenix LiveView dashboard makes the system easy to observe and tweak, and where Nx/Axon fits when you want small, practical models like wake-word detection and intent classification. I’ll keep it grounded in the “how”: turning a rough prototype into something usable, collecting just enough data to train a first model, and wiring the pieces together so the result feels like a real feature, not a science project. By the end, you’ll have a clear picture of where Elixir fits in AI/ML today, plus a working smart control device in your house powered by Elixir that you can keep extending as you learn.
   speakers:
     - misaelperez
   topics:
     - elixir
     - ai
-    - nerves
+    - embedded
 
 - title: "Background Jobs with Elixir: Oban in the Real World"
   slug: "background-jobs-with-elixir-oban-in-the-real-world"
@@ -406,12 +526,19 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Scaling Oban with rate-limiting, distributed patterns, and PostgreSQL health."
+  abstract: |
+    Background jobs are a staple in any seasoned engineer’s toolbelt. But in an ecosystem where OTP is readily available and concurrency is a first-class citizen, where exactly does a library like Oban fit? And more importantly, what happens when you hit the “scaling wall” of 10 million jobs a day?
+
+    Thinking of background processing at this magnitude requires a shift in strategy. It’s no longer just about using the library, it’s about leveraging advanced database techniques and the full power of Distributed Elixir (Erlang). Drawing from a production-proven implementation, we will explore:
+    - The “Why”: A critical comparison of Oban vs. pure GenServers vs. Broadway. When is the overhead of a database-backed queue a feature, and when is it a bottleneck?
+    - The “How”: Solving real-world challenges including strict rate-limiting for brittle external APIs, managing job distribution across a multi-node cluster, and handling dynamic scheduling (from crontabs to self-enqueueing recursive workers).
+    - The “Cost”: Tactical patterns for maintaining Postgres health under high-volume job churn, focusing on index bloat, pruning, and transactional integrity.
   speakers:
     - noelialencina
   topics:
     - elixir
     - oban
+    - distribution
 
 - title: "Union of the Snake"
   slug: "union-of-the-snake"
@@ -419,7 +546,17 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Porting a BEAM-inspired concurrent framework from Elixir to Python."
+  abstract: |
+    How do you port a highly concurrent framework from Elixir—a platform with arguably the best concurrency story in the industry—to Python, a language with a flawed one at best? In this talk, we’ll show how we tried, and along the way managed to prove “Virding’s First Rule of Programming”.
+
+    This goes deeper than wrestling with mutability or the emotional burden of imperative loops. We’ll dig into the techniques we used to work around Python’s concurrency limitations in order to implement a BEAM-inspired architecture, including:
+    - Supervising autonomous objects
+    - Monitoring object lifecycles
+    - Replicating GenServers with async loops
+    - Communicating without native distribution
+    - You’ll have a renewed appreciation for Elixir: an expressive syntax, fantastic tooling, and a community that converges on a shared set of fundamental abstractions. Nothing clarifies the strengths of a system quite like trying to rebuild it elsewhere.
+
+    Come and learn how we blended Elixir’s sensibilities with Python’s semantics to build the best async, concurrent, distributed background job framework we could manage—and what we learned in the process.
   speakers:
     - parkerselbert
     - shannonselbert
@@ -433,7 +570,10 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Deployed Erlang cluster across 100+ datacenters to visualize global infrastructure."
+  abstract: |
+    The “Cloud” sometimes feels like this abstract thing you deploy your server to and otherwise forget about. But what does it look like? What pathways connect this globally spanning network of datacenters? I used Elixir to find out.
+
+    I deployed an Erlang cluster of tiny probes across 100+ datacenters on AWS, GCP, and Azure, collecting months of traceroute data in TimescaleDB to map the hidden topology of the cloud. This talk explores how I deployed the probes efficiently and cheaply, what the data revealed, and the practical challenges of running a globally distributed Elixir system.
   speakers:
     - peterullrich
   topics:
@@ -447,26 +587,41 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Distributing self-hostable software offline in Africa."
+  abstract: |
+    In the beginning, Joe Armstrong created Erlang and it was good. There was a network. Processes could finally talk to each other, nodes could find each other. There was no WIFI. There was no Android kernel engineer dropping multicast packets. There was no Internet.
+
+    Running reliable distributed software in the Africa harkens back to the early days, except for the conspicuous lack of trusty network cables filling up the room.
+
+    Join us on our journey to distributing software in the most unlikely places to find reliable networking in the 21st century.
+
+    From distributing self-hostable software on USB sticks to debugging distributed gossip-based broadcast networks in school computer labs 10,000 miles away with the help of a trusty community of mathophiles we befriended along the way.
   speakers:
     - princetonpoh
     - vivekbala
   topics:
     - elixir
     - deployment
+    - distribution
 
-- title: "Billions of Records, Three Engineers"
+- title: "Billions of Records, Three Engineers: Practical Data Orchestration in Elixir"
   slug: "billions-of-records-three-engineers"
   kind: talk
   level: intermediate
   language: en
   duration: 30
-  abstract: "Tolemi's migration handling 2 billion records/day with Elixir."
+  abstract: |
+    In 2018, we decided to rewrite our Groovy-based data platform in Elixir. Today, we run roughly 25,000 jobs processing 2 billion records per day in a single Elixir/Phoenix application. We (Tolemi) integrate with and combine hundreds of various data sources to provide municipal governments across the USA with daily spatial data insights.
+
+    In this talk, I’ll walk through the key design decisions that allowed a team of three to migrate to Elixir, scale to this level while keeping complexity low and enabling implementation developers to contribute to our data pipelines.
+
+    We use Elixir’s concurrency model for orchestration, and Elixir as a glue layer that allows databases, containers, and scripts written in other languages (Python, DuckDB, Groovy, R scripts) to be used where they are most effective.
+
+    Through a series of practical code snippets and architectural choices, I will share the hard-won lessons and specific performance bottlenecks we overcame to maintain a lean, high-throughput data pipeline.
   speakers:
     - silviazeamer
   topics:
     - elixir
-    - ecto
+    - postgresql
 
 - title: "Update from the Phoenix Team"
   slug: "update-from-the-phoenix-team"
@@ -474,7 +629,7 @@
   level: beginner
   language: en
   duration: 30
-  abstract: "Recent Phoenix and LiveView releases and roadmap."
+  abstract: "A look at the previous Phoenix and LiveView releases (1.8, 1.1) - updates on what the team is planning to work on for future releases. There’s no ETA for a new update at the moment, but there are a bunch of ideas for future developments floating around that we can present and request feedback from the community."
   speakers:
     - steffendeusch
   topics:
@@ -487,7 +642,7 @@
   level: beginner
   language: en
   duration: 30
-  abstract: "Rapid product development with LiveView and AI tools."
+  abstract: "Have you ever wanted to release your own product but felt blocked by lack of time, money, or confidence? In this talk I’ll show how Elixir can be used not just to build elegant systems, but to move from idea to traction quickly. I’ll share how I’m building a LiveView-powered learning platform that improves developer efficiency using gamification, cognitive science, and AI - and how a clean Elixir architecture lets me move fast without losing control. This working prototype is built with one clear goal: testing traction. I’ll walk through the technical choices that support rapid iteration, including Phoenix LiveView patterns for interactive flows, structuring multiple Phoenix apps in a monorepo with independent releases, deploying on Fly.io, integrating AI tools like Tidewave, and what I learned upgrading Elixir, Erlang, and OTP while moving quickly. With over 10 years of Elixir experience, I’ll show how good architecture becomes an accelerator, not a blocker, when you’re trying to ship and learn at the same time."
   speakers:
     - tetianadushenkivska
   topics:
@@ -501,11 +656,13 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Cross-platform desktop applications using ElixirKit and Tauri."
+  abstract: "In this talk I’ll present building cross-platform desktop applications with ElixirKit and Tauri. Tauri is a framework for creating small, fast, and secure cross-platform applicat ions using Web frontend technologies and/or Rust. ElixirKit started out as Elixir and Swift/C# bridge for Livebook Desktop and in the latest iteration has been re-designed to use Rust – a perfect fit for Tauri. We will also cover distributing desktop applications, including code-signing and automatic software updates."
   speakers:
     - wojtekmach
   topics:
     - elixir
+    - rust
+    - livebook
 
 - title: "Model the Work: Real Life Workloads with Ash & Oban"
   slug: "model-the-work-real-life-workloads-with-ash-and-oban"
@@ -513,9 +670,99 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Production workflows modeled as domain entities with Ash and Oban."
+  abstract: |
+    At small scale, you can get away with using schedule_at with. When you have a large team, millions of jobs per day, hundreds of complex workflows, that approach breaks down.
+
+    In this talk, we look at real production workloads: webhook ingestion and delivery, reminders and notifications, appointment scheduling, order shipment, and fulfillment. These are long-lived, time-based workflows that need to behave predictably across retries, deploys, crashes, and changing requirements.
+
+    The core idea is simple: your jobs table is not a domain model. If a piece of work matters, it should exist as application state. A reminder isn’t an Oban job, but a Reminder that moves from unsent to sent. A shipment isn’t a background task, it’s a Shipment with a lifecycle.
+
+    We’ll walk through how we model this kind of work using Ash resources, AshStateMachine, and AshOban. This approach comes with huge benefits, as well as a few sharp edges & foot guns that we’ll learn to sidestep.
+
+    Along the way, we’ll look at how this approach makes systems easier to reason about, safer to retry, and dramatically easier to refactor as requirements evolve, without losing the operational reliability you need at scale.
   speakers:
     - zachdaniel
   topics:
     - elixir
-    - oban
+    - ash
+
+## Workshops (Training Day — April 22)
+
+- title: "Advanced Concurrency Patterns in Elixir"
+  slug: "workshop-advanced-concurrency-patterns"
+  kind: workshop
+  level: intermediate
+  language: en
+  duration: 480
+  abstract: |
+    Elixir's concurrency story doesn't stop at GenServer. In this tutorial, we'll explore advanced concurrency patterns and building blocks that help you design systems that scale, stay responsive under load, and shut down gracefully.
+
+    We'll look at tools such as PartitionSupervisor and Registry for structuring and locating processes, and discuss when and how to use lower-level primitives like atomics, counters, and persistent_term to optimize performance. We'll also dive into process pooling strategies, gen_statem for modeling complex workflows, and techniques for designing advanced supervision trees.
+
+    Finally, we'll cover graceful shutdown and lifecycle management — how to make sure your concurrent systems behave predictably not only when things go right, but also when they don't.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - otp
+    - concurrency
+
+- title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
+  slug: "workshop-beyond-vibe-coding"
+  kind: workshop
+  level: intermediate
+  language: en
+  duration: 480
+  abstract: |
+    Stop writing monolithic prompts and hoping for the best. This full-day training teaches systematic layering for AI-assisted development: decomposing complex interactions into skills, agents, tasks, and processes. Drawing from Elixir's compositional patterns, you'll learn to engineer predictable AI workflows instead of crossing your fingers.
+
+    You'll discover how to get rapid feedback at each layer rather than waiting until the end, and how to anchor long-running workflows in markdown documents and code comments that persist context across sessions.
+  speakers:
+    - brucetate
+  topics:
+    - elixir
+
+- title: "Building and Evaluating RAG Systems"
+  slug: "workshop-building-and-evaluating-rag-systems"
+  kind: workshop
+  level: intermediate
+  language: en
+  duration: 480
+  abstract: |
+    Retrieval Augmented Generation (RAG) systems are arguably the simplest and most powerful tool in agent-based AI. Although widely used in production, their performance in terms of relevance, groundedness, and truthfulness is rarely assessed once in use.
+
+    In this workshop, you will learn practical evaluation techniques for RAG systems, ranging from baseline offline metrics to reference-free evaluation, and finally production monitoring and A/B testing. Covers toolsets such as RAGAS and concepts such as the RAG Triad.
+  speakers:
+    - chrisbeck
+  topics:
+    - elixir
+
+- title: "The BEAM for Developers"
+  slug: "workshop-the-beam-for-developers"
+  kind: workshop
+  level: intermediate
+  language: en
+  duration: 480
+  abstract: |
+    A full-day, hands-on introduction to the Erlang Runtime System and the BEAM virtual machine. The course focuses on how the runtime works in practice: processes, message passing, memory management, garbage collection, and scheduling.
+
+    The goal is to give you a correct mental model of the VM so you can reason about performance, reliability, and system behavior without guesswork. The day alternates between short theory sections and practical exercises.
+  speakers:
+    - erikstenman
+  topics:
+    - erlang
+    - otp
+
+- title: "Building LLM-Powered Applications"
+  slug: "workshop-building-llm-powered-applications"
+  kind: workshop
+  level: beginner
+  language: en
+  duration: 480
+  abstract: |
+    Learn both applied and theoretical knowledge on working with LLMs. We will build an end-to-end application powered by LLMs, starting with a simple interface to accept user prompts and then equipping it with various abilities: interaction with your running application, extraction of free-form text into data structures, recognizing user intent, and finally a research agent to help make informed decisions.
+  speakers:
+    - vasilisspilka
+  topics:
+    - elixir
+    - phoenix

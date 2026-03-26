@@ -23,6 +23,8 @@ defmodule ElixirEvents.Import.Profiles do
       handle: handleize(data["slug"]),
       headline: data["headline"],
       bio: data["bio"],
+      city: data["city"],
+      country_code: data["country_code"],
       website: data["website"],
       avatar_url: data["avatar_url"],
       is_speaker: true,

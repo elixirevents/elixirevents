@@ -14,6 +14,16 @@
         placeholder="e.g. Elixir Core Team"
       />
       <.input field={@form[:bio]} type="textarea" label="Bio" />
+      <div class="grid grid-cols-2 gap-4">
+        <.input field={@form[:city]} type="text" label="City" placeholder="e.g. Kraków" />
+        <.input
+          field={@form[:country_code]}
+          type="select"
+          label="Country"
+          options={country_options()}
+          prompt="Select country..."
+        />
+      </div>
       <.input
         field={@form[:website]}
         type="text"

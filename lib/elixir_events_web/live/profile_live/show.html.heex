@@ -40,6 +40,26 @@
       <p :if={@profile.headline} class="text-lg text-primary/70 mt-1 font-medium">
         {@profile.headline}
       </p>
+      <p
+        :if={@profile.city || @profile.country_code}
+        class="flex items-center gap-1.5 text-sm text-base-content/55 mt-1.5"
+      >
+        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+          />
+        </svg>
+        {location_label(@profile)}
+      </p>
       <div
         :if={@profile.bio}
         class="text-base-content/55 mt-4 leading-relaxed max-w-2xl whitespace-pre-line"

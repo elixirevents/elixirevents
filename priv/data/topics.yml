@@ -138,6 +138,42 @@
   slug: "idris"
   description: "The Idris dependently typed programming language"
 
+- name: "Distribution"
+  slug: "distribution"
+  description: "Distributed systems, clustering, node communication, and multi-node coordination on the BEAM"
+
 - name: "Functional Programming"
   slug: "functional-programming"
   description: "General functional programming concepts, theory, and paradigms"
+
+- name: "Hologram"
+  slug: "hologram"
+  description: "Full-stack framework for building interactive UIs in Elixir, compiled to JavaScript"
+
+- name: "Code Intelligence"
+  slug: "code-intelligence"
+  description: "Code analysis, language servers, static analysis, and intelligent developer tooling"
+
+- name: "Engineering"
+  slug: "engineering"
+  description: "Software engineering practices, architecture decisions, and development workflows"
+
+- name: "Documentation"
+  slug: "documentation"
+  description: "Writing, generating, and maintaining documentation for code and projects"
+
+- name: "FLAME"
+  slug: "flame"
+  description: "Elastic scaling by running code on short-lived copies of your application"
+
+- name: "PostgreSQL"
+  slug: "postgresql"
+  description: "PostgreSQL database, extensions, performance tuning, and advanced features"
+
+- name: "Ash"
+  slug: "ash"
+  description: "Declarative domain modeling framework for building Elixir backends"
+
+- name: "Concurrency"
+  slug: "concurrency"
+  description: "Concurrent programming, processes, parallelism, and message passing on the BEAM"

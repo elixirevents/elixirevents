@@ -85,6 +85,26 @@ defmodule ElixirEventsWeb.Helpers do
   def platform_label(platform) when is_binary(platform),
     do: Map.get(@platform_labels, String.to_existing_atom(platform), platform)
 
+  @doc "Format city + country_code into a display label"
+  def location_label(%{city: city, country_code: country_code}) do
+    country_name =
+      case country_code do
+        nil -> nil
+        code -> BeamLabCountries.get(code) |> then(&(&1 && &1.name))
+      end
+
+    [city, country_name]
+    |> Enum.reject(&is_nil/1)
+    |> Enum.join(", ")
+  end
+
+  @doc "Return country options for select dropdowns"
+  def country_options do
+    BeamLabCountries.all()
+    |> Enum.map(&{&1.name, &1.alpha2})
+    |> Enum.sort_by(&elem(&1, 0))
+  end
+
   @doc "Generate inline style for a speaker avatar gradient"
   def avatar_style(name), do: Colors.avatar_style(name)
 

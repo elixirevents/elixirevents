@@ -7,7 +7,7 @@ defmodule ElixirEvents.Profiles.Profile do
 
   @handle_pattern ~r/^[a-z0-9]+$/
 
-  @permitted ~w(name handle headline bio website avatar_url is_speaker)a
+  @permitted ~w(name handle headline bio city country_code website avatar_url is_speaker)a
   @required ~w(name handle)a
 
   schema "profiles" do
@@ -15,6 +15,8 @@ defmodule ElixirEvents.Profiles.Profile do
     field :handle, :string
     field :headline, :string
     field :bio, :string
+    field :city, :string
+    field :country_code, :string
     field :website, :string
     field :avatar_url, :string
     field :is_speaker, :boolean, default: false
@@ -41,7 +43,7 @@ defmodule ElixirEvents.Profiles.Profile do
 
   def owner_changeset(profile, attrs) do
     profile
-    |> cast(attrs, ~w(headline bio website avatar_url is_speaker)a)
+    |> cast(attrs, ~w(headline bio city country_code website avatar_url is_speaker)a)
     |> cast_embed(:social_links,
       with: &SocialLink.changeset/2,
       sort_param: :social_links_sort,

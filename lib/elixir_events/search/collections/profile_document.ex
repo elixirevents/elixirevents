@@ -18,6 +18,8 @@ defmodule ElixirEvents.Search.Collections.ProfileDocument do
       headline: profile.headline || "",
       bio: profile.bio || "",
       avatar_url: profile.avatar_url || "",
+      city: profile.city || "",
+      country_code: profile.country_code || "",
       is_speaker: profile.is_speaker,
       talk_count: profile.talk_count || 0
     }
@@ -33,6 +35,8 @@ defmodule ElixirEvents.Search.Collections.ProfileDocument do
         %{name: "headline", type: "string", index: true, optional: true},
         %{name: "bio", type: "string", index: true, optional: true},
         %{name: "avatar_url", type: "string", index: false, optional: true},
+        %{name: "city", type: "string", index: true, optional: true},
+        %{name: "country_code", type: "string", facet: true, optional: true},
         %{name: "is_speaker", type: "bool", facet: true},
         %{name: "talk_count", type: "int32", sort: true}
       ],
