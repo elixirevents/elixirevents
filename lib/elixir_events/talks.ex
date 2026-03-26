@@ -71,7 +71,7 @@ defmodule ElixirEvents.Talks do
   end
 
   def count_talks do
-    Repo.aggregate(Talk, :count)
+    from(t in Talk, where: t.kind != :workshop) |> Repo.aggregate(:count)
   end
 
   def get_talk_by_slug(event_id, slug) do
