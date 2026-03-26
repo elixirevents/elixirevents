@@ -44,6 +44,30 @@ defmodule ElixirEvents.Talks do
     Talk |> where(event_id: ^event_id) |> Repo.all()
   end
 
+  def list_speakers_for_event(event_id) do
+    # Use a subquery to find the minimum talk kind priority per profile
+    # so we can sort keynote speakers first, then alphabetically by name.
+    # Direct distinct + order_by on different columns can cause Postgres issues.
+    profile_ids_with_priority =
+      from(ts in ElixirEvents.Talks.TalkSpeaker,
+        join: t in ElixirEvents.Talks.Talk,
+        on: t.id == ts.talk_id,
+        where: t.event_id == ^event_id,
+        group_by: ts.profile_id,
+        select: %{
+          profile_id: ts.profile_id,
+          min_priority: min(fragment("CASE WHEN ? = 'keynote' THEN 0 ELSE 1 END", t.kind))
+        }
+      )
+
+    from(p in ElixirEvents.Profiles.Profile,
+      join: sub in subquery(profile_ids_with_priority),
+      on: sub.profile_id == p.id,
+      order_by: [asc: sub.min_priority, asc: p.name]
+    )
+    |> Repo.all()
+  end
+
   def count_talks do
     Repo.aggregate(Talk, :count)
   end

@@ -206,4 +206,40 @@ defmodule ElixirEventsWeb.Helpers do
       "#{mins}:00"
     end
   end
+
+  @doc "Generate a Google Maps URL from a venue with coordinates"
+  def google_maps_url(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng) do
+    "https://www.google.com/maps/search/?api=1&query=#{lat},#{lng}"
+  end
+
+  @doc "Generate an Apple Maps URL from a venue with coordinates and name"
+  def apple_maps_url(%{latitude: lat, longitude: lng, name: name})
+      when not is_nil(lat) and not is_nil(lng) do
+    encoded_name = URI.encode(name)
+    "https://maps.apple.com/?ll=#{lat},#{lng}&q=#{encoded_name}"
+  end
+
+  @doc "Generate an OpenStreetMap URL from a venue with coordinates"
+  def openstreetmap_url(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng) do
+    "https://www.openstreetmap.org/?mlat=#{lat}&mlon=#{lng}&zoom=16"
+  end
+
+  @doc "Generate an OpenStreetMap embed URL with bounding box from a venue with coordinates"
+  def openstreetmap_embed_url(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng) do
+    lat_f = Decimal.to_float(lat)
+    lng_f = Decimal.to_float(lng)
+    bbox = "#{lng_f - 0.01},#{lat_f - 0.005},#{lng_f + 0.01},#{lat_f + 0.005}"
+
+    "https://www.openstreetmap.org/export/embed.html?bbox=#{bbox}&layer=mapnik&marker=#{lat},#{lng}"
+  end
+
+  @doc "Returns true if the given map has non-nil latitude and longitude"
+  def has_coordinates?(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng),
+      do: true
+
+  def has_coordinates?(_), do: false
 end
