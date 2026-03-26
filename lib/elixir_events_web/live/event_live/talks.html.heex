@@ -1,16 +1,17 @@
 <section>
   <.compact_hero event={@event} title="Talks" />
 
-  <div class="flex flex-wrap items-center gap-4 mb-6">
+  <%!-- Filter pills + count --%>
+  <div class="flex flex-wrap items-center justify-between gap-4 mb-8">
     <div class="flex gap-2 flex-wrap">
       <button
         phx-click="filter-kind"
         phx-value-kind="all"
         class={[
-          "px-3 py-1.5 rounded-full text-sm font-medium border transition-all",
+          "px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all",
           if(@selected_kind == nil,
             do: "bg-primary border-primary text-white",
-            else: "border-base-300 text-base-content/60 hover:border-primary/40"
+            else: "border-base-300 text-base-content/60 hover:border-primary/40 hover:text-base-content"
           )
         ]}
       >
@@ -21,19 +22,31 @@
         phx-click="filter-kind"
         phx-value-kind={kind}
         class={[
-          "px-3 py-1.5 rounded-full text-sm font-medium border transition-all",
+          "px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all",
           if(@selected_kind == kind,
             do: "bg-primary border-primary text-white",
-            else: "border-base-300 text-base-content/60 hover:border-primary/40"
+            else: "border-base-300 text-base-content/60 hover:border-primary/40 hover:text-base-content"
           )
         ]}
       >
         {talk_kind_label(kind)} ({Enum.count(@talks, &(&1.kind == kind))})
       </button>
     </div>
+    <span class="text-sm text-base-content/40">
+      {length(@filtered_talks)} {if length(@filtered_talks) == 1, do: "talk", else: "talks"}
+    </span>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <.talk_card :for={talk <- @filtered_talks} talk={talk} />
+  <%!-- Talk grid --%>
+  <div
+    :if={@filtered_talks != []}
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+  >
+    <.talk_card :for={talk <- @filtered_talks} talk={talk} hide_event_name />
+  </div>
+
+  <%!-- Empty filter state --%>
+  <div :if={@filtered_talks == []} class="py-16 text-center">
+    <p class="text-base-content/40">No {if @selected_kind, do: talk_kind_label(@selected_kind) |> String.downcase(), else: ""} talks found.</p>
   </div>
 </section>

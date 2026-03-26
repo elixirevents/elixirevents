@@ -11,7 +11,7 @@ location: "Malaga, Spain"
 website: "https://www.elixirconf.eu"
 color: "#6B46C1"
 venue_slug: "nh-malaga"
-tickets_url: "https://www.elixirconf.eu/#checks-checks"
+tickets_url: "https://www.elixirconf.eu/"
 description: |
   Europe's largest Elixir & Phoenix conference.
 

@@ -283,6 +283,7 @@ defmodule ElixirEventsWeb.BrandComponents do
       <.talk_card talk={talk} />
   """
   attr :talk, :map, required: true
+  attr :hide_event_name, :boolean, default: false
 
   def talk_card(assigns) do
     ~H"""
@@ -355,7 +356,7 @@ defmodule ElixirEventsWeb.BrandComponents do
           </.link>
         </span>
       </p>
-      <p class="text-xs text-base-content/50 mt-1">
+      <p :if={!@hide_event_name} class="text-xs text-base-content/50 mt-1">
         <.link navigate={"/events/#{@talk.event.slug}"} class="hover:text-primary transition-colors">
           {@talk.event.name}
         </.link>
@@ -442,7 +443,7 @@ defmodule ElixirEventsWeb.BrandComponents do
     ~H"""
     <.link
       navigate={"/profiles/#{@speaker.handle}"}
-      class="flex items-center gap-3 px-4 py-3 rounded-xl border border-base-300 bg-base-200/30 hover:border-primary/40 hover:bg-base-200/60 transition-all min-w-[220px] group"
+      class="flex items-center gap-3 px-4 py-3 rounded-xl border border-base-300 bg-base-200/30 hover:border-primary/40 hover:bg-base-200/60 transition-all min-w-[260px] group"
     >
       <div
         class="w-12 h-12 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-sm"

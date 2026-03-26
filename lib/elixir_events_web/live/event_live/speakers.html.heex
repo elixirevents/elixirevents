@@ -1,8 +1,16 @@
 <section>
   <.compact_hero event={@event} title="Speakers" />
 
-  <div :if={@keynote_speakers != []} class="mb-10">
-    <h2 class="font-display text-xl font-bold mb-4">Keynote Speakers</h2>
+  <%!-- Total count --%>
+  <div class="mb-8">
+    <span class="text-sm text-base-content/40">
+      {length(@keynote_speakers) + length(@regular_speakers)} speakers
+    </span>
+  </div>
+
+  <%!-- Keynote speakers --%>
+  <div :if={@keynote_speakers != []} class="mb-12">
+    <h2 class="font-display text-xl font-bold mb-5">Keynote Speakers</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <.speaker_card
         :for={speaker <- @keynote_speakers}
@@ -13,8 +21,9 @@
     </div>
   </div>
 
+  <%!-- Regular speakers --%>
   <div :if={@regular_speakers != []}>
-    <h2 class="font-display text-xl font-bold mb-4">
+    <h2 class="font-display text-xl font-bold mb-5">
       Speakers
       <span class="text-base-content/50 font-normal text-base ml-1">
         ({length(@regular_speakers)})
@@ -29,7 +38,8 @@
     </div>
   </div>
 
-  <div :if={@keynote_speakers == [] and @regular_speakers == []}>
-    <p class="text-base-content/50">No speakers listed for this event yet.</p>
+  <%!-- Empty state --%>
+  <div :if={@keynote_speakers == [] and @regular_speakers == []} class="py-16 text-center">
+    <p class="text-base-content/40">No speakers listed for this event yet.</p>
   </div>
 </section>

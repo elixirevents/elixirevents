@@ -143,7 +143,7 @@
           </.link>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <.talk_card :for={talk <- @talks |> Enum.take(4)} talk={talk} />
+          <.talk_card :for={talk <- @talks |> Enum.take(4)} talk={talk} hide_event_name />
         </div>
       </div>
 
