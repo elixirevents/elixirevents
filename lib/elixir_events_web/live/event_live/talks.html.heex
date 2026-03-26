@@ -1,3 +1,39 @@
 <section>
-  <h1>Talks — TODO</h1>
+  <.compact_hero event={@event} title="Talks" />
+
+  <div class="flex flex-wrap items-center gap-4 mb-6">
+    <div class="flex gap-2 flex-wrap">
+      <button
+        phx-click="filter-kind"
+        phx-value-kind="all"
+        class={[
+          "px-3 py-1.5 rounded-full text-sm font-medium border transition-all",
+          if(@selected_kind == nil,
+            do: "bg-primary border-primary text-white",
+            else: "border-base-300 text-base-content/60 hover:border-primary/40"
+          )
+        ]}
+      >
+        All ({length(@talks)})
+      </button>
+      <button
+        :for={kind <- @kinds}
+        phx-click="filter-kind"
+        phx-value-kind={kind}
+        class={[
+          "px-3 py-1.5 rounded-full text-sm font-medium border transition-all",
+          if(@selected_kind == kind,
+            do: "bg-primary border-primary text-white",
+            else: "border-base-300 text-base-content/60 hover:border-primary/40"
+          )
+        ]}
+      >
+        {talk_kind_label(kind)} ({Enum.count(@talks, &(&1.kind == kind))})
+      </button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <.talk_card :for={talk <- @filtered_talks} talk={talk} />
+  </div>
 </section>
