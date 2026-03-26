@@ -1,11 +1,16 @@
 <section>
   <.compact_hero event={@event} title="Speakers" />
 
-  <%!-- Total count --%>
-  <div class="mb-8">
-    <span class="text-sm text-base-content/40">
-      {length(@keynote_speakers) + length(@regular_speakers)} speakers
-    </span>
+  <div class="mb-10">
+    <h2 class="font-display text-2xl font-bold text-base-content">
+      Speakers
+      <span class="text-base-content/50 font-normal text-lg ml-1">
+        ({length(@keynote_speakers) + length(@regular_speakers)})
+      </span>
+    </h2>
+    <p class="text-base-content/55 mt-1">
+      The people behind the talks at {@event.name}
+    </p>
   </div>
 
   <%!-- Keynote speakers --%>
