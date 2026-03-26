@@ -1,0 +1,48 @@
+/* Leaflet base styles — only what we need */
+@import "leaflet/dist/leaflet.css";
+
+/* Dark-theme map tinting — adds a subtle purple wash to match brand */
+[data-theme="dark"] .venue-map-container {
+  filter: saturate(0.8) brightness(0.95);
+}
+
+/* Remove default Leaflet marker styles on our custom icon */
+.venue-marker {
+  background: none !important;
+  border: none !important;
+}
+
+/* Style the popup to match our design system */
+.venue-popup .leaflet-popup-content-wrapper {
+  background: oklch(23% 0.025 285);
+  color: oklch(95% 0.012 285);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+.venue-popup .leaflet-popup-tip {
+  background: oklch(23% 0.025 285);
+}
+
+[data-theme="light"] .venue-popup .leaflet-popup-content-wrapper {
+  background: oklch(97.5% 0.005 85);
+  color: oklch(20% 0.025 285);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="light"] .venue-popup .leaflet-popup-tip {
+  background: oklch(97.5% 0.005 85);
+}
+
+/* Subtle attribution styling */
+.leaflet-control-attribution {
+  font-size: 0.6rem !important;
+  opacity: 0.5;
+  background: transparent !important;
+}
+
+.leaflet-control-attribution a {
+  color: inherit !important;
+}

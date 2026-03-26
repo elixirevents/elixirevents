@@ -521,14 +521,16 @@ defmodule ElixirEventsWeb.BrandComponents do
   def venue_card(assigns) do
     ~H"""
     <div class="rounded-xl overflow-hidden border border-base-300">
-      <div :if={has_coordinates?(@venue)} class="relative">
-        <iframe
-          src={openstreetmap_embed_url(@venue)}
-          class="w-full h-[200px] border-0"
-          loading="lazy"
-          title={"Map showing #{@venue.name}"}
-        >
-        </iframe>
+      <div
+        :if={has_coordinates?(@venue)}
+        id={"venue-map-#{@venue.slug}"}
+        phx-hook="VenueMapHook"
+        phx-update="ignore"
+        data-lat={@venue.latitude}
+        data-lng={@venue.longitude}
+        data-name={@venue.name}
+        class="venue-map-container w-full h-[220px]"
+      >
       </div>
       <div class="p-5">
         <h3 class="font-display font-bold text-lg">{@venue.name}</h3>

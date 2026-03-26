@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "leaflet": "^1.9.4",
     "tinykeys": "^3.0.0",
     "typesense": "^3.0.3"
   }
