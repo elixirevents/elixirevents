@@ -363,4 +363,335 @@ defmodule ElixirEventsWeb.BrandComponents do
     </div>
     """
   end
+
+  @doc """
+  Renders a compact hero banner for sub-pages with breadcrumb navigation.
+
+  ## Attributes
+    * `event` - The event map with `:slug` and `:name`
+    * `title` - The page title shown in the hero
+  """
+  attr :event, :map, required: true
+  attr :title, :string, required: true
+
+  def compact_hero(assigns) do
+    ~H"""
+    <div class="relative rounded-2xl overflow-hidden mb-8">
+      <div class="absolute inset-0" style={card_style(@event)}></div>
+      <div class="absolute inset-0 opacity-[0.06]" style={card_pattern(@event.name)}></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+      <div class="relative px-6 sm:px-10 py-6 sm:py-8 text-white">
+        <nav class="text-xs text-white/60 mb-3 flex items-center gap-1.5">
+          <.link navigate="/events" class="hover:text-white/80 transition-colors">Events</.link>
+          <span>/</span>
+          <.link navigate={"/events/#{@event.slug}"} class="hover:text-white/80 transition-colors">
+            {@event.name}
+          </.link>
+          <span>/</span>
+          <span class="text-white/90">{@title}</span>
+        </nav>
+        <h1 class="font-display text-2xl sm:text-3xl font-bold">{@title}</h1>
+      </div>
+    </div>
+    """
+  end
+
+  @doc """
+  Renders sticky anchor navigation with SectionObserverHook.
+
+  ## Attributes
+    * `sections` - List of maps with `:id`, `:label`, and optional `:count`
+  """
+  attr :sections, :list, required: true
+
+  def section_nav(assigns) do
+    ~H"""
+    <nav
+      id="section-nav"
+      phx-hook="SectionObserverHook"
+      class="sticky top-[52px] z-40 bg-base-100/92 backdrop-blur-md border-b border-base-300/50 -mx-4 sm:-mx-6 lg:-mx-0 px-4 sm:px-6 lg:px-0 overflow-x-auto scrollbar-none"
+    >
+      <div class="flex gap-0 min-w-max">
+        <a
+          :for={section <- @sections}
+          href={"##{section.id}"}
+          data-section-id={section.id}
+          class="px-3 sm:px-4 py-3 text-xs sm:text-sm font-medium text-base-content/50 border-b-2 border-transparent hover:text-base-content transition-colors whitespace-nowrap [&.active]:text-primary [&.active]:border-primary"
+        >
+          {section.label}
+          <span :if={section[:count]} class="text-base-content/30 ml-0.5 text-xs">
+            ({section.count})
+          </span>
+        </a>
+      </div>
+    </nav>
+    """
+  end
+
+  @doc """
+  Renders a horizontal card for keynote speaker preview.
+
+  ## Attributes
+    * `speaker` - A speaker map with `:handle`, `:name`, and optional `:headline`
+    * `talk_title` - Optional talk title
+  """
+  attr :speaker, :map, required: true
+  attr :talk_title, :string, default: nil
+
+  def keynote_card(assigns) do
+    ~H"""
+    <.link
+      navigate={"/profiles/#{@speaker.handle}"}
+      class="flex items-center gap-3 px-4 py-3 rounded-xl border border-base-300 bg-base-200/30 hover:border-primary/40 hover:bg-base-200/60 transition-all min-w-[220px] group"
+    >
+      <div
+        class="w-12 h-12 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-sm"
+        style={avatar_style(@speaker.name)}
+      >
+        {initials(@speaker.name)}
+      </div>
+      <div class="min-w-0">
+        <div class="font-semibold text-sm text-base-content group-hover:text-primary transition-colors truncate">
+          {@speaker.name}
+        </div>
+        <div :if={@speaker.headline} class="text-xs text-base-content/50 truncate">
+          {@speaker.headline}
+        </div>
+      </div>
+    </.link>
+    """
+  end
+
+  @doc """
+  Renders a grid card for speakers sub-page.
+
+  ## Attributes
+    * `speaker` - A speaker map with `:handle`, `:name`, and optional `:headline`
+    * `talk_count` - Number of talks by this speaker
+    * `is_keynote` - Whether the speaker is a keynote speaker
+  """
+  attr :speaker, :map, required: true
+  attr :talk_count, :integer, default: 0
+  attr :is_keynote, :boolean, default: false
+
+  def speaker_card(assigns) do
+    ~H"""
+    <.link
+      navigate={"/profiles/#{@speaker.handle}"}
+      class="flex items-center gap-3 p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-base-200/30 transition-all group"
+    >
+      <div
+        class="w-14 h-14 rounded-full shrink-0 flex items-center justify-center text-white font-bold"
+        style={avatar_style(@speaker.name)}
+      >
+        {initials(@speaker.name)}
+      </div>
+      <div class="min-w-0 flex-1">
+        <div class="font-semibold text-sm group-hover:text-primary transition-colors">
+          {@speaker.name}
+        </div>
+        <div :if={@speaker.headline} class="text-xs text-base-content/50 truncate mt-0.5">
+          {@speaker.headline}
+        </div>
+        <div class="flex items-center gap-2 mt-1">
+          <span
+            :if={@is_keynote}
+            class="text-[0.65rem] font-semibold px-1.5 py-0.5 rounded-full bg-secondary/15 text-secondary"
+          >
+            Keynote
+          </span>
+          <span :if={@talk_count > 0} class="text-[0.65rem] text-base-content/40">
+            {if @talk_count == 1, do: "1 talk", else: "#{@talk_count} talks"}
+          </span>
+        </div>
+      </div>
+    </.link>
+    """
+  end
+
+  @doc """
+  Renders a venue card with map embed, address, and direction links.
+
+  ## Attributes
+    * `venue` - A venue map with `:name`, `:street`, `:city`, `:region`, `:postal_code`, `:country`,
+      optional `:description`, and optional `:latitude`/`:longitude`
+  """
+  attr :venue, :map, required: true
+
+  def venue_card(assigns) do
+    ~H"""
+    <div class="rounded-xl overflow-hidden border border-base-300">
+      <div :if={has_coordinates?(@venue)} class="relative">
+        <iframe
+          src={openstreetmap_embed_url(@venue)}
+          class="w-full h-[200px] border-0"
+          loading="lazy"
+          title={"Map showing #{@venue.name}"}
+        >
+        </iframe>
+      </div>
+      <div class="p-5">
+        <h3 class="font-display font-bold text-lg">{@venue.name}</h3>
+        <p class="text-sm text-base-content/55 mt-1 leading-relaxed">
+          <span :if={@venue.street}>{@venue.street}<br /></span>
+          {venue_address_line(@venue)}
+        </p>
+        <p :if={@venue.description} class="text-sm text-base-content/50 mt-3 leading-relaxed">
+          {@venue.description}
+        </p>
+        <div :if={has_coordinates?(@venue)} class="flex flex-wrap gap-2 mt-4">
+          <.direction_link href={google_maps_url(@venue)} label="Google Maps" />
+          <.direction_link href={apple_maps_url(@venue)} label="Apple Maps" />
+          <.direction_link href={openstreetmap_url(@venue)} label="OpenStreetMap" />
+        </div>
+      </div>
+    </div>
+    """
+  end
+
+  defp direction_link(assigns) do
+    ~H"""
+    <a
+      href={@href}
+      target="_blank"
+      rel="noopener"
+      class="inline-flex items-center gap-1 text-xs px-2.5 py-1.5 rounded-md border border-base-300 text-base-content/60 hover:border-primary/40 hover:text-primary transition-all"
+    >
+      <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+        />
+      </svg>
+      {@label}
+    </a>
+    """
+  end
+
+  defp venue_address_line(venue) do
+    [venue.city, venue.region, venue.postal_code, venue.country]
+    |> Enum.reject(&is_nil/1)
+    |> Enum.join(", ")
+  end
+
+  @doc """
+  Renders a tiered sponsor display with size hierarchy.
+
+  ## Attributes
+    * `tiers` - List of maps with `:name`, `:level`, and `:sponsors`
+  """
+  attr :tiers, :list, required: true
+
+  def sponsor_display(assigns) do
+    ~H"""
+    <div class="space-y-6">
+      <div :for={tier <- @tiers}>
+        <div class="text-[0.65rem] text-base-content/40 uppercase tracking-widest font-semibold mb-2.5">
+          {tier.name}
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a
+            :for={sponsor <- tier.sponsors}
+            href={sponsor.organization.website}
+            target="_blank"
+            rel="noopener"
+            class={[
+              "flex items-center justify-center rounded-lg border border-base-300 hover:border-primary/40 transition-all",
+              sponsor_size_classes(tier.level)
+            ]}
+          >
+            <span class="text-base-content/60 font-medium" style={sponsor_font_size(tier.level)}>
+              {sponsor.organization.name}
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    """
+  end
+
+  defp sponsor_size_classes(1), do: "h-16 px-6"
+  defp sponsor_size_classes(2), do: "h-13 px-5"
+  defp sponsor_size_classes(_), do: "h-12 px-4"
+
+  defp sponsor_font_size(1), do: "font-size: 0.95rem"
+  defp sponsor_font_size(2), do: "font-size: 0.85rem"
+  defp sponsor_font_size(_), do: "font-size: 0.8rem"
+
+  @doc """
+  Renders pill-style day switcher tabs.
+
+  ## Attributes
+    * `days` - List of day maps with `:id`, optional `:name`, and `:date`
+    * `selected_day_id` - The currently selected day ID
+  """
+  attr :days, :list, required: true
+  attr :selected_day_id, :integer, required: true
+
+  def day_tabs(assigns) do
+    ~H"""
+    <div class="flex gap-2 flex-wrap">
+      <button
+        :for={day <- @days}
+        phx-click="select-day"
+        phx-value-day-id={day.id}
+        class={[
+          "px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all",
+          if(day.id == @selected_day_id,
+            do: "bg-primary border-primary text-white",
+            else:
+              "border-base-300 text-base-content/60 hover:border-primary/40 hover:text-base-content"
+          )
+        ]}
+      >
+        {day.name || Calendar.strftime(day.date, "%a, %b %d")}
+      </button>
+    </div>
+    """
+  end
+
+  @doc """
+  Renders a chronological list for schedule preview and mobile.
+
+  ## Attributes
+    * `time_slots` - List of time slot maps with `:start_time`, `:end_time`, and `:sessions`
+    * `limit` - Optional limit on number of slots to display
+  """
+  attr :time_slots, :list, required: true
+  attr :limit, :integer, default: nil
+
+  def schedule_list(assigns) do
+    slots =
+      if assigns.limit, do: Enum.take(assigns.time_slots, assigns.limit), else: assigns.time_slots
+
+    assigns = assign(assigns, :display_slots, slots)
+
+    ~H"""
+    <div class="space-y-0.5">
+      <div
+        :for={slot <- @display_slots}
+        class="flex items-start gap-4 py-2.5 px-3 rounded-lg text-sm hover:bg-base-200/40 transition-colors"
+      >
+        <span class="text-xs text-base-content/50 w-24 shrink-0 pt-0.5 font-medium tabular-nums">
+          {Calendar.strftime(slot.start_time, "%H:%M")} – {Calendar.strftime(slot.end_time, "%H:%M")}
+        </span>
+        <div class="flex-1 min-w-0">
+          <div :for={session <- slot.sessions} class="mb-1 last:mb-0">
+            <span :if={session.kind in [:break, :social]} class="text-base-content/50">
+              {session.title}
+            </span>
+            <span :if={session.kind not in [:break, :social]} class="font-medium text-base-content">
+              {session.title}
+            </span>
+            <span :if={session.track} class="text-xs text-base-content/40 ml-2">
+              ({session.track.name})
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    """
+  end
 end
