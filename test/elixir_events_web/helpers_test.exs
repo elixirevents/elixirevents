@@ -12,7 +12,7 @@ defmodule ElixirEventsWeb.HelpersTest do
       }
 
       url = Helpers.google_maps_url(venue)
-      assert url == "https://www.google.com/maps/search/?api=1&query=32.9457,-97.0700"
+      assert url == "https://www.google.com/maps/place/32.9457,-97.0700"
     end
 
     test "apple_maps_url/1 generates correct URL with encoded name" do

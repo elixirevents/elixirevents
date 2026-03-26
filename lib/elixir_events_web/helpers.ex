@@ -210,7 +210,7 @@ defmodule ElixirEventsWeb.Helpers do
   @doc "Generate a Google Maps URL from a venue with coordinates"
   def google_maps_url(%{latitude: lat, longitude: lng})
       when not is_nil(lat) and not is_nil(lng) do
-    "https://www.google.com/maps/search/?api=1&query=#{lat},#{lng}"
+    "https://www.google.com/maps/place/#{lat},#{lng}"
   end
 
   @doc "Generate an Apple Maps URL from a venue with coordinates and name"

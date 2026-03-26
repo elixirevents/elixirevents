@@ -55,3 +55,21 @@
   website: "https://www.fresha.com"
   description: "Beauty and wellness booking platform built with Elixir"
   logo_url: "https://www.elixirconf.eu/assets/images/sponsors/Fresha-logo-transparent-bg-4096x2160.png"
+
+- name: "Elixir Madrid Meetup Group"
+  slug: "elixir-madrid"
+  website: "https://www.meetup.com/madrid-elixir/"
+  description: "Madrid's Elixir developer community meetup"
+  logo_url: "https://www.elixirconf.eu/assets/images/sponsors/madrid-elixir-meetup.png"
+
+- name: "DevITJobs"
+  slug: "devitjobs"
+  website: "https://devitjobs.uk"
+  description: "Developer job board for the UK tech community"
+  logo_url: "https://www.elixirconf.eu/assets/images/sponsors/devituk-square-rounded.png"
+
+- name: "Erlang Ecosystem Foundation"
+  slug: "erlang-ecosystem-foundation"
+  website: "https://erlef.org"
+  description: "Supporting the Erlang and Elixir ecosystem"
+  logo_url: "https://www.elixirconf.eu/assets/images/sponsors/EEF%20logo%20blk%202021.png"

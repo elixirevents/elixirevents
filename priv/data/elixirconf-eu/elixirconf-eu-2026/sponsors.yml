@@ -1,27 +1,38 @@
-- name: "Platinum"
+- name: "Diversity & Inclusion"
   level: 1
+  sponsors:
+    - slug: "fresha"
+
+- name: "Platinum"
+  level: 2
   sponsors:
     - slug: "remedy-meds"
     - slug: "erlang-solutions"
 
 - name: "Gold"
-  level: 2
+  level: 3
   sponsors:
     - slug: "curiosum"
     - slug: "remote"
     - slug: "wyeworks"
 
 - name: "Silver"
-  level: 3
+  level: 4
   sponsors:
     - slug: "appsignal"
 
 - name: "Lanyard"
-  level: 4
+  level: 5
   sponsors:
     - slug: "9elements"
 
-- name: "Diversity & Inclusion"
-  level: 5
+- name: "Community Partners"
+  level: 6
   sponsors:
-    - slug: "fresha"
+    - slug: "elixir-madrid"
+    - slug: "devitjobs"
+
+- name: "Student Sponsor"
+  level: 7
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"

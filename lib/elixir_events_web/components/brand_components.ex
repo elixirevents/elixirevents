@@ -588,19 +588,19 @@ defmodule ElixirEventsWeb.BrandComponents do
 
   def sponsor_display(assigns) do
     ~H"""
-    <div class="space-y-8">
+    <div class="space-y-10">
       <div :for={tier <- @tiers} class="text-center">
-        <div class="text-[0.65rem] text-base-content/40 uppercase tracking-widest font-semibold mb-4">
+        <div class="text-xs text-base-content/40 uppercase tracking-widest font-semibold mb-5">
           {tier.name}
         </div>
-        <div class={["flex flex-wrap items-center justify-center", sponsor_gap_classes(tier.level)]}>
+        <div class="flex flex-wrap items-center justify-center gap-6">
           <a
             :for={sponsor <- tier.sponsors}
             href={sponsor.organization.website}
             target="_blank"
             rel="noopener"
             class={[
-              "flex items-center justify-center rounded-xl transition-all hover:scale-105",
+              "flex items-center justify-center rounded-xl transition-all hover:scale-105 bg-white/90",
               sponsor_pad_classes(tier.level)
             ]}
             title={sponsor.organization.name}
@@ -609,13 +609,12 @@ defmodule ElixirEventsWeb.BrandComponents do
               :if={sponsor.organization.logo_url}
               src={sponsor.organization.logo_url}
               alt={sponsor.organization.name}
-              class={["object-contain drop-shadow-sm", sponsor_logo_classes(tier.level)]}
+              class={["object-contain", sponsor_logo_classes(tier.level)]}
               loading="lazy"
             />
             <span
               :if={!sponsor.organization.logo_url}
-              class="text-base-content/60 font-semibold"
-              style={sponsor_font_size(tier.level)}
+              class="text-base-content/60 font-semibold text-sm"
             >
               {sponsor.organization.name}
             </span>
@@ -626,21 +625,13 @@ defmodule ElixirEventsWeb.BrandComponents do
     """
   end
 
-  defp sponsor_gap_classes(1), do: "gap-8"
-  defp sponsor_gap_classes(2), do: "gap-6"
-  defp sponsor_gap_classes(_), do: "gap-5"
+  defp sponsor_pad_classes(1), do: "px-8 py-5"
+  defp sponsor_pad_classes(2), do: "px-6 py-4"
+  defp sponsor_pad_classes(_), do: "px-5 py-3"
 
-  defp sponsor_pad_classes(1), do: "bg-white/90 rounded-xl px-6 py-4"
-  defp sponsor_pad_classes(2), do: "bg-white/90 rounded-lg px-5 py-3"
-  defp sponsor_pad_classes(_), do: "bg-white/85 rounded-lg px-4 py-2.5"
-
-  defp sponsor_logo_classes(1), do: "max-h-12 max-w-[180px]"
-  defp sponsor_logo_classes(2), do: "max-h-10 max-w-[150px]"
-  defp sponsor_logo_classes(_), do: "max-h-8 max-w-[120px]"
-
-  defp sponsor_font_size(1), do: "font-size: 0.95rem"
-  defp sponsor_font_size(2), do: "font-size: 0.85rem"
-  defp sponsor_font_size(_), do: "font-size: 0.8rem"
+  defp sponsor_logo_classes(1), do: "h-14 max-w-[200px]"
+  defp sponsor_logo_classes(2), do: "h-11 max-w-[170px]"
+  defp sponsor_logo_classes(_), do: "h-9 max-w-[140px]"
 
   @doc """
   Renders pill-style day switcher tabs.

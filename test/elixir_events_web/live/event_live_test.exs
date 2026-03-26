@@ -127,11 +127,15 @@ defmodule ElixirEventsWeb.EventLiveTest do
     test "renders tickets CTA when tickets_url present", %{conn: conn} do
       series = event_series_fixture()
 
+      future = Date.add(Date.utc_today(), 30)
+
       _event =
         event_fixture(series, %{
           name: "Ticket Event",
           slug: "ticket-event",
-          tickets_url: "https://tickets.example.com"
+          tickets_url: "https://tickets.example.com",
+          start_date: future,
+          end_date: Date.add(future, 2)
         })
 
       {:ok, _lv, html} = live(conn, ~p"/events/ticket-event")
