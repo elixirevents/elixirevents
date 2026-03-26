@@ -36,14 +36,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
         tracks = Program.list_tracks(event.id)
         speakers = Talks.list_speakers_for_event(event.id)
 
-        keynote_speakers =
-          speakers
-          |> Enum.filter(fn speaker ->
-            Enum.any?(talks, fn talk ->
-              talk.kind == :keynote &&
-                Enum.any?(talk.talk_speakers, &(&1.profile_id == speaker.id))
-            end)
-          end)
+        keynote_talks = Enum.filter(talks, &(&1.kind == :keynote))
 
         sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers)
 
@@ -62,7 +55,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
            schedule_days: schedule_days,
            tracks: tracks,
            speakers: speakers,
-           keynote_speakers: keynote_speakers,
+           keynote_talks: keynote_talks,
            sections: sections,
            selected_day: selected_day
          )}
