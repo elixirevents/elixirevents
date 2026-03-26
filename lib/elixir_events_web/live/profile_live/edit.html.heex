@@ -16,13 +16,17 @@
       <.input field={@form[:bio]} type="textarea" label="Bio" />
       <div class="grid grid-cols-2 gap-4">
         <.input field={@form[:city]} type="text" label="City" placeholder="e.g. Kraków" />
-        <.input
-          field={@form[:country_code]}
-          type="select"
-          label="Country"
-          options={country_options()}
-          prompt="Select country..."
-        />
+        <div>
+          <label class="block text-sm font-semibold leading-6 text-base-content mb-2">Country</label>
+          <.custom_select
+            id="profile-country-code"
+            name={@form[:country_code].name}
+            value={@form[:country_code].value}
+            options={country_options()}
+            prompt="Select country..."
+            form_id="profile-form"
+          />
+        </div>
       </div>
       <.input
         field={@form[:website]}

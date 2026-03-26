@@ -38,6 +38,16 @@ defmodule ElixirEventsWeb.EventLive.Show do
 
         keynote_talks = Enum.filter(talks, &(&1.kind == :keynote))
 
+        # Flatten keynote speakers in talk order (co-speakers stay adjacent)
+        keynote_speakers =
+          keynote_talks
+          |> Enum.flat_map(fn talk ->
+            talk.talk_speakers
+            |> Enum.sort_by(& &1.position)
+            |> Enum.map(& &1.profile)
+          end)
+          |> Enum.uniq_by(& &1.id)
+
         sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers)
 
         selected_day =
@@ -56,6 +66,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
            tracks: tracks,
            speakers: speakers,
            keynote_talks: keynote_talks,
+           keynote_speakers: keynote_speakers,
            sections: sections,
            selected_day: selected_day
          )}

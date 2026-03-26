@@ -117,36 +117,13 @@
           </.link>
         </div>
 
-        <%!-- Keynote talks with grouped co-speakers --%>
-        <div :if={@keynote_talks != []} class="mb-6">
+        <%!-- Keynote speakers — co-speakers appear in sequence --%>
+        <div :if={@keynote_speakers != []} class="mb-6">
           <div class="text-xs text-base-content/40 uppercase tracking-widest font-semibold mb-3">
-            Keynotes
+            Keynote Speakers
           </div>
           <div class="flex gap-3 overflow-x-auto scrollbar-none pb-2">
-            <.link
-              :for={talk <- @keynote_talks}
-              navigate={talk_path(talk)}
-              class="flex items-center gap-3 px-4 py-3 rounded-xl border border-base-300 bg-base-200/30 hover:border-primary/40 hover:bg-base-200/60 transition-all min-w-[260px] shrink-0 group"
-            >
-              <div class="flex -space-x-2">
-                <div
-                  :for={ts <- Enum.sort_by(talk.talk_speakers, & &1.position)}
-                  class="w-11 h-11 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-xs ring-2 ring-base-100"
-                  style={avatar_style(ts.profile.name)}
-                >
-                  {initials(ts.profile.name)}
-                </div>
-              </div>
-              <div class="min-w-0">
-                <div class="text-xs text-base-content/40 mb-0.5">Keynote</div>
-                <div class="font-semibold text-sm text-base-content group-hover:text-primary transition-colors leading-snug line-clamp-1">
-                  {Enum.map_join(talk.talk_speakers, " & ", & &1.profile.name)}
-                </div>
-                <div class="text-xs text-base-content/50 line-clamp-1 mt-0.5">
-                  {talk.title}
-                </div>
-              </div>
-            </.link>
+            <.keynote_card :for={speaker <- @keynote_speakers} speaker={speaker} />
           </div>
         </div>
       </div>
