@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content={get_csrf_token()} />
-    <% default_description = "The home for Elixir & BEAM events. Conferences, meetups, and talks across the Elixir ecosystem. Discover events, watch talks, and explore speakers." %>
+    <% default_description =
+      "The home for Elixir & BEAM events. Conferences, meetups, and talks across the Elixir ecosystem. Discover events, watch talks, and explore speakers." %>
     <% description = assigns[:page_description] || default_description %>
     <% page_url = assigns[:page_url] || ElixirEventsWeb.SEO.base_url() %>
     <meta name="description" content={description} />
