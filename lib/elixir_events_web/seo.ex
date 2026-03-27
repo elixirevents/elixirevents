@@ -3,11 +3,24 @@ defmodule ElixirEventsWeb.SEO do
   JSON-LD structured data and SEO helpers for ElixirEvents.
   """
 
+  use Phoenix.Component
+  import Phoenix.HTML, only: [raw: 1]
+
   alias ElixirEvents.Events.Event
   alias ElixirEvents.Talks.Talk
   alias ElixirEvents.Venues.Venue
 
   @base_url "https://elixirevents.org"
+
+  attr :data, :any, required: true
+
+  def jsonld_script(assigns) do
+    ~H"""
+    <script type="application/ld+json">
+      <%= raw(JSON.encode!(@data)) %>
+    </script>
+    """
+  end
 
   def base_url, do: @base_url
 
