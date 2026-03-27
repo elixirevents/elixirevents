@@ -157,8 +157,8 @@
     </div>
   </div>
 
-  <%!-- Talks section --%>
-  <div>
+  <%!-- Talks section (only for speakers or profiles with talks) --%>
+  <div :if={@profile.is_speaker || @talks != []}>
     <h2 class="font-display text-2xl font-bold text-base-content mb-8">
       Talks
       <span :if={@talks != []} class="text-base-content/50 font-normal text-lg ml-1">
