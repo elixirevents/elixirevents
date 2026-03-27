@@ -915,8 +915,13 @@
 
 - name: "Marc Lainez"
   slug: "marclainez"
-  headline: "Nerves Developer"
-  bio: "Developer exploring smartphone upcycling with Nerves."
+  headline: "Owner & Co-founder @ Spin42"
+  bio: "Marc is an experienced software developer and product manager. He started Spin42 with Loïc Vigneron and Thibault Poncelet in 2013 after several years freelancing. Together, they have built Ibanity in 2016, a financial institution aggregator written in Elixir that was sold in 2017. They have been working on Ibanity and other related products until the end of 2023 and are now tinkering and searching for new challenges. Marc has been an invited teacher at the university of Louvain-la-Neuve in Belgium for 10 years where he introduces students in their third bachelor year to Agile software development practices."
+  city: Brussels
+  country_code: BE
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/marclainez/
 
 - name: "Marc Sugiyama"
   slug: "marcsugiyama"
@@ -935,7 +940,7 @@
 
 - name: "Quinn Wilton"
   slug: "quinnwilton"
-  headline: "Distributed Systems Researcher"
+  headline: "Collector of dead languages"
   bio: "Distributed systems researcher and Elixir community member."
 
 - name: "Rickard Green"
@@ -1502,7 +1507,14 @@
 - name: "Benjamin Milde"
   slug: "benjaminmilde"
   headline: "Elixir developer"
-  bio: "Elixir developer and community educator."
+  bio: "Not the classic programmer career. Started learning programming while still in school to build websites. Studied media design instead of IT to not need to deal with low level hardware/software. When Websites grew into larger services, I eventually found Elixir and haven't looked back since."
+  city: Munich
+  country_code: DE
+  social_links:
+    - platform: twitter
+      url: https://x.com/lostkobrakai
+    - platform: github
+      url: https://github.com/lostkobrakai
 
 - name: "Bruce Tate"
   slug: "brucetate"
@@ -1536,7 +1548,14 @@
 - name: "Frank Hunleth"
   slug: "frankhunleth"
   headline: "Nerves Core Team"
-  bio: "Conference speaker."
+  bio: "Frank has built embedded Linux-based software for products in many industries including medical, consumer, telecommunications and defense. He is a coauthor of the Nerves project and maintains several projects used in embedded Elixir-based devices such as the Elixir Circuits set of libraries, toolshed, fwup, and erlinit."
+  city: Maryland
+  country_code: US
+  social_links:
+    - platform: github
+      url: https://github.com/fhunleth
+    - platform: twitter
+      url: https://x.com/fhunleth
 
 - name: "Guillaume Heu"
   slug: "guillaumeheu"
@@ -1664,7 +1683,19 @@
 - name: "Sam Aaron"
   slug: "samaaron"
   headline: "Creator of Sonic Pi"
-  bio: "Conference speaker."
+  bio: |
+    Described by Rolling Stone magazine as “transcending the present”, Sam Aaron is an internationally renowned live coding artist with over 15 years of experience performing with code.
+
+    Sam’s main instrument is Sonic Pi free software he created initially as his postdoc research project at the University of Cambridge and now as a full-time independent open source developer. Sonic Pi has been used by millions of people worldwide and has a growing active user base of professional live coding musicians and educators using it to engage the next generation of coders in schools.
+
+    Sam’s performances have featured in the Royal Albert Hall, Berlin Warehouses, arts venues such as ZKM Karlsruhe, International Music Festivals, on the BBC, and even school assemblies.
+  city: Sheffield
+  country_code: GB
+  social_links:
+    - platform: github
+      url: https://github.com/samaaron
+    - platform: twitter
+      url: https://x.com/samaaron
 
 - name: "Sofia Silva"
   slug: "sofiasilva"

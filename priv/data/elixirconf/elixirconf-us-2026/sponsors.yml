@@ -1,0 +1,6 @@
+- name: "Gold"
+  level: 1
+  sponsors:
+    - slug: "oban-pro"
+    - slug: "software-mansion"
+    - slug: "wyeworks"

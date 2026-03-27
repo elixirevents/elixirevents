@@ -103,12 +103,36 @@
 
 - name: "Varbergs Teater"
   slug: "varbergs-teater"
+  street: "Engelbrektsgatan 5"
   city: "Varberg"
   country: "Sweden"
   country_code: "SE"
+  postal_code: "432 41"
   latitude: 57.1053
   longitude: 12.2508
   description: "A charming historic theatre in the coastal Swedish town of Varberg, offering an intimate and atmospheric venue for community events."
+
+- name: "Campus Varberg"
+  slug: "campus-varberg"
+  street: "Otto Torells gata 20"
+  city: "Varberg"
+  country: "Sweden"
+  country_code: "SE"
+  postal_code: "432 44"
+  latitude: 57.1108
+  longitude: 12.2609
+  description: "An educational campus in Varberg used for workshops and training sessions."
+
+- name: "Villa Celine"
+  slug: "villa-celine-varberg"
+  street: "Borgmästaregatan 15"
+  city: "Varberg"
+  country: "Sweden"
+  country_code: "SE"
+  postal_code: "432 41"
+  latitude: 57.1063
+  longitude: 12.2540
+  description: "A venue in central Varberg used for events and gatherings."
 
 - name: "Subvisual"
   slug: "subvisual-braga"

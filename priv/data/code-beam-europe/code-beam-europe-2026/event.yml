@@ -1,13 +1,20 @@
 name: "Code BEAM Europe 2026"
 slug: "codebeam-europe-2026"
+venue_slug: "philharmonie-haarlem"
 kind: conference
 status: confirmed
 format: hybrid
-start_date: "2026-10-21"
+start_date: "2026-10-20"
 end_date: "2026-10-22"
 timezone: "Europe/Amsterdam"
 language: en
 location: "Haarlem, Netherlands"
 website: "https://codebeameurope.com"
 color: "#3182CE"
-description: "Two-day, two-track conference covering Erlang, Elixir, and Gleam technologies built on the BEAM VM. Co-located with MQ Summit."
+description: |
+  Join the major European event for Erlang, Elixir and Gleam users
+
+  Our goal is simple: to create a vibrant platform where users of Elixir, Erlang, Gleam and other technologies based on BEAM VM can come together to share insights, get feedback on projects, and inspire each other to new heights.
+  Code BEAM has united Erlang & Elixir developers for years to grow and progress the community in the spirit of Share. Learn. Inspire.
+
+  Meet people and companies using and developing high performance, fault-tolerant and resilient applications that scale to billions of users in production in areas like Fintech, eCommerce, IoT, Gaming, Blockchain, Security, Machine Learning and more.

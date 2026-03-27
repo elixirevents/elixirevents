@@ -1,0 +1,99 @@
+- title: "Introduction to Elixir"
+  slug: "workshop-introduction-to-elixir"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2026-09-28"
+  end_date: "2026-09-28"
+  venue_slug: campus-varberg
+  description: |
+    Two of Elixir's best teachers step up to get you ready for Goatmire Elixir. Prolific author and professional trainer Bruce Tate teams up with omnipresent community problem solver Benjamin "lostkobrakai" Milde. This duo will give a one-of-a-kind session to get you started with Elixir.
+
+    4 hours to get you rolling and ready to take advantage of the other workshops and help you enjoy the conference even more. Corporate-training grade instruction but fun.
+
+    Requirements: programming knowledge (student, hobbyist, or professional) and an Elixir development environment.
+  target_audience: "Programmers new to Elixir — students, hobbyists, or professionals."
+  booking_url: "https://goatbiz.fly.dev/workshops/browse"
+  trainers:
+    - brucetate
+    - benjaminmilde
+  topics:
+    - elixir
+
+- title: "Nerves Community Hack Session"
+  slug: "workshop-nerves-community-hack-session"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-09-28"
+  end_date: "2026-09-28"
+  venue_slug: campus-varberg
+  description: |
+    We bring issues or ideas. You bring some Elixir skills and curiosity. Good moment to talk about projects, do a bit of show and tell.
+
+    This session might get more specific if we decide on a direction but right now the intent is to rub elbows, blink LEDs and hack together on stuff around Nerves.
+  target_audience: "Elixir developers curious about Nerves and embedded systems."
+  booking_url: "https://goatbiz.fly.dev/workshops/browse"
+  trainers:
+    - frankhunleth
+  topics:
+    - elixir
+    - nerves
+
+- title: "Hardware Hacking"
+  slug: "workshop-hardware-hacking"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-09-28"
+  end_date: "2026-09-28"
+  venue_slug: campus-varberg
+  description: |
+    Gus made the badge for the previous Goatmire conference. He also makes the Nerves Starter Kit. Who is to say what hardware we might have for this one.
+
+    Expect Nerves, expect hardware and experimentation. More details to come as it approaches.
+  target_audience: "Developers interested in hardware projects with Nerves and Elixir."
+  booking_url: "https://goatbiz.fly.dev/workshops/browse"
+  trainers:
+    - gusworkman
+  topics:
+    - elixir
+    - nerves
+
+- title: "Make Some Noise"
+  slug: "workshop-make-some-noise"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2026-09-29"
+  end_date: "2026-09-29"
+  venue_slug: campus-varberg
+  description: |
+    Sam has taught kids to make music with Sonic Pi. Now he has Tau5. We believe in you.
+
+    More information to come.
+  target_audience: "Anyone curious about making music with code."
+  booking_url: "https://goatbiz.fly.dev/workshops/browse"
+  trainers:
+    - samaaron
+  topics:
+    - elixir
+
+- title: "Upcycling Smartphones with Nerves"
+  slug: "workshop-upcycling-smartphones-nerves"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-09-29"
+  end_date: "2026-09-29"
+  venue_slug: campus-varberg
+  description: |
+    In this groundbreaking workshop every participant will get an Android phone running Nerves. The session is focused on a shared effort to hack new functionality into the firmware project and learn some stuff along the way.
+
+    Run by Marc Lainez, who presented on the Nerves Car at Goatmire last year, you'll be in good hands as you explore what we can do with this device. Most IoT devices are lower end hardware with limited peripherals and capabilities. Smartphones are the exact opposite — they contain every capability under the sun and a battery at that.
+
+    In the end you'll have a custom device that lets you develop on it in Elixir that we all duly saved from the landfill.
+
+    Requirements: install an Elixir working environment and the Nerves tooling.
+  target_audience: "Elixir developers interested in Nerves and embedded systems."
+  booking_url: "https://goatbiz.fly.dev/workshops/browse"
+  trainers:
+    - marclainez
+  topics:
+    - elixir
+    - nerves
