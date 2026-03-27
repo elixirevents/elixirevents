@@ -36,6 +36,7 @@ defmodule ElixirEvents.Events.Event do
     has_many :event_links, ElixirEvents.Events.EventLink
     has_many :event_roles, ElixirEvents.Events.EventRole
     has_many :talks, ElixirEvents.Talks.Talk
+    has_many :workshops, ElixirEvents.Workshops.Workshop
     has_many :cfps, ElixirEvents.Submissions.CFP, foreign_key: :event_id
 
     timestamps()
