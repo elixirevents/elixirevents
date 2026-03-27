@@ -262,4 +262,14 @@ defmodule ElixirEventsWeb.Helpers do
       do: true
 
   def has_coordinates?(_), do: false
+
+  @doc "Render Markdown text as safe HTML"
+  def render_markdown(nil), do: ""
+  def render_markdown(""), do: ""
+
+  def render_markdown(text) do
+    text
+    |> Earmark.as_html!(compact_output: true)
+    |> Phoenix.HTML.raw()
+  end
 end
