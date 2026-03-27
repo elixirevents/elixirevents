@@ -31,6 +31,8 @@
   country: "Netherlands"
   country_code: "NL"
   postal_code: "2011 HH"
+  latitude: 52.3814
+  longitude: 4.6362
   description: "A historic concert hall in the heart of Haarlem, offering intimate acoustics and a beautiful setting for events in the Dutch Golden Age city."
 
 - name: "Ericsson HQ (Open Box)"
@@ -51,6 +53,8 @@
   region: "British Columbia"
   country: "Canada"
   country_code: "CA"
+  latitude: 49.2770
+  longitude: -123.1252
   website: "https://viff.org"
   description: "The Vancouver International Film Festival's dedicated screening and event centre in the heart of downtown Vancouver."
 
@@ -75,6 +79,8 @@
   country: "United States"
   country_code: "US"
   postal_code: "60654"
+  latitude: 41.8873
+  longitude: -87.6368
   description: "A contemporary hotel at Wolf Point where the Chicago River's three branches meet, offering stunning city and river views in the heart of downtown."
 
 - name: "ULB Solbosch Campus"
@@ -82,6 +88,8 @@
   city: "Brussels"
   country: "Belgium"
   country_code: "BE"
+  latitude: 50.8120
+  longitude: 4.3817
   description: "The main campus of the Université libre de Bruxelles, a vibrant academic setting in the heart of Europe's capital."
 
 - name: "Origin Workspace"
@@ -89,6 +97,8 @@
   city: "Bristol"
   country: "United Kingdom"
   country_code: "GB"
+  latitude: 51.4545
+  longitude: -2.5879
   description: "A modern co-working and events space in Bristol, one of the UK's leading tech and creative hubs."
 
 - name: "Varbergs Teater"
@@ -96,6 +106,8 @@
   city: "Varberg"
   country: "Sweden"
   country_code: "SE"
+  latitude: 57.1053
+  longitude: 12.2508
   description: "A charming historic theatre in the coastal Swedish town of Varberg, offering an intimate and atmospheric venue for community events."
 
 - name: "Subvisual"
@@ -104,6 +116,8 @@
   city: "Braga"
   country: "Portugal"
   country_code: "PT"
+  latitude: 41.5518
+  longitude: -8.4229
   description: "The Braga studio of Subvisual, a renowned product design and development agency, nestled in one of Portugal's oldest and most vibrant cities."
 
 - name: "IOFFICE Business Center (Drottninggatan)"
@@ -113,6 +127,8 @@
   country: "Sweden"
   country_code: "SE"
   postal_code: "111 51"
+  latitude: 59.3326
+  longitude: 18.0649
   description: "A business center on Drottninggatan in central Stockholm, used for training events and workshops."
 
 - name: "IOFFICE Business Center (Kungsgatan)"
@@ -122,6 +138,8 @@
   country: "Sweden"
   country_code: "SE"
   postal_code: "111 22"
+  latitude: 59.3356
+  longitude: 18.0530
   description: "A business center on Kungsgatan in central Stockholm, used for training events and workshops."
 
 - name: "Best Western Premier Chateau Granville"
@@ -131,6 +149,8 @@
   region: "British Columbia"
   country: "Canada"
   country_code: "CA"
+  latitude: 49.2778
+  longitude: -123.1280
   description: "A boutique hotel in Vancouver’s vibrant downtown core, offering conference and meeting facilities including the Georgia boardroom."
 
 - name: "980 Howe Street Rooftop"
@@ -140,4 +160,6 @@
   region: "British Columbia"
   country: "Canada"
   country_code: "CA"
+  latitude: 49.2793
+  longitude: -123.1263
   description: "A rooftop boardroom venue on Howe Street in downtown Vancouver, used for intimate professional training sessions."
