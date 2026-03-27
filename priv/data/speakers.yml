@@ -63,10 +63,21 @@
 - name: "Brooklyn Zelenka"
   slug: "brooklynzelenka"
   headline: "Fission / IPFS"
-  bio: "CTO at Fission and distributed systems researcher."
+  bio: |
+    Brooklyn is a distributed systems researcher, and is currently leading a local-first access control project at Ink & Switch. She is the author of numerous Elixir libraries including Witchcraft & Exceptional, and founded the Vancouver Functional Programming Meetup.
+
+    Her belief in open standards has lead to work spanning distributed VMs (Ethereum, IPVM), authorization (UCAN), data privacy (Webnative FS, RhizomeDB), multiformats, and others.
+  city: Vancouver
+  country_code: CA
   social_links:
     - platform: github
       url: "https://github.com/expede"
+    - platform: mastodon
+      url: https://types.pl/@expede
+    - platform: bluesky
+      url: https://bsky.app/profile/expede.wtf
+    - platform: linkedin
+      url: https://www.linkedin.com/in/brooklynzelenka/
 
 - name: "Parker Selbert"
   slug: "parkerselbert"
@@ -1170,7 +1181,17 @@
 - name: "Hayleigh Thompson"
   slug: "hayleighthompson"
   headline: "Gleam Core Team"
-  bio: "Member of the Gleam core team."
+  city: Bath
+  country_code: GB
+  bio: |
+    Hayleigh is the author of Lustre, Gleam’s most popular frontend Web framework as well as an ecosystem of packages that support it. She is an experienced Web developer and Elm engineer. More recently, Hayleigh has spent the last few years acting as a developer evangelist; spreading the good word about types, the BEAM, and Gleam to anyone with the patience to listen to her.
+  social_links:
+    - platform: github
+      url: https://github.com/hayleigh-dot-dev
+    - platform: twitter
+      url: https://x.com/hayleighdotdev
+    - platform: linkedin
+      url: https://www.linkedin.com/in/hayleigh/
 
 - name: "Isaac Abraham"
   slug: "isaacabraham"
@@ -1570,7 +1591,11 @@
 - name: "James Aimonetti"
   slug: "jamesaimonetti"
   headline: "Lead Systems Architect, Ooma"
-  bio: "Conference speaker."
+  bio: "For the last 15 years, James has been leading the development of the KAZOO platform, a distributed telecom infrastructure platform built to run across multiple data centers and scale to millions of endpoints. When not making the phones ring, he builds timber frame structures, carves spoons, tends sheep, and raises two boys with his partner."
+  website: https://jamesaimonetti.com/
+  social_links:
+    - platform: github
+      url: https://github.com/jamesaimonetti
 
 - name: "John Mikael Lindbakk"
   slug: "johnmikaellindbakk"
@@ -1579,8 +1604,19 @@
 
 - name: "Joseph Koski"
   slug: "josephkoski"
-  headline: "Author, Advanced FP with Elixir"
-  bio: "Conference speaker."
+  headline: "Author of Advanced FP with Elixir"
+  bio: "Joseph Koski is a software engineer with expertise in functional programming, domain-driven design, and safety-critical systems. He created the Funx library, bringing tools like monads to Elixir. He writes at joekoski.com, sharing insights on functional programming, real-time systems, and using Elixir to solve complex, reliability-focused problems."
+  city: Seattle
+  country_code: US
+  social_links:
+    - platform: github
+      url: https://github.com/JKWA
+    - platform: twitter
+      url: https://x.com/joekoski_wa
+    - platform: bluesky
+      url: https://bsky.app/profile/jkwa.bsky.social
+    - platform: linkedin
+      url: https://www.linkedin.com/in/josephkoski/
 
 - name: "Kevin De Porre"
   slug: "kevindeporre"
@@ -1602,8 +1638,13 @@
 
 - name: "Lorena Mireles"
   slug: "lorenamireles"
-  headline: "Elixir Developer, Erlang Solutions"
-  bio: "Conference speaker."
+  headline: "Elixir Developer @ Erlang Solutions"
+  bio: "Lorena is a software developer passionate about new challenges and high-quality code, which is why she became a fan of Elixir from her first encounter with it in 2018 and, subsequently, of the BEAM world. She is committed to diversity and inclusion in the industry. Occasional speaker, permanent coffee enthusiast."
+  city: Mexico City
+  country_code: MX
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/lorena-mireles-rivero/
 
 - name: "Louis Pilfold"
   slug: "louispilfold"
@@ -1613,7 +1654,15 @@
 - name: "Mat Trudel"
   slug: "mattrudel"
   headline: "Creator of Bandit"
-  bio: "Creator of Bandit, a pure-Elixir HTTP server for Plug and WebSock."
+  bio: "Mat is an ever-restless polymath from Toronto who loves solving the really gnarly problems. A perennial builder whose natural habitat is the basement workbench, he’s a fan of honesty, good design, and golden era hip-hop. Staff Engineer at PagerDuty by day. He / Him."
+  city: Toronto
+  country_code: CA
+  website: http://mat.geeky.net/
+  social_links:
+    - platform: github
+      url: https://github.com/mtrudel
+    - platform: bluesky
+      url: https://bsky.app/profile/mtrudel.bsky.social
 
 - name: "Mayel de Borniol"
   slug: "mayeldeborniol"
@@ -1637,8 +1686,15 @@
 
 - name: "Nicholas Geraedts"
   slug: "nicholasgeraedts"
-  headline: "Senior Software Engineer, Hiive"
-  bio: "Conference speaker."
+  headline: "Senior Software Engineer @ Hiive"
+  bio: "Nicholas is a seasoned engineer with a passion for clarity and correctness."
+  city: Port Coquitlam
+  country_code: CA
+  social_links:
+    - platform: github
+      url: https://github.com/ngeraedts
+    - platform: bluesky
+      url: https://bsky.app/profile/ngeraedts.bsky.social
 
 - name: "Niclas Axelsson"
   slug: "niclasaxelsson"
@@ -1714,8 +1770,19 @@
 
 - name: "Yutaka Kikuchi"
   slug: "yutakakikuchi"
-  headline: "Professor, Kochi Tech"
-  bio: "Conference speaker."
+  headline: "Prof of Kochi Tech & Founder of IX-layers"
+  bio: "Yutaka is a professor at Kochi University of Technology as well as the founder of a telecommunication startup named IX layers. One of his interests is to develop a new platform for developing distributed industrial systems in Elixir. He received his Ph.D. from Science Tokyo (ex. Tokyo Institute of Technology) for his work on non-imperative languages in 1996."
+  city: Kochi
+  country_code: JP
+  social_links:
+    - platform: github
+      url: https://github.com/kikuyuta
+    - platform: twitter
+      url: https://x.com/kikuyuta
+    - platform: bluesky
+      url: https://bsky.app/profile/kikuyuta.bsky.social
+    - platform: linkedin
+      url: https://www.linkedin.com/in/kikuyuta/
 
 - name: "Ellie Fairholm"
   slug: "elliefairholm"

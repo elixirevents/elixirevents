@@ -6,7 +6,7 @@ defmodule ElixirEvents.Events.Event do
   alias ElixirEvents.Embeds.SocialLink
 
   @kinds [:conference, :meetup, :retreat, :hackathon, :summit, :workshop]
-  @statuses [:announced, :confirmed, :cancelled, :completed]
+  @statuses [:announced, :confirmed, :ongoing, :cancelled, :completed]
   @formats [:in_person, :online, :hybrid]
 
   @permitted ~w(name slug description kind status format start_date end_date timezone language location website tickets_url banner_url color venue_id event_series_id)a

@@ -115,7 +115,7 @@ defmodule ElixirEventsWeb.BrandComponents do
   Renders an event status badge.
 
   ## Attributes
-    * `status` - One of :cfp_open, :cfp_closed, :cfp_upcoming, :announced, :confirmed, :completed, :cancelled
+    * `status` - One of :cfp_open, :cfp_closed, :cfp_upcoming, :announced, :confirmed, :ongoing, :completed, :cancelled
 
   ## Examples
       <.status_badge status={:cfp_open} />
@@ -154,6 +154,12 @@ defmodule ElixirEventsWeb.BrandComponents do
       class="text-xs font-bold px-2.5 py-1 rounded-full bg-info/15 text-info"
     >
       Confirmed
+    </span>
+    <span
+      :if={@status == :ongoing}
+      class="text-xs font-bold px-2.5 py-1 rounded-full bg-success/15 text-success"
+    >
+      Happening Now
     </span>
     <span
       :if={@status == :completed}
@@ -284,11 +290,22 @@ defmodule ElixirEventsWeb.BrandComponents do
   """
   attr :talk, :map, required: true
   attr :hide_event_name, :boolean, default: false
+  attr :back_to, :string, default: nil
+  attr :back_to_title, :string, default: nil
 
   def talk_card(assigns) do
+    link_path =
+      if assigns.back_to do
+        with_back_link(talk_path(assigns.talk), assigns.back_to, assigns.back_to_title)
+      else
+        talk_path(assigns.talk)
+      end
+
+    assigns = assign(assigns, :link_path, link_path)
+
     ~H"""
     <div class="group">
-      <.link navigate={talk_path(@talk)} class="block relative rounded-xl overflow-hidden mb-4">
+      <.link navigate={@link_path} class="block relative rounded-xl overflow-hidden mb-4">
         <%= if @talk.kind == :workshop do %>
           <%!-- Workshop card: branded gradient with icon --%>
           <div
@@ -360,7 +377,7 @@ defmodule ElixirEventsWeb.BrandComponents do
       </.link>
 
       <.link
-        navigate={talk_path(@talk)}
+        navigate={@link_path}
         class="font-display font-bold text-base-content hover:text-primary transition-colors line-clamp-2 block"
       >
         {@talk.title}
@@ -381,6 +398,37 @@ defmodule ElixirEventsWeb.BrandComponents do
           {@talk.event.name}
         </.link>
       </p>
+    </div>
+    """
+  end
+
+  @doc """
+  Renders a contextual back link. Uses `back_to`/`back_to_title` from assigns
+  (parsed from query params) if available, otherwise falls back to a default.
+
+  ## Attributes
+    * `back_to` - The back link path (from query param), or nil
+    * `back_to_title` - The back link label (from query param), or nil
+    * `default_path` - Fallback navigation path
+    * `default_title` - Fallback link text
+  """
+  attr :back_to, :string, default: nil
+  attr :back_to_title, :string, default: nil
+  attr :default_path, :string, required: true
+  attr :default_title, :string, required: true
+
+  def back_link(assigns) do
+    ~H"""
+    <div class="mb-8">
+      <.link
+        navigate={@back_to || @default_path}
+        class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        {@back_to_title || @default_title}
+      </.link>
     </div>
     """
   end
@@ -692,9 +740,14 @@ defmodule ElixirEventsWeb.BrandComponents do
   ## Attributes
     * `time_slots` - List of time slot maps with `:start_time`, `:end_time`, and `:sessions`
     * `limit` - Optional limit on number of slots to display
+    * `event` - The event (for building talk links). Optional for backward compatibility.
+    * `back_path` - Path to use for back link on talk pages. Optional.
   """
   attr :time_slots, :list, required: true
   attr :limit, :integer, default: nil
+  attr :event, :map, default: nil
+  attr :back_path, :string, default: nil
+  attr :show_tracks?, :boolean, default: false
 
   def schedule_list(assigns) do
     slots =
@@ -703,28 +756,164 @@ defmodule ElixirEventsWeb.BrandComponents do
     assigns = assign(assigns, :display_slots, slots)
 
     ~H"""
-    <div class="space-y-0.5">
-      <div
-        :for={slot <- @display_slots}
-        class="flex items-start gap-4 py-2.5 px-3 rounded-lg text-sm hover:bg-base-200/40 transition-colors"
-      >
-        <span class="text-xs text-base-content/50 w-24 shrink-0 pt-0.5 font-medium tabular-nums">
-          {Calendar.strftime(slot.start_time, "%H:%M")} – {Calendar.strftime(slot.end_time, "%H:%M")}
-        </span>
-        <div class="flex-1 min-w-0">
-          <div :for={session <- slot.sessions} class="mb-1 last:mb-0">
-            <span :if={session.kind in [:break, :social]} class="text-base-content/50">
-              {session.title}
+    <div class="space-y-1">
+      <%= for slot <- @display_slots do %>
+        <% is_break? = Enum.any?(slot.sessions, &(&1.kind in [:break, :social])) %>
+
+        <%= if is_break? do %>
+          <% break_session = Enum.find(slot.sessions, &(&1.kind in [:break, :social])) %>
+          <div class="flex items-center gap-3 py-2.5 px-1">
+            <span class="text-[11px] text-base-content/30 w-20 shrink-0 font-medium tabular-nums text-right">
+              {Calendar.strftime(slot.start_time, "%H:%M")}
             </span>
-            <span :if={session.kind not in [:break, :social]} class="font-medium text-base-content">
-              {session.title}
-            </span>
-            <span :if={session.track} class="text-xs text-base-content/40 ml-2">
-              ({session.track.name})
-            </span>
+            <div class="flex-1 flex items-center gap-3">
+              <div class="flex-1 border-t border-dashed border-base-content/10"></div>
+              <span class="text-xs text-base-content/30 font-medium">{break_session.title}</span>
+              <div class="flex-1 border-t border-dashed border-base-content/10"></div>
+            </div>
           </div>
+        <% else %>
+          <div class="flex gap-3 py-1">
+            <div class="w-20 shrink-0 text-right pt-3 px-1">
+              <div class="text-xs text-base-content/45 font-medium tabular-nums">
+                {Calendar.strftime(slot.start_time, "%H:%M")}
+              </div>
+              <div class="text-[10px] text-base-content/25 tabular-nums">
+                {Calendar.strftime(slot.end_time, "%H:%M")}
+              </div>
+            </div>
+            <div class="flex-1 min-w-0 space-y-1.5">
+              <.schedule_session_card
+                :for={session <- slot.sessions}
+                :if={session.kind not in [:break, :social]}
+                session={session}
+                event={@event}
+                back_path={@back_path}
+                show_track?={@show_tracks?}
+              />
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+    """
+  end
+
+  @doc """
+  Renders a single schedule session as a card with title, speakers, and kind badge.
+  Links to the talk detail page when the session has an associated talk.
+  """
+  attr :session, :map, required: true
+  attr :event, :map, default: nil
+  attr :back_path, :string, default: nil
+  attr :show_track?, :boolean, default: false
+
+  def schedule_session_card(assigns) do
+    talk = if assigns.session.talk_id, do: assigns.session.talk, else: nil
+    speakers = if talk, do: talk.talk_speakers |> Enum.sort_by(& &1.position), else: []
+
+    talk_path =
+      if talk && assigns.event do
+        base = "/talks/#{assigns.event.slug}/#{talk.slug}"
+
+        if assigns.back_path do
+          with_back_link(base, assigns.back_path, "Schedule")
+        else
+          base
+        end
+      end
+
+    assigns =
+      assigns
+      |> assign(:talk, talk)
+      |> assign(:speakers, speakers)
+      |> assign(:talk_path, talk_path)
+
+    ~H"""
+    <.link
+      :if={@talk_path}
+      navigate={@talk_path}
+      class="group block p-4 rounded-xl border border-base-content/[0.06] bg-base-200/20 hover:bg-base-200/40 hover:border-primary/20 transition-all"
+    >
+      <.session_card_inner session={@session} speakers={@speakers} show_track?={@show_track?} />
+    </.link>
+    <div
+      :if={!@talk_path}
+      class="p-4 rounded-xl border border-base-content/[0.06] bg-base-200/20"
+    >
+      <.session_card_inner session={@session} speakers={@speakers} show_track?={@show_track?} />
+    </div>
+    """
+  end
+
+  attr :session, :map, required: true
+  attr :speakers, :list, default: []
+  attr :show_track?, :boolean, default: false
+
+  defp session_card_inner(assigns) do
+    ~H"""
+    <div class="flex items-start justify-between gap-3">
+      <div class="flex-1 min-w-0">
+        <%!-- Badges row --%>
+        <div class="flex flex-wrap items-center gap-1.5 mb-1.5">
+          <span
+            :if={@session.kind == :keynote}
+            class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-primary/15 text-primary uppercase tracking-wide"
+          >
+            Keynote
+          </span>
+          <span
+            :if={@session.kind == :lightning_talk}
+            class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-accent/15 text-accent uppercase tracking-wide"
+          >
+            Lightning
+          </span>
+          <span
+            :if={@show_track? && @session.track}
+            class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-base-300/60 text-base-content/45"
+          >
+            {@session.track.name}
+          </span>
+        </div>
+
+        <%!-- Title --%>
+        <div class={[
+          "font-medium text-sm leading-snug",
+          if(@session.kind == :keynote,
+            do: "text-base-content font-display font-bold",
+            else: "text-base-content group-hover:text-primary transition-colors"
+          )
+        ]}>
+          {@session.title}
+        </div>
+
+        <%!-- Speakers --%>
+        <div :if={@speakers != []} class="flex items-center gap-2 mt-2">
+          <div class="flex -space-x-1.5">
+            <div
+              :for={ts <- Enum.take(@speakers, 4)}
+              class="w-6 h-6 rounded-full flex items-center justify-center text-[9px] font-display font-bold ring-2 ring-base-100 shrink-0"
+              style={avatar_style(ts.profile.name)}
+            >
+              {initials(ts.profile.name)}
+            </div>
+          </div>
+          <span class="text-xs text-base-content/50 truncate">
+            {@speakers |> Enum.map_join(", ", & &1.profile.name)}
+          </span>
         </div>
       </div>
+
+      <%!-- Chevron for linked sessions --%>
+      <svg
+        :if={@session.talk_id}
+        class="w-4 h-4 text-base-content/20 group-hover:text-primary shrink-0 mt-1 transition-colors"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
     </div>
     """
   end

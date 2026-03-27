@@ -556,6 +556,7 @@ const CommandBarHook = {
             collection: "profiles",
             q: query,
             query_by: "name,handle,headline",
+            filter_by: "is_speaker:true",
             per_page: 8,
           },
           {

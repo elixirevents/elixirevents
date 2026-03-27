@@ -1,0 +1,40 @@
+- title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
+  slug: "workshop-beyond-vibe-coding-layered-ai-prompts"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-03-24"
+  end_date: "2026-03-24"
+  venue_slug: chateau-granville
+  description: |
+    Stop writing monolithic prompts and hoping for the best. This full-day training teaches systematic layering for AI-assisted development: decomposing complex interactions into skills (reusable capabilities), agents (specialized roles), tasks (sequential workflows), and processes (orchestrated systems). Drawing from Elixir's compositional patterns, you'll learn to engineer predictable AI workflows instead of crossing your fingers.
+
+    You'll discover how to get rapid feedback at each layer rather than waiting until the end, and how to anchor long-running workflows in markdown documents and code comments that persist context across sessions. Through hands-on exercises building Phoenix applications, you'll transform sprawling prompts into debuggable architectures where each piece can be understood, tested, and iterated independently.
+
+    Leave with practical patterns for reliable AI-assisted development that feel as solid as the OTP patterns you already trust.
+  target_audience: "Elixir developers seeking systematic AI-assisted development approaches. Applicable whether using Claude Code, Cursor, or building custom AI integrations."
+  booking_url: "https://codebeamvancouver.com/trainings/layer-everything/"
+  trainers:
+    - brucetate
+  topics:
+    - elixir
+    - ai
+
+- title: "BEAM VM Under the Hood"
+  slug: "workshop-beam-vm-under-the-hood"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-03-24"
+  end_date: "2026-03-24"
+  venue_slug: 980-howe-rooftop
+  description: |
+    Everything you wanted to know about the BEAM but were afraid to ask! Through examples and hands-on exercises, we will showcase how to manage the BEAM VM in operational environments, optimising for memory utilisation and performance when using Erlang or Elixir.
+
+    Course outline: Intro to the BEAM — highlights of the BEAM Virtual Machine, the features which make it stand out in comparison to other VMs. Processes under the hood — how memory is allocated, managed and garbage collected. The Process Scheduler — how the schedulers works, how it scales on multi-core architectures and what its limitations are. Memory Management — different memory types including system, atom, binary, code and ETS tables. Tweaking and fine-tuning — tweaks and possible fine-tuning.
+
+    Prerequisites: Experience in developing and supporting languages running on the BEAM, including Erlang and Elixir.
+  target_audience: "Experienced developers and devops engineers, helping them pre-empt and address behaviour which arise as the result of VM specific settings."
+  booking_url: "https://codebeamvancouver.com/trainings/BEAM-VM-Under-the-Hood/"
+  trainers:
+    - robertvirding
+  topics:
+    - erlang

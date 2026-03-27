@@ -110,6 +110,7 @@ defmodule Mix.Tasks.ElixirEvents.Import.Changed do
       {:ok, event} ->
         Logger.info("Re-imported event: #{event.name}")
         ElixirEvents.Import.Talks.run(event_dir, event)
+        ElixirEvents.Import.Workshops.run(event_dir, event)
         ElixirEvents.Import.Schedule.run(event_dir, event)
         ElixirEvents.Import.Sponsors.run(event_dir, event)
         ElixirEvents.Import.CFPs.run(event_dir, event)

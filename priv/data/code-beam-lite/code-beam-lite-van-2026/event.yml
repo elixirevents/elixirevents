@@ -3,6 +3,7 @@ slug: "codebeam-lite-van-2026"
 kind: conference
 status: completed
 format: in_person
+venue_slug: "viff-centre"
 start_date: "2026-03-23"
 end_date: "2026-03-23"
 timezone: "America/Vancouver"
@@ -10,4 +11,9 @@ language: en
 location: "Vancouver, Canada"
 website: "https://codebeamvancouver.com"
 color: "#3182CE"
-description: "Full day of first-rate BEAM-related talks with Erlang, Elixir and Gleam programming language enthusiasts."
+description: |
+  The Conference for Erlang, Elixir & Gleam Developers in Canada
+
+  Meet people and companies using and developing high performance, fault-tolerant and resilient applications that scale to billions of users in production in areas like AI, Cloud, Fintech, IoT, Security and beyond! Come and join us to learn from each other, share knowledge and be inspired all while growing your network of contacts.
+
+  Developers of every level can expect to learn from each other, share knowledge all while growing our community reach in Canada.

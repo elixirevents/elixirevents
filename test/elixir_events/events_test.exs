@@ -597,6 +597,169 @@ defmodule ElixirEvents.EventsTest do
     end
   end
 
+  describe "start_ongoing_events/0" do
+    test "marks confirmed events whose start_date has arrived as ongoing" do
+      today = Date.utc_today()
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "started-today",
+            status: :confirmed,
+            start_date: today,
+            end_date: Date.add(today, 2)
+        })
+
+      assert {1, _} = Events.start_ongoing_events()
+      assert Events.get_event_by_slug("started-today").status == :ongoing
+    end
+
+    test "marks announced events whose start_date has arrived as ongoing" do
+      today = Date.utc_today()
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "announced-started",
+            status: :announced,
+            start_date: Date.add(today, -1),
+            end_date: Date.add(today, 1)
+        })
+
+      assert {1, _} = Events.start_ongoing_events()
+      assert Events.get_event_by_slug("announced-started").status == :ongoing
+    end
+
+    test "does not touch future events" do
+      future_date = Date.add(Date.utc_today(), 30)
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "future-conf",
+            status: :confirmed,
+            start_date: future_date,
+            end_date: Date.add(future_date, 2)
+        })
+
+      assert {0, _} = Events.start_ongoing_events()
+      assert Events.get_event_by_slug("future-conf").status == :confirmed
+    end
+
+    test "does not touch cancelled events" do
+      today = Date.utc_today()
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "cancelled-started",
+            status: :cancelled,
+            start_date: today,
+            end_date: Date.add(today, 1)
+        })
+
+      assert {0, _} = Events.start_ongoing_events()
+      assert Events.get_event_by_slug("cancelled-started").status == :cancelled
+    end
+
+    test "does not touch events whose end_date has passed" do
+      past_date = Date.add(Date.utc_today(), -5)
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "already-past",
+            status: :confirmed,
+            start_date: Date.add(past_date, -2),
+            end_date: past_date
+        })
+
+      assert {0, _} = Events.start_ongoing_events()
+      assert Events.get_event_by_slug("already-past").status == :confirmed
+    end
+  end
+
+  describe "complete_past_events/0" do
+    test "marks past ongoing events as completed" do
+      past_date = Date.add(Date.utc_today(), -5)
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "past-ongoing",
+            status: :ongoing,
+            start_date: Date.add(past_date, -2),
+            end_date: past_date
+        })
+
+      assert {1, _} = Events.complete_past_events()
+      assert Events.get_event_by_slug("past-ongoing").status == :completed
+    end
+
+    test "marks past confirmed events as completed" do
+      past_date = Date.add(Date.utc_today(), -5)
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "past-confirmed",
+            status: :confirmed,
+            start_date: Date.add(past_date, -2),
+            end_date: past_date
+        })
+
+      assert {1, _} = Events.complete_past_events()
+      assert Events.get_event_by_slug("past-confirmed").status == :completed
+    end
+
+    test "does not touch already completed events" do
+      past_date = Date.add(Date.utc_today(), -5)
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "already-done",
+            status: :completed,
+            start_date: Date.add(past_date, -2),
+            end_date: past_date
+        })
+
+      assert {0, _} = Events.complete_past_events()
+    end
+
+    test "does not touch cancelled events" do
+      past_date = Date.add(Date.utc_today(), -5)
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "past-cancelled",
+            status: :cancelled,
+            start_date: Date.add(past_date, -2),
+            end_date: past_date
+        })
+
+      assert {0, _} = Events.complete_past_events()
+      assert Events.get_event_by_slug("past-cancelled").status == :cancelled
+    end
+
+    test "does not touch events ending today" do
+      today = Date.utc_today()
+
+      {:ok, _} =
+        Events.create_event(%{
+          @valid_event_attrs
+          | slug: "ending-today",
+            status: :ongoing,
+            start_date: Date.add(today, -1),
+            end_date: today
+        })
+
+      assert {0, _} = Events.complete_past_events()
+      assert Events.get_event_by_slug("ending-today").status == :ongoing
+    end
+  end
+
   describe "event venue association" do
     test "get_event_by_slug/2 preloads venue when requested" do
       venue =

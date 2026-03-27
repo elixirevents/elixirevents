@@ -133,5 +133,11 @@ if config_env() == :prod do
 
   config :elixir_events, Oban,
     repo: ElixirEvents.Repo,
-    queues: [search: 5]
+    queues: [search: 5, default: 5],
+    plugins: [
+      {Oban.Plugins.Cron,
+       crontab: [
+         {"0 1 * * *", ElixirEvents.Events.EventStatusWorker}
+       ]}
+    ]
 end

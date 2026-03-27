@@ -19,7 +19,7 @@ defmodule ElixirEvents.DataValidator do
 
   # Enum values must match the Ecto schema definitions
   @event_kinds ~w(conference meetup retreat hackathon summit workshop)
-  @event_statuses ~w(announced confirmed cancelled completed)
+  @event_statuses ~w(announced confirmed ongoing cancelled completed)
   @event_formats ~w(in_person online hybrid)
   @series_kinds @event_kinds
   @series_frequencies ~w(yearly monthly quarterly biannual irregular once)

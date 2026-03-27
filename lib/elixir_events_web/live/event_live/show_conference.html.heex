@@ -243,7 +243,12 @@
         <.day_tabs days={@schedule_days} selected_day_id={@selected_day.id} />
 
         <div class="mt-4">
-          <.schedule_list time_slots={@selected_day.time_slots} limit={5} />
+          <.schedule_list
+            time_slots={@selected_day.time_slots}
+            limit={5}
+            event={@event}
+            back_path={~p"/events/#{@event.slug}/schedule"}
+          />
         </div>
 
         <div

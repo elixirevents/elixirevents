@@ -1,16 +1,10 @@
 <section>
-  <%!-- Back link --%>
-  <div class="mb-8">
-    <.link
-      navigate={~p"/talks"}
-      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
-    >
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-      </svg>
-      All talks
-    </.link>
-  </div>
+  <.back_link
+    back_to={@back_to}
+    back_to_title={@back_to_title}
+    default_path={~p"/talks"}
+    default_title="All talks"
+  />
 
   <%!-- Video player --%>
   <div class="mb-8">

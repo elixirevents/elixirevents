@@ -254,6 +254,7 @@ defmodule ElixirEvents.Import.Sync do
       {:ok, event} ->
         Logger.info("Synced event: #{event.name}")
         Import.Talks.run(event_dir, event)
+        Import.Workshops.run(event_dir, event)
         Import.Schedule.run(event_dir, event)
         Import.Sponsors.run(event_dir, event)
         Import.CFPs.run(event_dir, event)
