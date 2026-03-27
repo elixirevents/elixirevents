@@ -13,8 +13,16 @@
 
   <%!-- Series hero --%>
   <div class="relative rounded-2xl overflow-hidden mb-8">
-    <div class="absolute inset-0" style={ElixirEvents.Colors.card_style(@series.name, @series.color)}></div>
-    <div class="absolute inset-0 opacity-[0.06]" style={ElixirEvents.Colors.card_pattern(@series.name)}></div>
+    <div
+      class="absolute inset-0"
+      style={ElixirEvents.Colors.card_style(@series.name, @series.color)}
+    >
+    </div>
+    <div
+      class="absolute inset-0 opacity-[0.06]"
+      style={ElixirEvents.Colors.card_pattern(@series.name)}
+    >
+    </div>
     <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
     <div class="relative p-6 sm:p-10 text-white min-h-[160px] flex flex-col justify-end">
@@ -61,7 +69,12 @@
       class="inline-flex items-center gap-1.5 text-xs text-base-content/50 hover:text-primary transition-colors"
     >
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+        />
       </svg>
       {platform_label(link.platform)}
     </a>

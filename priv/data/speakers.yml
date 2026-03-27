@@ -1472,8 +1472,13 @@
 
 - name: "Barry O'Reilly"
   slug: "barryoreilly"
-  headline: "CEO/Founder, Black Tulip Technology"
-  bio: "Conference speaker."
+  headline: "CEO/Founder at Black Tulip Technology"
+  bio: "Barry is a veteran Architect who has held Chief Architect positions at Microsoft among others. He has also been a startup CTO, the Worldwide Lead for the Solutions Architecture Community at Microsoft, and founder of the Swedish Azure User Group. He is also a PhD candidate in software design and complexity science."
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/barry-o-reilly-b924657/
 
 - name: "Benjamin Milde"
   slug: "benjaminmilde"
@@ -1554,10 +1559,13 @@
   headline: "Erlang/OTP Developer"
   bio: "Conference speaker."
 
-- name: "Kristoffer Gronlund"
+- name: "Kristoffer Grönlund"
   slug: "kristoffergronlund"
-  headline: "Ziran AB"
-  bio: "Conference speaker."
+  headline: "Software Engineer at Ziran AB"
+  bio: "Kristoffer learned to program on a Commodore 64 and dreamt of becoming a game developer. After living the dream making AAA games for a number of years, a growing passion for free and open software turned into a career in Linux, High Availability, Data Engineering and systems to count passengers on the Stockholm subway lines (among other things)."
+  social_links:
+    - platform: bluesky
+      url: https://bsky.app/profile/6510.nu
 
 - name: "Lorena Mireles"
   slug: "lorenamireles"
@@ -1581,8 +1589,18 @@
 
 - name: "Michael Begley"
   slug: "michaelbegley"
-  headline: "Head of RAN Compute, Ericsson"
-  bio: "Conference speaker."
+  headline: "Head of Product Line RAN Compute at Ericsson"
+  bio: |
+    With more than 25 years of leadership positions, product management and working with product development in the telecommunications industry, I have accumulated extensive experience in managing business and product strategies, cradle-to-grave product lifecycles, market demand analysis, developing business cases, requirement definition, system design, sponsorship of large R&D projects, product introduction, supply chain definition, go-to-market and customer relationship management. My experience covers both software and hardware development.
+
+    Technology continues to transform the world we live in and as responsible for our RAN Compute portfolio, I have the interesting and challenging task to define our product offering by exploring cutting edge technology and understanding how it can address our customers challenges.
+
+    I am working at the intersection of technology and business, together with my team we create technology solutions that brings positive change to customers and the wider world around us.
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/michael-begley-1339411/
 
 - name: "Nicholas Geraedts"
   slug: "nicholasgeraedts"

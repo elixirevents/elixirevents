@@ -2,6 +2,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
   use ElixirEventsWeb, :live_view
 
   alias ElixirEvents.{Events, Program, Sponsorship, Talks}
+  alias ElixirEventsWeb.EventLive.{ShowCompact, ShowConference}
 
   @compact_kinds [:meetup, :workshop]
 
@@ -13,9 +14,9 @@ defmodule ElixirEventsWeb.EventLive.Show do
   @impl true
   def render(assigns) do
     if assigns.compact do
-      ElixirEventsWeb.EventLive.ShowCompact.render(assigns)
+      ShowCompact.render(assigns)
     else
-      ElixirEventsWeb.EventLive.ShowConference.render(assigns)
+      ShowConference.render(assigns)
     end
   end
 

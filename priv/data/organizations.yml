@@ -73,3 +73,15 @@
   website: "https://erlef.org"
   description: "Supporting the Erlang and Elixir ecosystem"
   logo_url: "https://www.elixirconf.eu/assets/images/sponsors/EEF%20logo%20blk%202021.png"
+
+- name: "Ericsson"
+  slug: "ericsson"
+  website: "https://www.ericsson.com"
+  description: "Ericsson enables communications service providers and enterprises to capture the full value of connectivity"
+  logo_url: "https://codebeamstockholm.com/assets/images/ericsson.svg"
+
+- name: "Kivra"
+  slug: "kivra"
+  website: "https://kivra.se/en/private"
+  description: "For all the collectors out there"
+  logo_url: "https://codebeamstockholm.com/assets/images/sponsors/Kivra_Logo_RGB_Black.png"

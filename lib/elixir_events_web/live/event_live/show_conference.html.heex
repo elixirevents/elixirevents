@@ -300,7 +300,10 @@
             )}
           </span>
         </div>
-        <div :if={event_duration(@event) && @event.start_date != @event.end_date} class="flex items-center gap-3">
+        <div
+          :if={@event.start_date != @event.end_date}
+          class="flex items-center gap-3"
+        >
           <svg
             class="w-4 h-4 text-base-content/50 shrink-0"
             fill="none"

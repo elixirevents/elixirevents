@@ -10,4 +10,17 @@ language: en
 location: "Stockholm, Sweden"
 website: "https://codebeamstockholm.com"
 color: "#3182CE"
-description: "Single-day conference celebrating Erlang, Elixir, and Gleam ecosystems, hosted at Ericsson HQ during their 150th anniversary."
+venue_slug: ericssonhq-openbox
+tickets_url: https://codebeamstockholm.com/
+description: |
+  The Erlang and Elixir User Conference in the Nordics
+
+  Join us for a full-day celebration of the Erlang and Elixir ecosystems at Code BEAM Lite Stockholm!
+
+  This year we are proud to host the event at Ericsson’s Stockholm offices, as Ericsson celebrates 150 years of innovation. Ericsson’s engineering challenges were the birthplace of Erlang, and we’re excited to honour that legacy together with the BEAM community.
+
+  Meet people and companies using and developing high performance, fault-tolerant and resilient applications that scale to billions of users in production in areas like Fintech, eCommerce, IoT, Gaming, Blockchain, Security, Machine Learning and more. Code BEAM Stockholm is in the home of Erlang and has a strong community of developers from the Nordics. Come and join us to learn from each other, share knowledge and be inspired all while growing your network of contacts.
+
+  More advanced developers will appreciate that our programme is packed with cutting-edge thought provoking talks. At Code BEAM Lite Stockholm we will uncover how BEAM languages are transforming areas like IoT, Fintech, Machine Learning, Blockchain, Security and more!
+
+  Developers of every level can expect to learn from each other, share knowledge all while growing our community reach in the Nordics.
