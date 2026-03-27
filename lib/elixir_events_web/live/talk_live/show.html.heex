@@ -89,9 +89,9 @@
 
       <div
         :if={@talk.abstract}
-        class="text-base-content/55 mt-4 leading-relaxed whitespace-pre-line"
+        class="text-base-content/55 mt-4 leading-relaxed prose prose-sm prose-base-content/55 max-w-none"
       >
-        {@talk.abstract}
+        {render_markdown(@talk.abstract)}
       </div>
 
       <%!-- Action buttons --%>
