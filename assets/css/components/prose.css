@@ -1,0 +1,197 @@
+/* ═══════════════════════════════════════════════════════════
+   ELIXIR EVENTS PROSE — Markdown rendering for workshop
+   descriptions, talk abstracts, and other rich content.
+   ═══════════════════════════════════════════════════════════ */
+
+.ee-prose {
+    font-size: 0.925rem;
+    line-height: 1.7;
+    color: oklch(from var(--color-base-content) l c h / 0.7);
+    max-width: none;
+}
+
+/* Paragraphs */
+.ee-prose p {
+    margin-top: 0;
+    margin-bottom: 0.85em;
+}
+.ee-prose p:last-child {
+    margin-bottom: 0;
+}
+
+/* Headings */
+.ee-prose h1,
+.ee-prose h2,
+.ee-prose h3,
+.ee-prose h4,
+.ee-prose h5,
+.ee-prose h6 {
+    font-family: var(--font-display, inherit);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--color-base-content);
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    line-height: 1.3;
+}
+.ee-prose h1 {
+    font-size: 1.2rem;
+}
+.ee-prose h2 {
+    font-size: 1.05rem;
+}
+.ee-prose h3 {
+    font-size: 0.95rem;
+}
+.ee-prose h4,
+.ee-prose h5,
+.ee-prose h6 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+/* First child never needs top margin */
+.ee-prose > *:first-child {
+    margin-top: 0;
+}
+
+/* Bold & italic */
+.ee-prose strong {
+    font-weight: 600;
+    color: oklch(from var(--color-base-content) l c h / 0.9);
+}
+.ee-prose em {
+    font-style: italic;
+    color: oklch(from var(--color-base-content) l c h / 0.65);
+}
+
+/* Links */
+.ee-prose a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.2s;
+}
+.ee-prose a:hover {
+    color: oklch(from var(--color-primary) l c h / 0.7);
+}
+
+/* Unordered lists */
+.ee-prose ul {
+    list-style: none;
+    margin: 0.75em 0;
+    padding-left: 1.25em;
+}
+.ee-prose ul li {
+    position: relative;
+    margin-bottom: 0.3em;
+}
+.ee-prose ul li::before {
+    content: "•";
+    position: absolute;
+    left: -1em;
+    color: oklch(from var(--color-primary) l c h / 0.4);
+    font-weight: 700;
+}
+
+/* Ordered lists */
+.ee-prose ol {
+    list-style: decimal;
+    margin: 0.75em 0;
+    padding-left: 1.5em;
+}
+.ee-prose ol li {
+    margin-bottom: 0.3em;
+    padding-left: 0.25em;
+}
+.ee-prose ol li::marker {
+    color: oklch(from var(--color-primary) l c h / 0.5);
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+/* Nested lists */
+.ee-prose ul ul,
+.ee-prose ol ol,
+.ee-prose ul ol,
+.ee-prose ol ul {
+    margin: 0.3em 0 0.3em 0.5em;
+}
+
+/* Inline code */
+.ee-prose code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.8em;
+    background: oklch(from var(--color-base-content) l c h / 0.07);
+    color: var(--color-secondary);
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+}
+
+/* Code blocks */
+.ee-prose pre {
+    background: oklch(from var(--color-base-200) l c h / 0.8);
+    color: oklch(from var(--color-base-content) l c h / 0.85);
+    border: 1px solid oklch(from var(--color-base-content) l c h / 0.08);
+    border-radius: 0.5rem;
+    padding: 0.9em 1.1em;
+    overflow-x: auto;
+    margin: 1em 0;
+    font-size: 0.8em;
+    line-height: 1.65;
+}
+.ee-prose pre code {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: 1em;
+    border-radius: 0;
+}
+
+/* Blockquotes */
+.ee-prose blockquote {
+    border-left: 2px solid oklch(from var(--color-primary) l c h / 0.4);
+    padding: 0.5em 0 0.5em 1em;
+    margin: 1em 0;
+    color: oklch(from var(--color-base-content) l c h / 0.55);
+    font-style: italic;
+}
+.ee-prose blockquote p {
+    margin-bottom: 0;
+}
+
+/* Tables */
+.ee-prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.85em;
+}
+.ee-prose thead th {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: oklch(from var(--color-base-content) l c h / 0.45);
+    text-align: left;
+    padding: 0.5em 0.75em;
+    border-bottom: 1px solid oklch(from var(--color-base-content) l c h / 0.1);
+}
+.ee-prose tbody td {
+    padding: 0.5em 0.75em;
+    border-bottom: 1px solid oklch(from var(--color-base-content) l c h / 0.05);
+    color: oklch(from var(--color-base-content) l c h / 0.75);
+    vertical-align: top;
+}
+.ee-prose tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Horizontal rule */
+.ee-prose hr {
+    border: none;
+    height: 1px;
+    background: oklch(from var(--color-base-content) l c h / 0.08);
+    margin: 1.5em 0;
+}

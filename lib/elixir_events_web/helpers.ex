@@ -276,7 +276,7 @@ defmodule ElixirEventsWeb.Helpers do
 
   def render_markdown(text) do
     text
-    |> Earmark.as_html!(compact_output: true)
+    |> MDEx.to_html!(extension: [table: true, strikethrough: true, autolink: true])
     |> Phoenix.HTML.raw()
   end
 end
