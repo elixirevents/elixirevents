@@ -40,6 +40,8 @@
   region: "Kista"
   country: "Sweden"
   country_code: "SE"
+  latitude: 59.4047
+  longitude: 17.9556
   description: "The Open Box venue at Ericsson's global headquarters in Kista, Stockholm's technology district."
 
 - name: "VIFF Centre"
