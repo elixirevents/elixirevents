@@ -181,3 +181,7 @@
 - name: "Geospatial"
   slug: "geospatial"
   description: "Geospatial data, mapping, location services, and geographic information systems"
+
+- name: "Product"
+  slug: "product"
+  description: "Product strategy, management, scaling, and business decisions in software development"

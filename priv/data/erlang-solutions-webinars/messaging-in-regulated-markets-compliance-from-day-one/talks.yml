@@ -1,0 +1,14 @@
+- title: "Messaging in Regulated Markets: Compliance from Day One"
+  slug: "messaging-in-regulated-markets-compliance-from-day-one"
+  kind: talk
+  language: en
+  abstract: |
+    When building messaging, compliance may not be the first thing on your mind. But leaving it until the end often leads to delays, costly fixes, and unnecessary headaches. In this session, Piotr Nosek demonstrates how incorporating compliance into your design from the outset can actually accelerate delivery, mitigate risk, and create a competitive advantage. With real-world examples, he shares the core principles of building secure, auditable, and scalable messaging systems. He also demonstrates how MongooseIM helps teams stay compliant with GDPR, HIPAA, and NHS standards while still supporting advanced features such as end-to-end encryption, push notifications, and video calls.
+  speakers:
+    - piotrnosek
+  topics:
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "uy4SxKQbhnQ"
+      url: "https://www.youtube.com/watch?v=uy4SxKQbhnQ"

@@ -1,0 +1,16 @@
+- title: "Gleam's Interoperability with Erlang and Elixir"
+  slug: "gleams-interoperability-with-erlang-and-elixir"
+  kind: talk
+  language: en
+  abstract: |
+    Raúl discusses Gleam, a type-safe language that compiles to Erlang and runs on the BEAM virtual machine. Though relatively new, Gleam integrates smoothly with both Erlang and Elixir, enabling developers to tap into their ecosystems and tools. Raúl demonstrates this with a live Tic-Tac-Toe web app, showing how Gleam can work alongside Elixir and Erlang code, use their dependencies, and embed Elixir modules like Phoenix LiveView within a Gleam project.
+  speakers:
+    - raulchouza
+  topics:
+    - gleam
+    - erlang
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "63Z2oNW1Bf4"
+      url: "https://www.youtube.com/watch?v=63Z2oNW1Bf4"

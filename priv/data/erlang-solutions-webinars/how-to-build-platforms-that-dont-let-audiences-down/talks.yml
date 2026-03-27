@@ -1,0 +1,24 @@
+- title: "How to Build Platforms That Don't Let Audiences Down"
+  slug: "how-to-build-platforms-that-dont-let-audiences-down"
+  kind: talk
+  language: en
+  abstract: |
+    Traffic spikes are normal for platforms in gaming, betting, and entertainment. The real challenge is making sure your systems stay reliable when millions of users arrive at once.
+
+    In this session, Lee Sigauke explores why systems fail during sudden traffic surges and how teams can design platforms that remain stable under extreme demand. She shares practical insights on building resilient architectures that handle high concurrency, unpredictable traffic, and real-time workloads.
+
+    What you’ll learn:
+    - Why traffic surges are inevitable in real-time platforms
+    - Common failure patterns during peak demand
+    - How concurrency-first design improves reliability
+    - Key practices for building resilient, scalable systems
+    - From Minimum Viable Product to Mission Critical
+  speakers:
+    - leesigauke
+  topics:
+    - engineering
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "vVNGu4xVz94"
+      url: "https://www.youtube.com/watch?v=vVNGu4xVz94"

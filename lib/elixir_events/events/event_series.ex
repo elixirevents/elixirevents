@@ -4,9 +4,12 @@ defmodule ElixirEvents.Events.EventSeries do
   use ElixirEvents.Schema
 
   alias ElixirEvents.Embeds.SocialLink
+  alias ElixirEvents.Events.Event
 
-  @kinds [:conference, :meetup, :retreat, :hackathon, :summit, :workshop]
+  @kinds Event.kinds()
   @frequencies [:yearly, :monthly, :quarterly, :biannual, :irregular, :once]
+
+  def frequencies, do: @frequencies
 
   @permitted ~w(name slug description kind frequency language website color ended listed)a
   @required ~w(name slug kind)a

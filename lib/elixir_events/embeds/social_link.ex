@@ -16,6 +16,8 @@ defmodule ElixirEvents.Embeds.SocialLink do
     :meetup
   ]
 
+  def platforms, do: @platforms
+
   @primary_key false
   embedded_schema do
     field :platform, Ecto.Enum, values: @platforms

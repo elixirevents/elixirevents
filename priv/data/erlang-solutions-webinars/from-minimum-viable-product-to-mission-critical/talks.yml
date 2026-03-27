@@ -1,0 +1,13 @@
+- title: "From Minimum Viable Product to Mission Critical"
+  slug: "from-minimum-viable-product-to-mission-critical"
+  kind: talk
+  language: en
+  abstract: "Most fintech teams know how to build an MVP. Fewer know what to do once it starts getting real users, real traffic, and real regulatory attention. In this session, Camjar Djoweini talks about what typically breaks after the MVP phase and why this moment matters so much for fintech products."
+  speakers:
+    - camjardjoweini
+  topics:
+    - product
+  recordings:
+    - provider: youtube
+      external_id: "ylwH65k5YGU"
+      url: "https://www.youtube.com/watch?v=ylwH65k5YGU"

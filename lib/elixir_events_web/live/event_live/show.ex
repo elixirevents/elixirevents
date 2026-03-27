@@ -4,7 +4,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
   alias ElixirEvents.{Events, Program, Sponsorship, Talks, Workshops}
   alias ElixirEventsWeb.EventLive.{ShowCompact, ShowConference}
 
-  @compact_kinds [:meetup, :workshop]
+  @compact_kinds [:meetup, :workshop, :webinar]
 
   @impl true
   def mount(_params, _session, socket) do

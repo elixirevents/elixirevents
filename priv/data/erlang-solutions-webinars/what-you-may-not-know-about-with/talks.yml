@@ -1,0 +1,14 @@
+- title: "What You May Not Know About `with`"
+  slug: "what-you-may-not-know-about-with"
+  kind: talk
+  language: en
+  abstract: "In this webinar, Brian Underwood and Adilet Abylov discuss Elixir’s with clause, a feature that can help simplify control flow. Although many developers have encountered with, it’s often not fully understood or used to its full potential."
+  speakers:
+    - brianunderwood
+    - adiletabylov
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "uNTlc3tmz3M"
+      url: "https://www.youtube.com/watch?v=uNTlc3tmz3M"

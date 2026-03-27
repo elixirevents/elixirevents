@@ -5,6 +5,8 @@ defmodule ElixirEvents.Sponsorship.Sponsor do
 
   @badges [:keynote, :wifi, :coffee, :lanyard, :party]
 
+  def badges, do: @badges
+
   @permitted ~w(sponsor_tier_id organization_id badge)a
   @required ~w(sponsor_tier_id organization_id)a
 

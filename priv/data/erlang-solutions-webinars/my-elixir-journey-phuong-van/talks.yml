@@ -1,0 +1,14 @@
+- title: "My Elixir Journey: Phuong Van"
+  slug: "my-elixir-journey-phuong-van"
+  kind: talk
+  language: en
+  abstract: "Every developer has a unique path to Elixir. In this webinar, Phuong Van shares her personal journey, from discovering the language to the projects she has worked on and the impact Elixir has had on her career."
+  speakers:
+    - phuongvan
+    - brianunderwood
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "MT6wwCgp4LY"
+      url: "https://www.youtube.com/watch?v=MT6wwCgp4LY"

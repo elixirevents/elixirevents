@@ -4,6 +4,8 @@ defmodule ElixirEvents.Submissions.CFP do
   use ElixirEvents.Schema
 
   @kinds [:talks, :training]
+
+  def kinds, do: @kinds
   @permitted ~w(event_id name url description open_date close_date kind)a
   @required ~w(event_id url)a
 

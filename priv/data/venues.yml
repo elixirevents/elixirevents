@@ -187,3 +187,13 @@
   latitude: 49.2793
   longitude: -123.1263
   description: "A rooftop boardroom venue on Howe Street in downtown Vancouver, used for intimate professional training sessions."
+
+- name: "Erlang Solutions Kraków"
+  slug: "erlang-solutions-krakow"
+  street: "Karmelicka 7"
+  city: "Kraków"
+  region: "Lesser Poland"
+  country: "Poland"
+  country_code: "PL"
+  latitude: 50.0647
+  longitude: 19.9330
