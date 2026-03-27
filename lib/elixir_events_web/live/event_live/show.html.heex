@@ -18,7 +18,10 @@
     <div class="absolute inset-0 opacity-[0.06]" style={card_pattern(@event.name)}></div>
     <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
-    <div class="relative p-6 sm:p-10 lg:p-12 text-white min-h-[240px] sm:min-h-[300px] flex flex-col justify-end">
+    <div class={[
+      "relative p-6 sm:p-10 lg:p-12 text-white flex flex-col justify-end",
+      if(@compact, do: "min-h-[180px] sm:min-h-[200px]", else: "min-h-[240px] sm:min-h-[300px]")
+    ]}>
       <%!-- Top badges --%>
       <div class="absolute top-6 sm:top-10 left-6 sm:left-10 flex flex-wrap items-center gap-2">
         <span class="text-xs font-semibold px-3 py-1 rounded-full bg-white/15 backdrop-blur-sm">
@@ -76,15 +79,18 @@
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
-            {date_range(@event)} &middot; {event_duration(@event)}
+            {date_range(@event)}
+            <span :if={@event.start_date != @event.end_date}>
+              &middot; {event_duration(@event)}
+            </span>
           </span>
         </div>
       </div>
     </div>
   </div>
 
-  <%!-- ============ SECTION NAV ============ --%>
-  <.section_nav sections={@sections} />
+  <%!-- ============ SECTION NAV (conferences only) ============ --%>
+  <.section_nav :if={@sections != []} sections={@sections} />
 
   <%!-- ============ CONTENT GRID ============ --%>
   <div class="flex flex-col lg:flex-row gap-10 lg:gap-14 mt-8">
@@ -100,8 +106,8 @@
         </div>
       </div>
 
-      <%!-- Speakers --%>
-      <div :if={@speakers != []} id="speakers" class="mb-12 scroll-mt-24">
+      <%!-- Speakers (conferences only — meetups show speakers on talk cards) --%>
+      <div :if={@speakers != [] && !@compact} id="speakers" class="mb-12 scroll-mt-24">
         <div class="flex items-baseline justify-between mb-6">
           <h2 class="font-display text-2xl font-bold text-base-content">
             Speakers
@@ -136,6 +142,7 @@
             <span class="text-base-content/50 font-normal text-lg ml-1">({length(@talks)})</span>
           </h2>
           <.link
+            :if={!@compact && length(@talks) > 4}
             navigate={"/events/#{@event.slug}/talks"}
             class="text-sm text-primary hover:text-primary/70 transition-colors font-medium"
           >
@@ -143,7 +150,11 @@
           </.link>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <.talk_card :for={talk <- @talks |> Enum.take(4)} talk={talk} hide_event_name />
+          <.talk_card
+            :for={talk <- if(@compact, do: @talks, else: Enum.take(@talks, 4))}
+            talk={talk}
+            hide_event_name
+          />
         </div>
       </div>
 
@@ -296,7 +307,7 @@
             )}
           </span>
         </div>
-        <div :if={event_duration(@event)} class="flex items-center gap-3">
+        <div :if={event_duration(@event) && @event.start_date != @event.end_date} class="flex items-center gap-3">
           <svg
             class="w-4 h-4 text-base-content/50 shrink-0"
             fill="none"
