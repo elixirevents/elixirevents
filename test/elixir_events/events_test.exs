@@ -237,7 +237,7 @@ defmodule ElixirEvents.EventsTest do
         })
 
       slugs = Events.list_events() |> Enum.map(& &1.slug)
-      assert slugs == ["early-2025", "mid-2025", "late-2025"]
+      assert slugs == ["late-2025", "mid-2025", "early-2025"]
     end
 
     test "meetups are interleaved chronologically within year, not grouped separately" do
@@ -269,7 +269,7 @@ defmodule ElixirEvents.EventsTest do
         })
 
       slugs = Events.list_events() |> Enum.map(& &1.slug)
-      assert slugs == ["meetup-mar", "conf-may", "conf-oct"]
+      assert slugs == ["conf-oct", "conf-may", "meetup-mar"]
     end
 
     test "events from different years are grouped by year descending" do

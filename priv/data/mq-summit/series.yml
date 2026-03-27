@@ -1,7 +1,16 @@
 name: "MQ Summit"
 slug: "mq-summit"
-kind: conference
+kind: summit
 frequency: yearly
 language: en
-website: "https://codesync.global"
+website: "https://mqsummit.com"
 color: "#2B6CB0"
+social_links:
+  - platform: youtube
+    url: "https://www.youtube.com/c/CodeSync"
+  - platform: twitter
+    url: "https://x.com/MQSummit"
+  - platform: bluesky
+    url: "https://bsky.app/profile/mqsummit.bsky.social"
+  - platform: linkedin
+    url: "https://www.linkedin.com/company/mqsummit/"
