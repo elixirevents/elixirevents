@@ -1,5 +1,5 @@
 <section>
-  <div class="mb-8">
+  <div class="mb-6">
     <.link
       navigate={~p"/events"}
       class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
@@ -11,71 +11,104 @@
     </.link>
   </div>
 
-  <%!-- Series header --%>
-  <div class="mb-12">
-    <h1 class="font-display text-3xl sm:text-4xl font-bold text-base-content">{@series.name}</h1>
-    <div class="flex flex-wrap items-center gap-3 mt-3">
-      <span
-        :if={@series.kind}
-        class="text-xs font-bold px-2.5 py-1 rounded-full bg-primary/15 text-primary capitalize"
-      >
-        {@series.kind}
-      </span>
-      <span
-        :if={@series.frequency}
-        class="text-xs font-bold px-2.5 py-1 rounded-full bg-base-300 text-base-content/55 capitalize"
-      >
-        {@series.frequency}
-      </span>
-      <a
-        :if={@series.website}
-        href={@series.website}
-        target="_blank"
-        rel="noopener"
-        class="text-sm text-primary hover:text-primary/70 transition-colors"
-      >
-        {URI.parse(@series.website).host}
-      </a>
+  <%!-- Series hero --%>
+  <div class="relative rounded-2xl overflow-hidden mb-8">
+    <div class="absolute inset-0" style={ElixirEvents.Colors.card_style(@series.name, @series.color)}></div>
+    <div class="absolute inset-0 opacity-[0.06]" style={ElixirEvents.Colors.card_pattern(@series.name)}></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+    <div class="relative p-6 sm:p-10 text-white min-h-[160px] flex flex-col justify-end">
+      <div class="absolute top-1/4 right-8 hidden sm:block" aria-hidden="true">
+        <.sparkle class="h-4 w-4 text-white/15" />
+      </div>
+      <h1 class="font-display text-3xl sm:text-4xl font-bold leading-tight">
+        {@series.name}
+      </h1>
+      <div class="mt-3 flex flex-wrap items-center gap-2.5">
+        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/15 backdrop-blur-sm capitalize">
+          {@series.kind}
+        </span>
+        <span
+          :if={@series.frequency}
+          class="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/15 backdrop-blur-sm capitalize"
+        >
+          {@series.frequency}
+        </span>
+        <a
+          :if={@series.website}
+          href={@series.website}
+          target="_blank"
+          rel="noopener"
+          class="text-xs text-white/70 hover:text-white transition-colors"
+        >
+          {URI.parse(@series.website).host} ↗
+        </a>
+      </div>
     </div>
-    <p :if={@series.description} class="text-base-content/55 mt-4 leading-relaxed max-w-3xl">
-      {@series.description}
-    </p>
   </div>
 
-  <%!-- Events in this series --%>
+  <%!-- Description + Social --%>
+  <div :if={@series.description} class="mb-8 max-w-3xl">
+    <p class="text-base-content/55 leading-relaxed">{@series.description}</p>
+  </div>
+
+  <div :if={@series.social_links && @series.social_links != []} class="flex flex-wrap gap-3 mb-8">
+    <a
+      :for={link <- @series.social_links}
+      href={link.url}
+      target="_blank"
+      rel="noopener"
+      class="inline-flex items-center gap-1.5 text-xs text-base-content/50 hover:text-primary transition-colors"
+    >
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+      </svg>
+      {platform_label(link.platform)}
+    </a>
+  </div>
+
+  <%!-- Events --%>
   <div>
     <h2 class="font-display text-2xl font-bold text-base-content mb-6">
       Events
       <span class="text-base-content/50 font-normal text-lg ml-1">({length(@events)})</span>
     </h2>
 
-    <div :if={@events == []} class="text-base-content/55 py-12 text-center">
+    <div :if={@events == []} class="text-base-content/50 py-12 text-center">
       No events in this series yet.
     </div>
 
-    <div :if={@events != []} class="divide-y divide-base-300/60">
+    <div :if={@events != []} class="space-y-2">
       <.link
         :for={event <- @events}
         navigate={~p"/events/#{event.slug}"}
-        class="group flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 py-5 -mx-4 px-4 rounded-xl hover:bg-base-200/40 transition-colors"
+        class="group flex items-center gap-5 py-4 px-4 -mx-4 rounded-xl hover:bg-base-200/40 transition-colors"
       >
-        <div class="shrink-0 sm:w-16 sm:text-center">
-          <div class="text-xs font-bold text-primary uppercase tracking-wide">
+        <%!-- Calendar date block --%>
+        <div class="w-14 shrink-0 text-center">
+          <div class="text-[0.6rem] font-bold text-primary uppercase tracking-wide leading-none">
             {Calendar.strftime(event.start_date, "%b")}
           </div>
-          <div class="text-2xl font-display font-extrabold text-base-content leading-none">
+          <div class="text-2xl font-display font-extrabold text-base-content leading-tight">
             {event.start_date.day}
           </div>
+          <div class="text-[0.6rem] text-base-content/30 leading-none">
+            {event.start_date.year}
+          </div>
         </div>
+        <%!-- Event details --%>
         <div class="flex-1 min-w-0">
-          <h3 class="font-display text-lg font-bold text-base-content group-hover:text-primary transition-colors truncate">
+          <h3 class="font-display font-bold text-base-content group-hover:text-primary transition-colors truncate">
             {event.name}
           </h3>
-          <p class="text-sm text-base-content/55 mt-0.5">
-            {event.location} &middot; {event_duration(event)}
+          <p class="text-sm text-base-content/45 mt-0.5">
+            <span :if={event.location}>{event.location}</span>
+            <span :if={event.location && event.start_date != event.end_date}> · </span>
+            <span :if={event.start_date != event.end_date}>{event_duration(event)}</span>
           </p>
         </div>
-        <div class="flex items-center gap-3 sm:shrink-0">
+        <%!-- Status + arrow --%>
+        <div class="flex items-center gap-3 shrink-0">
           <.status_badge status={event_display_status(event)} />
           <.chevron_right />
         </div>
