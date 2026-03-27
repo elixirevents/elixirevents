@@ -20,18 +20,6 @@
     - elixir
     - otp
     - concurrency
-  agenda:
-    - day: 1
-      title: "Advanced Concurrency"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "PartitionSupervisor and Registry"
-        - "Atomics, counters, and persistent_term"
-        - "Process pooling strategies"
-        - "gen_statem for complex workflows"
-        - "Advanced supervision trees"
-        - "Graceful shutdown and lifecycle management"
 
 - title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
   slug: "workshop-beyond-vibe-coding"
@@ -66,17 +54,6 @@
     - brucetate
   topics:
     - elixir
-  agenda:
-    - day: 1
-      title: "Layered AI Development"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "Decomposing prompts into testable layers"
-        - "Building specialized agents for development phases"
-        - "Creating a reusable skills library"
-        - "Workflows with feedback checkpoints"
-        - "Markdown and code-based workflow anchors"
 
 - title: "Building and Evaluating RAG Systems"
   slug: "workshop-building-and-evaluating-rag-systems"
@@ -114,17 +91,6 @@
     - chrisbeck
   topics:
     - elixir
-  agenda:
-    - day: 1
-      title: "RAG Evaluation"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "Introduction to RAG"
-        - "Simple RAG evaluation techniques"
-        - "Synthetic dataset creation and evaluation"
-        - "How to set up LLM-as-a-judge"
-        - "Constant evaluation of RAG systems in production"
 
 - title: "The BEAM for Developers"
   slug: "workshop-the-beam-for-developers"
@@ -156,18 +122,6 @@
   topics:
     - erlang
     - otp
-  agenda:
-    - day: 1
-      title: "BEAM Internals"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "Thinking in Processes"
-        - "Data Types and Messaging"
-        - "Memory and Garbage Collection"
-        - "Scheduling and Concurrency"
-        - "Debugging and Observability"
-        - "Patterns and Anti-Patterns"
 
 - title: "Building LLM-Powered Applications"
   slug: "workshop-building-llm-powered-applications"
@@ -207,15 +161,3 @@
   topics:
     - elixir
     - phoenix
-  agenda:
-    - day: 1
-      title: "LLM-Powered Applications"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "LLM theory and embeddings"
-        - "Basic chat interface with streaming"
-        - "Adding tools and MCPs"
-        - "User intent recognition"
-        - "Building a research agent"
-        - "Evaluation system"

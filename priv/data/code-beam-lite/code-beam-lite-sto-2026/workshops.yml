@@ -17,37 +17,24 @@
     - Develop proficiency in implementing process design patterns to design fault-tolerant and resilient Erlang systems
     - Acquire skills in designing and structuring Erlang applications using OTP applications for better organization and maintainability
     - Develop the ability to architect Erlang systems that are scalable, fault-tolerant, and well-structured, capable of handling billions of transactions
+
+    **Covers the following topics:**
+
+    - Introduction
+    - Behaviours
+    - Generic Servers
+    - State Machines
+    - Supervisors
+    - Event Handlers
+    - Applications
+    - System Architecture Support Libraries
+    - System Principles
   target_audience: "Ideally, you already know about Erlang Term Storage, concurrent Erlang, error handling and maps and records."
   trainers:
     - robertvirding
   topics:
     - erlang
     - otp
-  agenda:
-    - day: 1
-      title: "Introduction & Behaviours"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "Introduction"
-        - "Behaviours"
-        - "Generic Servers"
-    - day: 2
-      title: "State Machines & Supervisors"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "State Machines"
-        - "Supervisors"
-        - "Event Handlers"
-    - day: 3
-      title: "Applications & Architecture"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "Applications"
-        - "System Architecture Support Libraries"
-        - "System Principles"
 
 - title: "Secure Coding in BEAM"
   slug: "secure-coding-in-beam"
@@ -75,15 +62,6 @@
     - erlang
     - elixir
     - security
-  agenda:
-    - day: 1
-      title: "Secure Coding"
-      start_time: "09:00"
-      end_time: "17:00"
-      items:
-        - "Secure coding recommendations for BEAM"
-        - "Reducing vulnerabilities and choosing robust alternatives"
-        - "Reducing the attack surface of production environments"
 
 - title: "Advanced Architecture with Residuality"
   slug: "advanced-architecture-with-residuality"
