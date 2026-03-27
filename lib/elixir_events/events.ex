@@ -36,7 +36,7 @@ defmodule ElixirEvents.Events do
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
     |> maybe_search(opts[:search])
-    |> by_year_desc_date_asc()
+    |> by_year_desc_date_desc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
     |> Repo.all()
@@ -166,9 +166,9 @@ defmodule ElixirEvents.Events do
   defp by_date_asc(queryable), do: order_by(queryable, [e], asc: e.start_date)
   defp by_date_desc(queryable), do: order_by(queryable, [e], desc: e.start_date)
 
-  defp by_year_desc_date_asc(queryable) do
+  defp by_year_desc_date_desc(queryable) do
     from(e in queryable,
-      order_by: [desc: fragment("extract(year from ?)", e.start_date), asc: e.start_date]
+      order_by: [desc: fragment("extract(year from ?)", e.start_date), desc: e.start_date]
     )
   end
 

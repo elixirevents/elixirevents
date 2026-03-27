@@ -248,8 +248,8 @@ defmodule ElixirEventsWeb.EventLiveTest do
       meetup_pos = :binary.match(html, "Local Meetup") |> elem(0)
       conf_pos = :binary.match(html, "Big Conference") |> elem(0)
 
-      assert meetup_pos < conf_pos,
-             "Meetup (earlier date) should appear before conference (later date) in chronological order within year"
+      assert conf_pos < meetup_pos,
+             "Conference (later date) should appear before meetup (earlier date) in reverse chronological order within year"
     end
   end
 

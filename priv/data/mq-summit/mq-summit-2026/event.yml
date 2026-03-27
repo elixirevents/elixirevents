@@ -1,0 +1,16 @@
+name: "MQ Summit 2026"
+slug: "mq-summit-2026"
+venue_slug: "philharmonie-haarlem"
+kind: summit
+status: announced
+format: hybrid
+start_date: "2026-10-21"
+end_date: "2026-10-22"
+timezone: "Europe/Amsterdam"
+language: en
+location: "Haarlem, Netherlands"
+website: "https://mqsummit.com"
+description: |
+  MQ Summit brings together the people who design, build, and scale modern messaging systems. This year we're bringing the conference to Haarlem, near Amsterdam, in the form of a two-day, one-track event.
+
+  Building on the success of RabbitMQ Summit, MQ Summit connects professionals working across the messaging ecosystem: RabbitMQ, Kafka, NATS, Apache Pulsar, Azure Messaging Brokers, Amazon SQS, IBM MQ, Google Pub/Sub and more. Whether you're developing event-driven architectures, operating large-scale infrastructure, or making strategic technology decisions, this conference offers valuable insights from industry experts.
