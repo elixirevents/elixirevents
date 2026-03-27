@@ -64,6 +64,7 @@ defmodule ElixirEvents.Import do
       {:ok, event} ->
         Logger.info("Imported event: #{event.name}")
         Import.Talks.run(event_dir, event)
+        Import.Workshops.run(event_dir, event)
         Import.Schedule.run(event_dir, event)
         Import.Sponsors.run(event_dir, event)
         Import.CFPs.run(event_dir, event)
