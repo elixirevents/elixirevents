@@ -5454,3 +5454,36 @@
   social_links:
     - platform: linkedin
       url: "https://www.linkedin.com/in/bartlomiejgorny/"
+
+- name: "Ivar Vong"
+  slug: "ivarvong"
+  headline: "Co-founder & CTO at Treasury"
+  city: New York City
+  country_code: US
+  website: "https://ivarvong.com/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ivarvong"
+    - platform: github
+      url: "https://github.com/ivarvong"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/ivarvong/"
+
+- name: "Kevin Edey"
+  slug: "kevinedey"
+  headline: "Senior Fullstack Developer"
+  bio: |
+    Elixir Specialist and Evangelist!
+    Elixir all the things!
+    Elixir, Phoenix, LiveView, Livebook, etc.
+    Shoveling data from one bucket to another with gusto!
+    Open to other languages such as Rust, Zig, Pony, Haskell, Elm, OCaml, Idris, etc.
+    Will JavaScript or Python to avoid starvation
+    All Exclamations! All the time!
+  city: Calgary
+  country_code: CA
+  social_links:
+    - platform: github
+      url: "https://github.com/genericjam"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/kevin-genericjam/"

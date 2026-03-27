@@ -1,0 +1,24 @@
+- title: "Distilling Kafka's Binary Protocol into Elixir"
+  slug: "distilling-kafkas-binary-protocol-into-elixir"
+  kind: talk
+  language: en
+  abstract: |
+    We'll trace a produce request to show what any Kafka client has to get right. In the BEAM ecosystem, erlkaf wraps librdkafka, brod implements the protocol in Erlang, and kafka_ex goes pure Elixir.
+
+    Kafka_ex's approach is to generate serializers at compile time from Kafka's own schema definitions: plain structs, pattern matching, structural boilerplate isolated from the logic you actually think about. That design is what let us jump two major versions ahead and adapt to significant protocol changes. Let's dig into the idea, the code, and the tradeoffs.
+  speakers:
+    - antonborisov
+  topics:
+    - elixir
+    - kafka
+
+- title: "JavaScript Execution Strategies in Elixir-based Agent Frameworks"
+  slug: "javascript-execution-strategies-in-elixir-based-agent-frameworks"
+  kind: talk
+  language: en
+  abstract: "We'll look at integration points between elixir agents (in the AI fashion) and JavaScript execution, and all the foot guns involved."
+  speakers:
+    - evadnewu
+  topics:
+    - elixir
+    - ai

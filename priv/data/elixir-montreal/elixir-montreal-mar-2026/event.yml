@@ -1,0 +1,15 @@
+name: "Elixir Montréal 5 à 7"
+slug: "elixir-montreal-mar-2026"
+kind: meetup
+status: confirmed
+format: in_person
+start_date: "2026-03-20"
+end_date: "2026-03-20"
+timezone: "America/Toronto"
+language: en
+location: "Montréal, QC, Canada"
+description: |
+  Join us for a beverage and an informal meet-and-greet with Francesco Cesarini. We can talk about Elixir, Erlang, OTP and anything else.
+
+  This will be more of a social event with no group presentation, but feel free to bring your laptop to show what you've been working on. We'll host at a bar/pub where you can grab a drink and maybe a snack.
+website: "https://guild.host/elixir-montreal/events"

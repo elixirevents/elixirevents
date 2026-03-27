@@ -1,0 +1,15 @@
+- title: "AI Image Generation in Elixir"
+  slug: "ai-image-generation-in-elixir"
+  kind: talk
+  language: en
+  abstract: "Kevin Edey does a deep dive into the mechanics of AI image generation, where he demystifies the complex processes of neural networks and diffusion models that transform simple text prompts into stunning visual art."
+  speakers:
+    - kevinedey
+  topics:
+    - elixir
+    - ai
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "wv8JWbhOR3k"
+      url: "https://www.youtube.com/watch?v=wv8JWbhOR3k"

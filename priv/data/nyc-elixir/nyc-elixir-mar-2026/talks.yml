@@ -1,0 +1,29 @@
+- title: "JustBash: Sandboxing AI Agents with a Pure Elixir Bash Interpreter"
+  slug: "justbash-sandboxing-ai-agents-with-a-pure-elixir-bash-interpreter"
+  kind: talk
+  language: en
+  duration: 30
+  abstract: |
+    Ivar Vong and Chris Bell will be presenting JustBash, a pure Elixir implementation of a bash interpreter and virtual filesystem, inspired by Vercel's JustBash project.
+
+    Ivar will kick things off with the motivation behind the project: why sandboxed code execution matters for AI agents, why Elixir is a great fit for the problem, and how to actually build a sandbox with the help of LLMs. He'll also show what becomes possible once you can let agents run code safely. No containers, no host OS access, just the BEAM. He'll also cover what makes the Elixir version different from the original JavaScript implementation, including unique capabilities and tradeoffs that come with building on OTP.
+
+    Chris will close things out by showing how they're putting JustBash to work in production at Knock.
+  speakers:
+    - ivarvong
+    - chrisbell
+  topics:
+    - elixir
+    - ai
+
+- title: "Multis and Transactional Callbacks"
+  slug: "multis-and-transactional-callbacks"
+  kind: talk
+  language: en
+  duration: 30
+  abstract: "Miki Rezentes will be talking about Ecto's Multi and transactional callbacks: how to compose multiple database operations into a single transaction, handle side effects cleanly, and avoid the pitfalls that come with getting the ordering and error handling wrong. Whether you're already using Multi day-to-day or haven't dug into it yet, this talk will give you a clearer mental model for writing transactional code in Ecto."
+  speakers:
+    - mikirezentes
+  topics:
+    - ecto
+    - elixir

@@ -9,4 +9,5 @@ end_date: "2024-09-12"
 timezone: "Europe/Warsaw"
 language: en
 location: "Kraków, Poland"
+description: "Join us for our third meetup of the year! We're excited to bring together enthusiasts of functional programming languages, whether you're a seasoned pro or just curious about functional programming. We'll be gathering at the Erlang Solutions office for an evening filled with inspiring talks, networking opportunities, drinks and snacks."
 website: "https://www.meetup.com/erlang-and-elixir-krakow/"

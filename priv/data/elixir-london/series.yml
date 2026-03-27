@@ -1,0 +1,9 @@
+name: "Elixir London"
+slug: "elixir-london"
+kind: meetup
+frequency: monthly
+language: en
+website: "https://www.meetup.com/elixir-london/"
+social_links:
+  - platform: twitter
+    url: "https://x.com/ElixirLangUK"

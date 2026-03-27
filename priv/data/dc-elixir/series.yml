@@ -1,0 +1,9 @@
+name: "DC Elixir"
+slug: "dc-elixir"
+kind: meetup
+frequency: monthly
+language: en
+website: "https://mobilizon.us/@dc_elixir"
+social_links:
+  - platform: meetup
+    url: "https://www.meetup.com/dc-elixir/"

@@ -1,0 +1,16 @@
+name: "DC Elixir - Nerves with Frank Hunleth"
+slug: "dc-elixir-mar-2026"
+venue_slug: "mcgee-library-silver-spring"
+kind: meetup
+status: confirmed
+format: in_person
+start_date: "2026-03-25"
+end_date: "2026-03-25"
+timezone: "America/New_York"
+language: en
+location: "Silver Spring, MD, USA"
+description: |
+  DC Elixir is delighted to hold a special session with Frank Hunleth, the creator of Nerves. We'll learn how Nerves works, how Elixir and the BEAM make it special, and how to get started.
+
+  Hands-on activity included. Please bring your laptop and hack along with us! Familiarity with Elixir will help, but embedded systems experience is not required.
+website: "https://mobilizon.us/events/28e5a12f-028e-427a-b7e8-ecdca733e2f7"
