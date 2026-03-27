@@ -17,7 +17,7 @@ defmodule ElixirEventsWeb do
   those modules here.
   """
 
-  def static_paths, do: ~w(assets fonts images favicon.ico robots.txt)
+  def static_paths, do: ~w(assets fonts images favicon.ico robots.txt googlef371a5c45762a089.html)
 
   def router do
     quote do
