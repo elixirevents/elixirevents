@@ -54,8 +54,93 @@ defmodule ElixirEventsWeb.EventLiveTest do
     end
 
     test "redirects for non-existent event", %{conn: conn} do
-      assert {:error, {:redirect, %{to: "/events"}}} =
+      assert {:error, {:live_redirect, %{to: "/events"}}} =
                live(conn, ~p"/events/nonexistent")
+    end
+  end
+
+  describe "Show — enhanced sections" do
+    import ElixirEvents.DataFixtures
+
+    test "renders section nav with available sections", %{conn: conn} do
+      series = event_series_fixture()
+
+      event =
+        event_fixture(series, %{
+          name: "Test Conf",
+          slug: "test-conf",
+          description: "A great conference"
+        })
+
+      _talk = talk_fixture(event, %{title: "My Talk", slug: "my-talk"})
+
+      {:ok, _lv, html} = live(conn, ~p"/events/test-conf")
+      assert html =~ "section-nav"
+      assert html =~ "About"
+      assert html =~ "A great conference"
+      assert html =~ "Talks"
+      assert html =~ "My Talk"
+    end
+
+    test "omits sections when no data", %{conn: conn} do
+      series = event_series_fixture()
+
+      _event =
+        event_fixture(series, %{
+          name: "Bare Event",
+          slug: "bare-event"
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events/bare-event")
+      assert html =~ "Bare Event"
+      refute html =~ "id=\"about\""
+      refute html =~ "id=\"schedule\""
+      refute html =~ "id=\"sponsors\""
+      refute html =~ "id=\"venue\""
+    end
+
+    test "renders venue section when venue exists", %{conn: conn} do
+      venue =
+        venue_fixture(%{
+          name: "Cool Center",
+          slug: "cool-center",
+          city: "Portland",
+          country: "United States",
+          latitude: Decimal.new("45.52"),
+          longitude: Decimal.new("-122.67")
+        })
+
+      series = event_series_fixture()
+
+      _event =
+        event_fixture(series, %{
+          name: "Venue Event",
+          slug: "venue-event",
+          venue_id: venue.id
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events/venue-event")
+      assert html =~ "Cool Center"
+      assert html =~ "Google Maps"
+    end
+
+    test "renders tickets CTA when tickets_url present", %{conn: conn} do
+      series = event_series_fixture()
+
+      future = Date.add(Date.utc_today(), 30)
+
+      _event =
+        event_fixture(series, %{
+          name: "Ticket Event",
+          slug: "ticket-event",
+          tickets_url: "https://tickets.example.com",
+          start_date: future,
+          end_date: Date.add(future, 2)
+        })
+
+      {:ok, _lv, html} = live(conn, ~p"/events/ticket-event")
+      assert html =~ "Get Tickets"
+      assert html =~ "tickets.example.com"
     end
   end
 

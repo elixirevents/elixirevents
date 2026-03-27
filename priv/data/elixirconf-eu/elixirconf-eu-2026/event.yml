@@ -3,11 +3,18 @@ slug: "elixirconf-eu-2026"
 kind: conference
 status: confirmed
 format: hybrid
-start_date: "2026-04-23"
+start_date: "2026-04-22"
 end_date: "2026-04-24"
 timezone: "Europe/Madrid"
 language: en
 location: "Malaga, Spain"
 website: "https://www.elixirconf.eu"
 color: "#6B46C1"
-description: "Europe's largest Elixir & Phoenix conference. Hundreds of developers come together to learn about, share, and inspire the progress of the ecosystem."
+venue_slug: "nh-malaga"
+tickets_url: "https://www.elixirconf.eu/"
+description: |
+  Europe's largest Elixir & Phoenix conference.
+
+  Every year, hundreds of developers with a passion for Elixir come together to learn about, share and inspire the progression of the Elixir ecosystem.
+
+  Our events frequently include members of the core teams of Elixir’s biggest frameworks and are a hub for the announcement of new features and developments. Whether you’re new to Elixir or a seasoned Elixir developer there is something for everyone at ElixirConf EU. From in-depth Elixir training for all skill levels to immersive keynotes that bring you to the forefront of Elixir development, we are actively championing the continued growth of the Elixir community.

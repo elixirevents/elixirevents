@@ -1,0 +1,49 @@
+<section>
+  <.compact_hero event={@event} title="Talks" />
+
+  <%!-- Filter toolbar — matches main talks index style --%>
+  <div class="flex items-center gap-1 p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50 mb-8 overflow-x-auto scrollbar-none">
+    <button
+      phx-click="filter-kind"
+      phx-value-kind="all"
+      class={[
+        "px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 whitespace-nowrap",
+        if(@selected_kind == nil,
+          do: "bg-primary text-primary-content shadow-sm",
+          else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+        )
+      ]}
+    >
+      All ({length(@talks)})
+    </button>
+    <button
+      :for={kind <- @kinds}
+      phx-click="filter-kind"
+      phx-value-kind={kind}
+      class={[
+        "px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 whitespace-nowrap",
+        if(@selected_kind == kind,
+          do: "bg-primary text-primary-content shadow-sm",
+          else: "text-base-content/55 hover:text-base-content hover:bg-base-300/50"
+        )
+      ]}
+    >
+      {talk_kind_label(kind)} ({Enum.count(@talks, &(&1.kind == kind))})
+    </button>
+  </div>
+
+  <%!-- Talk grid --%>
+  <div
+    :if={@filtered_talks != []}
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+  >
+    <.talk_card :for={talk <- @filtered_talks} talk={talk} hide_event_name />
+  </div>
+
+  <%!-- Empty filter state --%>
+  <div :if={@filtered_talks == []} class="py-16 text-center">
+    <p class="text-base-content/40">
+      No {if @selected_kind, do: talk_kind_label(@selected_kind) |> String.downcase(), else: ""} talks found.
+    </p>
+  </div>
+</section>

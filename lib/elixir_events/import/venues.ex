@@ -29,7 +29,8 @@ defmodule ElixirEvents.Import.Venues do
       postal_code: data["postal_code"],
       latitude: data["latitude"],
       longitude: data["longitude"],
-      website: data["website"]
+      website: data["website"],
+      description: data["description"]
     }
 
     Venues.upsert_venue(attrs)

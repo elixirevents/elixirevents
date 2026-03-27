@@ -25,6 +25,7 @@
 @import "./components/dropdown.css";
 @import "./components/carousel.css";
 @import "./components/command-bar.css";
+@import "./components/venue-map.css";
 
 /* === Layouts === */
 @import "./layouts/admin.css";

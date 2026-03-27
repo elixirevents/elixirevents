@@ -8,7 +8,8 @@ defmodule ElixirEvents.Talks do
   def list_talks(opts \\ []) do
     from(t in Talk,
       join: e in assoc(t, :event),
-      as: :event
+      as: :event,
+      where: t.kind != :workshop
     )
     |> maybe_filter(opts[:filter])
     |> maybe_sort(opts[:sort])
@@ -20,7 +21,8 @@ defmodule ElixirEvents.Talks do
   def paginate_talks(opts \\ []) do
     from(t in Talk,
       join: e in assoc(t, :event),
-      as: :event
+      as: :event,
+      where: t.kind != :workshop
     )
     |> maybe_filter(opts[:filter])
     |> maybe_search(opts[:search])
@@ -41,11 +43,35 @@ defmodule ElixirEvents.Talks do
   end
 
   def list_talks_for_event(event_id) do
-    Talk |> where(event_id: ^event_id) |> Repo.all()
+    Talk |> where(event_id: ^event_id) |> order_by(:id) |> Repo.all()
+  end
+
+  def list_speakers_for_event(event_id) do
+    # Use a subquery to find the minimum talk kind priority per profile
+    # so we can sort keynote speakers first, then alphabetically by name.
+    # Direct distinct + order_by on different columns can cause Postgres issues.
+    profile_ids_with_priority =
+      from(ts in ElixirEvents.Talks.TalkSpeaker,
+        join: t in ElixirEvents.Talks.Talk,
+        on: t.id == ts.talk_id,
+        where: t.event_id == ^event_id,
+        group_by: ts.profile_id,
+        select: %{
+          profile_id: ts.profile_id,
+          min_priority: min(fragment("CASE WHEN ? = 'keynote' THEN 0 ELSE 1 END", t.kind))
+        }
+      )
+
+    from(p in ElixirEvents.Profiles.Profile,
+      join: sub in subquery(profile_ids_with_priority),
+      on: sub.profile_id == p.id,
+      order_by: [asc: sub.min_priority, asc: p.name]
+    )
+    |> Repo.all()
   end
 
   def count_talks do
-    Repo.aggregate(Talk, :count)
+    from(t in Talk, where: t.kind != :workshop) |> Repo.aggregate(:count)
   end
 
   def get_talk_by_slug(event_id, slug) do

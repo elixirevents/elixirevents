@@ -85,6 +85,26 @@ defmodule ElixirEventsWeb.Helpers do
   def platform_label(platform) when is_binary(platform),
     do: Map.get(@platform_labels, String.to_existing_atom(platform), platform)
 
+  @doc "Format city + country_code into a display label"
+  def location_label(%{city: city, country_code: country_code}) do
+    country_name =
+      case country_code do
+        nil -> nil
+        code -> BeamLabCountries.get(code) |> then(&(&1 && &1.name))
+      end
+
+    [city, country_name]
+    |> Enum.reject(&is_nil/1)
+    |> Enum.join(", ")
+  end
+
+  @doc "Return country options for select dropdowns"
+  def country_options do
+    BeamLabCountries.all()
+    |> Enum.map(&{&1.name, &1.alpha2})
+    |> Enum.sort_by(&elem(&1, 0))
+  end
+
   @doc "Generate inline style for a speaker avatar gradient"
   def avatar_style(name), do: Colors.avatar_style(name)
 
@@ -206,4 +226,40 @@ defmodule ElixirEventsWeb.Helpers do
       "#{mins}:00"
     end
   end
+
+  @doc "Generate a Google Maps URL from a venue with coordinates"
+  def google_maps_url(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng) do
+    "https://www.google.com/maps/place/#{lat},#{lng}"
+  end
+
+  @doc "Generate an Apple Maps URL from a venue with coordinates and name"
+  def apple_maps_url(%{latitude: lat, longitude: lng, name: name})
+      when not is_nil(lat) and not is_nil(lng) do
+    encoded_name = URI.encode(name)
+    "https://maps.apple.com/?ll=#{lat},#{lng}&q=#{encoded_name}"
+  end
+
+  @doc "Generate an OpenStreetMap URL from a venue with coordinates"
+  def openstreetmap_url(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng) do
+    "https://www.openstreetmap.org/?mlat=#{lat}&mlon=#{lng}&zoom=16"
+  end
+
+  @doc "Generate an OpenStreetMap embed URL with bounding box from a venue with coordinates"
+  def openstreetmap_embed_url(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng) do
+    lat_f = Decimal.to_float(lat)
+    lng_f = Decimal.to_float(lng)
+    bbox = "#{lng_f - 0.01},#{lat_f - 0.005},#{lng_f + 0.01},#{lat_f + 0.005}"
+
+    "https://www.openstreetmap.org/export/embed.html?bbox=#{bbox}&layer=mapnik&marker=#{lat},#{lng}"
+  end
+
+  @doc "Returns true if the given map has non-nil latitude and longitude"
+  def has_coordinates?(%{latitude: lat, longitude: lng})
+      when not is_nil(lat) and not is_nil(lng),
+      do: true
+
+  def has_coordinates?(_), do: false
 end

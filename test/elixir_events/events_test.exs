@@ -596,4 +596,23 @@ defmodule ElixirEvents.EventsTest do
       assert length(roles) == 2
     end
   end
+
+  describe "event venue association" do
+    test "get_event_by_slug/2 preloads venue when requested" do
+      venue =
+        ElixirEvents.DataFixtures.venue_fixture(%{
+          name: "Test Center",
+          slug: "test-center",
+          latitude: Decimal.new("32.94"),
+          longitude: Decimal.new("-97.07")
+        })
+
+      series = ElixirEvents.DataFixtures.event_series_fixture()
+      event = ElixirEvents.DataFixtures.event_fixture(series, %{venue_id: venue.id})
+
+      loaded = Events.get_event_by_slug(event.slug, preload: [:venue])
+      assert loaded.venue.name == "Test Center"
+      assert Decimal.equal?(loaded.venue.latitude, Decimal.new("32.94"))
+    end
+  end
 end

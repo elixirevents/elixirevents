@@ -1,0 +1,77 @@
+<section>
+  <.compact_hero event={@event} title="Schedule" />
+
+  <%= if @selected_day do %>
+    <div class="mb-6">
+      <.day_tabs days={@schedule_days} selected_day_id={@selected_day.id} />
+    </div>
+
+    <%!-- Desktop: CSS Grid timetable --%>
+    <div class="hidden lg:block">
+      <%!-- Track headers --%>
+      <div
+        class="grid gap-px mb-2"
+        style={"grid-template-columns: 6rem repeat(#{length(@tracks)}, 1fr)"}
+      >
+        <div></div>
+        <div
+          :for={track <- @tracks}
+          class="text-xs font-semibold text-base-content/60 uppercase tracking-wider px-3 py-2"
+        >
+          <span
+            class="inline-block w-2 h-2 rounded-full mr-1.5 align-middle"
+            style={"background: #{track.color}"}
+          >
+          </span>
+          {track.name}
+        </div>
+      </div>
+
+      <%!-- Time slots --%>
+      <div class="space-y-px">
+        <%= for slot <- @selected_day.time_slots do %>
+          <div
+            class="grid gap-px"
+            style={"grid-template-columns: 6rem repeat(#{length(@tracks)}, 1fr)"}
+          >
+            <div class="text-xs text-base-content/50 font-medium tabular-nums py-3 px-2">
+              {Calendar.strftime(slot.start_time, "%H:%M")}
+            </div>
+
+            <%= if Enum.any?(slot.sessions, &(&1.kind in [:break, :social])) do %>
+              <div
+                class="py-2.5 px-3 text-sm text-base-content/40 bg-base-200/30 rounded-lg text-center"
+                style={"grid-column: 2 / span #{length(@tracks)}"}
+              >
+                {Enum.find(slot.sessions, &(&1.kind in [:break, :social])).title}
+              </div>
+            <% else %>
+              <%= for track <- @tracks do %>
+                <% session =
+                  Enum.find(slot.sessions, fn s -> s.track && s.track.id == track.id end) %>
+                <div class={[
+                  "py-2.5 px-3 rounded-lg text-sm min-h-[3rem]",
+                  if(session,
+                    do: "bg-base-200/40 hover:bg-base-200/60 transition-colors",
+                    else: ""
+                  )
+                ]}>
+                  <%= if session do %>
+                    <div class="font-medium text-base-content leading-snug">{session.title}</div>
+                  <% end %>
+                </div>
+              <% end %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+    <%!-- Mobile: chronological list --%>
+    <div class="lg:hidden">
+      <.schedule_list time_slots={@selected_day.time_slots} />
+    </div>
+  <% else %>
+    <p class="text-base-content/50">No schedule available for this event.</p>
+  <% end %>
+</section>

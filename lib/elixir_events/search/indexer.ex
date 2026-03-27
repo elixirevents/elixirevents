@@ -8,7 +8,7 @@ defmodule ElixirEvents.Search.Indexer do
   require Logger
 
   @schema_to_ecto %{
-    "Event" => {ElixirEvents.Events.Event, []},
+    "Event" => {ElixirEvents.Events.Event, [:event_series, :venue]},
     "Talk" => {ElixirEvents.Talks.Talk, [talk_speakers: :profile, event: [], recordings: []]},
     "Profile" => {ElixirEvents.Profiles.Profile, []},
     "Topic" => {ElixirEvents.Topics.Topic, []},

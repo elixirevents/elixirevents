@@ -1,8 +1,9 @@
-- name: "Jose Valim"
+- name: "José Valim"
   slug: "josevalim"
   headline: "Creator of Elixir"
-  bio: "Creator of the Elixir programming language and co-founder of Dashbit."
-  website: "https://dashbit.co"
+  bio: "José Valim is the creator of the Elixir programming language and is the Chief Adoption Officer at Dashbit. He and his team at Dashbit help startups and enterprises adopt and run Elixir in production while contributing to the ecosystem through sustainable Open Source."
+  city: Kraków
+  country_code: PL
   social_links:
     - platform: github
       url: "https://github.com/josevalim"
@@ -47,8 +48,10 @@
 - name: "Lars Wikman"
   slug: "larswikman"
   headline: "Founder of Underjord"
-  bio: "Lars & Underjord have been a part of the Elixir community for about six years at this point. The loudest swede in Elixir. With blogging, newsletters, videos, podcasts, speaking and code you might have seen him around. As someone who thrives with variety he has touched almost every part of Elixir and the ecosystem. Now his sights are set on hardware. Focusing in on Nerves it is time to share a lot more about upcoming ventures for Lars, for Underjord and what that might mean for Nerves and Elixir."
+  bio: "From self-taught web dev, through many roles and currently running a small consultancy, it has always been a journey of curiosity. Fundamentally driven by cool concepts and projects. Lars runs the Underjord.io blog, newsletter and YouTube to share and spread his curiosity about the Elixir and the BEAM along with a few other computery topics. In community collaborations you’ll find him on BEAM Radio and creating the Nerves project Newsletter as well as working with companies to help them find the great Elixir developers that are out there. Originally from the north of Sweden, he and his family live in a small rural town along Sweden’s west coast, near Varberg."
   website: "https://underjord.io"
+  city: Varberg
+  country_code: SE
   social_links:
     - platform: github
       url: https://github.com/lawik
@@ -67,9 +70,10 @@
 
 - name: "Parker Selbert"
   slug: "parkerselbert"
-  headline: "Creator of Oban"
-  bio: "Creator of Oban, the robust job processing library for Elixir. Co-founder of Oban Pro."
-  website: "https://oban.pro"
+  headline: "Oban Core Team"
+  bio: "Parker Selbert is a developer with a passion for building things both virtual and physical. He is the creator of Oban background job framework, chief architect at dscout, and partners with his wife at Soren building Oban Web and Pro."
+  city: Chicago
+  country_code: US
   social_links:
     - platform: github
       url: "https://github.com/sorentwo"
@@ -80,6 +84,8 @@
   slug: "shannonselbert"
   headline: "Oban Core Team"
   bio: "Shannon Selbert is an aspiring polyglot, programmer, product manager, and contract law enthusiast (really!). After a stint doing technical training for the government, her entrepreneurial spirit led her to co-found Soren in 2008, where she consulted for over a decade before transitioning to the development of Oban Pro."
+  city: Chicago
+  country_code: US
   social_links:
     - platform: twitter
       url: https://x.com/sorentwo
@@ -108,12 +114,19 @@
 
 - name: "Guillaume Duboc"
   slug: "guillaumeduboc"
-  headline: "PhD Student at Dashbit + IRIF"
-  bio: "Researcher working on the set-theoretic type system for Elixir."
+  headline: "PhD researcher at IRIF / Remote"
+  bio: |
+    I am a fourth-year PhD student at Remote and IRIF (Institut de Recherche en Informatique Fondamentale) in Paris, with a scholarship funded by Supabase, Fresha, and Dashbit. I have an MSc in Theoretical Computer Science from ENS de Lyon, where I developed a passion for functional programming. I have published two papers in programming languages, focusing on type inference and the practical implementation of gradual-typing systems, which can be found in my profile: https://scholar.google.com/citations?user=e1pz8RIAAAAJ&hl=fr&authuser=3
+
+    I like finding novel ways to improve the programming experience, by bringing theory into practice.
+  city: Paris
+  country_code: FR
   website: "https://gldubc.github.io"
   social_links:
     - platform: github
       url: "https://github.com/gldubc"
+    - platform: twitter
+      url: https://x.com/duboc_guillaume
 
 - name: "Anita Ludermann"
   slug: "anitaludermann"
@@ -122,8 +135,13 @@
 
 - name: "Gus Workman"
   slug: "gusworkman"
-  headline: "Nerves Contributor"
-  bio: "Creator of Trellis, an open source hardware platform for Nerves."
+  headline: "Founder of Protolux Electronics"
+  bio: "Gus is a Nerves core team member, and is the founder of Protolux Electronics, a Luxembourg-based company specializing in hardware and software for embedded systems built with Nerves. Additionally, he hosts the Nerves Meetup EU monthly online meetup for hardware and embedded discussions in the Elixir ecosystem."
+  city: Luxembourg
+  country_code: LU
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/gus-workman/
 
 - name: "Fernando Hamasaki de Amorim"
   slug: "fernandohamasakideamorim"
@@ -182,8 +200,13 @@
 
 - name: "Chris Beck"
   slug: "chrisbeck"
-  headline: "Creator of rag"
-  bio: "Creator of rag.ex, building code intelligence tools in Elixir."
+  headline: "Chief Mischief Officer @bitcrowd"
+  bio: |
+    Chris began his career by attempting to code a text editor in assembly on a C64. After that — somewhat surprisingly — failed, he took a break from computers and founded Bitcrowd much later, in 2010.
+
+    Since 2016, Bitcrowd has primarily focused on Elixir projects. Their open-source Elixir projects include Carbonite (https://github.com/bitcrowd/carbonite), Chromic PDF (https://github.com/bitcrowd/chromic_pdf), and RAG.ex (https://hex.pm/packages/rag). They also run Exmeralda (https://exmeralda.chat/), a chatbot for Hex packages. They are one of Europe’s go-to Elixir & AI consultancies.
+
+    Since the rise of AI, Chris and his team have been researching the opportunities, dangers, and influences of AI. bitcrowd, his Elixir consultancy, has built countless ML projects since 2020.
 
 - name: "Mackenzie Morgan"
   slug: "mackenziemorgan"
@@ -218,10 +241,16 @@
 - name: "Bart Blast"
   slug: "bartblast"
   headline: "Creator of Hologram"
-  bio: "Creator of Hologram, a framework for running Elixir in the browser via WebAssembly."
+  bio: "Bart is the creator of Hologram, a framework that brings the joy of Elixir to frontend development. With over 20 years of experience building web applications, he’s passionate about making web development more intuitive and efficient. Based in Warsaw, Poland, he focuses on evolving Hologram to help developers build rich web applications using pure Elixir, proving that frontend development doesn’t have to be complicated."
+  city: Warsaw
+  country_code: PL
   social_links:
     - platform: github
       url: "https://github.com/nicebody"
+    - platform: twitter
+      url: https://x.com/Bart_Blast
+    - platform: linkedin
+      url: https://www.linkedin.com/in/bartblast/
 
 - name: "Robert Virding"
   slug: "robertvirding"
@@ -277,21 +306,28 @@
 - name: "Zach Daniel"
   slug: "zachdaniel"
   headline: "Creator of Ash Framework"
-  bio: "Creator of the Ash Framework, a declarative, resource-oriented application framework for Elixir."
-  website: "https://ash-hq.org"
+  bio: "Zach is a software engineer and leader with ~13 years of experience with production Elixir applications, building large and ambitious software, and scaling software teams. He is the creator of Ash Framework, a resource-oriented declarative design framework for Elixir, and VP of Engineering at Remedy Meds. He has a passion for declarative design, functional programming, and contributing to the open source community. When not programming, he enjoys spending time with his wonderful wife, pets, friends and family."
+  city: Summit
+  country_code: US
   social_links:
     - platform: github
       url: "https://github.com/zachdaniel"
     - platform: twitter
       url: "https://twitter.com/ZachDaniel3"
+    - platform: linkedin
+      url: https://www.linkedin.com/in/zachdaniel/
 
 - name: "Davide Bettio"
   slug: "davidebettio"
-  headline: "AtomVM Creator"
-  bio: "Creator of AtomVM, a lightweight BEAM virtual machine for microcontrollers and embedded devices."
+  headline: "Creator of AtomVM"
+  bio: "Davide Bettio is a long-time open source enthusiast. Passionate about embedded systems since high school, he also contributed early on to KDE. In 2017, he created AtomVM to run Elixir and Erlang on tiny microcontrollers with only a few kilobytes of RAM. Today, he is working full-time on AtomVM. When he’s not coding, Davide enjoys hiking in the Alps."
+  city: Padova
+  country_code: IT
   social_links:
     - platform: github
       url: "https://github.com/bettio"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/bettio/"
 
 - name: "Aleksandr Lossenko"
   slug: "aleksandrlossenko"
@@ -329,7 +365,17 @@
 - name: "Krzysztof Nalepa"
   slug: "krzysztofnalepa"
   headline: "Creator of LiveDebugger"
-  bio: "Creator of LiveDebugger, a debugging tool for Phoenix LiveView."
+  bio: |
+    Software Engineer at Software Mansion, creator of LiveDebugger. During his journey in the tech world, he worked with many different projects, starting from web applications in React, through instant messaging systems in Erlang. Finally landed in the Elixir world working on various web applications, leveraging various Elixir technologies such as Phoenix, Ash and LiveView.
+
+    Currently, a Software Mansion employee working full-time on LiveDebugger, a tool designed specifically for debugging Phoenix LiveView applications.
+  city: Kraków
+  country_code: PL
+  social_links:
+    - platform: twitter
+      url: https://x.com/kraleppa
+    - platform: linkedin
+      url: https://www.linkedin.com/in/kraleppa/
 
 - name: "Boris Kuznetsov"
   slug: "boriskuznetsov"
@@ -372,8 +418,10 @@
 
 - name: "Wojtek Mach"
   slug: "wojtekmach"
-  headline: "Dashbit / Elixir Core"
-  bio: "Member of the Elixir core team at Dashbit, maintainer of Req and contributor to many Elixir ecosystem libraries."
+  headline: "Developer at Dashbit"
+  bio: "Wojtek Mach is a developer based in Kraków, Poland. He works at Dashbit helping organisations adopt and run Elixir in production as well as advance the Elixir Open Source ecosystem. He is a member of Hex, Ecto, and ExDoc core teams. He is also the creator of MyXQL, Livebook Desktop, and Req HTTP client."
+  city: Kraków
+  country_code: PL
   social_links:
     - platform: github
       url: "https://github.com/wojtekmach"
@@ -475,8 +523,15 @@
 
 - name: "Jason Stiebs"
   slug: "jasonstiebs"
-  headline: "Elixir Developer"
-  bio: "Developer exploring FLAME and BEAM-based deployment patterns."
+  headline: "Senior Engineer at RxVortex"
+  bio: "MSOE Alumni. Ran a software consultancy for a decade. Phoenix Core Team. Consulted for startups, fortune 100s and everything in between. Milwaukee/Bayview Resident. Senior Engineer at RxVortex. Adult Human"
+  city: Milwaukee
+  country_code: US
+  social_links:
+    - platform: twitter
+      url: https://x.com/peregrine
+    - platform: linkedin
+      url: https://www.linkedin.com/in/jasonstiebs/
 
 - name: "James Isenhart"
   slug: "jamesisenhart"
@@ -503,15 +558,19 @@
   headline: "Elixir Developer"
   bio: "Developer building financial analysis apps with LiveView Native."
 
-- name: "Hugo Barauna"
+- name: "Hugo Baraúna"
   slug: "hugobarauna"
-  headline: "Dashbit"
-  bio: "Developer at Dashbit, building and deploying internal tools with Livebook."
+  headline: "Developer advocate at Dashbit"
+  bio: "Hugo is a developer advocate at Dashbit (Livebook / Tidewave) and the editor of the Elixir Radar newsletter. Previously, he co-founded Plataformatec, the company where the Elixir programming language was born."
+  city: São Paulo
+  country_code: BR
   social_links:
     - platform: github
       url: "https://github.com/hugobarauna"
     - platform: twitter
       url: "https://twitter.com/hugobarauna"
+    - platform: linkedin
+      url: https://www.linkedin.com/in/hugobarauna/
 
 - name: "German Velasco"
   slug: "germanvelasco"
@@ -523,11 +582,20 @@
 
 - name: "George Guimaraes"
   slug: "georgeguimaraes"
-  headline: "Experienced Elixir developer working on ML"
-  bio: "Experienced Elixir developer working on ML forecasting."
+  headline: "AI with Elixir Advocate | ex-Plataformatec"
+  bio: |
+    George co-founded Plataformatec (with José Valim and others), the company behind the Elixir programming language.
+
+    He now works as a Member of Technical Staff at New Generation, shaping the future of Commerce with Agents.
+  city: São Paulo
+  country_code: BR
   social_links:
     - platform: github
       url: "https://github.com/georgeguimaraes"
+    - platform: twitter
+      url: https://x.com/georgeguimaraes
+    - platform: linkedin
+      url: https://www.linkedin.com/in/georgeguimaraes/
 
 - name: "Christian Koch"
   slug: "christiankoch"
@@ -735,6 +803,8 @@
   slug: "dennispalmer"
   headline: "Elixir Developer at Erlang Solutions"
   bio: "Dennis first started programming 40 years ago in BASIC on the family’s TI-99/4A. He’s written code professionally using Perl, Delphi, PHP, C#, JavaScript, TypeScript, Elm, and Elixir. He was the founder of the Dallas Functional Programmers user group, which he led for five years before moving with his family to Sweden in 2019."
+  city: Uppsala
+  country_code: SE
   social_links:
     - platform: twitter
       url: "https://x.com/CoderDennis"
@@ -744,7 +814,9 @@
 - name: "Dima Mikielewicz"
   slug: "dimamikielewicz"
   headline: "Software Engineer at Software Mansion"
-  bio: "4+ years of commercial experience, including 3 years as a Software Engineer at Software Mansion in Kraków, Poland. Currently contracting for a large U.S.-based company, working primarily with Elixir. On a day-to-day basis, we work with an architecture handling tens of thousands of active users at a time, leveraging the strengths of BEAM, Phoenix, Ecto, and Oban. Read more about my experience on my blog: dimamik.com/about."
+  bio: "I have 5+ years of commercial experience, including 4 years as a Software Engineer at Software Mansion in Kraków, Poland. Currently contracting for a large U.S.-based company, working primarily with Elixir. On a day-to-day basis, we work with an architecture handling tens of thousands of active users at a time, leveraging the strengths of BEAM, Phoenix, Ecto, and Oban. We’re actively incorporating AI into our workflows. "
+  city: Kraków
+  country_code: PL
   website: https://www.dimamik.com/
   social_links:
     - platform: github
@@ -1381,10 +1453,17 @@
   headline: "Elixir Developer"
   bio: "Elixir developer and conference speaker."
 
-- name: "Andre Albuquerque"
+- name: "André Albuquerque"
   slug: "andrealbuquerque"
-  headline: "Remote"
-  bio: "Conference speaker."
+  headline: "Staff Engineer II at Remote"
+  bio: "André Albuquerque is a staff II backend engineer at Remote who co-authored the Mastering Elixir book. He uses Elixir every day to develop and scale the Remote platform. He has a master’s degree in distributed systems and software engineering. In his time off, he loves to tinker with home automation, running, and spend time with his wife and five kids."
+  social_links:
+    - platform: github
+      url: https://github.com/amalbuquerque
+    - platform: twitter
+      url: https://x.com/lejboua
+    - platform: linkedin
+      url: https://linkedin.com/in/amalbuquerque
 
 - name: "Asep Bagja Priandana"
   slug: "asepbagjapriandana"
@@ -1403,13 +1482,17 @@
 
 - name: "Bruce Tate"
   slug: "brucetate"
-  headline: "Author, Founder of Grox.IO"
+  headline: "Author, Editor, Founder of Grox.IO"
   bio: "Bruce Tate is a kayaker, climber, programmer and father of two from Chattanooga, Tennessee. A serial entrepreneur, he has helped start three companies, and most recently served as CTO for icanmakeitbetter. The author of more than a dozen books is active in the Elixir community as a speaker, author, editor and conference organizer. His love for teaching and computer languages led him to found Groxio in 2018."
+  city: Chattanooga
+  country_code: US
   social_links:
     - platform: github
       url: https://github.com/batate
     - platform: twitter
       url: https://x.com/redrapids
+    - platform: linkedin
+      url: https://www.linkedin.com/in/bruce-tate/
 
 - name: "Bryan Hunter"
   slug: "bryanhunter"
@@ -1538,8 +1621,13 @@
 
 - name: "Sofia Silva"
   slug: "sofiasilva"
-  headline: "Remote"
-  bio: "Conference speaker."
+  headline: "VP of Engineering at Remote"
+  bio: "Sofia Silva is VP of Engineering at Remote, where she leads a distributed engineering organization building global products at scale. With a background spanning healthcare and technology, she is passionate about designing systems and organizations that scale together. Her work focuses on architecture, developer experience, and building high-performing teams that execute with focus and ownership."
+  social_links:
+    - platform: twitter
+      url: https://x.com/StaminaLoops
+    - platform: linkedin
+      url: https://www.linkedin.com/in/sofiaanfonsosilva
 
 - name: "Surya Rose"
   slug: "suryarose"
@@ -1574,11 +1662,6 @@
   slug: "juliamathias"
   headline: "Elixir developer"
   bio: "Engineer at Turn.io, building WhatsApp-based helpdesk systems with Elixir."
-
-- name: "Christoph Beck"
-  slug: "christophbeck"
-  headline: "Elixir developer"
-  bio: "Developer working on AI-powered documentation tools with Elixir."
 
 - name: "Tobias Pfeiffer"
   slug: "tobiaspfeiffer"
@@ -2335,8 +2418,13 @@
 
 - name: "Jeff Weiss"
   slug: "jeffweiss"
-  headline: "Software Engineer"
-  bio: "Software Engineer"
+  headline: "Senior Staff Backend Engineer at Adobe/Frame.io"
+  bio: "Jeff Weiss is a Senior Staff Backend Engineer at Adobe, working on the Frame.io team. Within his first three months, he delivered the “Media Intelligence” search features announced at Adobe MAX 2025, including natural language search powered by LLMs and semantic visual search via vector embeddings. With over 10 years of professional Elixir experience spanning renewable energy industrial IoT (Panthalassa), virtual power plants (Enbala), autonomous vehicles (PolySync), and logistics (Le Tote), Jeff specializes in building resilient, high-throughput distributed systems. He holds a BS in Computer Science from Kansas State University and an MBA in International Business."
+  city: Portland
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/jeffweiss/
 
 - name: "Evadne Wu"
   slug: "evadnewu"
@@ -2643,14 +2731,17 @@
 
 - name: "Tetiana Dushenkivska"
   slug: "tetianadushenkivska"
-  headline: "Software Engineer"
-  bio: |
-    Tetiana is a Software Engineer with a passion for challenges and making learning fun. In her free time she contributes to open source and working on her own software/hardware projects. She is interested in the idea of mixing hardware and software together. That's why her personal projects include integration of Arduino, bunch sensors with visual output to the browser. This allows her to write fun games and enjoy "testing" them. As a social person, she likes to build social games, which include "testing" with friends. After sipping a little bit of Elixir (programming language, not actual booze) she started to fall in love with it. That's the explanation to why all her latest projects include Elixir.
+  headline: "Founder of Rozoomio, Senior Engineer"
+  bio: "Tetiana Dushenkivska is the founder of Rozoomio and the creator of ElixirCards. With over 10 years of experience building systems on the BEAM, she works with Elixir, Phoenix, and LiveView to design and ship real-time, production-grade applications. Alongside her client work, Tetiana is building learning tools that combine cognitive science, gamification, and AI to help developers learn more effectively and avoid burnout."
+  city: Southampton
+  country_code: GB
   social_links:
     - platform: twitter
       url: https://x.com/tetiana12345678
     - platform: github
       url: https://github.com/tetiana12345678
+    - platform: linkedin
+      url: https://www.linkedin.com/in/tetiana-dushenkivska-06430586/
 
 - name: "Guilherme Pasqualino"
   slug: "guilhermepasqualino"
@@ -3587,8 +3678,13 @@
 
 - name: "Peter Ullrich"
   slug: "peterullrich"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Software Engineer"
+  bio: "I’m a Senior Elixir developer with a Psychology background, PragProg Author, Public Speaker and Blogger, and Founder. I’m passionate about Software Architecture, Product Engineering, and sharing knowledge. Loves Sport, Music, and Dad Jokes."
+  city: Leiden
+  country_code: NL
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/pjullrich/
 
 - name: "Petrus Janse van Rensburg"
   slug: "petrusjansevanrensburg"
@@ -3752,11 +3848,6 @@
 
 - name: "Vanshdeep Singh"
   slug: "vanshdeepsingh"
-  headline: "Software Developer"
-  bio: "Software Developer"
-
-- name: "Vasilis Spilka"
-  slug: "vasilisspilka"
   headline: "Software Developer"
   bio: "Software Developer"
 
@@ -4439,8 +4530,13 @@
 
 - name: "Erik Stenman"
   slug: "erikstenman"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: Architecting Concurrent Systems"
+  bio: "Erik Stenman wrote The BEAM Book and has built Erlang systems since the 90s. He worked on native code compilers, helped scale Klarna’s backend across Europe, and still prefers tools that show you what’s really going on."
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: github
+      url: https://github.com/happi
 
 - name: "Fred Hebert"
   slug: "fredhebert"
@@ -4867,3 +4963,195 @@
       url: https://github.com/sramkrishna
     - platform: linkedin
       url: https://www.linkedin.com/in/sriram-ramkrishna/
+
+- name: "Anton Borisov"
+  slug: "antonborisov"
+  headline: "Principal Data Architect at Fresha"
+  bio: "Anton Borisov is a Principal Data Engineer who architects real-time data platforms at the edge of what’s possible with Flink, Kafka, and emerging open-source technologies. At Fresha, he has led mission-critical projects ranging from zero-downtime Postgres migrations to streaming architectures powering real-time customer analytics. A recognized voice in the data streaming community, Anton writes deep technical explorations that influence how engineers approach Flink, Iceberg, Paimon, and StarRocks, bridging research, open-source innovation, and production reality."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/anton-s-borisov/
+
+- name: "Piotr Rybarczyk"
+  slug: "piotrrybarczyk"
+  headline: "Staff Backend Engineer at Fresha"
+  bio: |
+    I’m a software engineer with over a decade of experience designing and building scalable, resilient backend systems. Currently working as a Staff Backend Engineer at Fresha, I specialize in Elixir and distributed architectures, helping teams craft asynchronous, event-driven solutions powered by Elixir & Kafka.
+
+    My roots in Python and Ruby give me a strong polyglot foundation and a pragmatic approach to complex engineering challenges. Outside of work, I enjoy exploring machine learning, particularly classification algorithms, unwinding with RPG games, and hiking.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/piotr-rybarczyk-134456105/
+
+- name: "Anthony Leiro"
+  slug: "anthonyleiro"
+  headline: "Lead Software Engineer"
+  bio: "Lead Software Engineer working primarily in Elixir/Phoenix on high-concurrency systems. Focused on building production-grade AI features that remain observable, testable, and secure. Background includes distributed services, developer tooling, and pragmatic architectures that scale."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/anthony-leiro-ab7162168/
+
+- name: "Coby Benveniste"
+  slug: "cobybenveniste"
+  headline: "VP of Engineering @ Marketeam.ai"
+  bio: "Coby Benveniste is VP of Engineering at Marketeam.ai, an AI SaaS startup building intelligent agents for marketing teams. With over a decade of engineering and leadership experience under his belt, he has built and maintained high-scale systems in various industries ranging from social media to ad-tech to BI analytics. He is passionate about scaling systems, mentoring engineering teams, and helping organizations adopt the BEAM ecosystem to power up their development teams."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/coby-benveniste/
+
+- name: "Ellyse Cedeno"
+  slug: "ellysecedeno"
+  headline: "Consultant in Elixir"
+  bio: "Language nerd (Haskell, Rust, Nix, Cobol, 6502 Assembly), retrocomputing and game development. Worked making games at Nickelodeon, medical research at Mount Sinai Icahn School of Medicine, and making internet stuff at Netscape."
+  city: Paris
+  country_code: FR
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/ellysecedeno/
+
+- name: "Gabriel Ortuño"
+  slug: "gabrielortuno"
+  headline: "Staff Engineer at Cabify"
+  bio: |
+    Gabriel Ortuño is a Software Engineer at Cabify, where he specializes in building robust, high-scale backend systems. With a deep background in web development and a passion for distributed architectures, Gabriel leverages the power of Elixir and the BEAM to solve complex logistical challenges in the ride-hailing sector.
+
+    At Cabify, he focuses on creating real-time operational tools that empower agents to manage high-stakes corporate journeys with precision. His recent work bridges the gap between complex distributed logic and performant user interfaces, utilizing Phoenix LiveView to deliver mission-critical internal products.
+
+    Prior to his focus on Elixir, Gabriel was an active member of the Ruby community in Madrid (Madrid.rb).
+  city: Madrid
+  country_code: ES
+  social_links:
+    - platform: linkedin
+      url: https://linkedin.com/in/gabriel-ortuno
+
+- name: "Ido Leshkowitz"
+  slug: "idoleshkowitz"
+  headline: "Front-End Developer At Marketeam.ai"
+  bio: "I started programming in high school and kicked off my web career as a React developer, building web experiments in behavioral economics for Cornell University. I joined Marketeam.ai two and a half years ago, where I discovered Elixir and LiveView—and never looked back."
+  city: Tel Aviv-Yafo
+  country_code: IL
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/ido-leshkowitz-8aa255255/
+
+- name: "Jakub Lambrych"
+  slug: "jakublambrych"
+  headline: "Elixir Enthiusiast with Social Impact background"
+  bio: |
+    Jakub spent 4 years as a UNICEF Innovation Officer in South East Asia, working where social impact meets tech. Around the same time, he fell in love with Elixir/BEAM and got blown away by its capabilities. Working on social challenges by day and coding Elixir by night, he found the perfect spot where these worlds could collide.
+
+    A software engineer and philosopher by education (yes, that’s a thing!), his journey zigzagged through PM roles at UNICEF, Microsoft’s R&D, Fintech startup, and finally landed him in Elixir development. He enjoys both dreaming up solutions and getting his hands dirty with code.
+  city: Wrocław
+  country_code: PL
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/jakub-lambrych/
+
+- name: "Kimutai Kiprotich"
+  slug: "kimutaikiprotich"
+  headline: "Nexuscale AI, CTO"
+  bio: |
+    Kiprotich Kimutai is CTO of Nexuscale.ai, where he built AI-powered sales automation that manages 200+ million leads and delivers 3.2x conversion improvements. With 5+ years building production Elixir applications, he specializes in fault-tolerant AI systems at scale.
+
+    Kim architected Nexuscale from the ground up, achieving 94% targeting accuracy for B2B sales teams. The platform launched on AppSumo, scaled to handle massive traffic, and now serves 1,000+ users generating significant revenue. He’s delivered AI solutions across ticketing systems, healthcare, and other industries using Elixir’s Nx library for machine learning. His expertise spans Phoenix LiveView frontends to OTP-supervised AI workflows, focusing on real-time processing and concurrent AI orchestration.
+
+    Based in Nairobi, Kenya, Kim is passionate about making AI automation accessible through robust Elixir applications.
+  city: Nairobi
+  country_code: KE
+  social_links:
+    - platform: twitter
+      url: https://x.com/Kimutai_01
+    - platform: linkedin
+      url: https://www.linkedin.com/in/kimutai01/
+
+- name: "Marcio Klepacz"
+  slug: "marcioklepacz"
+  headline: "CTO @ ComparaCAR"
+  bio: "I’ve been building software for nearly two decades, from Ruby to iOS and now Elixir. I’m an experiment-driven builder who loves shipping practical solutions to real problems. Over the past six years, I’ve focused on entrepreneurship, and today I’m the founder and CTO of a vehicle meta-search startup."
+  city: São Paulo
+  country_code: BR
+  social_links:
+    - platform: twitter
+      url: https://x.com/marciok
+    - platform: linkedin
+      url: https://www.linkedin.com/in/marcio-klepacz/
+
+- name: "Marcin Kulik"
+  slug: "marcinkulik"
+  headline: "Creator of asciinema"
+  bio: "Marcin has been using Elixir for 10 years. He currently works as an independent consultant helping companies build safe, reliable software. He’s also a long time open-source aficionado, and he created and maintains the asciinema project."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/marcinkulik/
+
+- name: "Marta Habdas"
+  slug: "martahabdas"
+  headline: "Full-stack Developer at Curiosum"
+  bio: "Full-stack Developer at Curiosum, working on web applications in React and Elixir. PhD, Institute of Audiovisual Arts, Jagiellonian University, Kraków. Outside of her professional work, she has always been interested in combining technology and the arts/humanities, with a recent focus on hardware hacking and DIY electronics."
+  city: Kraków
+  country_code: PL
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/marta-habdas/
+
+- name: "Misael Perez Chamorro"
+  slug: "misaelperez"
+  headline: "Software Engineer"
+  bio: |
+    Misael Pérez Chamorro is a software architect with over 18 years of experience designing and building distributed systems, mobile apps, and backend platforms across Elixir, Erlang, Go, and Ruby. He’s an Elixir consultant who builds and ships challenging Elixir applications, with a focus on real-time systems and production-grade architecture.
+
+    He’s the host of the virtual Elixir Meetup in Mexico and a passionate advocate for using OTP to solve real-world coordination and scalability problems. When he’s not coding, you’ll probably find him on a bike ride or exploring open-world video games. Misael enjoys systems that are clean, resilient, and fun to build — which is why he keeps coming back to the BEAM.
+  city: Mexico City
+  country_code: MX
+  social_links:
+    - platform: twitter
+      url: https://x.com/misaelpc
+    - platform: linkedin
+      url: https://www.linkedin.com/in/misael-perez-19860789/
+
+- name: "Noelia Lencina"
+  slug: "noelialencina"
+  headline: "Senior Elixir Software Engineer at Fairing"
+  bio: "I am a Senior Software Engineer who started her career learning Ruby and Elixir at the same time back in 2017 and fell in love with both languages. After a couple years working with both, and a few more focused on Ruby, I decided to go exclusive with Elixir 4 years ago and haven’t looked back. I am passionate about sharing what I know and learning from others wherever I go, and strongly believe communities are the base for all technology."
+
+- name: "Princeton Poh"
+  slug: "princetonpoh"
+  headline: "PaperLand"
+  bio: "I believe there’s a lot of improvements to be made in the education sector to uplift the human spirit. Instead of mindlessly following tradition, I invite you to join us as we reshape the relationship students have with mathematics all around the world!"
+  city: Singapore
+  country_code: SG
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/princeton-poh/
+
+- name: "A. Vivekbala"
+  slug: "vivekbala"
+  headline: "Learning and Building PaperLand"
+  bio: "I learn from young learners of new ways to make math alive. Big believer in the ways of Seymour Papert, Alan Kay and Joe Armstrong of forcing the computer to understand your understanding, by creating a recursive world of understanding where you’re not quite sure if you’re teaching the machine or if the machine is teaching you."
+
+- name: "Silvia Zeamer"
+  slug: "silviazeamer"
+  headline: "Software Engineer @ Tolemi"
+  bio: "Silvia Zeamer is a Software Engineer at Tolemi, working on data pipelines and infrastructure using Elixir, Postgres, Python, and other tools as needs dictate. She studied Media Arts and Sciences at Wellesley College. She has spent much of her life living on an off-grid homestead in coastal Maine, tackling a variety of interesting electrical problems but is now based in Boston, MA, where she spends her free time binding books, photographing nature, and designing knitwear."
+  city: Boston
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/szeamer/
+
+- name: "Steffen Deusch"
+  slug: "steffendeusch"
+  headline: "Member of the Phoenix Team"
+  bio: "Member of the Phoenix team since 2024. Started programming in 2014 (14y old), doing mostly Python and later Node.js. Studied computer science from 2018 to 2022. Started to work with Elixir in 2019 at a job focused on Node.js - full time Elixir since 2022. At Dashbit since 2025."
+
+- name: "Vasilis Spilka"
+  slug: "vasilisspilka"
+  headline: "Head of Software Development at Teacherspace"
+  bio: "Vasilis is an experienced software engineer with almost 10 years of working with Elixir. And for almost two years he has been working with LLMs to help schools and teachers"
+  city: Prague
+  country_code: CZ
+  social_links:
+    - platform: github
+      url: https://github.com/vasspilka
+    - platform: twitter
+      url: https://x.com/vasspilka

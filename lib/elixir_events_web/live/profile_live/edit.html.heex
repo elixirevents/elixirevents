@@ -14,6 +14,24 @@
         placeholder="e.g. Elixir Core Team"
       />
       <.input field={@form[:bio]} type="textarea" label="Bio" />
+      <div class="grid grid-cols-2 gap-4 items-start">
+        <.input field={@form[:city]} type="text" label="City" placeholder="e.g. Kraków" />
+        <div class="fieldset mb-2">
+          <label>
+            <span class="label mb-1">Country</span>
+            <.custom_select
+              id="profile-country-code"
+              name={@form[:country_code].name}
+              value={@form[:country_code].value}
+              options={country_options()}
+              prompt="Select country..."
+              form_id="profile-form"
+              searchable
+              search_placeholder="Search countries..."
+            />
+          </label>
+        </div>
+      </div>
       <.input
         field={@form[:website]}
         type="text"

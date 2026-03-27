@@ -410,4 +410,40 @@ defmodule ElixirEvents.TalksTest do
       assert length(links) == 1
     end
   end
+
+  describe "list_speakers_for_event/1" do
+    import ElixirEvents.DataFixtures
+
+    test "returns unique speaker profiles for an event, keynotes first" do
+      series = event_series_fixture()
+      event = event_fixture(series)
+      speaker1 = profile_fixture(%{name: "Alice", handle: "alice"})
+      speaker2 = profile_fixture(%{name: "Bob", handle: "bob"})
+
+      keynote =
+        talk_fixture(event, %{kind: :keynote, title: "Opening Keynote", slug: "keynote"})
+
+      talk = talk_fixture(event, %{kind: :talk, title: "Regular Talk", slug: "regular"})
+
+      Talks.replace_talk_speakers(keynote.id, [
+        %{profile_id: speaker1.id, role: :speaker, position: 1}
+      ])
+
+      Talks.replace_talk_speakers(talk.id, [
+        %{profile_id: speaker2.id, role: :speaker, position: 1}
+      ])
+
+      speakers = Talks.list_speakers_for_event(event.id)
+      assert length(speakers) == 2
+
+      [first | _] = speakers
+      assert first.name == "Alice"
+    end
+
+    test "returns empty list when no talks" do
+      series = event_series_fixture()
+      event = event_fixture(series)
+      assert Talks.list_speakers_for_event(event.id) == []
+    end
+  end
 end

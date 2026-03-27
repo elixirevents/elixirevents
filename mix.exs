@@ -79,6 +79,7 @@ defmodule ElixirEvents.MixProject do
       {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"},
       {:tidewave, "~> 0.5", only: :dev},
+      {:beamlab_countries, "~> 1.0"},
       {:yaml_elixir, "~> 2.11"}
     ]
   end

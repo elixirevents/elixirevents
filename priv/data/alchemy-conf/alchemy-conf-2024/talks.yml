@@ -107,7 +107,7 @@
   duration: 28
   abstract: "Addressing the persistent gap between library creators and adopters regarding documentation, using a RAG-based approach."
   speakers:
-    - christophbeck
+    - chrisbeck
   topics:
     - elixir
   recordings:

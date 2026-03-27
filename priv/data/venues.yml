@@ -9,6 +9,7 @@
   latitude: 32.9457
   longitude: -97.0700
   website: "https://www.marriott.com/en-us/hotels/dfwgt-gaylord-texan-resort-and-convention-center"
+  description: "A sprawling Texas-sized resort featuring indoor gardens, waterways, and convention facilities in the heart of the Dallas-Fort Worth metroplex."
 
 - name: "ICE Krakow Congress Centre"
   slug: "ice-krakow"
@@ -21,6 +22,7 @@
   latitude: 50.0478
   longitude: 19.9350
   website: "https://www.icekrakow.pl"
+  description: "A striking modern congress centre on the banks of the Vistula River, offering panoramic views of Wawel Castle and world-class conference facilities."
 
 - name: "Philharmonie Haarlem"
   slug: "philharmonie-haarlem"
@@ -29,6 +31,7 @@
   country: "Netherlands"
   country_code: "NL"
   postal_code: "2011 HH"
+  description: "A historic concert hall in the heart of Haarlem, offering intimate acoustics and a beautiful setting for events in the Dutch Golden Age city."
 
 - name: "Ericsson HQ (Open Box)"
   slug: "ericsson-hq-kista"
@@ -37,6 +40,7 @@
   region: "Kista"
   country: "Sweden"
   country_code: "SE"
+  description: "The Open Box venue at Ericsson's global headquarters in Kista, Stockholm's technology district."
 
 - name: "VIFF Centre"
   slug: "viff-centre"
@@ -46,14 +50,20 @@
   country: "Canada"
   country_code: "CA"
   website: "https://viff.org"
+  description: "The Vancouver International Film Festival's dedicated screening and event centre in the heart of downtown Vancouver."
 
-- name: "NH Malaga"
+- name: "NH Málaga"
   slug: "nh-malaga"
   street: "C. San Jacinto 2"
-  city: "Malaga"
+  city: "Málaga"
+  region: "Andalusia"
   country: "Spain"
   country_code: "ES"
   postal_code: "29007"
+  latitude: 36.7213
+  longitude: -4.4214
+  website: "https://www.nh-hotels.com/en/hotel/nh-malaga"
+  description: "A modern hotel in the heart of Málaga with excellent convention facilities, just minutes from the historic city center and Mediterranean coast."
 
 - name: "voco Chicago Downtown"
   slug: "voco-chicago"
@@ -63,24 +73,28 @@
   country: "United States"
   country_code: "US"
   postal_code: "60654"
+  description: "A contemporary hotel at Wolf Point where the Chicago River's three branches meet, offering stunning city and river views in the heart of downtown."
 
 - name: "ULB Solbosch Campus"
   slug: "ulb-solbosch"
   city: "Brussels"
   country: "Belgium"
   country_code: "BE"
+  description: "The main campus of the Université libre de Bruxelles, a vibrant academic setting in the heart of Europe's capital."
 
 - name: "Origin Workspace"
   slug: "origin-workspace-bristol"
   city: "Bristol"
   country: "United Kingdom"
   country_code: "GB"
+  description: "A modern co-working and events space in Bristol, one of the UK's leading tech and creative hubs."
 
 - name: "Varbergs Teater"
   slug: "varbergs-teater"
   city: "Varberg"
   country: "Sweden"
   country_code: "SE"
+  description: "A charming historic theatre in the coastal Swedish town of Varberg, offering an intimate and atmospheric venue for community events."
 
 - name: "Subvisual"
   slug: "subvisual-braga"
@@ -88,3 +102,4 @@
   city: "Braga"
   country: "Portugal"
   country_code: "PT"
+  description: "The Braga studio of Subvisual, a renowned product design and development agency, nestled in one of Portugal's oldest and most vibrant cities."

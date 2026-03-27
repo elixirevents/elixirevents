@@ -30,6 +30,9 @@ defmodule ElixirEventsWeb.Router do
       live "/contribute", ContributeLive, :index
       live "/events", EventLive.Index, :index
       live "/events/:slug", EventLive.Show, :show
+      live "/events/:slug/talks", EventLive.Talks, :index
+      live "/events/:slug/schedule", EventLive.Schedule, :index
+      live "/events/:slug/speakers", EventLive.Speakers, :index
       live "/series/:slug", SeriesLive.Show, :show
       live "/speakers", SpeakerLive.Index, :index
       live "/profiles/:handle", ProfileLive.Show, :show
