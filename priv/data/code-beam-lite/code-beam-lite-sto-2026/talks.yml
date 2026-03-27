@@ -1,0 +1,46 @@
+## Keynotes
+
+- title: "Residues: Time, Change and Uncertainty in Software Architecture"
+  slug: "residues-time-change-and-uncertainty-in-software-architecture"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 45
+  abstract: "Residuality theory is a revolutionary new theory of software design that aims to make it easier to design software systems for complex business environments. Residuality theory models software systems as interconnected residues - an alternative to component and process modeling that uses applied complexity science to make managing uncertainty a fundamental part of the design process."
+  speakers:
+    - barryoreilly
+  topics:
+    - engineering
+
+## Talks
+
+- title: "Low Power Wireless Sensors with AtomVM"
+  slug: "low-power-wireless-sensors-with-atomvm"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    AtomVM makes it possible to run Erlang, Elixir and Gleam on tiny, resource constrained devices by executing bytecode from compiled .beam files on supported targets, while remaining a separate VM from the traditional BEAM.
+
+    In this talk, I will show why AtomVM can be a great fit for building wireless sensors: you can write small firmware that reads real sensor hardware, structure the application using the tools we already love, and then deliver data where it matters.
+
+    We will look at practical wireless delivery options that fit real deployments, for example long range LoRa for field data collection, or Wi-Fi for publishing data to a broker using MQTT or for home automation, focusing on what is feasible on AtomVM and what trade offs you should expect.
+
+    To keep things grounded, I will walk through a working end to end example of a small sensor node, showing how to go from reading a sensor to data arriving somewhere useful.
+  speakers:
+    - davidebettio
+  topics:
+    - embedded
+
+- title: "Time, Hard Problems, other Hard Problems and Gleam"
+  slug: "time-hard-problems-other-hard-problems-and-gleam"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Gleam is a programming language and platform for solving hard problems, but maybe not the kind of hard problems that people tend to think about when hearing those words. There are hard problems of the type that people write papers about and build academic careers on, and then there are hard problems like dealing with time zones, customer requirements and major version upgrades. Gleam is a tool designed for handling the second kind of problem, and it is the best tool for the job that I have found."
+  speakers:
+    - kristoffergronlund
+  topics:
+    - gleam

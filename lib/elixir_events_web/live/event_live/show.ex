@@ -2,10 +2,22 @@ defmodule ElixirEventsWeb.EventLive.Show do
   use ElixirEventsWeb, :live_view
 
   alias ElixirEvents.{Events, Program, Sponsorship, Talks}
+  alias ElixirEventsWeb.EventLive.{ShowCompact, ShowConference}
+
+  @compact_kinds [:meetup, :workshop]
 
   @impl true
   def mount(_params, _session, socket) do
     {:ok, socket}
+  end
+
+  @impl true
+  def render(assigns) do
+    if assigns.compact do
+      ShowCompact.render(assigns)
+    else
+      ShowConference.render(assigns)
+    end
   end
 
   @impl true
@@ -48,7 +60,9 @@ defmodule ElixirEventsWeb.EventLive.Show do
           end)
           |> Enum.uniq_by(& &1.id)
 
-        sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers)
+        compact? = event.kind in @compact_kinds
+
+        sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers, compact?)
 
         selected_day =
           case schedule_days do
@@ -67,6 +81,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
            speakers: speakers,
            keynote_talks: keynote_talks,
            keynote_speakers: keynote_speakers,
+           compact: compact?,
            sections: sections,
            selected_day: selected_day
          )}
@@ -80,7 +95,18 @@ defmodule ElixirEventsWeb.EventLive.Show do
     {:noreply, assign(socket, :selected_day, day)}
   end
 
-  defp build_sections(event, talks, schedule_days, sponsor_tiers, speakers) do
+  # Compact events (meetups, workshops) get no section nav
+  defp build_sections(
+         _event,
+         _talks,
+         _schedule_days,
+         _sponsor_tiers,
+         _speakers,
+         true = _compact?
+       ),
+       do: []
+
+  defp build_sections(event, talks, schedule_days, sponsor_tiers, speakers, _compact?) do
     []
     |> maybe_add(event.description, %{id: "about", label: "About"})
     |> maybe_add(speakers != [], %{id: "speakers", label: "Speakers", count: length(speakers)})

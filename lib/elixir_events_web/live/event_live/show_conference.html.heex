@@ -76,7 +76,10 @@
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
-            {date_range(@event)} &middot; {event_duration(@event)}
+            {date_range(@event)}
+            <span :if={@event.start_date != @event.end_date}>
+              &middot; {event_duration(@event)}
+            </span>
           </span>
         </div>
       </div>
@@ -136,6 +139,7 @@
             <span class="text-base-content/50 font-normal text-lg ml-1">({length(@talks)})</span>
           </h2>
           <.link
+            :if={length(@talks) > 4}
             navigate={"/events/#{@event.slug}/talks"}
             class="text-sm text-primary hover:text-primary/70 transition-colors font-medium"
           >
@@ -143,7 +147,7 @@
           </.link>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <.talk_card :for={talk <- @talks |> Enum.take(4)} talk={talk} hide_event_name />
+          <.talk_card :for={talk <- Enum.take(@talks, 4)} talk={talk} hide_event_name />
         </div>
       </div>
 
@@ -296,7 +300,10 @@
             )}
           </span>
         </div>
-        <div :if={event_duration(@event)} class="flex items-center gap-3">
+        <div
+          :if={@event.start_date != @event.end_date}
+          class="flex items-center gap-3"
+        >
           <svg
             class="w-4 h-4 text-base-content/50 shrink-0"
             fill="none"

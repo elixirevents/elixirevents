@@ -1,0 +1,10 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "ericsson"
+    - slug: "kivra"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "erlang-solutions"

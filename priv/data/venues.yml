@@ -103,3 +103,14 @@
   country: "Portugal"
   country_code: "PT"
   description: "The Braga studio of Subvisual, a renowned product design and development agency, nestled in one of Portugal's oldest and most vibrant cities."
+
+- name: "Ericsson HQ (Open Box)"
+  slug: "ericssonhq-openbox"
+  street: "Torshamnsgatan 21"
+  city: "Kista/Stockholm"
+  region: "Stockholm"
+  country: "Sweden"
+  country_code: "SE"
+  latitude: 59.4047
+  longitude: 17.9556
+  description: "Ericsson HQ (Open Box) is a corporate event space located at Ericsson’s global headquarters in Kista, Stockholm, within the city’s main technology district, and is commonly used for meetups, tech talks, and industry events."
