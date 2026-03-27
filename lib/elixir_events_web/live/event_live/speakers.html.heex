@@ -5,7 +5,9 @@
   <div :if={@keynote_speakers != []} class="mb-12">
     <h2 class="font-display text-xl font-bold mb-5">
       Keynote Speakers
-      <span class="text-base-content/50 font-normal text-base ml-1">({length(@keynote_speakers)})</span>
+      <span class="text-base-content/50 font-normal text-base ml-1">
+        ({length(@keynote_speakers)})
+      </span>
     </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <.speaker_card

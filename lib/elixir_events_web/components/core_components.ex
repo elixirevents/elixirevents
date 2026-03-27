@@ -740,6 +740,7 @@ defmodule ElixirEventsWeb.CoreComponents do
   attr :form_id, :string, default: nil, doc: "the id of the parent form to trigger change on"
   attr :searchable, :boolean, default: false, doc: "enable search/filter within the dropdown"
   attr :search_placeholder, :string, default: "Search..."
+  attr :label, :string, default: nil, doc: "label text rendered above the select"
 
   def custom_select(assigns) do
     selected_label =
@@ -751,69 +752,74 @@ defmodule ElixirEventsWeb.CoreComponents do
     assigns = assign(assigns, :selected_label, selected_label)
 
     ~H"""
-    <div
-      class="dropdown relative"
-      phx-click-away={close_dropdown(@id)}
-      id={@id}
-      phx-hook={@searchable && "SearchableSelectHook"}
-    >
-      <input type="hidden" name={@name} value={@value} id={"#{@id}-value"} />
-      <button
-        type="button"
-        aria-haspopup="true"
-        aria-expanded="false"
-        aria-controls={"#{@id}-panel"}
-        phx-click={toggle_dropdown(@id)}
-        class="w-full input cursor-pointer flex items-center justify-between gap-2 text-sm"
-      >
-        <span class="truncate">{@selected_label}</span>
-        <.icon name="hero-chevron-up-down-micro" class="size-4 opacity-40 shrink-0" />
-      </button>
-
+    <div class={@label && "fieldset mb-2"}>
+      <label :if={@label}>
+        <span class="label mb-1">{@label}</span>
+      </label>
       <div
-        id={"#{@id}-panel"}
-        class={[
-          "dropdown-panel dropdown-panel--start w-full min-w-[10rem]",
-          @searchable && "dropdown-panel--searchable"
-        ]}
-        role="listbox"
-        data-state="closed"
+        class="dropdown relative"
+        phx-click-away={close_dropdown(@id)}
+        id={@id}
+        phx-hook={@searchable && "SearchableSelectHook"}
       >
-        <div :if={@searchable} class="dropdown-search">
-          <input
-            type="text"
-            data-search-input
-            placeholder={@search_placeholder}
-            class="dropdown-search-input"
-            autocomplete="off"
-          />
-        </div>
-        <div class={[@searchable && "dropdown-scroll"]}>
-          <button
-            :for={{label, val} <- @options}
-            type="button"
-            role="option"
-            aria-selected={to_string(val) == to_string(@value)}
-            data-search-value={label}
-            class={[
-              "dropdown-item w-full text-left",
-              to_string(val) == to_string(@value) && "dropdown-item--active"
-            ]}
-            phx-click={
-              JS.set_attribute({"value", to_string(val)}, to: "##{@id}-value")
-              |> JS.set_attribute({"data-state", "closed"}, to: "##{@id}-panel")
-              |> JS.set_attribute({"aria-expanded", "false"}, to: "##{@id} [aria-haspopup]")
-              |> then(fn js ->
-                if @form_id,
-                  do: JS.dispatch(js, "change", to: "##{@form_id}"),
-                  else: js
-              end)
-            }
-          >
-            {label}
-          </button>
-          <div data-no-results class="dropdown-no-results" style="display: none">
-            No matches found
+        <input type="hidden" name={@name} value={@value} id={"#{@id}-value"} />
+        <button
+          type="button"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-controls={"#{@id}-panel"}
+          phx-click={toggle_dropdown(@id)}
+          class="w-full input cursor-pointer flex items-center justify-between gap-2 text-sm"
+        >
+          <span class="truncate">{@selected_label}</span>
+          <.icon name="hero-chevron-up-down-micro" class="size-4 opacity-40 shrink-0" />
+        </button>
+
+        <div
+          id={"#{@id}-panel"}
+          class={[
+            "dropdown-panel dropdown-panel--start w-full min-w-[10rem]",
+            @searchable && "dropdown-panel--searchable"
+          ]}
+          role="listbox"
+          data-state="closed"
+        >
+          <div :if={@searchable} class="dropdown-search">
+            <input
+              type="text"
+              data-search-input
+              placeholder={@search_placeholder}
+              class="dropdown-search-input"
+              autocomplete="off"
+            />
+          </div>
+          <div class={[@searchable && "dropdown-scroll"]}>
+            <button
+              :for={{label, val} <- @options}
+              type="button"
+              role="option"
+              aria-selected={to_string(val) == to_string(@value)}
+              data-search-value={label}
+              class={[
+                "dropdown-item w-full text-left",
+                to_string(val) == to_string(@value) && "dropdown-item--active"
+              ]}
+              phx-click={
+                JS.set_attribute({"value", to_string(val)}, to: "##{@id}-value")
+                |> JS.set_attribute({"data-state", "closed"}, to: "##{@id}-panel")
+                |> JS.set_attribute({"aria-expanded", "false"}, to: "##{@id} [aria-haspopup]")
+                |> then(fn js ->
+                  if @form_id,
+                    do: JS.dispatch(js, "change", to: "##{@form_id}"),
+                    else: js
+                end)
+              }
+            >
+              {label}
+            </button>
+            <div data-no-results class="dropdown-no-results" style="display: none">
+              No matches found
+            </div>
           </div>
         </div>
       </div>
