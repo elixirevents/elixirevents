@@ -263,6 +263,13 @@ defmodule ElixirEventsWeb.Helpers do
 
   def has_coordinates?(_), do: false
 
+  @doc "Format label for workshop format, falling back to event format"
+  def workshop_format_label(%{format: nil, event: event}),
+    do: event.format |> to_string() |> String.replace("_", " ")
+
+  def workshop_format_label(%{format: format}),
+    do: format |> to_string() |> String.replace("_", " ")
+
   @doc "Render Markdown text as safe HTML"
   def render_markdown(nil), do: ""
   def render_markdown(""), do: ""

@@ -38,6 +38,7 @@ defmodule ElixirEventsWeb.Router do
       live "/profiles/:handle", ProfileLive.Show, :show
       live "/talks", TalkLive.Index, :index
       live "/talks/:event_slug/:slug", TalkLive.Show, :show
+      live "/events/:event_slug/workshops/:slug", WorkshopLive.Show, :show
       live "/topics", TopicLive.Index, :index
       live "/topics/:slug", TopicLive.Show, :show
     end
