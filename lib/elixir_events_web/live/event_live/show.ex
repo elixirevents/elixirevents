@@ -3,6 +3,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
 
   alias ElixirEvents.{Events, Program, Sponsorship, Talks, Workshops}
   alias ElixirEventsWeb.EventLive.{ShowCompact, ShowConference}
+  alias ElixirEventsWeb.SEO
 
   @compact_kinds [:meetup, :workshop, :webinar]
 
@@ -89,6 +90,9 @@ defmodule ElixirEventsWeb.EventLive.Show do
         {:noreply,
          assign(socket,
            page_title: event.name,
+           page_description: event.description,
+           page_url: SEO.base_url() <> "/events/#{event.slug}",
+           jsonld: SEO.event_jsonld(event),
            event: event,
            talks: talks,
            workshops: workshops,

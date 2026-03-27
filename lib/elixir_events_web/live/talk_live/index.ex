@@ -30,6 +30,8 @@ defmodule ElixirEventsWeb.TalkLive.Index do
     {:noreply,
      socket
      |> assign(:page_title, "Talks")
+     |> assign(:page_description, "Watch talks from Elixir & BEAM conferences and meetups.")
+     |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/talks")
      |> assign(:talks, page_data.entries)
      |> assign(:page_data, page_data)
      |> assign(:current_filter, filter)

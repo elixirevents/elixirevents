@@ -37,6 +37,8 @@ defmodule ElixirEventsWeb.EventLive.Schedule do
         {:noreply,
          assign(socket,
            page_title: "Schedule — #{event.name}",
+           page_description: "Schedule for #{event.name}.",
+           page_url: ElixirEventsWeb.SEO.base_url() <> "/events/#{event.slug}/schedule",
            event: event,
            schedule_days: schedule_days,
            tracks: tracks,

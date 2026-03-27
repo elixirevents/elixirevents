@@ -40,6 +40,11 @@ defmodule ElixirEventsWeb.ProfileLive.Show do
         {:noreply,
          socket
          |> assign(:page_title, profile.name)
+         |> assign(
+           :page_description,
+           profile.bio || "#{profile.name} — Elixir & BEAM community speaker."
+         )
+         |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/profiles/#{profile.handle}")
          |> assign(:profile, profile)
          |> assign(:talks, talks)
          |> assign(:workshops, workshops)

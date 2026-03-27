@@ -26,6 +26,12 @@ defmodule ElixirEventsWeb.TopicLive.Show do
         {:noreply,
          socket
          |> assign(:page_title, topic.name)
+         |> assign(
+           :page_description,
+           topic.description ||
+             "Talks and events about #{topic.name} in the Elixir & BEAM ecosystem."
+         )
+         |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/topics/#{topic.slug}")
          |> assign(:topic, topic)
          |> assign(:talks, talks)}
     end
