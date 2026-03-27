@@ -197,3 +197,54 @@
   country_code: "PL"
   latitude: 50.0647
   longitude: 19.9330
+
+- name: "Fresha Office, The Bower"
+  slug: "fresha-london"
+  street: "207-211 Old Street"
+  city: "London"
+  country: "United Kingdom"
+  country_code: "GB"
+  postal_code: "EC1V 9NR"
+  latitude: 51.5265
+  longitude: -0.0878
+
+- name: "Brigadier General Charles E. McGee Library"
+  slug: "mcgee-library-silver-spring"
+  city: "Silver Spring"
+  region: "Maryland"
+  country: "United States"
+  country_code: "US"
+  latitude: 38.9960
+  longitude: -77.0280
+
+- name: "Rockville Memorial Library"
+  slug: "rockville-memorial-library"
+  street: "21 Maryland Avenue"
+  city: "Rockville"
+  region: "Maryland"
+  country: "United States"
+  country_code: "US"
+  latitude: 39.0840
+  longitude: -77.1528
+
+- name: "Innovation Campus - Malaga Palace"
+  slug: "innovation-campus-malaga-palace"
+  street: "C. Álamos, 7"
+  city: "Málaga"
+  region: "Andalusia"
+  country: "Spain"
+  country_code: "ES"
+  postal_code: "29012"
+  latitude: 36.7194
+  longitude: -4.4193
+
+- name: "Fabrik DUMBO"
+  slug: "fabrik-dumbo"
+  street: "20 Jay Street, Suite 218"
+  city: "Brooklyn"
+  region: "New York"
+  country: "United States"
+  country_code: "US"
+  postal_code: "11201"
+  latitude: 40.7033
+  longitude: -73.9867

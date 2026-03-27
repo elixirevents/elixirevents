@@ -1,0 +1,13 @@
+name: "DC Elixir - Elixir, Erlang, and Gleam: in-person in MoCo"
+slug: "dc-elixir-oct-2025"
+venue_slug: "rockville-memorial-library"
+kind: meetup
+status: completed
+format: in_person
+start_date: "2025-10-08"
+end_date: "2025-10-08"
+timezone: "America/New_York"
+language: en
+location: "Rockville, MD, USA"
+description: "If you're interested in Elixir, Erlang, Gleam, or any other BEAM language, join us for our first in-person gathering in the DC area since before the pandemic. We'll start with introductions, do some planning for future meetups, and have a bit of show-and-tell. All experience levels welcome."
+website: "https://www.meetup.com/dc-elixir/"

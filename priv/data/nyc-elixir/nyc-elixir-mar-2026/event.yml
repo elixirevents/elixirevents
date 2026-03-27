@@ -1,0 +1,16 @@
+name: "NYC Elixir - March Dumbo Meetup"
+slug: "nyc-elixir-mar-2026"
+venue_slug: "fabrik-dumbo"
+kind: meetup
+status: completed
+format: in_person
+start_date: "2026-03-19"
+end_date: "2026-03-19"
+timezone: "America/New_York"
+language: en
+location: "Brooklyn, NY, USA"
+description: |
+  Back from a long hiatus, join us for the NYC Elixir meetup! Come have some light bites + drinks, meet your fellow Elixir engineers and learn a few things. We will have two 30 minute talks along with some networking before and after.
+
+  The event is kindly sponsored by Fresha.
+website: "https://www.meetup.com/nyc-elixir/events/313620952/"

@@ -1,0 +1,13 @@
+- title: "Getting Started with Nerves"
+  slug: "getting-started-with-nerves"
+  kind: talk
+  language: en
+  abstract: |
+    Nerves is an open-source platform that combines the rock-solid BEAM virtual machine and Elixir ecosystem to easily build and deploy production embedded systems.
+
+    We'll learn how Nerves works, how Elixir and the BEAM make it special, and how to get started. Hands-on activity included — please bring your laptop and hack along with us! Familiarity with Elixir will help, but embedded systems experience is not required.
+  speakers:
+    - frankhunleth
+  topics:
+    - nerves
+    - elixir

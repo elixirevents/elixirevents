@@ -1,0 +1,17 @@
+name: "Unconference Málaga - ElixirConf EU"
+slug: "eef-unconf-malaga-2026"
+venue_slug: "innovation-campus-malaga-palace"
+kind: workshop
+status: confirmed
+format: in_person
+start_date: "2026-04-22"
+end_date: "2026-04-22"
+timezone: "Europe/Madrid"
+language: en
+location: "Málaga, Spain"
+description: |
+  The EEF is organizing a day of community driven talks, discussions, and workshops the day before ElixirConf EU. Featuring an Elixir Unconference, a Nerves workshop with Nerves Starter Kit prototypes to experiment with, and a GRiSP workshop with hands-on hardware.
+
+  Prior to the date, a topic submission window will open for participants with three formats: Teach, Discuss, and Learn. The Nerves core team will bring embedded hardware, half-baked software and an issue tracker full of hopes and dreams. The GRiSP workshop will feature GRiSP2 boards, PMODs, GRiSP nano prototype boards, and hardware from the Eustaquia project.
+website: "https://marketing.erlef.org/events/malaga-unconf.html"
+tickets_url: "https://luma.com/q4ykwcsl"
