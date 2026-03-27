@@ -1,0 +1,47 @@
+- title: "Thinking Concurrency: Dwelling in Erlang and Elixir"
+  slug: "thinking-concurrency-dwelling-in-erlang-and-elixir"
+  kind: talk
+  language: en
+  abstract: |
+    The functional paradigm has been influencing mainstream languages for decades, making developers more efficient whilst helping reduce maintenance costs. As we are faced with a programming model that needs to scale on multi-core architectures and distributed environments, concurrency becomes critical. In these concurrency models, immutability, a key feature of functional programming paradigm will become even more evident. To quote Simon Peyton Jones, future concurrent languages will be functional; they might not be called functional, but the features will be.
+  speakers:
+    - francescocesarini
+  topics:
+    - concurrency
+    - erlang
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "7BUOLgxV-uQ"
+      url: "https://www.youtube.com/watch?v=7BUOLgxV-uQ"
+
+- title: "An Erlanger's Encounter with Gleam"
+  slug: "an-erlangers-encounter-with-gleam"
+  kind: talk
+  language: en
+  abstract: "What is Gleam about? Is strict type-checking a blessing or a nuisance? What are the good things that Gleam brings, and what is bad about it? A short introduction to Gleam and an entirely subjective look at it from a seasoned Erlang developer."
+  speakers:
+    - bartekgorny
+  topics:
+    - gleam
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "vPP8ib2qqtI"
+      url: "https://www.youtube.com/watch?v=vPP8ib2qqtI"
+
+- title: "Scaling Elixir Clusters Across Continents with Fly.io"
+  slug: "scaling-elixir-clusters-across-continents-with-fly-io"
+  kind: talk
+  language: en
+  abstract: "Ready to take your Elixir/Phoenix app global? This talk reveals how to effortlessly deploy and scale your app across continents using Fly.io. Discover the secrets behind seamless clustering that ensures your app's high availability and top-notch performance. See a practical demonstration of an example app that uses clustering, highlighting this approach's real-world benefits."
+  speakers:
+    - szymonmentel
+  topics:
+    - elixir
+    - deployment
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "zPdnLxB-2pY"
+      url: "https://www.youtube.com/watch?v=zPdnLxB-2pY"

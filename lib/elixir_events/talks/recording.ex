@@ -5,6 +5,8 @@ defmodule ElixirEvents.Talks.Recording do
 
   @providers [:youtube, :vimeo, :other]
 
+  def providers, do: @providers
+
   @permitted ~w(talk_id provider external_id url duration published_at thumbnail_url)a
   @required ~w(talk_id provider url)a
 

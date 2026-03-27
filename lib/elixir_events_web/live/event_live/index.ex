@@ -2,9 +2,10 @@ defmodule ElixirEventsWeb.EventLive.Index do
   use ElixirEventsWeb, :live_view
 
   alias ElixirEvents.Events
+  alias ElixirEvents.Events.Event
 
   @valid_filters ~w(all upcoming past)
-  @valid_kinds ~w(conference meetup retreat hackathon summit workshop)
+  @valid_kinds Event.kinds() |> Enum.map(&to_string/1)
 
   @impl true
   def mount(_params, _session, socket) do
@@ -71,15 +72,20 @@ defmodule ElixirEventsWeb.EventLive.Index do
     {:noreply, push_patch(socket, to: ~p"/events?#{params}")}
   end
 
+  @kind_labels %{
+    "conference" => "Conferences",
+    "meetup" => "Meetups",
+    "retreat" => "Retreats",
+    "hackathon" => "Hackathons",
+    "summit" => "Summits",
+    "workshop" => "Workshops",
+    "webinar" => "Webinars"
+  }
+
   def kind_options do
-    [
-      {"conference", "Conferences"},
-      {"meetup", "Meetups"},
-      {"retreat", "Retreats"},
-      {"hackathon", "Hackathons"},
-      {"summit", "Summits"},
-      {"workshop", "Workshops"}
-    ]
+    Enum.map(@valid_kinds, fn kind ->
+      {kind, Map.get(@kind_labels, kind, kind |> String.capitalize() |> Kernel.<>("s"))}
+    end)
   end
 
   def kind_dot_color("conference"), do: "bg-primary"
@@ -88,6 +94,7 @@ defmodule ElixirEventsWeb.EventLive.Index do
   def kind_dot_color("hackathon"), do: "bg-warning"
   def kind_dot_color("summit"), do: "bg-info"
   def kind_dot_color("workshop"), do: "bg-success"
+  def kind_dot_color("webinar"), do: "bg-violet-500"
   def kind_dot_color(_), do: "bg-base-content/40"
 
   def build_filter_params(filter, kinds, search \\ nil) do

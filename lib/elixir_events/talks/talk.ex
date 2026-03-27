@@ -6,6 +6,9 @@ defmodule ElixirEvents.Talks.Talk do
   @kinds [:keynote, :talk, :workshop, :panel, :lightning_talk]
   @levels [:beginner, :intermediate, :advanced]
 
+  def kinds, do: @kinds
+  def levels, do: @levels
+
   @permitted ~w(event_id title slug abstract kind language level duration)a
   @required ~w(event_id title slug kind)a
 

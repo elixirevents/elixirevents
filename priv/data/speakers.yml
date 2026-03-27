@@ -5355,3 +5355,102 @@
   social_links:
     - platform: linkedin
       url: https://www.linkedin.com/in/prithvihv/
+
+- name: "Phuong Van"
+  slug: "phuongvan"
+  headline: "Developer at Erlang Solutions"
+  bio: |
+    I've start my career working with Erlang. Now, I keep dedicating my career working the language of the BEAM. I have developed features in different product size and team setting, from a complex software product using Erlang/OTP that involves several processes and documents to a fast-paced small service using Elixir.
+
+    I am a great team player, but also performs well as an individual. Positivity and happiness is my strength. I also adapt well in different team setting and roles. I have taken the Scrum master role in team for several sprints and even step up as acting Product Owner when needed.
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/maiphuongvan/"
+    - platform: github
+      url: "https://github.com/maiphuong-van"
+
+- name: "Lee Sigauke"
+  slug: "leesigauke"
+
+- name: "Camjar Djoweini"
+  slug: "camjardjoweini"
+  headline: "Business Development Manager"
+  bio: "With a passion for seamlessly merging IT expertise and business acumen, I hold double masters degrees in Computer Science and Industrial Management/Economics. Over the past 7 years, I've established a solid track record of driving outstanding sales performance across diverse industries, including HR services, IT-sector, SAAS, MSP, Cloud, and IT and Management consulting."
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/camjardjoweini/"
+
+- name: "Adilet Abylov"
+  slug: "adiletabylov"
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/adilet-abylov-a550444/"
+
+- name: "Piotr Nosek"
+  slug: "piotrnosek"
+  headline: "Software Architect"
+  bio: |
+    Erlang has been Piotr's the first and only love in the professional life for 9 years already. While not implementing new software for Santa's factory, he usually helps in building various chat systems.
+
+    His specialisations are XMPP and mobile communication and he is an experienced member of MongooseIM server team. He enjoys daily standup candies, looting legendary weapons and annoying peer developers with code reviews.
+  city: Lidzbark
+  country_code: PL
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/piotr-nosek-pl/"
+    - platform: github
+      url: "https://github.com/fenek"
+
+- name: "Raúl Chouza"
+  slug: "raulchouza"
+  headline: "Elixir Developer at Erlang Solutions"
+  bio: |
+    While at a desk Raúl spends time learning about the BEAM and its ecosystem; he enjoys learning about the nuances of programming and would like programs to tell you more, especially when they go wrong.
+
+    Otherwise, he's a recent dad; enjoys solo videogames and exploring boardgame simulations; loves trying out traditional food and having friends over dinner. Operates from Tijuana, México where he was born and lives.
+  city: Tijuana
+  country_code: MX
+  social_links:
+    - platform: twitter
+      url: "https://x.com/chouzaraul"
+    - platform: mastodon
+      url: "https://wandering.shop/@chouzar/"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/raulhumberto/"
+
+- name: "Robert Fiko"
+  slug: "robertfiko"
+  headline: "Erlang & Elixir Developer"
+  bio: "I have been always curious for tech, I have been programming, since Elementary School. I started my studies at Eötvös Lóránd University in Computer Science (BSc). As a programmer student, my main values are curiosity, eagerness to learn, and good problem-solving."
+  city: Budapest
+  country_code: HU
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/robert-fiko/"
+
+- name: "Mohamed Ali Khechine"
+  slug: "mohamedalikhechine"
+  headline: "Software Developer at Erlang Solutions"
+  bio: |
+    I work at the intersection of Erlang/Elixir engineering, security, and production monitoring.
+
+    My work focuses on: vulnerability analysis for Erlang/Elixir, helping teams monitor, trace, and understand production behavior so issues are caught early and fixed fast, and turning security findings into actionable fixes.
+  city: Budapest
+  country_code: HU
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/mohamed-ali-khechine-29566078/"
+
+- name: "Bartek Górny"
+  slug: "bartekgorny"
+  headline: "Developer at Erlang Solutions"
+  bio: "A skilled programmer with good interpersonal skills and a wide scope of experience in various fields. Enjoys writing good code and making it work for people. Open-minded and Open Source oriented."
+  city: Warsaw
+  country_code: PL
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/bartlomiejgorny/"

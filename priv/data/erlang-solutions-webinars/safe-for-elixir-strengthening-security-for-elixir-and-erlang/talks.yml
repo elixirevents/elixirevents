@@ -1,0 +1,15 @@
+- title: "SAFE for Elixir: Strengthening Security for Elixir and Erlang"
+  slug: "safe-for-elixir-strengthening-security-for-elixir-and-erlang"
+  kind: talk
+  language: en
+  abstract: |
+    Security in software development is more critical than ever. In this session, Robert Fiko and Mohamed (Dali) Ali Khechine introduce SAFE for Elixir, a security audit developed with ELTE-Soft and Eötvös Loránd University researchers. SAFE helps businesses identify and address vulnerabilities in their code. The team will break down common security risks, show how SAFE works, and explain why integrating it into your CI/CD pipeline can make your life easier while keeping your applications secure.
+  speakers:
+    - robertfiko
+    - mohamedalikhechine
+  topics:
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "nZopTSIwpyM"
+      url: "https://www.youtube.com/watch?v=nZopTSIwpyM"

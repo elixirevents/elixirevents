@@ -15,19 +15,25 @@ defmodule ElixirEvents.DataValidator do
   - Sponsor slug references resolve to organizations.yml
   """
 
+  alias ElixirEvents.Embeds.SocialLink
+  alias ElixirEvents.Events.{Event, EventSeries}
   alias ElixirEvents.Slug
+  alias ElixirEvents.Sponsorship.Sponsor
+  alias ElixirEvents.Submissions.CFP
+  alias ElixirEvents.Talks.{Recording, Talk}
 
-  # Enum values must match the Ecto schema definitions
-  @event_kinds ~w(conference meetup retreat hackathon summit workshop)
-  @event_statuses ~w(announced confirmed ongoing cancelled completed)
-  @event_formats ~w(in_person online hybrid)
+  # All enum values derived from Ecto schemas — single source of truth
+  @event_kinds Enum.map(Event.kinds(), &to_string/1)
+  @event_statuses Enum.map(Event.statuses(), &to_string/1)
+  @event_formats Enum.map(Event.formats(), &to_string/1)
   @series_kinds @event_kinds
-  @series_frequencies ~w(yearly monthly quarterly biannual irregular once)
-  @talk_kinds ~w(keynote talk workshop panel lightning_talk)
-  @talk_levels ~w(beginner intermediate advanced)
-  @social_platforms ~w(website twitter mastodon bluesky github linkedin instagram youtube meetup)
-  @recording_providers ~w(youtube vimeo other)
-  @sponsor_badges ~w(keynote wifi coffee lanyard party)
+  @series_frequencies Enum.map(EventSeries.frequencies(), &to_string/1)
+  @talk_kinds Enum.map(Talk.kinds(), &to_string/1)
+  @talk_levels Enum.map(Talk.levels(), &to_string/1)
+  @social_platforms Enum.map(SocialLink.platforms(), &to_string/1)
+  @recording_providers Enum.map(Recording.providers(), &to_string/1)
+  @sponsor_badges Enum.map(Sponsor.badges(), &to_string/1)
+  @cfp_kinds Enum.map(CFP.kinds(), &to_string/1)
 
   # Allowed keys per file type (schema definitions)
   @speaker_keys ~w(name slug headline bio city country_code website social_links)
@@ -42,7 +48,6 @@ defmodule ElixirEvents.DataValidator do
   @sponsor_tier_keys ~w(name level description sponsors)
   @sponsor_keys ~w(slug badge)
   @cfp_keys ~w(name url open_date close_date description kind)
-  @cfp_kinds ~w(talks training)
   @workshop_keys ~w(title slug description format experience_level target_audience language start_date end_date venue_slug booking_url attendees_only trainers topics agenda)
   @workshop_agenda_keys ~w(day title start_time end_time items)
   @role_keys ~w(name members)

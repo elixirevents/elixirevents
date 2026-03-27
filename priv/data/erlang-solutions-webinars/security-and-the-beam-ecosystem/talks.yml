@@ -1,0 +1,15 @@
+- title: "Security and the BEAM Ecosystem"
+  slug: "security-and-the-beam-ecosystem"
+  kind: talk
+  language: en
+  abstract: |
+    Welcome to the second and final part of our conversation with Jonatan Männchen. In part one (SAFE and OIDC), he shared his experience using Erlang Solutions' Security Audit for Erlang and Elixir (SAFE) to review an OpenID Connect (OIDC) client library for the BEAM ecosystem. This time, the focus turns to the practical security challenges developers face when working with BEAM-based languages. Jonatan explains how the Erlang Ecosystem Foundation became a CVE Numbering Authority (CNA), what that means for package maintainers, and how the process of reporting and tracking vulnerabilities is being made more practical and useful.
+  speakers:
+    - jonatanmannchen
+    - mohamedalikhechine
+  topics:
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "dTwuk1qEIVE"
+      url: "https://www.youtube.com/watch?v=dTwuk1qEIVE"
