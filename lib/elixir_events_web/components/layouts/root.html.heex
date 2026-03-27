@@ -36,9 +36,9 @@
       {assigns[:page_title]}
     </.live_title>
     <%!-- JSON-LD structured data --%>
-    <script :if={assigns[:jsonld]} type="application/ld+json">
-      {raw(JSON.encode!(assigns[:jsonld]))}
-    </script>
+    <%= if assigns[:jsonld] do %>
+      <ElixirEventsWeb.SEO.jsonld_script data={assigns[:jsonld]} />
+    <% end %>
     <link phx-track-static rel="stylesheet" href={~p"/assets/css/app.css"} />
     <script defer phx-track-static type="text/javascript" src={~p"/assets/js/app.js"}>
     </script>
