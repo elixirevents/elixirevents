@@ -14,6 +14,17 @@ defmodule ElixirEvents.Workshops do
     |> Repo.all()
   end
 
+  def list_workshops_for_profile(profile_id, opts \\ []) do
+    from(w in Workshop,
+      join: wt in assoc(w, :workshop_trainers),
+      join: e in assoc(w, :event),
+      where: wt.profile_id == ^profile_id,
+      order_by: [desc: w.start_date]
+    )
+    |> maybe_preload(opts[:preload])
+    |> Repo.all()
+  end
+
   def get_workshop_by_event_and_slug(event_slug, workshop_slug, opts \\ []) do
     from(w in Workshop,
       join: e in assoc(w, :event),

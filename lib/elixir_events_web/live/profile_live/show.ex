@@ -1,7 +1,7 @@
 defmodule ElixirEventsWeb.ProfileLive.Show do
   use ElixirEventsWeb, :live_view
 
-  alias ElixirEvents.{Claims, Profiles, Talks}
+  alias ElixirEvents.{Claims, Profiles, Talks, Workshops}
 
   @impl true
   def mount(_params, _session, socket) do
@@ -23,6 +23,11 @@ defmodule ElixirEventsWeb.ProfileLive.Show do
             preload: [:event, :recordings, talk_speakers: :profile]
           )
 
+        workshops =
+          Workshops.list_workshops_for_profile(profile.id,
+            preload: [:event, workshop_trainers: :profile]
+          )
+
         current_user = get_current_user(socket)
         claim_state = get_claim_state(current_user, profile)
 
@@ -31,6 +36,7 @@ defmodule ElixirEventsWeb.ProfileLive.Show do
          |> assign(:page_title, profile.name)
          |> assign(:profile, profile)
          |> assign(:talks, talks)
+         |> assign(:workshops, workshops)
          |> assign(:claim_state, claim_state)}
     end
   end
