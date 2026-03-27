@@ -3,9 +3,20 @@ defmodule ElixirEventsWeb.EventLive.Show do
 
   alias ElixirEvents.{Events, Program, Sponsorship, Talks}
 
+  @compact_kinds [:meetup, :workshop]
+
   @impl true
   def mount(_params, _session, socket) do
     {:ok, socket}
+  end
+
+  @impl true
+  def render(assigns) do
+    if assigns.compact do
+      ElixirEventsWeb.EventLive.ShowCompact.render(assigns)
+    else
+      ElixirEventsWeb.EventLive.ShowConference.render(assigns)
+    end
   end
 
   @impl true
@@ -48,8 +59,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
           end)
           |> Enum.uniq_by(& &1.id)
 
-        # Meetups and workshops get a simpler layout — no section nav, all talks inline
-        compact? = event.kind in [:meetup, :workshop]
+        compact? = event.kind in @compact_kinds
 
         sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers, compact?)
 
