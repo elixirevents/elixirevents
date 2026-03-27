@@ -1,0 +1,129 @@
+- title: "OTP Training for Erlang Programmers"
+  slug: "otp-training-for-erlang-programmers"
+  experience_level: "Intermediate users of Erlang"
+  language: en
+  start_date: "2026-05-19"
+  end_date: "2026-05-21"
+  venue_slug: ioffice-drottninggatan
+  description: |
+    Learn how to scale your Erlang to billions. OTP is the middleware, libraries and tools used to design and architect Erlang systems. The training covers the main principles, including process design patterns, supervisors, applications and release handling. It will give you the ability to develop and architect an Erlang systems.
+
+    **Format:** 3 days in-person training
+
+    **Objectives:**
+
+    - Gain an in-depth understanding of scaling Erlang systems to handle large-scale applications and data volumes effectively
+    - Master the concepts of OTP as the middleware, libraries, and tools used for designing and architecting Erlang systems
+    - Develop proficiency in implementing process design patterns to design fault-tolerant and resilient Erlang systems
+    - Acquire skills in designing and structuring Erlang applications using OTP applications for better organization and maintainability
+    - Develop the ability to architect Erlang systems that are scalable, fault-tolerant, and well-structured, capable of handling billions of transactions
+  target_audience: "Ideally, you already know about Erlang Term Storage, concurrent Erlang, error handling and maps and records."
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+  agenda:
+    - day: 1
+      title: "Introduction & Behaviours"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Introduction"
+        - "Behaviours"
+        - "Generic Servers"
+    - day: 2
+      title: "State Machines & Supervisors"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "State Machines"
+        - "Supervisors"
+        - "Event Handlers"
+    - day: 3
+      title: "Applications & Architecture"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Applications"
+        - "System Architecture Support Libraries"
+        - "System Principles"
+
+- title: "Secure Coding in BEAM"
+  slug: "secure-coding-in-beam"
+  experience_level: "Intermediate Erlang & Elixir Developers"
+  language: en
+  start_date: "2026-05-22"
+  end_date: "2026-05-22"
+  venue_slug: ioffice-drottninggatan
+  description: |
+    Are your Erlang and Elixir applications as secure as they could be? Dive into the world of secure coding on BEAM with Erlang's co-creator Robert Virding to fortify your understanding of the BEAM platform's vulnerabilities, attacks, and defences. This one-day tutorial is tailored for intermediate Erlang/Elixir developers, testers, and DevOps professionals who want to enhance their skill set and bolster the security of their projects. Discover best practices, uncover potential pitfalls, and master techniques to safeguard your applications from harm.
+
+    **Format:** 1 day in-person training
+
+    **During this training session you will learn:**
+
+    - About secure coding recommendations for programmers on the BEAM virtual machine
+    - How to reduce vulnerabilities in projects and choose robust alternatives to dangerous functions
+    - How to reduce the attack surface of a production environment
+
+    **Prerequisites:** Basic Elixir and Erlang syntax and concepts. Basic familiarity with the BEAM.
+  target_audience: "Intermediate Erlang/Elixir developers, testers and devops working with BEAM projects."
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - elixir
+    - security
+  agenda:
+    - day: 1
+      title: "Secure Coding"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Secure coding recommendations for BEAM"
+        - "Reducing vulnerabilities and choosing robust alternatives"
+        - "Reducing the attack surface of production environments"
+
+- title: "Advanced Architecture with Residuality"
+  slug: "advanced-architecture-with-residuality"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-05-19"
+  end_date: "2026-05-20"
+  venue_slug: ioffice-kungsgatan
+  attendees_only: true
+  description: |
+    Residuality theory is a revolutionary new theory of software design that aims to make it easier to design software systems for complex business environments. Residuality theory models software systems as interconnected residues — an alternative to component and process modeling that uses applied complexity science to make managing uncertainty a fundamental part of the design process.
+
+    **Format:** 2 days in-person training
+
+    This workshop teaches advanced, cutting edge techniques based on ongoing research that are designed to identify and decrease risk, improve confidence in decision making and protect your architecture when the domain is characterized by uncertainty.
+
+    The workshop introduces ideas on the philosophy of architecture, forcing participants to think outside of the technology and relate decision making to markets, culture, economic and societal concerns. It teaches practical techniques in stressor analysis and the use of matrices to make component decisions and gives participants the chance to work with these techniques in labs and groups.
+
+    This workshop is suitable for senior developers who want a head start into the world of architecture, for teams embarking on large, risk filled projects, and for seasoned architects seeking new techniques.
+  target_audience: "Senior developers, teams embarking on large projects, and seasoned architects seeking new techniques. This course is reserved exclusively for conference attendees."
+  trainers:
+    - barryoreilly
+  topics:
+    - engineering
+  agenda:
+    - day: 1
+      title: "Foundations"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Concrete Complexity for Software Engineering"
+        - "Residuality Theory"
+        - "Modelling stress"
+        - "Defining residues"
+    - day: 2
+      title: "Practical Architecture"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Producing a real world architecture"
+        - "Contagion analysis and component decisions"
+        - "Incidence matrix techniques"
+        - "Testing the architecture"

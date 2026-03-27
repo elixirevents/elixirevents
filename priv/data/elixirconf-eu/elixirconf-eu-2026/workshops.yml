@@ -1,0 +1,221 @@
+- title: "Advanced Concurrency Patterns in Elixir"
+  slug: "workshop-advanced-concurrency-patterns"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-04-22"
+  end_date: "2026-04-22"
+  venue_slug: nh-malaga
+  description: |
+    Elixir's concurrency story doesn't stop at GenServer. In this tutorial, we'll explore advanced concurrency patterns and building blocks that help you design systems that scale, stay responsive under load, and shut down gracefully.
+
+    We'll look at tools such as PartitionSupervisor and Registry for structuring and locating processes, and discuss when and how to use lower-level primitives like atomics, counters, and persistent_term to optimize performance. We'll also dive into process pooling strategies, gen_statem for modeling complex workflows, and techniques for designing advanced supervision trees.
+
+    Finally, we'll cover graceful shutdown and lifecycle management — how to make sure your concurrent systems behave predictably not only when things go right, but also when they don't.
+
+    This is an intermediate-level tutorial for developers who are already comfortable with Elixir's basics and want to go beyond "easy" process/message passing — focusing instead on the kinds of concurrency patterns that draw many people to Elixir in the first place.
+  target_audience: "Elixir developers comfortable with basics who want to go beyond GenServer."
+  trainers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - otp
+    - concurrency
+  agenda:
+    - day: 1
+      title: "Advanced Concurrency"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "PartitionSupervisor and Registry"
+        - "Atomics, counters, and persistent_term"
+        - "Process pooling strategies"
+        - "gen_statem for complex workflows"
+        - "Advanced supervision trees"
+        - "Graceful shutdown and lifecycle management"
+
+- title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
+  slug: "workshop-beyond-vibe-coding"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-04-22"
+  end_date: "2026-04-22"
+  venue_slug: nh-malaga
+  description: |
+    Stop writing monolithic prompts and hoping for the best. This full-day training teaches systematic layering for AI-assisted development: decomposing complex interactions into skills (reusable capabilities), agents (specialized roles), tasks (sequential workflows), and processes (orchestrated systems). Drawing from Elixir's compositional patterns, you'll learn to engineer predictable AI workflows instead of crossing your fingers.
+
+    You'll discover how to get rapid feedback at each layer rather than waiting until the end, and how to anchor long-running workflows in markdown documents and code comments that persist context across sessions. Through hands-on exercises building Phoenix applications, you'll transform sprawling prompts into debuggable architectures where each piece can be understood, tested, and iterated independently.
+
+    Leave with practical patterns for reliable AI-assisted development that feel as solid as the OTP patterns you already trust.
+
+    **What You'll Build:**
+
+    - Layered prompt architecture for Phoenix applications
+    - Specialized agents for development phases
+    - Reusable skills library
+    - Workflows with feedback checkpoints
+    - Markdown and code-based workflow anchors
+
+    **What You'll Learn:**
+
+    - Decomposing prompts into testable layers with fast feedback
+    - When to create skills vs. agents vs. tasks
+    - Using artifacts to anchor workflow state
+    - Debugging by isolating layers
+  target_audience: "Elixir developers seeking systematic AI-assisted development approaches. Applicable whether using Claude Code, Cursor, or building custom AI integrations."
+  trainers:
+    - brucetate
+  topics:
+    - elixir
+  agenda:
+    - day: 1
+      title: "Layered AI Development"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Decomposing prompts into testable layers"
+        - "Building specialized agents for development phases"
+        - "Creating a reusable skills library"
+        - "Workflows with feedback checkpoints"
+        - "Markdown and code-based workflow anchors"
+
+- title: "Building and Evaluating RAG Systems"
+  slug: "workshop-building-and-evaluating-rag-systems"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-04-22"
+  end_date: "2026-04-22"
+  venue_slug: nh-malaga
+  description: |
+    Retrieval Augmented Generation (RAG) systems are arguably the simplest and most powerful tool in agent-based AI. Although widely used in production, their performance in terms of relevance, groundedness, and truthfulness is rarely assessed once in use.
+
+    In this workshop, you will learn a set of practical evaluation techniques for RAG systems, ranging from baseline offline metrics to reference-free evaluation for cases where 'the truth' is not known in advance, and finally production monitoring and A/B testing.
+
+    We will start with a simple RAG system and evaluate it using methods such as Haystack, covering toolsets such as RAGAS and concepts such as the RAG Triad.
+
+    We will then progress to evaluating with synthetic datasets. You will learn how to generate synthetic question/answer sets using LLM calls, and how to evaluate them with the help of rankers, as well as how to evaluate different embedding models and set cut-off parameters.
+
+    Next, we will evaluate the generation part of RAG. You will learn how to set up and use LLM judge methods.
+
+    Finally, we will explore data structures that enable the constant monitoring and A/B testing of production systems.
+
+    **Learning outcomes:** By the end, you will be able to:
+
+    - Diagnose RAG performance in terms of relevance, groundedness and truthfulness
+    - Build an evaluation harness for a simple RAG pipeline
+    - Use common toolkits (e.g. Haystack, RAGAS) and concepts (e.g. the RAG triad) to measure and debug failures
+    - Create and evaluate synthetic datasets when labelled data is scarce
+    - Compare embedding models, tune retrieval cutoffs and evaluate ranking choices
+    - Evaluate the generation step using LLM-as-judge methods
+    - Design data structures and workflows for continuous monitoring, regression testing and A/B experimentation in production
+
+    **Prerequisites:** A linux or mac laptop with Elixir and Postgres installed.
+  target_audience: "Developers interested in building and evaluating RAG systems in Elixir."
+  trainers:
+    - chrisbeck
+  topics:
+    - elixir
+  agenda:
+    - day: 1
+      title: "RAG Evaluation"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Introduction to RAG"
+        - "Simple RAG evaluation techniques"
+        - "Synthetic dataset creation and evaluation"
+        - "How to set up LLM-as-a-judge"
+        - "Constant evaluation of RAG systems in production"
+
+- title: "The BEAM for Developers"
+  slug: "workshop-the-beam-for-developers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2026-04-22"
+  end_date: "2026-04-22"
+  venue_slug: nh-malaga
+  description: |
+    This is a full-day, hands-on introduction to the Erlang Runtime System and the BEAM virtual machine. The course focuses on how the runtime works in practice: processes, message passing, memory management, garbage collection, and scheduling. These mechanisms determine how BEAM systems behave under load, during failures, and over long runtimes.
+
+    The goal is to give you a correct mental model of the VM so you can reason about performance, reliability, and system behavior without guesswork.
+
+    **What we cover:**
+
+    - **Thinking in Processes** — How to structure systems as many small, isolated processes that communicate through messages. We use the Gnome Village model to reason about responsibilities, failure isolation, and supervision.
+    - **Data Types and Messaging** — How data is represented in the BEAM. How process heaps work. What actually happens when messages are sent between processes, including copying, binaries, and references.
+    - **Memory and Garbage Collection** — Per-process heaps, generational garbage collection, binary handling, and common sources of memory growth. How to spot and avoid long-term memory problems.
+    - **Scheduling and Concurrency** — Reductions, run queues, and SMP schedulers. How the BEAM balances throughput and latency, and why some workloads behave predictably while others do not.
+    - **Debugging and Observability** — How to inspect live systems using built-in tools. We work with tracing, profiling, and runtime inspection using tools such as Observer and Recon.
+    - **Patterns and Anti-Patterns** — Designs that cause problems in real systems: overloaded mailboxes, large binaries in messages, centralized processes, and hidden bottlenecks.
+
+    **Format:** The day alternates between short theory sections and practical exercises.
+
+    **Requirements:** Laptop with the BEAM and your preferred language installed.
+  target_audience: "Developers working with Elixir, Erlang, Gleam, or other BEAM languages who are comfortable writing basic BEAM code and using OTP. No prior knowledge of runtime internals is required."
+  trainers:
+    - erikstenman
+  topics:
+    - erlang
+    - otp
+  agenda:
+    - day: 1
+      title: "BEAM Internals"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "Thinking in Processes"
+        - "Data Types and Messaging"
+        - "Memory and Garbage Collection"
+        - "Scheduling and Concurrency"
+        - "Debugging and Observability"
+        - "Patterns and Anti-Patterns"
+
+- title: "Building LLM-Powered Applications"
+  slug: "workshop-building-llm-powered-applications"
+  experience_level: "Beginners and Intermediate"
+  language: en
+  start_date: "2026-04-22"
+  end_date: "2026-04-22"
+  venue_slug: nh-malaga
+  description: |
+    Learn both applied and theoretical knowledge on working with LLMs. In this training session we will build an end-to-end application powered by LLMs. We will start with a simple interface to accept user prompts and then we will equip it with various abilities such as: interaction with our running application, extraction of free-form text into data structures, recognizing user intent, and finally a research agent that will help us make informed decisions. This will be done in three sessions each starting with a brief theoretical introduction and then a deep dive to build desired features.
+
+    **Theory:**
+
+    - What are LLMs and how do they work
+    - Embeddings and semantic token representations
+    - Tools and MCPs
+    - Context & Prompt Engineering
+    - LLM Agents
+    - The core building blocks of Agentic Applications
+    - Evaluation and why it is essential for scaling LLM powered apps
+
+    **Practice:**
+
+    - Basic chat interface with streaming
+    - Receiving user commands
+    - Adding our first tool to the LLM
+    - Recognizing user intent to make informed decisions
+    - Allowing our LLM agent to interact with our application
+    - Extracting data from free-form text or websites
+    - Creating a research agent
+    - Basic evaluation system for our data extraction workflow and research agent
+
+    **Prerequisites:** A laptop with Elixir and Postgres. Basic knowledge of Elixir/Phoenix is a plus.
+  target_audience: "Beginners and intermediate Elixir developers interested in LLM-powered applications."
+  trainers:
+    - vasilisspilka
+  topics:
+    - elixir
+    - phoenix
+  agenda:
+    - day: 1
+      title: "LLM-Powered Applications"
+      start_time: "09:00"
+      end_time: "17:00"
+      items:
+        - "LLM theory and embeddings"
+        - "Basic chat interface with streaming"
+        - "Adding tools and MCPs"
+        - "User intent recognition"
+        - "Building a research agent"
+        - "Evaluation system"

@@ -44,3 +44,145 @@
     - kristoffergronlund
   topics:
     - gleam
+
+- title: "Web Apps in Erlang Are Actually Simple"
+  slug: "web-apps-in-erlang-are-actually-simple"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    Erlang is known for telecom systems, distributed databases, and extreme fault tolerance.
+
+    But simple web apps? Not really. In this talk, we challenge the idea that building web applications in Erlang is complicated or overly academic. Using Nova, we’ll show how straightforward it can be to build a modern web app — with routing, templates, and JSON APIs — without fighting the framework or drowning in OTP abstractions.
+
+    Then we’ll look at what makes Erlang fundamentally different from most web platforms: every request runs in its own lightweight process. Crashes are isolated. Concurrency is the default. Fault tolerance isn’t bolted on — it’s the foundation.
+
+    Just processes, isolation, and supervision. If you’ve ever felt that web development on the BEAM is “too much OTP” or too heavy for everyday applications, this talk aims to change your perspective. Web apps in Erlang are not only possible. They’re actually simple.
+  speakers:
+    - danielwidgren
+    - niclasaxelsson
+  topics:
+    - erlang
+
+- title: "Bridging the Gap between Frontend and Backend with Gleam & Lustre"
+  slug: "bridging-the-gap-between-frontend-and-backend-with-gleam-lustre"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    Many technologies and frameworks aim to simplify the interaction between frontend and backend, as well as offering one language targeting both.
+
+    Lustre, a web framework for Gleam, does not just offer this as one of it’s features, but is instead built around this as a principle.
+
+    With Lustre’s server side components, the gap between the ECMAScript world in the browser and the backend in BEAM is bridged in the most elegant way.
+
+    In this session we will go through the simple process of setting up server components and see them in action.
+  speakers:
+    - steinareliassen
+  topics:
+    - gleam
+
+- title: "Break It Yourself"
+  slug: "break-it-yourself"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    Security has become increasingly important and more in focus than ever. We have been following the development in in the industry and governments across the world. And we strive to be proactive not only by adopting the latest and greatest security algorithms, providing SBOM’s and running standardized commercial tools (that will focus not only on relevant issues), we leverage property based testing to find the bugs that Erlang programmers are more likely to suffer from, and fix them early avoiding as many future vulnerabilities as possible.
+  speakers:
+    - hanssvensson
+    - ingelaandin
+  topics:
+    - erlang
+    - security
+
+- title: "From STAC APIs to Interactive Maps: Building a Sustainable Geospatial Stack with Elixir"
+  slug: "from-stac-apis-to-interactive-maps"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "In geoinformatics, the standard toolkit leans heavily on Python. But for building scalable and maintainable web apps and services for environmental data we desired a better mix of productivity and reliability. At our lab in Tartu, we have embraced Elixir and Phoenix to build the core infrastructure for our geospatial data cataloguing and mapping needs. Our current work centres on a datacube portal and a STAC API implementation designed to provide seamless access to many large spatial datasets. By leveraging Phoenix LiveView and MapLibre, we have built an interactive map visualisation platform that reduces the complexity of front-end and backend for our small dev team. As we started to feel more comfortable with Elixir, we also started with orchestration, managing hundreds of map layers through established software GeoServer via our open-source geoserver_config_ex library. We also elaborate on our choice and path towards Elixir for our generally Python-dominated domain."
+  speakers:
+    - alexkmoch
+  topics:
+    - geospatial
+    - liveview
+    - elixir
+
+- title: "Native Records"
+  slug: "native-records"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    Traditional Erlang records are a compile-time convenience; at runtime they are just tuples.
+
+    Erlang/OTP 29 introduces native records, a new data type distinct from tuples and maps. In this talk, we’ll walk through the motivation behind native records, the design constraints, and practical trade-offs. We’ll look at the performance characteristics of the current implementation and how we plan to improve it in OTP 30 and beyond.
+  speakers:
+    - bjorngustavsson
+  topics:
+    - erlang
+    - otp
+
+- title: "Bake Once, Start Fast: Instant-Launch Erlang Executables"
+  slug: "bake-once-start-fast-instant-launch-erlang-executables"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "Single-file executables are great, but cold start is still dominated by ERTS loading and transforming many .beam modules, and sometimes running the JIT. Fine for servers, painful for command line tools that start often. This talk presents a packaging approach that bakes modules into their runnable in-memory form so startup can skip most loader work. We compare two paths: statically linked, relocation-patched module images, and a minimal allocator that undumps only what the Erlang runtime needs. Atom handling is part of it, but so are relocations, literals, exports, and validation. Targeting Erlang means every language in the ecosystem benefits, and leaves a path to embedded use later."
+  speakers:
+    - peerstritzinger
+  topics:
+    - erlang
+    - embedded
+
+- title: "A safer Elixir"
+  slug: "a-safer-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: "I’m going to present findings from four months of performance optimisations where our team was tasked with creating a transaction service that can handle 40_000 transactions per second on a single node. I’ll present our team’s process and the insights we gained along the way. Much of the performance came from general DB optimisations (Postgres), but I’ll focus on simulating traffic and on critical characteristics of standard library functions. Before achieving the desired performance on the transaction server it was necessary to simulate an appropriate amount of traffic with a distribution similar to our current one."
+  speakers:
+    - davidklemenc
+  topics:
+    - elixir
+    - concurrency
+
+- title: "AI-Assisted Development of a High-Performance Market Data Platform on the BEAM"
+  slug: "ai-assisted-development-of-a-high-performance-market-data-platform"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "EXANTE is a global fintech brokerage that provides access to thousands of financial instruments worldwide through a single, unified platform — including stocks, ETFs, bonds, futures, options, and currencies. This talk explores the practical use of AI-assisted code generation tools and analysis in the development of TickDB, a high-performance system for real-time storage and processing of market data, one of Exante services. TickDB ingests, aggregates, and serves tick-level data including quotes, trades, bonds, options, and fundamental indicators, with support for time-based aggregations from minutes to days. We will share how AI tools are applied to generate production-ready code, analyze complex Erlang codebases, and automatically create internal common test suites, improving development speed, code quality, and long-term maintainability in a distributed, data-intensive system built on RocksDB."
+  speakers:
+    - alinapopova
+  topics:
+    - ai
+    - erlang
+
+- title: "Using OTP in Your Phoenix App"
+  slug: "using-otp-in-your-phoenix-app"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    My talk is a case study of a refactor that improved memory usage, performance, and reliability in a large Phoenix app. I think this makes for an interesting talk because we got to apply OTP patterns inside a Phoenix application in a very practical, real-world way.
+
+    Most of the codebase is a long, complex pipeline for a single API. As traffic and data grew, we hit memory issues: usage scaled poorly with load, and small increases in work caused big jumps in RAM. Our large cache lived in ETS, and for every API call we loaded this cache and did additional processing. We also used Tasks to parallelise work, which added more duplication and made memory behaviour harder to predict.
+
+    Our solution was to encapsulate large, long-lived state inside GenServers and have callers send compute requests to those processes. This change improved memory behaviour, reduced latency in our hot path, and stabilised the service in production.
+  speakers:
+    - prithvivirupaksha
+  topics:
+    - elixir
+    - phoenix
+    - otp
