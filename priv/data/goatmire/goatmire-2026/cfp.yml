@@ -1,0 +1,13 @@
+- name: "Call for Speakers"
+  kind: talks
+  url: "https://sessionize.com/goatmire-elixir-2026"
+  open_date: "2026-02-13"
+  close_date: "2026-04-12"
+  description: |
+    Themes for this conference are depths, distortions and delights. Interpret widely.
+
+    For Goatmire Elixir the topics can be anything related to Elixir. For NervesConf EU the topics should be related to Nerves or embedded Elixir.
+
+    Teach something, tell a story, blow some minds or show your work. Go deeper and more focused rather than giving an overview. The venue provides undivided attention.
+
+    Whether you are a seasoned speaker or a newbie, we want your specific submission. Contact lars@goatmire.com with any questions.

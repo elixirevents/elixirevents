@@ -1,5 +1,6 @@
 name: "ElixirConf US 2026"
 slug: "elixirconf-us-2026"
+venue_slug: "voco-chicago"
 kind: conference
 status: confirmed
 format: hybrid
@@ -10,4 +11,11 @@ language: en
 location: "Chicago, IL, USA"
 website: "https://elixirconf.com"
 color: "#6B46C1"
-description: "America's premier Elixir & Phoenix conference. 30+ sessions covering production war stories, LiveView, security, performance, AI, and more."
+description: |
+  America's Premier Elixir & Phoenix Conference.
+
+  From beginners to experts, attendees benefit from hands-on training and thought-provoking keynotes. The community comes together to help shape Elixir's future, championing the growth and innovation of the Elixir ecosystem.
+
+  The conference features 30+ sessions covering production war stories and scaling challenges, advanced LiveView and Phoenix techniques, security, performance, and monitoring, AI agents and machine learning, and the latest in Elixir tooling and developer experience.
+
+  Whether participants are building their first Phoenix app or running Elixir at scale, they can find sessions that level up their game.

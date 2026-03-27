@@ -517,4 +517,196 @@ defmodule ElixirEvents.DataValidatorTest do
       assert Enum.any?(messages, &String.contains?(&1, "'duration' must be an integer"))
     end
   end
+
+  describe "workshops.yml validation" do
+    test "passes with valid workshops", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+
+      series_dir = Path.join(dir, "conf/conf-2026")
+      File.mkdir_p!(series_dir)
+
+      write_yaml(dir, "conf/series.yml", ~S"""
+      name: "Conf"
+      slug: "conf"
+      kind: conference
+      """)
+
+      write_yaml(dir, "conf/conf-2026/event.yml", ~S"""
+      name: "Conf 2026"
+      slug: "conf-2026"
+      kind: conference
+      status: confirmed
+      format: in_person
+      start_date: "2026-05-18"
+      end_date: "2026-05-20"
+      timezone: "Europe/Stockholm"
+      """)
+
+      write_yaml(dir, "conf/conf-2026/workshops.yml", ~S"""
+      - title: "Test Workshop"
+        slug: "test-workshop"
+        start_date: "2026-05-22"
+        end_date: "2026-05-22"
+        experience_level: "Intermediate"
+        trainers:
+          - josevalim
+        topics:
+          - elixir
+        agenda:
+          - day: 1
+            title: "Day One"
+            start_time: "09:00"
+            end_time: "17:00"
+            items:
+              - "Topic A"
+      """)
+
+      assert {:ok, _} = DataValidator.validate(dir)
+    end
+
+    test "detects missing required fields in workshops", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+
+      series_dir = Path.join(dir, "conf/conf-2026")
+      File.mkdir_p!(series_dir)
+
+      write_yaml(dir, "conf/series.yml", ~S"""
+      name: "Conf"
+      slug: "conf"
+      kind: conference
+      """)
+
+      write_yaml(dir, "conf/conf-2026/event.yml", ~S"""
+      name: "Conf 2026"
+      slug: "conf-2026"
+      kind: conference
+      status: confirmed
+      format: in_person
+      start_date: "2026-05-18"
+      end_date: "2026-05-20"
+      timezone: "Europe/Stockholm"
+      """)
+
+      write_yaml(dir, "conf/conf-2026/workshops.yml", ~S"""
+      - description: "Missing required fields"
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert "missing required field 'title'" in messages
+      assert "missing required field 'slug'" in messages
+      assert "missing required field 'start_date'" in messages
+      assert "missing required field 'end_date'" in messages
+    end
+
+    test "detects unknown keys in workshops", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+
+      series_dir = Path.join(dir, "conf/conf-2026")
+      File.mkdir_p!(series_dir)
+
+      write_yaml(dir, "conf/series.yml", ~S"""
+      name: "Conf"
+      slug: "conf"
+      kind: conference
+      """)
+
+      write_yaml(dir, "conf/conf-2026/event.yml", ~S"""
+      name: "Conf 2026"
+      slug: "conf-2026"
+      kind: conference
+      status: confirmed
+      format: in_person
+      start_date: "2026-05-18"
+      end_date: "2026-05-20"
+      timezone: "Europe/Stockholm"
+      """)
+
+      write_yaml(dir, "conf/conf-2026/workshops.yml", ~S"""
+      - title: "Test"
+        slug: "test"
+        start_date: "2026-05-22"
+        end_date: "2026-05-22"
+        bogus_field: "oops"
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "unknown key 'bogus_field'"))
+    end
+
+    test "detects invalid trainer references", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+
+      series_dir = Path.join(dir, "conf/conf-2026")
+      File.mkdir_p!(series_dir)
+
+      write_yaml(dir, "conf/series.yml", ~S"""
+      name: "Conf"
+      slug: "conf"
+      kind: conference
+      """)
+
+      write_yaml(dir, "conf/conf-2026/event.yml", ~S"""
+      name: "Conf 2026"
+      slug: "conf-2026"
+      kind: conference
+      status: confirmed
+      format: in_person
+      start_date: "2026-05-18"
+      end_date: "2026-05-20"
+      timezone: "Europe/Stockholm"
+      """)
+
+      write_yaml(dir, "conf/conf-2026/workshops.yml", ~S"""
+      - title: "Test"
+        slug: "test"
+        start_date: "2026-05-22"
+        end_date: "2026-05-22"
+        trainers:
+          - nonexistent-trainer
+      """)
+
+      assert {:error, errors} = DataValidator.validate(dir)
+      messages = Enum.map(errors, & &1.message)
+      assert Enum.any?(messages, &String.contains?(&1, "trainer 'nonexistent-trainer' not found"))
+    end
+  end
+
+  describe "cfp.yml kind validation" do
+    test "accepts valid kind values", %{tmp_dir: dir} do
+      setup_minimal_data(dir)
+
+      series_dir = Path.join(dir, "conf/conf-2026")
+      File.mkdir_p!(series_dir)
+
+      write_yaml(dir, "conf/series.yml", ~S"""
+      name: "Conf"
+      slug: "conf"
+      kind: conference
+      """)
+
+      write_yaml(dir, "conf/conf-2026/event.yml", ~S"""
+      name: "Conf 2026"
+      slug: "conf-2026"
+      kind: conference
+      status: confirmed
+      format: in_person
+      start_date: "2026-05-18"
+      end_date: "2026-05-20"
+      timezone: "Europe/Stockholm"
+      """)
+
+      write_yaml(dir, "conf/conf-2026/cfp.yml", ~S"""
+      - name: "Call for Talks"
+        kind: talks
+        url: "https://example.com/cfp"
+      - name: "Call for Training"
+        kind: training
+        url: "https://example.com/cft"
+      """)
+
+      assert {:ok, _} = DataValidator.validate(dir)
+    end
+  end
 end

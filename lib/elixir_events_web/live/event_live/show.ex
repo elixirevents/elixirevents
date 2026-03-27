@@ -1,7 +1,7 @@
 defmodule ElixirEventsWeb.EventLive.Show do
   use ElixirEventsWeb, :live_view
 
-  alias ElixirEvents.{Events, Program, Sponsorship, Talks}
+  alias ElixirEvents.{Events, Program, Sponsorship, Talks, Workshops}
   alias ElixirEventsWeb.EventLive.{ShowCompact, ShowConference}
 
   @compact_kinds [:meetup, :workshop]
@@ -39,6 +39,11 @@ defmodule ElixirEventsWeb.EventLive.Show do
           Talks.list_talks_for_event(event.id)
           |> ElixirEvents.Repo.preload([:event, :recordings, talk_speakers: :profile])
 
+        workshops =
+          Workshops.list_workshops_for_event(event.id,
+            preload: [:venue, workshop_trainers: :profile]
+          )
+
         sponsor_tiers = Sponsorship.list_sponsor_tiers(event.id)
 
         schedule_days =
@@ -62,7 +67,16 @@ defmodule ElixirEventsWeb.EventLive.Show do
 
         compact? = event.kind in @compact_kinds
 
-        sections = build_sections(event, talks, schedule_days, sponsor_tiers, speakers, compact?)
+        sections =
+          build_sections(
+            event,
+            talks,
+            workshops,
+            schedule_days,
+            sponsor_tiers,
+            speakers,
+            compact?
+          )
 
         selected_day =
           case schedule_days do
@@ -75,6 +89,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
            page_title: event.name,
            event: event,
            talks: talks,
+           workshops: workshops,
            sponsor_tiers: sponsor_tiers,
            schedule_days: schedule_days,
            tracks: tracks,
@@ -99,6 +114,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
   defp build_sections(
          _event,
          _talks,
+         _workshops,
          _schedule_days,
          _sponsor_tiers,
          _speakers,
@@ -106,10 +122,11 @@ defmodule ElixirEventsWeb.EventLive.Show do
        ),
        do: []
 
-  defp build_sections(event, talks, schedule_days, sponsor_tiers, speakers, _compact?) do
+  defp build_sections(event, talks, workshops, schedule_days, sponsor_tiers, speakers, _compact?) do
     []
     |> maybe_add(event.description, %{id: "about", label: "About"})
     |> maybe_add(speakers != [], %{id: "speakers", label: "Speakers", count: length(speakers)})
+    |> maybe_add(workshops != [], %{id: "workshops", label: "Workshops", count: length(workshops)})
     |> maybe_add(talks != [], %{id: "talks", label: "Talks", count: length(talks)})
     |> maybe_add(schedule_days != [], %{id: "schedule", label: "Schedule"})
     |> maybe_add(event.venue, %{id: "venue", label: "Venue"})

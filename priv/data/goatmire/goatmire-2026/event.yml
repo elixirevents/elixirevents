@@ -1,13 +1,20 @@
 name: "Goatmire Elixir & NervesConf EU 2026"
 slug: "goatmire-2026"
+venue_slug: "varbergs-teater"
 kind: conference
 status: confirmed
 format: in_person
-start_date: "2026-09-30"
+start_date: "2026-09-28"
 end_date: "2026-10-02"
 timezone: "Europe/Stockholm"
 language: en
 location: "Varberg, Sweden"
 website: "https://goatmire.com"
+tickets_url: "https://ti.to/goatmire/elixir-2026"
 color: "#48BB78"
-description: "A gathering emphasizing the people, the intent, and the willingness to engage. Day 1 focused on Nerves/NervesConf EU."
+description: |
+  A gathering emphasizing the people, the intent, and the willingness to engage. Goatmire is a different event — a smaller venue format focused on community participation and undivided attention.
+
+  September 28-29 feature free workshops at Campus Varberg. September 30 is NervesConf EU, focused on hardware, Nerves, and embedded Elixir. October 1-2 continues with Goatmire Elixir conference talks at Varbergs Teater.
+
+  Themes for 2026: depths, distortions, and delights. Interpret widely.

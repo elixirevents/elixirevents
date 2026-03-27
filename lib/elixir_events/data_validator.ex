@@ -41,7 +41,10 @@ defmodule ElixirEvents.DataValidator do
   @social_link_keys ~w(platform url label)
   @sponsor_tier_keys ~w(name level description sponsors)
   @sponsor_keys ~w(slug badge)
-  @cfp_keys ~w(name url open_date close_date description)
+  @cfp_keys ~w(name url open_date close_date description kind)
+  @cfp_kinds ~w(talks training)
+  @workshop_keys ~w(title slug description format experience_level target_audience language start_date end_date venue_slug booking_url attendees_only trainers topics agenda)
+  @workshop_agenda_keys ~w(day title start_time end_time items)
   @role_keys ~w(name members)
   @role_member_keys ~w(name position)
   @schedule_keys ~w(tracks days)
@@ -206,6 +209,7 @@ defmodule ElixirEvents.DataValidator do
       acc
       |> validate_event_file(event_dir, venue_slugs)
       |> validate_talks_file(event_dir, speaker_slugs, topic_slugs)
+      |> validate_workshops_file(event_dir, speaker_slugs, topic_slugs, venue_slugs)
       |> validate_schedule_file(event_dir)
       |> validate_sponsors_file(event_dir, organization_slugs)
       |> validate_cfp_file(event_dir)
@@ -336,6 +340,112 @@ defmodule ElixirEvents.DataValidator do
     end
   end
 
+  # --- Workshops validation ---
+
+  defp validate_workshops_file(errors, event_dir, speaker_slugs, topic_slugs, venue_slugs) do
+    path = Path.join(event_dir, "workshops.yml")
+
+    if File.exists?(path) do
+      case parse_yaml(path) do
+        {:ok, data} when is_list(data) ->
+          workshop_slugs = Enum.map(data, & &1["slug"]) |> Enum.reject(&is_nil/1)
+          dupe_errors = find_duplicates(workshop_slugs, path, "workshop slug")
+
+          workshop_errors =
+            data
+            |> Enum.with_index(1)
+            |> Enum.flat_map(fn {workshop, index} ->
+              validate_workshop(workshop, speaker_slugs, topic_slugs, venue_slugs)
+              |> Enum.map(&prepend_location(&1, path, index))
+            end)
+
+          errors ++ dupe_errors ++ workshop_errors
+
+        {:ok, _} ->
+          errors ++ [error(path, "expected a YAML list")]
+
+        {:error, reason} ->
+          errors ++ [error(path, "YAML parse error: #{reason}")]
+      end
+    else
+      errors
+    end
+  end
+
+  defp validate_workshop(data, speaker_slugs, topic_slugs, venue_slugs) do
+    errs =
+      []
+      |> validate_allowed_keys(data, @workshop_keys, "workshop")
+      |> require_field(data, "title")
+      |> require_field(data, "slug")
+      |> validate_slug_field(data, "slug")
+      |> require_field(data, "start_date")
+      |> require_field(data, "end_date")
+      |> validate_date(data, "start_date")
+      |> validate_date(data, "end_date")
+      |> validate_enum(data, "format", @event_formats)
+      |> validate_url(data, "booking_url")
+      |> validate_reference(data, "venue_slug", venue_slugs, "venues.yml")
+      |> validate_workshop_agenda(data)
+
+    # Validate trainer references
+    errs =
+      case data["trainers"] do
+        nil ->
+          errs
+
+        trainers when is_list(trainers) ->
+          Enum.reduce(trainers, errs, fn trainer_slug, acc ->
+            slug = to_string(trainer_slug)
+
+            if MapSet.member?(speaker_slugs, slug) do
+              acc
+            else
+              acc ++ ["trainer '#{slug}' not found in speakers.yml"]
+            end
+          end)
+
+        _ ->
+          errs ++ ["trainers must be a list"]
+      end
+
+    # Validate topic references
+    case data["topics"] do
+      nil ->
+        errs
+
+      topics when is_list(topics) ->
+        Enum.reduce(topics, errs, fn topic_slug, acc ->
+          slug = to_string(topic_slug)
+
+          if MapSet.member?(topic_slugs, slug) do
+            acc
+          else
+            acc ++ ["topic '#{slug}' not found in topics.yml"]
+          end
+        end)
+
+      _ ->
+        errs ++ ["topics must be a list"]
+    end
+  end
+
+  defp validate_workshop_agenda(errs, data) do
+    case data["agenda"] do
+      nil ->
+        errs
+
+      agenda when is_list(agenda) ->
+        Enum.with_index(agenda, 1)
+        |> Enum.reduce(errs, fn {day, index}, acc ->
+          validate_allowed_keys(acc, day, @workshop_agenda_keys, "workshop agenda day ##{index}")
+        end)
+
+      _ ->
+        errs ++ ["agenda must be a list"]
+    end
+  end
+
   # --- Schedule validation ---
 
   defp validate_schedule_file(errors, event_dir) do
@@ -445,6 +555,7 @@ defmodule ElixirEvents.DataValidator do
               |> validate_url(entry, "url")
               |> validate_date(entry, "open_date")
               |> validate_date(entry, "close_date")
+              |> validate_enum(entry, "kind", @cfp_kinds)
               |> Enum.map(&prepend_location(&1, path, index))
             end)
 

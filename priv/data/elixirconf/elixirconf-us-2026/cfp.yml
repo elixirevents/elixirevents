@@ -1,0 +1,17 @@
+- name: "Call for Talks"
+  kind: talks
+  url: "https://sessionize.com/elixirconf-us-2026/"
+  close_date: "2026-04-12"
+  description: |
+    ElixirConf US 2026 in Chicago is a two-track hybrid conference with 25- and 40-minute speaking slots including optional Q&A.
+
+    Whether you are a core team member or a newcomer to the ecosystem, submit your talk proposal by April 12.
+
+    Requested topics include: Core Phoenix & Application Architecture, High-Performance Phoenix, Testing and Maintenance, Advanced LiveView Architectures, AI & Data Landscape, Elixir in GenAI & Machine Learning, Data & Streaming Pipelines, Embedded and Edge Networks, Real-World Case Studies & ROI, Modern DevOps & Observability, and Community & Developer Experience.
+
+- name: "Call for Training"
+  kind: training
+  url: "https://forms.gle/Hh65TXj41ytARxKh8"
+  close_date: "2026-03-15"
+  description: |
+    ElixirConf US 2026 will be accompanied by a day of in-person tutorials. Submit your training proposal by March 15.

@@ -1,0 +1,239 @@
+<section class="max-w-4xl mx-auto">
+  <%!-- Back link --%>
+  <div class="mb-8">
+    <.link
+      navigate={~p"/events/#{@workshop.event.slug}"}
+      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      {@workshop.event.name}
+    </.link>
+  </div>
+
+  <%!-- Header --%>
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+    <div class="flex-1 min-w-0">
+      <%!-- Badges --%>
+      <div class="flex flex-wrap items-center gap-2 mb-3">
+        <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-accent/15 text-accent">
+          Workshop
+        </span>
+        <span
+          :if={@workshop.experience_level}
+          class="text-xs font-medium px-2.5 py-1 rounded-full bg-base-300 text-base-content/60"
+        >
+          {@workshop.experience_level}
+        </span>
+        <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-base-300 text-base-content/60 capitalize">
+          {workshop_format_label(@workshop)}
+        </span>
+        <span
+          :if={@workshop.attendees_only}
+          class="text-xs font-medium px-2.5 py-1 rounded-full bg-amber-500/15 text-amber-400"
+        >
+          Conference attendees only
+        </span>
+      </div>
+
+      <h1 class="font-display text-2xl sm:text-3xl font-bold text-base-content">
+        {@workshop.title}
+      </h1>
+
+      <%!-- Date info --%>
+      <div class="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-base-content/55">
+        <span class="flex items-center gap-1.5">
+          <svg
+            class="w-4 h-4 text-base-content/40"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+            />
+          </svg>
+          {date_range(@workshop)}
+          <span :if={@workshop.start_date != @workshop.end_date}>
+            &middot; {event_duration(@workshop)}
+          </span>
+        </span>
+      </div>
+
+      <%!-- Description --%>
+      <div
+        :if={@workshop.description}
+        class="ee-prose mt-6"
+      >
+        {render_markdown(@workshop.description)}
+      </div>
+
+      <%!-- Agenda --%>
+      <div :if={@workshop.agenda != []} class="mt-8">
+        <h2 class="font-display text-xl font-bold text-base-content mb-4">Agenda</h2>
+        <div class="space-y-4">
+          <div
+            :for={day <- Enum.sort_by(@workshop.agenda, & &1.day_number)}
+            class="p-4 rounded-xl border border-base-300"
+          >
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-display font-bold text-base-content">
+                <span :if={length(@workshop.agenda) > 1} class="text-base-content/40 mr-1.5">
+                  Day {day.day_number}
+                </span>
+                {day.title}
+              </h3>
+              <span
+                :if={day.start_time && day.end_time}
+                class="text-xs text-base-content/40 tabular-nums"
+              >
+                {Calendar.strftime(day.start_time, "%H:%M")} – {Calendar.strftime(
+                  day.end_time,
+                  "%H:%M"
+                )}
+              </span>
+            </div>
+            <ul :if={day.items != []} class="space-y-1">
+              <li
+                :for={item <- day.items}
+                class="text-sm text-base-content/55 flex items-start gap-2"
+              >
+                <span class="text-primary/40 mt-1.5 shrink-0">•</span>
+                {item}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <%!-- Target audience --%>
+      <div :if={@workshop.target_audience} class="mt-8">
+        <h2 class="font-display text-xl font-bold text-base-content mb-2">Target Audience</h2>
+        <p class="text-sm text-base-content/55 leading-relaxed">{@workshop.target_audience}</p>
+      </div>
+    </div>
+
+    <%!-- Sidebar --%>
+    <div class="lg:w-80 shrink-0 space-y-6">
+      <%!-- Booking CTA --%>
+      <%= if @workshop.booking_url && Date.compare(@workshop.end_date, Date.utc_today()) != :lt do %>
+        <a
+          href={@workshop.booking_url}
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary w-full gap-2"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"
+            />
+          </svg>
+          Book Now
+        </a>
+      <% end %>
+
+      <%!-- Trainers --%>
+      <div :if={@workshop.workshop_trainers != []}>
+        <h2 class="text-sm font-semibold text-base-content/50 uppercase tracking-wider mb-4">
+          {if length(@workshop.workshop_trainers) == 1, do: "Trainer", else: "Trainers"}
+        </h2>
+        <div class="space-y-4">
+          <.link
+            :for={wt <- Enum.sort_by(@workshop.workshop_trainers, & &1.position)}
+            navigate={~p"/profiles/#{wt.profile.handle}"}
+            class="flex items-center gap-3 group"
+          >
+            <div
+              class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-display font-bold shrink-0 group-hover:scale-105 transition-transform"
+              style={avatar_style(wt.profile.name)}
+            >
+              {initials(wt.profile.name)}
+            </div>
+            <div>
+              <div class="font-medium text-base-content group-hover:text-primary transition-colors">
+                {wt.profile.name}
+              </div>
+              <div :if={wt.profile.headline} class="text-xs text-base-content/50">
+                {wt.profile.headline}
+              </div>
+            </div>
+          </.link>
+        </div>
+      </div>
+
+      <%!-- Quick info --%>
+      <div class="p-5 rounded-xl border border-base-300 space-y-4">
+        <div class="flex items-center gap-3">
+          <svg
+            class="w-4 h-4 text-base-content/50 shrink-0"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+            />
+          </svg>
+          <span class="text-sm text-base-content/55">
+            {Calendar.strftime(@workshop.start_date, "%B %d")}
+            <%= if @workshop.start_date != @workshop.end_date do %>
+              – {Calendar.strftime(@workshop.end_date, "%B %d, %Y")}
+            <% else %>
+              , {Calendar.strftime(@workshop.start_date, "%Y")}
+            <% end %>
+          </span>
+        </div>
+        <div :if={@workshop.start_date != @workshop.end_date} class="flex items-center gap-3">
+          <svg
+            class="w-4 h-4 text-base-content/50 shrink-0"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <span class="text-sm text-base-content/55">{event_duration(@workshop)}</span>
+        </div>
+      </div>
+
+      <%!-- Venue --%>
+      <div :if={@workshop.venue}>
+        <h2 class="text-sm font-semibold text-base-content/50 uppercase tracking-wider mb-3">
+          Venue
+        </h2>
+        <.venue_card venue={@workshop.venue} />
+      </div>
+
+      <%!-- Event --%>
+      <div>
+        <h2 class="text-sm font-semibold text-base-content/50 uppercase tracking-wider mb-3">
+          Part of
+        </h2>
+        <.link
+          navigate={~p"/events/#{@workshop.event.slug}"}
+          class="block p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-primary/[0.02] transition-all"
+        >
+          <div class="font-display font-bold text-base-content">{@workshop.event.name}</div>
+          <div :if={@workshop.event.location} class="text-sm text-base-content/50 mt-1">
+            {@workshop.event.location}
+          </div>
+        </.link>
+      </div>
+    </div>
+  </div>
+</section>

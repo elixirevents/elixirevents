@@ -3,7 +3,7 @@ defmodule ElixirEvents.Topics do
 
   import Ecto.Query
   alias ElixirEvents.Repo
-  alias ElixirEvents.Topics.{EventTopic, SessionTopic, TalkTopic, Topic}
+  alias ElixirEvents.Topics.{EventTopic, SessionTopic, TalkTopic, Topic, WorkshopTopic}
 
   def list_topics(opts \\ []) do
     Topic
@@ -91,5 +91,11 @@ defmodule ElixirEvents.Topics do
     %SessionTopic{}
     |> SessionTopic.changeset(%{session_id: session_id, topic_id: topic_id})
     |> Repo.insert(on_conflict: :nothing, conflict_target: [:session_id, :topic_id])
+  end
+
+  def tag_workshop(workshop_id, topic_id) do
+    %WorkshopTopic{}
+    |> WorkshopTopic.changeset(%{workshop_id: workshop_id, topic_id: topic_id})
+    |> Repo.insert(on_conflict: :nothing, conflict_target: [:workshop_id, :topic_id])
   end
 end

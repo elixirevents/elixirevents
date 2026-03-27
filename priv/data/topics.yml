@@ -177,3 +177,7 @@
 - name: "Concurrency"
   slug: "concurrency"
   description: "Concurrent programming, processes, parallelism, and message passing on the BEAM"
+
+- name: "Geospatial"
+  slug: "geospatial"
+  description: "Geospatial data, mapping, location services, and geographic information systems"

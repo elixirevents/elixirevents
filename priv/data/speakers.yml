@@ -184,8 +184,13 @@
 
 - name: "Bjorn Gustavsson"
   slug: "bjorngustavsson"
-  headline: "Erlang/OTP Team"
-  bio: "Long-time member of the Erlang/OTP team at Ericsson, contributor to the BEAM virtual machine."
+  headline: "Erlang/OTP team at Ericsson"
+  bio: |
+    Björn Gustavsson is a member of the Erlang/OTP team at Ericsson, and is the Björn in Bogdan/Björn’s Erlang Abstract Machine (BEAM).
+
+    He joined the OTP team at the end of 1996, and did his first contribution to OTP that year. A few years later, he became the main developer responsible for the BEAM VM, and spent most his time at the OTP team contributing to the BEAM VM as well as to the Erlang compiler. He has also contributed to many other parts of the Erlang runtime system, such as the Just-In Time compiler (JIT).
+  city: Stockholm
+  country_code: SE
   social_links:
     - platform: github
       url: "https://github.com/bjorng"
@@ -256,6 +261,8 @@
   slug: "robertvirding"
   headline: "Co-creator of Erlang"
   bio: "Co-creator of the Erlang programming language and pioneer of concurrent programming."
+  city: Stockholm
+  country_code: SE
   social_links:
     - platform: github
       url: "https://github.com/rvirding"
@@ -845,8 +852,20 @@
 
 - name: "Ingela Andin"
   slug: "ingelaandin"
-  headline: "Senior Erlang/OTP Developer"
-  bio: "Senior developer on the Erlang/OTP team at Ericsson."
+  headline: "Senior Erlang/OTP core developer"
+  bio: |
+    I studied Computer Science at Uppsala University. I worked as an Erlang Consultant and Erlang/OTP educator during my first years at Ericsson.
+
+    This involved things as mobile phone simulation, Multi protocol label switching (AXD 301) and SGSN (more Telecom). When Erlang Solutions took over consulting and training I joined the Erlang/OTP development team and I have been part of the team since then. Working with several aspect of Erlang/OTP application development with a focus on security protocols and data communication.
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: github
+      url: https://github.com/IngelaAndin
+    - platform: twitter
+      url: https://x.com/@IngelaAndin
+    - platform: linkedin
+      url: https://www.linkedin.com/in/ingela-andin-66014b1/
 
 - name: "Isaac Harris-Holt"
   slug: "isaacharrisholt"
@@ -896,8 +915,13 @@
 
 - name: "Marc Lainez"
   slug: "marclainez"
-  headline: "Nerves Developer"
-  bio: "Developer exploring smartphone upcycling with Nerves."
+  headline: "Owner & Co-founder @ Spin42"
+  bio: "Marc is an experienced software developer and product manager. He started Spin42 with Loïc Vigneron and Thibault Poncelet in 2013 after several years freelancing. Together, they have built Ibanity in 2016, a financial institution aggregator written in Elixir that was sold in 2017. They have been working on Ibanity and other related products until the end of 2023 and are now tinkering and searching for new challenges. Marc has been an invited teacher at the university of Louvain-la-Neuve in Belgium for 10 years where he introduces students in their third bachelor year to Agile software development practices."
+  city: Brussels
+  country_code: BE
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/marclainez/
 
 - name: "Marc Sugiyama"
   slug: "marcsugiyama"
@@ -916,7 +940,7 @@
 
 - name: "Quinn Wilton"
   slug: "quinnwilton"
-  headline: "Distributed Systems Researcher"
+  headline: "Collector of dead languages"
   bio: "Distributed systems researcher and Elixir community member."
 
 - name: "Rickard Green"
@@ -1483,7 +1507,14 @@
 - name: "Benjamin Milde"
   slug: "benjaminmilde"
   headline: "Elixir developer"
-  bio: "Elixir developer and community educator."
+  bio: "Not the classic programmer career. Started learning programming while still in school to build websites. Studied media design instead of IT to not need to deal with low level hardware/software. When Websites grew into larger services, I eventually found Elixir and haven't looked back since."
+  city: Munich
+  country_code: DE
+  social_links:
+    - platform: twitter
+      url: https://x.com/lostkobrakai
+    - platform: github
+      url: https://github.com/lostkobrakai
 
 - name: "Bruce Tate"
   slug: "brucetate"
@@ -1506,8 +1537,8 @@
 
 - name: "Daniel Widgren"
   slug: "danielwidgren"
-  headline: "Erlang Developer"
-  bio: "Erlang developer and BEAM ecosystem contributor."
+  headline: "Erlang. Web. Simpler than you think"
+  bio: "Daniel Widgren challenges the idea that you can’t build simple web apps in Erlang. An Erlang developer and creator of Nova, he focuses on proving that modern web development on the BEAM doesn’t have to be heavy, academic, or “too much OTP.” His message is simple: Erlang web apps aren’t complicated — you’ve just been told they are."
 
 - name: "Danielle Maywood"
   slug: "daniellemaywood"
@@ -1517,17 +1548,19 @@
 - name: "Frank Hunleth"
   slug: "frankhunleth"
   headline: "Nerves Core Team"
-  bio: "Conference speaker."
+  bio: "Frank has built embedded Linux-based software for products in many industries including medical, consumer, telecommunications and defense. He is a coauthor of the Nerves project and maintains several projects used in embedded Elixir-based devices such as the Elixir Circuits set of libraries, toolshed, fwup, and erlinit."
+  city: Maryland
+  country_code: US
+  social_links:
+    - platform: github
+      url: https://github.com/fhunleth
+    - platform: twitter
+      url: https://x.com/fhunleth
 
 - name: "Guillaume Heu"
   slug: "guillaumeheu"
   headline: "Gleam Developer"
   bio: "Developer and Gleam community member."
-
-- name: "Ingela Anderton Andin"
-  slug: "ingelaandertonandin"
-  headline: "Senior Erlang/OTP Core Developer"
-  bio: "Conference speaker."
 
 - name: "Ivan Minutillo"
   slug: "ivanminutillo"
@@ -1609,18 +1642,33 @@
 
 - name: "Niclas Axelsson"
   slug: "niclasaxelsson"
-  headline: "Erlang Developer"
-  bio: "Erlang developer and BEAM ecosystem contributor."
+  headline: "Erlang developer, Burbas Consulting"
+  bio: |
+    Niclas Axelsson is an Erlang engineer with deep practical experience in building reliable, concurrent systems on the BEAM. He cares about making Erlang web development feel as straightforward and productive as it does in Elixir or Python—clean tooling, clear conventions, and a developer experience that helps you ship fast without sacrificing robustness.
+
+    Outside of software, he’s also a furniture maker: a hands-on craftsman who thinks in joinery, proportions, and materials as naturally as he thinks in processes and message passing. Born in the forests of Värmland, Sweden, he brings that grounded, cheerful Värmland energy into everything he builds—whether it’s an OTP system or a cabinet.
+  social_links:
+    - platform: github
+      url: https://github.com/burbas
 
 - name: "Peer Stritzinger"
   slug: "peerstritzinger"
   headline: "Founder, Board Member Erlang Ecosystem Foundation"
-  bio: "Experienced Founder with a demonstrated history of working in the automotive industry and industrial automation. Strong business development professional skilled in Computer Science, Communication Protocols, Security and Distributed Computing.  Engaged in the Erlang Programming language community as a Board Member of the Erlang Ecosystem Foundation."
+  bio: |
+    Peer discovered Erlang in 2007 and has been relying on it ever since. Fascinated by all its emergent properties which are quite non-obvious from afar. Around it he found the best developer community one could wish for being part of.
+
+    He is Founder and Director of Peer Stritzinger GmbH which created GRiSP www.grisp.org, a platform to run Erlang on small embedded systems and focusses on building Automotive, Industrial IoT and Smart Cities applications and tries to use Erlang technology wherever useful. Participating in several EU funded research projects, he is trying to push the envelope for what can be done with Erlang and the other languages on the BEAM.
+
+    Peer’s previous experience ranges from low level device drivers to functional languages in industrial and automotive applications. He initially mastered in physics at the Technical University Munich. He has been working self-employed as a developer since 1987 and also consulted in applied cryptography and protocol design and implementation. He is since ever living and working in the idyllic countryside west of Munich, Bavaria.
+  city: Maisach
+  country_code: DE
   social_links:
     - platform: twitter
       url: "https://x.com/peerstr"
     - platform: linkedin
       url: "https://www.linkedin.com/in/peerst/"
+    - platform: github
+      url: https://github.com/peerst
 
 - name: "Rebecca Reusch"
   slug: "rebeccareusch"
@@ -1635,7 +1683,19 @@
 - name: "Sam Aaron"
   slug: "samaaron"
   headline: "Creator of Sonic Pi"
-  bio: "Conference speaker."
+  bio: |
+    Described by Rolling Stone magazine as “transcending the present”, Sam Aaron is an internationally renowned live coding artist with over 15 years of experience performing with code.
+
+    Sam’s main instrument is Sonic Pi free software he created initially as his postdoc research project at the University of Cambridge and now as a full-time independent open source developer. Sonic Pi has been used by millions of people worldwide and has a growing active user base of professional live coding musicians and educators using it to engage the next generation of coders in schools.
+
+    Sam’s performances have featured in the Royal Albert Hall, Berlin Warehouses, arts venues such as ZKM Karlsruhe, International Music Festivals, on the BBC, and even school assemblies.
+  city: Sheffield
+  country_code: GB
+  social_links:
+    - platform: github
+      url: https://github.com/samaaron
+    - platform: twitter
+      url: https://x.com/samaaron
 
 - name: "Sofia Silva"
   slug: "sofiasilva"
@@ -5173,3 +5233,58 @@
       url: https://github.com/vasspilka
     - platform: twitter
       url: https://x.com/vasspilka
+
+- name: "Steinar Eliassen"
+  slug: "steinareliassen"
+  headline: "Senior Developer at Entur"
+  bio: |
+    A “regular” backend developer who spent their career mostly centered around Java technologies. Educated at the University of Oslo, old enough to have studied and tutored SIMULA there.
+
+    Stumbled onto Gleam more or less by accident, and got instantly hooked. This proved to be the gateway into the world of BEAM, and as a result, several projects in Gleam and Elixir has been started.
+
+- name: "Hans Svensson"
+  slug: "hanssvensson"
+  headline: "Quviq AB - Quickcheck Expert"
+  bio: "Hans Svensson has over 20 years of experience working with Erlang and the Erlang/OTP ecosystem. He holds a PhD in Computer Science, with a dissertation on Verification of Distributed Erlang Programs using Testing, Model Checking and Theorem Proving. For the past 15 years, he has worked at Quviq AB as a QuickCheck expert, helping teams apply property-based testing to real-world systems. His work spans a wide range of industries including telecom, automotive, cryptography, databases, cloud storage, and power grid systems. Hans focuses on using rigorous testing techniques to find subtle, security-relevant bugs early—before they become vulnerabilities in production systems."
+
+- name: "Alex Kmoch"
+  slug: "alexkmoch"
+  headline: "Associate Professor in Geoinformatics"
+  bio: "Alex is a Distributed Spatial Systems DevOps Tinkerer with many years of experience in geospatial data management and web- and cloud-based geoprocessing with a particular focus on land use, soils, hydrology, and water quality. His interests include open geospatial standards and web-services for location-based data sharing, modelling workflows, machine learning, and interactive geo-visualisation. Alex has been involved with web-based spatial data infrastructures for a long time as a developer, researcher and project leader. He is based at the Chair of Geoinformatics and Cartography at the Department of Geography of the University of Tartu."
+  city: Tartu
+  country_code: EE
+  social_links:
+    - platform: github
+      url: https://github.com/allixender
+    - platform: linkedin
+      url: https://www.linkedin.com/in/allixender/
+    - platform: bluesky
+      url: https://bsky.app/profile/allixender
+
+- name: "David Klemenc"
+  slug: "davidklemenc"
+  headline: "BlueOcean, System Architect"
+  bio: |
+    I got interested in computer systems and programming while studying Medicine at MF (Faculty of Medicine), so I decided to switch to FRI (Faculty of Computer and Information Science) and pursue a slightly different career path. While at FRI, I received the Zois scholarship for outstanding achievements (basically for having a very high average grade), which allowed me to buy my first Siemens laptop running a Linux distro.
+
+    After finishing my studies, I landed a job at a startup in the telecommunications business, where I was exposed to technologies such as SIP, WebRTC, reverse engineering protocols with the help of Wireshark, etc. Fast forward a couple of acquisitions and a decade or more, and I landed at a gaming company, where I could pick my tech stack for the very first time.
+  city: Ljubljana
+  country_code: SI
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/david-klemenc-io/
+
+- name: "Alina Popova"
+  slug: "alinapopova"
+  headline: "Exante, backend developer"
+  bio: "I am an Erlang developer at EXANTE, where I have been working for the past three years. I joined the company as a junior Erlang developer and quickly became inspired by the scale, performance challenges, and engineering culture. Working on real-time, high-load systems allowed me to grow professionally, deepen my expertise in Erlang/OTP, and contribute to complex, production-grade platforms used in the financial domain."
+
+- name: "Prithvi Virupaksha"
+  slug: "prithvivirupaksha"
+  headline: "Senior Backend Engineer"
+  bio: "I’m a Senior Backend Engineer at Wooga, building platform services behind June’s Journey, one of the biggest hidden object games on the App Store. In my previous role, I led a team of eight engineers, guiding a migration from Go to Elixir and building an engineering culture through internal talks and shared learning resources. I’m especially drawn to functional programming, and I’m also a huge fan of Nix."
+  city: Berlin
+  country_code: DE
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/prithvihv/

@@ -167,6 +167,44 @@
     <% end %>
   </div>
 
+  <%!-- ============ WORKSHOPS ============ --%>
+  <div :if={@workshops != []} class="mb-8">
+    <h2 class="font-display text-lg font-bold text-base-content mb-4">
+      Workshops
+      <span class="text-base-content/40 font-normal text-sm ml-0.5">({length(@workshops)})</span>
+    </h2>
+    <div class="space-y-3">
+      <.link
+        :for={workshop <- @workshops}
+        navigate={~p"/events/#{@event.slug}/workshops/#{workshop.slug}"}
+        class="group block p-4 rounded-xl border border-base-300/60 hover:border-primary/30 hover:bg-base-200/20 transition-all"
+      >
+        <div class="flex items-center gap-2 mb-1.5">
+          <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+            Workshop
+          </span>
+          <span
+            :if={workshop.experience_level}
+            class="text-xs text-base-content/40"
+          >
+            {workshop.experience_level}
+          </span>
+        </div>
+        <h3 class="font-display font-bold text-sm text-base-content group-hover:text-primary transition-colors">
+          {workshop.title}
+        </h3>
+        <p class="text-xs text-base-content/50 mt-1">
+          {date_range(workshop)} · {event_duration(workshop)}
+          <span :if={workshop.workshop_trainers != []}>
+            · {workshop.workshop_trainers
+            |> Enum.sort_by(& &1.position)
+            |> Enum.map_join(", ", & &1.profile.name)}
+          </span>
+        </p>
+      </.link>
+    </div>
+  </div>
+
   <%!-- ============ VENUE ============ --%>
   <div :if={@event.venue} class="mb-8">
     <h2 class="font-display text-lg font-bold text-base-content mb-4">Venue</h2>

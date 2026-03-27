@@ -85,3 +85,15 @@
   website: "https://kivra.se/en/private"
   description: "For all the collectors out there"
   logo_url: "https://codebeamstockholm.com/assets/images/sponsors/Kivra_Logo_RGB_Black.png"
+
+- name: "Oban Pro"
+  slug: "oban-pro"
+  website: "https://oban.pro"
+  description: "Robust job processing for Elixir"
+  logo_url: "https://elixirconf.com/assets/images/sponsors/oban-pro-logotype-horizontal-dark.png"
+
+- name: "Software Mansion"
+  slug: "software-mansion"
+  website: "https://swmansion.com"
+  description: "Software development and consultancy company specializing in React Native, Elixir, and AI"
+  logo_url: "https://elixirconf.com/assets/images/sponsors/Software Mansion - Pozytyw - S - Left-Top.png"

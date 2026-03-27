@@ -53,6 +53,7 @@ defmodule ElixirEvents.MixProject do
       {:ecto_sql, "~> 3.13"},
       {:ex_typesense, "~> 2.0"},
       {:esbuild, "~> 0.10", runtime: Mix.env() == :dev},
+      {:mdex, "~> 0.2"},
       {:gettext, "~> 1.0"},
       {:heroicons,
        github: "tailwindlabs/heroicons",

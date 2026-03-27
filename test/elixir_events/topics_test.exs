@@ -194,6 +194,63 @@ defmodule ElixirEvents.TopicsTest do
     end
   end
 
+  describe "tag_workshop/2" do
+    test "tags a workshop with a topic" do
+      {:ok, topic} = Topics.create_topic(%{name: "LiveView", slug: "liveview-ws"})
+
+      {:ok, event} =
+        ElixirEvents.Events.create_event(%{
+          name: "Conf",
+          slug: "conf-ws",
+          kind: :conference,
+          status: :confirmed,
+          format: :in_person,
+          start_date: ~D[2026-05-18],
+          end_date: ~D[2026-05-20],
+          timezone: "Europe/Stockholm"
+        })
+
+      {:ok, workshop} =
+        ElixirEvents.Workshops.upsert_workshop(%{
+          event_id: event.id,
+          title: "LiveView Workshop",
+          slug: "liveview-workshop",
+          start_date: ~D[2026-05-18],
+          end_date: ~D[2026-05-18]
+        })
+
+      assert {:ok, _} = Topics.tag_workshop(workshop.id, topic.id)
+    end
+
+    test "is idempotent — second call succeeds silently" do
+      {:ok, topic} = Topics.create_topic(%{name: "OTP", slug: "otp-ws"})
+
+      {:ok, event} =
+        ElixirEvents.Events.create_event(%{
+          name: "Conf",
+          slug: "conf-ws2",
+          kind: :conference,
+          status: :confirmed,
+          format: :in_person,
+          start_date: ~D[2026-05-18],
+          end_date: ~D[2026-05-20],
+          timezone: "Europe/Stockholm"
+        })
+
+      {:ok, workshop} =
+        ElixirEvents.Workshops.upsert_workshop(%{
+          event_id: event.id,
+          title: "OTP Workshop",
+          slug: "otp-workshop",
+          start_date: ~D[2026-05-18],
+          end_date: ~D[2026-05-18]
+        })
+
+      assert {:ok, _} = Topics.tag_workshop(workshop.id, topic.id)
+      assert {:ok, _} = Topics.tag_workshop(workshop.id, topic.id)
+    end
+  end
+
   describe "tag_event/2 idempotent" do
     test "second tag_event call succeeds silently" do
       {:ok, topic} = Topics.create_topic(%{name: "Test", slug: "test-idem"})
