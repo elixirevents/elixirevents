@@ -19,7 +19,8 @@ defmodule ElixirEvents.Import.CFPs do
             url: cfp["url"],
             description: cfp["description"],
             open_date: parse_date(cfp["open_date"]),
-            close_date: parse_date(cfp["close_date"])
+            close_date: parse_date(cfp["close_date"]),
+            kind: parse_kind(cfp["kind"])
           }
         end)
 
@@ -33,4 +34,8 @@ defmodule ElixirEvents.Import.CFPs do
   defp parse_date(nil), do: nil
   defp parse_date(%Date{} = date), do: date
   defp parse_date(str) when is_binary(str), do: Date.from_iso8601!(str)
+
+  defp parse_kind(nil), do: :talks
+  defp parse_kind("training"), do: :training
+  defp parse_kind(_), do: :talks
 end
