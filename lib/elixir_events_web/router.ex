@@ -11,12 +11,20 @@ defmodule ElixirEventsWeb.Router do
     plug :put_root_layout, html: {ElixirEventsWeb.Layouts, :root}
     plug :put_layout, html: {ElixirEventsWeb.Layouts, :app}
     plug :protect_from_forgery
-    plug :put_secure_browser_headers
+
+    plug :put_secure_browser_headers, %{
+      "strict-transport-security" => "max-age=63072000; includeSubDomains; preload"
+    }
+
     plug :fetch_current_scope_for_user
   end
 
   pipeline :api do
     plug :accepts, ["json"]
+  end
+
+  scope "/", ElixirEventsWeb do
+    get "/sitemap.xml", SitemapController, :index
   end
 
   scope "/", ElixirEventsWeb do

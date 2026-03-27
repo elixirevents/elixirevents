@@ -46,6 +46,8 @@ defmodule ElixirEventsWeb.EventLive.Speakers do
         {:noreply,
          assign(socket,
            page_title: "Speakers — #{event.name}",
+           page_description: "Speakers at #{event.name}.",
+           page_url: ElixirEventsWeb.SEO.base_url() <> "/events/#{event.slug}/speakers",
            event: event,
            keynote_speakers: keynote_speakers,
            regular_speakers: regular_speakers,

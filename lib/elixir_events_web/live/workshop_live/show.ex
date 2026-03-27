@@ -23,6 +23,11 @@ defmodule ElixirEventsWeb.WorkshopLive.Show do
         {:noreply,
          socket
          |> assign(:page_title, workshop.title)
+         |> assign(:page_description, workshop.description)
+         |> assign(
+           :page_url,
+           ElixirEventsWeb.SEO.base_url() <> "/events/#{event_slug}/workshops/#{workshop.slug}"
+         )
          |> assign(:workshop, workshop)}
     end
   end

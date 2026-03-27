@@ -39,6 +39,12 @@ defmodule ElixirEventsWeb.EventLive.Index do
     {:noreply,
      socket
      |> assign(:page_title, "Events")
+     |> assign(
+       :page_description,
+       "Browse Elixir & BEAM conferences, meetups, summits, and workshops."
+     )
+     |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/events")
+     |> assign(:jsonld, ElixirEventsWeb.SEO.event_list_jsonld(events))
      |> assign(:events, events)
      |> assign(:current_filter, filter)
      |> assign(:selected_kinds, kinds)

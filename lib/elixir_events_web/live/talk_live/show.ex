@@ -2,6 +2,7 @@ defmodule ElixirEventsWeb.TalkLive.Show do
   use ElixirEventsWeb, :live_view
 
   alias ElixirEvents.Talks
+  alias ElixirEventsWeb.SEO
 
   @impl true
   def mount(_params, _session, socket) do
@@ -29,6 +30,9 @@ defmodule ElixirEventsWeb.TalkLive.Show do
         {:noreply,
          socket
          |> assign(:page_title, talk.title)
+         |> assign(:page_description, talk.abstract)
+         |> assign(:page_url, SEO.base_url() <> "/talks/#{talk.event.slug}/#{talk.slug}")
+         |> assign(:jsonld, SEO.talk_jsonld(talk))
          |> assign(:talk, talk)
          |> assign(:back_to, back_to)
          |> assign(:back_to_title, back_to_title)}

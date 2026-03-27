@@ -24,6 +24,11 @@ defmodule ElixirEventsWeb.SeriesLive.Show do
         {:noreply,
          socket
          |> assign(:page_title, series.name)
+         |> assign(
+           :page_description,
+           series.description || "#{series.name} — Elixir & BEAM event series."
+         )
+         |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/series/#{series.slug}")
          |> assign(:series, series)
          |> assign(:events, events)}
     end

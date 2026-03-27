@@ -39,6 +39,8 @@ defmodule ElixirEventsWeb.EventLive.Talks do
         {:noreply,
          assign(socket,
            page_title: "Talks — #{event.name}",
+           page_description: "All talks at #{event.name}.",
+           page_url: ElixirEventsWeb.SEO.base_url() <> "/events/#{event.slug}/talks",
            event: event,
            talks: talks,
            filtered_talks: talks,

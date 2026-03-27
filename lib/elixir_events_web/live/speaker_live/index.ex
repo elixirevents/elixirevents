@@ -24,6 +24,8 @@ defmodule ElixirEventsWeb.SpeakerLive.Index do
     {:noreply,
      socket
      |> assign(:page_title, "Speakers")
+     |> assign(:page_description, "Discover speakers from the Elixir & BEAM community.")
+     |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/speakers")
      |> assign(:profiles, page_data.entries)
      |> assign(:page_data, page_data)
      |> assign(:search, search)}

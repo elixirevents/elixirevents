@@ -2,6 +2,7 @@ defmodule ElixirEventsWeb.HomeLive do
   use ElixirEventsWeb, :live_view
 
   alias ElixirEvents.{Events, Profiles, Talks, Topics}
+  alias ElixirEventsWeb.SEO
 
   @impl true
   def mount(_params, _session, socket) do
@@ -36,13 +37,20 @@ defmodule ElixirEventsWeb.HomeLive do
       topics: Topics.count_topics()
     }
 
+    jsonld = [
+      SEO.website_jsonld(),
+      SEO.event_list_jsonld(featured_events)
+    ]
+
     {:ok,
      assign(socket,
        featured_events: featured_events,
        upcoming_events: upcoming_events,
        profiles: profiles,
        topics: topics,
-       stats: stats
+       stats: stats,
+       page_url: SEO.base_url(),
+       jsonld: jsonld
      ), layout: false}
   end
 end
