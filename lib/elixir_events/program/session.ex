@@ -10,13 +10,13 @@ defmodule ElixirEvents.Program.Session do
 
   schema "sessions" do
     field :event_id, :integer
-    field :talk_id, :integer
     field :title, :string
     field :kind, Ecto.Enum, values: @kinds
     field :position, :integer
 
     belongs_to :time_slot, ElixirEvents.Program.TimeSlot
     belongs_to :track, ElixirEvents.Program.Track
+    belongs_to :talk, ElixirEvents.Talks.Talk
 
     timestamps()
   end

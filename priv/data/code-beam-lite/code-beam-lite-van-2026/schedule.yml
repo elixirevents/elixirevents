@@ -1,0 +1,100 @@
+tracks:
+  - name: "Main Stage"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2026-03-23"
+    position: 1
+    time_slots:
+      - start_time: "08:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome to the Conference"
+            kind: social
+      - start_time: "09:10"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "redistributing-our-systems"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "09:50"
+        end_time: "10:20"
+        sessions:
+          - talk_slug: "agentic-elixir"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "10:20"
+        end_time: "10:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:50"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "sparking-joy-tidying-up-graphql-schemas-with-custom-dsls"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:25"
+        end_time: "11:55"
+        sessions:
+          - talk_slug: "migrating-live-processes-with-zenoh"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:00"
+        end_time: "12:30"
+        sessions:
+          - talk_slug: "concurrency-understanding-the-beam-limits"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:30"
+        end_time: "13:30"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:30"
+        end_time: "14:00"
+        sessions:
+          - talk_slug: "stealing-from-ash-building-better-dsls-in-elixir"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "14:05"
+        end_time: "14:35"
+        sessions:
+          - talk_slug: "erlang-distribution-over-amqp"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "14:40"
+        end_time: "15:10"
+        sessions:
+          - talk_slug: "let-elixir-into-your-home-kit"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:10"
+        end_time: "15:30"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "15:30"
+        end_time: "16:00"
+        sessions:
+          - talk_slug: "bridging-the-gap-with-lustre-and-universal-components"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:05"
+        end_time: "16:35"
+        sessions:
+          - talk_slug: "templating-meta-programming-and-meta-prompting"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:35"
+        end_time: "16:45"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

@@ -1,0 +1,17 @@
+- name: "Global Community Support & Lanyard Sponsor"
+  level: 1
+  sponsors:
+    - slug: "hiive"
+      badge: lanyard
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "grox-io"
+    - slug: "erlang-solutions"
+
+- name: "Silver Sponsors"
+  level: 3
+  sponsors:
+    - slug: "addigence"
+    - slug: "tito"

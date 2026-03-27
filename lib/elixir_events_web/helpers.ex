@@ -270,6 +270,41 @@ defmodule ElixirEventsWeb.Helpers do
   def workshop_format_label(%{format: format}),
     do: format |> to_string() |> String.replace("_", " ")
 
+  @doc """
+  Extract back link info from a URI string's query params.
+  Returns `{path, title}` or `nil` if no back_to param present.
+
+  Only allows local paths (starting with /) to prevent open redirect.
+  """
+  def parse_back_link(uri) when is_binary(uri) do
+    case URI.parse(uri) do
+      %{query: query} when is_binary(query) ->
+        params = URI.decode_query(query)
+        path = params["back_to"]
+        title = params["back_to_title"]
+
+        if path && String.starts_with?(path, "/") do
+          {path, title}
+        end
+
+      _ ->
+        nil
+    end
+  end
+
+  def parse_back_link(_), do: nil
+
+  @doc """
+  Build a path with back_to query params appended.
+  """
+  def with_back_link(path, back_to, back_to_title \\ nil) do
+    params =
+      [{"back_to", back_to}]
+      |> then(fn p -> if back_to_title, do: p ++ [{"back_to_title", back_to_title}], else: p end)
+
+    "#{path}?#{URI.encode_query(params)}"
+  end
+
   @doc "Render Markdown text as safe HTML"
   def render_markdown(nil), do: ""
   def render_markdown(""), do: ""

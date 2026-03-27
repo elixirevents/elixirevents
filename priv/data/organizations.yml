@@ -97,3 +97,27 @@
   website: "https://swmansion.com"
   description: "Software development and consultancy company specializing in React Native, Elixir, and AI"
   logo_url: "https://elixirconf.com/assets/images/sponsors/Software Mansion - Pozytyw - S - Left-Top.png"
+
+- name: "Hiive"
+  slug: "hiive"
+  website: "https://www.hiive.com"
+  description: "Pre-IPO marketplace for private stock trading"
+  logo_url: "https://codebeamvancouver.com/assets/images/sponsors/Hiive.png"
+
+- name: "Grox.io"
+  slug: "grox-io"
+  website: "https://grox.io"
+  description: "Online learning platform for Elixir and functional programming"
+  logo_url: "https://codebeamvancouver.com/assets/images/sponsors/Groxio%20Logo%20transparent%20500x250@72dpi.png"
+
+- name: "Addigence"
+  slug: "addigence"
+  website: "https://addigence.com"
+  description: "Technology consulting and software development"
+  logo_url: "https://codebeamvancouver.com/assets/images/sponsors/Addigence%20Logo%20Color.png"
+
+- name: "Tito"
+  slug: "tito"
+  website: "https://ti.to"
+  description: "Event ticketing and registration platform"
+  logo_url: "https://codebeamvancouver.com/assets/images/sponsors/tito-small.png"

@@ -112,7 +112,13 @@ config :lotus,
 
 config :elixir_events, Oban,
   repo: ElixirEvents.Repo,
-  queues: [search: 5]
+  queues: [search: 5, default: 5],
+  plugins: [
+    {Oban.Plugins.Cron,
+     crontab: [
+       {"0 1 * * *", ElixirEvents.Events.EventStatusWorker}
+     ]}
+  ]
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason

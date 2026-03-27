@@ -48,7 +48,9 @@ defmodule ElixirEventsWeb.EventLive.Show do
 
         schedule_days =
           Program.list_schedule_days(event.id)
-          |> ElixirEvents.Repo.preload(time_slots: [sessions: :track])
+          |> ElixirEvents.Repo.preload(
+            time_slots: [sessions: [:track, talk: [talk_speakers: :profile]]]
+          )
 
         tracks = Program.list_tracks(event.id)
         speakers = Talks.list_speakers_for_event(event.id)

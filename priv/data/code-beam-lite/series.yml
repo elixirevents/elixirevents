@@ -7,4 +7,10 @@ website: "https://codesync.global/conferences/"
 description: "One-day community-driven conferences celebrating the BEAM ecosystem, hosted in cities around the world."
 social_links:
   - platform: twitter
-    url: "https://twitter.com/CodeBEAMio"
+    url: "https://x.com/codebeamio"
+  - platform: youtube
+    url: "https://www.youtube.com/c/CodeSync"
+  - platform: bluesky
+    url: "https://bsky.app/profile/codebeam.bsky.social"
+  - platform: linkedin
+    url: "https://www.linkedin.com/company/code-sync/"

@@ -1,0 +1,166 @@
+## Talks
+
+- title: "Agentic Elixir"
+  slug: "agentic-elixir"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    Yeah yeah yeah agents and AI and LLMs. It’s one of those talks.
+
+    Coding agents, for now and obviously, are changing how we write software. How do these weird machinations fare against Elixir? In this talk, I’ll explore what makes Elixir uniquely suited to agentic workflows and where it falls short.
+
+    We’ll see why a few seconds in test suite startup time compound into minutes and hours of agent time, and a bunch more things like that. You’ll learn practical techniques for optimizing your Elixir codebase for having the best possible agentic experience (and, who knows, pleasing the agent robots in case the revolution ever comes).
+
+    A final disclaimer: I promise I’m not an AI fanatic—it’s a tool and I just try to get decent at using that tool. And I typed that em-dash back there, it wasn’t a robot.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - ai
+
+- title: "Redistributing Our Systems. Erlang's Enduring Lessons for Local-First"
+  slug: "redistributing-our-systems"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 45
+  abstract: |
+    Elixir developers know metaprogramming: writing code that writes code. What if we applied the same thinking to AI prompts?
+
+    Metaprompting is creating prompts that write and persist other prompts. Just as Elixir’s metaprogramming generates context-appropriate code, metaprompts generate context-appropriate instructions for AI assistants. This talk draws high-level comparisons between programming in Elixir and programming with Claude.
+
+    Through examples like scout/plan/build/QA workflows, you’ll see how the same patterns that make Elixir code elegant—composition, clear responsibilities, reusable abstractions—also make AI-assisted development reliable. Learn to think about prompt engineering as a programming discipline by applying principles you already know: small focused pieces, context awareness, and generated artifacts that persist across sessions. developer joy.
+  speakers:
+    - robertvirding
+    - brooklynzelenka
+  topics:
+    - erlang
+    - distribution
+
+- title: "Templating, Meta-programming, and Meta-prompting"
+  slug: "templating-meta-programming-and-meta-prompting"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    Erlang was designed for reliability in telephone switches, but its core principles — isolated processes, message passing, “let it crash supervision — anticipated problems we’re only now grappling with at scale. Four decades later, these ideas are finding new expression in local-first software: apps that work offline, sync peer-to-peer, and put users back in control of their data.
+
+    In this joint keynote, Robert Virding (Erlang co-creator) and Brooke Zelenka trace the intellectual lineage from telecom switches to CRDTs and capabilities. They’ll explore how Erlang’s fault-tolerance model maps onto modern challenges, distributed security, and systems that continue to work offline. The cloud promised to simplify distributed systems; instead concentrated in a handful of companies; perhaps the answers we need were hiding in a language designed for phone switches all along.
+  speakers:
+    - brucetate
+  topics:
+    - elixir
+    - ai
+
+- title: "Bridging the gap with Lustre and Universal Components"
+  slug: "bridging-the-gap-with-lustre-and-universal-components"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "You might have heard Gleam compiles to JavaScript, and maybe you’ve even heard it has a frontend framework called Lustre. But did you know Lustre can be used to author Web Components you can use anywhere, or that you can build real-time server components à la LiveView? In this talk we’ll learn about “Universal Components” in Lustre and how you can leverage the patterns and concepts you’re already familiar with from the BEAM to build interactive apps without touching a package.json."
+  speakers:
+    - hayleighthompson
+  topics:
+    - gleam
+
+- title: "Concurrency, understanding the BEAM limits"
+  slug: "concurrency-understanding-the-beam-limits"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    The goal of this talk is to understand how the BEAM runtime works in order to make better design decisions in concurrent systems.
+
+    The BEAM is known for its powerful concurrency model based on lightweight processes; however, this doesn’t mean that concurrency is infinite or cost-free. Starting with a brief historical overview, we will analyze why the model was designed this way and what the real costs associated with processes are (memory usage, garbage collection, etc).
+
+    The aim is to lay the technical foundation for maximizing the potential of the VM, understanding that, although concurrency in BEAM is easy and cheap to achieve, it is always limited by the actual capacity of the system.
+  speakers:
+    - lorenamireles
+  topics:
+    - concurrency
+
+- title: "Stealing from Ash: Building Better DSLs in Elixir"
+  slug: "stealing-from-ash-building-better-dsls-in-elixir"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 30
+  abstract: "This talk looks at how Elixir developers can simplify complex workflows by rethinking how we express composition. Ash Framework offers a compelling model: a DSL that feels like a pipeline but prioritizes intent and remains ergonomic in the way Elixir developers prefer to write code. We’ll look at how Elixir’s simple pipeline behaves once branching and error handling enter the picture and explore a solution that continues to prioritize intent and clarity."
+  speakers:
+    - josephkoski
+  topics:
+    - elixir
+
+- title: "Erlang Distribution over AMQP"
+  slug: "erlang-distribution-over-amqp"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: "Learn about how we leveraged AMQP as the transport for distributed Erlang and how you might build your own transport if you wish."
+  speakers:
+    - jamesaimonetti
+  topics:
+    - erlang
+    - distribution
+
+- title: "Let Elixir into your Home(Kit)"
+  slug: "let-elixir-into-your-home-kit"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    This talk introduces HAP, an Elixir library that allows you to add HomeKit support to Elixir applications, allowing them to be controlled directly from the native UI built into every iOS device. The HomeKit standard supports a wide variety of devices types such as lighting, HVAC control, security systems, and a great many more. HAP lets your embedded app look like any of these device types within the HomeKit ecosystem, giving you some serious UI superpowers for very little effort.
+
+    We’ll be introducing HAP and also taking a number of diversions along the way:
+
+    - Examples of working with low-level cryptography in Elixir
+    - Useful patterns for supervising library-based processes
+    - A 10000’ foot overview of hardware control in Nerves
+    - Binary pattern matching for fun & profit
+    - Amateur-level on-stage theatrics
+  speakers:
+    - mattrudel
+  topics:
+    - elixir
+    - embedded
+    - libraries
+
+- title: "Sparking Joy - Tidying up GraphQL schemas with custom DSLs"
+  slug: "sparking-joy-tidying-up-graphql-schemas-with-custom-dsls"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    DSLs are a common tool in programming narrow down complex concepts into digestible pieces. We often use them without thinking of them as DSLs, but chances are most Elixir codebases will interact with DSLs one way or another - Ecto, Plug, and even CSS.
+
+    At Hiive, we’ve used GraphQL to power our frontends place since inception. Our schemas have grown organically with the business, but have also grown somewhat unwieldily. We used the power of Spark (the library that makes Ash work) to provide some opinionated guardrails, improve our error handling, tidy up our schema definitions, and improve developer joy.
+  speakers:
+    - nicholasgeraedts
+  topics:
+    - elixir
+
+- title: "Migrating live processes with Zenoh in widely distributed network"
+  slug: "migrating-live-processes-with-zenoh"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    It is relatively easy to migrate running Elixir/Erlang processes between BEAM VMs on an Erlang Cluster. However, configuring an Erlang cluster across a wide-area distributed environment is not necessarily straightforward. For example, NAPT is troublesome.
+
+    Not only routers and firewalls, but also Carrier Grade NAPT (CGN), introduced by ISPs due to IPv4 address exhaustion, prevent clustering of BEAM nodes across different networks under different CGNs.
+
+    Industrial systems often employ the Publisher/Subscriber (Pub/Sub) communication method. Using Pub/Sub enables more flexible process migration on a widely distributed network. We demonstrate that using Eclipse Zenoh for Pub/Sub communication allows flexible migration of GenServer processes.
+  speakers:
+    - yutakakikuchi
+  topics:
+    - erlang
+    - distribution

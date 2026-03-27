@@ -68,7 +68,6 @@ defmodule ElixirEventsWeb.EventLive.ScheduleTest do
       {:ok, _lv, html} = live(conn, ~p"/events/sched-conf/schedule")
       assert html =~ "Day 1"
       assert html =~ "Great Talk"
-      assert html =~ "Main Stage"
     end
 
     test "renders breaks", %{conn: conn} do

@@ -50,7 +50,7 @@ defmodule ElixirEvents.Events do
     |> maybe_filter_by_kinds(opts[:kinds])
     |> maybe_search(opts[:search])
     |> where([e], e.start_date >= ^today)
-    |> where([e], e.status not in [:cancelled, :completed])
+    |> where([e], e.status not in [:ongoing, :cancelled, :completed])
     |> by_date_asc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
@@ -64,11 +64,32 @@ defmodule ElixirEvents.Events do
     |> listed_events_only()
     |> maybe_filter_by_kinds(opts[:kinds])
     |> maybe_search(opts[:search])
-    |> where([e], e.start_date < ^today or e.status == :completed)
+    |> where([e], e.start_date < ^today or e.status in [:completed, :ongoing])
     |> by_date_desc()
     |> maybe_preload(opts[:preload])
     |> maybe_limit(opts[:limit])
     |> Repo.all()
+  end
+
+  def start_ongoing_events do
+    today = Date.utc_today()
+
+    from(e in Event,
+      where: e.start_date <= ^today,
+      where: e.end_date >= ^today,
+      where: e.status in [:announced, :confirmed]
+    )
+    |> Repo.update_all(set: [status: :ongoing, updated_at: DateTime.utc_now()])
+  end
+
+  def complete_past_events do
+    today = Date.utc_today()
+
+    from(e in Event,
+      where: e.end_date < ^today,
+      where: e.status not in [:completed, :cancelled]
+    )
+    |> Repo.update_all(set: [status: :completed, updated_at: DateTime.utc_now()])
   end
 
   def count_events do

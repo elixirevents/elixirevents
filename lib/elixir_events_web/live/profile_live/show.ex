@@ -9,7 +9,7 @@ defmodule ElixirEventsWeb.ProfileLive.Show do
   end
 
   @impl true
-  def handle_params(%{"handle" => handle}, _uri, socket) do
+  def handle_params(%{"handle" => handle}, uri, socket) do
     case Profiles.get_profile_by_handle(handle) do
       nil ->
         {:noreply,
@@ -31,13 +31,21 @@ defmodule ElixirEventsWeb.ProfileLive.Show do
         current_user = get_current_user(socket)
         claim_state = get_claim_state(current_user, profile)
 
+        {back_to, back_to_title} =
+          case ElixirEventsWeb.Helpers.parse_back_link(uri) do
+            {path, title} -> {path, title}
+            nil -> {nil, nil}
+          end
+
         {:noreply,
          socket
          |> assign(:page_title, profile.name)
          |> assign(:profile, profile)
          |> assign(:talks, talks)
          |> assign(:workshops, workshops)
-         |> assign(:claim_state, claim_state)}
+         |> assign(:claim_state, claim_state)
+         |> assign(:back_to, back_to)
+         |> assign(:back_to_title, back_to_title)}
     end
   end
 
