@@ -196,7 +196,9 @@
         <p class="text-xs text-base-content/50 mt-1">
           {date_range(workshop)} · {event_duration(workshop)}
           <span :if={workshop.workshop_trainers != []}>
-            · {workshop.workshop_trainers |> Enum.sort_by(& &1.position) |> Enum.map_join(", ", & &1.profile.name)}
+            · {workshop.workshop_trainers
+            |> Enum.sort_by(& &1.position)
+            |> Enum.map_join(", ", & &1.profile.name)}
           </span>
         </p>
       </.link>
