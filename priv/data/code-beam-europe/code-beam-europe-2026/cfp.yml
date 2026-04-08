@@ -1,3 +1,6 @@
 - name: "Call for Speakers"
   url: "https://sessionize.com/code-beam-europe-2026/"
   kind: talks
+  open_date: "2026-04-02"
+  close_date: "2026-05-31"
+  description: "Submit talks for Code BEAM Europe 2026. 20-minute or 40-minute in-person speaking slots with optional Q&A, with both in-person and virtual audiences."
