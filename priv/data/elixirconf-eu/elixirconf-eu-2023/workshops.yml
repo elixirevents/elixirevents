@@ -1,0 +1,83 @@
+- title: "Phoenix Application Security"
+  slug: "workshop-phoenix-application-security"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2023-04-18"
+  end_date: "2023-04-18"
+  format: online
+  description: |
+    When deploying your Phoenix application, it seems like there is a never ending list of security problems to worry about. XSS, CSRF, RCE, timing attacks, the list of acronyms and jargon goes on. How should you get started securing your Phoenix app? What is worth focusing on?
+
+    This training will be an introduction to the web application security concepts most relevant to Phoenix applications, common vulnerabilities, and recommended best practices.
+
+    Training objectives:
+
+    - Introduce web application security vulnerabilities, and how they occur in Phoenix applications
+    - Show vulnerable code in Elixir/Phoenix, and have students run the code locally to understand how it works
+    - Demonstrate tools to prevent and fix these vulnerabilities
+  target_audience: "Developers with prior experience with Elixir and Phoenix."
+  trainers:
+    - michaellubas
+  topics:
+    - elixir
+    - phoenix
+
+- title: "Concurrent Data Processing In Elixir"
+  slug: "workshop-concurrent-data-processing-in-elixir"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2023-04-19"
+  end_date: "2023-04-19"
+  venue_slug: altis-grand-hotel
+  description: |
+    A full-day training on concurrent data processing patterns in Elixir, covering the tools and techniques for building robust, scalable data pipelines.
+  trainers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - otp
+    - concurrency
+
+- title: "Create An Airbnb Clone Using Phoenix Liveview"
+  slug: "workshop-create-an-airbnb-clone-using-phoenix-liveview"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2023-04-19"
+  end_date: "2023-04-19"
+  venue_slug: altis-grand-hotel
+  description: |
+    Fast track your learning journey in Phoenix LiveView by building a clone of AirBnB using the cool new features in Phoenix 1.7 in a practical, task oriented exercise covering every single feature in LiveView. The training is designed to give you confidence in building your next LiveView project while giving a meaningful way to understand these cool features of Phoenix 1.7 and in LiveView in a practical context.
+
+    Attendees will learn all the features of Phoenix LiveView. They will get a complete code base of a working mini-AirBnB clone to learn. Attendees are expected to have basic Elixir language, but by the end of the training, they will be able to understand the full flow of control from request to response with all the Elixir magic in-between demystified.
+  target_audience: "Developers with basic understanding of Elixir and Phoenix. Phoenix 1.7 installed with PostgreSQL."
+  trainers:
+    - shankardhanasekaran
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+
+- title: "Dive Into WebRTC With Jellyfish And Membrane"
+  slug: "workshop-dive-into-webrtc-with-jellyfish-and-membrane"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2023-04-19"
+  end_date: "2023-04-19"
+  venue_slug: altis-grand-hotel
+  description: |
+    In last few years, WebRTC became the technology that runs the world. Classes, stand-ups, conferences - everything can now became remote mainly thanks to this standard.
+
+    During this training you'll see how to use Elixir-based media server Jellyfish built on top of Membrane Framework to create your own WebRTC-enabled app. We'll start with the short introduction to the WebRTC itself, then we'll set-up a Jellyfish server and next we'll explore the opportunities to extend its capabilities with Membrane pipelines.
+
+    Training objectives:
+
+    - Learn the basics of WebRTC technology
+    - See Jellyfish in action
+    - Explore building a web app with real-time video communication
+  target_audience: "Developers with Elixir skills and basics of writing web apps in Phoenix with JavaScript/TypeScript. macOS or Linux required."
+  trainers:
+    - bartoszblaszkow
+    - radoslawszuma
+  topics:
+    - elixir
+    - phoenix

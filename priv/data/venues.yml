@@ -238,6 +238,18 @@
   latitude: 36.7194
   longitude: -4.4193
 
+- name: "Altis Grand Hotel"
+  slug: "altis-grand-hotel"
+  street: "Rua Castilho 11"
+  city: "Lisbon"
+  country: "Portugal"
+  country_code: "PT"
+  postal_code: "1269-072"
+  latitude: 38.7223
+  longitude: -9.1489
+  website: "https://www.altishotels.com/EN/HotelAltisLisboa/"
+  description: "A five-star hotel in the heart of Lisbon, offering elegant event spaces and modern conference facilities on the prestigious Rua Castilho."
+
 - name: "Fabrik DUMBO"
   slug: "fabrik-dumbo"
   street: "20 Jay Street, Suite 218"

@@ -170,7 +170,7 @@
 - name: "Jonatan Klosko"
   slug: "jonatanklosko"
   headline: "Creator of Livebook"
-  bio: "Creator of Livebook and core contributor to the Elixir ecosystem at Dashbit."
+  bio: "Jonatan is an open source developer working at Dashbit, the creator of Livebook, Kino and co-creator of Bumblebee. He also wrote the Elixir grammar for Tree-sitter to make your code on GitHub look more shiny. Jonatan overdoses tea on daily basis and enjoys throwing cat images into Neural Networks. He used to solve the Rubik’s Cube quickly, now it takes him several seconds."
   social_links:
     - platform: github
       url: "https://github.com/jonatanklosko"
@@ -771,8 +771,13 @@
 
 - name: "Bikram Chatterjee"
   slug: "bikramchatterjee"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "DevOps Solution Architect hacking with Elixir"
+  bio: |
+    Bikram with his years of experience in Embedded and Mobile Application has started his functional programming journey over a decade ago in building Beam VM based high performance and distributed Telecom solutions.
+
+    Starting in traditional messaging domain, where he implemented SMS/MMS proxy servers, a high performance Oracle DB driver, a CRM platform, a configuration synchronisation platform and a couple of other application-level solutions based on Erlang OTP.
+
+    Today he is a DevOps Solution Architect at Helvetia Insurance in Switzerland and working in a team of Elixir experts on API platform automation engineering, His team is using Elixir to orchestrate multiple complex infrastructure provisioning pipelines.
 
 - name: "Boris Okner"
   slug: "borisokner"
@@ -3107,8 +3112,13 @@
 
 - name: "Marlus Saraiva"
   slug: "marlussaraiva"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Creator of Broadway, Surface and ElixirSense"
+  bio: "Marlus Saraiva is a Software Engineer with over 20 years of experience building systems and leading teams to deliver products in different domains and technologies. His work ranges from enterprise finance/accounting systems to open-source tools. Marlus currently enjoys being part of the R&D team at Dashbit creating exciting things like Broadway and Surface."
+  social_links:
+    - platform: github
+      url: https://github.com/msaraiva
+    - platform: twitter
+      url: https://x.com/MarlusSaraiva
 
 - name: "Phil Toland"
   slug: "philtoland"
@@ -3137,8 +3147,11 @@
 
 - name: "Susumu Yamazaki"
   slug: "susumuyamazaki"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "ZACKY at Univ. of Kitakyushu, Japan."
+  bio: "Susumu Yamazaki (ZACKY) is currently an Associate Professor at the University of Kitakyushu. One of his current research interests focuses on system and social implementation using Elixir, Phoenix, Nerves and Nx. He is a co-founder and creator of Pelemay series, and satellite image processing systems with Elixir."
+  social_links:
+    - platform: twitter
+      url: https://x.com/zacky1972
 
 - name: "Yuki Hisae"
   slug: "yukihisae"
@@ -3212,8 +3225,14 @@
 
 - name: "André Graf"
   slug: "andregraf"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "DevOps Solution Architect at Helvetia Insurance"
+  bio: |
+    André programmed on the Beam VM since over a decade. At first in the traditional messaging domain, where he implemented SMS/MMS proxy servers, MQTT brokers (VerneMQ), and a couple of other application-level proxy solutions based on Erlang OTP. Today he is part of the API platform engineering team at Helvetia Insurance where Elixir is used to orchestrate multiple complex provisioning pipelines.
+  social_links:
+    - platform: github
+      url: https://github.com/dergraf
+    - platform: twitter
+      url: https://x.com/der_graf
 
 - name: "Andrew Ek"
   slug: "andrewek"
@@ -3267,8 +3286,14 @@
 
 - name: "Arjun Gillard"
   slug: "arjungillard"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Founder Led Tech Recruitment"
+  bio: |
+    I help founders and technical leaders make fewer, better hiring decisions.
+
+    I am the Founder of AG Talent, a founder led tech recruitment partner working with startups, scaleups and high growth businesses across the UK, Europe and the US.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/arjgillard/
 
 - name: "Ashi Krishnan"
   slug: "ashikrishnan"
@@ -3287,8 +3312,15 @@
 
 - name: "Basile Nouvellet"
   slug: "basilenouvellet"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Founder & CTO @ Liveroom"
+  bio: "My name is Basile Nouvellet, I am a French Software Engineer with a passion for building web products. I have been using Elixir professionally for 5 years. After working at ING Innovation Lab in Amsterdam (The Netherlands) & at a fintech startup in Paris (France), I moved to Lisbon (Portugal) and started Liveroom Liveroom Liveroom/a href>, a new way to do product demos by instantly joining your prospect when screensharing on Google Meet."
+  social_links:
+    - platform: github
+      url: https://github.com/basilenouvellet
+    - platform: twitter
+      url: https://x.com/basilenouvellet
+    - platform: linkedin
+      url: https://www.linkedin.com/in/basilenouvellet/
 
 - name: "Beau Heubach"
   slug: "beauheubach"
@@ -3513,8 +3545,11 @@
 
 - name: "Federico Meini"
   slug: "federicomeini"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Backend software engineer"
+  bio: "With a wealth of experience in software engineering, leadership, and creative problem-solving, I excel in crafting elegant solutions to technical challenges. Driven by a passion for data, AI, user experience, and scalable system design, I am a product-minded engineer who seamlessly combines technical prowess with strategic insight."
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/fedemeini/
 
 - name: "Flora Petterson"
   slug: "florapetterson"
@@ -3543,8 +3578,14 @@
 
 - name: "Grace Wamunyu"
   slug: "gracewamunyu"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "CNRS - Université Paris Cité"
+  bio: |
+    Giuseppe Castagna received a PhD degree in theoretical computer science from the University Paris 7 on January 1994. The same year he was appointed research scientist of CNRS (Centre National de la Recherche Scientifique) and posted in the Computer Science Laboratory of the École Normale Supérieure de Paris. In 2001, he starts the “Programming Languages” group in École Normale Supérieure that he leads till fall 2006, when he is appointed senior research scientist of CNRS and posted the Institut de Recherche en Informatique Fondamentale (IRIF: Research Institute on the Foundations of Computer Science) of University Paris Cité. He was deputy director of IRIF from 2018 to 2022 and he has become director of the institute since January 2023.
+
+    His main research contributions are in the design and definition of typed programming languages.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/giuseppe-castagna/
 
 - name: "Greg Vaughn"
   slug: "gregvaughn"
@@ -3651,10 +3692,10 @@
   headline: "Software Developer"
   bio: "Software Developer"
 
-- name: "J. Rhodes"
+- name: "Jack Rhodes"
   slug: "jrhodes"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Engineering Manager"
+  bio: "Engineering Manager"
 
 - name: "Juliana Helena"
   slug: "julianahelena"
@@ -3683,8 +3724,14 @@
 
 - name: "Karoline Lende"
   slug: "karolinelende"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Software Engineer at Multiverse"
+  bio: |
+    Senior software engineer at Multiverse, supporting workforce transformation through upskilling and reskilling in data and AI. I love learning and using new technologies to positively impact society.
+
+    Background in civil and mechanical engineering, chartered with the Institution of Mechanical Engineers.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/karoline-lende-1b174461/
 
 - name: "Kate Travers"
   slug: "katetravers"
@@ -3708,8 +3755,16 @@
 
 - name: "Lars Hesel Christensen"
   slug: "larsheselchristensen"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Solution Architect"
+  bio: |
+    Lars has a master's degree in computer science from the University of Aarhus, and is currenly living in Basel, Switzerland.
+
+    He is experienced in Erlang, Elixir, Golang and distributed systems as well as with Java and object-oriented analysis and design. He has worked extensively with development in UNIX and Linux environments, mainly in projects for large embedded platforms. Further he has worked on several smaller embedded platforms, mostly featuring ARM processors.
+
+    Specialities: Elixir, Erlang, Golang, distributed systems, fault tolerance, Java, C, Android, DVCS, embedded programming, Linux and UNIX in general.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/larshesel/
 
 - name: "Libby Horacek"
   slug: "libbyhoracek"
@@ -3729,7 +3784,12 @@
 - name: "Luca Dei Zotti"
   slug: "lucadeizotti"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: "Born in 1986, starts playing with computers early thanks to his father. Actually, will probably not understand a thing until high school (ITIS, computer science), then forgets again everything while studying (again, computer science) at University of Udine for the first three years and Padua for the last two. Joins Athonet for the thesis, and remains there trying to remember how to develop software. Still trying."
+  social_links:
+    - platform: twitter
+      url: https://x.com/zoten_deschain
+    - platform: github
+      url: https://github.com/zoten
 
 - name: "Luciano Ramalho"
   slug: "lucianoramalho"
@@ -3808,8 +3868,13 @@
 
 - name: "Paul Valckenaers"
   slug: "paulvalckenaers"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior researcher at UCLL and KU Leuven"
+  bio: |
+    Paul Valckenaers is a senior researcher at UCLL and KU Leuven, Belgium. He is the author of “Design for the Unexpected” (Elsevier) revealing how to build IT systems that are knowledgeable about a world-of-interest without imposing constraints in the application domain. He became addicted to the BEAM after discovering how small the semantic gap between reality and software becomes when you switch to Erlang/OTP and Elixir.
+
+    Paul has applied his insights to manufacturing, supply networks, logistics, fleet robotics, agriculture, smart traffic, smart grids and healthcare. His designs provide a collective-predicting situation awareness for real-world activities executing on resources. They disclose what is possible. Undesirable courses-of-action are counter-acted by predicting their (lack of) performance.
+
+    Paul currently designs and implements embodied digital twins in STORY, a Horizon 2020 project on smart energy storage. These twins are digital co-workers that deliver in-depth interoperability by allowing to discover, observe and coordinate what is happening in energy installations.
 
 - name: "Pete Gamache"
   slug: "petegamache"
@@ -3873,8 +3938,13 @@
 
 - name: "Roland Tritsch"
   slug: "rolandtritsch"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "The Extreme Digital Nomad. Writing code. Always and everywhere."
+  bio: "Software Craftsman and Sofware Engineering Manager. Builder and runner of functional teams and functional systems (pun intended). Explorer of extreme digital nomading and remote-first cultures. Occasional blogger and talker/presenter."
+  social_links:
+    - platform: github
+      url: https://github.com/rolandtritsch
+    - platform: twitter
+      url: https://x.com/innolocity
 
 - name: "Rosemary Ledesma"
   slug: "rosemaryledesma"
@@ -3918,12 +3988,22 @@
 
 - name: "Shankar Dhanasekaran"
   slug: "shankardhanasekaran"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Founder & CTO, Talam, Auroville"
+  bio: |
+    Shankar Dhanasekaran (@shankardevy) is a software engineer with more than 15 years of experience in web technologies. His experience spans over Elixir, Phoenix, Ruby, Ruby on Rails, Python, Django, and a multitude of Javascript frameworks among other languages and frameworks he played with. In his career, Shankar has worked with several startups small and large from all over the world working directly under the C-level executives.
+
+    He is the author of Phoenix Inside Out book series, Founder & CTO, Talam, Auroville and an Elixir trainer working with both community level education for young adults to corporate training for Multinational Companies.
+
+    Shankar has previously taken training workshops and delivered talks in international conferences such as OpenCamps, New York (2018) and training at ElixirConf EU (2019). 2020-2022, he hasn’t travelled to any countries due to COVID restrictions though he was initially selected for training at ElixirConf EU 2020.
+  social_links:
+    - platform: github
+      url: https://github.com/shankardevy
+    - platform: twitter
+      url: https://x.com/shankardevy
 
 - name: "Shanti Chellaram"
   slug: "shantichellaram"
-  headline: "Software Developer"
+  headline: "Founder & CTO, Talam, Auroville"
   bio: "Software Developer"
 
 - name: "Sheharyar Naseer"
@@ -3933,8 +4013,13 @@
 
 - name: "Simon de Haan"
   slug: "simondehaan"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Turn.io"
+  bio: "Simon is the Co-founder and CTO for Turn.io. Simon is excited about technology, especially when it is applied to improve the lives of less privileged people. Growing up in the Middle East ruined him for the ordinary as those years left an unmistakable impression and set him on a direct course to be involved in community development, entrepreneurship and technology. Prior to Turn.io, Simon was the Chief Engineer for Praekelt.org, helping lead the launch of the world’s first nationally integrated mobile pregnancy registry for the South African Department of Health and subsequently launching the world’s first national health platform on the WhatsApp Business API."
+  social_links:
+    - platform: github
+      url: https://github.com/smn
+    - platform: twitter
+      url: https://x.com/smn
 
 - name: "Sophie Troy"
   slug: "sophietroy"
@@ -3978,8 +4063,14 @@
 
 - name: "Tom Calloway"
   slug: "tomcalloway"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Elixir Engineer"
+  bio: |
+    Leveraging Elixir, Phoenix, and LiveView to build full-stack web applications and other solutions.  Accustomed to remote, international teamwork.
+
+    With years of Ruby on Rails, Clojure, and Elixir software engineering experience, I have maintained both scale-challenged web applications and also launched new full-stack features tailored to smaller groups of specialized users.
+  social_links:
+    - platform: linkedin
+      url: https://www.linkedin.com/in/tomcalloway/
 
 - name: "Tonći Galić"
   slug: "toncigalic"
@@ -4028,8 +4119,8 @@
 
 - name: "Yosef Arbiv"
   slug: "yosefarbiv"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Engineering Group Lead"
+  bio: "Engineering Group Lead"
 
 - name: "Zac Barnes"
   slug: "zacbarnes"
@@ -5487,3 +5578,23 @@
       url: "https://github.com/genericjam"
     - platform: linkedin
       url: "https://www.linkedin.com/in/kevin-genericjam/"
+
+- name: "Vanessa Loviton"
+  slug: "vanessaloviton"
+  headline: "Backend Engineer at Andjaro"
+
+- name: "Michal Gibowski"
+  slug: "michalgibowski"
+  headline: "Engineering Team Lead at Andjaro"
+
+- name: "Daniel Silva"
+  slug: "danielsilva"
+  headline: "Product Engineer at Coverflex"
+
+- name: "Bartosz Błaszków"
+  slug: "bartoszblaszkow"
+  headline: "Media Engineer, Lead Architect of Membrane"
+
+- name: "Radosław Szuma"
+  slug: "radoslawszuma"
+  headline: "Software Engineer at Software Mansion"

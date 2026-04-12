@@ -1,0 +1,254 @@
+tracks:
+  - name: "Track 1"
+    color: "#6B46C1"
+    position: 1
+  - name: "Track 2"
+    color: "#2B6CB0"
+    position: 2
+  - name: "Track 3"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2023-04-20"
+    position: 1
+    time_slots:
+      - start_time: "07:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "09:20"
+        sessions:
+          - title: "Welcome to ElixirConf EU"
+            kind: social
+            track: "Track 1"
+
+      - start_time: "09:20"
+        end_time: "10:20"
+        sessions:
+          - talk_slug: "bringing-elixir-to-life"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "10:20"
+        end_time: "10:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "10:50"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "a-domain-specific-language-for-impact"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "functional-juniors-leveling-up-your-new-elixir-devs"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "11:30"
+        end_time: "12:00"
+        sessions:
+          - talk_slug: "remote-debugging-with-livebook"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "national-curriculum-goes-functional"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "12:10"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "building-livebook-desktop"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "the-journey-of-elixir-at-helvetia-insurance"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "12:40"
+        end_time: "14:10"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "14:10"
+        end_time: "14:40"
+        sessions:
+          - talk_slug: "optimizing-liveview-for-realtime-applications"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "from-start-up-to-unicorn-scaling-teams-impact-and-education-with-elixir"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "14:50"
+        end_time: "15:20"
+        sessions:
+          - talk_slug: "not-hotdog-revisited"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "quantum-doodle-digital-twins-for-everyday-activities"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "15:20"
+        end_time: "15:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "15:50"
+        end_time: "16:20"
+        sessions:
+          - talk_slug: "powerful-machine-learning-at-your-fingertips"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "building-an-interview-scheduler-in-liveview-a-newcomers-journey"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "16:45"
+        end_time: "17:15"
+        sessions:
+          - talk_slug: "lively-liveview-with-membrane"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "bringing-types-to-elixir"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "17:35"
+        end_time: "18:30"
+        sessions:
+          - title: "Lightning Talks"
+            kind: lightning_talk
+            track: "Track 1"
+
+      - start_time: "18:30"
+        end_time: "19:30"
+        sessions:
+          - title: "Socialising"
+            kind: social
+
+  - name: "Day 2"
+    date: "2023-04-21"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome to Day 2"
+            kind: social
+            track: "Track 1"
+
+      - start_time: "09:10"
+        end_time: "10:10"
+        sessions:
+          - talk_slug: "using-elixir-and-phoenix-to-build-a-city-software-infrastructure"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "10:10"
+        end_time: "10:40"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "10:40"
+        end_time: "11:10"
+        sessions:
+          - talk_slug: "real-time-product-analytics-with-liveview"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "safer-db-migrations-with-excellent-migrations"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "using-opentelemetry-to-troubleshoot-and-monitor-production-applications"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "11:20"
+        end_time: "11:50"
+        sessions:
+          - talk_slug: "wired-up"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "phoenix-beyond-cowboy"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "how-to-describe-robust-nifs"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "12:00"
+        end_time: "12:30"
+        sessions:
+          - talk_slug: "multitenant-web-applications-with-phoenix"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "electricsql"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "distributed-and-parallel-image-processing-on-livebook"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "12:30"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "14:00"
+        end_time: "14:30"
+        sessions:
+          - talk_slug: "dont-fight-the-monolith"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "gitops-on-steroids"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "understanding-elixir-compilation"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "14:40"
+        end_time: "15:10"
+        sessions:
+          - talk_slug: "change-data-capture-with-elixir-and-debezium"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "opening-a-black-box-observability-in-a-complex-system"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "phoenix-liveview-test-driven-development-by-example"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "15:10"
+        end_time: "15:40"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "15:40"
+        end_time: "16:10"
+        sessions:
+          - talk_slug: "building-a-framework"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "telemetry-now-what"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "16:20"
+        end_time: "17:20"
+        sessions:
+          - talk_slug: "the-road-to-liveview-1-0"
+            track: "Track 1"
+            kind: keynote
