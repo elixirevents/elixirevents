@@ -1,12 +1,13 @@
 name: "ElixirConf EU 2023"
 slug: "elixirconf-eu-2023"
+venue_slug: "altis-grand-hotel"
 kind: conference
 status: completed
-format: in_person
-start_date: "2023-06-22"
-end_date: "2023-06-23"
+format: hybrid
+start_date: "2023-04-20"
+end_date: "2023-04-21"
 timezone: "Europe/Lisbon"
 language: en
 location: "Lisbon, Portugal"
-website: "https://www.elixirconf.eu/2023"
+website: "https://www.elixirconf.eu"
 color: "#6B46C1"

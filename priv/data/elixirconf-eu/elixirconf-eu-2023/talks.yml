@@ -1,26 +1,30 @@
 ## Keynotes
 
-- title: "Keynote: Bringing Elixir to Life"
-  slug: "keynote-bringing-elixir-to-life"
+- title: "Bringing Elixir to Life"
+  slug: "bringing-elixir-to-life"
   kind: keynote
   language: en
   duration: 56
-  abstract: "00:00-01:00 Intro"
+  abstract: "The opening keynote talk by Elixir's creator, the one and only José Valim"
   speakers:
     - josevalim
   topics:
     - elixir
+    - type-system
+    - learning
+    - machine-learning
   recordings:
     - provider: youtube
       external_id: "xItzdrzY1Dc"
       url: "https://www.youtube.com/watch?v=xItzdrzY1Dc"
 
-- title: "Keynote: The Road To LiveView 1.0"
-  slug: "keynote-the-road-to-liveview-1-0"
+- title: The Road To LiveView 1.0"
+  slug: "the-road-to-liveview-1-0"
   kind: keynote
   language: en
   duration: 66
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    In this talk Chris McCord describes the journey of LiveView development from a tool which "just allows to print a validation error in a form on your website" to one in which you can build fully fledged apps à la Spotify. The key changes to LiveView are backed up with rationale, code examples and live demos, to ultimately show the full power of LiveView 1.0 and a some hints on what's to come afterwards.
   speakers:
     - chrismccord
   topics:
@@ -36,7 +40,8 @@
   kind: keynote
   language: en
   duration: 59
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    Discover the fascinating journey of building the software infrastructure for Auroville, a futuristic city with a population of 50K, where Elixir and Phoenix drive every interaction.
   speakers:
     - shankardhanasekaran
   topics:
@@ -52,10 +57,10 @@
 - title: "Powerful Machine Learning at Your Fingertips"
   slug: "powerful-machine-learning-at-your-fingertips"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 28
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "Two years ago Nx laid the foundation for efficient numerical computation in Elixir. Soon followed Axon bringing the building blocks for training and running Neural Networks. At this talk we will focus on a new part of the story - Bumblebee - and we will see how using powerful models is just a few lines of code (or clicks) away."
   speakers:
     - jonatanklosko
   topics:
@@ -72,12 +77,19 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    A showcase of what the Membrane Framework enables us to do in terms of live video, audio and such by Lars Wikman, Founder of Underjord and a member of BEAM Radio team.
+
+    LiveView lets us do interactivity and fun realtime presentations. Membrane lets us feed LiveView with video, audio and data such as audio levels, thumbnails and other stream processing goodies. This talk should cover some set of these parts.
+
+    Depending on where progress is at in the surrounding ecosystem there might be a touch of Nx and ML, evision and OpenCV or we keep it approachable with focus on video and audio.
   speakers:
     - larswikman
   topics:
-    - elixir
+    - phoenix
     - liveview
+    - webrtc
+    - machine-learning
   recordings:
     - provider: youtube
       external_id: "K51fj1JGQEY"
@@ -86,10 +98,10 @@
 - title: "Erlang Ecosystem Foundation"
   slug: "erlang-ecosystem-foundation"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 9
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "What's new in Erlang Ecosystem Foundation?"
   speakers:
     - francescocesarini
     - alistairwoodman
@@ -107,7 +119,7 @@
   level: intermediate
   language: en
   duration: 5
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "Communication Between Nerves and Phoenix Server"
   speakers:
     - paulwilson
   topics:
@@ -122,15 +134,16 @@
 - title: "Functional Juniors: Leveling Up Your New Elixir Devs"
   slug: "functional-juniors-leveling-up-your-new-elixir-devs"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 32
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "All about the junior perspective on learning Elixir for seniors to consider when creating project objectives."
   speakers:
     - savannahmanning
     - gracewamunyu
   topics:
     - elixir
+    - learning
   recordings:
     - provider: youtube
       external_id: "lQtQO20hj0E"
@@ -139,10 +152,15 @@
 - title: "From Start-up to Unicorn: Scaling Teams, Impact & Education with Elixir"
   slug: "from-start-up-to-unicorn-scaling-teams-impact-and-education-with-elixir"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 35
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    As an education business aiming to provide an alternative to university through professional apprenticeships, Multiverse has been running on Elixir since 2016. The past two years have seen our engineering team grow 6X from 10 to 60 engineers, and counting!
+
+    That kind of growth is demanding at the best of times, but adding the factor of building our apps with Elixir presented a special challenge for us as engineering managers looking to sustainably grow an effective, happy team around a niche programming language.
+
+    In this talk, Jack Rhodes, an Engineering Manager at Multiverse gives insights into the challenges they faced in growing their team, how they sought to overcome them, and the lessons they’ve learnt along the way.
   speakers:
     - jrhodes
   topics:
@@ -155,10 +173,20 @@
 - title: "The Journey of Elixir at Helvetia Insurance"
   slug: "the-journey-of-elixir-at-helvetia-insurance"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 31
-  abstract: "Helvetia recently adopted Elixir to replace several complex Jenkins pipelines that powered a Git-Ops based self-service for governance, provisioning and configuration of our Kafka streaming platform."
+  abstract: |
+    Helvetia recently adopted Elixir to replace several complex Jenkins pipelines that powered a Git-Ops based self-service for governance, provisioning and configuration of our Kafka streaming platform.
+
+    The initial success opened the possibility to implement further self-services with similar features for our API platform as well as supporting services in Elixir.
+
+    During this talk André Graf tries to answer the following questions:
+
+    Why did they choose Elixir for this journey and why not something else?
+    Why did they not stay with technologies already established in the organization?
+    How did the organization see the benefit of adopting Elixir as the best fit for this domain?
+    How did the organization get amazed by the power of Elixir?
   speakers:
     - andregraf
   topics:
@@ -174,7 +202,8 @@
   level: intermediate
   language: en
   duration: 33
-  abstract: "Call for Talks is open and you can also join the waiting list for access to limited Very Early Bird pricing - don't miss the cheapest tickets!"
+  abstract: |
+    Phoenix LiveView has a well-deserved reputation for being highly efficient regarding server/client payload exchange and resource consumption. Most of that efficiency relies on keeping track of templates’ diffs and components’ assigns changes. For most common applications, developers usually don’t need to worry about such implementation details. However, when working with real-time applications that demand highly frequent updates, a deeper knowledge on the subject may be the key to avoid performance issues in production. In this talk, Marlus Saraiva will discuss the basic concepts behind Liveview’s diff tracking and component change tracking, as well as present several techniques that explore those concepts to improve the overall performance of your live views.
   speakers:
     - marlussaraiva
   topics:
@@ -188,15 +217,16 @@
 - title: "Bringing Types to Elixir"
   slug: "bringing-types-to-elixir"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 40
-  abstract: "Call for Talks is open and you can also join the waiting list for access to limited Very Early Bird pricing - don't miss the cheapest tickets!"
+  abstract: "Set-theoretic types, and how they are uniquely suited to represent Elixir programs: Guillaume Duboc  discusses the potential benefits of a type system designed for Elixir, such as detecting common bugs and providing direct feedback on code quality."
   speakers:
     - giuseppecastagna
     - guillaumeduboc
   topics:
     - elixir
+    - type-system
   recordings:
     - provider: youtube
       external_id: "gJJH7a2J9O8"
@@ -205,10 +235,10 @@
 - title: "National Curriculum Goes Functional"
   slug: "national-curriculum-goes-functional"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 28
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "A talk by Michał Ślaski: co-Founder of koderki.pl - a teaching practice aimed at creating educational content and lesson scenarios. Manager at Google Cloud, father of two and frequent conference speaker."
   speakers:
     - michaslaski
   topics:
@@ -224,7 +254,10 @@
   level: intermediate
   language: en
   duration: 29
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    Local-first is a new paradigm for developing apps, where you code against an embedded database in the client and have reactive, realtime, multi-user sync in the background.
+
+    ElectricSQL is a new, open-source, platform for local-first development that works with standard Postgres and SQLite. This talk introduces the ElectricSQL system and dives into its core replication technology, developed in Elixir.
   speakers:
     - jamesarthur
   topics:
@@ -237,10 +270,15 @@
 - title: "Building an Interview Scheduler in LiveView: A Newcomer's Journey"
   slug: "building-an-interview-scheduler-in-liveview-a-newcomers-journey"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 24
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    "Have you dabbled with Phoenix LiveView, but sometimes hit roadblocks that made you think it couldn’t do what you wanted? How come Chris McCord makes it look so easy, and when you try it yourself it’s so hard? As a new Elixir dev working on my first LiveView feature, that’s how I felt.
+
+    The first LiveView feature I built was an interview availability scheduler. That is, a form where a user can add, delete and edit timeslots for which hiring managers are available for interviews. It’s been done many times before, right? Shouldn’t be that hard, right?
+
+    In this session I will talk about the problems I faced building this feature, and what my team and I did to overcome them. It took multiple PRs, fruitless experimentation with JS hooks, and a team-wide hackathon - but we got there in the end! These are my key takeaways for those who want to take advantage of all the great features LiveView has to offer, and build some really cool and complex stuff"
   speakers:
     - karolinelende
   topics:
@@ -251,15 +289,20 @@
       external_id: "eLKwocSVUAI"
       url: "https://www.youtube.com/watch?v=eLKwocSVUAI"
 
-- title: "Wired Up!"
+- title: "Wired Up! Using ecto without schemas"
   slug: "wired-up"
   kind: talk
   level: intermediate
   language: en
   duration: 28
-  abstract: "Schemas are an important part of using ecto, but sometimes you don't know the content to handle in advance. Get to know some of the important features ecto provides, which allow it to remain a useful toolkit even when skipping such an integral part of it."
+  abstract: |
+    Schemas are an important part of using ecto, but sometimes you don’t know the content to handle in advance. Get to know some of the important features ecto provides, which allow it to remain a useful toolkit even when skipping such an integral part of it.
+
+    Learn how to provide a custom query language backed by ecto and how to use it for querying database tables unknown at compile time.
+
+    Benjamin Milde takes some of his favourite CMS’ – ProcessWire – underlying implementations for data querying and storage layout and reimagine those using ecto.
   speakers:
-    - filipecabaco
+    - benjaminmilde
   topics:
     - elixir
     - ecto
@@ -274,7 +317,12 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Peter Ullrich:"
+  abstract: |
+    Microservices often seem like the perfect solution to all company problems. Teams won’t interfere with each other, everything becomes scalable, and only happiness lies ahead. But software architectures must solve - and obey - social requirements just as much as technical ones.
+
+    Based on my professional experience with monoliths, modular monoliths, and microservices, I will discuss the social implications - and benefits - of choosing each architecture. I’ll answer the questions: “Which architecture suits my team structure best?” and “Which team structure suits my architecture best?”.
+
+    You will also learn which libraries help you to implement each architecture and which pitfalls to avoid. Think “Boundary” for a Modular Monolith or “RabbitMQ + Commanded” for Microservices. This talk will be a complete guide for choosing and implementing each architecture with Elixir.
   speakers:
     - peterullrich
   topics:
@@ -287,7 +335,7 @@
 - title: "Building Livebook Desktop"
   slug: "building-livebook-desktop"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 33
   abstract: "In this talk you'll learn how we build Livebook Desktop and what challenges we faced. The underlying technology is all open source and you will learn how to distribute your own application on desktops too!"
@@ -307,13 +355,17 @@
   level: intermediate
   language: en
   duration: 23
-  abstract: "LiveView brought a new paradigm for building real-time web applications, relying on one of the most appreciated feature of Elixir: its runtime, the BEAM. In particular, its observability features are appreciated, mostly for debugging purposes like being able to inspect the system behavior, live, in "
+  abstract: |
+    LiveView brought a new paradigm for building real-time web applications, relying on one of the most appreciated feature of Elixir: its runtime, the BEAM. In particular, its observability features are appreciated, mostly for debugging purposes like being able to inspect the system behavior, live, in production.
+
+    In this talk, I want to show how those tools can also be used to build better products, enabling real-time analytics & direct feedbacks with users. LiveView now enables the builder to interact with its users, live, while they are using the product.
+
+    We will see how to build an internal administration interface, where the builder can interact real-time with users. For example, see which user is online (by listing root LiveViews processes), what are their interactions with the product (through the socket assigns) or how to push them live messages (through @flash messages) or one-off polls regarding their usage of the product or the next feature they want to see built.
   speakers:
     - basilenouvellet
   topics:
     - elixir
     - liveview
-    - erlang
   recordings:
     - provider: youtube
       external_id: "T_ET9_BGs1M"
@@ -325,7 +377,7 @@
   level: intermediate
   language: en
   duration: 33
-  abstract: "Abstract:"
+  abstract: "Livebook is useful for a wide range of applications. The BEAM ships with a lot of playful goodies for managing distribution but also for manipulating the software itself. Sometimes happens that you have partial access to the software that is running on some premise and partial power over the release lifecycle of the software itself. Still, you need to understand what’s going on there, possibly without disrupting the entire system. Who you gonna call? In this session I’ll show, with an example application, how I managed to debug a remote Elixir instance using Livebook, some smartcells and the BEAM’s love for developers."
   speakers:
     - lucadeizotti
   topics:
@@ -342,7 +394,16 @@
   level: intermediate
   language: en
   duration: 29
-  abstract: "As part of the 1.7 release, Phoenix gained full support for web servers other than Cowboy, including complete support for WebSockets, Channels and LiveView. Phoenix has gone from being fundamentally tied to Cowboy to being a fully standalone, entirely Plug-powered project. Accomplishing this require"
+  abstract: |
+    As part of the 1.7 release, Phoenix gained full support for web servers other than Cowboy, including complete support for WebSockets, Channels and LiveView. Phoenix has gone from being fundamentally tied to Cowboy to being a fully standalone, entirely Plug-powered project. Accomplishing this required extensive refactoring of much of the foundational code within the project, which in addition to supporting webservers such as Bandit, also unlocks a number of exciting new potential features with the Phoenix router.
+
+    This talk will go into the details of what’s now possible in 1.7, what changes were needed to make this possible, and what’s in store for the future. Along the way we’ll also dive into a few related topics:
+
+    What is a WebSocket anyway?
+    Introducing WebSock: a Plug-like API for WebSockets
+    How a request makes its way into & through Phoenix
+    Cool Phoenix.Router tricks
+    Strategies for tackling large-scale changes in popular Open Source projects
   speakers:
     - mattrudel
   topics:
@@ -360,7 +421,13 @@
   level: intermediate
   language: en
   duration: 25
-  abstract: "Abstract:"
+  abstract: |
+    Struggling with slow Elixir compile times? Do you change just a single file and re-run your test, but it compiles tens of files and takes ages? This interactive talk will go through a number of examples to help you understand which files get recompiled and why. After the talk, you’ll be able to better understand compile-time dependencies in your own codebase and follow some common practices to reduce your compile-time dependencies.
+
+    Talk objectives:
+
+    Help you understand how Elixir’s compiler decides which files need to be recompiled when you update a file
+    Help you understand ways to reduce your compile-time dependencies and speed up your compilation time
   speakers:
     - timgent
   topics:
@@ -376,7 +443,12 @@
   level: intermediate
   language: en
   duration: 18
-  abstract: "This talk shows three points to describe robust NIFs:"
+  abstract: |
+    This talk shows three points to describe robust NIFs:
+
+    Appropriately set a conditional branch where each function call may return an uncertain value.
+    Perform error handling according to general conventions.
+    Make assertions that specify implicit preconditions and raise exceptions for Supervisor to handle. This talk also shows how to improve performance even with such robustness and fault tolerance and build NIFs for various platforms.
   speakers:
     - susumuyamazaki
   topics:
@@ -386,17 +458,18 @@
       external_id: "dC00jIo6jdE"
       url: "https://www.youtube.com/watch?v=dC00jIo6jdE"
 
-- title: "Building a Framework"
+- title: "Building a Framework - Membrane's Journey to 1.0 "
   slug: "building-a-framework"
   kind: talk
   level: intermediate
   language: en
   duration: 24
-  abstract: "Abstract:"
+  abstract: "Building a framework is an exciting, but also challenging job. Our team knows that well after years of development of Membrane, and the upcoming core 1.0 release is an excellent opportunity to talk about what we learned. Organising work, choosing tradeoffs and priorities, creating abstractions, organising code, designing API, going open source - these challenges must be tackled in various projects. Still, when creating a framework they sometimes show up in an unusual way. In this talk, I’ll discuss some of them taking Membrane as an example."
   speakers:
     - mateuszfront
   topics:
     - elixir
+    - webrtc
   recordings:
     - provider: youtube
       external_id: "JSagV6GarCE"
@@ -405,10 +478,15 @@
 - title: "Quantum Doodle: Digital Twins for Everyday Activities"
   slug: "quantum-doodle-digital-twins-for-everyday-activities"
   kind: talk
-  level: advanced
+  level: beginner
   language: en
   duration: 30
-  abstract: "This talk covers the development and implementation of a digital assistant for humans in everyday life. It is based on digital twins for resources, activities and intentions. The assistants deliver an advanced situational awareness while leaving the decision-making with the humans. The assistants co"
+  abstract: |
+    This talk covers the development and implementation of a digital assistant for humans in everyday life. It is based on digital twins for resources, activities and intentions. The assistants deliver an advanced situational awareness while leaving the decision-making with the humans. The assistants continuously interact to update this shared awareness of future interaction.
+
+    Digital assistants interact through quantum doodles. Quantum doodles are not limited to organizing a meeting. Benefiting from Elixir’s expressive power, a quantum doodle may coordinate parking space, staffing a reception desk, … It also supports ‘entanglement’ where the information reflects how one doodle is affected by other doodles.
+
+    This talk provides a demonstration, which addresses concrete test cases in everyday life. To implement digital twins for everyday activities, a software tool needs expressive power that matches this. Elixir is unbeatable in this respect, which the presentation discusses.
   speakers:
     - paulvalckenaers
   topics:
@@ -424,7 +502,14 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "You've heard it rumored that you can code faster and more confidently with test driven development. But everytime you try…those claims let you down."
+  abstract: |
+    You’ve heard it rumored that you can code faster and more confidently with test driven development. But everytime you try…those claims let you down.
+
+    With strong test coverage, you can refactor without fear. You can deploy with confidence and assurance. You get feedback on whether your code works instantaneously, in development, not in production.
+
+    This talk is a 30 minute live coding session where we build an Phoenix LiveView application from the ground up test-first, with maximum confidence and maximum speed!
+
+    See with your own eyes the power of test-driven-development.
   speakers:
     - joshuaplicque
   topics:
@@ -442,7 +527,15 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Have you ever caused downtime of your production due to a bad migration?"
+  abstract: |
+    Have you ever caused downtime of your production due to a bad migration?
+    Maybe you’ve forgotten to add an index concurrently to your huge table and locked it?
+
+    Our applications very often make use of relational databases – and from time to time we need to change their schema. These operations usually take just a few lines of code – but when not used correctly can cause a long and painful downtime of your production.
+
+    I’ve created an open source library – excellent_migrations. It’s a static analysis tool for checking the safety of database migrations. It automatically detects potentially dangerous or destructive operations. The tool analyses code by traversing AST (Abstract Syntax Tree) of migration files. It also provides a mechanism to silence certain checks, when you are sure that you know what you’re doing.
+
+    In my session I’ll talk about unsafe operations, how the excellent_migrations lib works and why it’s fun to do open source.
   speakers:
     - artursulej
   topics:
@@ -459,7 +552,18 @@
   level: intermediate
   language: en
   duration: 29
-  abstract: "For example, if you want to hide a person's face in a photo, it is common to implement image processing in Python with NumPy and OpenCV."
+  abstract: |
+    For example, if you want to hide a person’s face in a photo, it is common to implement image processing in Python with NumPy and OpenCV.
+
+    However, with the advent of Nx and Evision, it has become possible to implement image processing in Elixir. And with Elixir’s Flow, you can run your image processing faster and more robustly in a distributed and parallel way.
+
+    This presentation will use Livebook to show visually distributed and parallel image processing in Elixir.
+
+    Livebook has the below features that effectively demonstrate Elixir image processing and help you learn to implement it.
+
+    Results can be displayed directly as images
+    Share code and dependent modules as a notebook so anyone can run it immediately
+    One notebook is one node, so it is easy to understand distributed processing intuitively
   speakers:
     - ryowakabayashi
   topics:
@@ -474,10 +578,17 @@
 - title: "Multitenant Web Applications with Phoenix"
   slug: "multitenant-web-applications-with-phoenix"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 26
-  abstract: "Multitenancy is a software architecture where one instance serves different clients (tenants). This definition is quite general and can be implemented in different ways."
+  abstract: |
+    Multitenancy is a software architecture where one instance serves different clients (tenants). This definition is quite general and can be implemented in different ways.
+
+    This talk is about the specific case of web application where each client data is stored independently in the database and served by the same application.
+
+    Phoenix and Ecto already have all we need for the implementation. Ecto prefix option gives us access to PostgreSQL schemas for the data encapsulation and Plug provides a straithforward way to assign the current tenant.
+
+    In this talk we will see how all the pieces fit together in a step by step example.
   speakers:
     - elikroumova
   topics:
@@ -494,7 +605,14 @@
   level: intermediate
   language: en
   duration: 32
-  abstract: "Troubleshooting and monitoring applications were always a pain point for development teams. These can be even more challenging in distributed systems and microservices architecture."
+  abstract: |
+    Troubleshooting and monitoring applications were always a pain point for development teams. These can be even more challenging in distributed systems and microservices architecture.
+
+    OpenTelemetry provides a set of utilities and SDKs to help deal with those challenges without locking your entire business to a specific vendor.
+
+    This session will overview monitoring and observability core concepts and terminology. We will go through what OpenTelemetry is and the different tools and SDKs it offers, with specific details on the Elixir libraries.
+
+    After this session, you will have the information needed to leverage OpenTelemetry to gain better visibility of your production environment.
   speakers:
     - yosefarbiv
   topics:
@@ -510,7 +628,18 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Over the last few years, we've learned and proven that Elixir scales. We've spoken about the services built for the WHO, Ukraine State Emergency Services, the UNHCR, and other organisations around the world using WhatsApp."
+  abstract: |
+    Over the last few years, we’ve learned and proven that Elixir scales. We’ve spoken about the services built for the WHO, Ukraine State Emergency Services, the UNHCR, and other organisations around the world using WhatsApp.
+
+    Next step is about helping organisations deliver impact.
+
+    Inspired by the ideas in Hypercard and the Livebook work, we’ve developed an Elixir based DSL using the Elixir parser and Nimble Parsec which is designed to help social impact organisations amplify their work with chat.
+
+    Creating an environment for creative exploration with direct feedback. Allowing authors to stumble into ideas that experts would consider prohibitively challenging.
+
+    The DSL allows describing services that are evidence based and replicable. Impact organisations can build on proven successes, amplifying their social impact globally and sharing their results.
+
+    We’ll share our learnings and the results of launching services using it in Ukraine in Feb 2022 and other places globally.
   speakers:
     - simondehaan
     - federicomeini
@@ -527,7 +656,12 @@
   level: intermediate
   language: en
   duration: 28
-  abstract: "In this talk we will see how the Elixir patterns such as State Machine, Templating and custom behaviors are used as building blocks for a GitOps based Self-Service platform."
+  abstract: |
+    In this talk we will see how the Elixir patterns such as State Machine, Templating and custom behaviors are used as building blocks for a GitOps based Self-Service platform.
+
+    The Self-Service automatically validates Git pull requests with a fast-feedback-loop and interactively engages relevant corporate stakeholders in the review and approval process.
+
+    Additionally, external approval workflows are orchestrated when required. Once approved the self-service provisions all required resources in real-time using state of the art infrastructure design principles.
   speakers:
     - larsheselchristensen
     - bikramchatterjee
@@ -541,10 +675,10 @@
 - title: "Telemetry: Now What?"
   slug: "telemetry-now-what"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 21
-  abstract: "Telemetry is a beautiful tool but how do you use it? If you are like me, you read the docs and saw how the functions work but couldn't piece together the best ways to implement them. What patterns are there? How can I use it to create my metrics and extend my tracing? My goal with this talk is to he"
+  abstract: "Telemetry is a beautiful tool but how do you use it? If you are like me, you read the docs and saw how the functions work but couldn’t piece together the best ways to implement them. What patterns are there? How can I use it to create my metrics and extend my tracing? My goal with this talk is to help teams take the pieces they find about telemetry and show them how to work it into a production application. We will go over different patterns we use at Ramp and things to watch out for."
   speakers:
     - zacbarnes
   topics:
@@ -554,6 +688,54 @@
       external_id: "wF0H8DulsxY"
       url: "https://www.youtube.com/watch?v=wF0H8DulsxY"
 
+- title: '"Not Hotdog" Revisited'
+  slug: "not-hotdog-revisited"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 30
+  speakers:
+    - evadnewu
+  topics:
+    - elixir
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "eLKCPcbOmrQ"
+      url: "https://www.youtube.com/watch?v=eLKCPcbOmrQ"
+
+- title: "Change Data Capture with Elixir and Debezium"
+  slug: "change-data-capture-with-elixir-and-debezium"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  speakers:
+    - vanessaloviton
+    - michalgibowski
+  topics:
+    - elixir
+    - ecto
+  recordings:
+    - provider: youtube
+      external_id: "DDZN8bGqxWs"
+      url: "https://www.youtube.com/watch?v=DDZN8bGqxWs"
+
+- title: "Opening a Black Box: Observability in a Complex System"
+  slug: "opening-a-black-box-observability-in-a-complex-system"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  speakers:
+    - danielsilva
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "6qMGCFmeoI4"
+      url: "https://www.youtube.com/watch?v=6qMGCFmeoI4"
+
 ## Lightning Talks
 
 - title: "Doomguy Visits the BEAM"
@@ -561,7 +743,7 @@
   kind: lightning_talk
   language: en
   duration: 5
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "Learn about supervision strategies from within a Doom game."
   speakers:
     - andrealbuquerque
   topics:
@@ -577,7 +759,7 @@
   kind: lightning_talk
   language: en
   duration: 4
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "Lesser known tricks with the IEx shell .iex.exs file, that are useful in any kind of Elixir project and environment."
   speakers:
     - daniilspetrovs
   topics:
@@ -592,7 +774,7 @@
   kind: lightning_talk
   language: en
   duration: 7
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "In this short lightening talk Roland Tritsch introduces property based testing with/for Elixir using StreamData. What is it? When to use it? How to use it?"
   speakers:
     - rolandtritsch
   topics:
@@ -608,7 +790,7 @@
   kind: lightning_talk
   language: en
   duration: 7
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "Arjun Gillard is an Elixir Recruiter, who places devs across the UK, EU and US. In his lightning talk he covers the current market and the trends in dev recruitment."
   speakers:
     - arjungillard
   topics:
@@ -623,11 +805,14 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: |
+    A look at an early-beta LiveView app that takes a more comprehensive, quantitative approach to software delivery than a typical Kanban board and goes beyond simple heuristics to attempt data-driven optimization of the whole process.
+
+    Alongside the core concern to measure, predict, and improve completion of specified projects by more detailed accounting of activities extending beyond just the Engineering Team, another capability is to consider the productivity impact of technology choices and potential team practices through A/B experiments.
   speakers:
     - tomcalloway
   topics:
-    - elixir
+    - liveview
   recordings:
     - provider: youtube
       external_id: "63a9QDvIoJM"
@@ -638,7 +823,7 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "LinkedIn: https://www.linkedin.com/company/27159258"
+  abstract: "Liveview goes K6"
   speakers:
     - sebastiangottschkes
   topics:
