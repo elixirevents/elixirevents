@@ -1,0 +1,34 @@
+name: Kamal Deploy
+
+on:
+  workflow_run:
+    workflows: ["All checks pass"]
+    types: [completed]
+
+jobs:
+  deploy:
+    name: Deploy to production
+    runs-on: ubuntu-latest
+    concurrency: deploy-group
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main' }}
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - run: gem install kamal -v "~> 2.0"
+
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Write Kamal secrets
+        run: |
+          mkdir -p .kamal
+          echo "${{ secrets.KAMAL_SECRETS }}" > .kamal/secrets
+
+      - name: Deploy with Kamal
+        run: kamal deploy --skip-push --version="${{ github.sha }}"
