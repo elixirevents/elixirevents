@@ -12,10 +12,9 @@ config :elixir_events, ElixirEventsWeb.Endpoint,
 # known as HSTS. If you have a health check endpoint, you may want to exclude it below.
 # Note `:force_ssl` is required to be set at compile-time.
 config :elixir_events, ElixirEventsWeb.Endpoint,
-  force_ssl: [rewrite_on: [:x_forwarded_proto]],
-  exclude: [
-    # paths: ["/health"],
-    hosts: ["localhost", "127.0.0.1"]
+  force_ssl: [
+    rewrite_on: [:x_forwarded_proto],
+    exclude: ["/up"]
   ]
 
 # Configure Swoosh API Client
