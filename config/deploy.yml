@@ -1,0 +1,63 @@
+# Kamal 2 deployment configuration for ElixirEvents
+# See: https://kamal-deploy.org/docs/configuration/overview/
+
+service: elixir-events
+image: elixirevents/elixirevents
+
+servers:
+  web:
+    hosts:
+      - 62.238.14.62
+
+proxy:
+  ssl: true
+  host: elixirevents.org
+  app_port: 4000
+  healthcheck:
+    path: /up
+    interval: 3
+    timeout: 60
+
+registry:
+  server: ghcr.io
+  username:
+    - KAMAL_REGISTRY_USERNAME
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+builder:
+  arch: arm64
+  remote: ssh://root@62.238.14.62
+
+env:
+  clear:
+    PHX_SERVER: "true"
+    PHX_HOST: "elixirevents.org"
+    PORT: "4000"
+  secret:
+    - SECRET_KEY_BASE
+    - DATABASE_URL
+    - RESEND_API_KEY
+    - MAILER_FROM_EMAIL
+    - MAILER_FROM_NAME
+    - TYPESENSE_API_KEY
+    - TYPESENSE_HOST
+    - TYPESENSE_SEARCH_KEY
+    - TYPESENSE_SEARCH_HOST
+    - APPSIGNAL_PUSH_API_KEY
+
+accessories:
+  db:
+    image: postgres:17
+    host: 62.238.14.62
+    env:
+      clear:
+        POSTGRES_USER: elixir_events
+        POSTGRES_DB: elixir_events_prod
+      secret:
+        - POSTGRES_PASSWORD
+    directories:
+      - elixir-events-db-data:/var/lib/postgresql/data
+
+ssh:
+  user: root

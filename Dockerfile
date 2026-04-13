@@ -91,8 +91,5 @@ COPY --from=builder --chown=nobody:root /app/_build/${MIX_ENV}/rel/elixir_events
 
 USER nobody
 
-ENV ECTO_IPV6=true
-ENV ERL_AFLAGS="-proto_dist inet6_tcp"
-
 # Start the release
-CMD ["/app/bin/server"]
+CMD ["sh", "-c", "./bin/migrate && ./bin/server"]

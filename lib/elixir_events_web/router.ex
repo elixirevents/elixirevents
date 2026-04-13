@@ -23,6 +23,9 @@ defmodule ElixirEventsWeb.Router do
     plug :accepts, ["json"]
   end
 
+  # Kamal healthcheck endpoint
+  get "/up", ElixirEventsWeb.HealthController, :index
+
   scope "/", ElixirEventsWeb do
     get "/sitemap.xml", SitemapController, :index
   end
