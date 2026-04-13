@@ -614,11 +614,13 @@ And **never** do this:
 - Provide sane defaults for development; fail fast in production when required env is missing (validated via `NimbleOptions` at boot when applicable).
 - Use `mix release`; keep migration task (`eval Elixir.Events.Release.migrate`) and a rollback plan.
 <!-- No feature flags initially; add only when needed. -->
-### Supabase + Fly.io
+### Hetzner + Kamal
 
-- Database: use `DATABASE_URL` from Supabase and enable SSL verification. Provide a CA cert via `DB_SSL_CACERT_BASE64` secret, write to a file with `0400` permissions, and set Repo `ssl: [cacertfile: ..., verify: :verify_peer]`.
-- Fly: set `PHX_SERVER=true`, `PHX_HOST`, `PORT`, and define `release_command` to run migrations. Bind IPv6 `ip: {0,0,0,0,0,0,0,0}` and set `internal_port` 8080.
-- Secrets: centralize env parsing with a `ConfigHelpers.get_env/3` that casts to types and fails fast for required values.
+- Deployment: Kamal 2 on a single Hetzner ARM VPS. Docker image built and pushed to GHCR, then deployed with `kamal deploy --skip-push`.
+- Database: PostgreSQL 17 as a Kamal accessory on the same server. Connect via `DATABASE_URL` (no SSL needed for local connection).
+- Migrations run automatically on deploy via Dockerfile CMD (`./bin/migrate && ./bin/server`).
+- SSL: Kamal proxy handles origin TLS (Let's Encrypt). Cloudflare handles edge TLS.
+- Secrets: stored in `.kamal/secrets` (gitignored), injected by Kamal at deploy time.
 <!-- phoenix:config-end -->
 
 <!-- phoenix:security-start -->
