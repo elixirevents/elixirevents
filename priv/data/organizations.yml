@@ -243,3 +243,41 @@
   slug: "plataformatec"
   website: "https://plataformatec.com.br"
   description: "Consultancy founded by the creator of Elixir, known for the Elixir programming language and Ruby on Rails contributions."
+
+- name: "Coin Gaming Group"
+  slug: "coin-gaming-group"
+  description: "Online gaming group operating casino and sportsbook platforms."
+
+- name: "Kloeckner"
+  slug: "kloeckner"
+  website: "https://www.kloeckner.com"
+  description: "Global steel and metal distributor, digitalising the metals industry."
+
+- name: "Aeternity"
+  slug: "aeternity"
+  website: "https://aeternity.com"
+  description: "Open-source blockchain platform built in Erlang."
+
+- name: "Digital Origin"
+  slug: "digital-origin"
+  description: "Software consultancy."
+
+- name: "EL Passion"
+  slug: "el-passion"
+  website: "https://elpassion.com"
+  description: "Polish software consultancy building web and mobile products."
+
+- name: "Functional Geekery"
+  slug: "functional-geekery"
+  website: "https://www.functionalgeekery.com"
+  description: "Podcast about functional programming languages and communities."
+
+- name: "Manning"
+  slug: "manning"
+  website: "https://www.manning.com"
+  description: "Independent publisher of technology books and video courses."
+
+- name: "Syndicode"
+  slug: "syndicode"
+  website: "https://syndicode.com"
+  description: "Software development company building web and marketplace products."

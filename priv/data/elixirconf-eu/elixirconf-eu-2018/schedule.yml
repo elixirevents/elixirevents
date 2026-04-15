@@ -1,0 +1,224 @@
+tracks:
+  - name: "Warsaw 1"
+    color: "#6B46C1"
+    position: 1
+  - name: "Warsaw 2"
+    color: "#2B6CB0"
+    position: 2
+
+days:
+  - name: "Day 1"
+    date: "2018-04-16"
+    position: 1
+    time_slots:
+      - start_time: "07:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome"
+            kind: social
+            track: "Warsaw 1"
+
+      - start_time: "09:10"
+        end_time: "10:10"
+        sessions:
+          - talk_slug: "introducing-hdd-hughes-driven-development"
+            track: "Warsaw 1"
+            kind: keynote
+
+      - start_time: "10:10"
+        end_time: "10:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "10:30"
+        end_time: "11:15"
+        sessions:
+          - talk_slug: "the-phoenix-boot-process"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "robust-data-processing-pipeline-with-elixir-and-flow"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "11:20"
+        end_time: "12:05"
+        sessions:
+          - talk_slug: "phoenix-and-the-world-of-tomorrow"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "state-and-distributed-data-structures"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "12:05"
+        end_time: "13:30"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:30"
+        end_time: "14:15"
+        sessions:
+          - talk_slug: "going-low-level-with-tcp-sockets-and-gen-tcp"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "he-has-the-nerve"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "14:20"
+        end_time: "15:05"
+        sessions:
+          - talk_slug: "ship-your-code-while-its-hot"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "ssh-server-client-in-erlang"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "15:05"
+        end_time: "15:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "15:30"
+        end_time: "16:15"
+        sessions:
+          - talk_slug: "spas-without-the-spa"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "knee-deep-into-p2p"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "16:15"
+        end_time: "16:45"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "16:45"
+        end_time: "18:00"
+        sessions:
+          - title: "Lightning Talks"
+            kind: lightning_talk
+            track: "Warsaw 1"
+
+      - start_time: "18:00"
+        end_time: "19:00"
+        sessions:
+          - title: "Conference drinks"
+            kind: social
+
+  - name: "Day 2"
+    date: "2018-04-17"
+    position: 2
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+            track: "Warsaw 1"
+
+      - start_time: "09:05"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "building-a-task-queue-system"
+            track: "Warsaw 1"
+            kind: keynote
+
+      - start_time: "10:05"
+        end_time: "10:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "10:30"
+        end_time: "11:15"
+        sessions:
+          - talk_slug: "solid-elixir"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "fleet-management-solution-for-autonomous-vehicles"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "11:20"
+        end_time: "12:05"
+        sessions:
+          - talk_slug: "coupling-data-and-behaviour"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "building-communication-platforms-for-iot"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "12:05"
+        end_time: "13:30"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:30"
+        end_time: "14:15"
+        sessions:
+          - talk_slug: "rewriting-a-legacy-application-in-elixir"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "orchestrating-consumers-and-producers-like-an-octopus"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "14:20"
+        end_time: "15:05"
+        sessions:
+          - talk_slug: "instrumenting-mayhem-functional-chaos-engineering"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "event-driven-architectures-in-elixir"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "15:05"
+        end_time: "15:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "15:30"
+        end_time: "16:15"
+        sessions:
+          - talk_slug: "property-based-testing-is-a-mindset"
+            track: "Warsaw 1"
+            kind: talk
+          - talk_slug: "building-videochat-with-elixir-and-phoenix"
+            track: "Warsaw 2"
+            kind: talk
+
+      - start_time: "16:15"
+        end_time: "16:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "16:30"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "lets-do-elixir-and-phoenix-together"
+            track: "Warsaw 1"
+            kind: keynote

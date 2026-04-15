@@ -1,7 +1,7 @@
 ## Keynotes
 
-- title: "Keynote: Building a Task Queue System"
-  slug: "keynote-building-a-task-queue-system"
+- title: "Building a Task Queue System"
+  slug: "building-a-task-queue-system"
   kind: keynote
   language: en
   duration: 61
@@ -15,13 +15,17 @@
     - elixir
     - ecto
     - otp
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/904/original/Evadne_Wu_-_Building_a_Task_Queue_with_GenStage__Ecto_and_PostgreSQL.pdf?1524733730
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "tytHbbjeHMM"
       url: "https://www.youtube.com/watch?v=tytHbbjeHMM"
 
-- title: "Keynote: Introducing HDD: Hughes Driven Development"
-  slug: "keynote-introducing-hdd-hughes-driven-development"
+- title: "Introducing HDD: Hughes Driven Development"
+  slug: "introducing-hdd-hughes-driven-development"
   kind: keynote
   language: en
   duration: 57
@@ -34,6 +38,10 @@
   topics:
     - elixir
     - testing
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/900/original/Jose_Valin_-_Introducing_HDD_-_Hughes_Driven_Development.pdf?1524667837
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "x2ckfhqB9nA"
@@ -65,6 +73,10 @@
     - elixir
     - deployment
     - otp
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/866/original/Albert_Zak_-_Ship_Your_Code_While_It's_Hot.pdf?1524056977
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "KGNfqiVF234"
@@ -88,6 +100,10 @@
     - georginamcfadyen
   topics:
     - elixir
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/870/original/Georgina_McFadyen_-_SOLID_Elixir.compressed.pdf?1524057251
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "eldYot7uxUc"
@@ -108,6 +124,10 @@
   topics:
     - elixir
     - erlang
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/877/original/Orestis_Markou_-_Going_low_level_with_TCP_sockets_and_gen_tcp.pdf?1524057595
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "-FiQhkV7JYk"
@@ -129,6 +149,10 @@
     - leymissailidis
   topics:
     - phoenix
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/874/original/Ley_Missailidis_-_Phoenix_and_the_World_of_Tomorrow.pdf?1524057480
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "qR5u6HiBn50"
@@ -156,6 +180,10 @@
     - guilhermedemaio
   topics:
     - elixir
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/871/original/Guilherme_de_Maio_-_Coupling_Data_and_Behaviour.pdf?1524057286
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "fnfcYKq373w"
@@ -172,6 +200,10 @@
   topics:
     - nerves
     - phoenix
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/905/original/Justin_Schneck_-_He_has_the_Nerve.pdf?1525085258
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "jmkq4SwV2Ss"
@@ -189,6 +221,10 @@
   topics:
     - elixir
     - testing
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/903/original/Andrea_Leopardi_-_Property-based_Testing_Is_a_Mindset.pdf?1524733709
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "p84DMv8TQuo"
@@ -205,6 +241,10 @@
     - xaviernoria
   topics:
     - phoenix
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/902/original/Xavier_Noria_-_The_Phoenix_boot_process.compressed.pdf?1524733578
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "dcLryii0kgQ"
@@ -220,6 +260,10 @@
     - sergeboucher
   topics:
     - elixir
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/878/original/Serge_Boucher_-_Using_Elixir_to_Build_a_High-Availability_Fleet_Management_Solution_for_Autonomous_Vehicles.pdf?1524057633
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "O2gQc4Kh4-Y"
@@ -239,6 +283,10 @@
     - elixir
     - otp
     - erlang
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/873/original/Laszlo_Bacsi_-_Robust_Data_Processing_Pipeline_with_Elixir_and_Flow.pdf?1524057351
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "3XL-31nqcX4"
@@ -259,6 +307,10 @@
   topics:
     - elixir
     - embedded
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/880/original/Troels_Br%C3%B8dsgaard_-_Building_communication_platforms_for_the_IoT.pdf?1524058046
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "QjWl4kjdIgQ"
@@ -282,6 +334,10 @@
     - raphaelcosta
   topics:
     - elixir
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/901/original/Raphael_Costa_-_Rewriting_a_legacy_application_in_Elixir.pdf?1524668004
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "P9z9UIidVxE"
@@ -306,6 +362,10 @@
   topics:
     - elixir
     - testing
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/881/original/Szymon_Mentel_-_Instrumenting_Mayhem_Sharable.pdf?1524058657
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "ALL7n7FaOf4"
@@ -326,6 +386,10 @@
   topics:
     - elixir
     - otp
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/872/original/Jusabe_Guedes_-_Orchestrating_Consumers_and_Producers_Like_an_Octopus.pdf?1524057311
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "_4ENJB3qkLo"
@@ -364,6 +428,10 @@
     - phoenix
     - otp
     - webrtc
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/867/original/Anil_Wadghule_-_Building_Videochat_with_Elixir.pdf?1524056998
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "-n5IlXBOaBE"
@@ -383,6 +451,10 @@
     - maciejkaszubowski
   topics:
     - elixir
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/875/original/Maciej_Kaszubowski_-_Event-driven_architectures_in_Elixir.pdf?1524057517
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "8qDXG7tnl9w"
@@ -402,6 +474,10 @@
     - miladrastian
   topics:
     - erlang
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/876/original/Milad_Rastian_-_SSH_server_client_in_Erlang.pdf?1524057571
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "66sNfqOrSJw"
@@ -423,6 +499,11 @@
     - arkadiuszgil
   topics:
     - elixir
+    - distribution
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/868/original/Arkadiusz_Gil_-_State_and_the_distributed_data_structures.pdf?1524057022
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "VmRr67yW6kU"
@@ -440,6 +521,11 @@
     - fernandomendes
   topics:
     - elixir
+    - otp
+  links:
+    - kind: slides
+      url: https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/869/original/Fernando_Mendes_-_Knee_Deep_Into_p2p.compressed.pdf?1524057146
+      label: "Slides (PDF)"
   recordings:
     - provider: youtube
       external_id: "Y545Tp6iM28"

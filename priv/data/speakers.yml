@@ -2610,6 +2610,8 @@
   social_links:
     - platform: mastodon
       url: https://clj.social/@albertzak
+    - platform: github
+      url: https://github.com/albertzak
 
 - name: "Georgina McFadyen"
   slug: "georginamcfadyen"
@@ -5664,3 +5666,35 @@
       url: https://github.com/benwilson512
     - platform: linkedin
       url: https://www.linkedin.com/in/benwilson512/
+
+- name: "Máté Marjai"
+  slug: "matemarjai"
+  headline: "Engineering Manager"
+  bio: "Máté has been working with different technology over the years ranging from Ruby, Erlang and Javascript. He enjoys writing applications and software that is used and loved by people."
+  social_links:
+    - platform: github
+      url: https://github.com/marjaimate
+    - platform: twitter
+      url: https://x.com/marjaimate
+
+- name: "Stanisław Chmiela"
+  slug: "stanislawchmiela"
+  headline: "Software Engineer"
+  bio: "Currently a Software Mansioner happy to tackle and solve all the problems I face! Jumped into Expo almost a year ago and have been happy to help accelerate mobile app development since then. Previously worked on React frontends, Ruby and Elixir backends and both RN and native iOS mobile apps."
+  social_links:
+    - platform: github
+      url: https://github.com/sjchmiela
+    - platform: twitter
+      url: https://x.com/sjchmiela
+    - platform: linkedin
+      url: https://www.linkedin.com/in/sjchmiela/
+
+- name: "Łukasz Gurdek"
+  slug: "lukaszgurdek"
+  headline: "Software Engineer"
+  bio: "Programming mostly in Ruby and maintaining company’s server infrastructure. Also experienced in Elixir and JavaScript."
+  social_links:
+    - platform: github
+      url: https://github.com/ukasiu
+    - platform: linkedin
+      url: https://www.linkedin.com/in/lgurdek/

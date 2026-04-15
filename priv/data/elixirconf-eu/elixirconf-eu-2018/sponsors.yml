@@ -1,0 +1,33 @@
+- name: "Platinum"
+  level: 2
+  sponsors:
+    - slug: "bitcrowd"
+    - slug: "coin-gaming-group"
+    - slug: "kloeckner"
+
+- name: "Gold"
+  level: 3
+  sponsors:
+    - slug: "cabify"
+    - slug: "cultivate"
+    - slug: "erlang-solutions"
+    - slug: "solarisbank"
+
+- name: "Silver"
+  level: 4
+  sponsors:
+    - slug: "aeternity"
+    - slug: "digital-origin"
+    - slug: "simplabs"
+
+- name: "Media"
+  level: 6
+  sponsors:
+    - slug: "elixir-fountain"
+    - slug: "elixir-radar"
+    - slug: "el-passion"
+    - slug: "functional-geekery"
+    - slug: "infoq"
+    - slug: "manning"
+    - slug: "plataformatec"
+    - slug: "syndicode"
