@@ -281,3 +281,18 @@
   slug: "syndicode"
   website: "https://syndicode.com"
   description: "Software development company building web and marketplace products."
+
+- name: "Coders51"
+  slug: "coders51"
+  website: "https://www.coders51.com"
+  description: "Italian software house specialising in Elixir, Phoenix, and functional programming."
+
+- name: "ElixirBridge"
+  slug: "elixir-bridge"
+  website: "https://elixirbridge.org"
+  description: "Community initiative offering free Elixir workshops to help people from underrepresented groups get started with the language."
+
+- name: "Elixir Girls"
+  slug: "elixir-girls"
+  website: "https://x.com/elixirgirls"
+  description: "Community organising free Elixir workshops for women and non-binary people to learn the language and build their first app."

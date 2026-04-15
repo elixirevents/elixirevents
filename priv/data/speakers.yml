@@ -3708,7 +3708,11 @@
 - name: "José San Gil"
   slug: "josesangil"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: |
+    José is a computer engineer from Caracas, Venezuela with 8 years experience. He started as a mobile application developer for Blackberry devices but quickly moved to web application and APIs. He has worked on different financial startups, coding infrastructure in Java, Python, and Javascript. He switched to Elixir, along with his team and now writes Elixir 60% of his time.
+  social_links:
+    - platform: github
+      url: https://github.com/jsangilve
 
 - name: "Jack Rhodes"
   slug: "jrhodes"
@@ -3921,8 +3925,9 @@
 
 - name: "Philipp Schmieder"
   slug: "philippschmieder"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Founder Pentacent"
+  bio: |
+    After founding a software company, Philipp studied psychology but has remained a developer at heart. He’s an open-source enthusiast, passionate about functional programming and loves to share his experiences and knowledge with other people. These days he’s creating software with Elixir, JavaScript and C++.
 
 - name: "Rachael Mwatela"
   slug: "rachaelmwatela"
@@ -5698,3 +5703,9 @@
       url: https://github.com/ukasiu
     - platform: linkedin
       url: https://www.linkedin.com/in/lgurdek/
+
+- name: "Alison Hughes"
+  slug: "alisonhughes"
+  headline: "Product Director at Vamp"
+  bio: |
+    Alison Hughes is the Product Director at Vamp - a global influencer marketing platform. She was previously the Head of Digital at Virgin Money, where she was responsible for developing and executing the digital strategy as well as enhancing the company’s technical capabilities. She has also led digital and technical teams to develop and execute digital strategies, campaigns and projects across leading brands, including the NSW Government, Lion, Schick, National Foods and Optus. Alison has co-owned two digital agencies, one achieving a ranking of #31 on the 2012 BRW Fast Starters list.

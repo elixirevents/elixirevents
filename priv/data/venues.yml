@@ -35,6 +35,18 @@
   longitude: 20.9861
   description: "A modern hotel and convention centre in central Warsaw, with large meeting rooms and direct access to public transport."
 
+- name: "Prague Congress Centre"
+  slug: "prague-congress-centre"
+  street: "5. května 1640/65"
+  city: "Prague"
+  country: "Czech Republic"
+  country_code: "CZ"
+  postal_code: "140 00"
+  latitude: 50.0612
+  longitude: 14.4298
+  website: "https://www.praguecc.cz"
+  description: "A large modern congress centre in Prague's Nusle district, adjacent to the Vyšehrad metro station, with panoramic views over the Vltava valley and the city's historic skyline."
+
 - name: "Golden Floor Tower"
   slug: "golden-floor-tower"
   street: "ul. Chłodna 51"

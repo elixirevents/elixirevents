@@ -1,12 +1,17 @@
 name: "ElixirConf EU 2019"
 slug: "elixirconf-eu-2019"
+venue_slug: "prague-congress-centre"
 kind: conference
 status: completed
 format: in_person
 start_date: "2019-04-08"
-end_date: "2019-04-09"
+end_date: "2019-04-10"
 timezone: "Europe/Prague"
 language: en
 location: "Prague, Czech Republic"
 website: "https://www.elixirconf.eu/2019"
 color: "#6B46C1"
+description: |
+  ElixirConf EU 2019 brought the European Elixir community together in Prague for two days of talks and one day of training, co-organised by ElixirConf and Code Sync.
+
+  The conference featured keynotes from José Valim announcing Broadway and Chris McCord unveiling Phoenix LiveView, alongside talks on Ecto, Nerves, Scenic, Telemetry, property-based testing, and production case studies from across the ecosystem.
