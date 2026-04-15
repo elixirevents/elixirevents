@@ -1,0 +1,70 @@
+- title: "Phoenix Takes Flight"
+  slug: "phoenix-takes-flight"
+  language: en
+  start_date: "2015-04-22"
+  end_date: "2015-04-22"
+  format: in_person
+  venue_slug: andels-hotel-krakow
+  description: |
+    Phoenix is an Elixir framework for building scalable web applications with realtime connectivity across all your devices. Together, we'll take a guided tour of the framework, going from the very basics, to building our own realtime applications. You'll see the framework's foundations, core components, and how to use Phoenix to write powerful web services.
+
+    ### Tutorial objectives
+
+    We'll start by exploring the foundations of the framework in Elixir's Plug library, followed by the core components of Phoenix's Router and Controller layers. Next, we'll review the View layer and build an application together as we learn each concept. We'll finish by using the PubSub layer to add realtime functionality to our application. Along the way, attendees will see how to apply advanced features like router pipelines and plug middleware and receive tips on how to structure a Phoenix application for real-world services.
+
+    ### Prerequisites
+
+    The audience for this talk is any Elixir or Erlang programmer looking to dive into Phoenix and learn how to build powerful applications quickly and easily. Attendees should have an introductory level experience with Elixir or Erlang and the ability to run Elixir on their laptops.
+  trainers:
+    - chrismccord
+  topics:
+    - elixir
+    - phoenix
+
+- title: "The OTP and Elixir"
+  slug: "the-otp-and-elixir"
+  language: en
+  start_date: "2015-04-22"
+  end_date: "2015-04-22"
+  format: in_person
+  venue_slug: andels-hotel-krakow
+  description: |
+    Hands-on workshop for developers with no prior experience in OTP and Elixir, which aims at building a simple client-server architecture using Elixir/OTP and real tools like telnet or curl.
+
+    ### Details
+
+    The workshop has several steps, each one requiring a short introduction followed by a programming exercise for the audience. If one gets lost, but would like to continue to the next step, they can switch to the next git branch. All branches will be published on github.com.
+
+    At the end of the workshop attendees will have a fully functional Elixir TCP server that can be tested using telnet or curl.
+
+    ### Prerequisites
+
+    Participants may want to install Erlang runtime and Elixir before attending the workshop so that they can implement exercise themselves.
+  trainers:
+    - michaslaski
+  topics:
+    - elixir
+    - otp
+    - erlang
+
+- title: "Elixir 101"
+  slug: "elixir-101"
+  language: en
+  start_date: "2015-04-22"
+  end_date: "2015-04-22"
+  format: in_person
+  venue_slug: andels-hotel-krakow
+  description: |
+    This class introduces the attendee to Elixir and to the functional, concurrent mindset. The student will engage in short coding experiences where they will learn Elixir and functional coding practices. At the conclusion, the student will have an Elixir project and working Elixir app that demonstrates the power of concurrency in Elixir. This interactive class will be fun and educational. Fast learning techniques will be used to maximize student learning and retention.
+
+    ### Tutorial objectives
+
+    Cover basic Elixir concepts including types, operators, pattern matching, control flow, data structures, comprehensions, modules, enumerables, streams, macros, processes and Agents.
+
+    ### Prerequisites
+
+    It is expected that the attendee has experience with at least one programming language. Knowledge of functional programming is not required.
+  trainers:
+    - jimfreeze
+  topics:
+    - elixir

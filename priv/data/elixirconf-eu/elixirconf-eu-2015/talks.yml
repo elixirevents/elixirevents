@@ -1,5 +1,34 @@
 ## Keynotes
 
+- title: "23.5 Days with Elixir"
+  slug: "23-5-days-with-elixir"
+  kind: keynote
+  language: en
+  duration: 60
+  abstract: |
+    In preparation for my talk I've decided to program only in Elixir for the next 23.5 days.
+    I'll present my experience as a total newby to the language - what do I like, what do I dislike, what did I have difficult understanding? What took me a long time to fix? - What's good what's bad?
+  speakers:
+    - joearmstrong
+  topics:
+    - elixir
+    - erlang
+
+- title: "What's Ahead for Elixir?"
+  slug: "whats-ahead-for-elixir"
+  kind: keynote
+  language: en
+  duration: 70
+  abstract: "José will talk about Elixir, telling us about a bit about its story, what is being researched, and what is being developed for future versions."
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "EaP0y4pdKD0"
+      url: "https://www.youtube.com/watch?v=EaP0y4pdKD0"
+
 - title: "Keynote: Phoenix Takes Flight"
   slug: "keynote-phoenix-takes-flight"
   kind: keynote
@@ -57,13 +86,12 @@
   level: intermediate
   language: en
   duration: 43
-  abstract: "QuickCheck, our testing tool for automatically generating tests, has a long track record of nailing serious and hard-to-find bugs and boosting quality, in software like dets (part of mnesia), Riak, and the embedded software in cars. QuickCheck is written in Erlang and can be used with Elixir, but... can we instrument Elixir code to find race-conditions with PULSE? Not until recently. Now we have an Elixir native interface to access QuickCheck. In this talk, we present QuickCheck and this interface and show how race-conditions can be nailed down."
+  abstract: |
+    QuickCheck, our testing tool for automatically generating tests, has a long track record of nailing serious and hard-to-find bugs and boosting quality, in software like dets (part of mnesia), Riak, and the embedded software in cars. QuickCheck is written in Erlang and can be used with Elixir, but... can we instrument Elixir code to find race-conditions with PULSE? Not until recently. Now we have an Elixir native interface to access QuickCheck. In this talk, we present QuickCheck and this interface and show how race-conditions can be nailed down.
   speakers:
     - thomasarts
   topics:
     - elixir
-    - nerves
-    - erlang
   recordings:
     - provider: youtube
       external_id: "nbpZRm9gl50"
@@ -232,6 +260,24 @@
     - provider: youtube
       external_id: "wGAc_QwD_6Q"
       url: "https://www.youtube.com/watch?v=wGAc_QwD_6Q"
+
+- title: "Chat Bot: A Practical Walkthrough of the Powerful Features of Elixir/Erlang/OTP"
+  slug: "chat-bot-a-practical-walkthrough-of-the-powerful-features-of-elixir-erlang-otp"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: "Building an IRC chat bot is a small enough problem to fit in a talk and rich enough to exercise much of what makes Elixir, Erlang and OTP powerful. Walk through the design and implementation of a chat bot to see pattern matching, GenServer, supervision trees, hot code upgrades and other features in action."
+  speakers:
+    - jeffweiss
+  topics:
+    - elixir
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "NrrUyRt_B1w"
+      url: "https://www.youtube.com/watch?v=NrrUyRt_B1w"
 
 ## Lightning Talks
 

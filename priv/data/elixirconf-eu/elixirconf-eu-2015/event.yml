@@ -1,5 +1,6 @@
 name: "ElixirConf EU 2015"
 slug: "elixirconf-eu-2015"
+venue_slug: "andels-hotel-krakow"
 kind: conference
 status: completed
 format: in_person

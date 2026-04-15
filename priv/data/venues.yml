@@ -24,6 +24,18 @@
   website: "https://www.icekrakow.pl"
   description: "A striking modern congress centre on the banks of the Vistula River, offering panoramic views of Wawel Castle and world-class conference facilities."
 
+- name: "Andel's Hotel Kraków"
+  slug: "andels-hotel-krakow"
+  street: "ul. Pawia 3"
+  city: "Krakow"
+  region: "Lesser Poland"
+  country: "Poland"
+  country_code: "PL"
+  postal_code: "31-154"
+  latitude: 50.0676
+  longitude: 19.9461
+  description: "A modern design hotel on the edge of Kraków's historic old town, next to the main railway station and the Galeria Krakowska shopping centre. Walking distance to Wawel Castle, the Main Market Square and the Kazimierz quarter."
+
 - name: "Philharmonie Haarlem"
   slug: "philharmonie-haarlem"
   street: "Lange Begijnestraat 11"
