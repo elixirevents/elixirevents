@@ -1,5 +1,6 @@
 name: "ElixirConf EU 2017"
 slug: "elixirconf-eu-2017"
+venue_slug: "barcelo-sants"
 kind: conference
 status: completed
 format: in_person

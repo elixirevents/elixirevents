@@ -4091,7 +4091,13 @@
 - name: "Tonći Galić"
   slug: "toncigalic"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: |
+    Tonći is a polyglot web developer with a broad range of interests and also a broad range of experiences. He started out with Perl/CGI around 1999, throughout the years he has worked with Java, PHP and C#/.NET. In the last few years, he has focused on Ruby/Rails but now he is in love with Elixir/Phoenix and the functional aspects of programming languages. He is the organiser of the Amsterdam Elixir meetup, Elixir Bootcamp and was a co-organiser of Code BEAM lite Amsterdam.
+  social_links:
+    - platform: github
+      url: https://github.com/Tuxified
+    - platform: twitter
+      url: https://x.com/Tuxified
 
 - name: "Vaibhav Sagar"
   slug: "vaibhavsagar"
@@ -4257,8 +4263,13 @@
 
 - name: "Bruce Williams"
   slug: "brucewilliams"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Engineering Leader"
+  bio: "Bruce Williams is a polyglot technologist, speaker, and Pragmatic Bookshelf author. He's the CTO of CargoSense, a logistics intelligence company built on Elixir and committed to its open source community. Away from the computer, he enjoys languages, traveling to new places, cooking, and the singular hobby of artisan gemstone cutting."
+  social_links:
+    - platform: github
+      url: https://github.com/bruce
+    - platform: linkedin
+      url: https://www.linkedin.com/in/wbruce/
 
 - name: "Christopher Cote"
   slug: "christophercote"
@@ -4803,7 +4814,10 @@
 - name: "James Fish"
   slug: "jamesfish"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: "James is a member of the Elixir and Ecto core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the Elixir IRC channel he enjoys playing soccer and baking cakes."
+  social_links:
+    - platform: github
+      url: https://github.com/fishcakez
 
 - name: "James Weaver"
   slug: "jamesweaver"
@@ -5620,3 +5634,33 @@
 - name: "Radosław Szuma"
   slug: "radoslawszuma"
   headline: "Software Engineer at Software Mansion"
+
+- name: "Makis Otman"
+  slug: "makisotman"
+  headline: "Software Consultant"
+  bio: |
+    Makis is a software consultant with a passion for high quality software and helping people build better products. He has delivered training in Elixir, helped build the Elixir Koans and contributed to the Elixir language. Outside of programming Makis likes to read books and watch football.
+  social_links:
+    - platform: github
+      url: https://github.com/Maikon
+    - platform: twitter
+      url: https://x.com/makisotman
+
+- name: "Artur Dębski"
+  slug: "arturdebski"
+  headline: "Functional Miners Meetup Co-Host"
+  bio: |
+    Artur Debski is a Ruby programmer who truly believes in a functional approach to programming. Having stumble at Elixir a long time ago Artur helps to spread the word about it and is a co-host of Functional Miners meetup (formerly SilesianBeamers). Can't live without HJKL and enjoys a good craft beer.
+  social_links:
+    - platform: github
+      url: https://github.com/functional-miners
+
+- name: "Benjamin Wilson"
+  slug: "benjaminwilson"
+  headline: "Elixir Team Lead, Co-Creator of Absinthe"
+  bio: "Co-creator of Absinthe. CTO @ CargoSense."
+  social_links:
+    - platform: github
+      url: https://github.com/benwilson512
+    - platform: linkedin
+      url: https://www.linkedin.com/in/benwilson512/

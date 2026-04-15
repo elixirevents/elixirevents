@@ -24,6 +24,18 @@
   website: "https://www.icekrakow.pl"
   description: "A striking modern congress centre on the banks of the Vistula River, offering panoramic views of Wawel Castle and world-class conference facilities."
 
+- name: "Barceló Sants"
+  slug: "barcelo-sants"
+  street: "Plaça dels Països Catalans s/n"
+  city: "Barcelona"
+  region: "Catalonia"
+  country: "Spain"
+  country_code: "ES"
+  postal_code: "08014"
+  latitude: 41.3795
+  longitude: 2.1404
+  description: "A design hotel built directly above Barcelona Sants railway station, with direct access to the AVE high-speed rail, metro, and local train links. Close to the Fira de Barcelona trade fair and 15 minutes by train from El Prat airport."
+
 - name: "Mercure Hotel Berlin Tempelhof Airport"
   slug: "mercure-berlin-tempelhof"
   street: "Hermannstraße 214-216"

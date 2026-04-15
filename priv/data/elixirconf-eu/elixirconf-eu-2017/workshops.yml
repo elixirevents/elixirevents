@@ -1,0 +1,95 @@
+- title: "Tutorial: Getting Realtime with Channels"
+  slug: "tutorial-getting-realtime-with-channels"
+  language: en
+  start_date: "2017-05-03"
+  end_date: "2017-05-03"
+  format: in_person
+  venue_slug: barcelo-sants
+  target_audience: "Intermediate Elixir programmers with basic Phoenix exposure."
+  description: |
+    Come level-up on Phoenix's most exciting features while gaining insights from its creator! Together, we'll use Phoenix Channels and Presence to build a highly interactive, collaborative application that works seamlessly across a distributed infrastructure. This hands-on tutorial will take you step-by-step from a blank project to a usable application. Along the way, you'll gain insights into Phoenix's distributed Pub-Sub layer and see all the tricks to getting the most out this exciting feature-set.
+
+    ### Tutorial objectives
+
+    - A tutorial format that welcomes open-dialogue with Phoenix's creator. The best learning happens with interactive Q & A
+    - Hands-on, interactive group pairing as we build a working application throughout the day
+    - Comprehensive coverage of Phoenix channels
+    - Complete use of `Phoenix.Presence` to detect users online in a distributed application
+    - Insights into `Phoenix.PubSub` and distributed messages
+  trainers:
+    - chrismccord
+  topics:
+    - elixir
+    - phoenix
+
+- title: "Tutorial: Join the Elixir Fire Brigade - Level-up Your Elixir Debugging Skills"
+  slug: "tutorial-join-the-elixir-fire-brigade"
+  language: en
+  start_date: "2017-05-03"
+  end_date: "2017-05-03"
+  format: in_person
+  venue_slug: barcelo-sants
+  description: |
+    Both Erlang and Elixir are praised for their "debuggability". It's true — there's a lot of tools and techniques that can be used, even on live, production systems. Not only that — they are easily accessible and freely usable. Together we're going to explore them in depth.
+
+    We're going to learn what exactly happens when you call a GenServer, how to "spy" on processes and introspect the VM internals. We're going to work with an example application — a basic key-value store built on top of Plug, prepare a release for it and deploy it to production. Unfortunately, after the deployment we're going to discover some errors, we didn't anticipate. Fortunately, with the knowledge we gained earlier, we'll be able to diagnose and fix them — live in production!
+
+    ### Target audience
+
+    - Attendees should be familiar with syntax and basic features of either Elixir or Erlang. It is advised that all attendees complete the "Mix and OTP tutorial" before the workshop.
+    - Participants should have Elixir >= 1.3 and Erlang >= 18 locally installed, together with their favorite editor.
+  trainers:
+    - michamuskaa
+    - wojciechgawronski
+    - arturdebski
+  topics:
+    - elixir
+    - otp
+    - erlang
+
+- title: "Microservices under the Umbrella"
+  slug: "microservices-under-the-umbrella"
+  language: en
+  start_date: "2017-05-03"
+  end_date: "2017-05-03"
+  format: in_person
+  venue_slug: barcelo-sants
+  description: |
+    After a brief introduction of Umbrella applications, we will build a web app and see how this approach pushes us towards a modular design.
+
+    You will be given a code skeleton in the form of a puzzle. Your task will be to fill in the gaps by implementing different services. Putting those services together at the end of the day will form the whole system.
+
+    During this process we will see how one can utilise an OTP app in a progressive manner. We will go from using one as an internal dependency to a separate service altogether. To achieve the latter we will utilise Distributed Erlang as the glue between the apps.
+
+    To wrap up, we will see what are some of the advantages and disadvantages of our architecture and have a discussion on the lessons learned. Pairing will be encouraged but it will not be mandatory.
+
+    ### Tutorial objectives
+
+    In this workshop we will build and deploy different OTP apps using umbrella applications, TDD and Distributed Erlang.
+
+    Main areas covered:
+
+    - Elixir
+    - Umbrella applications
+    - Phoenix/Plug
+    - Distributed Erlang
+    - Testing
+    - Deployment strategy on AWS (single node vs multiple nodes)
+
+    ### Pre-requisites
+
+    - Elixir 1.4
+    - Erlang 19
+    - Postgres
+    - Github account
+
+    ### Target audience
+
+    - Some familiarity with Elixir's syntax and features will be beneficial.
+  trainers:
+    - georginamcfadyen
+    - makisotman
+  topics:
+    - elixir
+    - otp
+    - phoenix

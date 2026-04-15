@@ -165,3 +165,81 @@
   slug: "talkdesk"
   website: "https://www.talkdesk.com"
   description: "Cloud-based contact centre platform."
+
+- name: "EasyMile"
+  slug: "easymile"
+  website: "https://easymile.com"
+  description: "Autonomous vehicle technology company."
+
+- name: "Grandcentrix"
+  slug: "grandcentrix"
+  website: "https://www.grandcentrix.net"
+  description: "IoT solutions company based in Cologne, Germany."
+
+- name: "Cabify"
+  slug: "cabify"
+  website: "https://cabify.com"
+  description: "Ride-hailing service operating across Europe and Latin America."
+
+- name: "Cultivate"
+  slug: "cultivate"
+  website: "https://cultivatehq.com"
+  description: "Software consultancy building web and mobile products in Elixir and Ruby."
+
+- name: "Inaka"
+  slug: "inaka"
+  website: "https://inaka.net"
+  description: "Erlang and Elixir consultancy."
+
+- name: "The Book of Everyone"
+  slug: "book-of-everyone"
+  website: "https://thebookofeveryone.com"
+  description: "Personalised gift books publisher."
+
+- name: "FindMyPast"
+  slug: "findmypast"
+  website: "https://www.findmypast.com"
+  description: "Online genealogy and family history service."
+
+- name: "Nedap"
+  slug: "nedap"
+  website: "https://www.nedap.com"
+  description: "Dutch technology company building smart solutions for healthcare, retail, and security."
+
+- name: "Simplabs"
+  slug: "simplabs"
+  website: "https://simplabs.com"
+  description: "Software consultancy specialising in Ember.js, Elixir, and Ruby."
+
+- name: "Timax"
+  slug: "timax"
+  description: "Software company."
+
+- name: "Elixir Fountain"
+  slug: "elixir-fountain"
+  description: "Podcast about the Elixir programming language."
+
+- name: "Elixir Radar"
+  slug: "elixir-radar"
+  website: "https://plataformatec.com.br/elixir-radar"
+  description: "Weekly Elixir newsletter curated by Plataformatec."
+
+- name: "Elixir Weekly"
+  slug: "elixir-weekly"
+  website: "https://elixirweekly.net"
+  description: "Weekly newsletter covering Elixir news, articles, and libraries."
+
+- name: "InfoQ"
+  slug: "infoq"
+  website: "https://www.infoq.com"
+  description: "Online publication covering software development and enterprise architecture."
+
+- name: "O'Reilly"
+  slug: "oreilly"
+  website: "https://www.oreilly.com"
+  description: "Publisher of technology and programming books, and host of industry conferences."
+
+- name: "Plataformatec"
+  slug: "plataformatec"
+  website: "https://plataformatec.com.br"
+  description: "Consultancy founded by the creator of Elixir, known for the Elixir programming language and Ruby on Rails contributions."
