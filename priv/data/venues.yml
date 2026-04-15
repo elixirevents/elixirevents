@@ -24,6 +24,17 @@
   website: "https://www.icekrakow.pl"
   description: "A striking modern congress centre on the banks of the Vistula River, offering panoramic views of Wawel Castle and world-class conference facilities."
 
+- name: "Mercure Hotel Berlin Tempelhof Airport"
+  slug: "mercure-berlin-tempelhof"
+  street: "Hermannstraße 214-216"
+  city: "Berlin"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "12049"
+  latitude: 52.4738
+  longitude: 13.4253
+  description: "A modern conference hotel on the former Tempelhof Airport grounds in Berlin, a few minutes from the city centre and directly served by the Boddinstraße U-Bahn station."
+
 - name: "Andel's Hotel Kraków"
   slug: "andels-hotel-krakow"
   street: "ul. Pawia 3"

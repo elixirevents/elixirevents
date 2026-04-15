@@ -688,6 +688,9 @@
   slug: "bentyler"
   headline: "Distributed Systems Engineer"
   bio: "Engineer exploring distributed systems with Phoenix and Riak Core."
+  social_links:
+    - platform: github
+      url: https://github.com/kanatohodets
 
 - name: "Bram Verburg"
   slug: "bramverburg"
@@ -2512,12 +2515,15 @@
 - name: "Martin Schürrer"
   slug: "martinschurrer"
   headline: "Elixir Developer"
-  bio: "Elixir Developer"
+  bio: |
+    Martin Schurrer moved from Rails to Erlang and and finally Elixir. Using Elixir he now develops live collaboration tools at PSPDFKit, the leading PDF framework for iOS and Android.
   social_links:
     - platform: linkedin
       url: https://www.linkedin.com/in/martinschuerrer/
     - platform: twitter
       url: https://x.com/MSch
+    - platform: github
+      url: https://github.com/MSch
 
 - name: "Claudio Ortolina"
   slug: "claudioortolina"

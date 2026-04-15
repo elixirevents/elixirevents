@@ -121,3 +121,47 @@
   website: "https://ti.to"
   description: "Event ticketing and registration platform"
   logo_url: "https://codebeamvancouver.com/assets/images/sponsors/tito-small.png"
+
+- name: "Football Addicts"
+  slug: "football-addicts"
+  website: "https://www.footballaddicts.com"
+  description: "Creators of Forza Football, a mobile app for football fans."
+
+- name: "solarisBank"
+  slug: "solarisbank"
+  website: "https://www.solarisbank.com"
+  description: "Berlin-based banking-as-a-service platform."
+
+- name: "5Minds IT-Solutions"
+  slug: "5minds"
+  website: "https://www.5minds.de"
+  description: "German IT consultancy specialising in process automation and distributed systems."
+
+- name: "BitCrowd"
+  slug: "bitcrowd"
+  website: "https://bitcrowd.net"
+  description: "Berlin-based software studio building web and mobile products."
+
+- name: "Codegram"
+  slug: "codegram"
+  website: "https://www.codegram.com"
+  description: "Barcelona-based software consultancy focused on Elixir, Ruby, and modern web stacks."
+
+- name: "Zweitag"
+  slug: "zweitag"
+  website: "https://www.zweitag.de"
+  description: "German software development agency building custom web applications."
+
+- name: "Dog Star"
+  slug: "dog-star"
+  website: "https://dogstarphoto.co.uk"
+  description: "Photography studio."
+
+- name: "Piñata Software"
+  slug: "pinata-software"
+  description: "Software development studio."
+
+- name: "Talkdesk"
+  slug: "talkdesk"
+  website: "https://www.talkdesk.com"
+  description: "Cloud-based contact centre platform."

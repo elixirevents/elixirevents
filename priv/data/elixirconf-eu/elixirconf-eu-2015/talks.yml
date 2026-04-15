@@ -61,6 +61,10 @@
     - provider: youtube
       external_id: "xT8vDHIvurs"
       url: "https://www.youtube.com/watch?v=xT8vDHIvurs"
+  links:
+    - kind: slides
+      url: "https://speakerdeck.com/mschae/individualised-content-at-web-scale"
+      label: "Slides"
 
 - title: "Ecto"
   slug: "ecto"
@@ -222,6 +226,10 @@
     - provider: youtube
       external_id: "wYttHG3S76Y"
       url: "https://www.youtube.com/watch?v=wYttHG3S76Y"
+  links:
+    - kind: slides
+      url: "https://speakerdeck.com/sasajuric/high-availability"
+      label: "Slides"
 
 - title: "One project rebuilt 4 times (...)"
   slug: "one-project-rebuilt-4-times"
@@ -239,6 +247,10 @@
     - provider: youtube
       external_id: "h_HtO8KPvsM"
       url: "https://www.youtube.com/watch?v=h_HtO8KPvsM"
+  links:
+    - kind: slides
+      url: "https://speakerdeck.com/mosic/elixir-at-evercam"
+      label: "Slides"
 
 - title: "Scale, Manage and Prevent!"
   slug: "scale-manage-and-prevent"

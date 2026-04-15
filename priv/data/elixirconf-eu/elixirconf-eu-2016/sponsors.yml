@@ -1,0 +1,21 @@
+- name: "Gold"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "football-addicts"
+    - slug: "solarisbank"
+
+- name: "Silver"
+  level: 4
+  sponsors:
+    - slug: "5minds"
+    - slug: "bitcrowd"
+    - slug: "codegram"
+    - slug: "zweitag"
+
+- name: "Supporters"
+  level: 6
+  sponsors:
+    - slug: "dog-star"
+    - slug: "pinata-software"
+    - slug: "talkdesk"

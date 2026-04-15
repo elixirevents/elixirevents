@@ -5,6 +5,8 @@ defmodule ElixirEvents.Talks.TalkLink do
 
   @kinds [:slides, :repo, :blog_post, :other]
 
+  def kinds, do: @kinds
+
   @permitted ~w(talk_id kind url label)a
   @required ~w(talk_id kind url)a
 
