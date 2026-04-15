@@ -541,7 +541,7 @@
 
 ## Lightning Talks
 
-- title: "Lightning Talk: Broadway + SQS + Apache Tika by Dave Lee"
+- title: "Broadway + SQS + Apache Tika"
   slug: "broadway-sqs-apache-tika"
   kind: lightning_talk
   language: en
@@ -557,7 +557,7 @@
       external_id: "Gc3_bbfEW_w"
       url: "https://www.youtube.com/watch?v=Gc3_bbfEW_w"
 
-- title: "Lightning Talk: Redex, An Elixir Implementation of Redis by Ali Farhadi"
+- title: "Redex, An Elixir Implementation of Redis"
   slug: "redex-an-elixir-implementation-of-redis"
   kind: lightning_talk
   language: en
@@ -573,7 +573,7 @@
       external_id: "sbk4ceR__DU"
       url: "https://www.youtube.com/watch?v=sbk4ceR__DU"
 
-- title: "Lightning Talk: Native Code from Elixir by Daniel Serrano"
+- title: "Native Code from Elixir"
   slug: "native-code-from-elixir"
   kind: lightning_talk
   language: en
@@ -589,7 +589,7 @@
       external_id: "inytR1AOZi0"
       url: "https://www.youtube.com/watch?v=inytR1AOZi0"
 
-- title: "Lightning Talk: Ido Keido by Fernando Hamasaki de Amorim"
+- title: "Ido Keido"
   slug: "ido-keido"
   kind: lightning_talk
   language: en
@@ -605,7 +605,7 @@
       external_id: "ZPRdbfVVKQ0"
       url: "https://www.youtube.com/watch?v=ZPRdbfVVKQ0"
 
-- title: "Lightning Talk: Networking for Developers by Eamon Leonard"
+- title: "Networking for Developers"
   slug: "networking-for-developers"
   kind: lightning_talk
   language: en
