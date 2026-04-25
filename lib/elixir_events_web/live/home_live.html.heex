@@ -252,12 +252,11 @@
           class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10"
         >
           <a :for={profile <- @profiles} href={~p"/profiles/#{profile.handle}"} class="group">
-            <div
-              class="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center text-lg sm:text-xl font-display font-bold mb-4 transition-transform duration-300 group-hover:scale-105"
-              style={avatar_style(profile.name)}
-            >
-              {initials(profile.name)}
-            </div>
+            <.profile_avatar
+              profile={profile}
+              size={:xl}
+              class="mb-4 transition-transform duration-300 group-hover:scale-105"
+            />
             <h3 class="font-display font-bold text-base-content text-sm sm:text-base group-hover:text-primary transition-colors">
               {short_name(profile.name)}
             </h3>
