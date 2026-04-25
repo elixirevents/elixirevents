@@ -111,6 +111,58 @@ defmodule ElixirEventsWeb.BrandComponents do
     """
   end
 
+  @avatar_sizes %{
+    xs: {"w-6 h-6", "text-[9px]"},
+    sm: {"w-10 h-10", "text-sm"},
+    md: {"w-12 h-12", "text-sm"},
+    lg: {"w-14 h-14", "text-base"},
+    xl: {"w-16 h-16 sm:w-20 sm:h-20", "text-lg sm:text-xl"},
+    "2xl": {"w-24 h-24 sm:w-28 sm:h-28", "text-3xl sm:text-4xl"}
+  }
+
+  @doc """
+  Renders a profile avatar — the `avatar_url` image when present,
+  a deterministic gradient with initials as fallback.
+
+  ## Attributes
+    * `profile` - A profile map with `:name` and `:avatar_url`
+    * `size` - Size preset (default `:md`). One of `:xs`, `:sm`, `:md`, `:lg`, `:xl`, `:"2xl"`
+    * `class` - Extra container classes (margins, hover transforms, rings, etc.)
+
+  ## Examples
+      <.profile_avatar profile={@profile} size={:"2xl"} />
+      <.profile_avatar profile={profile} size={:xl} class="mb-4 group-hover:scale-105 transition-transform duration-300" />
+  """
+  attr :profile, :map, required: true
+  attr :size, :atom, default: :md, values: [:xs, :sm, :md, :lg, :xl, :"2xl"]
+  attr :class, :string, default: nil
+
+  def profile_avatar(assigns) do
+    {size_class, text_class} = Map.fetch!(@avatar_sizes, assigns.size)
+    assigns = assign(assigns, size_class: size_class, text_class: text_class)
+
+    ~H"""
+    <img
+      :if={@profile.avatar_url}
+      src={@profile.avatar_url}
+      alt={@profile.name}
+      class={[@size_class, "rounded-full object-cover shrink-0", @class]}
+    />
+    <div
+      :if={!@profile.avatar_url}
+      class={[
+        @size_class,
+        @text_class,
+        "rounded-full flex items-center justify-center font-display font-bold shrink-0",
+        @class
+      ]}
+      style={avatar_style(@profile.name)}
+    >
+      {initials(@profile.name)}
+    </div>
+    """
+  end
+
   @doc """
   Renders an event status badge.
 
@@ -513,12 +565,7 @@ defmodule ElixirEventsWeb.BrandComponents do
       navigate={"/profiles/#{@speaker.handle}"}
       class="flex items-center gap-3 px-4 py-3 rounded-xl border border-base-300 bg-base-200/30 hover:border-primary/40 hover:bg-base-200/60 transition-all min-w-[260px] group"
     >
-      <div
-        class="w-12 h-12 rounded-full shrink-0 flex items-center justify-center text-white font-bold text-sm"
-        style={avatar_style(@speaker.name)}
-      >
-        {initials(@speaker.name)}
-      </div>
+      <.profile_avatar profile={@speaker} size={:md} />
       <div class="min-w-0">
         <div class="font-semibold text-sm text-base-content group-hover:text-primary transition-colors truncate">
           {@speaker.name}
@@ -549,12 +596,7 @@ defmodule ElixirEventsWeb.BrandComponents do
       navigate={"/profiles/#{@speaker.handle}"}
       class="flex items-center gap-3 p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-base-200/30 transition-all group"
     >
-      <div
-        class="w-14 h-14 rounded-full shrink-0 flex items-center justify-center text-white font-bold"
-        style={avatar_style(@speaker.name)}
-      >
-        {initials(@speaker.name)}
-      </div>
+      <.profile_avatar profile={@speaker} size={:lg} />
       <div class="min-w-0 flex-1">
         <div class="font-semibold text-sm group-hover:text-primary transition-colors">
           {@speaker.name}
@@ -890,13 +932,12 @@ defmodule ElixirEventsWeb.BrandComponents do
         <%!-- Speakers --%>
         <div :if={@speakers != []} class="flex items-center gap-2 mt-2">
           <div class="flex -space-x-1.5">
-            <div
+            <.profile_avatar
               :for={ts <- Enum.take(@speakers, 4)}
-              class="w-6 h-6 rounded-full flex items-center justify-center text-[9px] font-display font-bold ring-2 ring-base-100 shrink-0"
-              style={avatar_style(ts.profile.name)}
-            >
-              {initials(ts.profile.name)}
-            </div>
+              profile={ts.profile}
+              size={:xs}
+              class="ring-2 ring-base-100"
+            />
           </div>
           <span class="text-xs text-base-content/50 truncate">
             {@speakers |> Enum.map_join(", ", & &1.profile.name)}

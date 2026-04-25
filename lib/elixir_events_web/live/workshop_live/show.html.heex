@@ -150,12 +150,11 @@
             navigate={~p"/profiles/#{wt.profile.handle}"}
             class="flex items-center gap-3 group"
           >
-            <div
-              class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-display font-bold shrink-0 group-hover:scale-105 transition-transform"
-              style={avatar_style(wt.profile.name)}
-            >
-              {initials(wt.profile.name)}
-            </div>
+            <.profile_avatar
+              profile={wt.profile}
+              size={:sm}
+              class="group-hover:scale-105 transition-transform"
+            />
             <div>
               <div class="font-medium text-base-content group-hover:text-primary transition-colors">
                 {wt.profile.name}
