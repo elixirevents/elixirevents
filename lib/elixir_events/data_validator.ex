@@ -20,7 +20,7 @@ defmodule ElixirEvents.DataValidator do
   alias ElixirEvents.Slug
   alias ElixirEvents.Sponsorship.Sponsor
   alias ElixirEvents.Submissions.CFP
-  alias ElixirEvents.Talks.{Recording, Talk}
+  alias ElixirEvents.Talks.{Recording, Talk, TalkLink}
 
   # All enum values derived from Ecto schemas — single source of truth
   @event_kinds Enum.map(Event.kinds(), &to_string/1)
@@ -32,6 +32,7 @@ defmodule ElixirEvents.DataValidator do
   @talk_levels Enum.map(Talk.levels(), &to_string/1)
   @social_platforms Enum.map(SocialLink.platforms(), &to_string/1)
   @recording_providers Enum.map(Recording.providers(), &to_string/1)
+  @talk_link_kinds Enum.map(TalkLink.kinds(), &to_string/1)
   @sponsor_badges Enum.map(Sponsor.badges(), &to_string/1)
   @cfp_kinds Enum.map(CFP.kinds(), &to_string/1)
 
@@ -42,8 +43,9 @@ defmodule ElixirEvents.DataValidator do
   @venue_keys ~w(name slug street city region country country_code postal_code latitude longitude website description)
   @series_keys ~w(name slug kind frequency language website color social_links description listed)
   @event_keys ~w(name slug venue_slug kind status format start_date end_date timezone language location website color description tickets_url)
-  @talk_keys ~w(title slug kind level language duration abstract speakers topics recordings)
+  @talk_keys ~w(title slug kind level language duration abstract speakers topics recordings links)
   @recording_keys ~w(provider external_id url duration thumbnail_url)
+  @talk_link_keys ~w(kind url label)
   @social_link_keys ~w(platform url label)
   @sponsor_tier_keys ~w(name level description sponsors)
   @sponsor_keys ~w(slug badge)
@@ -302,6 +304,7 @@ defmodule ElixirEvents.DataValidator do
       |> validate_enum(data, "level", @talk_levels)
       |> validate_integer(data, "duration")
       |> validate_recordings(data)
+      |> validate_talk_links(data)
 
     # Validate speaker references
     errs =
@@ -856,6 +859,28 @@ defmodule ElixirEvents.DataValidator do
 
       _ ->
         errors ++ ["recordings must be a list"]
+    end
+  end
+
+  defp validate_talk_links(errors, data) do
+    case data["links"] do
+      nil ->
+        errors
+
+      links when is_list(links) ->
+        links
+        |> Enum.with_index(1)
+        |> Enum.reduce(errors, fn {link, index}, acc ->
+          acc
+          |> validate_allowed_keys(link, @talk_link_keys, "link ##{index}")
+          |> require_field(link, "kind")
+          |> validate_enum(link, "kind", @talk_link_kinds)
+          |> require_field(link, "url")
+          |> validate_url(link, "url")
+        end)
+
+      _ ->
+        errors ++ ["links must be a list"]
     end
   end
 

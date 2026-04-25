@@ -15,9 +15,13 @@
     - provider: youtube
       external_id: "IZvpKhA6t8A"
       url: "https://www.youtube.com/watch?v=IZvpKhA6t8A"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/670/original/Jose_Valim_-_Keynote.pdf?1498489275"
+      label: "Slides (PDF)"
 
-- title: "Keynote: The Age of Elixir"
-  slug: "keynote-the-age-of-elixir"
+- title: "The Age of Elixir"
+  slug: "the-age-of-elixir"
   kind: keynote
   language: en
   duration: 48
@@ -35,9 +39,13 @@
     - provider: youtube
       external_id: "79uZENO4OwA"
       url: "https://www.youtube.com/watch?v=79uZENO4OwA"
+  links:
+    - kind: slides
+      url: "https://speakerd.s3.amazonaws.com/presentations/0af58bdd83bf445c83a6427891737669/elixir_conf_eu_2017_keynote.pdf"
+      label: "Slides (PDF)"
 
-- title: "Keynote: Phoenix - Gauging Progress"
-  slug: "keynote-phoenix-gauging-progress"
+- title: "Phoenix - Gauging Progress"
+  slug: "phoenix-gauging-progress"
   kind: keynote
   language: en
   duration: 49
@@ -71,6 +79,10 @@
     - provider: youtube
       external_id: "kMHXd_iMGRU"
       url: "https://www.youtube.com/watch?v=kMHXd_iMGRU"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/626/original/ElixirConfEU_2017_-_Nervous_System_-_Timmo_Verlaan.pdf?1495020334"
+      label: "Slides (PDF)"
 
 - title: "Building a Scalable, Distributed Backend for Mobile Games"
   slug: "building-a-scalable-distributed-backend-for-mobile-games"
@@ -89,6 +101,10 @@
     - provider: youtube
       external_id: "nCSO8yeR0c4"
       url: "https://www.youtube.com/watch?v=nCSO8yeR0c4"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/735/original/Petri_Kero_-_Building_a_Scalable__Distributed_Backend_for_Mobile_Games.pdf?1505918140"
+      label: "Slides (PDF)"
 
 - title: "Elixir and Money"
   slug: "elixir-and-money"
@@ -106,6 +122,10 @@
     - provider: youtube
       external_id: "TZPG8b-Novw"
       url: "https://www.youtube.com/watch?v=TZPG8b-Novw"
+  links:
+    - kind: slides
+      url: "https://esl-conf-static.s3.eu-central-1.amazonaws.com/media/files/000/000/668/original/Tomasz_Kowal_-_Financial_systems_in_Elixir.pdf?1498240276"
+      label: "Slides (PDF)"
 
 - title: "The Best Library I Ever Designed"
   slug: "the-best-library-i-ever-designed"
@@ -124,6 +144,10 @@
     - provider: youtube
       external_id: "tbo7IV8akvs"
       url: "https://www.youtube.com/watch?v=tbo7IV8akvs"
+  links:
+    - kind: slides
+      url: "https://speakerdeck.com/whatyouhide/the-best-library-i-ever-designed"
+      label: "Slides"
 
 - title: "Keeping Code Consistent"
   slug: "keeping-code-consistent"
@@ -141,6 +165,10 @@
     - provider: youtube
       external_id: "W1EzF4FdUxM"
       url: "https://www.youtube.com/watch?v=W1EzF4FdUxM"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/669/original/Ben_Marx_-_Keeping_Code_Consistent.pdf?1498488779"
+      label: "Slides (PDF)"
 
 - title: "Designing a Multi-Language Live Programming Tool With Phoenix and Genstage"
   slug: "designing-a-multi-language-live-programming-tool-with-phoenix-and-genstage"
@@ -162,6 +190,10 @@
     - provider: youtube
       external_id: "p58sFfgMvdI"
       url: "https://www.youtube.com/watch?v=p58sFfgMvdI"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/624/original/ElixirConfEU_2017_-_Designing_a_Multi-Language_Live_Programming_Tool_With_Phoenix_and_Genstage_-_Andrea_Amantini.pdf?1493997531"
+      label: "Slides (PDF)"
 
 - title: "Just Enough Plug to Build a Web server"
   slug: "just-enough-plug-to-build-a-web-server"
@@ -179,6 +211,10 @@
     - provider: youtube
       external_id: "ESzZCaaCzyg"
       url: "https://www.youtube.com/watch?v=ESzZCaaCzyg"
+  links:
+    - kind: slides
+      url: "https://slidrio-decks.global.ssl.fastly.net/1091/original.pdf?1493977139"
+      label: "Slides (PDF)"
 
 - title: "Background Processing with RabbitMQ"
   slug: "background-processing-with-rabbitmq"
@@ -202,6 +238,10 @@
     - provider: youtube
       external_id: "itU5_zPddBQ"
       url: "https://www.youtube.com/watch?v=itU5_zPddBQ"
+  links:
+    - kind: slides
+      url: "https://esl-conf-static.s3.eu-central-1.amazonaws.com/media/files/000/000/667/original/Tatsuya_Ono_-_Background_Processing_with_RabbitMQ.pdf?1498240160"
+      label: "Slides (PDF)"
 
 - title: "Building a Graphical IDE in Elm/Purescript"
   slug: "building-a-graphical-ide-in-elm-purescript"
@@ -225,6 +265,10 @@
     - provider: youtube
       external_id: "ngWo5e-294o"
       url: "https://www.youtube.com/watch?v=ngWo5e-294o"
+  links:
+    - kind: slides
+      url: "http://doppioslash.com/slides/ElixirConf2017.pdf"
+      label: "Slides (PDF)"
 
 - title: "Visual Reasoning and Mental Maps in Elixir"
   slug: "visual-reasoning-and-mental-maps-in-elixir"
@@ -243,6 +287,10 @@
     - provider: youtube
       external_id: "XLOrFRgmczU"
       url: "https://www.youtube.com/watch?v=XLOrFRgmczU"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/734/original/Daniel_Vamosi_-_Visual_reasoning_and_mental_maps.pdf?1505918071"
+      label: "Slides (PDF)"
 
 - title: "Machine Learning with Elixir and Phoenix"
   slug: "machine-learning-with-elixir-and-phoenix"
@@ -261,6 +309,10 @@
     - provider: youtube
       external_id: "ZgPwqN38xaA"
       url: "https://www.youtube.com/watch?v=ZgPwqN38xaA"
+  links:
+    - kind: slides
+      url: "https://speakerdeck.com/ericqweinstein/machine-learning-with-elixir-and-phoenix"
+      label: "Slides"
 
 - title: "One and Only One Process in a Distributed System"
   slug: "one-and-only-one-process-in-a-distributed-system"
@@ -279,6 +331,10 @@
     - provider: youtube
       external_id: "SDKiLO2XwIs"
       url: "https://www.youtube.com/watch?v=SDKiLO2XwIs"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/672/original/Nathan_Herald_-_One_and_Only_One_Process_in_a_Distributed_System.pdf?1498575688"
+      label: "Slides (PDF)"
 
 - title: "Wobserver: Easy to Integrate Monitoring and Debugging"
   slug: "wobserver-easy-to-integrate-monitoring-and-debugging"
@@ -305,6 +361,10 @@
     - provider: youtube
       external_id: "I-5ggHxKNCo"
       url: "https://www.youtube.com/watch?v=I-5ggHxKNCo"
+  links:
+    - kind: repo
+      url: "https://github.com/IanLuites/wobserver-elixirconf-2017"
+      label: "Demo repo"
 
 - title: "Testing Web Services with QuickCheck"
   slug: "testing-web-services-with-quickcheck"
@@ -323,6 +383,10 @@
     - provider: youtube
       external_id: "dDDCSDTHRZo"
       url: "https://www.youtube.com/watch?v=dDDCSDTHRZo"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/627/original/ElixirConfEU_2017_-_TestingWebServiceWithQC_-_Thomas_Arts.pdf?1495020439"
+      label: "Slides (PDF)"
 
 - title: "Refactoring Elixir - Lessons Learned from a Year on Exercism.io"
   slug: "refactoring-elixir-lessons-learned-from-a-year-on-exercism-io"
@@ -340,6 +404,10 @@
     - provider: youtube
       external_id: "tJJMrtJEK1A"
       url: "https://www.youtube.com/watch?v=tJJMrtJEK1A"
+  links:
+    - kind: slides
+      url: "https://speakerd.s3.amazonaws.com/presentations/5e4885f7583f4a27b52301484d666482/elixir.pdf"
+      label: "Slides (PDF)"
 
 - title: "Always Available"
   slug: "always-available"
@@ -358,6 +426,10 @@
     - provider: youtube
       external_id: "UTXYiV7nOpM"
       url: "https://www.youtube.com/watch?v=UTXYiV7nOpM"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/623/original/ElixirConfEU_2017_-_Always_Available_-_Claudio_Ortolina.pdf?1493997314"
+      label: "Slides (PDF)"
 
 - title: "Fly like an Eagle"
   slug: "fly-like-an-eagle"
@@ -375,6 +447,10 @@
     - provider: youtube
       external_id: "TZnaqnxA4UY"
       url: "https://www.youtube.com/watch?v=TZnaqnxA4UY"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/625/original/ElixirConf_EU_2017_-_Fly_like_an_Eagle_-_Loic_Vigneron.pdf?1494527377"
+      label: "Slides (PDF)"
 
 - title: "A Practical Guide to Elixir Protocols"
   slug: "a-practical-guide-to-elixir-protocols"
@@ -391,6 +467,72 @@
     - provider: youtube
       external_id: "sJvfCE6PFxY"
       url: "https://www.youtube.com/watch?v=sJvfCE6PFxY"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/631/original/ElixirConf_EU_-_A_Practical_Guide_to_Protocols_-_Kevin_Rockwood.pdf?1495045146"
+      label: "Slides (PDF)"
+
+- title: "Exploring CQRS and Event Sourcing: A Journey into High Scalability, Availability and Maintainability"
+  slug: "exploring-cqrs-and-event-sourcing"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 40
+  abstract: "An exploration of CQRS (Command Query Responsibility Segregation) and Event Sourcing in Elixir. How these patterns help build systems that scale, stay available, and remain maintainable over time — and what it looks like to apply them with OTP primitives."
+  speakers:
+    - toncigalic
+  topics:
+    - elixir
+  links:
+    - kind: slides
+      url: "https://tuxified.github.io/elixirconf-eu-2017-talk/"
+      label: "Slides"
+
+- title: "A Tour of the Elixir Source Code"
+  slug: "a-tour-of-the-elixir-source-code"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 40
+  abstract: "A guided tour through the internals of the Elixir language itself. We'll navigate the compiler, the standard library, and the way Elixir sits on top of the Erlang VM — learning enough to read the source code confidently and to contribute back."
+  speakers:
+    - xaviernoria
+  topics:
+    - elixir
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/733/original/Xavier_Noria_-_A_tour_of_the_elixir_source_code.pdf?1505918024"
+      label: "Slides (PDF)"
+
+- title: "DBConnection - Ecto's SQL Sandbox"
+  slug: "dbconnection-ectos-sql-sandbox"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 40
+  abstract: "A deep dive into DBConnection, the library that powers Ecto's database adapters and its SQL sandbox. How connection pooling, ownership, and transactions work under the hood — and how the sandbox gives Ecto its concurrent, isolated tests."
+  speakers:
+    - jamesfish
+  topics:
+    - elixir
+    - ecto
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/628/original/ElixirConfEU_2017_-_DBConnection_-_James_Fish.pdf?1495023615"
+      label: "Slides (PDF)"
+
+- title: "GraphQL in Practice"
+  slug: "graphql-in-practice"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: "GraphQL has moved from novelty to production tool. The co-creators of Absinthe share patterns and lessons learned from building GraphQL APIs in Elixir — schema design, authorization, performance, and real-world integration challenges."
+  speakers:
+    - brucewilliams
+    - benjaminwilson
+  topics:
+    - elixir
 
 ## Lightning Talks
 

@@ -1,0 +1,185 @@
+tracks:
+  - name: "Track 1"
+    color: "#6B46C1"
+    position: 1
+
+days:
+  - name: "Day 1"
+    date: "2015-04-23"
+    position: 1
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:45"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "23-5-days-with-elixir"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "10:15"
+        end_time: "11:00"
+        sessions:
+          - talk_slug: "high-availability"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "11:00"
+        end_time: "11:15"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "11:00"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "building-lego-robots-with-elixir"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "12:45"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:00"
+        end_time: "13:45"
+        sessions:
+          - talk_slug: "quickcheck-for-elixir-generate-tests-automatically"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "13:45"
+        end_time: "14:30"
+        sessions:
+          - talk_slug: "scale-manage-and-prevent"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "15:00"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "one-project-rebuilt-4-times"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "15:30"
+        end_time: "16:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "15:45"
+        end_time: "16:30"
+        sessions:
+          - talk_slug: "rewriting-a-ruby-application-in-elixir-elix"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "17:00"
+        end_time: "18:00"
+        sessions:
+          - talk_slug: "whats-ahead-for-elixir"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "17:30"
+        end_time: "18:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+  - name: "Day 2"
+    date: "2015-04-24"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:45"
+        sessions:
+          - title: "Welcome Tea and Coffee"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "keynote-phoenix-takes-flight"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "10:15"
+        end_time: "11:00"
+        sessions:
+          - talk_slug: "collaborative-web-based-tetris-with-phoenix"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "11:00"
+        end_time: "11:15"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "11:00"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "fast-continuous-deployment-of-an-elixir-gameserver"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "12:45"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:00"
+        end_time: "13:45"
+        sessions:
+          - talk_slug: "chat-bot-a-practical-walkthrough-of-the-powerful-features-of-elixir-erlang-otp"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "13:45"
+        end_time: "14:30"
+        sessions:
+          - talk_slug: "individualised-content-at-web-scale"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "15:00"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "lessons-from-erlang-vm"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "15:30"
+        end_time: "16:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "15:45"
+        end_time: "16:30"
+        sessions:
+          - talk_slug: "ecto"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "17:30"
+        end_time: "18:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "18:00"
+        end_time: "19:00"
+        sessions:
+          - title: "Lightning Talks"
+            kind: lightning_talk
+            track: "Track 1"

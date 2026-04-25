@@ -1,0 +1,29 @@
+- name: "Platinum"
+  level: 2
+  sponsors:
+    - slug: "bitcrowd"
+    - slug: "solarisbank"
+
+- name: "Gold"
+  level: 3
+  sponsors:
+    - slug: "coders51"
+    - slug: "cultivate"
+    - slug: "erlang-solutions"
+
+- name: "Silver"
+  level: 4
+  sponsors:
+    - slug: "aeternity"
+    - slug: "simplabs"
+
+- name: "Media"
+  level: 6
+  sponsors:
+    - slug: "elixir-bridge"
+    - slug: "elixir-fountain"
+    - slug: "elixir-girls"
+    - slug: "elixir-radar"
+    - slug: "functional-geekery"
+    - slug: "infoq"
+    - slug: "plataformatec"

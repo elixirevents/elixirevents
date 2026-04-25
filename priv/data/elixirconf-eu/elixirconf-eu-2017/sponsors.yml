@@ -1,0 +1,34 @@
+- name: "Platinum"
+  level: 2
+  sponsors:
+    - slug: "bitcrowd"
+    - slug: "easymile"
+    - slug: "grandcentrix"
+
+- name: "Gold"
+  level: 3
+  sponsors:
+    - slug: "cabify"
+    - slug: "cultivate"
+    - slug: "erlang-solutions"
+    - slug: "inaka"
+    - slug: "book-of-everyone"
+
+- name: "Silver"
+  level: 4
+  sponsors:
+    - slug: "findmypast"
+    - slug: "nedap"
+    - slug: "simplabs"
+    - slug: "solarisbank"
+    - slug: "timax"
+
+- name: "Media"
+  level: 6
+  sponsors:
+    - slug: "elixir-fountain"
+    - slug: "elixir-radar"
+    - slug: "elixir-weekly"
+    - slug: "infoq"
+    - slug: "oreilly"
+    - slug: "plataformatec"

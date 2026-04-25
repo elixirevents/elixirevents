@@ -1,0 +1,4 @@
+- name: "Gold"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"

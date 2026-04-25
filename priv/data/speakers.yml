@@ -688,6 +688,9 @@
   slug: "bentyler"
   headline: "Distributed Systems Engineer"
   bio: "Engineer exploring distributed systems with Phoenix and Riak Core."
+  social_links:
+    - platform: github
+      url: https://github.com/kanatohodets
 
 - name: "Bram Verburg"
   slug: "bramverburg"
@@ -1222,6 +1225,14 @@
   slug: "jezenthomas"
   headline: "Developer"
   bio: "Conference speaker."
+
+- name: "Jim Freeze"
+  slug: "jimfreeze"
+  headline: "Conference Organizer"
+  bio: "Jim Freeze is active in both the Ruby and the Elixir communities. Jim created the Lone Star Ruby Foundation and ran the Lone Star Ruby Conference for six years. Jim also created ElixirConf in the U.S. and is part of the ElixirConfEU team. Jim is a courseware author and conducts Ruby and Elixir training classes. Jim received an M.S. and Ph.D. in Electrical and Computer Engineering from BYU."
+  social_links:
+    - platform: twitter
+      url: https://x.com/jimfreeze
 
 - name: "Jônatas Paganini"
   slug: "jonataspaganini"
@@ -2504,12 +2515,15 @@
 - name: "Martin Schürrer"
   slug: "martinschurrer"
   headline: "Elixir Developer"
-  bio: "Elixir Developer"
+  bio: |
+    Martin Schurrer moved from Rails to Erlang and and finally Elixir. Using Elixir he now develops live collaboration tools at PSPDFKit, the leading PDF framework for iOS and Android.
   social_links:
     - platform: linkedin
       url: https://www.linkedin.com/in/martinschuerrer/
     - platform: twitter
       url: https://x.com/MSch
+    - platform: github
+      url: https://github.com/MSch
 
 - name: "Claudio Ortolina"
   slug: "claudioortolina"
@@ -2575,6 +2589,8 @@
   social_links:
     - platform: linkedin
       url: https://www.linkedin.com/in/jeffweiss/
+    - platform: github
+      url: https://github.com/jeffweiss
 
 - name: "Evadne Wu"
   slug: "evadnewu"
@@ -2594,6 +2610,8 @@
   social_links:
     - platform: mastodon
       url: https://clj.social/@albertzak
+    - platform: github
+      url: https://github.com/albertzak
 
 - name: "Georgina McFadyen"
   slug: "georginamcfadyen"
@@ -3690,7 +3708,11 @@
 - name: "José San Gil"
   slug: "josesangil"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: |
+    José is a computer engineer from Caracas, Venezuela with 8 years experience. He started as a mobile application developer for Blackberry devices but quickly moved to web application and APIs. He has worked on different financial startups, coding infrastructure in Java, Python, and Javascript. He switched to Elixir, along with his team and now writes Elixir 60% of his time.
+  social_links:
+    - platform: github
+      url: https://github.com/jsangilve
 
 - name: "Jack Rhodes"
   slug: "jrhodes"
@@ -3903,8 +3925,9 @@
 
 - name: "Philipp Schmieder"
   slug: "philippschmieder"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Founder Pentacent"
+  bio: |
+    After founding a software company, Philipp studied psychology but has remained a developer at heart. He’s an open-source enthusiast, passionate about functional programming and loves to share his experiences and knowledge with other people. These days he’s creating software with Elixir, JavaScript and C++.
 
 - name: "Rachael Mwatela"
   slug: "rachaelmwatela"
@@ -4075,7 +4098,13 @@
 - name: "Tonći Galić"
   slug: "toncigalic"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: |
+    Tonći is a polyglot web developer with a broad range of interests and also a broad range of experiences. He started out with Perl/CGI around 1999, throughout the years he has worked with Java, PHP and C#/.NET. In the last few years, he has focused on Ruby/Rails but now he is in love with Elixir/Phoenix and the functional aspects of programming languages. He is the organiser of the Amsterdam Elixir meetup, Elixir Bootcamp and was a co-organiser of Code BEAM lite Amsterdam.
+  social_links:
+    - platform: github
+      url: https://github.com/Tuxified
+    - platform: twitter
+      url: https://x.com/Tuxified
 
 - name: "Vaibhav Sagar"
   slug: "vaibhavsagar"
@@ -4241,8 +4270,13 @@
 
 - name: "Bruce Williams"
   slug: "brucewilliams"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Engineering Leader"
+  bio: "Bruce Williams is a polyglot technologist, speaker, and Pragmatic Bookshelf author. He's the CTO of CargoSense, a logistics intelligence company built on Elixir and committed to its open source community. Away from the computer, he enjoys languages, traveling to new places, cooking, and the singular hobby of artisan gemstone cutting."
+  social_links:
+    - platform: github
+      url: https://github.com/bruce
+    - platform: linkedin
+      url: https://www.linkedin.com/in/wbruce/
 
 - name: "Christopher Cote"
   slug: "christophercote"
@@ -4787,7 +4821,10 @@
 - name: "James Fish"
   slug: "jamesfish"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: "James is a member of the Elixir and Ecto core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the Elixir IRC channel he enjoys playing soccer and baking cakes."
+  social_links:
+    - platform: github
+      url: https://github.com/fishcakez
 
 - name: "James Weaver"
   slug: "jamesweaver"
@@ -4812,7 +4849,13 @@
 - name: "Joe Armstrong"
   slug: "joearmstrong"
   headline: "Software Developer"
-  bio: "Software Developer"
+  bio: |
+    Joe Armstrong is the principle inventor of the Erlang programming Language and coined the term "Concurrency Oriented Programming". He has worked for Ericsson where he developed Erlang and was chief architect of the Erlang/OTP system. In 1998 he left Ericsson to form Bluetail, a company which developed all its products in Erlang. In 2003 he obtained his PhD from the Royal Institute of Technology, Stockholm. The title of his thesis was "Making reliable distributed systems in the presence of software errors."
+  social_links:
+    - platform: github
+      url: https://github.com/joearms
+    - platform: twitter
+      url: https://x.com/joeerl
 
 - name: "Kostis Sagonas"
   slug: "kostissagonas"
@@ -5598,3 +5641,71 @@
 - name: "Radosław Szuma"
   slug: "radoslawszuma"
   headline: "Software Engineer at Software Mansion"
+
+- name: "Makis Otman"
+  slug: "makisotman"
+  headline: "Software Consultant"
+  bio: |
+    Makis is a software consultant with a passion for high quality software and helping people build better products. He has delivered training in Elixir, helped build the Elixir Koans and contributed to the Elixir language. Outside of programming Makis likes to read books and watch football.
+  social_links:
+    - platform: github
+      url: https://github.com/Maikon
+    - platform: twitter
+      url: https://x.com/makisotman
+
+- name: "Artur Dębski"
+  slug: "arturdebski"
+  headline: "Functional Miners Meetup Co-Host"
+  bio: |
+    Artur Debski is a Ruby programmer who truly believes in a functional approach to programming. Having stumble at Elixir a long time ago Artur helps to spread the word about it and is a co-host of Functional Miners meetup (formerly SilesianBeamers). Can't live without HJKL and enjoys a good craft beer.
+  social_links:
+    - platform: github
+      url: https://github.com/functional-miners
+
+- name: "Benjamin Wilson"
+  slug: "benjaminwilson"
+  headline: "Elixir Team Lead, Co-Creator of Absinthe"
+  bio: "Co-creator of Absinthe. CTO @ CargoSense."
+  social_links:
+    - platform: github
+      url: https://github.com/benwilson512
+    - platform: linkedin
+      url: https://www.linkedin.com/in/benwilson512/
+
+- name: "Máté Marjai"
+  slug: "matemarjai"
+  headline: "Engineering Manager"
+  bio: "Máté has been working with different technology over the years ranging from Ruby, Erlang and Javascript. He enjoys writing applications and software that is used and loved by people."
+  social_links:
+    - platform: github
+      url: https://github.com/marjaimate
+    - platform: twitter
+      url: https://x.com/marjaimate
+
+- name: "Stanisław Chmiela"
+  slug: "stanislawchmiela"
+  headline: "Software Engineer"
+  bio: "Currently a Software Mansioner happy to tackle and solve all the problems I face! Jumped into Expo almost a year ago and have been happy to help accelerate mobile app development since then. Previously worked on React frontends, Ruby and Elixir backends and both RN and native iOS mobile apps."
+  social_links:
+    - platform: github
+      url: https://github.com/sjchmiela
+    - platform: twitter
+      url: https://x.com/sjchmiela
+    - platform: linkedin
+      url: https://www.linkedin.com/in/sjchmiela/
+
+- name: "Łukasz Gurdek"
+  slug: "lukaszgurdek"
+  headline: "Software Engineer"
+  bio: "Programming mostly in Ruby and maintaining company’s server infrastructure. Also experienced in Elixir and JavaScript."
+  social_links:
+    - platform: github
+      url: https://github.com/ukasiu
+    - platform: linkedin
+      url: https://www.linkedin.com/in/lgurdek/
+
+- name: "Alison Hughes"
+  slug: "alisonhughes"
+  headline: "Product Director at Vamp"
+  bio: |
+    Alison Hughes is the Product Director at Vamp - a global influencer marketing platform. She was previously the Head of Digital at Virgin Money, where she was responsible for developing and executing the digital strategy as well as enhancing the company’s technical capabilities. She has also led digital and technical teams to develop and execute digital strategies, campaigns and projects across leading brands, including the NSW Government, Lion, Schick, National Foods and Optus. Alison has co-owned two digital agencies, one achieving a ranking of #31 on the 2012 BRW Fast Starters list.

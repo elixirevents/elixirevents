@@ -1,0 +1,187 @@
+tracks:
+  - name: "Kindlsaal 1&2"
+    color: "#6B46C1"
+    position: 1
+
+days:
+  - name: "Day 1"
+    date: "2016-05-11"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "08:50"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "08:50"
+        end_time: "09:00"
+        sessions:
+          - title: "Welcome"
+            kind: social
+            track: "Kindlsaal 1&2"
+
+      - start_time: "09:00"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "whats-ahead-for-elixir"
+            track: "Kindlsaal 1&2"
+            kind: keynote
+
+      - start_time: "10:00"
+        end_time: "10:45"
+        sessions:
+          - talk_slug: "credo-analysing-ast-for-fun-and-profit"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "10:45"
+        end_time: "11:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "11:00"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "building-multiplayer-games-with-phoenix-and-phaser"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "11:45"
+        end_time: "12:30"
+        sessions:
+          - talk_slug: "discovering-processes"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "12:30"
+        end_time: "13:45"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:45"
+        end_time: "14:30"
+        sessions:
+          - talk_slug: "concurrent-and-resilient-connections-to-outside-the-beam"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "14:30"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "scaling-distributed-erlang"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "15:15"
+        end_time: "15:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "15:30"
+        end_time: "16:15"
+        sessions:
+          - talk_slug: "three-games-in-elixir"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "16:15"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "from-a-ruby-on-rails-monolith-to-elixir-and-elm-microservice"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "17:00"
+        end_time: "18:00"
+        sessions:
+          - title: "Lightning Talks"
+            kind: lightning_talk
+            track: "Kindlsaal 1&2"
+
+  - name: "Day 2"
+    date: "2016-05-12"
+    position: 2
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "phoenix-1-2-and-beyond"
+            track: "Kindlsaal 1&2"
+            kind: keynote
+
+      - start_time: "10:00"
+        end_time: "11:00"
+        sessions:
+          - talk_slug: "enhanced-embedded-systems-with-nerves"
+            track: "Kindlsaal 1&2"
+            kind: keynote
+
+      - start_time: "11:00"
+        end_time: "11:15"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "11:15"
+        end_time: "12:00"
+        sessions:
+          - talk_slug: "how-to-build-a-slack-controlled-saxophone-playing-robot"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "12:00"
+        end_time: "12:45"
+        sessions:
+          - talk_slug: "ecto-the-past-the-present-the-future"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "12:45"
+        end_time: "14:15"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "14:15"
+        end_time: "15:00"
+        sessions:
+          - talk_slug: "the-road-to-2-million-websocket-connections-in-phoenix"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "15:00"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "securing-elixir-applications"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "15:45"
+        end_time: "16:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "16:00"
+        end_time: "16:45"
+        sessions:
+          - talk_slug: "phoenix-on-riak-core"
+            track: "Kindlsaal 1&2"
+            kind: talk
+
+      - start_time: "16:45"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "phoenix-is-not-your-application"
+            track: "Kindlsaal 1&2"
+            kind: talk

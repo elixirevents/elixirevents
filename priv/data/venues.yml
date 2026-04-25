@@ -24,6 +24,72 @@
   website: "https://www.icekrakow.pl"
   description: "A striking modern congress centre on the banks of the Vistula River, offering panoramic views of Wawel Castle and world-class conference facilities."
 
+- name: "Hilton Warsaw Hotel and Convention Centre"
+  slug: "hilton-warsaw"
+  street: "Grzybowska 63"
+  city: "Warsaw"
+  country: "Poland"
+  country_code: "PL"
+  postal_code: "00-844"
+  latitude: 52.2335
+  longitude: 20.9861
+  description: "A modern hotel and convention centre in central Warsaw, with large meeting rooms and direct access to public transport."
+
+- name: "Prague Congress Centre"
+  slug: "prague-congress-centre"
+  street: "5. května 1640/65"
+  city: "Prague"
+  country: "Czech Republic"
+  country_code: "CZ"
+  postal_code: "140 00"
+  latitude: 50.0612
+  longitude: 14.4298
+  website: "https://www.praguecc.cz"
+  description: "A large modern congress centre in Prague's Nusle district, adjacent to the Vyšehrad metro station, with panoramic views over the Vltava valley and the city's historic skyline."
+
+- name: "Golden Floor Tower"
+  slug: "golden-floor-tower"
+  street: "ul. Chłodna 51"
+  city: "Warsaw"
+  country: "Poland"
+  country_code: "PL"
+  description: "Conference and training venue on the 39th floor of the Warsaw Trade Tower, overlooking central Warsaw."
+
+- name: "Barceló Sants"
+  slug: "barcelo-sants"
+  street: "Plaça dels Països Catalans s/n"
+  city: "Barcelona"
+  region: "Catalonia"
+  country: "Spain"
+  country_code: "ES"
+  postal_code: "08014"
+  latitude: 41.3795
+  longitude: 2.1404
+  description: "A design hotel built directly above Barcelona Sants railway station, with direct access to the AVE high-speed rail, metro, and local train links. Close to the Fira de Barcelona trade fair and 15 minutes by train from El Prat airport."
+
+- name: "Mercure Hotel Berlin Tempelhof Airport"
+  slug: "mercure-berlin-tempelhof"
+  street: "Hermannstraße 214-216"
+  city: "Berlin"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "12049"
+  latitude: 52.4738
+  longitude: 13.4253
+  description: "A modern conference hotel on the former Tempelhof Airport grounds in Berlin, a few minutes from the city centre and directly served by the Boddinstraße U-Bahn station."
+
+- name: "Andel's Hotel Kraków"
+  slug: "andels-hotel-krakow"
+  street: "ul. Pawia 3"
+  city: "Krakow"
+  region: "Lesser Poland"
+  country: "Poland"
+  country_code: "PL"
+  postal_code: "31-154"
+  latitude: 50.0676
+  longitude: 19.9461
+  description: "A modern design hotel on the edge of Kraków's historic old town, next to the main railway station and the Galeria Krakowska shopping centre. Walking distance to Wawel Castle, the Main Market Square and the Kazimierz quarter."
+
 - name: "Philharmonie Haarlem"
   slug: "philharmonie-haarlem"
   street: "Lange Begijnestraat 11"

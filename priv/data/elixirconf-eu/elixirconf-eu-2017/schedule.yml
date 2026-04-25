@@ -1,0 +1,222 @@
+tracks:
+  - name: "MR.10-11"
+    color: "#6B46C1"
+    position: 1
+  - name: "MR.07-08"
+    color: "#2B6CB0"
+    position: 2
+
+days:
+  - name: "Day 1"
+    date: "2017-05-04"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Opening Notes"
+            kind: social
+            track: "MR.10-11"
+
+      - start_time: "09:10"
+        end_time: "09:25"
+        sessions:
+          - title: "Message from the Platinum Sponsors"
+            kind: social
+            track: "MR.10-11"
+
+      - start_time: "09:30"
+        end_time: "10:30"
+        sessions:
+          - talk_slug: "opening-keynote"
+            track: "MR.10-11"
+            kind: keynote
+
+      - start_time: "10:30"
+        end_time: "11:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "11:00"
+        end_time: "11:40"
+        sessions:
+          - talk_slug: "exploring-cqrs-and-event-sourcing"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "a-tour-of-the-elixir-source-code"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "11:45"
+        end_time: "12:25"
+        sessions:
+          - talk_slug: "refactoring-elixir-lessons-learned-from-a-year-on-exercism-io"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "designing-a-multi-language-live-programming-tool-with-phoenix-and-genstage"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "12:25"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "14:00"
+        end_time: "14:40"
+        sessions:
+          - talk_slug: "elixir-and-money"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "dbconnection-ectos-sql-sandbox"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "14:45"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "the-best-library-i-ever-designed"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "one-and-only-one-process-in-a-distributed-system"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "15:25"
+        end_time: "16:00"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "16:00"
+        end_time: "16:40"
+        sessions:
+          - talk_slug: "a-practical-guide-to-elixir-protocols"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "machine-learning-with-elixir-and-phoenix"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "16:45"
+        end_time: "17:25"
+        sessions:
+          - talk_slug: "keeping-code-consistent"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "visual-reasoning-and-mental-maps-in-elixir"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "17:30"
+        end_time: "18:30"
+        sessions:
+          - talk_slug: "lightning-talks"
+            track: "MR.10-11"
+            kind: lightning_talk
+
+  - name: "Day 2"
+    date: "2017-05-05"
+    position: 2
+    time_slots:
+      - start_time: "08:45"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "the-age-of-elixir"
+            track: "MR.10-11"
+            kind: keynote
+
+      - start_time: "10:00"
+        end_time: "10:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "10:30"
+        end_time: "11:15"
+        sessions:
+          - talk_slug: "just-enough-plug-to-build-a-web-server"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "nervous-system-nerves-clustering-using-your-own-distribution"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "11:15"
+        end_time: "12:00"
+        sessions:
+          - talk_slug: "background-processing-with-rabbitmq"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "building-a-graphical-ide-in-elm-purescript"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "12:00"
+        end_time: "13:30"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:30"
+        end_time: "14:15"
+        sessions:
+          - talk_slug: "fly-like-an-eagle"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "testing-web-services-with-quickcheck"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "14:15"
+        end_time: "15:00"
+        sessions:
+          - talk_slug: "always-available"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "wobserver-easy-to-integrate-monitoring-and-debugging"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "15:00"
+        end_time: "15:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "15:30"
+        end_time: "16:15"
+        sessions:
+          - talk_slug: "building-a-scalable-distributed-backend-for-mobile-games"
+            track: "MR.10-11"
+            kind: talk
+          - talk_slug: "graphql-in-practice"
+            track: "MR.07-08"
+            kind: talk
+
+      - start_time: "16:15"
+        end_time: "16:30"
+        sessions:
+          - title: "Break"
+            kind: break
+
+      - start_time: "16:30"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "phoenix-gauging-progress"
+            track: "MR.10-11"
+            kind: keynote

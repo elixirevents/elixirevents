@@ -1,5 +1,6 @@
 name: "ElixirConf EU 2018"
 slug: "elixirconf-eu-2018"
+venue_slug: "hilton-warsaw"
 kind: conference
 status: completed
 format: in_person

@@ -1,0 +1,62 @@
+- title: "Practical Security for Elixir/Phoenix"
+  slug: "practical-security-for-elixir-phoenix"
+  language: en
+  start_date: "2018-04-18"
+  end_date: "2018-04-18"
+  format: in_person
+  venue_slug: golden-floor-tower
+  description: |
+    A full-day hands-on training covering practical security for Elixir and Phoenix applications — common vulnerabilities, defensive patterns, and tools to verify and harden your stack.
+  trainers:
+    - bramverburg
+  topics:
+    - elixir
+    - phoenix
+    - security
+
+- title: "Elixir on its Best Behaviour"
+  slug: "elixir-on-its-best-behaviour"
+  language: en
+  start_date: "2018-04-18"
+  end_date: "2018-04-18"
+  format: in_person
+  venue_slug: golden-floor-tower
+  description: |
+    A training focused on writing idiomatic, well-behaved Elixir — using OTP primitives correctly, designing robust processes, and avoiding the common pitfalls that catch developers coming from other languages.
+  trainers:
+    - matemarjai
+  topics:
+    - elixir
+    - otp
+
+- title: "Gotta Query'em all! - Powerful UIs with GraphQL and Relay in Elixir"
+  slug: "gotta-queryem-all-graphql-and-relay-in-elixir"
+  language: en
+  start_date: "2018-04-18"
+  end_date: "2018-04-18"
+  format: in_person
+  venue_slug: golden-floor-tower
+  description: |
+    A hands-on workshop on building powerful UIs backed by GraphQL and Relay in Elixir. We'll wire up an Absinthe schema end-to-end and see how Relay conventions shape the server and client design.
+  trainers:
+    - stanislawchmiela
+    - lukaszgurdek
+  topics:
+    - elixir
+    - phoenix
+
+- title: "Embedded Elixir Device Development with Nerves"
+  slug: "embedded-elixir-device-development-with-nerves"
+  language: en
+  start_date: "2018-04-18"
+  end_date: "2018-04-18"
+  format: in_person
+  venue_slug: golden-floor-tower
+  description: |
+    A full-day training on building embedded devices with Elixir and Nerves, led by one of Nerves' co-authors. Attendees will go from zero to a working, deployable Nerves firmware, learning the Nerves toolchain and deployment workflow along the way.
+  trainers:
+    - frankhunleth
+  topics:
+    - elixir
+    - nerves
+    - erlang

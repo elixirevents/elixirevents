@@ -5,7 +5,8 @@
   kind: keynote
   language: en
   duration: 53
-  abstract: "José Valim, Elixir Creator, is a member of the Ruby on Rails Core Team and a writer for Pragmatic Programmers. Software developer for 8 years, he graduated in Engineering from the São Paulo University, Brazil and has a Master of Science from Politecnico di Torino, Italy. He is also the lead-developer of Plataformatec, a consultancy firm based in Brazil, an active member of the Open Source community and is frequently travelling and speaking at conferences."
+  abstract: |
+    An overview of where Elixir is headed, from the upcoming v1.3 release to longer-term work on the BEAM. José walks through what's landing in v1.3-dev, the work being done to improve OTP, and ongoing R&D around GenStage and GenBroker — new abstractions for building back-pressure-aware, concurrent data-processing pipelines on top of OTP.
   speakers:
     - josevalim
   topics:
@@ -14,6 +15,10 @@
     - provider: youtube
       external_id: "A60nxws_iVs"
       url: "https://www.youtube.com/watch?v=A60nxws_iVs"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/160/original/Jose_Valim-_What's_ahead_of_Elixir.pdf?1463594498"
+      label: "Slides (PDF)"
 
 - title: "Phoenix 1.2 and Beyond"
   slug: "phoenix-1-2-and-beyond"
@@ -31,6 +36,10 @@
     - provider: youtube
       external_id: "n338leKvqnA"
       url: "https://www.youtube.com/watch?v=n338leKvqnA"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/188/original/Chris_McCord_Phoenix_1.2_and_Beyond.pdf?1464188374"
+      label: "Slides (PDF)"
 
 - title: "Enhanced Embedded Systems with Nerves"
   slug: "enhanced-embedded-systems-with-nerves"
@@ -63,6 +72,10 @@
     - provider: youtube
       external_id: "118-g0ODfgg"
       url: "https://www.youtube.com/watch?v=118-g0ODfgg"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/089/original/NervesRevolution.pdf?1463065757"
+      label: "Slides (PDF)"
 
 ## Talks
 
@@ -90,6 +103,10 @@
     - provider: youtube
       external_id: "gQJPusuG0vI"
       url: "https://www.youtube.com/watch?v=gQJPusuG0vI"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/151/original/Credo_-_Analysing_ASTs_for_Fun_and_Profit_-_Rene%CC%81_Fo%CC%88hring.pdf?1463406677"
+      label: "Slides (PDF)"
 
 - title: "Building Multiplayer Games with Phoenix and Phaser"
   slug: "building-multiplayer-games-with-phoenix-and-phaser"
@@ -116,6 +133,10 @@
     - provider: youtube
       external_id: "I5L9_cXwBcU"
       url: "https://www.youtube.com/watch?v=I5L9_cXwBcU"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/083/original/Building_multiplayer_games_with_Phoenix_and_Phaser_by_Keith_Salisbury.pdf?1463046267"
+      label: "Slides (PDF)"
 
 - title: "Discovering Processes"
   slug: "discovering-processes"
@@ -143,6 +164,10 @@
     - provider: youtube
       external_id: "y_b6RTes83c"
       url: "https://www.youtube.com/watch?v=y_b6RTes83c"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/070/original/Sasa_Juric_-_Discovering_Processes.pdf?1462791764"
+      label: "Slides (PDF)"
 
 - title: "Scaling Distributed Erlang"
   slug: "scaling-distributed-erlang"
@@ -170,6 +195,10 @@
     - provider: youtube
       external_id: "usEs3GPnZDg"
       url: "https://www.youtube.com/watch?v=usEs3GPnZDg"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/074/original/Zandra_Norman_ScalingDistributedErlang.pdf?1462891793"
+      label: "Slides (PDF)"
 
 - title: "Concurrent and Resilient Connections to Outside the BEAM"
   slug: "concurrent-and-resilient-connections-to-outside-the-beam"
@@ -194,6 +223,10 @@
     - provider: youtube
       external_id: "U1Ry7STEFiY"
       url: "https://www.youtube.com/watch?v=U1Ry7STEFiY"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/149/original/Andrea_Leopardi_Concurrent-and-resilient-connections-to-outside-the-beam.pdf?1463389064"
+      label: "Slides (PDF)"
 
 - title: "Ecto - the Past, the Present, the Future"
   slug: "ecto-the-past-the-present-the-future"
@@ -225,6 +258,10 @@
     - provider: youtube
       external_id: "msdYuidWYQA"
       url: "https://www.youtube.com/watch?v=msdYuidWYQA"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/087/original/Ecto_-_the_past__the_present__the_future%281%29.pdf?1463063539"
+      label: "Slides (PDF)"
 
 - title: "Three Games In Elixir"
   slug: "three-games-in-elixir"
@@ -249,6 +286,10 @@
     - provider: youtube
       external_id: "QQsOYe4zyVM"
       url: "https://www.youtube.com/watch?v=QQsOYe4zyVM"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/082/original/GrandCru_ElixirConf2016.pdf?1463042212"
+      label: "Slides (PDF)"
 
 - title: "How to Build a Slack-Controlled, Saxophone-Playing Robot (...)"
   slug: "how-to-build-a-slack-controlled-saxophone-playing-robot"
@@ -273,6 +314,10 @@
     - provider: youtube
       external_id: "-MzJ-HxRcVI"
       url: "https://www.youtube.com/watch?v=-MzJ-HxRcVI"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/085/original/elixirconf-eu-2016-embedded-elixir.pdf?1463050326"
+      label: "Slides (PDF)"
 
 - title: "From a Ruby on Rails Monolith to Elixir and Elm Microservices"
   slug: "from-a-ruby-on-rails-monolith-to-elixir-and-elm-microservice"
@@ -298,6 +343,10 @@
     - provider: youtube
       external_id: "ZCYEX6ZIJgM"
       url: "https://www.youtube.com/watch?v=ZCYEX6ZIJgM"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/152/original/From_a_Ruby_on_Rails_Monolith_to_Elixir_and_Elm_Microservices_%281%29.pdf?1463482715"
+      label: "Slides (PDF)"
 
 - title: "The Road to 2 Million Websocket Connections in Phoenix"
   slug: "the-road-to-2-million-websocket-connections-in-phoenix"
@@ -322,6 +371,10 @@
     - provider: youtube
       external_id: "c6JcVwbOGXc"
       url: "https://www.youtube.com/watch?v=c6JcVwbOGXc"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/080/original/the-road-to-2-mil.pdf?1462973768"
+      label: "Slides (PDF)"
 
 - title: "Securing Elixir Applications"
   slug: "securing-elixir-applications"
@@ -348,6 +401,10 @@
     - provider: youtube
       external_id: "r0DuAse9tK8"
       url: "https://www.youtube.com/watch?v=r0DuAse9tK8"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/078/original/Bram_Verburg_-_Securing_Elixir_Applications.pdf?1462946275"
+      label: "Slides (PDF)"
 
 - title: "(...) Phoenix on Riak_Core"
   slug: "phoenix-on-riak-core"
@@ -380,6 +437,10 @@
     - provider: youtube
       external_id: "sYYOLaJ-VDQ"
       url: "https://www.youtube.com/watch?v=sYYOLaJ-VDQ"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/084/original/stateful_web_apps_riak_core_phoenix.pdf?1463048717"
+      label: "Slides (PDF)"
 
 - title: "Phoenix Is Not Your Application"
   slug: "phoenix-is-not-your-application"
@@ -408,6 +469,10 @@
     - provider: youtube
       external_id: "lDKCSheBc-8"
       url: "https://www.youtube.com/watch?v=lDKCSheBc-8"
+  links:
+    - kind: slides
+      url: "https://esl-conf-staging.s3.eu-central-1.amazonaws.com/esl-conf-stg/media/files/000/000/086/original/phoenix-is-not-your-application.pdf?1463060837"
+      label: "Slides (PDF)"
 
 ## Lightning Talks
 

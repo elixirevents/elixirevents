@@ -1,0 +1,66 @@
+- title: "Device to the Cloud with Nerves and NervesHub"
+  slug: "device-to-the-cloud-with-nerves-and-nerveshub"
+  language: en
+  start_date: "2019-04-10"
+  end_date: "2019-04-10"
+  format: in_person
+  venue_slug: prague-congress-centre
+  description: |
+    A full-day training led by the co-authors of the Nerves project, taking attendees from zero to a deployable Nerves firmware managed with NervesHub. Covers the Nerves toolchain, device provisioning, over-the-air updates, and the workflow for shipping embedded Elixir systems to production.
+  trainers:
+    - justinschneck
+    - frankhunleth
+  topics:
+    - elixir
+    - nerves
+    - embedded
+
+- title: "From Zero to Hero with Elixir"
+  slug: "from-zero-to-hero-with-elixir"
+  language: en
+  start_date: "2019-04-10"
+  end_date: "2019-04-10"
+  format: in_person
+  venue_slug: prague-congress-centre
+  description: |
+    A full-day introduction to Elixir led by Elixir Core Team members, covering the language fundamentals, pattern matching, OTP basics, and Ecto — taking attendees from first principles to writing idiomatic Elixir code with confidence.
+  trainers:
+    - ericmjonsson
+    - andrealeopardi
+  topics:
+    - elixir
+    - otp
+    - ecto
+
+- title: "Develop Phoenix and Ecto Apps with Confidence"
+  slug: "develop-phoenix-and-ecto-apps-with-confidence"
+  language: en
+  start_date: "2019-04-10"
+  end_date: "2019-04-10"
+  format: in_person
+  venue_slug: prague-congress-centre
+  description: |
+    A practical workshop on building Phoenix and Ecto applications with confidence, led by the author of the Phoenix Inside Out book series. Attendees learn idiomatic patterns for structuring Phoenix apps, modelling data with Ecto, and writing maintainable code.
+  trainers:
+    - shankardhanasekaran
+  topics:
+    - elixir
+    - phoenix
+    - ecto
+
+- title: "Building Resilient, Distributed Systems with Elixir"
+  slug: "building-resilient-distributed-systems-with-elixir"
+  language: en
+  start_date: "2019-04-10"
+  end_date: "2019-04-10"
+  format: in_person
+  venue_slug: prague-congress-centre
+  description: |
+    A hands-on training covering techniques for building highly resilient, distributed Elixir systems. Drawing from real-world experience at Bleacher Report, the trainers walk through application startup, failure isolation, dependency stacking, and patterns for weathering dropped connections, misbehaving hardware, and upstream outages.
+  trainers:
+    - benmarx
+    - chriskeathley
+  topics:
+    - elixir
+    - otp
+    - distribution

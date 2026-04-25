@@ -185,3 +185,7 @@
 - name: "Product"
   slug: "product"
   description: "Product strategy, management, scaling, and business decisions in software development"
+
+- name: "Observability"
+  slug: "observability"
+  description: "Metrics, tracing, logging, and monitoring of running systems"

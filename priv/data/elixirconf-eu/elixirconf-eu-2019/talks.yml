@@ -1,11 +1,12 @@
 ## Keynotes
 
-- title: "Keynote: Phoenix LiveView - Interactive Apps without Javascript"
-  slug: "keynote-phoenix-liveview-interactive-apps-without-javascript"
+- title: "Phoenix LiveView - Interactive Apps without JavaScript"
+  slug: "phoenix-liveview-interactive-apps-without-javascript"
   kind: keynote
   language: en
   duration: 73
-  abstract: "ElixirConf EU"
+  abstract: |
+    Chris McCord unveils Phoenix LiveView — a new approach to building rich, real-time user experiences on the server, with minimal JavaScript. The keynote walks through the motivation behind LiveView, how it builds on Phoenix channels and diffing, and what it means for Elixir developers shipping interactive apps.
   speakers:
     - chrismccord
   topics:
@@ -17,12 +18,13 @@
       external_id: "8xJzHq8ru0M"
       url: "https://www.youtube.com/watch?v=8xJzHq8ru0M"
 
-- title: "Keynote: Announcing Broadway"
-  slug: "keynote-announcing-broadway"
+- title: "Announcing Broadway"
+  slug: "announcing-broadway"
   kind: keynote
   language: en
   duration: 55
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    José Valim introduces Broadway, a new library for building concurrent, multi-stage data ingestion and data processing pipelines on top of GenStage. The keynote covers Broadway's design, its integrations with messaging systems like Amazon SQS and Google Cloud Pub/Sub, and how it simplifies building reliable, back-pressured pipelines in Elixir.
   speakers:
     - josevalim
   topics:
@@ -40,7 +42,14 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    As developers, we have to face a harsh reality: even the most elegantly designed application is of little use unless deployed to a production server. But with new tools, services and abstraction layers popping up every day, it’s hard to keep up and choose the right solution for a project. This practical talk presents one possible answer to the question: What’s the best way to deploy an Elixir application? The topics covered range from configuration and Distillery to Continuous Deployment and using Docker.
+
+    Objectives
+    At the end of the talk, participants should have a good understanding of Distillery Releases and a practical starting point for deploying Elixir applications to cloud servers.
+
+    Audience
+    This talk is targeted at new members of the Elixir ecosystem as well as those who already know the language but have not yet gotten to the point of running an Elixir application in production. It is particularly useful for small teams and individual software developers who don’t have a dedicated IT Operations team at their disposal.
   speakers:
     - philippschmieder
   topics:
@@ -57,12 +66,20 @@
   level: intermediate
   language: en
   duration: 40
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    When creating new apps with Elixir, we usually set up the database, then create users and groups tables, and proceed to define the rest of the data model according to the requirements. That's when we start coding the business logic and probably find ourselves writing a lot of access control logic for each query. Let's explore a different approach, that takes advantage of Postgres to write less code, keeping the important parts of the business logic agnostic to the language, but still enjoying the benefits of Elixir.
+
+    Objectives
+    Show a different way to write Elixir/Ecto/Postgrex applications using existent PostgreSQL features. Motivate the audience to explore alternative uses of PostgreSQL while writing Elixir applications.
+
+    Audience
+    Developers creating Elixir/Ecto/Phoenix applications that connect to PostgreSQL databases.
   speakers:
     - josesangil
   topics:
     - elixir
     - ecto
+    - postgresql
   recordings:
     - provider: youtube
       external_id: "_WsnytOcJjY"
@@ -74,7 +91,14 @@
   level: intermediate
   language: en
   duration: 44
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Modular design is a great way to reduce complexity in software. In the Elixir ecosystem, the discussion around this topic has been energised by the introduction of Phoenix Contexts some time ago. Yet, coming up with good module boundaries is really hard and we lack ideas on how to do this well. Maciej will show a few techniques to ensue code is much easier to understand, test, and modify. After the talk, attendees will have some concrete techniques to design new features or improve existing codebases.
+
+    Objectives
+    Show how to tackle designing modules based on behaviour. Focus on a step-by-step approach, without changing the entire architecture.
+
+    Audience
+    Developers who work on systems with complex domain logic and would like to simplify them.
   speakers:
     - maciejkaszubowski
   topics:
@@ -90,11 +114,17 @@
   level: intermediate
   language: en
   duration: 46
-  abstract: "Deck: https://speakerdeck.com/evadne/leveraging-ets-effectively"
+  abstract: |
+    ETS is pervasive, yet invisible. Evadne takes the audience on a deep dive into ETS, looking at its internals and ways to leverage it effectively within Elixir apps. The talk covers ETS functions, forming match specifications, using ETS for ephemeral/preset data, integrating ETS with Ecto (schemas and repos), emitting change notifications, and moving beyond ETS — leaving attendees with knowledge of when and where to use it, and patterns they can reuse.
   speakers:
     - evadnewu
   topics:
     - elixir
+    - erlang
+  links:
+    - kind: slides
+      url: https://speakerdeck.com/evadne/leveraging-ets-effectively
+      label: "Slides (Speaker Deck)"
   recordings:
     - provider: youtube
       external_id: "8mXqxBBvNdk"
@@ -106,7 +136,10 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    For many Elixir converts, the attraction of Elixir was rooted in the promise of the BEAM concurrency model. The Flow library has made it easy to build concurrent data pipelines utilising the BEAM. The problem is that while the docs are great, there are not many resources on running Flow-based systems in production.
+
+    John shares the lessons his team at Change.org learned from processing their first trillion messages through Flow, with practical knowledge attendees can apply directly to their own applications.
   speakers:
     - johnmertens
   topics:
@@ -122,23 +155,30 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "The speaker"
+  abstract: |
+    Telemetry is a new project for metrics and monitoring in the Elixir ecosystem, providing libraries for gathering monitoring data from libraries and applications. It's already integrated with Ecto and is coming soon to Phoenix.
+
+    Arkadiusz walks through the design and thought process behind Telemetry, discusses the rationale for the not-so-obvious decisions, and shows the bright future of using a unified monitoring solution throughout the community.
   speakers:
     - arkadiuszgil
   topics:
     - elixir
+    - observability
   recordings:
     - provider: youtube
       external_id: "cOuyOmcDV1U"
       url: "https://www.youtube.com/watch?v=cOuyOmcDV1U"
 
-- title: "Rewriting Critical Software in Elixir - a Case Study"
+- title: "Rewriting Critical Software in Elixir - A Case Study"
   slug: "rewriting-critical-software-in-elixir-a-case-study"
   kind: talk
   level: intermediate
   language: en
   duration: 41
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Most companies adopting Elixir start small, with a proof of concept or a rewrite of a non-critical service. At Telnyx, they chose the hard route: rewriting a high-volume, highly available and economically-critical service.
+
+    Renan explores their strategy, what went well, what didn't, and what they wished they knew at the beginning — encouraging developers to adopt Elixir at established companies while providing an impartial engineering perspective grounded in real-world experience.
   speakers:
     - renanranelli
   topics:
@@ -154,11 +194,15 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    When building large-scale systems, failure is inevitable. Whether it's dropped network connections, misbehaving hardware, massive GC pauses, or AWS outages, our services should be able to weather the storm.
+
+    Chris analyses an application startup process and shows how, through careful isolation of failures and stacking of dependencies, we can build more robust and reliable Elixir systems.
   speakers:
     - chriskeathley
   topics:
     - elixir
+    - otp
   recordings:
     - provider: youtube
       external_id: "lg7M0h9eoug"
@@ -170,11 +214,13 @@
   level: intermediate
   language: en
   duration: 43
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    In this talk, Ju rebuilds "Square Limit", a famous painting by M.C. Escher, using Scenic and the amazing powers of functional programming. He builds the whole application from scratch, starting with a look at how Scenic works, then deconstructing the fractal nature of Escher's painting and rebuilding it step by step. Attendees leave with a good understanding of how Scenic works and a lot of respect for Escher's work as a mathematician.
   speakers:
     - juliu
   topics:
     - elixir
+    - embedded
   recordings:
     - provider: youtube
       external_id: "sV5ValgY4ck"
@@ -186,11 +232,15 @@
   level: intermediate
   language: en
   duration: 42
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    When making UI/UX decisions, there is a tendency to start with 'pie in the sky' designs that then need to be realised or cut down. At Koan CI, Ley's team has found that starting from the user's point of view — of the expectations the Erlang/Elixir system needs to deliver — and organising the top layers of the code with these in mind, is beneficial to the quality of the design and increases the speed of delivery.
+
+    The talk covers API design and how it affects internal modules, EEx templates, when to use non-dynamic content, Channels, and Phoenix.LiveView.
   speakers:
     - leymissailidis
   topics:
     - elixir
+    - phoenix
   recordings:
     - provider: youtube
       external_id: "wPsX-0xJW1c"
@@ -202,11 +252,15 @@
   level: intermediate
   language: en
   duration: 40
-  abstract: "Audience"
+  abstract: |
+    Erlang/OTP's built-in 'ssl' application forms the basis of many client and server packages. Unfortunately it has quite a few quirks, potentially leading to weak security.
+
+    Bram highlights the most important client and server settings for 'ssl' sockets, how the defaults have evolved across OTP versions, and how popular libraries build on them. Topics include cipher suite selection, server hostname verification, known certificate issues (wildcard SAN, cross-signed CA), revocation checks, ECDSA servers, and more.
   speakers:
     - bramverburg
   topics:
     - elixir
+    - erlang
     - security
   recordings:
     - provider: youtube
@@ -219,11 +273,15 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Scenic is a nice new framework in the growing Elixir toolbox. In search for a fun project to learn it, Tonći decided to combine it with a childhood dream: to write his own GameBoy emulator.
+
+    In this talk he goes over the basics of Scenic and explores how it, together with Elixir, does (and doesn't) help you write your own emulator — and the kinds of embedded projects Scenic is well-suited for.
   speakers:
     - toncigalic
   topics:
     - elixir
+    - embedded
   recordings:
     - provider: youtube
       external_id: "7WPJDmJJqf0"
@@ -235,7 +293,8 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    A deep dive into the functional concepts at the heart of Elixir: pattern matching, higher-order functions, recursion, continuation passing, and referential integrity. Wolfgang uses many examples and diagrams to illustrate these concepts, and emphasises how they apply in real-life Elixir applications, with code taken from his own projects — helping attendees structure Elixir applications in a more maintainable way.
   speakers:
     - wolfgangloder
   topics:
@@ -251,7 +310,10 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Tests are an integral part of any application: a safety net to refactor applications and great living documentation. Beginning with unit tests, Daniel shows how to write thorough but also maintainable tests, and how the key to doing so is to focus on message-passing.
+
+    Moving up the pyramid, the talk covers end-to-end tests, component tests, and contract tests — the last two becoming increasingly important as end-to-end tests become hard to maintain in microservice architectures.
   speakers:
     - danielcaixinha
   topics:
@@ -262,13 +324,16 @@
       external_id: "uc5aoM_WDqk"
       url: "https://www.youtube.com/watch?v=uc5aoM_WDqk"
 
-- title: "Introduction to Stateful Property Based Testing"
+- title: "Introduction to Stateful Property-Based Testing"
   slug: "introduction-to-stateful-property-based-testing"
   kind: talk
   level: beginner
   language: en
   duration: 36
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Property-based testing is a technique for writing tests that use a framework for creating test inputs and user-defined properties for validating outputs. Generating data allows for finding bugs that would be impossible to catch by regular unit tests.
+
+    Tomasz explains why it's worth getting into PBT by introducing successful usages for testing AUTOSAR, LevelDB and Dropbox — all of which use stateful testing. The second half of the talk walks through creating a stateful test for a simple key-value store.
   speakers:
     - tomaszkowal
   topics:
@@ -285,7 +350,10 @@
   level: intermediate
   language: en
   duration: 35
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Cultivate's "Office Window System" is a view into the office for their remote employees, consisting of cameras on Pi Zeros relaying WebSocket-based streams through a cloud-based Phoenix server.
+
+    Paul demonstrates how they made the system robust, secure, and performant — developing and unit-testing Nerves code on development hardware, using umbrella applications to separate concerns, and using OTP supervision trees to build an ultra-reliable system despite intermittent library bugs.
   speakers:
     - paulwilson
   topics:
@@ -302,7 +370,8 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    The recent Ecto split got some people confused, but the truth is Ecto was never just a "db library" for Elixir. This talk is about what Ecto can be used for besides database interactions, showcasing real examples of it being used in different ways — to parse, validate, and give a proper structure to complex input/output data, to work with message queues, and more.
   speakers:
     - guilhermedemaio
   topics:
@@ -319,11 +388,13 @@
   level: intermediate
   language: en
   duration: 37
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    An exploration of the boot process of the Erlang virtual machine. Michał traces the code path from the beginning of the C main function until the Application.start/2 callback is executed — showing how the C code interacts with the Erlang code, how the Erlang code is loaded, what is the first Erlang code to run, and finally how applications are started. Some rudimentary knowledge of C, Elixir and Erlang is assumed.
   speakers:
     - michamuskaa
   topics:
     - elixir
+    - erlang
   recordings:
     - provider: youtube
       external_id: "_AqmxltiV9I"
@@ -335,11 +406,15 @@
   level: intermediate
   language: en
   duration: 39
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    At Planga, Wiebe-Marten's team is building a seamless chat service that runs on Elixir. To keep this system scalable and fault-tolerant, they make heavy use of Elixir's supervision and distribution features.
+
+    The talk covers their experience scaling from one server to many — potentially running in remote locations — and the ways Elixir/OTP helped, as well as the challenges encountered along the way.
   speakers:
     - wiebemartenwijnja
   topics:
     - elixir
+    - distribution
   recordings:
     - provider: youtube
       external_id: "u-b4rJ0RTrk"
@@ -351,7 +426,10 @@
   level: intermediate
   language: en
   duration: 37
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    The Elixir parser can be used for purposes other than compiling code — for example, to transform the AST into SQL fragments, or to build a basic interpreted "Elixir-ish" programming language in a few hundred lines of code. However, using the built-in parser has drawbacks: it creates atoms, and the AST is non-reversible.
+
+    Arjan zooms in on the inner workings of the Elixir parser and his efforts to create a non-destructive, "atom-safe" Elixir parser.
   speakers:
     - arjanscherpenisse
   topics:
@@ -361,14 +439,18 @@
       external_id: "aM0BLWgr0g4"
       url: "https://www.youtube.com/watch?v=aM0BLWgr0g4"
 
-- title: "How Elixir is Driving Australian Product Innovation"
-  slug: "how-elixir-is-driving-australian-product-innovation"
+- title: "Elixir Down Under - How Elixir is Driving Australian Product Innovation"
+  slug: "elixir-down-under-how-elixir-is-driving-australian-product-innovation"
   kind: talk
   level: intermediate
   language: en
   duration: 27
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Two Aussies from Vamp — an Elixir-driven influencer marketing platform — talk about innovating and developing a global platform using Elixir. They cover the growth, opportunities and challenges of the Australian Elixir community, and how Vamp uses Elixir to innovate and integrate with partners like Facebook and Google.
+
+    Alison (Product Director) and Sophie (Technical Lead) detail the Vamp Elixir journey and demonstrate how it's enabling their company to achieve rapid growth.
   speakers:
+    - alisonhughes
     - sophietroy
   topics:
     - elixir
@@ -383,11 +465,15 @@
   level: intermediate
   language: en
   duration: 40
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    MQTT is a light-weight pub/sub protocol used for machine-to-machine communication, often used in IoT applications. Tortoise is an MQTT client for Elixir that started life as an MQTT 3.1.1 client and is being upgraded to MQTT 5.
+
+    Martin introduces MQTT, gives an overview of the new features in MQTT 5, and walks through how Tortoise is designed to make MQTT easy to work with in Elixir — and how MQTT 5 will influence that design.
   speakers:
     - martingausby
   topics:
     - elixir
+    - embedded
   recordings:
     - provider: youtube
       external_id: "Bd2gw_o7yzQ"
@@ -399,11 +485,15 @@
   level: intermediate
   language: en
   duration: 40
-  abstract: "Website: www.elixirconf.eu"
+  abstract: |
+    Type systems and gradual typing are beautiful, and we would all love to have a type checker for Elixir that finds all type errors at compile time. But let's put the theory aside and see what the every-day difficulties of implementing such a type checker are — and how to test it properly, maybe with property-based testing.
+
+    After this talk attendees will appreciate the many years of development and discipline put into Dialyzer, and see the added value Gradualizer can bring.
   speakers:
     - petergomori
   topics:
     - elixir
+    - erlang
   recordings:
     - provider: youtube
       external_id: "mJytzlARCmM"
@@ -412,14 +502,18 @@
 - title: "From Noob to Contributing Noob"
   slug: "from-noob-to-contributing-noob"
   kind: talk
-  level: intermediate
+  level: beginner
   language: en
   duration: 36
-  abstract: "Objectives"
+  abstract: |
+    Daniel shares how he went from someone who didn't know Elixir to someone who now uses it daily in production at Onfido, while contributing to open-source projects and getting involved in the community.
+
+    He walks through his contributions to spandex (bringing back function decorators), HTTPoison (multipart response parsing), and elixir-thrift (documentation) — showing how welcoming Elixir is, and how anyone can start contributing today.
   speakers:
     - danielserrano
   topics:
     - elixir
+    - community
   recordings:
     - provider: youtube
       external_id: "Q9Awmiyz1Cs"
@@ -431,13 +525,15 @@
   level: beginner
   language: en
   duration: 21
-  abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  abstract: |
+    Francesco Cesarini and José Valim introduce the Erlang Ecosystem Foundation — its mission to support the BEAM community, the working groups, and how developers and companies can get involved.
   speakers:
     - francescocesarini
     - josevalim
   topics:
     - elixir
     - erlang
+    - community
   recordings:
     - provider: youtube
       external_id: "f6M7rlEyxCQ"
@@ -450,7 +546,8 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  abstract: |
+    A lightning tour of combining Broadway with Amazon SQS and Apache Tika to build a simple text extraction pipeline in Elixir.
   speakers:
     - davelee
   topics:
@@ -465,7 +562,8 @@
   kind: lightning_talk
   language: en
   duration: 7
-  abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  abstract: |
+    A quick look at Redex, an Elixir implementation of the Redis protocol — and what Ali learned from building it.
   speakers:
     - alifarhadi
   topics:
@@ -480,7 +578,8 @@
   kind: lightning_talk
   language: en
   duration: 4
-  abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  abstract: |
+    A lightning tour of calling native code from Elixir — the options available and the trade-offs involved.
   speakers:
     - danielserrano
   topics:
@@ -495,7 +594,8 @@
   kind: lightning_talk
   language: en
   duration: 4
-  abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  abstract: |
+    A lightning talk introducing Ido Keido and its relationship to the Elixir community.
   speakers:
     - fernandohamasakideamorim
   topics:
@@ -510,11 +610,13 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "ElixirConf EU Website: www.elixirconf.eu"
+  abstract: |
+    Eamon shares practical advice on networking for developers — making connections at conferences and in the community, and turning them into long-term professional relationships.
   speakers:
     - eamonleonard
   topics:
     - elixir
+    - community
   recordings:
     - provider: youtube
       external_id: "5kurJjDrXiI"

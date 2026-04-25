@@ -1,0 +1,46 @@
+- title: "Phoenix – Getting realtime with channels"
+  slug: "phoenix-getting-realtime-with-channels"
+  language: en
+  start_date: "2016-05-10"
+  end_date: "2016-05-10"
+  format: in_person
+  venue_slug: mercure-berlin-tempelhof
+  description: |
+    Together, we'll go beyond the basics of Phoenix by using Channels to build highly interactive and realtime applications. We'll leverage OTP principles to build robust systems that recover from failure and see everything that Phoenix's realtime layer has to offer by building a real application from start to finish.
+
+    **Duration:** 1 day
+  trainers:
+    - chrismccord
+  topics:
+    - elixir
+    - phoenix
+
+- title: "Programming in Elixir with Tests"
+  slug: "programming-in-elixir-with-tests"
+  language: en
+  start_date: "2016-05-10"
+  end_date: "2016-05-10"
+  format: in_person
+  venue_slug: mercure-berlin-tempelhof
+  target_audience: "This tutorial is targeted to new Elixir programmers."
+  description: |
+    ### Prerequisite knowledge
+
+    Comfortable programming in another programming language. Erlang or functional programming experience is helpful.
+
+    ### Tutorial contents
+
+    - Basics of Elixir
+    - Using the Mix build tool
+    - Testing in Elixir
+    - Working with processes and OTP
+
+    We will start out with covering the basics of Elixir and functional programming. For the tutorial we will use the standard workflows for Elixir developers using the Mix build tool and testing. Finally we will use the concurrency constructs in Elixir and see how OTP generalises them and gives us structure.
+
+    **Duration:** 1 day
+  trainers:
+    - ericmjonsson
+  topics:
+    - elixir
+    - otp
+    - testing
