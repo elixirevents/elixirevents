@@ -1,0 +1,1275 @@
+## Keynotes
+
+- title: "Gleam's Journey on the BEAM"
+  slug: "gleam-s-journey-on-the-beam"
+  kind: keynote
+  language: en
+  duration: 43
+  abstract: |
+    Erlang was designed to solve a very specific problem at a very specific point in time. That problem has shaped Erlang, the runtime, and the ecosystem around it.
+    
+    The world has since changed, and Ericsson’s once-niche problem of concurrent scalable systems is common place and more people than ever are drawn to the BEAM.
+    
+    With new people have come new problems to solve, new desires, and new ideas for how we can use and enrich the Erlang ecosystem. Gleam is one new aspect of this evolving ecosystem, and in this talk, we will look at how it was shaped by the BEAM, and some of the stories around it, and how Gleam is opening up the BEAM to a whole new group of developers.
+  speakers:
+    - hayleighthompson
+    - louispilfold
+  topics:
+    - gleam
+  recordings:
+    - provider: youtube
+      external_id: "6I0IbJtUC3U"
+      url: "https://www.youtube.com/watch?v=6I0IbJtUC3U"
+
+- title: "Hex Then and Now"
+  slug: "hex-then-and-now"
+  kind: keynote
+  language: en
+  duration: 46
+  abstract: |
+    Hex is the package manager for the Erlang ecosystem. It has been started in 2013 by Eric Meadows-Jönsson and officially announced alongside Elixir v0.13.0 in 2014. What changed about Hex, the package ecosystem, the community over the last decade? What did not change? In this talk we’ll go through major milestones in Hex’s development and ecosystem and see what we can learn from them.
+  speakers:
+    - wojtekmach
+  topics:
+    - elixir
+    - libraries
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "HicN1oCK_Q8"
+      url: "https://www.youtube.com/watch?v=HicN1oCK_Q8"
+
+- title: "Going Staff"
+  slug: "going-staff"
+  kind: keynote
+  language: en
+  duration: 50
+  abstract: |
+    What’s up with becoming a Staff Engineer? What does it mean? Is it just for people who want to keep coding? How do you become a Staff Engineer and what does the work entail? What if I told you that being a Staff engineer actually required a lot of communication and collaboration skills?
+    
+    In this talk, let’s answer all those questions! To aid in our journey, we’ll also take a look at what it means to be “glue”, help you navigate organizations to find value and succeed at being a Staff engineer!
+    
+    Key Takeaways:
+    
+    what is a Staff+ engineer? What role and responsibilities does this entail?
+    
+    (discusses the classical 4 archetypes + a fifth one and their application)
+    what does the work of a staff+ engineer entail?
+    
+    How do you get promoted to be a Staff+ engineer?
+    
+    classical promotion path
+    “Staff project”
+    detour via management track
+    
+    How do you excel at a Staff+ role?
+    
+    why the term “individual contributor” is misleading
+    being glue
+    yes, you are a leader
+    navigating big organizations and finding value
+  speakers:
+    - tobiaspfeiffer
+  topics:
+    - community
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "Pmfkbg-NXmU"
+      url: "https://www.youtube.com/watch?v=Pmfkbg-NXmU"
+
+
+## Talks
+
+- title: "Update from the OTP Team"
+  slug: "update-from-the-otp-team"
+  kind: talk
+  language: en
+  duration: 16
+  abstract: "Ingela will present the updates on what the OTP team has done in the last few months, what the projects they’re working on are, and what’s going on on the research side."
+  speakers:
+    - ingelaandin
+  topics:
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "eevc6TbvSQc"
+      url: "https://www.youtube.com/watch?v=eevc6TbvSQc"
+
+- title: "Update from the Elixir Core Team"
+  slug: "update-from-the-elixir-core-team"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: "Andrea will give updates on what the Elixir team has done in the last few months, what projects they’re working on, what’s going on the research side, and what features will be in the next release."
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "yIZbDoF0mXI"
+      url: "https://www.youtube.com/watch?v=yIZbDoF0mXI"
+
+- title: "The Nerves Community Fleet"
+  slug: "the-nerves-community-fleet"
+  kind: talk
+  language: en
+  duration: 43
+  abstract: |
+    Underjord is very excited to bring you the latest and greatest in Nerves. Expect practical demos, international participation and hopefully we can blow the lid off of what you thought Nerves can do for you.
+  speakers:
+    - larswikman
+  topics:
+    - nerves
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "yjBFlY1zqDA"
+      url: "https://www.youtube.com/watch?v=yjBFlY1zqDA"
+
+- title: "The One Billion Row Challenge in Elixir: From 12 Minutes to 25 Seconds"
+  slug: "the-one-billion-row-challenge-in-elixir-from-12-minutes-to-25-seconds"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    The talk presents a case study on optimizing Elixir code for demanding tasks. The challenge is to read a file containing one billion lines of weather data and generate a report with minimum, average, and maximum temperatures for each station.
+    
+    Through this talk, the audience will learn how to benchmark and profile Elixir code, how to model problems in order to make the best use of concurrency in Elixir, and implement performance tuning strategies effectively. The talk unfolds as a story of performance transformation. Starting with code that initially took over 10 minutes to process the data, we’ll see how the runtime went down to just 25 seconds.
+    
+    By the end of this talk, attendees will gain a deeper understanding of performance optimization in Elixir and leave equipped with practical tools and techniques to enhance their own applications.
+    
+    Key Takeaways:
+    
+    Performance Benchmarking & Optimization Techniques:
+    
+    Learn practical strategies and techniques for optimizing Elixir code for maximum performance.
+    
+    Avoiding Performance Pitfalls:
+    
+    Recognize common performance traps in Elixir and understand how to avoid them.
+    
+    Target Audience:
+    
+    Elixir developers of all levels interested in performance optimization, and solving fun challenges in Elixir.
+  speakers:
+    - rajrajhans
+  topics:
+    - elixir
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "0--BTMYg9jE"
+      url: "https://www.youtube.com/watch?v=0--BTMYg9jE"
+
+- title: "Hey ELP, fix the return type for this function!"
+  slug: "hey-elp-fix-the-return-type-for-this-function"
+  kind: talk
+  language: en
+  duration: 34
+  abstract: |
+    In this talk, we delve into the capabilities of ELP beyond its role as a language server. ELP offers a powerful lint and refactoring engine capable of upholding Erlang/OTP best practices and guidelines within your codebase. The engine is type-aware and can revolutionize the way you write and think about Erlang code, by suggesting and applying better versions of the code.
+    
+    Learn how ELP can streamline your development process, detecting and fixing code quality issues, ensuring consistency and boosting overall code quality. From the risk of atoms exhaustion, to Common Test and meck foot guns, ELP got you covered.
+    
+    Whether you are a seasoned Erlang developer or just starting out, this session will equip you with the tools and the knowledge to elevate your Erlang code to new heights.
+  speakers:
+    - robertoaloi
+  topics:
+    - erlang
+    - code-intelligence
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "LfrGj_ZP9Lo"
+      url: "https://www.youtube.com/watch?v=LfrGj_ZP9Lo"
+
+- title: "Parenting"
+  slug: "parenting"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    This is a tutorial on managing process hierarchies with OTP, with a special focus on “smart parents”, i.e. worker processes which start their own children. The talk will present not-so-obvious pitfalls of naive start-linking, and explain proper steps to handle the children. You’ll also learn about the library, which, by including a missing layer between GenServer and Supervisor, makes the parenting job much easier. Finally, the talk will present a fully reimplemented and reimagined supervisor behaviour 🙈
+    
+    Key Takeaways:
+    
+    learn about parent responsibilities
+    see an example of bottom-up layered design
+    challenge some established patterns
+    
+    Target Audience:
+    
+    Developers who are familiar with OTP behaviours, such as GenServer and Supervisor. The code examples will be in Elixir, but Erlang & Gleam devs should find it interesting too.
+  speakers:
+    - sasajuric
+  topics:
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "qTmpbzNDDqI"
+      url: "https://www.youtube.com/watch?v=qTmpbzNDDqI"
+
+- title: "Scaling Dialyzer"
+  slug: "scaling-dialyzer"
+  kind: talk
+  language: en
+  duration: 21
+  abstract: |
+    Dialyzer is a powerful tool for finding bugs in Erlang code, and as a codebase grows, it becomes harder for humans to keep track of everything themselves, so we need to increasingly lean on our tooling to get the job done.
+    
+    In OTP 26, Dialyzer’s incremental mode became widely available, allowing Dialyzer’s performance to scale to larger codebases by avoiding redundant analysis between code changes.
+    
+    In this talk, I will cover the next steps in scaling Dialyzer’s performance which I have been working on: including finer-grained incrementality, micro-optimisations, ETS performance, and more.
+    
+    Whilst the talk is primarily about Dialyzer, the performance considerations and optimisations may be of wider interest to other people working on the BEAM.
+  speakers:
+    - tomdavies
+  topics:
+    - type-system
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Y8F7HmWPtKM"
+      url: "https://www.youtube.com/watch?v=Y8F7HmWPtKM"
+
+- title: "Benefits of Reinventing the Wheel"
+  slug: "benefits-of-reinventing-the-wheel"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    One of the biggest hurdles to adopting a new language within an established organisation is the available tooling. Not just the open source ecosystem, but also internal tools and libraries that have been built and refined for years.
+    While some will see this as a reason to avoid adoption, it can also be an opportunity! With no existing tooling, it’s up to you to build it. My team at Zappi came from a mature, well-standardised Ruby on Rails ecosystem. When we moved to Elixir, we had to rebuild all of our internal tooling from scratch - which eventually led to the company’s first open source project. We all learned a lot along the way, and came and better, more well-rounded engineers.
+    
+    Key Takeaways:
+    
+    This talk will show that moving to a less mature ecosystem (whether internal or open source) can be a source of opportunity instead of a pain point. In fact, sometimes it’s better to build it yourself - it helps you grow, and can surface areas of unnecessary complexity or abstraction.
+    
+    Target Audience:
+    
+    Software engineers, engineering managers, upper management
+  speakers:
+    - dylanblakemore
+  topics:
+    - erlang
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "-KHEcr4Yu7M"
+      url: "https://www.youtube.com/watch?v=-KHEcr4Yu7M"
+
+- title: "Same same but different: Static type checkers for Erlang"
+  slug: "same-same-but-different-static-type-checkers-for-erlang"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    Though Erlang’s type annotations were originally intended for documentation purposes, static analysis tools soon utilized them for semantic checks. However, due to a need for more semantic agreement on Erlang’s type annotations, their results differ in ways that can be challenging for users to interpret. In our session, we cross-compare four state-of-the-art tools (Dialyzer, Gradualizer, eqWAlizer, etylizer) regarding their expressivity and performance. Their unified test suites provide a good starting point to understand their respective capabilities and limitations. Insights into the underlying approaches can help Erlang developers make an educated choice which analysis tool to use for their projects and how to interpret the result of a type check.
+  speakers:
+    - annettebieniusa
+    - albertschimpf
+  topics:
+    - type-system
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "yGWuyVQxMjk"
+      url: "https://www.youtube.com/watch?v=yGWuyVQxMjk"
+
+- title: "Latin America and the Elixir of Life"
+  slug: "latin-america-and-the-elixir-of-life"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: |
+    Do you feel like you can’t contain your excitement when someone mentions Elixir? Like you can’t stop talking and want to teach everyone about it? Like the world must know there’s a better way to do things? Well, Andres felt the same way. That’s why he decided to start traveling around Colombia and Latin America to teach everyone that wanted to listen. From Costa Rica, to Uruguay, Andres has given multiple talks, created online and in-person courses and organized multiple bootcamps, all revolving around Elixir. In this session, He will be talking about his love for the language and his mission to teach the world about it. From the 2-men shop that increased productivity by switching to Elixir, to the programmer who was bored and depressed with their React job and now are happier than ever in BEAM-world, Andres will share his experience and how anyone can do the same.
+    
+    Target Audience:
+    
+    Decision-makers and seasoned developers who want to share their Elixir knowledge with the world.
+  speakers:
+    - andresruiz
+  topics:
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "bxyvgPw_3ys"
+      url: "https://www.youtube.com/watch?v=bxyvgPw_3ys"
+
+- title: "Talking Alchemist: Implementing Azure Speech in Elixir"
+  slug: "talking-alchemist-implementing-azure-speech-in-elixir"
+  kind: talk
+  language: en
+  duration: 36
+  abstract: |
+    An insightful journey into the implementation of the Azure Speech SDK in Elixir. We’ll explore how the Elixir implementation resulted in cleaner, more concise, and easier-to-read code compared to the original TypeScript version. Learn about the challenges faced, the development flow, and the significant improvements in maintainability and performance.
+    
+    Key Takeaways:
+    
+    How simple and straightforward is Elixir when comparing to some languages, and how the constructs of the language helps to build a simple and concise sdk.
+  speakers:
+    - ygorcastor
+  topics:
+    - elixir
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "lS5yr30DzSw"
+      url: "https://www.youtube.com/watch?v=lS5yr30DzSw"
+
+- title: "Supercharge your Tests with Snapshot Testing"
+  slug: "supercharge-your-tests-with-snapshot-testing"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    Unit tests are a fundamental defence line to prevent subtle bugs from sneaking into our code base. The problem is that writing them can sometimes feel like a tedious, repetitive and error-prone chore.
+    
+    That's when snapshot testing comes into play. It makes an alluring promise: completely rid the developer of the boring task of having to manually write and manage unit tests' assertions! While it may sound too good to be true, there's no magic trick and we'll discover the ins and outs of snapshot testing in Gleam: what it is, how it works and, most importantly, how to use it effectively.
+  speakers:
+    - giacomocavalieri
+  topics:
+    - gleam
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "DpakV96jeRk"
+      url: "https://www.youtube.com/watch?v=DpakV96jeRk"
+
+- title: "Native Code Coverage"
+  slug: "native-code-coverage"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Erlang/OTP 27 introduced efficient support in the JIT (Just-In Compiler) for collecting code coverage. This talks gives an overview of the new coverage functionality and its implementation, showing that it is not only faster, but that it can also handle code that it was not previously possible to collect coverage for.
+    
+    Key Takeaways:
+    
+    Understanding how the new native coverage functionality makes it possible to collect coverage information faster and for more kinds of code.
+    
+    Target Audience:
+    
+    All Erlang developers.
+  speakers:
+    - bjorngustavsson
+  topics:
+    - erlang
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "iUaPen3YIlE"
+      url: "https://www.youtube.com/watch?v=iUaPen3YIlE"
+
+- title: "Utilizing LLMs in OTP Applications"
+  slug: "utilizing-llms-in-otp-applications"
+  kind: talk
+  language: en
+  duration: 19
+  abstract: |
+    Adding an LLM like GPT or Gemini might seem like integrating any other REST API on first glance. But these kind of APIs pose unique challenges! Responses might differ widely from one request to the next. Streams need specific formats for the application to be able to get all the relevant data and forward the stream to a client. Version changes between LLM models might cause the responses to change in unexpected ways. Automatic testing is error prone and can get expensive. And what to do with those restrictive rate limits?
+    
+    We will explore the general concepts of integrating LLMs into an Elixir application and then find answers to all the challenges mentioned above.
+    
+    Key Takeaways:
+    
+    The general concept of how to integrate LLM APIs into an application;
+    How to create and test prompts manually;
+    Ways for utilizing streams from an LLM with custom formats;
+    What to look out for when changing models;
+    How to write automated tests for LLM APIs.
+    
+    Target Audience:
+    
+    Software developers not yet familiar with LLM integrations
+  speakers:
+    - sebastiangottschkes
+  topics:
+    - ai
+    - otp
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "n6I-8Hdl3X4"
+      url: "https://www.youtube.com/watch?v=n6I-8Hdl3X4"
+
+- title: "Developing a UoM Library in Erlang and Overcoming Personal Challenges"
+  slug: "developing-a-uom-library-in-erlang-and-overcoming-personal-challenges"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    Erlang’s lack of a standardized approach to unit management poses challenges for developers. This project addresses this by developing a versatile UoM library. I will explore core functionalities, including unit definitions, conversion mechanisms, and consistency checks.
+    
+    The library’s integration within the GRiSP ecosystem will be showcased, providing practical insights into its architecture and documentation.
+    
+    This talk also offers a human perspective on using this project to confront personal fears and validate my worth beyond utilitarian productivity. By sharing my journey of battling depression and burnout, I aim to inspire others facing similar challenges and foster a supportive community dialogue about mental health in the tech industry.
+    
+    This session is ideal for developers interested in improving code quality and handling measurement units in Erlang, as well as those interested in the intersection of mental health and professional development.
+    
+    Key Takeaways:
+    
+    This project is both a technical endeavor and a personal journey, undertaken to address the need for a dedicated Units of Measurement (UoM) library in Erlang and to confront my own fears and doubts about becoming an Erlang developer. While the library fills a gap in the Erlang ecosystem, it has also been a means of self-discovery and resilience amidst my struggles with depression and burnout.
+    This library simplifies unit operations, enables seamless conversions, and enforces consistency, crucial for reliable calculations and data analysis. Attendees will learn about the architecture and core functionalities. I will discuss how this project integrates with the GRiSP ecosystem, enhancing IoT applications.
+    Beyond its technical merits, this project has been a personal test of my capabilities and determination. It represents a defiance against the pressures of a capitalistic and utilitarian system, providing a way to reclaim my value and face my fears through creation and contribution to the Erlang community.
+    
+    Target Audience:
+    
+    Erlang Developers in general.
+    Developers and engineers from other programming backgrounds, interested in learning about Erlang or exploring new libraries and frameworks for handling units of measurement.
+    Developers working on IoT projects who need reliable and consistent unit management for sensor data and other measurements.
+    Attendees interested in the intersection of mental health and professional life, particularly how personal challenges can impact and be impacted by professional projects.
+    Participants who are interested in diverse and human-centric stories that combine technical achievement with personal growth and resilience.
+  speakers:
+    - barbarachassoul
+  topics:
+    - erlang
+    - libraries
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "FMyc4wz5LqI"
+      url: "https://www.youtube.com/watch?v=FMyc4wz5LqI"
+
+- title: "Sometimes, just being there is enough"
+  slug: "sometimes-just-being-there-is-enough"
+  kind: talk
+  language: en
+  duration: 14
+  abstract: |
+    As flyiin was acquired by Priceline, we brought our tech stack and tools with us.
+    Three years later, it’s catching on!
+    The resiliency and efficiency of the BEAM is getting noticed in a world previously dominated by the JVM.
+    Not only the fault-tolerance and scalability, but the speed to market on new features while saving infrastructure costs.
+    
+    Key Takeaways:
+    
+    There are tangible benefits to using BEAM languages in some domains.
+    If the tech fits the problem it can save time and money.
+    
+    Target Audience:
+    
+    This talk should appeal to anyone that works in a multi-language company or those trying to convince their boss to use a BEAM language.
+    It could also appeal to seasoned professionals that want to hear they’ve made the right decision. ;-)
+  speakers:
+    - zacharydean
+  topics:
+    - community
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "zU2v5_hH4YY"
+      url: "https://www.youtube.com/watch?v=zU2v5_hH4YY"
+
+- title: "Mailboxer:Early Detection of Erlang Communication Errors"
+  slug: "mailboxer-early-detection-of-erlang-communication-errors"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    The talk presents and demonstrates a new prototype communication checking tool for Erlang codebases: Mailboxer.
+    
+    If a developer annotates parts of an Erlang codebase with expected message types Mailboxer can statically detect many communication errors in the annotated processes. So errors like unreceived messages, some deadlocks, protocol violations, typos in message tags etc. Finding errors early in development reduces debugging and development times.
+    
+    Existing session type checkers for Erlang and Elixir enforce channel, rather than mailbox, based communication. In contrast Mailbox types check communication using idiomatic mailbox communication. Currently Mailboxer targets Erlang, but the type theory and checking technology apply to other actor languages with mailboxes, so Elixir, Scala/Akka and others.
+    
+    Erlang will be the first production language to benefit from a radically new communication checking tool.
+    
+    Key Takeaways:
+    
+    Adding mailbox types to Erlang code and using the Mailboxer tool can detect communication errors early.
+    Mailbox type checkers could soon be available for other BEAM languages soon.
+    
+    Target Audience:
+    
+    Developers looking for new tools to apply to their code.
+    Tool developers looking explore new tools.
+  speakers:
+    - philtrinder
+    - duncanpaulattard
+  topics:
+    - erlang
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "bk0CW1zTano"
+      url: "https://www.youtube.com/watch?v=bk0CW1zTano"
+
+- title: "Reproducible BEAM Deployments with nix"
+  slug: "reproducible-beam-deployments-with-nix"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    Mix or rebar alone do not necessarily produce reproducible artifacts. As they do depend on the system where they run. Docker at least mitigates the problem with the system libraries, though is it reproducible? No, this is where "nix" comes into place, which allows us to have really reproducible builds. Which can be deployed in various ways.
+  speakers:
+    - norbertmelzer
+  topics:
+    - deployment
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "HbtbdLolHeM"
+      url: "https://www.youtube.com/watch?v=HbtbdLolHeM"
+
+- title: "Exciting ExDoc: Save Time & Reduce Risk by Enhancing your Documentation"
+  slug: "exciting-exdoc-save-time-reduce-risk-by-enhancing-your-documentation"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    It’s easy to neglect documentation. But stale, dense, missing or plain wrong documentation can cost hours of frustration at best, and contribute to an unwelcome incident at worst. However, capturing team knowledge in engaging, up-to-date, and complete docs can prevent bugs, save hours of development time, simplify onboarding, shorten PR reviews, improve morale, spot weaknesses in a system, build trust between team members, and even enable a healthy work-life balance.
+    
+    If we are deep in documentation debt, how do we find the happy place of helpful docs? Fully utilizing ExDoc, a tool to generate documentation for Erlang and Elixir projects, can help you get there. Besides standard tools, ExDoc has added many features that make it easy to improve and maintain your docs. Livebooks, mermaid charts, and custom pages are just a few of the many capabilities.
+    
+    This talk will walk through before and after examples of how common documentation challenges can be solved using ExDoc.
+    
+    Key Takeaways:
+    
+    This technical presentation will walk through how to use specific features of ExDoc to improve the documentation of any Elixir or Erlang application.
+    Guided by the principles of Living Documentation and Domain Driven Design, I will discuss: making abstract concepts easier to understand through visual representations, turning static examples into interactive ones, best practices to prevent docs from going stale, and how to build a team culture of knowledge-sharing through writing.
+    
+    Target Audience:
+    
+    Everyone who writes developer documentation
+    Most relevant to anyone who is interested in or is already using ExDoc.
+  speakers:
+    - florapetterson
+  topics:
+    - documentation
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "tLr9FOARwzQ"
+      url: "https://www.youtube.com/watch?v=tLr9FOARwzQ"
+
+- title: "Node to Elixir: A newcomers' perspective after 2 years in production"
+  slug: "node-to-elixir-a-newcomers-perspective-after-2-years-in-production"
+  kind: talk
+  language: en
+  duration: 27
+  abstract: |
+    Telling our experience from considering to change to elixir, doing it and now having a service in production for two years. Starting from the Libraries and Tools we looked at, and what we landed on and the experiences we had running the application in production for about 2 years now
+  speakers:
+    - barnabasjovanovics
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "dr0hKSho5H0"
+      url: "https://www.youtube.com/watch?v=dr0hKSho5H0"
+
+- title: "Using Elixir in Erlang Projects"
+  slug: "using-elixir-in-erlang-projects"
+  kind: talk
+  language: en
+  duration: 22
+  abstract: |
+    Using the newly released exerl set of plugins (https://github.com/filmor/exerl), it’s possible to use Elixir seamlessly from previously pure Erlang codebases using rebar3.
+    
+    Support is implemented and will be demonstrated for
+    
+    Adding Elixir itself as a dependency without the need to install it
+    Individual Elixir files in src/
+    Dependencies that use mix (even “complicated” ones, like packages that use rustler or rustler_precompiled)
+    
+    Key Takeaways:
+    
+    Possibility of gradually introducing Elixir into established Erlang codebases
+    It’s now possible to “tap into” the Elixir ecosystem from Erlang without hassle
+    
+    Target Audience:
+    
+    Developers and maintainers of rebar3-built Erlang codebases
+  speakers:
+    - benediktreinartz
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "vKTCTM89gZI"
+      url: "https://www.youtube.com/watch?v=vKTCTM89gZI"
+
+- title: "Run Elixir in the database using Dx"
+  slug: "run-elixir-in-the-database-using-dx"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    Imagine you could write Elixir code as if all Ecto data is already loaded. With pattern matching to match associations; Enum functions to navigate associated data; accessing fields in associations without a second thought. Even using data from non-associated schemas without having to think about data loading at all, just using Enum functions to slice and dice the data as needed.
+    
+    This is what the Dx library does. Just like Nx (numerical Elixir) translates Elixir code to run optimized for the GPU, Dx (data-driven Elixir) translates Elixir code to run optimized for the database. It translates your code either to Ecto queries, or to a version with automatic data loading, optimized using batching and concurrency.
+    
+    This makes for clear and easy-to-read Elixir code that’s structured in modules and functions as usual, without any need to implement data loading. The code is easier to maintain and refactor, compared to implementations with Ecto queries and/or preloading, yet efficient.
+    
+    Key Takeaways:
+    
+    Getting to know Dx as a new option for data-driven applications
+    Lots of examples with code plus what queries it executes
+    Application architecture fit: Functional core & Imperative shell
+    Restrictions and caveats
+    Glimpse into how it’s implemented
+    State of development and future plans
+    
+    Target Audience:
+    
+    People:
+    
+    working with Ecto a lot
+    interested in software architecture
+    interested in the Elixir compiler
+    interested in new approaches and the overall ecosystem
+  speakers:
+    - arnodirlam
+  topics:
+    - elixir
+    - postgresql
+  recordings:
+    - provider: youtube
+      external_id: "3HnqYgbB0qE"
+      url: "https://www.youtube.com/watch?v=3HnqYgbB0qE"
+
+- title: "Engineering json - Achieving Top Performance on the BEAM"
+  slug: "engineering-json-achieving-top-performance-on-the-beam"
+  kind: talk
+  language: en
+  duration: 42
+  abstract: |
+    OTP 27 includes a new module for handling JSON. It provides performance significantly exceeding existing pure-Erlang and Elixir libraries, and sometimes even beating NIFs written in C. Furthermore, it offers a more flexible and adaptable API which allows for new applications.
+    In this talk, we’ll have a brief look at the new module, and explore how it was possible to achieve the speed and flexibility it offers. We’ll look at various tips & tricks for building performant Erlang and Elixir libraries and finally, we’ll explore tools that can be used to aid in that.
+    
+    Key Takeaways:
+    
+    How to use the new json module from OTP 27
+    How to build high performance libraries in Erlang & Elixir
+    What tools can be used to understand performance on the BEAM
+    
+    Target Audience:
+    
+    Erlang & Elixir engineers interested in understanding the performance intricacies of the BEAM, likely engineers with more experience with the platform, rather than total beginners.
+  speakers:
+    - michalmuskala
+  topics:
+    - erlang
+    - libraries
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "Z0swkSXAPBE"
+      url: "https://www.youtube.com/watch?v=Z0swkSXAPBE"
+
+- title: "Scaling Erlang across Continents"
+  slug: "scaling-erlang-across-continents"
+  kind: talk
+  language: en
+  duration: 21
+  abstract: |
+    The story behind how Erlang spread to Ho Chi Minh City, Vietnam in 2013.
+    
+    In this talk you will learn why and how. The talk will also cover lessons learnt teaching newcomers in Erlang with no common native language. How, once you have established a core team in Erlang, can scale up the Erlang development team from 8 to 100+ developers. The talk will finish with the current state of the Erlang & Elixir community in Ho Chi Minh City and Vietnam in general.
+    
+    Key Takeaways:
+    
+    Get inspiration to spread Erlang/Elixir/Gleam and the BEAM.
+    
+    Target Audience:
+    
+    Anyone that wants to get inspired to spread the BEAM.
+  speakers:
+    - magnussedlacek
+  topics:
+    - erlang
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "-MSRiIVn7SE"
+      url: "https://www.youtube.com/watch?v=-MSRiIVn7SE"
+
+- title: "Phoenix: Test smarter, not harder"
+  slug: "phoenix-test-smarter-not-harder"
+  kind: talk
+  language: en
+  duration: 22
+  abstract: |
+    Have these thoughts crossed your mind?
+    
+    “Feature tests are just too much work.”
+    “Oh no! Converting this dead view into a live view means I’ll have to delete or rewrite all the tests.”
+    “From a UX perspective, this should be implemented with Javascript. But then I would have to rewrite all my tests. Nah, I’ll do a full handle_event roundtrip instead.”
+    
+    If so, this talk is for you! We will:
+    
+    explore the current testing landscape for Phoenix
+    compare it to other ecosystems (Ruby, Javascript, Java)
+    discuss what could be improved (for Phoenix)
+    give a quick intro to phoenix_test, the new kid on the block
+    see how to test Javascript-reliant views, without having to rewrite the tests
+    
+    Key Takeaways:
+    
+    comparison of end to end testing alternatives: Wallaby and playwright (used by phoenix_live_view)
+    LiveView testing is already pretty good compared to other ecosystems (batteries included to write performant and expressive tests)
+    there’s a gap between the test API’s depending on view implementation: 1. dead views, 2. live views and 3. Javascript-reliant views
+    when switching the view implementation, tests have to be rewritten
+    this could be solved by writing all tests as browser based tests (Wallaby)
+    but that’s not ideal: long execution duration (cost in CI, developer experience)
+    phoenix_test bridges the testing gap between dead and live views
+    a browser-based plug-and-play driver for phoenix_test (e.g. Wallaby) allows you to keep your tests when switching view implementation
+    phoenix_test provides a descriptive API for writing feature tests
+    
+    Target Audience:
+    
+    Web developers (all experience levels)
+  speakers:
+    - fredrikteschke
+  topics:
+    - phoenix
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "TsnWOXgh-Ls"
+      url: "https://www.youtube.com/watch?v=TsnWOXgh-Ls"
+
+- title: "SeqEx: Building a MIDI Sequencer with Elixir"
+  slug: "seqex-building-a-midi-sequencer-with-elixir"
+  kind: talk
+  language: en
+  duration: 19
+  abstract: |
+    In this session we’ll start by exploring how MIDI messages are structured.
+    We’ll then explore the midiex (https://hex.pm/packages/midiex) library and understand how Elixir’s binary pattern-matching can help us easily write and read these MIDI messages.
+    Finally, we’ll discuss how we can leverage the GenServer pattern, together with Phoenix LiveView, to build a MIDI sequencer that can be used by everyone to make some music 🎵
+    
+    Key Takeaways:
+    
+    Explore more art-related uses of programming
+    Better understanding of applications of the GenServer pattern
+    Overview of how we can leverage Phoenix’s PubSub and LiveView to build a real-time interactive UI
+    
+    Target Audience:
+    People that are interested in talks that maybe don’t apply so much to their day to day work, but that might pique their interest for different areas where Elixir could eventually be applied.
+  speakers:
+    - dinocosta
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "pqrBLgXV9Uc"
+      url: "https://www.youtube.com/watch?v=pqrBLgXV9Uc"
+
+- title: "ACRUMEN: What IS Software Quality Anyway?!"
+  slug: "acrumen-what-is-software-quality-anyway"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    Without a good definition of software quality, you’ll have a tough time achieving it, and if you don’t share a definition with someone, you’ll have a hard time convincing them that you have achieved it!
+    This talk introduces ACRUMEN, my simple yet fairly comprehensive definition, that you can use with any tech stack, for free. I will explain why we need a new definition, and how to apply this one, then explore each aspect in turn, including further nuances and immediately useful tips on how to achieve each one.
+    You will come away better equipped to analyze the quality of anybody’s software, give precise feedback on its shortcomings, teach the next generation of developers how to produce high-quality software, and most importantly, improve the quality of your own software.
+    
+    Key Takeaways:
+    
+    It stands for the idea that software should be Appropriate, Correct, Robust, Usable, Maintainable, and Efficient. (Come to the talk to see what the N stands for!)
+    What I mean by all those words! Some are obvious, some not so much.
+    That’s the usual order of priority, but it may be different sometimes, though Appropriate will always be first.
+    How we can use this, other than as just a checklist.
+    
+    Target Audience:
+    
+    Mainly devs of any level who want to improve the quality of their software – they may already have such a desire, but only a vague notion of what that means.
+  speakers:
+    - davearonson
+  topics:
+    - engineering
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "ZzP9JujOl1I"
+      url: "https://www.youtube.com/watch?v=ZzP9JujOl1I"
+
+- title: "Why you want RAG in your Dev Setup, and how to do it for Elixir"
+  slug: "why-you-want-rag-in-your-dev-setup-and-how-to-do-it-for-elixir"
+  kind: talk
+  language: en
+  duration: 30
+  abstract: |
+    Aside from the hype around code generation, the potential of information retrieval, especially retrieval augmented generation (RAG), is often overlooked. Here, LLMs are becoming the industry standard for retrieving information from documents. Embedding Models allow the retrieval of information based on imprecise search terms in a way that was not possible with full-text indices.
+    
+    However, the application of RAG techniques on code bases is much less common. This talk sheds some light on the current state of retrieval augmented generation, how easy it is to use, and how it can empower development teams.
+    
+    We will have a look at the general techniques, what online models are capable of, and what performance can be expected from local setups. We will explore the state of RAG support for Elixir, both as input-codebase, and as processing entity. We will further see what influence the coding style and the ingestion process has on the usefulness of the results.
+  speakers:
+    - chrisbeck
+  topics:
+    - ai
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "OWizX6ijdzo"
+      url: "https://www.youtube.com/watch?v=OWizX6ijdzo"
+
+- title: "Smart Mapping: Optimizing Compute Across Cloud and Edge in IoT Networks"
+  slug: "smart-mapping-optimizing-compute-across-cloud-and-edge-in-iot-networks"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Mapping computational tasks across diverse IoT networks has traditionally been manual, leading to architectural lock-in. This talk explores an innovative approach to developing distributed applications that integrate cloud infrastructure, edge devices, and IoT nodes. We’ll discuss mapping compute tasks as Erlang Processes within a dataflow graph onto a heterogeneous network of nodes, guided by criteria such as:
+    - Statically fixed node mappings
+    - First-bit latency
+    - Network and compute bandwidth
+    - Latency influenced by bandwidth limits
+    - Energy consumption
+    - Specialized compute needs
+    - Data sensitivity and trust We’ll demonstrate this through live demos with cloud and IoT nodes, highlighting how these mappings make use of a compute continuum, meeting all constraints and adapting to changes.
+    
+    Join us to explore the intricacies of compute mapping in heterogeneous IoT networks and learn techniques for developing advanced distributed applications leveraging both cloud and edge resources.
+  speakers:
+    - peerstritzinger
+  topics:
+    - embedded
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "qXEVTlr6k9o"
+      url: "https://www.youtube.com/watch?v=qXEVTlr6k9o"
+
+- title: "From Ruby to Elixir: Elevate Your Engineering Team Without Fear"
+  slug: "from-ruby-to-elixir-elevate-your-engineering-team-without-fear"
+  kind: talk
+  language: en
+  duration: 46
+  abstract: |
+    Introducing Elixir into an existing tech stack is a lot of risk, work, but also can provide a ton of value. This talk covers the ins and outs of how I helped adopt Elixir into an all-Ruby stack.
+    
+    We’ll look at soft skills such as how to get buy in at the executive level, how to push for adoption across teams, and how to support the team through different phases. These topics are easy to overlook—the tech is shiny after all—but are crucial to a successful roll out.
+    
+    It’s not all soft skills though, a lot of engineering effort goes into adding a language to your stack, so I’ll cover tangible patterns and techniques that can help you on your journey.
+    
+    With the right plan, technical patterns, and a lot of grit—you’ll be on your way to adopting Elixir into your existing tech stack!
+    
+    Key Takeaways:
+    
+    This talk will be a mix of theory, practical advice, and stories from how I actually did this in practice. The audience must learn about the difference between considering business needs, soft skills needed, and the technical skills needed to launch.
+    
+    Here are some of the key takeaways you should have after this talk:
+    
+    Why would a business want to or not want to make a language switch?
+    Is a partial language switch a success? Or is going “all-in” needed to succeed? What goals equate to success?
+    Who is responsible for the rollout and how should they view their role?
+    What will a team think about during the roll out?
+    How can the team be best supported with engineering questions or problems they run into?
+    How can we actually slot Elixir into an existing tech stack?
+    How can design patterns like microservices or “strangler pattern” help us through a transition?
+    What can we code to make it easier for the team to write code?
+    What is the 1, 3, 5 year plan?
+    
+    It’s really easy to focus on the technical side only, or think too short term. So a successful outcome will be the audience considering these points.
+    
+    Target Audience:
+    
+    This talk is most likely to appeal to an engineer that has thought about bringing Elixir to their tech stack but is not sure how to actually do it. Or they tried to roll it out, failed, and want to know how they could do better.
+  speakers:
+    - stephenbussey
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "jE1GeIOynRw"
+      url: "https://www.youtube.com/watch?v=jE1GeIOynRw"
+
+- title: "Rapid Product Development with Ash Framework"
+  slug: "rapid-product-development-with-ash-framework"
+  kind: talk
+  language: en
+  duration: 19
+  abstract: |
+    Startup usage of Ash Framework:
+    
+    Ash provides numerous escape hatches to revert to Phoenix’s traditional methods when necessary.
+    Emphasis on how Ash can streamline development processes.
+    
+    Steps:
+    Entity Generation: Utilize Ash to generate entities efficiently.
+    Phoenix CRUD Forms: Create basic CRUD operations within Phoenix.
+    
+    REST API: Develop RESTful APIs for the generated entities.
+    Policy Implementation: Integrate policies to manage access and permissions.
+    Testing: Add comprehensive tests to ensure functionality and reliability.
+    
+    Real-World Application Example:
+    Use the Petal stack as the foundational base for demonstration.
+    Show integration of Petal authentication with Ash policies.
+    
+    AshAdmin Demonstration:
+    Provide a brief demo of AshAdmin for testing and managing resources within Ash.
+    
+    Analysis:
+    Discuss the pros and cons of using Ash in a Phoenix application.
+    Highlight scenarios where Ash adds significant value and instances where traditional Phoenix approaches may be preferable.
+    
+    Key Takeaways:
+    
+    Ash framework practical usage.
+    Github link for the application presented.
+    Rapid production evaluation.
+    Recipes to get started with Ash framework as the learning curve is too high.
+    
+    Target Audience:
+    
+    Intermediate to Expert Elixir developers.
+    Startup founders.
+  speakers:
+    - srikanthkyatham
+  topics:
+    - ash
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "oG9y7qqFNiw"
+      url: "https://www.youtube.com/watch?v=oG9y7qqFNiw"
+
+- title: "Agent-Based Modeling with Nx"
+  slug: "agent-based-modeling-with-nx"
+  kind: talk
+  language: en
+  duration: 15
+  abstract: |
+    Nx library opens a world of numerical computations for the BEAM which natively is one of its weak spots. There are already some successful production systems which use machine learning that are written in Elixir. My goal is to explore non-ML applications for this technology. I want to show you a case study of how I redesigned an Agent-Base Modeling framework using tensor algebra with Nx to run it efficiently on GPU. We’ll go through a few key algorithms and look what approach we need to take to express them in a different paradigm.
+    
+    Key Takeaways:
+    This talk is intended to give you an example of how an imperative algorithm can be reimplemented with tensor algebra to run efficiently on GPU with Nx.
+    
+    Target Audience:
+    Elixir developers who are interested in leveraging Nx library capabilities.
+  speakers:
+    - paweldlugosz
+  topics:
+    - ai
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "sOgmaZyk_AU"
+      url: "https://www.youtube.com/watch?v=sOgmaZyk_AU"
+
+- title: "La Machine: The Useless Box reloaded with Erlang and AtomVM"
+  slug: "la-machine-the-useless-box-reloaded-with-erlang-and-atomvm"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    Why and how Erlang and AtomVM were used to develop the personality of a lovable IoT device while maximizing its battery life.
+    
+    The session includes video demos of La Machine (https://la-machine.fr/) and most importantly the Erlang journey towards the product:
+    - hardware prototyping including a small ESP32c3 board powering it
+    - usage of rebar3 to flash Erlang code on it
+    - usage of console
+    - usage of AtomVM API for GPIO and servo (PWM)
+    - usage of CI with dialyzer and tests, including qemu
+    - specific AtomVM API for ESP32 deep sleep
+    - how a C library was ported as an AtomVM NIF for audio decoding, with a glimpse on AtomVM SMP builds (even if ESP32C3 is single core)
+    - quick overview of memory management on AtomVM
+  speakers:
+    - paulguyot
+  topics:
+    - embedded
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "o-uCKdHz-wM"
+      url: "https://www.youtube.com/watch?v=o-uCKdHz-wM"
+
+- title: "30 Years On and In the BEAM: A Technical Deep Dive"
+  slug: "30-years-on-and-in-the-beam-a-technical-deep-dive"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    This presentation charts the evolution of the BEAM virtual machine over 30 years, focusing on its concurrency model and its role in fostering robust, fault-tolerant systems. The talk will include technical experiences from Klarna, highlighting how BEAM’s architecture supports efficient and reliable concurrent programming. It will give you insight into how to think when developing concurrent programs.
+  speakers:
+    - erikstenman
+  topics:
+    - erlang
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "cuCfSo9K9gg"
+      url: "https://www.youtube.com/watch?v=cuCfSo9K9gg"
+
+- title: "Lua on the BEAM"
+  slug: "lua-on-the-beam"
+  kind: talk
+  language: en
+  duration: 33
+  abstract: |
+    Luerl is an implementation of the Lua parser, compiler, and runtime, written in pure Erlang. It allows Lua programs to be executed on the BEAM in a fully sandboxed environment while allowing integrators to expose Erlang and Elixir functions directly to Lua programs.
+    
+    In this talk, Robert Virding will give an overview of Lua and the Luerl implementation discussing some of the issues which arise and how they are solved and the added power they can give. We will cover a brief history of Lua, what makes Luerl unique, and how it executes Lua code.
+    
+    To demonstrate how Luerl can be used in real products, Dave Lucia will showcase how his company, TV Labs, uses Lua to provide a customer-facing scripting interface for testing Smart TV applications. Using TV Labs, Dave will spin up a physical television in his web browser, navigate through a Smart TV app, take screenshots, and perform computer vision tasks, all within the Lua environment.
+  speakers:
+    - davelucia
+    - robertvirding
+  topics:
+    - erlang
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "4YBBoXXH_98"
+      url: "https://www.youtube.com/watch?v=4YBBoXXH_98"
+
+- title: "Using FLAME and Oban for ETL"
+  slug: "using-flame-and-oban-for-etl"
+  kind: talk
+  language: en
+  duration: 42
+  abstract: |
+    FLAME (Fleeting Lambda Application for Modular Execution) is a new approach to Lambda architectures, copying your entire app for fast and easy execution on short-lived architecture.
+    
+    At Amplified, we’ve migrated our ETL (extract, transform, load) from multiple apps across multiple clouds using RabbitMQ as an event bus to go all in on a monolithic architecture using FLAME and Oban.
+    
+    Consolidating into a monolith using this combination has permitted us to dramatically simplify our codebase, making it easier to leverage the built-in conveniences of Phoenix and LiveView like Phoenix.PubSub. This gave us the freedom and confidence to build ETL-driven features that integrate tightly with our SaaS app, including real-time updates for our users.
+    
+    This talk will focus on the transition from building infrastructure for the BEAM towards building infrastructure with the BEAM. FLAME offers a new paradigm for ‘BEAMOps’, and this talk will highlight emergent patterns and benefits.
+    
+    Key Takeaways:
+    
+    How FLAME and Oban can be leveraged to simplify infrastructure as code, integrate infrastructure provisioning into application code, and more easily build real-time features for end users.
+    
+    Target Audience:
+    
+    Anyone who works with infrastructure as code and wishes they could drive more from their application code. Anyone who wants to simplify their stack and consolidate their codebase.
+  speakers:
+    - christophergrainger
+  topics:
+    - flame
+    - oban
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "bRWktDKqCf0"
+      url: "https://www.youtube.com/watch?v=bRWktDKqCf0"
+
+- title: "10 Ways to Stop an Erlang VM"
+  slug: "10-ways-to-stop-an-erlang-vm"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    Erlang systems are meant to be running non-stop. But sometimes you just need to get out of the VM and that may be a little… let’s say… unintuitive.
+    
+    Do you have an Erlang VM that you don’t need anymore and you don’t know what to do with it? Did you turn on an Erlang VM by mistake? Do you want to prank your Erlanger friend by remotely turning off their servers [NOT RECOMMENDED]?
+    
+    Worry not, my friend, this is just the talk for you! Fasten your seatbelt and get into your old fridges… we’re going to crash and blow things up!
+  speakers:
+    - brujobenavides
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "KQs9azlMC_8"
+      url: "https://www.youtube.com/watch?v=KQs9azlMC_8"
+
+- title: "Growing New Chemists and Alchemists: Building Elixir Teams"
+  slug: "growing-new-chemists-and-alchemists-building-elixir-teams"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    2024 is the year of BEAM adoption. In order to have the best possible success, we must bring this platform to a broader audience, but most of us don’t know how.
+    
+    Though BEAM talent is sometimes hard to find, by expanding your hiring pool by growing your own talent, you can successfully build a team with a variety of useful skills. However, training does not always come naturally to developers.
+    
+    By using the same techniques that taught Chemistry to tens of thousands of students across Brazil and programming to thousands of developers and teams around the world, you will learn specific techniques to capture the interest of your students. Your lessons will take hold sooner and last longer.
+    
+    Above all, you will have fun.
+    
+    Key Takeaways:
+    
+    Understand what techniques make training more successful.
+    Learn to employ the same techniques that professional trainers and high school teachers already know.
+    See how to employ LiveBook and other tools to help developers encounter their own breakthroughs.
+    
+    Target Audience:
+    
+    All Elixir teams
+  speakers:
+    - brucetate
+    - paulovalim
+  topics:
+    - community
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "XmRnw_zAC2Y"
+      url: "https://www.youtube.com/watch?v=XmRnw_zAC2Y"
+
+- title: "Exploring BEAM European Community"
+  slug: "exploring-beam-european-community"
+  kind: talk
+  language: en
+  duration: 25
+  abstract: |
+    This talk focuses on analyzing the profiles of European BEAM developers, companies and academia.
+    
+    We will delve into BEAM developer profiles, uncovering how they discovered and adopted these languages, and the diverse contexts in which they utilize them. Furthermore, we will consider factors such as work experience, gender, demographics, LGBTI representation, and other relevant elements to understand the diversity within the BEAM development community.
+    
+    Moreover, we will explore the motivations behind companies and academia adopting BEAM languages, addressing the challenges they face in this process, from resistance to change to training needs and integration with existing systems. Additionally, we will assess the impact these languages have on organizations, including improvements in productivity, software quality, and scalability.
+    
+    Key Takeaways:
+    
+    The aim of this talk is to provide insights into the world of BEAM development, focusing on European developers.
+    
+    Target Audience:
+    
+    Everyone who wants to know more about our community.
+  speakers:
+    - iciacarrobarallobre
+    - mariajosegavilan
+  topics:
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "2FQ59zvEwwg"
+      url: "https://www.youtube.com/watch?v=2FQ59zvEwwg"
+
+
+## Lightning Talks
+
+- title: "Using Luerl to Run Spaceships"
+  slug: "using-luerl-to-run-spaceships"
+  kind: lightning_talk
+  language: en
+  duration: 7
+  abstract: "This talk will show how the code controlling spaceships can be written in Lua and how it can interact with the Erlang system."
+  speakers:
+    - robertvirding
+  topics:
+    - erlang
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "NC8Xl6tvjfk"
+      url: "https://www.youtube.com/watch?v=NC8Xl6tvjfk"
+
+- title: "erlang (nearly) in space"
+  slug: "erlang-nearly-in-space"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  abstract: "Introduce a an Erlang application that helps in testing satellites in very diverse domains"
+  speakers:
+    - dieterschon
+  topics:
+    - erlang
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "1Sli18YrKlc"
+      url: "https://www.youtube.com/watch?v=1Sli18YrKlc"
+
+- title: "EctoWatch: Let Your Database Update You"
+  slug: "ectowatch-let-your-database-update-you"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "An introduction to the EctoWatch library which I created recently"
+  speakers:
+    - brianunderwood
+  topics:
+    - ecto
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "UxcmrjSlHfQ"
+      url: "https://www.youtube.com/watch?v=UxcmrjSlHfQ"
+
+- title: "Confidence in your Options"
+  slug: "confidence-in-your-options"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  abstract: |
+    Ensure your application has all the configuration it will need at the start so it doesn’t crash later because something is missing. A direct and gradual method to validate, know what’s missing, and provide useful documentation.
+  speakers:
+    - danjanowski
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "qm1Q-bRHQNU"
+      url: "https://www.youtube.com/watch?v=qm1Q-bRHQNU"
+
+- title: "AI-Driven Crime Alerts"
+  slug: "ai-driven-crime-alerts"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: |
+    In this talk, we will explore how our crime alert application leverages cutting-edge AI and open-source tools to enhance community safety in Zagreb. The application scrapes public event data from the Zagreb police website using the Elixir library Floki and employs ChatGPT to accurately extract key information such as event addresses and types. With Google Maps and Google GeoCoder integration, we then visualize the geolocation of these events on an interactive map. We will focus on the process of refining ChatGPT prompts to improve the precision of address and event type extraction, ensuring more reliable and actionable alerts for users. Join us as we walk through our technical journey and the optimizations that made our solution both practical and effective.
+  speakers:
+    - karlosmid
+  topics:
+    - elixir
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "u0SVVIVaqAM"
+      url: "https://www.youtube.com/watch?v=u0SVVIVaqAM"
+
+- title: "Introducing OpenRiak"
+  slug: "introducing-openriak"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  abstract: "Offering the first public insight into the newly formed, community-run OpenRiak in cooperation with the EEF."
+  speakers:
+    - nicholasadams
+  topics:
+    - libraries
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "0GLBsBeM4Kc"
+      url: "https://www.youtube.com/watch?v=0GLBsBeM4Kc"
+
+- title: "What the EEF is doing wrt Cyber Security Legislation"
+  slug: "what-the-eef-is-doing-wrt-cyber-security-legislation"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "US and EU regulators are producing rules and regulations that will effect the way the SW industry deals with supply chains and and development"
+  speakers:
+    - alistairwoodman
+  topics:
+    - security
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "PRWua4IJaPQ"
+      url: "https://www.youtube.com/watch?v=PRWua4IJaPQ"
+
+- title: "Explaining Effects and Effect Handlers with EYG"
+  slug: "explaining-effects-and-effect-handlers-with-eyg"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  abstract: "Algebraic effects are a feature of several academic languages that are rapidly moving into more real world focused functional languages."
+  speakers:
+    - petersaxton
+  topics:
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "DiehtDWF8fU"
+      url: "https://www.youtube.com/watch?v=DiehtDWF8fU"
