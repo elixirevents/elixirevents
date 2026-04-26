@@ -608,3 +608,15 @@
   website: "https://binarynoggin.com"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/06d2c58bf8f1f5f8751c1f44924dc25898a4ffeb.png"
   description: "Software consultancy specialising in Elixir, Phoenix, and Nerves, helping teams build distributed and embedded systems."
+
+- name: "Mux"
+  slug: "mux"
+  website: "https://mux.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/d9d068271b9887de1a34f902859b80b927041639.png"
+  description: "API-first video infrastructure for developers, with a backend powered by Elixir."
+
+- name: "Thinking Elixir"
+  slug: "thinking-elixir"
+  website: "https://thinkingelixir.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/dc7ca9397461de911a70c3f6f7c9a52146664d46.png"
+  description: "Weekly podcast and newsletter covering the Elixir programming community."

@@ -1,0 +1,39 @@
+- title: "Shipping Greenfield Elixir in a Legacy World"
+  slug: "shipping-greenfield-elixir-in-a-legacy-world"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-03-09"
+  end_date: "2021-03-09"
+  description: |
+    You've built a monolith, but the constraints of your legacy system are slowing you down. You love working with Elixir — Supervisors, built-in distribution, and fault tolerance make it a great fit — but a rewrite would be expensive and time consuming. There is a way to seamlessly integrate a new Elixir application into your ecosystem.
+
+    **Format:** 1 day workshop (09:00–17:00 PT)
+
+    Build autonomous, event-driven systems with Elixir, RabbitMQ and Google Protobuf that let you decouple the data your ecosystem creates from the systems that create them. Covers Inter-Process Communication (IPC) and event-driven design, working with RabbitMQ and Elixir, working with Google Protobuf and Elixir, and supervision-tree-based fault tolerance.
+  trainers:
+    - sophiedebenedetto
+    - stevennunez
+  topics:
+    - elixir
+    - distribution
+    - microservices
+
+- title: "Erlang for Beginners"
+  slug: "erlang-for-beginners"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2021-03-02"
+  end_date: "2021-03-04"
+  description: |
+    An introductory course introducing the key concepts in Erlang. They include its functional heritage, concurrency and error handling. The course provides most prerequisites to attend the OTP course and a range of follow up courses which can be used to guide developers through advanced topics focusing on Erlang architectures and operations.
+
+    **Format:** 3 day workshop (09:15–14:45 PT)
+
+    Covers: why use Erlang; the Shell, types and constructs; sequential programming; unit testing; thinking concurrently; process design patterns; process error handling and fault tolerance; functional programming constructs; maps and records; ETS tables; and good design practices.
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - concurrency
+    - functional-programming
+    - learning

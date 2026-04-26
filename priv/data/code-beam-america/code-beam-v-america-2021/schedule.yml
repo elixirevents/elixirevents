@@ -1,0 +1,209 @@
+tracks:
+  - name: "Track 1"
+    color: "#3182CE"
+    position: 1
+  - name: "Track 2"
+    color: "#6B46C1"
+    position: 2
+  - name: "Track 3"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2021-03-10"
+    position: 1
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:10"
+        end_time: "10:10"
+        sessions:
+          - talk_slug: "what-counts-as-a-programming-language"
+            track: "Track 1"
+            kind: keynote
+      - start_time: "10:20"
+        end_time: "11:00"
+        sessions:
+          - talk_slug: "ask-me-anything-about-otp"
+            track: "Track 1"
+            kind: talk
+      - start_time: "11:10"
+        end_time: "11:50"
+        sessions:
+          - talk_slug: "using-elixir-to-fight-covid-19"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "scram-challenging-your-authentication-in-the-beam"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "addressing-escalating-risks-in-our-code-base"
+            track: "Track 3"
+            kind: talk
+      - start_time: "12:00"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "sound-on-beam-music-in-the-land-of-distributed-lisp"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "don-t-try-this-at-home-rethinking-infrastructure-with-elixir"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "liveview"
+            track: "Track 3"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:10"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "13:10"
+        end_time: "13:50"
+        sessions:
+          - talk_slug: "forum-over-functions"
+            track: "Track 1"
+            kind: keynote
+      - start_time: "13:50"
+        end_time: "14:50"
+        sessions:
+          - title: "Birds of a Feather"
+            kind: social
+
+  - name: "Day 2"
+    date: "2021-03-11"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Opening notes"
+            kind: social
+      - start_time: "09:05"
+        end_time: "09:45"
+        sessions:
+          - talk_slug: "machine-learning-in-elixir-and-the-beam"
+            track: "Track 1"
+            kind: talk
+      - start_time: "09:55"
+        end_time: "10:35"
+        sessions:
+          - talk_slug: "concurrency-before-erlang"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "ask-me-anything-about-elixir"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "property-based-testing"
+            track: "Track 3"
+            kind: talk
+      - start_time: "10:45"
+        end_time: "11:25"
+        sessions:
+          - talk_slug: "startups-venture-capital-in-the-erlang-ecosystem"
+            track: "Track 1"
+            kind: panel
+      - start_time: "11:25"
+        end_time: "11:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:50"
+        end_time: "12:30"
+        sessions:
+          - talk_slug: "the-kry10-operating-system-security-and-the-beam"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "teaching-functional-programming-with-elixir"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "lfe"
+            track: "Track 3"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:20"
+        sessions:
+          - talk_slug: "how-not-to-fail-at-distributed-systems-with-examples-from-riak"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "contract-programming-with-elixir"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "adopting-elixir"
+            track: "Track 3"
+            kind: talk
+      - start_time: "13:30"
+        end_time: "14:10"
+        sessions:
+          - talk_slug: "eef-looking-back-at-2020-and-forward-at-2021"
+            track: "Track 1"
+            kind: keynote
+      - start_time: "14:10"
+        end_time: "15:10"
+        sessions:
+          - title: "Birds of a Feather"
+            kind: social
+
+  - name: "Day 3"
+    date: "2021-03-12"
+    position: 3
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Opening notes"
+            kind: social
+      - start_time: "09:05"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "history-and-philosophy-of-erlang-with-its-creators"
+            track: "Track 1"
+            kind: keynote
+      - start_time: "10:15"
+        end_time: "10:55"
+        sessions:
+          - talk_slug: "rabbitmq"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "ask-me-anything-about-otp-with-andrea-leopardi-francesco-cesarini"
+            track: "Track 2"
+            kind: talk
+      - start_time: "11:05"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "the-architecture-of-oban"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "beam-prometheus-grafana-observability-heaven"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "who-supervises-supervisors"
+            track: "Track 3"
+            kind: talk
+      - start_time: "11:55"
+        end_time: "12:35"
+        sessions:
+          - talk_slug: "what-other-languages-can-learn-from-beam-a-ruby-case-study"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "nerves"
+            track: "Track 2"
+            kind: talk
+      - start_time: "12:35"
+        end_time: "13:00"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "13:00"
+        end_time: "13:40"
+        sessions:
+          - talk_slug: "wild-wild-west"
+            track: "Track 1"
+            kind: keynote
+      - start_time: "13:40"
+        end_time: "13:55"
+        sessions:
+          - title: "Closing notes"
+            kind: social
