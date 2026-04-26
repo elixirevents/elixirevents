@@ -1,0 +1,330 @@
+tracks:
+  - name: "Life"
+    color: "#3182CE"
+    position: 1
+  - name: "Universe"
+    color: "#6B46C1"
+    position: 2
+  - name: "Everything"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2019-05-16"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "REGISTRATION"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "WELCOME"
+            kind: social
+
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "why-time-is-evil-in-distributed-systems"
+            track: "Life"
+            kind: keynote
+
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "otp-team-update-may-2019"
+            track: "Life"
+            kind: talk
+
+      - start_time: "10:15"
+        end_time: "10:45"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "10:45"
+        end_time: "11:30"
+        sessions:
+          - talk_slug: "taming-side-effects"
+            track: "Life"
+            kind: talk
+          - talk_slug: "lux-an-expect-like-test-tool"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "boosting-reinforcement-learning-with-elixir"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "11:35"
+        end_time: "12:20"
+        sessions:
+          - talk_slug: "tdd-is-not-about-testing"
+            track: "Life"
+            kind: talk
+          - talk_slug: "exop-on-streamdata"
+            track: "Universe"
+            kind: talk
+          - title: "Building of distributed time series database - techniques and lessons learned"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "12:25"
+        end_time: "12:50"
+        sessions:
+          - talk_slug: "think-in-erlang"
+            track: "Life"
+            kind: talk
+          - talk_slug: "gen-persistence-persist-the-state-of-your-processes"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "implementing-long-running-business-processes"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "12:50"
+        end_time: "13:50"
+        sessions:
+          - title: "LUNCH"
+            kind: break
+
+      - start_time: "13:50"
+        end_time: "14:35"
+        sessions:
+          - talk_slug: "php-over-erlang-how-and-why"
+            track: "Life"
+            kind: talk
+          - talk_slug: "innovative-unorthodox-design-patterns-used-in-rabbitmq"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "buildings-start-ups-with-elixir"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "14:40"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "just-delete-it"
+            track: "Life"
+            kind: talk
+          - talk_slug: "tortoise-evolved-mqtt-5-support-in-the-tortoise-mqtt-client"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "opencensus-a-stats-collection-and-distributed-tracing-framework-an-update"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "15:30"
+        end_time: "15:55"
+        sessions:
+          - talk_slug: "what-does-dialyzer-think-about-me"
+            track: "Life"
+            kind: talk
+          - talk_slug: "powerup-the-beam-with-kubernetes-and-riak-core"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "how-erlang-got-its-name"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "15:55"
+        end_time: "16:25"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "16:25"
+        end_time: "17:10"
+        sessions:
+          - talk_slug: "beam-extreme-don-t-try-this-at-home"
+            track: "Life"
+            kind: talk
+          - talk_slug: "trust-issues-trouble-in-package-paradise"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "raxx-kit-lean-mean-web-development-for-elixir"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "17:15"
+        end_time: "17:40"
+        sessions:
+          - talk_slug: "continuous-tracing-in-production-without-erlang-s-trace-module"
+            track: "Life"
+            kind: talk
+          - talk_slug: "building-testing-and-deploying-apps-with-docker-in-azure"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "testing-in-an-elixir-world"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "17:45"
+        end_time: "18:30"
+        sessions:
+          - talk_slug: "introducing-the-erlang-ecosystem-foundation"
+            track: "Life"
+            kind: talk
+
+      - start_time: "18:30"
+        end_time: "20:30"
+        sessions:
+          - title: "CONFERENCE PARTY"
+            kind: break
+
+
+  - name: "Day 2"
+    date: "2019-05-17"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "WELCOME"
+            kind: social
+
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "natively-functional-ui-with-scenic"
+            track: "Life"
+            kind: keynote
+
+      - start_time: "09:50"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "elixir-core-team-update-june-2019"
+            track: "Life"
+            kind: talk
+
+      - start_time: "10:05"
+        end_time: "10:35"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "10:35"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "erlang-distribution-going-beyond-the-fully-connected-mesh"
+            track: "Life"
+            kind: talk
+          - talk_slug: "building-the-tomorrow-classroom-with-elixir"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "eir-infrastructure-for-working-with-beam-code"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "11:25"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "security-versus-interoperability"
+            track: "Life"
+            kind: talk
+          - talk_slug: "the-wide-world-of-almost-actors-comparing-the-pony-language-to-beam-languages"
+            track: "Universe"
+            kind: talk
+          - title: "From FP to FBP: Synthesizing processing elements for stream computing"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "12:15"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "beam-for-smart-energy"
+            track: "Life"
+            kind: talk
+          - talk_slug: "xmpp-udp-realtime-service-bus"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "pyrlang-python-meets-erlang"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "LUNCH"
+            kind: break
+
+      - start_time: "13:40"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "beam-rust-a-match-made-in-heaven"
+            track: "Life"
+            kind: talk
+          - talk_slug: "make-a-distributed-toolbox-with-ra"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "the-beam-programming-paradigm"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "14:30"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "how-to-sleep-well-after-a-major-code-refactoring"
+            track: "Life"
+            kind: talk
+          - talk_slug: "introduction-to-a-type-system-session-types"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "erlangrt-a-beam-vm-reimplementation-in-rust"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "15:20"
+        end_time: "15:45"
+        sessions:
+          - title: "Returning to Erlang, the tooling I miss"
+            track: "Life"
+            kind: talk
+          - talk_slug: "riak-s-rebound"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "scalable-mqtt-messaging-platform-for-iot-in-5g-era"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "15:45"
+        end_time: "16:15"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "16:15"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "evolution-of-riak-resolving-problems-in-distributed-systems"
+            track: "Life"
+            kind: talk
+          - talk_slug: "useless-performance-optimisations-on-the-beam-for-fun-and-fun"
+            track: "Universe"
+            kind: talk
+          - talk_slug: "working-with-legacy-code"
+            track: "Everything"
+            kind: talk
+
+      - start_time: "17:05"
+        end_time: "17:50"
+        sessions:
+          - talk_slug: "can-you-teach-a-school-class-functional-programming"
+            track: "Life"
+            kind: keynote
+
+      - start_time: "17:50"
+        end_time: "18:00"
+        sessions:
+          - title: "Life CLOSING NOTES"
+            kind: social
+
+      - start_time: "18:00"
+        end_time: "19:00"
+        sessions:
+          - title: "LEAVING DRINKS"
+            kind: break
+
