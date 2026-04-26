@@ -1,0 +1,41 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "dnsimple"
+    - slug: "klarna"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "duffel"
+    - slug: "pepsico"
+    - slug: "klarna"
+    - slug: "whatsapp"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "blockfi"
+    - slug: "appunite"
+    - slug: "flyiin"
+    - slug: "football-addicts"
+
+- name: "Silver Sponsor"
+  level: 4
+  sponsors:
+    - slug: "pleroma"
+    - slug: "simplabs"
+    - slug: "telnyx"
+
+- name: "Competition Sponsor"
+  level: 5
+  sponsors:
+    - slug: "clever-bunny"
+    - slug: "manning"
+
+- name: "Media"
+  level: 6
+  sponsors:
+    - slug: "eventbrowse"
+    - slug: "spawnfest"

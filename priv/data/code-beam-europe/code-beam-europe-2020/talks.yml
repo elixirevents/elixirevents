@@ -1,0 +1,1271 @@
+## Keynotes
+
+- title: "Using the Beam to fight COVID-19"
+  slug: "using-the-beam-to-fight-covid-19"
+  kind: keynote
+  language: en
+  duration: 48
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-sto/
+
+    Using the Beam to Fight COVID-19 | Bryan Hunter - Enterprise Fellow @ HCA Healthcare
+
+    ABSTRACT
+    At HCA Healthcare we use Elixir. With 186 hospitals our scale breaks many vendor products. In 2018 we began building a new, fit-for-purpose integration platform “Waterpark” to help both at the bedside, streamlining patient notifications, and helping our executives manage the operations more efficiently. We chose the ErlangVM and Elixir for all of the usual reasons. When COVID19 arrived, an interesting tech story became something more serious; more essential.
+
+    In this talk we will discuss our COVID-19 use cases, and how the patterns of the BEAM map so well onto healthcare. We will discuss process pairs, long-lived digital twins, no-masters, continuous availability, location transparency, the bit-syntax for clinical data, soft real-time, and hot-code loading. You will also get a brief tour of HCA Healthcare’s open sourced HL7 library.
+  speakers:
+    - bryanhunter
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "cVQUPvmmaxQ"
+      url: "https://www.youtube.com/watch?v=cVQUPvmmaxQ"
+
+- title: "Safety in numbers, securing our BEAM"
+  slug: "safety-in-numbers-securing-our-beam"
+  kind: keynote
+  language: en
+  duration: 28
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    Safety in numbers, securing our BEAM | Christopher Price - Head of Ericsson Software Technology
+
+    ABSTRACT
+    This talk will discuss the growing utility of the BEAM and how it is being used to support a broad industry landscape. Further discussing security concepts and the things we take for granted, how implied security does not always result in security and how further conversation around tooling and dependencies in our ecosystem will only serve to increase adoption.
+  speakers:
+    - christopherprice
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "r52S0kf3XQo"
+      url: "https://www.youtube.com/watch?v=r52S0kf3XQo"
+
+- title: "Software for one. Ideas for all"
+  slug: "software-for-one-ideas-for-all"
+  kind: keynote
+  language: en
+  duration: 27
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    Software for One. Ideas for All | Chris Keathley - Senior Software Engineer at Frame.io
+
+    ABSTRACT
+    In the BEAM world, we typically focus on the ways to make our system's fault tolerant, faster, or generally more reliable. This is great when you're building software for work or for a company. But there's an entirely separate class of projects out there. The kind of projects with no tests, no business plan, and only one user; yourself. Unfortunately, we typically don't share these sorts of projects, even though they often include some of our best ideas.
+
+   
+  speakers:
+    - chriskeathley
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "ThouZ1Fy-oQ"
+      url: "https://www.youtube.com/watch?v=ThouZ1Fy-oQ"
+
+- title: "JIT Compiler for Erlang/OTP"
+  slug: "jit-compiler-for-erlang-otp"
+  kind: keynote
+  language: en
+  duration: 21
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-sto/
+
+    JIT Compiler for Erlang OTP | Lukas Larsson - Software Engineer @ Erlang Solutions
+
+    ABSTRACT
+    After many years of waiting, a JIT compiler is finally ready for Erlang/OTP. This presentation will give an overview of the implementation and show what you as a user can expect from it. I'll also go through the pros and cons of the approach that we have taken and have a look at what we imagine the future may bring.
+
+    • Follow us on social:
+      Website: https://codesync.global/conferences/code-beam-sto/
+      Twitter: https://twitter.com/CodeBEAMio
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - lukaslarsson
+  topics:
+    - otp
+    - compilers
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "lM7UV95Rpyo"
+      url: "https://www.youtube.com/watch?v=lM7UV95Rpyo"
+
+## Talks
+
+- title: "Update: Elixir core dev team"
+  slug: "update-elixir-core-dev-team"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    Update: Elixir core dev team | José Valim - creator of the Elixir programming language
+
+    ABSTRACT
+    Open meeting with Elixir Core Team. Unmute yourself and ask the guest any question about his work you like. .
+
+    • Follow us on social:
+      Twitter: https://twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "WriObqg_7Ws"
+      url: "https://www.youtube.com/watch?v=WriObqg_7Ws"
+
+- title: "Unite And Conquer"
+  slug: "unite-and-conquer"
+  kind: talk
+  language: en
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-sto/
+
+    More great virtual tech conferences - https://codesync.global
+
+    ---
+
+    Unite And Conquer
+    by Viktória Fördős, Laura M. Castro & Natalia Chechina |
+
+    ABSTRACT
+    Divisions are popular in our days often comparing “them” and “us”: be it research vs industry, men vs women, Erlang vs Elixir... but unity is what makes us stronger and enables us to aim for new horizons. In this talk, Natalia, Laura, and Viktória will discuss their vision on creating fault-tolerant, scalable opportunities together to achieve diverse ambitions. All BEAMers unite!
+
+    ---
+
+    THE SPEAKER
+    Viktória Fördős
+    Viktória is passionate about consistency models, highly available and scalable software. She first came in contact with Erlang in 2010 when she joined the RefactorErl project. Has been active in R&D, and of course in Erlang, ever since. She was contributing to FP7 EU projects (PharaPhrase, RELEASE, SYNCFREE), co-authored papers in the ACM SIGPLAN Erlang Workshop, in ‘Proceedings of Trends in Functional Programming’ (TFP), in ‘Lecture Notes in Computer Science’ (LNCS), in Computer Languages Systems & Structures (COMLAN), in ACM Transactions on Programming Languages and Systems, and in IEEE Transactions on Parallel and Distributed Systems. She was Member of Program Committee for the ACM Erlang Workshop between 2016 and 2018. She is Co-chair for the ACM Erlang Workshop 2019 and 2020. She joined Cisco Systems in 2019. She is an NSO core engineer, she solves (network orchestration) problems in Erlang everyday.
+
+    Laura M. Castro
+    Laura became fascinated with Erlang during her studies in Software Engineering and has been an advocate of our beloved technology ever since. Nowadays, this means she introduces the BEAM to the next generations of CS graduates, preaches it to local developer groups and FP-related events, introduces it in new projects with local companies, and exploits it as a research tool in collaboration with colleagues all around the world.
+
+    Natalia Chechina
+    Natalia is passionate about distributed systems, cooperative robotics, scalability, fault tolerance, and as a result is in love with Erlang. Her research investigates approaches and techniques to enable scaling and efficient performance on commodity hardware where components are loosely coupled, communication is significant, and any of the components may fail or disconnect at any time.
+
+    ---
+
+    Code BEAM V 2020 was sponsored by Duffel, PepsiCo, Klarna, WhatsApp, DNSimple, Flyiin, Erlang Solutions, Forza Football, BlockFi, App Unite, Pleroma, Simplabs, Telnyx, Clever Bunny, O'Reilly, Manning Publications
+
+    Code BEAM V
+    Website: https://codesync.global/conferences/code-beam-sto
+    Twitter: https://twitter.com/CodeBEAMio
+  speakers:
+    - viktoriafordos
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "DIZj_7hHLUg"
+      url: "https://www.youtube.com/watch?v=DIZj_7hHLUg"
+
+- title: "Nerves of steel | Jon Carstens | Code BEAM V 2020"
+  slug: "nerves-of-steel-jon-carstens-code-beam-v-2020"
+  kind: talk
+  language: en
+  duration: 33
+  abstract: |
+    Nerves is an up-and-coming framework combining Elixir & Linux for powerful embedded development. Feature packed, backed by the BEAM, and simple to get working on a device. But what about when it doesn’t work? When your flawless code has made your device inert? What if it's unreachable by a human? Guess it’s a brick now… Or We leverage the awesome power of Nerves+BEAM to make ultra-resilient embedded devices! In this talk, we dive into some useful practices for ensuring your Nerves device stays up. OBJECTIVES
+    Discuss some best-practices for using Nerves+Beam on embedded devices to make them more resilient and fault-tolerant. Practices that will help ensure your device is always up and reachable, even if some bad firmware gets applied, which will greatly reduce hardware troubleshooting burdens. This will be especially useful for those looking to use Nerves devices in production/industrial applications. TARGET AUDIENCE
+    Hardware enthusiasts, hobbyists, or individuals looking to use Nerves in a more industrial application.
+  speakers:
+    - joncarstens
+  topics:
+    - elixir
+    - nerves
+    - embedded
+    - code-intelligence
+  recordings:
+    - provider: youtube
+      external_id: "NvzXW0XixZ0"
+      url: "https://www.youtube.com/watch?v=NvzXW0XixZ0"
+
+- title: "Kubernetes and the BEAM | Veronica Lopez | Code BEAM V"
+  slug: "kubernetes-and-the-beam-veronica-lopez-code-beam-v"
+  kind: talk
+  language: en
+  duration: 45
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v Kubernetes and the BEAM | Veronica Lopez Containers are the ultimate commodity tool for horizontal scalability of modern systems. However, with so many features that overlap with BEAM capabilities, sometimes it's hard to see the real benefit of integrating them into our workflows. OBJECTIVES
+    In this talk Veronica will share her experience with containers and Kubernetes, including flexible autoscaling and refined testing & delivery experiences, that make sense within an Elixir environment and its tools.
+  speakers:
+    - veronicalopez
+    - francescocesarini
+  topics:
+    - elixir
+    - testing
+    - kubernetes
+  recordings:
+    - provider: youtube
+      external_id: "jMVW7WTlog8"
+      url: "https://www.youtube.com/watch?v=jMVW7WTlog8"
+
+- title: "A Beginner's Guide to TLA+ Exploring State Machines & Proving Correctness | Jeff Weiss | Code BEAM V"
+  slug: "a-beginner-s-guide-to-tla-exploring-state-machines-proving-correctness-jeff-weiss-code-beam-v"
+  kind: talk
+  language: en
+  abstract: |
+    TALK LEVEL: BEGINNER / INTERMEDIATE / ADVANCED
+    This talk introduces TLA+ by taking a small package from hex, examining its properties, modeling its behaviour as a state machine, creating TLA+ correctness and liveness specifications for it, and then using the TLA+ model checker to prove correctness. No prior exposure to formal methods like TLA+ or PlusCalc are necessary. A passing familiarity with state machines is recommended, but not required. OBJECTIVES
+    Introduce TLA+ and its value
+    Illustrate conversion of a state machine to a TLA+ specification
+    Building and checking correctness and liveness models of that TLA+ specification
+    TARGET AUDIENCE
+    Developers interested in adding more rigour to their problem solving and more quickly surfacing design errors.
+  speakers:
+    - jeffweiss
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "H7yBYoY7ILc"
+      url: "https://www.youtube.com/watch?v=H7yBYoY7ILc"
+
+- title: "Consensus Protocols in OTP | Dániel Szoboszlay | Code BEAM V"
+  slug: "consensus-protocols-in-otp-d-niel-szoboszlay-code-beam-v"
+  kind: talk
+  language: en
+  duration: 26
+  abstract: |
+    Klarna runs its business on Mnesia from day one. 16 years later we're still together... but we’re heading towards a break up.
+    How did we get here? What’s the way forward? Over the years problems hit us for sure, but as we’re about to part we also found good in Mnesia we'd taken for granted and never appreciated before. Are you just launching on Mnesia? Come and learn how not to corner yourself by the time you grow to a Unicorn. Already stretching limits? See how we made Postgres a viable replacement. OBJECTIVE Mnesia has some superpowers, but you won’t realise they exist until you try to live without them. Become aware of them, and you will be able to make conscious choices on whether to fully utilize them or to keep your options open. AUDIENCE Developers using Mnesia - or even Postgres, if they’re interested in our journey towards performant serializable transactions on this database.
+  speakers:
+    - danielszoboszlay
+  topics:
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "ofJ0rdmkh1s"
+      url: "https://www.youtube.com/watch?v=ofJ0rdmkh1s"
+
+- title: "Flamegraph and heatmap profiling"
+  slug: "flamegraph-and-heatmap-profiling"
+  kind: talk
+  language: en
+  abstract: |
+    TALK LEVEL: INTERMEDIATE / ADVANCED
+    Profiling Erlang systems is tricky due to their concurrent nature - many things going on at the same time. We introduce a new open-source low-overhead profiler which samples callstacks and graphically categorises them by process status, reductions, memory and message queue length over time making it easy to identify code where time and memory is being spent. We illustrate how we used this tool to identify both sequential and concurrency bottlenecks in our Erlang Healthcare HL7 message processing system. THIS TALK IN THREE WORDS
+    Profiler Heatmaps Flamegraphs OBJECTIVES
+    Show how to effectively use sub-second heatmaps and process status flamegraphs to isolate performance issues during both development and production.
+    Illustrate how focusing on locating and eliminating concurrency bottlenecks tends to reap bigger rewards than optimising sequential code.
+    Impart why it's critical to profile Erlang systems at different levels of load.
+    TARGET AUDIENCE
+    This talk is suitable for intermediate and advanced Erlang developers who are responsible for identifying performance issues and locating their causes.
+  speakers:
+    - roshangiri
+  topics:
+    - concurrency
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "bSwZRTJW2Ik"
+      url: "https://www.youtube.com/watch?v=bSwZRTJW2Ik"
+
+- title: "Unicode, Charsets, Strings, and Binaries"
+  slug: "unicode-charsets-strings-and-binaries"
+  kind: talk
+  language: en
+  duration: 30
+  abstract: |
+    ABSTRACT
+    Writing global software means our programs need to speak global human languages, but writing programs that work correctly with non-Western European languages is at best a confusing affair. UTF8, latin1, Unicode?
+    What do these terms mean and how are they related to one another?
+    And what does Erlang do?
+    This talk demystifies the terminology around character encoding, explains how to retrofit your Erlang program for Unicode using Datometry HyperQ as a case study, and gives some best practices to help you break the one-byte/one-character assumption. THIS TALK IN THREE WORDS
+    Character sets
+    Character encoding
+    Clarity OBJECTIVES
+    Demystify terminology around character sets and character set encoding.
+    Provide best practices to avoid common pitfalls.
+  speakers:
+    - marcsugiyama
+  topics:
+    - code-intelligence
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "mjl83S13qgQ"
+      url: "https://www.youtube.com/watch?v=mjl83S13qgQ"
+
+- title: "A war story from failures to success"
+  slug: "a-war-story-from-failures-to-success"
+  kind: talk
+  language: en
+  duration: 43
+  abstract: |
+    TALK LEVEL: BEGINNERS / INTERMEDIATE
+    Developing a communication platform seems to be the perfect fit for the BEAM. At least, that is what we thought when we set out to replace the existing Astrisk-based platform. Picking the proper tools is a good start, but when you develop in isolation for 2-3 years you might not learn about the BEAM characteristics under load. After 6 months in production, the first warning signs started to show. Join our war story and learn what to avoid and how to change failures into success. THIS TALK IN THREE WORDS
+    Failures Learnings War story OBJECTIVES
+    Share learnings with a wider audience.
+    Create openness and trust in sharing failures.
+    TARGET AUDIENCE
+    Anyone with an interest in war stories.
+    Anyone that is about to start a big project.
+  speakers:
+    - timmoverlaan
+  topics:
+    - rust
+  recordings:
+    - provider: youtube
+      external_id: "35jQGvQfKac"
+      url: "https://www.youtube.com/watch?v=35jQGvQfKac"
+
+- title: "Don t write NIFs (at least not in C)"
+  slug: "don-t-write-nifs-at-least-not-in-c"
+  kind: talk
+  language: en
+  duration: 34
+  abstract: |
+    TALK LEVEL: BEGINNERS / INTERMEDIATE / PROFICIENT
+    Most experienced Erlangers will caution against writing NIFs, and for good reason! NIFs are notoriously dangerous. Not only do we have to worry about crashing the BEAM, but we run the risk of degrading the scheduler if we're not careful. But what if writing NIFs were safe? In this talk, Sonny will discuss Rustler, a library which makes it incredibly simple to write safe NIFs in Rust. THIS TALK IN THREE WORDS
+    Native Safety Performance OBJECTIVES
+    This talk aims to inspire people to learn Rust and how to leverage it within their current BEAM applications. TARGET AUDIENCE
+    Anyone who is interested in using native code to improve the performance of their applications.
+  speakers:
+    - sonnyscroggin
+  topics:
+    - rust
+    - libraries
+    - concurrency
+    - ash
+  recordings:
+    - provider: youtube
+      external_id: "BREqrlzfQUo"
+      url: "https://www.youtube.com/watch?v=BREqrlzfQUo"
+
+- title: "The Holy Grail of Isomorphism"
+  slug: "the-holy-grail-of-isomorphism"
+  kind: talk
+  language: en
+  duration: 32
+  abstract: |
+    Isomorphic applications reuse code between client and server, but they are usually limited to the confines of a web browser. This often leaves out native (desktop or mobile) clients, and as a result, forces duplicative engineering effort. In this session, Evadne shall demonstrate how this problem can be addressed by deconstructing and then recombining various technologies, so as to achieve true application code and tooling reuse between web, desktop and mobile clients, while reducing the chasm between client and server code and enabling teams to adopt new paradigms, such as LiveView, in a rather pervasive manner.
+  speakers:
+    - evadnewu
+  topics:
+    - liveview
+  recordings:
+    - provider: youtube
+      external_id: "R5Gd1E8I-oU"
+      url: "https://www.youtube.com/watch?v=R5Gd1E8I-oU"
+
+- title: "How the BEAM boots and what can be done about it"
+  slug: "how-the-beam-boots-and-what-can-be-done-about-it"
+  kind: talk
+  language: en
+  duration: 42
+  abstract: |
+    The Erlang VM does a lot of work loading and transforming many little BEAM files before it is ready to go. When starting Elixir even more beam files have to be loaded. Doing this work over and over again leads to unfavourable startup time. Most clearly this shows on embedded systems with weak CPUs, inefficient files systems and storage and no way to cache the filesystem when switched on. But this extra work also shows up everywhere the Erlang VM is started again and again, e.g. during development and in CI/CD systems.
+    In this talk, we explore what exactly is done by the BEAM loader and how we can move this work to release build time so it doesn't have to be done again and again on startup.
+    Transforming all the little BEAM files into normal object files a static or dynamic linker can use and relocate gives us several benefits at the same time:
+    Ready to run in place beam code - reduced startup time.Faster cloud spin uptime with standard Erlang VMs
+    Single executable releases - wouldn't it be nice to deploy just a single-file executable that contains the Erlang VM and the complete relates BEAM files?
+    Deploy complete Erlang releases on System on Chip Micro-Controllers by running everything directly in firmware flash
+    In this talk, you will get a clear explanation of how all this works and demos of the implementation.
+  speakers:
+    - peerstritzinger
+  topics:
+    - elixir
+    - embedded
+    - ash
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "ImZlN1bVzII"
+      url: "https://www.youtube.com/watch?v=ImZlN1bVzII"
+
+- title: "Adventures in High Performance Logging"
+  slug: "adventures-in-high-performance-logging"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    What do you do when you need to write to a log in your Elixir app?
+    Use Logger, of course!
+    But what happens when you reach its limits?
+    This talk uses a real-world example to explore what happens when your system scales past the tools that come with the BEAM. We'll build our way from Logger, to disk_log, to a custom GenStage pipeline, all the while striving for the highest performance solution. OBJECTIVES
+    Educate the audience about one of the core internal Elixir tools: Logger
+    Provide a case study of what happens when you rapidly outgrow the tooling in the BEAM
+    Introduce some new libraries that provide an abstraction over high throughput logging TARGET AUDIENCE
+    From beginners through to experienced Alchemists, the talk builds up from simple example so no-one should get lost.
+  speakers:
+    - ryanresella
+  topics:
+    - elixir
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "C61CslGKNXY"
+      url: "https://www.youtube.com/watch?v=C61CslGKNXY"
+
+- title: "Applied Telemetry Lessons from the Field"
+  slug: "applied-telemetry-lessons-from-the-field"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    As the telemetry ecosystem grows and adds tracing support to its list of observability concerns, it's important for users and library maintainers to get a grasp on what it all means to them. Bryan will cover the Five Ws and how to improve the runtime observability story for everyone in the Erlang/Elixir ecosyste
+  speakers:
+    - bryannaegele
+  topics:
+    - elixir
+    - observability
+    - libraries
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "YmnPe61BjOI"
+      url: "https://www.youtube.com/watch?v=YmnPe61BjOI"
+
+- title: "Four patterns to save your codebase and your sanity"
+  slug: "four-patterns-to-save-your-codebase-and-your-sanity"
+  kind: talk
+  language: en
+  duration: 31
+  abstract: |
+    Scaling a codebase requires a balance of both vertical and horizontal approaches. Independently if you choose a domain driven design, hexagonal or even a simple MVC you can either add more files or keep increasing the ones you have. McCabe's cyclomatic complexity is that functions and methods that have the highest complexity tend to also contain the most defects.
+  speakers:
+    - marcelolebre
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "xWqOR-cdIUQ"
+      url: "https://www.youtube.com/watch?v=xWqOR-cdIUQ"
+
+- title: "rebar3 format: A new code formatter for Erlang"
+  slug: "rebar3-format-a-new-code-formatter-for-erlang"
+  kind: talk
+  language: en
+  duration: 29
+  abstract: |
+    In recent years, many language ecosystems have developed automatic code formatters to reduce the mental overhead of code readers and therefore to share code more easily. The Erlang community was lacking a tool like this, so we created a rebar3 plugin just to automatically format code.
+  speakers:
+    - brujobenavides
+  topics:
+    - community
+    - code-intelligence
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "1KdDG66bNyk"
+      url: "https://www.youtube.com/watch?v=1KdDG66bNyk"
+
+- title: "From the Idea to a MVP in Less than 3 Months"
+  slug: "from-the-idea-to-a-mvp-in-less-than-3-months"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: |
+    What does it mean to develop and deploy products or services written in Erlang on a daily basis? How can you build a product using multiple linked processes or services on one or more machine that will fit your business? How can you provide an MVP or a pilot in less than 3 months? In this talk, Benoit will describe some useful pattern and code/libraries written over Erlang OTP that will help you to achieve it.
+  speakers:
+    - benoitchesneau
+  topics:
+    - otp
+    - code-intelligence
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "YWz1qKANwWE"
+      url: "https://www.youtube.com/watch?v=YWz1qKANwWE"
+
+- title: "How a startup survived the hype years of NoSQL"
+  slug: "how-a-startup-survived-the-hype-years-of-nosql"
+  kind: talk
+  language: en
+  duration: 22
+  abstract: |
+    In 2012, the NoSQL hype was strong, a digital mailbox service called Kivra is launched and the choice of database was Riak and the language was Erlang.
+    Today, Kivra is the most used digital mailbox in Sweden. But what happened in the meantime? How did the prototype become a reliable system capable of handling changes in terms of time, functionality and load? Join Alexandre on a journey where we learn the challenges and the key design decisions that are part of Kivra's success throughout the years!
+  speakers:
+    - alexandrerodrigues
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "zkhM34GKAP0"
+      url: "https://www.youtube.com/watch?v=zkhM34GKAP0"
+
+- title: "An introduction to the new socket API"
+  slug: "an-introduction-to-the-new-socket-api"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: |
+    There is an experimental new socket API since OTP 22 that is thinner, lighter, and faster than the old gen_{tcp,udp,sctp} over inet_drv. It is implemented with NIFs on the Unix networking functions, which potentially gives the programmer access to _all_ of the socket functionality in the OS networking stack. This talk gives an overview of the API, some details on the implementation, informs on what is done and missing, and how the new sockets is intended to fit in the rest of Erlang/OTP.
+  speakers:
+    - raimoniskanen
+  topics:
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "0qekJmiBd2U"
+      url: "https://www.youtube.com/watch?v=0qekJmiBd2U"
+
+- title: "Rebuilding a complex web-app with Elixir and Phoenix LiveView"
+  slug: "rebuilding-a-complex-web-app-with-elixir-and-phoenix-liveview"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    Mikkel Høgh and team, rebuilt a seven-year-old DNS control panel app, originally built with Drupal, Node.js and Ember.js into a much simpler and easier to maintain Phoenix-web app. LiveViews replacing complex JavaScript workflows and Elixir/OTP replacing server side tasks.
+  speakers:
+    - mikkelhgh
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "eWN2c4dLDTU"
+      url: "https://www.youtube.com/watch?v=eWN2c4dLDTU"
+
+- title: "Live Coding Pong in Scenic"
+  slug: "live-coding-pong-in-scenic"
+  kind: talk
+  language: en
+  duration: 34
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Live Coding Pong in Scenic - Ju Liu - Software Engineer at NoRedInk
+
+    ABSTRACT
+    Is there a more iconic example of a videogame than Pong? I don't think so! In this talk, we will see how we can use Elixir and Scenic to build a copy of the immortal 1972 Atari classic. Retro gaming enthusiasts will love this talk for the fun trivia, while Elixir enthusiasts will love it for the live coding madness! At the end of the talk, you should know how to setup your own game using Scenic, while having learned a couple of tricks that are almost fifty years old, yet tremendously effective.
+
+    • Follow us on social:
+      Twitter: https://www.twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - juliu
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "feAW1AVzNwo"
+      url: "https://www.youtube.com/watch?v=feAW1AVzNwo"
+
+- title: "Elixir meets Erlang in Blockchain development"
+  slug: "elixir-meets-erlang-in-blockchain-development"
+  kind: talk
+  language: en
+  duration: 31
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Get involved in the next Code Sync conference - https://codesync.global
+
+    ---
+
+    ELIXIR MEETS ERLANG IN BLOCKCHAIN DEVELOPMENT
+    by Ulf Wiger
+
+    ABSTRACT
+    The Aeternity blockchain was developed in Erlang, by something of an All-Star team, and made a mark as one of the most productive development teams in the business. Unfortunately, Core development outpaced SDK and tool development by a fairly wide margin, and the core team found itself lacking direct user feedback. One approach to address this was to bring onboard a talented Elixir developer, Aleksandar Filipov, as a one-man prototyping team and virtual user to the State Channels team. In this talk, we will describe the reasons for augmenting an Erlang project with Elixir, and present some of the results.
+
+    Slides & full abstract: https://codesync.global/speaker/ulf-wiger/
+
+    ---
+
+    THE SPEAKER - ULF WIGER
+
+    Ulf Wiger has been using Erlang since 1992, bought the first-ever commercial license in 1993 and has been a full-time Erlang dev since 1996. While at Ericsson, he became something of an Erlang ambassador, speaking about the AXD 301 ATM Switch/Media Gateway and about how Erlang works in large industrial projects. After leaving Ericsson, Ulf joined Erlang Solutions as CTO. He then entered the Connected Device market first via the startup Feuerlabs, then as a freelance contractor to Jaguar Land Rover, and Lead Developer of GENIVI’s Remote Vehicle Interaction component. Ulf joined the Aeternity Core Team in 2017 and is now busy exploring and developing blockchain technology. In the Open Source arena, Ulf is perhaps best known for components like Gproc, Jobs, and Exometer. In his spare time, Ulf doubles as an opera singer and dabbles in politics.
+
+    More on Ulf Wiger: https://codesync.global/speaker/ulf-wiger/
+
+    THE SPEAKER - ALEKSANDAR FILIPOV
+    Embedded programmer gone functional
+
+    Aleksandar has been all over, going from real time embedded OS:e where he worked with hardware and matching OpenGL ES drivers all the way to automotive electrical systems and also a few years with end user apps including android apps for banking. Today heâ€™s a big fan of functional programming, and is a driver for the eternityâ€™s â€œchannel servicesâ€ which is a reference framework showcasing aeternityâ€™s unique state channels. He's also an fp evangelist in the automotive space where he maintains Signalbroker.
+
+    linkedin: https://www.linkedin.com/in/aleksandar-filipov-a806303/
+    https://github.com/volvo-cars/signalbroker-server/Â
+    https://github.com/aeternity/ae-channel-service/
+
+    More on Aleksandar Filipov: https://codesync.global/speaker/aleksandar-filipov/
+
+    ---
+
+    CODE SYNC & CODE BEAM V 2020
+    Code BEAM V is powered by Code Sync. Code BEAM V 2020 was sponsored by Klarna, Duffel, PepsiCo, Erlang Solutions, Mux, AppSignal, Clever Bunny, Pragmatic Bookshelf, O'Reilly, Manning Publications, Learning Stone, Groxio, Erlang Ecosystem Foundation.
+
+    CODE SYNC
+    Website: http://www.codesync.global
+    Twitter: https://www.twitter.com/CodeBEAMio
+    Facebook: https://www.facebook.com/CodeSyncGlobal
+    LinkedIn: https://www.linkedin.com/company/code-sync/
+    Mail: info at codesync.global
+  speakers:
+    - ulfwiger
+  topics:
+    - elixir
+    - libraries
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "dfYYm_UcaNU"
+      url: "https://www.youtube.com/watch?v=dfYYm_UcaNU"
+
+- title: "Nova: a web framework for Erlang"
+  slug: "nova-a-web-framework-for-erlang"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-sto/
+
+    To learn more about the framework go to Nova homepage: https://novaframework.org
+    More great virtual tech conferences - https://codesync.global
+
+    ---
+
+    Nova  a web framework for Erlang
+    Daniel Widgren, Niclas Axelsson
+
+    ABSTRACT
+    Nova is a framework that started a long time ago but now is gathered as a package. With influences from Chicago Boss and Phoenix, we wanted an Erlang framework that was easy to use.
+
+    ---
+
+    THE SPEAKER - Daniel Widgren
+    Daniel has been working with Erlang for 10 years in different areas.
+
+    THE SPEAKER - Niclas Axelsson
+     It all started after Niclas was introduced to Erlang at the university in 2009. Since then he has been using Erlang for both backend and frontend.
+
+    ---
+
+    Code BEAM V 2020 was sponsored by Duffel, PepsiCo, Klarna, WhatsApp, DNSimple, Flyiin, Erlang Solutions, Forza Football, BlockFi, App Unite, Pleroma, Simplabs, Telnyx, Clever Bunny, O'Reilly, Manning Publications
+
+    Code BEAM V
+    Website: https://codesync.global/conferences/c...
+    Twitter: https://twitter.com/CodeBEAMio
+  speakers:
+    - danielwidgren
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "rucxrxefZMA"
+      url: "https://www.youtube.com/watch?v=rucxrxefZMA"
+
+- title: "Monkey, take the wheel"
+  slug: "monkey-take-the-wheel"
+  kind: talk
+  language: en
+  duration: 50
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Monkey, take the wheel - Dmytro Lytovchenko - Software Engineer at
+
+    ABSTRACT
+    The talk briefly explains the Daniel Kahneman's fast and slow thinkers concept, where every person can operate in easy-going and cheap mode, making mistakes and enjoying the distractions, while harder tasks require switching to slow and expensive thinker mode where the smart decisions and judgements can be made, at the cost of getting tired real quick.
+    The talk goes in detail how it is beneficial to accept your human nature, prone to errors, and instead trust your Erlang & Elixir language, available tools, and tests more than you would trust yourself.
+    Letting your inner monkey drive the development and allowing it to make mistakes on the way is an acceptable and winning strategy. Highlighting the importance of human in, sometimes idealized, world of the software development, while the human is prone to errors.
+
+    • Follow us on social:
+      Twitter: https://www.twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - dmytrolytovchenko
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "mH6OBprNEIY"
+      url: "https://www.youtube.com/watch?v=mH6OBprNEIY"
+
+- title: "Guards! Guards! the What, How and Why"
+  slug: "guards-guards-the-what-how-and-why"
+  kind: talk
+  language: en
+  duration: 34
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Get involved in the next Code Sync conference - https://codesync.global
+
+    ---
+
+    GUARDS! GUARDS! THE WHAT, HOW AND WHY
+    by Wiebe-Marten Wijnja
+
+    ABSTRACT
+    Guard conditions are one of Elixir (and Erlang)'s fundamental constructs. In this talk we take a '6 levels of difficulty' approach, explaining:
+    -  what guards are, exactly.
+    - the differences between `cond`, `case` and `with`
+    - how guard conditions differ from similar constructs in other languages.
+    - building your own guards using `defguard`
+    - how to write 'guard-aware' macros.
+    - how to go completely overboard in writing guard-safe code (and why you should not do so ;-) )
+
+    Slides & full abstract: https://codesync.global/speaker/wiebe-marten-wijnja/
+
+    ---
+
+    THE SPEAKER - WIEBE-MARTEN WIJNJA
+    Developer / Contributor / Fanboy
+
+    Wiebe-Marten loves conceiving things that just keep working. A Computing Scientist in body and mind. Wiebe-Marten has 12+ years of practical web-development experience. In 2012, he started to specialise in working with decentralised, distributed and fault-tolerant systems. Initially working with Blockchain-based systems from 2012 onwards, the BitTorrent protocol, and other systems that allow for decentralised data sharing. He is an enthusiastic open sourcerer, a long-time developer using the Elixir programming language (maintainer of more than 20 libraries on Hex.PM), and a moderator on the Elixir Forum. You can also occasionally hear him (being wrong) in discussions on the Elixir mailing list.
+     In his spare time, Wiebe-Marten loves making music (piano, marimba), running, dancing and experiencing new things.
+
+    More on Wiebe-Marten Wijnja: https://codesync.global/speaker/wiebe-marten-wijnja/
+
+    ---
+
+    CODE SYNC & CODE BEAM V 2020
+    Code BEAM V is powered by Code Sync. Code BEAM V 2020 was sponsored by Klarna, Duffel, PepsiCo, Erlang Solutions, Mux, AppSignal, Clever Bunny, Pragmatic Bookshelf, O'Reilly, Manning Publications, Learning Stone, Groxio, Erlang Ecosystem Foundation.
+
+    CODE SYNC
+    Website: http://www.codesync.global
+    Twitter: https://www.twitter.com/CodeBEAMio
+    Facebook: https://www.facebook.com/CodeSyncGlobal
+    LinkedIn: https://www.linkedin.com/company/code-sync/
+    Mail: info at codesync.global
+  speakers:
+    - wiebemartenwijnja
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Mb1Wb3dZZ8U"
+      url: "https://www.youtube.com/watch?v=Mb1Wb3dZZ8U"
+
+- title: "Programming Languages on top of the BEAM"
+  slug: "programming-languages-on-top-of-the-beam"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-sto/
+
+    More great virtual tech conferences - https://codesync.global
+
+    ---
+
+    Programming Languages on top of the BEAM
+    by
+    Manuel Rubio, Robert Virding
+
+    ABSTRACT
+    Talk about the implementation of languages on top of BEAM which have not the same semantics as Erlang so, it is not going to be a talk about languages like LFE or Elixir but also others like Lua or PHP which are implemented in an interpreted way. The talk is going to review the issues that can occur, solutions to them and also give some examples about how in the end they can be done.
+
+    ---
+
+    THE SPEAKER - Manuel Rubio
+
+    Manuel is a developer since he was 12 years old (26 years ago) and he started with Basic, like others, but later also with Modula-2, Pascal, C, Assembler and these before 20 years old. In his professional career, he used Perl, PHP, Python, Ruby, Java, JavaScript, and last 10 years he was more on Erlang and 4 years ago he started with Elixir and Go. He can be considered a polyglot programmer and he loves to teach and coach others.
+    He also a fan of creating crazy projects like myproto, ephp or skirnir.
+
+    THE SPEAKER - Robert Virding
+
+    Robert Virding is Principal Language Expert at Erlang Solutions Ltd. While at Ericsson AB, Robert was one of the original members of the Ericsson Computer Science Lab, and co-inventor of the Erlang language. He took part in the original system design and contributed much of the original libraries, as well as to the current compiler. While at the lab he also did a lot of work on the implementation of logic and functional languages and on garbage collection. He has also worked as an entrepreneur and was one of the co-founders of one of the first Erlang startups (Bluetail). Robert also worked a number of years at the Swedish Defence Materiel Administration (FMV) Modelling and Simulations Group. He co-authored the first book (Prentice-Hall) on Erlang, and is regularly invited to teach and present throughout the world.
+    ---
+
+    Code BEAM V
+    Website: https://codesync.global/conferences/code-beam-sto/
+    Twitter: https://twitter.com/CodeBEAMio
+  speakers:
+    - robertvirding
+    - boydmulterer
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "4xXLcopfdLo"
+      url: "https://www.youtube.com/watch?v=4xXLcopfdLo"
+
+- title: "E2E backend testing with Ecto API"
+  slug: "e2e-backend-testing-with-ecto-api"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    E2E backend testing with Ecto API | Nikola Begedin  - Full Stack Engineer at  V7 Labs
+
+    ABSTRACT
+    Hound and Wallaby are great test tools. We get access to the Ecto sandbox out of the box, so the background for each test is easy to set up.
+    However, both are quite difficult to operate any anything other than a simple frontend, which is part of the Phoenix app itself.
+    What most people do not know is that Ecto supports Sandbox access via API endpoints, making it possible to use any test runner, such as Cypress or Testcafe, paired with any frontend of any complexity.
+
+    • Follow us on social:
+      Twitter: https://twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - nikolabegedin
+  topics:
+    - ecto
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "OAuTCyvp9NY"
+      url: "https://www.youtube.com/watch?v=OAuTCyvp9NY"
+
+- title: "An update from the OTP team"
+  slug: "an-update-from-the-otp-team"
+  kind: talk
+  language: en
+  duration: 13
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    An update from the OTP team | Kenneth Lundin - Head of the Erlang/OTP team at Ericsson
+
+    ABSTRACT
+    Short update from the OTP Team and then you will be able to ask them any question you like about their work.
+
+    • Follow us on social:
+      Twitter: https://twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - kennethlundin
+  topics:
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "i8VZzGpXpS4"
+      url: "https://www.youtube.com/watch?v=i8VZzGpXpS4"
+
+- title: "argparse: complex CLI made simple"
+  slug: "argparse-complex-cli-made-simple"
+  kind: talk
+  language: en
+  duration: 29
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    argparse: complex CLI made simple | Maxim Fedorov - Software Engineer at WhatsApp
+
+    ABSTRACT
+    Most programing languages have a way to interact via command line
+    arguments. So does Erlang. Tricky part is conversion between Unix
+    shell conventions and Erlang. Some languages have libraries to do the
+    job. Python has docopt, click, and argparse, all serving the purpose,
+    and allowing complicated syntax. Erlang deserves to have some too.
+    This talk introduces argparse for Erlang.
+
+    • Follow us on social:
+      Twitter: https://www.twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - maximfedorov
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "xczUEEg7-xo"
+      url: "https://www.youtube.com/watch?v=xczUEEg7-xo"
+
+- title: "The Future of Programming"
+  slug: "the-future-of-programming"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Get involved in the next Code Sync conference - https://codesync.global
+
+    ---
+
+    THE FUTURE OF PROGRAMMING
+    by Francesco Cesarini and Veronica Lopez
+
+    ABSTRACT
+    Whilst Erlang has been ahead of the curve for decades, other communities and technologies are quickly catching up, but not always in the most efficient way. In this talk, Francesco and Veronica share their experiences on the past, present and future of distributed software development in the Erlang Ecosystem. By looking at how systems which by nature were distributed and learning from past mistakes, they map out the evolution of where we are heading, and what we need to do to get there.
+
+    Slides & full abstract: https://codesync.global/speaker/francesco-cesarini/
+
+    ---
+
+    THE SPEAKER - FRANCESCO CESARINI
+    Co-author of designing for scalability with Erlang/OTP
+
+    Founder of Erlang Solutions Ltd. Francesco has used Erlang on a daily basis since 1995, starting as an intern at Ericsson’s computer science laboratory, the birthplace of Erlang. He moved on to Ericsson’s Erlang training and consulting arm working on the first release of OTP, applying it to turnkey solutions and flagship telecom applications. In 1999, soon after Erlang was released as open source, he founded Erlang Solutions, who have become the world leaders in Erlang based consulting, contracting, training and systems development.
+    Francesco has worked in major Erlang based projects both within and outside Ericsson, and as Technical Director, has led the development and consulting teams at Erlang Solutions.
+    He is the co-author of 'Erlang Programming' and 'Designing for Scalability with Erlang/OTP' both published by O'Reilly. Francesco is also a lecturer at the University of Oxford, and has participated in the Future Learn Erlang MOOC, O'Reilly and University of Kent online Master Classes and is a regular conference speaker and tutor.
+
+    More on Francesco Cesarini: https://codesync.global/speaker/francesco-cesarini/
+
+    THE SPEAKER - VERONICA LOPEZ
+    Sr. software engineer
+
+    Veronica is a former physicist turned computer scientist, who currently finds joy building distributed systems with Go and Elixir, and trying to make physics and computers converge.
+
+    More on Veronica Lopez: https://codesync.global/speaker/veronica-lopez/
+
+    ---
+
+    CODE SYNC & CODE BEAM V 2020
+    Code BEAM V is powered by Code Sync. Code BEAM V 2020 was sponsored by Klarna, Duffel, PepsiCo, Erlang Solutions, Mux, AppSignal, Clever Bunny, Pragmatic Bookshelf, O'Reilly, Manning Publications, Learning Stone, Groxio, Erlang Ecosystem Foundation.
+
+    CODE SYNC
+    Website: http://www.codesync.global
+    Twitter: https://www.twitter.com/CodeBEAMio
+    Facebook: https://www.facebook.com/CodeSyncGlobal
+    LinkedIn: https://www.linkedin.com/company/code-sync/
+    Mail: info at codesync.global
+  speakers:
+    - francescocesarini
+    - veronicalopez
+    - peerstritzinger
+    - bryannaegele
+    - maximfedorov
+    - josevalim
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "C6cEv1ewsh4"
+      url: "https://www.youtube.com/watch?v=C6cEv1ewsh4"
+
+- title: "Problem led Software Design"
+  slug: "problem-led-software-design"
+  kind: talk
+  language: en
+  duration: 36
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Get involved in the next Code Sync conference - https://codesync.global
+
+    ---
+
+    PROBLEM LED SOFTWARE DESIGN
+    by Robert Virding, Boyd Multerer
+
+    ABSTRACT
+    There are many software development philosophies, but one of our favorite is Problem Led Design. Robert Virding and Boyd Multerer discuss how they use focus on problems to find solutions that really matter. Robert will share how this drove to the design of Erlang and the BEAM. Boyd will discuss how this has been his driving mode for almost 20 years across Xbox, Scenic, and his new project which he is finally willing to talk about.
+
+    Slides & full abstract: https://codesync.global/speaker/robert-virding/
+
+    ---
+
+    THE SPEAKER - ROBERT VIRDING
+    Co-creator of Erlang, trainer
+
+    Robert Virding is Principal Language Expert at Erlang Solutions Ltd. While at Ericsson AB, Robert was one of the original members of the Ericsson Computer Science Lab, and co-inventor of the Erlang language. He took part in the original system design and contributed much of the original libraries, as well as to the current compiler. While at the lab he also did a lot of work on the implementation of logic and functional languages and on garbage collection. He has also worked as an entrepreneur and was one of the co-founders of one of the first Erlang startups (Bluetail). Robert also worked a number of years at the Swedish Defence Materiel Administration (FMV) Modelling and Simulations Group. He co-authored the first book (Prentice-Hall) on Erlang, and is regularly invited to teach and present throughout the world.
+
+    More on Robert Virding: https://codesync.global/speaker/robert-virding/
+
+    THE SPEAKER - BOYD MULTERER
+    Creator of Scenic and lead engineering for Xbox Live, XNA
+
+    Boyd's near 30-year career spans the range of software projects, from desktop publishing, to web servers, to game consoles, to low-level operating systems. For the past four years, he has been independently exploring and building a full stack for Connected Devices that heavily leverages the BEAM.
+
+    Previously, Boyd spent 18 years at Microsoft running engineering for things such as Xbox Live, XNA (game developer program), and everything OS for Xbox One. This work includes large scaled-out datacenter services, VMs, and the layout of the hypervisor/kernel.
+
+    His most recent release is the open-source Scenic libraries, which is a functional UI stack built on the BEAM. Its primary goal is for use in connected devices, but it is already being used for desktop apps and more. His current work takes the foundation laid with Scenic and is attempting to answer deeper questions about the future of client-side operating systems.
+
+    More on Boyd Multerer: https://codesync.global/speaker/boyd-multerer/
+
+    ---
+
+    CODE SYNC & CODE BEAM V 2020
+    Code BEAM V is powered by Code Sync. Code BEAM V 2020 was sponsored by Klarna, Duffel, PepsiCo, Erlang Solutions, Mux, AppSignal, Clever Bunny, Pragmatic Bookshelf, O'Reilly, Manning Publications, Learning Stone, Groxio, Erlang Ecosystem Foundation.
+
+    CODE SYNC
+    Website: http://www.codesync.global
+    Twitter: https://www.twitter.com/CodeBEAMio
+    Facebook: https://www.facebook.com/CodeSyncGlobal
+    LinkedIn: https://www.linkedin.com/company/code-sync/
+    Mail: info at codesync.global
+  speakers:
+    - boydmulterer
+    - robertvirding
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "OV7bFU1Gkwo"
+      url: "https://www.youtube.com/watch?v=OV7bFU1Gkwo"
+
+- title: "An update from the Erlang Ecosystem Foundation working groups"
+  slug: "an-update-from-the-erlang-ecosystem-foundation-working-groups"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    An update from the Erlang Ecosystem Foundation working groups | Sebastian Strollo - Erlang Developer and Cofounder at Avassa
+
+    ABSTRACT
+    Open meeting with Erlang Ecosystem Foundation Team.
+
+    • Follow us on social:
+      Twitter: https://twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - sebastianstrollo
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Lt4MuMYtPLA"
+      url: "https://www.youtube.com/watch?v=Lt4MuMYtPLA"
+
+- title: "From Elixir to Erlang - experience report"
+  slug: "from-elixir-to-erlang-experience-report"
+  kind: talk
+  language: en
+  duration: 30
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    From Elixir to Erlang - Experience Report | Michal Muskala - Software Engineer @ WhatsApp
+
+    ABSTRACT
+    Is the tooling in Erlang really that bad? Are macros in Elixir actually creating that much confusion? And what about the syntax?
+    Over the last couple months, I worked almost exclusively with Erlang after many years spent with Elixir. In this talk I'm going to share my reflections on the state of both languages and what they can learn from one another. I'll explore things that I found surprising, some that I miss, and couple that were delightful.
+
+    • See & download slides:
+      https://codesync.global/speaker/michal-muskala52/
+
+    • Follow us on social:
+      Website: http://www.codesync.global
+      Twitter: https://www.twitter.com/CodeBEAMio
+      Facebook: https://www.facebook.com/CodeSyncGlobal
+      LinkedIn: https://www.linkedin.com/company/code-sync/
+
+     • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - michalmuskala
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "EisKAZayIls"
+      url: "https://www.youtube.com/watch?v=EisKAZayIls"
+
+- title: "Who Takes Out Your Trash"
+  slug: "who-takes-out-your-trash"
+  kind: talk
+  language: en
+  duration: 30
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    Who Takes Out Your Trash | Sanne Kalkman - Elixir Engineer at CodeSandbox
+
+    ABSTRACT
+    No matter how clean your code, every program you run creates garbage. Luckily, most of us don’t have to think about taking out our own trash. Garbage collectors simply take care of business, but that doesn’t mean we have to be mystified by how they do their jobs.
+
+    • Follow us on social:
+      Twitter: https://twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - sannekalkman
+  topics:
+    - ash
+  recordings:
+    - provider: youtube
+      external_id: "OSdaXNQ0xhQ"
+      url: "https://www.youtube.com/watch?v=OSdaXNQ0xhQ"
+
+- title: "Boost your productivity with the Erlang Language Server"
+  slug: "boost-your-productivity-with-the-erlang-language-server"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    This video was recorded at Code BEAM V  2020 - codesync.global/conferences/code-beam-sto/
+
+    Boost your productivity with the Erlang Language Server - Roberto Aloi - Software Engineer at Klarna
+
+    ABSTRACT
+    Implementing features such as auto-complete or go-to-definition for a programming language is not trivial. Traditionally, this work had to be repeated for each development tool and it required a mix of expertise in both the targeted programming language and the programming language internally used by the development tool of choice.
+
+    A brilliant intuition, the "Language Server Protocol" (LSP), changes the rules of the game. A real blessing for the Erlang community.
+
+    • Follow us on social:
+      Twitter: https://twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - robertoaloi
+  topics:
+    - code-intelligence
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "aVC__xlUJ3s"
+      url: "https://www.youtube.com/watch?v=aVC__xlUJ3s"
+
+- title: "Adopting Erlang, Adapting Rebar"
+  slug: "adopting-erlang-adapting-rebar"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    Get involved in the next Code Sync conference - https://codesync.global
+
+    ---
+
+    ADOPTING ERLANG, ADAPTING REBAR
+    by Fred Hebert, Tristan Sloughter
+
+    ABSTRACT
+    In this presentation we'll cover the cycle that brought us from writing Adopting Erlang from the perspective of a new team that has read one of the many books out there about Erlang. We aimed to guide them to applied practice in a development team. In writing this, we found multiple issues that had accrued with time and shifting best practices in the community. These issues became encoded into our toolset.
+    Through maintaining Rebar3, Relx, documentation, and as participants of EEF working groups, we were part of a long feedback loop in the ecosystem. We'll go over the new changes this has led us to make to improve our tooling with very limited backwards compatibility breakage, and how they should improve your life.
+
+    Slides & full abstract: https://codesync.global/speaker/fred-hebert/
+
+    ---
+
+    THE SPEAKER - FRED HEBERT
+    Erlang, Tools, and Systems (Postmates)
+
+    Fred is the author of Learn You Some Erlang, Erlang in Anger, and more recently, Property-Based Testing with PropEr, Erlang, and Elixir. He co-founded and is a board member at the Erlang Ecosystem Foundation. He is a maintainer of Rebar3, and of various libraries such as recon, pobox, and so on.
+
+    He is a platform developer at Postmates, with a focus on learning from incidents and poking at various things. Previously, he was Systems Architect at Genetec, a company offering security video and IoT integration systems. Even earlier, he was a principal member of technical staff on the Heroku platform, worked in real-time bidding, and provided Erlang training.
+
+    More on Fred Hebert: https://codesync.global/speaker/fred-hebert/
+
+    THE SPEAKER - TRISTAN SLOUGHTER
+    Principal engineer at Space-Time insight
+
+    Tristan is a long time Erlang programmer, having picked it up for fun while in college and then professionally for various companies, Orbitz Worldwide, eCDMarket, Heroku, SpaceTime Insight, and currently as a senior software engineer at Postmates, Inc. While at Heroku, Tristan, along with Fred, started the build tool Rebar3 after seeing the struggles involved in onboarding new developers to Erlang projects. He is also a maintainer of the release tool Relx and creator of the website How I Start(https://howistart.org/) which collects articles for various languages from experienced developers on how they setup a new project and take it to completion.
+
+    More on Tristan Sloughter: https://codesync.global/speaker/tristan-sloughter/
+
+    ---
+
+    CODE SYNC & CODE BEAM V 2020
+    Code BEAM V is powered by Code Sync. Code BEAM V 2020 was sponsored by Klarna, Duffel, PepsiCo, Erlang Solutions, Mux, AppSignal, Clever Bunny, Pragmatic Bookshelf, O'Reilly, Manning Publications, Learning Stone, Groxio, Erlang Ecosystem Foundation.
+
+    CODE SYNC
+    Website: http://www.codesync.global
+    Twitter: https://www.twitter.com/CodeBEAMio
+    Facebook: https://www.facebook.com/CodeSyncGlobal
+    LinkedIn: https://www.linkedin.com/company/code-sync/
+    Mail: info at codesync.global
+  speakers:
+    - tristansloughter
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "x_XR8TDhBUI"
+      url: "https://www.youtube.com/watch?v=x_XR8TDhBUI"
+
+- title: "BEAMJIT - the journey"
+  slug: "beamjit-the-journey"
+  kind: talk
+  language: en
+  duration: 29
+  abstract: |
+    This video was recorded at Code BEAM V 2020 - https://codesync.global/conferences/code-beam-v
+
+    BEAMJIT - the journey | Lukas Larsson - Software Engineer at Erlang Solutions
+
+    ABSTRACT
+    The BEAMJIT is a research project by Ericsson and RISE (Research Institutes if Sweden) to create a just-in time compiler for Erlang/OTP. It has been progressing well since it’s start 7 years ago. This presentation will give an overview of what has been achieved, covering problems, solutions and ideas that have come up along the way.
+
+    • Follow us on social:
+      Twitter: https://www.twitter.com/CodeBEAMio
+      LinkedIn: https://www.linkedin.com/company/27159258
+
+    • Looking for a unique learning experience?
+      Attend the next Code Sync conference near you!
+      See what's coming up at: https://codesync.global
+
+    • SUBSCRIBE TO OUR CHANNEL
+      https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw
+  speakers:
+    - lukaslarsson
+  topics:
+    - compilers
+  recordings:
+    - provider: youtube
+      external_id: "Qz7OCAoiB7Q"
+      url: "https://www.youtube.com/watch?v=Qz7OCAoiB7Q"

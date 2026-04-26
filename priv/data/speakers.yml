@@ -6533,3 +6533,119 @@
       url: "https://twitter.com/dead_trickster"
     - platform: github
       url: "https://github.com/deadtrickster"
+
+- name: "Ulf Wiger"
+  slug: "ulfwiger"
+  headline: "Erlang greybeard"
+  bio: "Ulf Wiger has been using Erlang since 1992, bought the first-ever commercial license in 1993 and has been a full-time Erlang dev since 1996. While at Ericsson, he became something of an Erlang ambassadeur, speaking about the AXD 301 ATM Switch/Media Gateway and about how Erlang works in large industrial projects. After leaving Ericsson, Ulf joined Erlang Solutions as CTO. He then entered the Connected Device market first via the startup Feuerlabs, then as a freelance contractor to Jaguar Land Rover, and Lead Developer of GENIVI’s Remote Vehicle Interaction component. Ulf joined the Aeternity Core Team in 2017 and is now busy exploring and developing blockchain technology. In the Open Source arena, Ulf is perhaps best known for components like Gproc, Jobs, and Exometer. In his spare time, Ulf doubles as an opera singer and dabbles in politics."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/uwiger"
+    - platform: github
+      url: "https://github.com/uwiger"
+
+- name: "Alexandre Rodrigues"
+  slug: "alexandrerodrigues"
+  headline: "Erlang passionate"
+  bio: |
+    After some years using functional programming constructs in imperative languages, Alexandre decided to get a job where he could work full time with a functional programming language. That was when he met Erlang and fell in love with it.
+
+    He's currently focused on Erlang system's security and on making Kivra's Erlang systems more evolvable and scalable.
+
+- name: "Maxim Fedorov"
+  slug: "maximfedorov"
+  headline: "Performance & scalability engineer"
+  bio: |
+    Maxim Fedorov is a software engineer at WhatsApp, the largest messaging app. Maxim’s work is focused on performance and scalability of the server side.
+
+    Before WhatsApp, Maxim has been developing low-latency TCP/IP applications at NetAlliance (Sydney, Australia), designing Kaspersky Enterprise Security Endpoint (Moscow, Russia), improving Parallels Virtual Automation, called Odin now, at Parallels (former SWsoft), and developing network security software before.
+  social_links:
+    - platform: github
+      url: "https://github.com/max-au"
+
+- name: "Christopher Price"
+  slug: "christopherprice"
+  headline: "Head of Open Source @ Ericsson"
+  bio: |
+    As Head of Ericsson Software Technology, Chris represents Ericsson’s global interests and engagements in open source technologies across the Ericsson group. Based in Kista, Sweden, he oversees open source activity and development across Ericsson.
+
+    Having joined Ericsson in 1997, his career focused on research and development before moving to leadership. His global leadership experience from Stockholm to Madrid and Silicon Valley, covers technology areas from optical networking, through IP, to Packet Core and into OSS/BSS.
+
+    Chris, representing Ericsson on the OpenStack and Linux Foundation board of directors, is a strong believer in open source and collaborative development.
+
+    Through Ericsson Software Technology, he works toward the integration of open source paradigms across Ericsson.
+
+- name: "Roshan Giri"
+  slug: "roshangiri"
+  headline: "Experienced parallel and concurrency enthusiast developing secure medical messaging system @ Medical Objects Pty Ltd"
+  bio: "Computer Engineer with hands-on experience in Cuda and Erlang. Currently Developing Scalable Messaging System for Medical Objects using Erlang."
+
+- name: "Ryan Resella"
+  slug: "ryanresella"
+  headline: "Trying to make the world better through the use of technology."
+  bio: "Since 2016 Ryan has been a Senior Software Engineer at Change.org. He has worked on various feature teams using Ruby on Rails, React and GraphQL. He currently works on an email platform team and the technology that powers their email is built in Elixir. Prior to Change.org he was an early engineer at Upworthy. He also worked on the 2012 Obama For America campaign and was a 2011 Code for America Fellow. He is an avid cyclist and race bikes competitively. He lives in Los Angeles with his Corgi roommate."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/ryanresella"
+    - platform: github
+      url: "https://github.com/ryanatwork"
+
+- name: "Sebastian Strollo"
+  slug: "sebastianstrollo"
+  headline: "Erlang Developer and Cofounder at Avassa"
+  bio: |
+    Sebastian Strollo has been an Erlang programmer since 1991 when he was introduced to Erlang by the language inventors at the Ericsson Computer Science Laboratory. Intrigued by the language and the lab he stayed on seeing Erlang through internal Ericsson use and then being part of making it open source in 1998.
+
+    He has since been part of several successful Erlang startups, this year he joined a group of friends and Erlang veterans and founded Avassa.
+
+    Sebastian serves on the board of the Erlang Ecosystem Foundation, where he is the secretary and the treasurer.
+
+- name: "Tristan Sloughter"
+  slug: "tristansloughter"
+  headline: "Senior Software Engineer at Postmates"
+  bio: "Tristan is a long time Erlang programmer, having picked it up for fun while in college and then professionally for various companies, Orbitz Worldwide, eCDMarket, Heroku, SpaceTime Insight, and currently as a senior software engineer at Postmates, Inc. While at Heroku, Tristan, along with Fred, started the build tool Rebar3 after seeing the struggles involved in onboarding new developers to Erlang projects. He is also a maintainer of the release tool Relx and creator of the website How I Start (https://howistart.org/) which collects articles for various languages from experienced developers on how they setup a new project and take it to completion."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/@t_sloughter"
+    - platform: github
+      url: "https://github.com/tsloughter"
+
+- name: "Marcelo Lebre"
+  slug: "marcelolebre"
+  headline: "CTO and co-founder of Remote, crazy for building scalable projects and teams"
+  bio: |
+    Marcelo, CTO and co-founder of Remote, is a product-oriented engineer.
+
+    Passionate about building products, scaling architectures and teams. Marcelo has worked with different languages and codebases for the last 10 years but fell in love with Elixir in 2014 and has been building projects and apps with it ever since.
+
+    In his spare time, Marcelo is a startup advisor and dad to a 9-month-old baby.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/marcelo_lebre"
+    - platform: github
+      url: "https://github.com/marcelolebre"
+
+- name: "Mikkel Høgh"
+  slug: "mikkelhgh"
+  headline: "18 years of experience building web applications in of all shapes and sizes"
+  bio: "Building his first website in 1999, Mikkel has worked with application architecture and development on scores of projects, including some significant e-commerce applications, as well as being a key architect of the platform used to drive all public libraries in Denmark."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/mikl"
+    - platform: github
+      url: "https://github.com/mikl"
+
+- name: "Lukas Larsson"
+  slug: "lukaslarsson"
+  headline: "Erlang VM core committer"
+  bio: "Lukas first came in contact with Erlang 2004 while studying in Göteborg. He has been working with Erlang at Erlang Solutions for about 10 years in many different industries. For the last 8 years, he's been a consultant with the Erlang/OTP team at Ericsson AB, mainly working on the development of the Erlang VM."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/garazdawi"
+    - platform: github
+      url: "https://github.com/garazdawi"
+
+- name: "Aleksander Lisiecki"
+  slug: "aleksanderlisiecki"
+  headline: "Erlang and Elixir Developer at Erlang Solutions"
+  bio: "A graduate of AGH University of Science and Technology as a Master of Science in December 2020. He works as an Erlang and Elixir developer at Erlang Solutions and is the winner of correctness prize in Spawnfest 2020. One of the organisers and trainers at School of Erlang."
