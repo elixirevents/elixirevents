@@ -6032,3 +6032,184 @@
   slug: "zsomborgasparin"
   headline: "BEAM security researcher"
   bio: "BEAM developer interested in application security tooling for the Erlang and Elixir ecosystems, comparing approaches such as SAFE and Sobelow."
+
+- name: "Dieter Schön"
+  slug: "dieterschon"
+  headline: "Speaker"
+  bio: "BEAM developer who spoke at Code BEAM Europe 2024."
+
+- name: "Tom Davies"
+  slug: "tomdavies"
+  headline: "Compiler and type-systems team @ WhatsApp"
+  bio: |
+    Tom is a member of the compiler and type-systems team at WhatsApp, and has a keen interest in making tooling which scales with teams and their code as they grow.
+
+    Tom has previously contributed to Dialyzer by introducing its incremental mode, and has a continued interest in the project.
+
+    Outside of work, Tom is a keen snowboarder and DIYer, and is a dog-parent to two border terriers.
+
+- name: "Dylan Blakemore"
+  slug: "dylanblakemore"
+  headline: "Engineering Manager at Zappi"
+  bio: |
+    Having studied mechanical engineering in Cape Town, Dylan eventually realised that working with software was much more attractive than working with hardware.
+    He got yanked into a job at Zappi, a Ruby on Rails house which built automated market research products. 5 years later, his CTO convinced him to give Elixir a try for his newest project, and within a month he was hooked.
+    Now an avid (stubborn) advocate for all things Elixir and Phoenix, he spends half his time managing a team working in Elixir, half writing Elixir, and half trying to convince other teams to use Elixir.
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/dylan-blakemore-a9198a11b/"
+
+- name: "Andres Ruiz"
+  slug: "andresruiz"
+  headline: "Software Engineer at Quality Bits"
+  bio: "Andres is a US Educated, Colombian born software engineer with 10+ years of experience getting computers to solve human problems. In his career, he’s had the opportunity to work for companies like Amazon, Reddit and Spotify, and startups like Hubs, Unidex and River.com, which has given him the necessary soft skills to impart his ideas onto others. Andres is obsessed with Elixir, but he’s well versed in Golang, Python and Java, as well as several databases. He loves testing and high quality software, as well as open source."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/afruizc/"
+
+- name: "Ygor Castor"
+  slug: "ygorcastor"
+  headline: "Software Engineer at DPG Media NL"
+  bio: "Software engineer for more than 14 years, and Lead Elixir Engineer at DPG Media NL. Functional Languages and Artificial Intelligence enthusiast. Likes to play D&D, Loves cats and annoying software architects."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/ygorcastor/"
+
+- name: "Barbara Chassoul"
+  slug: "barbarachassoul"
+  headline: "Researcher and Developer @ Peer Stritzinger GmbH"
+  bio: "I am Bárbara Chassoul, a 33-year-old developer from Costa Rica. In 2013, I began my programming career while studying physics. The need to work prompted me to dive into the coding world, starting as a frontend developer. In 2018, recommended by my brother, I discovered the Erlang ecosystem and immediately fell in love with its unique capabilities and community. Despite facing challenges transitioning from JavaScript to Erlang, I have grown to appreciate and enjoy the process. I am finishing my bachelor’s degree in physics, and my project on developing a Units of Measurement library in Erlang is part of this degree, bridging my passion for science and technology."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/chassoula"
+
+- name: "Zachary Dean"
+  slug: "zacharydean"
+  headline: "Principal Software Engineer @ Priceline.com"
+  bio: |
+    Zack is a principal software engineer at Priceline working in flights. He is a father of two, husband, Erlang, Elixir and XML nerd (not necessarily in that order). Originally from Portland Oregon, but living the life in Germany for 20+ years.
+    He is also the author of xqerl, an implementation of the XQuery language on the BEAM, and various other XML-tech based libs.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/ZacharyNDean"
+
+- name: "Phil Trinder"
+  slug: "philtrinder"
+  headline: "Glasgow University Academic: Erlang Researcher"
+  bio: |
+    Phil Trinder is a Professor of Computing Science at the University of Glasgow and a leading researcher in parallel and distributed
+    programming languages. He has researched Erlang technologies for 20 years, including coordinating the very successful EU RELEASE project to improve the scaling of Erlang. Currently the team at Glasgow are exploring how to detect communication errors in BEAM languages.
+
+- name: "Benedikt Reinartz"
+  slug: "benediktreinartz"
+  headline: "Senior Software Developer at Statkraft"
+  bio: "Studied Mathematics and Physics in Bonn and somehow ended up staying at his working student job in a renewable energy company. Started learning Erlang for the explicit goal of developing the platform. Also wrote a lot of C# and Python on the job for various other applications (visualization, analysis, scheduling). On the open-source side, co-maintainer of Rustler and Python.NET."
+
+- name: "Magnus Sedlacek"
+  slug: "magnussedlacek"
+  headline: "CEO of Ada Beat and the organizer of Func Prog Sweden"
+  bio: "I lead Ada Beat, an IT-Consultancy focused on Functional Programming. I also host and organize the MeetUp Func Prog Sweden where we explore functional programming. Been working with Erlang since 2008."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/magnus_sedlacek"
+    - platform: linkedin
+      url: "https://linkedin.com/in/magnussedlacek/"
+
+- name: "Fredrik Teschke"
+  slug: "fredrikteschke"
+  headline: "Freelance Dev with a Climber's Mindset"
+  bio: |
+    Co-founder of BogenGaudi, an Arrow Tag delivery service.
+
+    Currently working for Team Engine (Digital contracting & time-recording for the Film & TV industry).
+
+    Full stack developer with a passion for the back end and an eye for the front end. Team player with a can-do attitude. Satisfied by moving a feature from initial inception to production.
+
+- name: "Dino Costa"
+  slug: "dinocosta"
+  headline: "Co-Founder of OnePlusOne"
+  bio: |
+    I’ve been interested in Software Development since my teenage years, when I started to build small games with Flash.
+    Had my first contact with Elixir at University but was only able to start writing it professionally much later, while at Onfido. I’ve had the pleasure to work at some pretty interesting startups but I’m now building my own startup with a couple of friends, using Elixir!
+    In my free time I like to attend music shows and tinker around with things that make noise like synths and grooveboxes 🎹
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/dinocosta_"
+
+- name: "Stephen Bussey"
+  slug: "stephenbussey"
+  headline: "CTO at Supered"
+  bio: "Steve Bussey is a software architect turned startup founder. He led the introduction of Elixir to an all-Ruby team, resulting in successful adoption of Elixir. Now, he uses Elixir to build his startup—Supered. He wrote “From Ruby to Elixir”, which introduces readers to Elixir using their Ruby background. He also wrote Real-Time Phoenix, which teaches readers how to build scalable real-time Elixir applications. Steve is passionate about sharing Elixir due to the positive impact it has had on how he designs and develops applications."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/YOOOODAAAA"
+    - platform: linkedin
+      url: "https://linkedin.com/in/stephenbusseysoftwareengineer/"
+
+- name: "Srikanth Kyatham"
+  slug: "srikanthkyatham"
+  headline: "Architect @ Kaltio Technologies Oy"
+  bio: "A guy with an obsession for languages and delivering products in different platforms. I have started my career as Symbian C++, Qt, J2ME developer for Nokia mobile phones. Then we confounded a company for Push notifications for Nokia devices in 2014. Ever since I have been Architect, Salesman, wearing any title needed to get thr job done."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/sriky27"
+    - platform: linkedin
+      url: "https://linkedin.com/in/kyatham-srikanth/"
+
+- name: "Dave Lucia"
+  slug: "davelucia"
+  headline: "TV Labs CTO"
+  bio: "Dave Lucia is CTO and Co-Founder of TV Labs, an AI-powered platform provides real-time access to physical devices enabling streaming services to develop, identify defects and measure performance across the TVs and screens found in your living room, car, plane seat and even on your treadmill. Prior to T V Labs, Dave has brought the power of the BEAM to three other companies, Milk Road, Simplebet, and The Outline. He is an active member of the BEAM ecosystem, speaking at Code BEAM, Elixir Conf, RabbitMQ summit, The Big Elixir, and O11yfest, and is an active contributor to many OSS projects."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/davydog187"
+    - platform: linkedin
+      url: "https://linkedin.com/in/david-lucia-a395441b/"
+
+- name: "Łukasz Pauszek"
+  slug: "lukaszpauszek"
+  headline: "Elixir Consultant @ Erlang Solutions"
+  bio: "Łukasz is an Elixir consultant by day and a specialty coffee enthusiast in the mornings. He has worked with Elixir and Phoenix for the last few years, recently venturing into Phoenix LiveView territory. He is currently involved in a project involving Elixir, Phoenix, Kafka, and CockroachDB. In his spare time, you can find him tinkering with his Nvim configuration, playing PS5 games, or assembling Gunpla models. When he is not drinking coffee, that is."
+
+- name: "Duncan Paul Attard"
+  slug: "duncanpaulattard"
+  headline: "Research Associate, University of Glasgow"
+  bio: "Duncan Paul Attard is a postdoctoral researcher at the University of Glasgow in the UK. He has a PhD in Computer Science from Reykjavik University (Iceland) and the University of Malta (Malta). His main research interests lie in runtime monitoring and verification for concurrent systems, the automated synthesis of efficient runtime monitors, and software engineering techniques to address scalability and partial failure in distributed systems. He is also interested in the semantics of programming languages, language design, and concurrent languages. Duncan works at the University of Glasgow on safe communication in concurrent languages using Mailbox Types."
+
+- name: "Paweł Długosz"
+  slug: "paweldlugosz"
+  headline: "Developer at Erlang Solutions"
+  bio: "Paweł is a backend developer interested mostly in big distributed systems. He discovered Erlang and Elixir at the university course and that’s when the seed of actor concurrency model and functional programming was planted in his mind. That’s why later, after 3 years of programming in Java and Kotlin he decided that he should change his tech stack and started working with Erlang and Elixir. In free time he enjoys many geek activities like board games, ttrpgs or painting miniatures."
+
+- name: "Paulo Valim"
+  slug: "paulovalim"
+  headline: "Grox.io"
+  bio: "Paulo Valim is an educator and entrepreneur with a passion for making education accessible to all. The founder of Ciencia em Ação, Brazil’s largest chemistry education YouTube channel, helped millions of students master complex concepts. Paulo also founded Eveclass, a platform that empowers educators to create and deliver online courses. At Grox.io, he works to accelerate Elixir’s adoption, making our tools more engaging, accessible, and impactful."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/paulovalim"
+    - platform: linkedin
+      url: "https://linkedin.com/in/paulo-valim/"
+
+- name: "Icia Carro Barallobre"
+  slug: "iciacarrobarallobre"
+  headline: "Software Developer @ Peer Stritzinger GmbH"
+  bio: |
+    Starting with backend development in Kotlin & SpringBoot at a pet health insurance startup, I then transitioned to data analysis in a leading supermarket chain. Along the way, I discovered Elixir and the BEAM languages through university and the Stack Overflow survey, where Elixir/Phoenix stood out as beloved frameworks. Now, I’m in the world of BEAM languages at Peer Stritzinger GmbH, specializing in Erlang solutions for embedded systems. Inspired by the kindness and collaboration spirit of the Elixir community, I’m dedicated to cultivating that same culture of kindness and cooperation into every thing I do.
+
+    In my spare time, I enjoy volunteering with Hello Sisters!, an organization dedicated to supporting women in computer science. I’m also a co-organizer for the Anita Borg conferences. I’m studying psychology, and I like to pursue completely different hobbies whenever I get the chance.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/IciaCB"
+    - platform: linkedin
+      url: "https://linkedin.com/in/icia-carro-barallobre/"
+
+- name: "Maria Jose Gavilan"
+  slug: "mariajosegavilan"
+  headline: "Researcher / Project Manager @ Peer Stritzinger GmbH"
+  bio: "Passionate about people, their organizational methods, creative processes, and the need for communication and community. I run a private practice in San José, providing therapy and developing treatment plans. My journey into psychology began with a Licentiate from UCACIS and a diploma in Art Therapy from UAM, sparking my interest in connecting psychoanalysis with art. In 2015, I co-founded Kunsthilft in Berlin, offering therapeutic art workshops for refugee children. I combine my expertise in psychology with project management, bringing a unique perspective to my work."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/galateadunkel"
+    - platform: linkedin
+      url: "https://linkedin.com/in/mariajosegavilan/"

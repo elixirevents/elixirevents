@@ -1,0 +1,17 @@
+name: "Code BEAM Europe 2024"
+slug: "code-beam-europe-2024"
+venue_slug: "estrel-berlin"
+kind: conference
+status: completed
+format: hybrid
+start_date: "2024-10-14"
+end_date: "2024-10-15"
+timezone: "Europe/Berlin"
+language: en
+location: "Berlin, Germany"
+website: "https://codebeameurope.com"
+color: "#3182CE"
+description: |
+  The Erlang and Elixir conference in Europe — two days of talks, discussions, and networking for the BEAM community.
+
+  Join Erlang, Elixir, and Gleam users to share insights on building high-performance, fault-tolerant, and resilient applications. Speakers come from fintech, eCommerce, IoT, gaming, blockchain, security, and machine learning, all built on the BEAM virtual machine.

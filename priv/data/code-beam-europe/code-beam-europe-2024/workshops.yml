@@ -1,0 +1,63 @@
+- title: "OTP Training for Erlang Programmers"
+  slug: "otp-training-for-erlang-programmers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2024-10-16"
+  end_date: "2024-10-18"
+  venue_slug: estrel-berlin
+  description: |
+    Learn how to scale your Erlang to billions. OTP is the middleware, libraries, and tools used to design and architect Erlang systems. The training covers the main principles, including process design patterns, supervisors, applications, and release handling. It will give you the ability to develop and architect Erlang systems.
+
+    **Format:** 3 days in-person training (9:00–17:00 CEST)
+
+    **Topics covered:**
+
+    - Behaviours and Generic Servers
+    - State Machines and Event Handlers
+    - Supervisors and Applications
+    - System Architecture Support Libraries
+    - System Principles
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+
+- title: "OTP Training for Elixir Programmers"
+  slug: "otp-training-for-elixir-programmers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2024-10-16"
+  end_date: "2024-10-18"
+  venue_slug: estrel-berlin
+  description: |
+    You've built and deployed a Phoenix application backed by Ecto and Postgres, and you've realized you love it. Now, you're ready to take the next step.
+
+    This hands-on training is designed for you. You'll dive deep into the inner workings of building applications using OTP behaviours, exploring the proven abstractions necessary for creating back-end, fault-tolerant systems that can run for years and scale to billions of users. The course includes ample lab time, allowing you to hone your skills and apply theory to practice, with about half of the class dedicated to lab work or coding alongside your instructor.
+
+    **Format:** 3 days in-person training (9:00–17:00 CEST)
+  trainers:
+    - lukaszpauszek
+  topics:
+    - elixir
+    - otp
+
+- title: "Practical Testing with Elixir (and Phoenix)"
+  slug: "practical-testing-with-elixir-and-phoenix"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2024-10-16"
+  end_date: "2024-10-16"
+  venue_slug: estrel-berlin
+  description: |
+    This tutorial teaches a practical testing approach which maximizes the value you can get out of your tests in real-life collaborative Elixir projects.
+
+    You'll learn how to increase the confidence in your tests, organically maximize coverage, and improve the test clarity. This is going to be a very interactive and hands-on session involving a lot of coding and discussions. You'll be writing tests for a Phoenix-powered Elixir web server, so it is expected you are familiar with Elixir, Phoenix, and Ecto.
+
+    **Format:** 1 day in-person training (9:00–17:00 CEST)
+  trainers:
+    - sasajuric
+  topics:
+    - elixir
+    - phoenix
+    - testing

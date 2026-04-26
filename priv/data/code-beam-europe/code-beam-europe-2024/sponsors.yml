@@ -1,0 +1,31 @@
+- name: "Diversity & Inclusion Sponsor"
+  level: 1
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "aeternity"
+    - slug: "cloudamqp"
+    - slug: "seventh-state"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "emqx"
+    - slug: "grisp"
+
+- name: "Student Tickets Sponsor"
+  level: 4
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Community Partners"
+  level: 5
+  sponsors:
+    - slug: "erlang-elixir-krakow"
+    - slug: "elixir-vienna"
+    - slug: "elixir-berlin"
+    - slug: "erlang-elixir-budapest"
+    - slug: "elixir-tallinn"

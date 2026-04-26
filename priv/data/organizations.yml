@@ -419,3 +419,27 @@
   website: "https://germantechjobs.de"
   logo_url: "https://codebeameurope.com/assets/images/sponsors/gtj-rectangle.png"
   description: "Job board focused on tech roles in Germany."
+
+- name: "CloudAMQP"
+  slug: "cloudamqp"
+  website: "https://www.cloudamqp.com"
+  logo_url: "https://codebeameurope.com/assets/images/sponsors/CloudAMQP-300.png"
+  description: "Hosted RabbitMQ as a service."
+
+- name: "Seventh State"
+  slug: "seventh-state"
+  website: "https://seventhstate.io"
+  logo_url: "https://codebeameurope.com/assets/images/sponsors/7S_PORT.Primary%20%281%29.png"
+  description: "Modular, distributed, and scalable infrastructure built on the BEAM."
+
+- name: "EMQX"
+  slug: "emqx"
+  website: "https://www.emqx.io"
+  logo_url: "https://codebeameurope.com/assets/images/sponsors/emq-525.png"
+  description: "Open-source, distributed MQTT broker for IoT, built in Erlang."
+
+- name: "Grisp"
+  slug: "grisp"
+  website: "https://www.grisp.org"
+  logo_url: "https://codebeameurope.com/assets/images/sponsors/grisp-peer-320x180.png"
+  description: "Open-source IoT platform running Erlang directly on bare-metal hardware."
