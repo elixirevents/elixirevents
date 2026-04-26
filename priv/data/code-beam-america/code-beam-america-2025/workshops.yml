@@ -1,0 +1,31 @@
+- title: "Supercharge Your Elixir Apps with Ash"
+  slug: "supercharge-your-elixir-apps-with-ash"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2025-03-05"
+  end_date: "2025-03-05"
+  venue_slug: marines-memorial-club
+  description: |
+    Ash Framework is a refreshingly different way to craft efficient and maintainable Elixir applications. In this hands-on, interactive course, dive deep into Ash's capabilities, exploring how it can streamline your development process and enhance your application's architecture.
+
+    **Format:** In-person full-day tutorial
+
+    Throughout the class, build a real-world application from the ground up leveraging Ash's unique features. Learn to design and implement resources, craft actions that encapsulate your core business logic, and seamlessly integrate APIs and UIs. Also covers advanced topics like custom extensions and strategies for incremental adoption in existing projects.
+
+    Tutorial objectives — by the end of this course, you'll have gained practical experience in:
+
+    - Using Igniter to rapidly scaffold your Ash applications
+    - Structuring your Elixir projects with Ash for maximum maintainability
+    - Designing flexible and powerful resources that model your domain effectively
+    - Implementing actions that encapsulate complex business logic cleanly
+    - Rapidly generating APIs and UIs driven from your Ash resources
+    - Extending Ash to fit your specific project needs
+    - Adopting Ash incrementally in existing applications
+
+    **Prerequisites:** Basic Elixir skills. Need a laptop with Elixir, OTP, an editor, Git, and Postgres.
+  trainers:
+    - joshprice
+  topics:
+    - elixir
+    - ash
+    - phoenix

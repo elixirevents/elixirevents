@@ -1,0 +1,15 @@
+name: "Code BEAM America 2025"
+slug: "code-beam-america-2025"
+venue_slug: "marines-memorial-club"
+kind: conference
+status: completed
+format: hybrid
+start_date: "2025-03-06"
+end_date: "2025-03-07"
+timezone: "America/Los_Angeles"
+language: en
+location: "San Francisco, USA"
+website: "https://codebeamamerica.com/"
+color: "#3182CE"
+description: |
+  Code BEAM America 2025 — the Erlang and Elixir conference in San Francisco at the Marines' Memorial Club & Hotel, with a hybrid online + in-person format. Two days of talks across two tracks (Crystal Ballroom and Crystal Lounge on the 11th floor) covering LLMs and AI, fault-tolerant ML ops, Nerves, Ash, Gleam, distributed systems, and the socio-technical elements of good platforms.

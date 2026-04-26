@@ -1,0 +1,29 @@
+- name: "Global Community Support Sponsor"
+  level: 1
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Platinum Sponsor"
+  level: 2
+  sponsors:
+    - slug: "draftkings"
+
+- name: "Gold Sponsor"
+  level: 3
+  sponsors:
+    - slug: "smartrent"
+
+- name: "Lanyard Sponsor"
+  level: 4
+  sponsors:
+    - slug: "wyeworks"
+
+- name: "Student Tickets Sponsor"
+  level: 5
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Community Partners"
+  level: 6
+  sponsors:
+    - slug: "erlang-elixir-sf-meetup"
