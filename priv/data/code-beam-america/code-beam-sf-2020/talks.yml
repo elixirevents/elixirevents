@@ -1,0 +1,1464 @@
+## Talks
+
+  - title: "Old ideas made new"
+    slug: "old-ideas-made-new"
+    kind: keynote
+    language: en
+    duration: 40
+    abstract: |
+      Languages and ecosystems are more than simply syntax; they're ways of thinking. They have features, idioms, and community standards that drive us towards certain ways of doing things. Erlang is over 30 years old, and has a very mature way of doing things. Elixir came on the scene, bringing with it some new ideas from other ecosystems. We're seeing even more of this with BEAM languages from LFE to Alpaca to Erlog.
+
+      Ideas come in and out of fashion. Some of them are lost and aren't given a chance again. But as technology continues to evolve, perhaps there's space for what's old to be made new again! This talk will explore a few idea lost to time that perhaps have their chance to shine again. It asks what could languages would look like if history had gone slightly differently, and what depths we can plumb for the next 30 years and 50 languages on the BEAM.
+    speakers:
+      - brooklynzelenka
+    topics:
+      - erlang
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "DYtl42sjaZk"
+        url: "https://www.youtube.com/watch?v=DYtl42sjaZk"
+
+  - title: "Elixir ecosystem / Elixir core team updates"
+    slug: "elixir-ecosystem-elixir-core-team-updates"
+    kind: talk
+    language: en
+    duration: 21
+    abstract: |
+      What's new in the Elixir ecosystem? Also, updates on what the Elixir team has done in the last few months, what are the projects they're working on, what's going on on the research side, and what features will be in the next release.
+    speakers:
+      - michalmuskala
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "hi4Lckmp6wc"
+        url: "https://www.youtube.com/watch?v=hi4Lckmp6wc"
+
+  - title: "Customer retention and how to avoid double billing"
+    slug: "customer-retention-and-how-to-avoid-double-billing"
+    kind: talk
+    language: en
+    duration: 27
+    abstract: |
+      My talk will discuss several techniques to prevent double billing during the booking/checkout process. I'll start with simple relational datatabase techniques and work up to distributed CP, and AP implementations. I will also show how modeling a customer activity as an Elixir processes state provides an excellent means to ensure reliable ordere processing.
+
+      THIS TALK IN THREE WORDS
+
+      Transactions
+
+      Modelling
+
+      Transactions
+
+      OBJECTIVES
+
+      Demonstrate simple techniques to prevent double booking - two phase commit using RDBMS, Riak, and a strongly consistent distributed DB. Demonstrate the trade-offs and implementation details.
+
+      TARGET AUDIENCE
+
+      Elixir/Erlang developers who want to ensure their check-out process works correctly.
+    speakers:
+      - bryanhunt
+    topics:
+      - elixir
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "LjTboayxQ_U"
+        url: "https://www.youtube.com/watch?v=LjTboayxQ_U"
+
+  - title: "TLS the OTP way"
+    slug: "tls-the-otp-way"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      TLS-1.3 is a major upgrade of the TLS-1.2 protocol. A lot of legacy is thrown out and new mechanisms will replace old flawed ones. Most of the TLS handshake will be encrypted as opposed to earlier when most of the first handshake was in plain text and encryption started first when sending the final handshake confirmation message. TLS-1.3 also puts new requirements on TLS-1.2 to pave the way for migration. Supervisors, generic behaviours, logger, gb_trees, ets, queue models, maps, try catch, binaries, records how are they used and why.
+
+      THIS TALK IN THREE WORDS
+
+      Erlang/OTP
+
+      in
+
+      Action
+
+      OBJECTIVES
+
+      Spread good design principles with Erlang/OTP and security knowledge by sharing design decisions, trade-offs and optimisations that we have done implementing TLS (all versions from SSL 3.0 to TLS 1.3 but with the biggest focus on TLS-1.3) in Erlang.
+
+      TARGET AUDIENCE
+
+      People interested in using Erlang/OTP to its full potential, and also people interested in TLS-1.3 in particular and security in general.
+    speakers:
+      - ingelaandertonandin
+    topics:
+      - erlang
+      - security
+      - otp
+
+  - title: "PHP over Erlang: how and why?"
+    slug: "php-over-erlang-how-and-why"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Manuel started to develop this crazy idea back in 2013 when he was playing with PEG and Neotoma to parse another crazy idea to build a MySQL server simulator to access to Erlang and gather information (myproto). After the first try, Manuel realised that he can perform something, which with PHP could be impossible to do, like better resources control, real-time coverage or even use websockets. In 2016 Bragful project was created.
+
+      OBJECTIVES
+
+      Give the whole vision about what is Bragful and ephp and why it was created.
+
+      How to integrate into your projects in the way you can embed PHP code and what's next.
+
+      TARGET AUDIENCE
+
+      Developers, integrators, investors?
+    speakers:
+      - manuelrubio
+    topics:
+      - erlang
+      - libraries
+
+  - title: "Tactics and strategies for scalable robust intelligent systems"
+    slug: "tactics-and-strategies-for-scalable-robust-intelligent-systems"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      This talk is comprised of two parts: tactics and strategies.
+
+      First, tactics are discussed how to use Erlang and Elixir for implementing scalable robust concurrency as follows:
+
+      Minimizing latency in mailboxes
+      Implementing holes in a region of mutual exclusion
+      Performing cleanup in order to facilitate further progress
+
+      Second, strategies are presented how to implement universal reusable secure intelligent systems in this decade. Reusable Secure Intelligent Systems (RSIS) have the following characteristics:
+
+      Interactively acquire information from video, Web pages, hologlasses (electronic glasses with holographic-like overlays), online data bases, sensors, articles, human speech and gestures, etc
+      Real-time integration of massive pervasively inconsistent information
+      Close human interaction using hologlasses for interacting with the world and secure mobile communication
+      Self-informative in the sense of knowing its own goals, plans, history, provenance of its information and having relevant information about its own strengths and weaknesses
+      Teachable so that systems can interactively adapt in real time (instead of relying exclusively on passively attempting to find correlations among inputs)
+      Reusable enabling an intelligent system to be used by other intelligent systems without having to start over from scratch
+      Secure meaning that there are no easy ways to penetrate systems and/or deceive them into taking inappropriate actions
+      No closed-form algorithmic solution is possible to implement the above capabilities
+
+      China is racing to develop its own indigenous universal reusable secure intelligent systems as rapidly as possible.
+
+      Liftoff is a proposed project for education, science, and technology to implement universal Reusable Secure Intelligent Systems by 2030. Education will be crucial to the success of Project Liftoff because there is an enormous talent shortage.
+
+      THIS TALK IN THREE WORDS
+
+      Scalable
+
+      Robust
+
+      Intelligent Systems
+
+      OBJECTIVES
+
+      Explain how to use Erlang and Elixir to implement future scalable robust intelligent systems.
+
+      TARGET AUDIENCE
+
+      Researchers, executives, and software engineers interested in the future of scalable robust intelligent systems.
+    speakers:
+      - carlhewitt
+    topics:
+      - ai
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "PJ4X0l2298k"
+        url: "https://www.youtube.com/watch?v=PJ4X0l2298k"
+
+  - title: "IoT network connectivity"
+    slug: "iot-network-connectivity"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      You'd think we'd be able to take network connectivity for granted. IoT devices, in particular, are dependent on connectivity as functionality moved to the cloud. How do devices recover unattended? How do you reduce cost via multiple network technologies?
+
+      The Nerves project has a new open-source network configuration library for IoT devices called VintageNet. This talk introduces the project and describes how companies are using it for reliable connectivity via multi-homing, LTE-fallback, and mesh networking.
+
+      THIS TALK IN THREE WORDS
+
+      Nerves
+
+      Network
+
+      Reliability
+
+      OBJECTIVES
+
+      The talk's goals are to illustrate IoT network reliability issues and discuss ways of addressing them on embedded systems using Elixir and Nerves.
+
+      TARGET AUDIENCE
+
+      Nerves, embedded systems, and IoT developers and technologists.
+    speakers:
+      - frankhunleth
+    topics:
+      - embedded
+      - erlang
+      - elixir
+
+  - title: "Coding for global languages: Unicode, charsets, strings and binaries"
+    slug: "coding-for-global-languages-unicode-charsets-strings-and-binaries"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      Writing global software means our programs need to speak global human languages, but writing programs that work correctly with non-Western European languages is at best a confusing affair. UTF8, latin1, Unicode?
+
+      What do these terms mean and how are they related to one another?
+
+      And what does Erlang do?
+
+      This talk demystifies the terminology around character encoding, explains how to retrofit your Erlang program for Unicode using Datometry HyperQ as a case study, and gives some best practices to help you break the one-byte/one-character assumption.
+
+      THIS TALK IN THREE WORDS
+
+      Unicode
+
+      Character encoding
+
+      World languages
+
+      OBJECTIVES
+
+      Demystify character set encoding, unicode, and the related Erlang APIs.
+
+      TARGET AUDIENCE
+
+      Engineers developing software for global markets.
+    speakers:
+      - marcsugiyama
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "vavNU1lMhc0"
+        url: "https://www.youtube.com/watch?v=vavNU1lMhc0"
+
+  - title: "Let the garbage crash"
+    slug: "let-the-garbage-crash"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      Many techniques have been developed to proper and automatically manage memory. Such techniques seek to collect all possible unreachable data, keeping program pauses to a minimum. In this talk, we are going to talk about the main techniques for garbage collection and comparing the usage of them between Golang and Erlang. Let the garbage crash.
+    speakers:
+      - filipevarjao
+    topics:
+      - erlang
+
+  - title: "Large scale distributed video processing with OTP"
+    slug: "large-scale-distributed-video-processing-with-otp"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      Video processing is both CPU and IO heavy. When it comes to Tubi, where the system need to process thousands of hours each week, it became a quite big challenge.
+
+      The Tubi team has created a way of breaking a single video process job to hundreds of tasks and distributed different tasks to different nodes that live in the same cluster. The cluster is built on OTP, the resources (CPU and IO) used by each task on each node are properly managed. Each task is doing a tiny bit of the whole thing, the input of each task may come from the output the task, both tasks may be running in different nodes.
+
+      THIS TALK IN THREE WORDS
+
+      Video processing
+
+      OTP
+
+      OBJECTIVES
+
+      Share the system we built which connects video processing with OTP.
+
+      TARGET AUDIENCE
+
+      All Elixir/Erlang engineers and people who are into video related things.
+    speakers:
+      - haofeiwang
+    topics:
+      - erlang
+      - otp
+      - distribution
+
+  - title: "Riak KV 3.0: worth the wait?"
+    slug: "riak-kv-3-0-worth-the-wait"
+    kind: talk
+    language: en
+    duration: 30
+    abstract: |
+      A look at the new Riak KV 3.0 distributed NoSQL key-value store, how it compares to its predecessors and does the 4 version jump of OTP justify it being in your data center today?
+
+      THIS TALK IN THREE WORDS
+
+      Riak
+
+      Upgrade
+
+      OTP
+
+      OBJECTIVES
+
+      Increase industry awareness of Riak KV 3.0 and its improvements of both existing and upcoming features.
+
+      Touch on when you should and should not use Riak in your business.
+
+      TARGET AUDIENCE
+
+      People interested in key/value stores, existing Riak users, people interested in how updating OTP can affect the performance of software.
+    speakers:
+      - nicholasadams
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "0lkYIGSxJS0"
+        url: "https://www.youtube.com/watch?v=0lkYIGSxJS0"
+
+  - title: "BEAM and Kubernetes: Better together?"
+    slug: "beam-and-kubernetes-better-together"
+    kind: talk
+    language: en
+    duration: 44
+    abstract: |
+      Discuss overlapping scaling and reliability functionality in the Erlang VM and Kubernetes, and how they can be used together to provide application and system level fault tolerance.
+
+      THIS TALK IN THREE WORDS
+
+      Kubernetes
+
+      Scaling
+
+      Reliability
+
+      OBJECTIVES
+
+      Introduce advanced Kubernetes topics for running BEAM workloads.
+
+      TARGET AUDIENCE
+
+      Erlang and Elixir developers interested in deploying on Kubernetes
+    speakers:
+      - coryodaniel
+    topics:
+      - elixir
+      - kubernetes
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "Nv6GfEGv0kc"
+        url: "https://www.youtube.com/watch?v=Nv6GfEGv0kc"
+
+  - title: "Rustling up predictive sporting betting models on the BEAM"
+    slug: "rustling-up-predictive-sporting-betting-models-on-the-beam"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Rustler is a library that makes easy to bind Rust code to the BEAM as a NIF. At SimpleBet, David and his team took that to the next level by implementing our machine learning models in Rust as an application-level NIF. Affectionately referred to as the Dream Stack, they've used this approach to build a system that generates the odds of every plate appearance outcome at a baseball game. While it worked well to start, they are now migrating to a service-based approach instead.
+
+      THIS TALK IN THREE WORDS
+
+      Very
+
+      Big
+
+      NIF
+
+      OBJECTIVES
+
+      Teach the audience how/why to write NIFs using Rustler
+      Demonstrate SimpleBet's approach to using NIFs and how we took it too far
+      Explain why that approach will no longer work well for SimpleBet and why moving to a service-based approach, while slower, aligns much better with our company goals
+
+      TARGET AUDIENCE
+
+      The audience for this talk are those who are interested in Rust and machine-learning, but most importantly, those who want to learn from about an architecture that worked really well until it didn't, and how to migrate away from that type of situation.
+    speakers:
+      - davidlucia
+    topics:
+      - elixir
+      - rust
+
+  - title: "Diffing Hex packages"
+    slug: "diffing-hex-packages"
+    kind: talk
+    language: en
+    duration: 35
+    abstract: |
+      The tech industry is extremely dependent on open source packages. But every dependency you rely on is also a vulnerability. Multiple high profile packages across platforms have been hijacked and modified with malicious code.
+
+      This talk is about the value of auditing dependency updates and the tooling to make it less of a chore, including the introduction of a web-based diffing app and other tooling that helps you create an effortless auditing process.
+
+      THIS TALK IN THREE WORDS
+
+      Security
+
+      Dependencies
+
+      Hex
+
+      OBJECTIVES
+
+      Spread awareness about dependency management, and the importance of auditing code. Johanna will also discuss how tooling can make this less of a chore. Security should be easy.
+
+      TARGET AUDIENCE
+
+      Anyone who works with software.
+    speakers:
+      - johannalarsson
+    topics:
+      - elixir
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "idef8OJHjRA"
+        url: "https://www.youtube.com/watch?v=idef8OJHjRA"
+
+  - title: "Off BEAM: Secure software development"
+    slug: "off-beam-secure-software-development"
+    kind: talk
+    language: en
+    duration: 28
+    abstract: |
+      The BEAM platform lets us develop uniquely robust systems for mission critical applications. But in the presence of malicious users, even a BEAM application is only as strong as its weakest link.
+
+      In this talk Bram will look at best practices for secure coding specifically for the BEAM ecosystem. He will cover Erlang, Elixir and several popular 3rd party frameworks and libraries.
+
+      THIS TALK IN THREE WORDS
+
+      BEAM
+
+      Security
+
+      Practices
+
+      OBJECTIVES
+
+      Help people identify potential weaknesses in their applications early in the product lifecycle and offer actionable advice.
+
+      TARGET AUDIENCE
+
+      Anyone developing applications that may be subject to malicious users or random attacks.
+    speakers:
+      - bramverburg
+    topics:
+      - erlang
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "7_FIhBkmp0w"
+        url: "https://www.youtube.com/watch?v=7_FIhBkmp0w"
+
+  - title: "LiveView of Evolution"
+    slug: "liveview-of-evolution"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      It's alive! Well, a simulation of life at least but how will we keep our eyes on the process? What happens as our processes feed and reproduce? What genetic algorithms & instincts drive our population? What happens when we introduce a virus? Too soon? It's all apart of the evolutionary process as we watch our processes feed and reproduce right before us. This talk will cover Phoenix LiveView, genetic algorithms, and how we use OTP to tie it all together so come along and watch as this complex world unfolds live!
+
+      THIS TALK IN THREE WORDS
+
+      Cool
+
+      Process
+
+      Tricks
+
+      OBJECTIVES
+
+      Introduce LiveView to monitor processes
+
+      TARGET AUDIENCE
+
+      Everyone interested in LiveView & simulation with processes
+    speakers:
+      - johnnywinn
+    topics:
+      - elixir
+      - liveview
+
+  - title: "Docker Images a la carte with Elixir and RabbitMQ"
+    slug: "docker-images-a-la-carte-with-elixir-and-rabbitmq"
+    kind: talk
+    language: en
+    duration: 32
+    abstract: |
+      Let's build a distributed continuous release pipeline for external dependencies using Elixir, RabbitMQ and Docker Remote API.
+    speakers:
+      - simonescobarbenitez
+    topics:
+      - elixir
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "IyxPLy2olH0"
+        url: "https://www.youtube.com/watch?v=IyxPLy2olH0"
+
+  - title: "Playing with Lambda Calculus"
+    slug: "playing-with-lambda-calculus"
+    kind: talk
+    language: en
+    duration: 18
+    abstract: |
+      We all learn a lot about Turing Machines and why it is an important model and its correlation to the microprocessors we have today. However, not everyone learns about another important model: Lambda Calculus. We'll learn a little bit about simple untyped lambda calculus, implement some data structures using only functions (no other Elixir data type) and hopefully have some fun.
+
+      THIS TALK IN THREE WORDS
+
+      Lambda
+
+      Calculus
+
+      Reduction
+
+      OBJECTIVES
+
+      Beginner developers will have an idea of what lambda calculus is and how it works.
+      Advanced developers will understand the optimal reduction algorithm.
+      Everyone will develop some interest for interaction combinators and optimal lambda reduction (hype them a little bit, to be honest).
+
+      TARGET AUDIENCE
+
+      People who have an interest for theory of computation and functional programming in general.
+    speakers:
+      - bernardoamorim
+    topics:
+      - functional-programming
+    recordings:
+      - provider: youtube
+        external_id: "yN5CbEtTwhQ"
+        url: "https://www.youtube.com/watch?v=yN5CbEtTwhQ"
+
+  - title: "Your Erlang graph fix"
+    slug: "your-erlang-graph-fix"
+    kind: talk
+    language: en
+    duration: 28
+    abstract: |
+      If you take the word graph out of graphic, all you have is 'ick'.
+
+      For even a savvy Erlanger, becoming proficient with our digraph libraries can be a mountainous trek. Mentally traversing data sets is arduous, especially when one keystroke slip can sink it all down a ravine. This talk's aim is to be a source of guidance that breaks the cycle. By the end, you'll be armed with methods & visualization techniques. The path up to the vertex of the mountain will be filled with fewer edges than you thought.
+
+      THIS TALK IN THREE WORDS
+
+      Connecting
+
+      the
+
+      Dots
+
+      OBJECTIVES
+
+      Hand-out edited libraries.
+      Review the functionality provided by the standard library
+      Furnish tools for safe graph creation in the shell
+      Sink our teeth into the art of wxErlang Graph visualization techniques
+      Provide the community with the legendary A*(AStar) search algorithm
+
+      TARGET AUDIENCE
+
+      Any level of Erlanger interested in the digraph libraries
+      But especially beginners who have had frustration with digraphs
+      Overall, anyone interested in beam data visualization through digraphs
+    speakers:
+      - robertcarbone
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "WCn5KZm3EN8"
+        url: "https://www.youtube.com/watch?v=WCn5KZm3EN8"
+
+  - title: "Think in Erlang!"
+    slug: "think-in-erlang"
+    kind: talk
+    language: en
+    duration: 21
+    abstract: |
+      Have you ever felt that a solution is too complicated?
+
+      In this talk you are going to learn a universal recipe that you can use everyday to provide simple solutions to complex problems. We start with the philosophy of Erlang and learn its key messages. Then we study how these core thoughts are baked into Erlang/OTP, and why they help. Then we are going to see how Cisco NSO engineers created a patented algorithm to solve a complex problem: orchestrating network services. Yes, using the same recipe!
+
+      OBJECTIVES
+
+      Learn a new problem solving method.
+      Attendees will be able to look at problems from a different angle. Since they will not only code but think in Erlang, they will be able to propose simple solutions to complex problems.
+
+      TARGET AUDIENCE
+
+      Problem solvers
+    speakers:
+      - viktoriafordos
+    topics:
+      - erlang
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "bYkOsQU2ywM"
+        url: "https://www.youtube.com/watch?v=bYkOsQU2ywM"
+
+  - title: "Bring on the worker bees: Designing Elixir systems with OTP"
+    slug: "bring-on-the-worker-bees-designing-elixir-systems-with-otp"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      If you want to be a great Elixir developer, you need to learn to build your programs in layers, the way the experts do. In this session, we will explore the advice:
+
+      Do fun things with big, loud worker bees.
+
+      This sentence, from the bestselling Elixir book Designing Elixir Systems with OTP, is a mental mnemonic that stands for Data, Functions, Tests; Boundaries, Lifecycles and Workers.
+
+      We'll talk about each of these layers in detail focusing on the role of each independent layer in a self-healing, performant Elixir program
+
+      THIS TALK IN THREE WORDS
+
+      OTP
+
+      Design
+
+      Layers
+
+      OBJECTIVES
+
+      Understand basic tradeoffs for datatypes in Elixir
+      Learn typical layers for an application design in Elixir
+      Understand core OTP design principles
+    speakers:
+      - brucetate
+    topics:
+      - elixir
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "l7JyG1eti5A"
+        url: "https://www.youtube.com/watch?v=l7JyG1eti5A"
+
+  - title: "Monkey, take the wheel"
+    slug: "monkey-take-the-wheel"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      The talk briefly explains Daniel Kahneman's fast and slow thinkers concept, where every person can operate in easy-going and cheap mode, making mistakes and enjoying the distractions, while harder tasks require switching to slow and expensive thinker mode where the smart decisions and judgements can be made, at the cost of getting tired real quick.
+
+      The talk goes in detail how it is beneficial to accept your human nature, prone to errors, and instead trust your Erlang & Elixir language, available tools, and tests more than you would trust yourself.
+
+      Letting your inner monkey drive the development and allowing it to make mistakes on the way is an acceptable and winning strategy. Highlighting the importance of human in, sometimes idealized, world of the software development, while the human is prone to errors.
+
+      THIS TALK IN THREE WORDS
+
+      Human
+
+      Trust
+
+      Monkey
+
+      OBJECTIVES
+
+      Highlighting the role of human nature prone to errors in software development and how the available tools and programming techniques can mitigate these risks allowing to get more reliable results.
+
+      TARGET AUDIENCE
+
+      Software developers
+    speakers:
+      - dmytrolytovchenko
+    topics:
+      - erlang
+      - elixir
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "12tQzMMBz1U"
+        url: "https://www.youtube.com/watch?v=12tQzMMBz1U"
+
+  - title: "Building a realtime WebSocket API in Phoenix"
+    slug: "building-a-realtime-websocket-api-in-phoenix"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Sometimes consumers of your APIs require near-real-time communication because regular RESTful HTTP APIs can be a few milliseconds too slow. These performant and scalable APIs can be made over WebSocket TCP connections where events are pushed from client and server in near-real-time fashion.
+
+      This talk is a story of how Jamie built such an API. He'll look at why this decision to create a WebSocket API was made and will take a look at the data that supported this decision. Jamie will take a deep dive into Phoenix WebSockets, channels, and transports to expose the underlying architecture.
+
+      THIS TALK IN THREE WORDS
+
+      Learn
+
+      WebSocket
+
+      APIs
+
+      OBJECTIVES
+
+      The goal of this talk is to distil the information Jamie has found over the past year of building a real-time websocket API in Elixir to help save the attendees time and resources and also inspire them or give them the motivation to build these types of APIs.
+
+      TARGET AUDIENCE
+
+      Any Elixir developer, from a beginner on up, who is looking to build real time websocket APIs.
+    speakers:
+      - jamiewright
+    topics:
+      - elixir
+      - phoenix
+
+  - title: "Updates from the Erlang Ecosystem Foundation working groups"
+    slug: "updates-from-the-erlang-ecosystem-foundation-working-groups"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+
+    speakers:
+      - francescocesarini
+    topics:
+      - community
+      - erlang
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "GSXp6mvVbWI"
+        url: "https://www.youtube.com/watch?v=GSXp6mvVbWI"
+
+  - title: "BEAM on the edge: Innovation through problem solving"
+    slug: "beam-on-the-edge-innovation-through-problem-solving"
+    kind: keynote
+    language: en
+    duration: 39
+    abstract: |
+      "BEAM on the Edge” explores designing innovative solutions under ambiguous circumstances. Robert Virding discusses how the core Erlang team took a different path from the rest of the software world in the design and reason of the BEAM itself. Frank Hunleth describes the burgeoning world of IoT, problems that the BEAM is well suited to solve, and now Nerves makes those solutions a reality. Frank Savage takes us to the world of functional GUI, why http isn’t appropriate to solve all problems and how Scenic uses the BEAM to explore solutions in this space.
+    speakers:
+      - frankhunleth
+      - robertvirding
+    topics:
+      - erlang
+      - elixir
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "bkLABs04k5o"
+        url: "https://www.youtube.com/watch?v=bkLABs04k5o"
+
+  - title: "OTP Team update"
+    slug: "otp-team-update"
+    kind: talk
+    language: en
+    duration: 12
+    abstract: |
+      Updates on what the OTP team has done in the last few months, what are the projects they're working on, and what's going on on the research side.
+    speakers:
+      - peterdimitrov
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "RHXs3JLg6C4"
+        url: "https://www.youtube.com/watch?v=RHXs3JLg6C4"
+
+  - title: "Making IoT safer with BEAM/OTP"
+    slug: "making-iot-safer-with-beam-otp"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      In this talk, Duncan will:
+
+      Explain the safety impact of cyber-physical systems in the Internet of things
+      Explain advantages of quantitative risk analysis for security decision making
+      Extol the advantages of "One Tough Platform" for developing secure software
+      Present pitfalls to avoid and best practices to follow
+      Evangelize OTP for cybersecurity and cyber-physical safety and
+      Demonstrate open-source on a Raspberry Pi showing how future IoT will adapt to threats in real-time
+
+      THIS TALK IN THREE WORDS
+
+      IoT
+
+      Safety
+
+      Cybersecurity
+
+      OBJECTIVES
+
+      The audience should leave with:
+
+      Awareness of the safety impact of cyber-physical systems in the Internet of Things,
+      Understanding why OTP is great for cybersecurity and cyber-physical safety, and
+      Where to find open source projects on how future IoT will adapt to threats in real-time.
+
+      TARGET AUDIENCE
+
+      IoT developers, cybersecurity engineers, hackers
+    speakers:
+      - duncansparrell
+    topics:
+      - erlang
+      - otp
+      - embedded
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "ddWxBJFbuxI"
+        url: "https://www.youtube.com/watch?v=ddWxBJFbuxI"
+
+  - title: "Building a solar powered weather station with Nerves"
+    slug: "building-a-solar-powered-weather-station-with-nerves"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      If you aren't familiar with the Nerves tooling system, or haven't used it yet, then this talk will show you how easy it is to write Elixir code for your tiny Linux powered devices (Raspberry Pi, Beaglebone).
+
+      You will briefly hear about the GPIO and I2C protocol and how you write code to program with them using the Elixir Circuits Libraries.
+
+      Finally John will share how easy it is to build a solar panel to charge a battery to keep a Nerves powered system running 24/7.
+
+      THIS TALK IN THREE WORDS
+
+      Nerves
+
+      IoT
+
+      Elixir
+
+      OBJECTIVES
+
+      How begineers (of which John is) can easily use Nerves to build simple IoT projects
+
+      TARGET AUDIENCE
+
+      Elixir developers who haven't used Nerves, Developers who have IoT and/or BEAM experience but aren't familiar with Nerves
+    speakers:
+      - johnoxford
+    topics:
+      - elixir
+      - embedded
+      - nerves
+
+  - title: "Erlang is getting pretty!"
+    slug: "erlang-is-getting-pretty"
+    kind: talk
+    language: en
+    duration: 33
+    abstract: |
+      How much time did you spend today reading code? How many times did you have to look harder because of how the code looked?
+
+      Maintaining a clear and consistent code style is hard: manual inspections often leads to endless bikeshedding and linters add noticeable overhead to the workflow. Many languages solved this issue through automated code formatters - Go, Rust, Elixir, Elm among many others. And now, thanks to the new erlfmt tool, Erlang is getting pretty as well!
+
+      Come to this session to learn more about erlfmt - how it works and how it can help your team.
+
+      THIS TALK IN THREE WORDS
+
+      Erlang
+
+      Tooling
+
+      Developer experience
+
+      OBJECTIVES
+
+      Introduce the audience to the concept of algebra-based pretty printing
+      Explain how an automated code formatter can streamline developer experience for teams and in open source
+
+      TARGET AUDIENCE
+
+      Erlang programmers of all levels
+    speakers:
+      - michalmuskala
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "TC2F2HBNRuA"
+        url: "https://www.youtube.com/watch?v=TC2F2HBNRuA"
+
+  - title: "Building a IDE, compiler and runtime for a graphical distributed data flow language in Erlang"
+    slug: "building-a-ide-compiler-and-runtime-for-a-graphical-distributed-data-flow-language-in-erlang"
+    kind: talk
+    language: en
+    duration: 44
+    abstract: |
+      Control systems have their own programming languages and paradigms. Progammable Logo Controllers (PLCs) are used to control everything from a garage door opener to a whole factory. We have built a compiler for a distributed variant of PLC programming language (IEC 61499) that compiles to BEAM files which run in Erlang VMs. As a web frontend to a Erlang node we built a IDE for the textual and graphical representation. PLC programme run distributed from small embedded systems to the cloud unchanged.
+
+      THIS TALK IN THREE WORDS
+
+      IoT
+
+      PLC
+
+      IDE
+
+      OBJECTIVES
+
+      Show how a complete graphical IDE, compiler and runtime can be built with Erlang and run in a small embedded system.
+
+      TARGET AUDIENCE
+
+      Elixir and Erlang devs interested in web based IDE's, PLCs and IoT
+    speakers:
+      - barbarachassoul
+      - peerstritzinger
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "MYYfLNpFyZ4"
+        url: "https://www.youtube.com/watch?v=MYYfLNpFyZ4"
+
+  - title: "KAZOO the VOIP cloud platform: a retrospective"
+    slug: "kazoo-the-voip-cloud-platform-a-retrospective"
+    kind: talk
+    language: en
+    duration: 53
+    abstract: |
+      KAZOO has, over the last 10 years, grown to almost 300K lines of Erlang, plus C-node code in the FreeSWITCH and custom code in the Kamailio project.
+
+      We'll talk about:
+
+      Growing the open-source community
+      Erlang in anger
+      Operational lessons learned
+      Tooling to support developers, community
+      Making major architectural changes
+      Building closed-source applications on top of an open-source base
+
+      THIS TALK IN THREE WORDS
+
+      Learning
+
+      By
+
+      Doing
+
+      OBJECTIVES
+
+      The objective is to share war stories, failures and how we grew from them, engaging a growing community, making money from open source, and just talk about what it has been like working on a long-lived open source project in Erlang.
+
+      TARGET AUDIENCE
+
+      Most folks will get something out of it.
+    speakers:
+      - jamesaimonetti
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "vhtnijlfkjY"
+        url: "https://www.youtube.com/watch?v=vhtnijlfkjY"
+
+  - title: "Observability for Elixir microservices"
+    slug: "observability-for-elixir-microservices"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      This talk provides a high-level overview of observability at Brex for our microservice architecture in Elixir. In particular, it details the custom libraries and frameworks we use as core primitives to best understand how our systems behave, as well as the tooling we use to surface metrics, logs and traces to developers.
+
+      THIS TALK IN THREE WORDS
+
+      Observability
+
+      Elixir
+
+      Fintech
+
+      OBJECTIVES
+
+      The objective of this talk is to provide an overview of how we think about observability at Brex, as well as the challenges we faced and lessons we learned from building a robust observability stack for Elixir microservices.
+
+      TARGET AUDIENCE
+
+      Elixir Enthusiasts, Observability Engineers, Backend Engineers
+    speakers:
+      - thomascesareherriau
+      - vamsichitters
+    topics:
+      - elixir
+      - observability
+      - microservices
+
+  - title: "Pivot! How to handle change"
+    slug: "pivot-how-to-handle-change"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      Change is a natural part of the development process, however, many of us experience pain when we need to pivot. Whether at an organisation level or within a development feature, change can feel overwhelming.
+
+      Anna will discuss how to make change less painful through functional programming. She will also uncover foundational tools to help developers deal with change and maximize their growth through the process.
+
+      This talk has benefits for both seasoned and new functional developers.
+
+      THIS TALK IN THREE WORDS
+
+      Pain-relieving
+
+      Functional
+
+      Flexibility
+
+      OBJECTIVES
+
+      Lessen the cognitive and emotional pain developers feel when undergoing change by demonstrating the benefits functional programming practices can have on mitigating that pain.
+
+      TARGET AUDIENCE
+
+      This talk is applicable to just about everyone. People interested in functional programming will understand more of its benefits. Seasoned developers will gain foundational tools for when they are confronted with change.
+    speakers:
+      - annasherman
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "XgOJQAK6iHI"
+        url: "https://www.youtube.com/watch?v=XgOJQAK6iHI"
+
+  - title: "Instrumenting and monitoring stateless Erlang today"
+    slug: "instrumenting-and-monitoring-stateless-erlang-today"
+    kind: talk
+    language: en
+    duration: 18
+    abstract: |
+      The tools we use to monitor and instrument Erlang deployments have changed rapidly. One of the difficulties many developers and managers have shared is a lack of good monitoring and instrumentation for Erlang.
+
+      In this talk, Markus will talk about a journey towards a standardised stack of tools for monitoring and instrumentation for stateless Erlang deployments.
+
+      Are you facing questions about whether your DB, application logic or networking is creating latency?
+
+      Are you wondering how many requests you getting and which requests take the longest?
+
+      THIS TALK IN THREE WORDS
+
+      Instrumentation
+
+      Monitoring
+
+      Erlang
+
+      OBJECTIVES
+
+      To suggest a number of libraries and tools which are available to Erlang developers which provide good support for monitoring and instrumentation.
+
+      TARGET AUDIENCE
+
+      Erlang developers or those considering building systems in Erlang.
+    speakers:
+      - markusfeyh
+    topics:
+      - erlang
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "EPEccOaK5z4"
+        url: "https://www.youtube.com/watch?v=EPEccOaK5z4"
+
+  - title: "Levelling up at Bleacher Report: A cautionary tale"
+    slug: "levelling-up-at-bleacher-report-a-cautionary-tale"
+    kind: talk
+    language: en
+    duration: 23
+    abstract: |
+      Elixir helped Bleacher Report grow from a scrappy startup to a household name. We saw gains just by introducing this new tool but to go further we need to learn how to master it. For self-taught programmers like myself that has meant learning some basic computer science. I will show how I applied data structures to get more out of Elixir. I'll also talk about some of the traps we left for ourselves as we were learning - and the horror of my experience breaking an app used by 3.7 million people.
+
+      THIS TALK IN THREE WORDS
+
+      Linked-lists
+
+      Trees
+
+      Disaster
+
+      OBJECTIVES
+
+      Peter will show how some basic algorithms usually taught in object-oriented languages can be applied in Elixir, with real-world examples of how doing so can improve application performance. He will also highlight some of the issues that people should be aware of when modifying complex production systems.
+
+      TARGET AUDIENCE
+
+      Anyone who enjoyed (or attended) an introduction to data structures course will be comfortable with the material here. The cautionary tales will be relevant to anyone who works on a web application that's too large to be understood by everyone on the team.
+    speakers:
+      - peterhastie
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "P4SzZCwB8B4"
+        url: "https://www.youtube.com/watch?v=P4SzZCwB8B4"
+
+  - title: "GeoRacer: Building a real-time multiplayer mobile game in Elixir in 6 weeks"
+    slug: "georacer-building-a-real-time-multiplayer-mobile-game-in-elixir-in-6-weeks"
+    kind: talk
+    language: en
+    duration: 43
+    abstract: |
+      Phoenix Phrenzy was an app building competition to show off a brand-new feature in the Phoenix web framework called LiveView. LiveView allows developers to build dynamic, real-time web interfaces using only Elixir. Our team wanted to push the boundaries of LiveView, so we built a geo-location based racing game we called GeoRacer and were delighted when our app won. In this session, we'll share the story of building GeoRacer and show how LiveView can give you web app building super powers.
+
+      THIS TALK IN THREE WORDS
+
+      Elixir
+
+      LiveView
+
+      Real-Time
+
+      OBJECTIVES
+
+      Show how we leverage Phoenix and LiveView to build a rich native app experience
+      Demonstrate the power and performance LiveView in building real-time interactions
+      Explore what we learn from building Geo Racer and how we hope to use LiveView in the future
+
+      TARGET AUDIENCE
+
+      Elixir/Erlang developers wanting to build web or mobile apps without needing a JS framework
+    speakers:
+      - beauheubach
+      - zackkayser
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "5DGUqcd-HWQ"
+        url: "https://www.youtube.com/watch?v=5DGUqcd-HWQ"
+
+  - title: "Jedi vs clone troopers - a Star Wars themed comparison of the BEAM and rails concurrency models and how it affects web app scalability"
+    slug: "jedi-vs-clone-troopers-a-star-wars-themed-comparison-of-the-beam-and-rails-concurrency-models-and-how-it-affects-web-app-scalability"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      What makes the BEAM special? How does the BEAM process model let engineers think differently about web app servers than other languages? This talk will compare and contrast the different concurrency models found in today's popular web application servers using Star Wars metaphors.
+
+      Walk away being able to discuss the strengths and weaknesses of different approaches to concurrency found in modern web servers and gain a new appreciation for why the BEAM is a good fit for building many types of web apps.
+
+      THIS TALK IN THREE WORDS
+
+      Funny
+
+      Informative
+
+      Thought-provoking
+
+      OBJECTIVES
+
+      Viewers should be able to articulate why the BEAM is a good fit for the internet. This talk aims to provide viewers with the information they need to confidently compare and contrast the performance tradeoffs of some of the most popular options in developing web applications.
+
+      TARGET AUDIENCE
+
+      Web developers who are familiar with either the BEAM or other web application frameworks/platforms/languages. Ruby/Rails, NodeJS, Django etc. This talk is very accessible to beginners, while also being interesting to more advanced BEAM developers.
+    speakers:
+      - grantpowell
+    topics:
+      - erlang
+
+  - title: "Unique resiliency of the Erlang VM, the BEAM and Erlang OTP"
+    slug: "unique-resiliency-of-the-erlang-vm-the-beam-and-erlang-otp"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Demonstrate how unique features of the BEAM, Bogdan's/Bjorn's Erlang Abstract Machine, in combination with Eralng OTP can take your company's servers to the next level of resiliency and robustness. Irina will be doing some very cool demos (github repo revealed after the talk) and analyzing some key differences between the BEAM and JVM. Hopefully, JVM specialists will learn some interesting stuff not just about the BEAM but also about the JVM.
+
+      THIS TALK IN THREE WORDS
+
+      Unique
+
+      Powers of the
+
+      BEAM
+
+      OBJECTIVES
+
+      deep dive into key differences between two VMs: BEAM and JVM to show where BEAM shines in achieving robust and resilient systems.There will be a coding demo throughout the entire talk.
+
+      TARGET AUDIENCE
+
+      Should be interesting for anyone familiar with programming and VMs.Suitable for newbies, but should be interesting for advanced Erlang developers too.
+    speakers:
+      - irinaguberman
+    topics:
+      - erlang
+      - concurrency
+
+  - title: "Elixir vs Scala"
+    slug: "elixir-vs-scala"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Both Scala and Elixir take advantage of functional programming concepts and provide the right tools for building highly concurrent, scalable and distributed systems.
+
+      One can wonder which of the two is a better choice for a certain use case, especially when it comes to compute-intensive tasks - like machine learning algorithms.
+
+      As engineers, we prefer concrete numbers to all the buzzwords, so we load tested a simple pattern recognition app implemented in both technologies. Join our talk to see the results!
+
+      THIS TALK IN THREE WORDS
+
+      #Elixir
+
+      #Scala
+
+      #Optimization
+
+      OBJECTIVES
+
+      1. Give a clue of use cases of both Scala and Elixir technologies.
+
+      2. Present optimization process and methods for Erlang/Elixir applications.
+
+      TARGET AUDIENCE
+
+      Mainly Erlang/Elixir enthusiasts/developers but everyone interested in programming will benefit.
+    speakers:
+      - ludwikbukowski
+    topics:
+      - elixir
+      - scala
+
+  - title: "How Cisco is using Erlang for intent-based networking"
+    slug: "how-cisco-is-using-erlang-for-intent-based-networking"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Cisco is shipping 2 million devices per year with Erlang in them, thanks to its use of ConfD and NSO, products acquired by Cisco when they acquired the Swedish company Tail-F in 2014. This talk would introduce what NSO and CONFD are, how Erlang is used within them, as well as new products Cisco is building using Erlang ontop of NSO and ConfD
+
+      THIS TALK IN THREE WORDS
+
+      Strong
+
+      Typing
+
+      Propaganda
+
+      OBJECTIVES
+
+      Raise awareness that Cisco is using Erlang in key products in its portfolio, and new development and products are constantly being build using Erlang.
+
+      TARGET AUDIENCE
+
+      Anyone curios in how/why/if the big dinosaur companies in the Bay are using Erlang.
+    speakers:
+      - simonunge
+    topics:
+      - erlang
+
+  - title: "What are the best tools for browser testing? Click to find out"
+    slug: "what-are-the-best-tools-for-browser-testing-click-to-find-out"
+    kind: talk
+    language: en
+    duration: 31
+    abstract: |
+      Writing end-user tests helps us think critically about how our application functions in the real world, but browser testing is time-intensive. Vanessa will analyse two specific to Elixir: Wallaby & Hound by covering their history, identifying pitfalls, and anticipating their future. She'll look at similarities and differences and compare performance, concurrency, & asynchronicity. Vanessa will devise a strategy for choosing the best framework for you and how to use the time you save by giving back to the toolset.
+
+      THIS TALK IN THREE WORDS
+
+      Automated
+
+      Browser
+
+      Testing
+
+      OBJECTIVES
+
+      The talk objective is to dig deeply into the two available Elixir libraries for automated testing.
+
+      TARGET AUDIENCE
+
+      Beginner and Intermediate.
+    speakers:
+      - vanessalee
+    topics:
+      - elixir
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "fiX8haFqHPg"
+        url: "https://www.youtube.com/watch?v=fiX8haFqHPg"
+
+  - title: "From 5 to 1 and back: Ramping up by learning languages"
+    slug: "from-5-to-1-and-back-ramping-up-by-learning-languages"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      The Dreyfus Learning Model has a scale that ranges from beginner to mastery. If mastery is a 5 and beginner is a 1, the most critical skill of a programmer is the ability to learn. This talk will be roughly 1/3 code, and 2/3 describing why learning languages has made Bruce a better programmer, by looking at code examples beyond the BEAM.
+
+      THIS TALK IN THREE WORDS
+
+      Learning
+
+      Science
+
+      Languages
+
+      OBJECTIVES
+
+      Learn how the Dreyfus learning model works, and why it's important to us
+      Understand how other languages improves our ability to solve problems and learn
+      Get exposure to other languages you might want to learn
+    speakers:
+      - brucetate
+    topics:
+      - learning
+
+  - title: "The Yin and Yang of mutability"
+    slug: "the-yin-and-yang-of-mutability"
+    kind: talk
+    language: en
+    duration: 21
+    abstract: |
+      In the footsteps of Erik Stenman and Michal Muskala, let's explore another part of the BEAM VM. The two extremes of mutability: atomic counters and persistent terms were introduced without much ado, almost secretly in the patch release OTP 21.2. Via an example using them in an hdr histogram implementation, I'd like to explore their behaviour, caveats and limitations. And also show some benchmarks for scenarios when "you have to measure".
+
+      THIS TALK IN THREE WORDS
+
+      Mutability
+
+      OBJECTIVES
+
+      Insight into these two small but exciting features of the BEAM.
+
+      TARGET AUDIENCE
+
+      Everyone with a bit of interest in the BEAM.
+    speakers:
+      - petergomori
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "jG4tLBylsD4"
+        url: "https://www.youtube.com/watch?v=jG4tLBylsD4"
+
+  - title: "It's time to embrace Erlang"
+    slug: "it-s-time-to-embrace-erlang"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      For years we have treated Elixir as being the solution to Erlang syntax. It's time we embrace our BEAM roots and learn what we've been missing.
+
+      THIS TALK IN THREE WORDS
+
+      Learn
+
+      Erlang
+
+      Together
+
+      OBJECTIVES
+
+      The objective is to attract more Elixir-first developers into the Erlang side of our ecosystem.
+
+      TARGET AUDIENCE
+
+      Programmers whose first BEAM language is Elixir.
+    speakers:
+      - toddresudek
+    topics:
+      - erlang
+
+  - title: "Macros in Elixir: Responsible code generation"
+    slug: "macros-in-elixir-responsible-code-generation"
+    kind: talk
+    language: en
+    duration: 34
+    abstract: |
+      Macros are a powerful feature of the Elixir language. However, with great power comes great responsibility. In this talk we’ll explore how to leverage macros to reduce boilerplate, enforce best practices, and increase performance all while keeping code maintainable, readable, and idiomatic.
+
+      THIS TALK IN THREE WORDS
+
+      Interesting
+
+      Language
+
+      Usage/Tooling
+
+      OBJECTIVES
+
+      To shine light on a powerful feature of Elixir and give some guidelines on how to use it.
+
+      TARGET AUDIENCE
+
+      This talk will be accessible to those who haven’t used macros before but some knowledge of Elixir will be assumed.
+    speakers:
+      - lizziepaquette
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "55-X7rSw8M0"
+        url: "https://www.youtube.com/watch?v=55-X7rSw8M0"
+
+  - title: "(Un)Learning Elixir"
+    slug: "un-learning-elixir"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      Elixir is a well thought out language with a rapidly evolving ecosystem of libraries and tools. Few languages offer so many useful solutions across so many domains: web applications, embedded systems, distributed systems, just to name a few.
+
+      However with great power can come great heaping mounds of frustration. If you're new to Elixir... or coming back after giving up the first few times... it can be tough to figure out what to do and more importantly what _not_ to do.
+
+      In this talk we'll take a step back and rethink the way we think about our - er -thinking ;) Learning a functional quickly requires a different approach than picking up the latest dialect with C inspired syntax.
+
+      For developers new to Elixir, we'll help get you pointed in the right direction. For Rubyists thinking about dipping a toe (or diving) into the thread pool, we can help you identify those early-stage "gotchas" that keep Rubyists from making an easy transition into the Elixir ecosystem.
+
+      THIS TALK IN THREE WORDS
+
+      Learn
+
+      Elixir
+
+      Faster
+
+      OBJECTIVES
+
+      Give attendees the tools they need to lower the Elixir learning curve
+      Detail what's different about learning a functional language vs a procedural language and why it requires a different approach
+      How to learn Elixir (or any functional language) faster with less frustration
+
+      TARGET AUDIENCE
+
+      Those new to Elixir; those that are struggling to get better at Elixir
+    speakers:
+      - randallthomas
+    topics:
+      - elixir
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "63f8pdAxVaI"
+        url: "https://www.youtube.com/watch?v=63f8pdAxVaI"
+
+  - title: "Designing Change"
+    slug: "designing-change"
+    kind: keynote
+    language: en
+    duration: 48
+    abstract: |
+      The journey of a software developer is a climb through abstraction: algorithms, patterns, architecture....
+
+      How do we keep expanding scope, without losing focus on the real work?
+
+      Join us for a journey into the fourth dimension, where we don't just change code; we design change.
+    speakers:
+      - avdigrimm
+      - jessicakerr
+    topics:
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "26KypYl5lXA"
+        url: "https://www.youtube.com/watch?v=26KypYl5lXA"
