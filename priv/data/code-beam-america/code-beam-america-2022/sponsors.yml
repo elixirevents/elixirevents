@@ -1,0 +1,33 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "pepsico"
+    - slug: "erlang-solutions"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "emqx"
+    - slug: "teller"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "wyeworks"
+    - slug: "frame-io"
+
+- name: "Silver Sponsor"
+  level: 4
+  sponsors:
+    - slug: "smartrent"
+
+- name: "Student Ticket Sponsor"
+  level: 5
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Media Sponsors"
+  level: 6
+  sponsors:
+    - slug: "media-7"
+    - slug: "manning"

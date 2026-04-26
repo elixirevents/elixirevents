@@ -1,0 +1,15 @@
+name: "Code BEAM America 2022"
+slug: "code-beam-america-2022"
+venue_slug: "computer-history-museum"
+kind: conference
+status: completed
+format: hybrid
+start_date: "2022-11-03"
+end_date: "2022-11-04"
+timezone: "America/Los_Angeles"
+language: en
+location: "Mountain View, USA"
+website: "https://codebeamamerica.com/archives/CBA_2022/index.html"
+color: "#3182CE"
+description: |
+  Code BEAM America 2022 — the Erlang and Elixir conference returning in-person at the Computer History Museum in Mountain View, with a hybrid online + on-site format. Two days of talks across two tracks (Hahn Auditorium and Grand Hall) covering Nx, Nerves, LiveView, distributed Erlang, formal verification, and the future of the BEAM ecosystem.

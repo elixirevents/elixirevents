@@ -656,3 +656,15 @@
   website: "https://www.pagerduty.com"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/81f2c32dbe51aa2c9fb19680d2a83c10072cfa3e.png"
   description: "Digital operations management platform for incident response and on-call scheduling."
+
+- name: "Teller"
+  slug: "teller"
+  website: "https://teller.io"
+  logo_url: "https://codebeamamerica.com/assets/images/sponsors/Teller-logo.png"
+  description: "Banking API for engineers, providing direct connections to U.S. financial institutions."
+
+- name: "Media 7"
+  slug: "media-7"
+  website: "https://media7.com"
+  logo_url: "https://codebeamamerica.com/assets/images/Media%207-logo.png"
+  description: "B2B media platform for technology marketers and decision-makers."
