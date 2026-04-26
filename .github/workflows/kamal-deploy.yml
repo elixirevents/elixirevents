@@ -21,6 +21,28 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - run: gem install kamal -v "~> 2.0"
+
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Write Kamal secrets
+        run: |
+          mkdir -p .kamal
+          echo "${{ secrets.KAMAL_SECRETS }}" > .kamal/secrets
+
+      - name: Generate data sync manifest
+        env:
+          KAMAL_VERSION: ${{ github.sha }}
+        run: ./.kamal/hooks/pre-build
 
       - uses: docker/login-action@v3
         with:
