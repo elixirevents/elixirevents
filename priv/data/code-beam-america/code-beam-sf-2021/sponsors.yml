@@ -1,0 +1,33 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "slab"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "frame-io"
+
+- name: "Silver Sponsor"
+  level: 4
+  sponsors:
+    - slug: "smartrent"
+
+- name: "Students' Sponsor"
+  level: 5
+  sponsors:
+    - slug: "devxdao"
+
+- name: "Media"
+  level: 6
+  sponsors:
+    - slug: "elixir-radar"
+    - slug: "beam-radio"
+    - slug: "manning"
+    - slug: "binary-noggin"

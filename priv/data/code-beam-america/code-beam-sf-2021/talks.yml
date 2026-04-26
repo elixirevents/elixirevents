@@ -1,0 +1,870 @@
+## Talks
+
+  - title: "100 Years of Erlang"
+    slug: "100-years-of-erlang"
+    kind: keynote
+    language: en
+    duration: 41
+    abstract: |
+      While Erlang first became commercially available in 1990, the language boasts a rich history leading up to that point, and many of the ideas we consider to be unique to the ecosystem instead trace their lineage back to far older technologies.
+
+      Using that history as a guide, this talk attempts to recontextualize our present understanding of the language, so that we're able to look toward some of the futures that may lie ahead.
+    speakers:
+      - quinnwilton
+    topics:
+      - erlang
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "y8-9yZlye30"
+        url: "https://www.youtube.com/watch?v=y8-9yZlye30"
+
+  - title: "Ask me anything about OTP"
+    slug: "ask-me-anything-about-otp"
+    kind: talk
+    language: en
+    duration: 27
+    abstract: |
+      Short update from the OTP Team and then you will be able to ask them any question you like about their work.
+    speakers:
+      - johnhogberg
+      - kennethlundin
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "hK2pmb35lzs"
+        url: "https://www.youtube.com/watch?v=hK2pmb35lzs"
+
+  - title: "Building a Serverless platform for Edge Computing"
+    slug: "building-a-serverless-platform-for-edge-computing"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      After the feedback from our customers at Enki Multimedia, I started in Erlang a new opensource "On-Premise Serverless" platform with an emphasis on moving the data and its application, next to the consumer in a P2P manner. Based on barrel it allows you to build a P2P messaging and data platform using replication and synchronisation mechanisms. Eg. a multi-homing application, a decentralised message hub, a signalling platform, … .
+
+      I will present the platform and how to extend it in Erlang but not only.
+
+      OBJECTIVE
+
+      I will present some key mechanisms of the platform and how it can be extended in Erlang but not only. At the end the audience should understand how Erlang is useful in such platform and how to use and customise the platform to fit their needs.
+
+      AUDIENCE
+
+      Anyone interested in edge commuting and serverless platforms
+    speakers:
+      - benoitchesneau
+    topics:
+      - erlang
+      - distribution
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "PjfxDZ0I5l4"
+        url: "https://www.youtube.com/watch?v=PjfxDZ0I5l4"
+
+  - title: "Embedded programming on the BEAM"
+    slug: "embedded-programming-on-the-beam"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      Peer and Frank talk discuss what’s happening with embedded systems in the GRiSP and Nerves communities. This will cover current challenges and exciting developments to watch for in 2022.
+    speakers:
+      - frankhunleth
+      - peerstritzinger
+    topics:
+      - erlang
+      - elixir
+      - embedded
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "x4URO7oX5Zk"
+        url: "https://www.youtube.com/watch?v=x4URO7oX5Zk"
+
+  - title: "Survivor bias in software testing, observability and monitoring"
+    slug: "survivor-bias-in-software-testing-observability-and-monitoring"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      Drop out from college to become a millionaire! This is an example of a Survivor Bias which is a logical error in our understanding of the world, the assumption that success tells us the whole story about the process. Real world examples help us see how prone we are to it. During this presentation I want to talk about it with respect to testing, observability and monitoring. We will learn the techniques on dealing with it to make tools that are more reliable and exhibit our internal biases to lower extent.
+
+      OBJECTIVES:
+
+      Bring the phenomenon of survivor bias closer to the audience. Help realise how it can impact our judgement and what we can do about it.
+
+      AUDIENCE:
+
+      Developers of all shapes and sizes.
+    speakers:
+      - janciesla
+    topics:
+      - testing
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "HRej1Rs7JXk"
+        url: "https://www.youtube.com/watch?v=HRej1Rs7JXk"
+
+  - title: "Message Protocols and the BEAM"
+    slug: "message-protocols-and-the-beam"
+    kind: panel
+    language: en
+    duration: 38
+    abstract: |
+      In an increasingly connected technological landscape, message passing between applications, organizations, and devices is more critical than ever before. We'll be joined by Pawel Chrzaszcz, Architect of MongooseIM at Erlang Solutions, RabbitMQ contributor Ayanda Dube, and Emqx.io Global VP Dylan Kennedy. These XMPP, AMQP, and MQTT experts will chat about when to reach for these protocols and why, share their thoughts on why these technologies were built, and tell us about their own experiences building on top of these protocols. Whether you're focused on IoT messaging, message passing within the infrastructure of your business, or super secure messaging between organizations, you'll have a chance to ask questions and dive into the wide world of messaging on the BEAM and beyond.
+    speakers:
+      - ayandadube
+      - dylankennedy
+      - pawelchrzaszcz
+      - sophiedebenedetto
+    topics:
+      - erlang
+      - elixir
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "xKY_vREQcZE"
+        url: "https://www.youtube.com/watch?v=xKY_vREQcZE"
+
+  - title: "Getting around with NOVA"
+    slug: "getting-around-with-nova"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      NOVA is an Erlang framework for building scalable web applications with realtime connectivity across all your devices. In this talk we will talk about what NOVA is and concepts around it. Also go from basics, to building our own realtime applications. You will learn the foundations, core components and ideas how to use NOVA.
+    speakers:
+      - danielwidgren
+      - niclasaxelsson
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "jVkhKrx4jcY"
+        url: "https://www.youtube.com/watch?v=jVkhKrx4jcY"
+
+  - title: "When you have to make it faster"
+    slug: "when-you-have-to-make-it-faster"
+    kind: talk
+    language: en
+    duration: 35
+    abstract: |
+      Our product, Hyper-Q, enables modern cloud data warehouses to emulate Teradata, aiding with the migration of on-premises solutions to the cloud. Hyper-Q translates existing applications' queries in real-time to run natively in the cloud and converts data received from the cloud into the format needed by the application.
+
+      We recently missed service level agreements with a customer because our product, Hyper-Q, added significant overhead to a data warehouse application. Through careful investigation, using profilers, continuous improvement, and focused engineering considering Erlang characteristics, we doubled our performance and improved system scalability. This talk describes the steps and techniques we used to understand where to focus our engineering efforts and beat our service level agreements.
+    speakers:
+      - marcsugiyama
+      - nikotsikoudis
+    topics:
+      - erlang
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "IXx7eaaEP5M"
+        url: "https://www.youtube.com/watch?v=IXx7eaaEP5M"
+
+  - title: "BEAM security"
+    slug: "beam-security"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      Join Maxim Fedorov and Bram Verburg to discuss security for BEAM-based applications. How can industry best-practices for secure coding, testing and deployment hardening be applied to the Erlang ecosystem? What has been achieved over the last few years and what challenges remain? How can the community collaborate on moving things forward? Audience participation, through questions/comments in the session chat, is encouraged!
+    speakers:
+      - bramverburg
+      - maximfedorov
+    topics:
+      - erlang
+      - elixir
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "grz6BYkfgps"
+        url: "https://www.youtube.com/watch?v=grz6BYkfgps"
+
+  - title: "typed_erlc: Prototype of a safe and fast compiler for Erlang"
+    slug: "typed-erlc-prototype-of-a-safe-and-fast-compiler-for-erlang"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      Presenting a new compiler, which consumes classic Erlang syntax and outputs standard BEAM files. Explaining reasoning behind the project and what problems it is designed to solve, and what problems it may potentially solve in the future. Comparing to other compilers and other languages on the BEAM. This opens possibilities for new safety and style checks, new optimizations, new code generation backends (did i hear someone say WASM?), etc.
+
+      OBJECTIVES
+
+      Show the project in the making. Explain why it exists and how it is good for an average presentation listener. Explain how it will plug in into their tool chain and will help improve their code quality.
+
+      AUDIENCE
+
+      Erlang developers, mostly working/maintaining heaps of legacy code.
+    speakers:
+      - dmytrolytovchenko
+    topics:
+      - erlang
+      - compilers
+      - type-system
+    recordings:
+      - provider: youtube
+        external_id: "QxgOIv9f1sQ"
+        url: "https://www.youtube.com/watch?v=QxgOIv9f1sQ"
+
+  - title: "And Yet Akin: Name Disambiguation in Elixir"
+    slug: "and-yet-akin-name-disambiguation-in-elixir"
+    kind: talk
+    language: en
+    duration: 36
+    abstract: |
+      Synonymity and homonymity make name disambiguation difficult. To ease this difficulty, I combined two unmaintained Elixir string comparison libraries and added preprocessing and a double metaphone algorithm. The result is a comprehensive map of scores for pattern identification and machine learning. This talk will address the pre-processing, algorithms, and scoring as well as the strengths and limitations. A live demonstration of scoring will allow us to identify patterns. We end with a discussion of how to gain further benefits from the scores.
+
+      OBJECTIVES:
+
+      To introduce the problem of name disambiguation and string comparison by looking at two existing string comparison libraries before addressing the process of combining them into a single repository. I hope attendees will leave understanding the problem as well as the strengths, limitations, and possibilities of the new library and how it can be used to address the challenges of name disambiguation.
+
+      AUDIENCE:
+
+      Beginner to intermediate programmers.
+    speakers:
+      - vanessalee
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "zR08p8xPTBk"
+        url: "https://www.youtube.com/watch?v=zR08p8xPTBk"
+
+  - title: "Riak"
+    slug: "riak"
+    kind: talk
+    language: en
+    duration: 27
+    abstract: |
+      A fireside chat covering recent updates in the Riak community, an in depth look into challenges presented in the OTP uplift process from OTP16 to OTP22 and a special announcement.
+    speakers:
+      - andreizavada
+      - nicholasadams
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "T8boNNEYtms"
+        url: "https://www.youtube.com/watch?v=T8boNNEYtms"
+
+  - title: "Machine learning, IoT and Erlang: is this the right mix for reliable federated learning?"
+    slug: "machine-learning-iot-and-erlang-is-this-the-right-mix-for-reliable-federated-learning"
+    kind: talk
+    language: en
+    duration: 30
+    abstract: |
+      Edge computing and has ground-breaking potential to impact in IoT. Porting Machine Learning capabilities to the IoT device is highly desirable to reduce cloud dependency. Attempts to standardise IoT stacks have not yet gained significant acceptance due to introducing the issues of large incoming data flows, trust, privacy and security, and these are prohibitive for many scenarios. New resilient IoT stacks are necessary to address the problems at the source. That is to enable federated de-centralised solutions, and to maintain accuracy, low computational and power consumption.
+
+      OBJECTIVE
+
+      Bounce the idea of the wall and get feedback from the community. Identify other projects working in this domain and explore collaborations.
+
+      AUDIENCE
+
+      Anyone working on Embedded systems using Erlang with a keen interest on supporting data driven decision support.
+    speakers:
+      - annalitomichala
+    topics:
+      - erlang
+      - embedded
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "nntMNVnjiCA"
+        url: "https://www.youtube.com/watch?v=nntMNVnjiCA"
+
+  - title: "It's made of people"
+    slug: "it-s-made-of-people"
+    kind: talk
+    language: en
+    duration: 36
+    abstract: |
+      When choosing programming languages, “scalable,” “resilient,” and “performant” are often said. Less often heard: “elegant,” “beautiful,” or (my favorite) “human.” In this talk I contend that code is written not for the benefit of computers, but for humans—and that Erlang/Elixir are not only scalable and resilient, but elegant. Join me on a whirlwind tour of tools, frameworks, and practices that make code by _and_ for humans, whether it’s you in 6 months or one of your customers.
+
+      OBJECTIVES
+
+      I recently had an unsettling conversation with a friend, who tried to convince me that I shouldn’t be so excited about Elixir—that being overly invested in any particular toolset put me in danger of getting passed by in the future when the next awesome technology makes everything I do now irrelevant.
+      I was incredibly bothered.
+      I admit that there will be new technologies invented in the future, and those may eventually supplant our current toolchains. If these eventual new technologies are _better_ for humans and bring people _more_ joy, then that would be a great thing. That would only happen if the creation of these theoretical tools bubbled out of real human needs, and was built to solve human problems. Based on my experience throughout my career, I fear that this will not be the case—that new things will be built, replacing the current ecosystem without bothering to understand that ecosystem or its blind spots.
+      I want more people to talk about these things, so that the next best shiny programming thing might actually be built to make human lives better.
+
+      AUDIENCE:
+
+      Elixir programmers will hopefully find the talk technically useful, if they want to use linters and static analysis tools haven’t successfully made the jump. Maybe they can point unconvinced coworkers at this talk, and help to convince them.
+      I really want to provide a compelling message for language and framework developers.
+    speakers:
+      - ericsaxby
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "1HxGE-GEiIU"
+        url: "https://www.youtube.com/watch?v=1HxGE-GEiIU"
+
+  - title: "What not where: Sharing in a world of distributed, persistent memory"
+    slug: "what-not-where-sharing-in-a-world-of-distributed-persistent-memory"
+    kind: keynote
+    language: en
+    duration: 45
+    abstract: |
+      A world of distributed, persistent memory is on its way. Our programming models traditionally operate on short-lived data representations tied to ephemeral contexts such as processes or computers. In the limit, however, data lifetime is infinite compared to these transient actors. We discuss the implications for programming models raised by a world of large and potentially persistent distributed memories, including the need for explicit, context-free, invariant data references. We present a novel operating system that uses wisdom from both storage and distributed systems to center the programming model around data as the primary citizen, and reflect on the transformative potential of this change for infrastructure and applications of the future. We focus in particular on the landscape of data sharing and the consequences of globally-addressable persistent memory on existing consistency models and mechanisms.
+    speakers:
+      - peteralvaro
+    topics:
+      - distribution
+      - erlang
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "aIqamaY5pzM"
+        url: "https://www.youtube.com/watch?v=aIqamaY5pzM"
+
+  - title: "Beamer's modern life - La vida moderna de un Beamer"
+    slug: "beamer-s-modern-life-la-vida-moderna-de-un-beamer"
+    kind: panel
+    language: en
+    duration: 39
+    abstract: |
+      This session will host an all spanish-speaking panel to talk about the BEAM; how the platform is currently used and what the future holds for anyone invested in it. Note that this panel will be delivered 98% in spanish.
+
+      Esta sesión tendrá como invitados a destacados miembros de la comunidad hispanohablante para discutir sobre BEAM; cómo es que aprovechamos la plataforma al día de hoy y qué es lo que el futuro aguarda para todos los interesados en ella. Manejaremos español durante gran parte de la sesión para la comunidad.
+    speakers:
+      - anayelimalvaez
+      - brujobenavides
+      - carlogilmar
+      - lauramcastro
+      - manuelrubio
+      - raulchouza
+    topics:
+      - community
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "j1UaAIh2g8E"
+        url: "https://www.youtube.com/watch?v=j1UaAIh2g8E"
+
+  - title: "WebRTC redefined - a new SFU API for Elixir from Membrane Framework"
+    slug: "webrtc-redefined-a-new-sfu-api-for-elixir-from-membrane-framework"
+    kind: talk
+    language: en
+    duration: 34
+    abstract: |
+      Creating video conferencing systems has always been challenging. While the most used standard - WebRTC requires from the user quite a deep understanding of what is going on under the hood, the new abstraction layer created in Membrane Framework allows us to hide all the low level, network connected things.
+
+      During this talk, I will go through the new SFU API and how it makes the developer experience much easier, both when creating a new Phoenix application and integrating with existing systems.
+
+      OBJECTIVES:
+
+      Presentation of the new SFU API and its usage.
+
+      AUDIENCE:
+
+      Everyone who is interested in designing APIs, abstraction layers or is willing to create or integrate a video conferencing platform with its existing system.
+    speakers:
+      - michasledz
+    topics:
+      - elixir
+      - webrtc
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "wfujfrNcxvE"
+        url: "https://www.youtube.com/watch?v=wfujfrNcxvE"
+
+  - title: "Ditch the DB: Using In-Memory Replicated Distributed State"
+    slug: "ditch-the-db-using-in-memory-replicated-distributed-state"
+    kind: talk
+    language: en
+    duration: 31
+    abstract: |
+      When data needs to be accessible from every node on a cluster, a DB is often a necessary choice. But what if you want to avoid that extra dependency and keep everything in-memory? The library Horde utilizes a technique called delta CRDTs for distributed supervisors and registries.
+
+      In this talk you’ll learn how delta CRDTs work (using Horde as an example), how to leverage delta CRDTs for your own synchronized state, and the tradeoffs for doing so versus a traditional database.
+
+      OBJECTIVE:
+
+      Explain the concept of Delta State Replicated Data Types
+      Detail the tradeoffs between using the DeltraCrdt library and an external database
+      Teach how to use delta CRDTs as a building block for application state, using Horde and other custom code examples for illustration
+
+      AUDIENCE:
+
+      Experienced software engineers who have at least some Elixir experience and work with (or are interested in) the distributed properties of the BEAM.
+    speakers:
+      - williamhuba
+    topics:
+      - elixir
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "uqTNuvQkIlY"
+        url: "https://www.youtube.com/watch?v=uqTNuvQkIlY"
+
+  - title: "RabbitMQ"
+    slug: "rabbitmq"
+    kind: talk
+    language: en
+    duration: 23
+    abstract: |
+      Discussion on RabbitMQ, it’s usage, design and Erlang implementation aspects. We discuss supported protocols (e.g. AMQP, MQTT) as well as different queue types and their purpose, along with consensus and HA/scalability matters. We discuss the available RabbitMQ toolkits and libraries which the community can adopt for building their own distributed systems.
+    speakers:
+      - ayandadube
+      - karlnilsson
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "_MvykAQU2OA"
+        url: "https://www.youtube.com/watch?v=_MvykAQU2OA"
+
+  - title: "Practical uses for Metaprogramming in a highly trafficked web API"
+    slug: "practical-uses-for-metaprogramming-in-a-highly-trafficked-web-api"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      Metaprogramming can often be more confusing than it is beneficial. In this talk, we will explore the basics of metaprogramming in Elixir and how it can be used in practical ways within layers of a highly trafficked web API.
+
+      OBJECTIVES:
+
+      Introduction to metaprogramming basics in Elixir
+      Pros and Cons
+      Examples of practical use cases in layers of a highly trafficked API
+
+      AUDIENCE:
+
+      Developers that want to know more about metaprogramming in Elixir and various use cases that can be applied to web API layers.
+    speakers:
+      - jacquelinemanzi
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "NOdfqODKQnM"
+        url: "https://www.youtube.com/watch?v=NOdfqODKQnM"
+
+  - title: "Fables and Foibles of Observability and Monitoring"
+    slug: "fables-and-foibles-of-observability-and-monitoring"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      Observability and monitoring are crucial pieces to keeping your services reliable for your users and preventing them from being a burden on your team. The BEAM ecosystem has powerful tools for observability and monitoring, from built-in SASL alarm handlers to telemetry and APM integration.
+
+      We’ll learn about the tools at our disposal in OTP as well as some common libraries and services to make observability and monitoring easy. Additionally, we’ll discuss some tales of how observability and monitoring have lead to great success and great failure.
+
+      OBJECTIVES:
+
+      Attendees will learn key approaches for getting the most of observability and monitoring on the BEAM. We’ll cover key performance metrics how to correlate and interpret them. Additionally, attendees will learn about a few tools available in the BEAM ecosystem for observability and monitoring.
+
+      AUDIENCE:
+
+      This talk is useful for any engineers responsible for keeping their production systems running and reliable.
+    speakers:
+      - jefferyutter
+    topics:
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "oekgdYAP6qo"
+        url: "https://www.youtube.com/watch?v=oekgdYAP6qo"
+
+  - title: "Writing a well-tested & deterministic Elixir book"
+    slug: "writing-a-well-tested-deterministic-elixir-book"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      In this talk I will cover how I am using Elixir to build a tool to help me write a well-tested and deterministic Elixir book. These tips and tricks can be used for any technical writing in Elixir including blog posts. I will talk about how I use EEx and Metaprogramming to ensure all the code-snippets and command-line outputs in the book behave the way they should.
+
+      OBJECTIVE
+
+      Through this talk I want to share my experiences writing an Elixir book and encourage people to approach technical writing the same way they approach Software Development, by testing their code and making it as deterministic as they can.
+
+      AUDIENCE
+
+      People interested in/passionate about:
+
+      - Technical writing using Elixir
+
+      - Learning some testing tricks
+
+      - Using EEx to write Elixir books/blog posts
+
+      - Leveraging Metaprogramming to automate CLI outputs
+    speakers:
+      - adiiyengar
+    topics:
+      - testing
+      - elixir
+      - documentation
+
+  - title: "How to grow your local community / Como criar sua comunidade local"
+    slug: "how-to-grow-your-local-community-como-criar-sua-comunidade-local"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      This will be a Chat in Portuguese with the organizers and moderators of the biggest Elixir communities in Brazil: Elug-CE, Elug-SP and the telegram group Elixir Brasil.
+
+      Why local communities are important? How to start? What are the challenges?
+
+      Esse será uma conversa em Português, com os organizadores e moderadores das maiores comunidades brasileiras de elixir: Elug-CE, Elug-SP e o grupo do telegram "Elixir Brasil".
+
+      Porque comunidades locais são importantes? Como começar? Quais são os desafios?
+    speakers:
+      - joeljuca
+      - rachelcurioso
+      - renanranelli
+    topics:
+      - community
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "6XWjmMMmQ-Q"
+        url: "https://www.youtube.com/watch?v=6XWjmMMmQ-Q"
+
+  - title: "EDBG: Your TTY debugger"
+    slug: "edbg-your-tty-debugger"
+    kind: talk
+    language: en
+    duration: 19
+    abstract: |
+      This is yet another "Yet another" talk about EDBG, a TTY tool built on top of Erlang debugger and tracer. Now, there are plenty of really good debugging tools for Erlang out there, so why is this one written? I have no idea, but I can say it is a simple enough tty debugger for me to finally stop using the graphical debugger. No more WX build issues on OSX. Just plain text, accessible through the shell. In this talk, I will introduce the tool and show you how to use it, highlighting its advantages and hopefully convince you to give it a try.
+    speakers:
+      - simonunge
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "OnPccyT_WPs"
+        url: "https://www.youtube.com/watch?v=OnPccyT_WPs"
+
+  - title: "MQTT for Home/Building Automation Hardware Interfacing"
+    slug: "mqtt-for-home-building-automation-hardware-interfacing"
+    kind: talk
+    language: en
+    duration: 22
+    abstract: |
+      Isn't it great when abstractions just work?
+
+      The countless interpretations of the term Internet of Things erased the boundaries of software / firmware / middleware / hardware and anyone embarking on an IoT project now has to understand the full stack. This is great engineering fun but harsh realities of project delivery, timelines and costs require creative thinking on how the “plumbing” of an IoT deployment should work.
+
+      This brief talk will introduce the ubiquitous Zigbee wireless protocol and the ecosystem surrounding it, with a quick demo of zigbee2mqtt and some hardware in action.
+    speakers:
+      - omerkilic
+    topics:
+      - erlang
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "oEZK5Mr1wz4"
+        url: "https://www.youtube.com/watch?v=oEZK5Mr1wz4"
+
+  - title: "Stack to the Future"
+    slug: "stack-to-the-future"
+    kind: talk
+    language: en
+    duration: 19
+    abstract: |
+      The BEAM/Rust stack offers unparalleled fault-tolerance that can grant us true reliably. We'll explore the newly written Erlang-SDK for interacting with Rust/WASM SmartContracts on a permissionless, decentralized, public blockchain(Casper Network).
+
+      The goal will be understanding:
+
+      - Basics of API through Erlang, Rust & WebAssembly
+
+      - Writing, Testing & Deploying SmartContracts
+
+      - Calling & Querying SCs
+
+      - Dealing with Errors
+
+      - Working with Cryptography
+
+      - Serialization
+
+      This is the Stack to the Future.
+
+      OBJECTIVES:
+
+      Teach the Erlang Community about interacting with Blockchains.
+      Promotes the Erlang/Elixir--Rust--WebAssembly--Blockchain Stack.
+      Introduce an Erlang SDK for the Proof-of-Stake, Rust based BlockChain, CSPR.
+      Showcase the power of fault-tolerance & generic behavior abstractions.
+
+      AUDIENCE:
+
+      Erlang & Elixir Programmers interested:
+
+      Blockchains
+      Writing SDK's
+      A Rust/WebAssembly Stack
+    speakers:
+      - robertcarbone
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "pcCgpxKT_ck"
+        url: "https://www.youtube.com/watch?v=pcCgpxKT_ck"
+
+  - title: "Using Neo4j and the BEAM to evaluate Students' Proficiency"
+    slug: "using-neo4j-and-the-beam-to-evaluate-students-proficiency"
+    kind: talk
+    language: en
+    duration: 22
+    abstract: |
+      Trybe is a Web Development school, where we teach people into programming, and support them to find a good job position as Developers.
+
+      We intend to explain how we managed to evaluate our students proficiency using Elixir and Neo4j, through a Micro-Services & Event-Driven Architecture.
+
+      OBJECTIVE:
+
+      Show the case of how we've managed to use elixir with neo4j to accomplish a really hard evaluation process.
+    speakers:
+      - victorcaciquinho
+      - willianfrantz
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "cj1Ob3cB99o"
+        url: "https://www.youtube.com/watch?v=cj1Ob3cB99o"
+
+  - title: "Trust but Isolate. The future of software"
+    slug: "trust-but-isolate-the-future-of-software"
+    kind: keynote
+    language: en
+    duration: 47
+    abstract: |
+      There are many trends, fads, and movements that sweep through the world of software. Yet somehow, the underlying fundamentals have remained largely unchanged for the past 30 years. The rapidly advancing cyber-attack environment combined with the use of networked computers in critical infrastructure, are causing a reckoning with the way computers, and all software is built.
+
+      Strong isolation, from the top to the bottom of the stack is foundational. Erlang and the BEAM, as with so many other things, was way ahead of its time and pointed this direction many years ago. We are going to look at some of those lessons and show how they can used as a first-principle to design a fast, robust, and secure that is positioned for the next 30 years of computing.
+
+      Strong Isolation is an inevitable shift that will reverberate through the industry. Understanding it now is essential to navigating the next round of scaled out software and computer deployments.
+    speakers:
+      - boydmulterer
+    topics:
+      - elixir
+      - erlang
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "KDZPBzA3yFw"
+        url: "https://www.youtube.com/watch?v=KDZPBzA3yFw"
+
+  - title: "How community can change people's lives"
+    slug: "how-community-can-change-people-s-lives"
+    kind: keynote
+    language: en
+    duration: 41
+    abstract: |
+      A brief look at how the Elixir language has changed the life of a community
+
+      OBJECTIVE:
+
+      Engagement, support and collaboration in inclusive and social agendas with technology as the engine of this change
+    speakers:
+      - aldarocha
+    topics:
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "2DlokhJJulU"
+        url: "https://www.youtube.com/watch?v=2DlokhJJulU"
+
+  - title: "Ask me anything about Elixir with José Valim"
+    slug: "ask-me-anything-about-elixir-with-jos-valim"
+    kind: talk
+    language: en
+    duration: 21
+    abstract: |
+      Open meeting with Elixir Core Team. Unmute yourself and ask the guest any question about his work you like.
+    speakers:
+      - josevalim
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "Cg4sankORfE"
+        url: "https://www.youtube.com/watch?v=Cg4sankORfE"
+
+  - title: "Rclex: A Library for Robotics to meet Elixir"
+    slug: "rclex-a-library-for-robotics-to-meet-elixir"
+    kind: talk
+    language: en
+    duration: 20
+    abstract: |
+      How do we install the magic of Elixir into robot systems? One of the solutions is "Rclex", that is a client library for ROS 2 platform. ROS (Robot Operating System) provides publish/subscribe based messaging mechanism between robot modules with the DDS (Data Distribution Service) stack. We suggest that the force of Erlang/Elixir can power up the scalability of ROS 2 communication. This talk will introduce how did we integrate ROS 2 and Elixir by using NIFs, and discuss the possibility of this library in the IoT field.
+
+      OBJECTIVE:
+
+      The audience will learn about a new library that bridges robotics and Elixir, and will be able to practice a new development style of robot systems.
+
+      AUDIENCE:
+
+      An alchemist who wants to construct robot systems.
+      A robotics engineer who thinks the robot development should be functional.
+    speakers:
+      - hidekitakase
+    topics:
+      - elixir
+      - embedded
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "9B5lQ3kQ_wI"
+        url: "https://www.youtube.com/watch?v=9B5lQ3kQ_wI"
+
+  - title: "BEAM Languages with Erlang co-inventor Robert Virding"
+    slug: "beam-languages-with-erlang-co-inventor-robert-virding"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      In this fireside chat, Mariano Guerra and Robert Virding, creators of many languages on the BEAM including Erlang(!!), Effene, LFE and LuErl will discuss past, present and future of languages on the BEAM, current and future challenges and opportunities. Join them, prepared with your own questions.
+    speakers:
+      - marianoguerra
+      - robertvirding
+    topics:
+      - erlang
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "-o_UFjCyum4"
+        url: "https://www.youtube.com/watch?v=-o_UFjCyum4"
+
+  - title: "Learning Elixir and OTP through LiveView"
+    slug: "learning-elixir-and-otp-through-liveview"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      With a few lines of code and in a visual way, I'm going to introduce the basic concepts of LiveView and consequently of OTP, above all: engage students and teachers in LiveView's potential as an educational and inclusive tool.
+
+      LiveView was my first contact with Elixir, and as counterproductive as that sounds, it was the best decision I could have made.
+
+      OBJECTIVE:
+
+      My main aim with this talk is to show people who want to learn or teach Elixir that LiveView is a powerful tool to achieve this goal in a visual, enjoyable and inclusive way
+
+      AUDIENCE:
+
+      Beginners who wish to learn elixir and people teaching or wishing to teach elixir using LiveView as an educational and inclusive tool
+    speakers:
+      - cristineguadelupe
+    topics:
+      - elixir
+      - liveview
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "aSkKKpMyqGo"
+        url: "https://www.youtube.com/watch?v=aSkKKpMyqGo"
+
+  - title: "Macaroons + Elixir: Distributed API Authorization"
+    slug: "macaroons-elixir-distributed-api-authorization"
+    kind: talk
+    language: en
+    duration: 36
+    abstract: |
+      Macaroons allow decentralized authorization in the cloud, making them a fantastic fit for web applications built in Elixir. We'll take a look at what Macaroons are, the benefits they offer, and how they are a perfect authorization construct in a Phoenix based web application.
+
+      OBJECTIVE:
+
+      Everyone who attends the talk should leave with a general idea about what Macaroons are, how they work and why they'd be useful in the context of an Elixir web API/Application.
+
+      AUDIENCE:
+
+      Experienced Elixir/Phoenix developers who may be familiar with authorization constructs such as JWTs.
+    speakers:
+      - digit
+    topics:
+      - elixir
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "dhyQptmwG9s"
+        url: "https://www.youtube.com/watch?v=dhyQptmwG9s"
+
+  - title: "Harnessing OTP through Continuous Integration"
+    slug: "harnessing-otp-through-continuous-integration"
+    kind: talk
+    language: en
+    duration: 44
+    abstract: |
+      Erlang/OTP is a live and breathing repository containing over two million lines of code. Over 4,300 commits were made between R23 and R24. Five years ago we started with heavily patched OTP 16 fork powering our servers. Now we run the latest version before it’s officially released, getting the most out of Erlang. This talk is about the road we took, how we ended up running OTP tests in out CI pipeline, and how we made it faster & friendlier for developers.
+
+      AUDIENCE:
+
+      technical leads, release engineers, development, infrastructure specialists
+    speakers:
+      - maximfedorov
+    topics:
+      - erlang
+      - otp
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "zzFGojJrjzM"
+        url: "https://www.youtube.com/watch?v=zzFGojJrjzM"
+
+  - title: "Rearchitecting Toward Resilience"
+    slug: "rearchitecting-toward-resilience"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      BlockFi recently experienced explosive growth as cryptocurrency markets got red-hot. By leveraging Elixir and the BEAM, we were able to weather many challenging times; however, the company's needs also outgrew our original monolithic application. In order to sustain our growth, we needed to literally divide and conquer.
+
+      In this talk, we'll cover how BlockFi used OTP patterns and classic resilience techniques to rearchitect systems so that scalability and reliability are built-in and easy to use.
+
+      OBJECTIVES:
+
+      Discuss the context within which we were compelled to decompose our monolithic application.
+      Introduce the distributed systems problems we encountered while decomposing and the principles and techniques we applied to resolve them.
+      Highlight tools and libraries in the BEAM ecosystem that we employed in our resilience efforts.
+
+      AUDIENCE:
+
+      Engineers and tech leaders who want to build reliable multi-service architectures
+    speakers:
+      - seancribbs
+    topics:
+      - elixir
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "Py8WK4rBNqQ"
+        url: "https://www.youtube.com/watch?v=Py8WK4rBNqQ"
+
+  - title: "Live from Undisclosed Locations"
+    slug: "live-from-undisclosed-locations"
+    kind: keynote
+    language: en
+    duration: 43
+    abstract: |
+      Elixir Outlaws will treat us to a podcast.
+    speakers:
+      - amosking
+      - annaneyzberg
+      - chriskeathley
+      - seancribbs
+    topics:
+      - elixir
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "gDlYfV_Wnys"
+        url: "https://www.youtube.com/watch?v=gDlYfV_Wnys"

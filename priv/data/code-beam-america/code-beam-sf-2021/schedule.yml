@@ -1,0 +1,228 @@
+tracks:
+  - name: "Zoom 1"
+    color: "#3182CE"
+    position: 1
+  - name: "Zoom 2"
+    color: "#6B46C1"
+    position: 2
+  - name: "Zoom 3"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2021-11-03"
+    position: 1
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "100-years-of-erlang"
+            track: "Zoom 1"
+            kind: keynote
+      - start_time: "10:05"
+        end_time: "10:30"
+        sessions:
+          - talk_slug: "ask-me-anything-about-otp"
+            track: "Zoom 1"
+            kind: talk
+      - start_time: "10:40"
+        end_time: "11:05"
+        sessions:
+          - talk_slug: "survivor-bias-in-software-testing-observability-and-monitoring"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "building-a-serverless-platform-for-edge-computing"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "embedded-programming-on-the-beam"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "11:15"
+        end_time: "11:55"
+        sessions:
+          - talk_slug: "when-you-have-to-make-it-faster"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "getting-around-with-nova"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "message-protocols-and-the-beam"
+            track: "Zoom 3"
+            kind: panel
+      - start_time: "11:55"
+        end_time: "12:25"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "12:25"
+        end_time: "13:05"
+        sessions:
+          - talk_slug: "and-yet-akin-name-disambiguation-in-elixir"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "typed-erlc-prototype-of-a-safe-and-fast-compiler-for-erlang"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "beam-security"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "13:15"
+        end_time: "13:40"
+        sessions:
+          - talk_slug: "machine-learning-iot-and-erlang-is-this-the-right-mix-for-reliable-federated-learning"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "it-s-made-of-people"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "riak"
+            track: "Zoom 3"
+            kind: talk
+
+  - name: "Day 2"
+    date: "2021-11-04"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "what-not-where-sharing-in-a-world-of-distributed-persistent-memory"
+            track: "Zoom 1"
+            kind: keynote
+      - start_time: "10:00"
+        end_time: "10:40"
+        sessions:
+          - talk_slug: "webrtc-redefined-a-new-sfu-api-for-elixir-from-membrane-framework"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "ditch-the-db-using-in-memory-replicated-distributed-state"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "beamer-s-modern-life-la-vida-moderna-de-un-beamer"
+            track: "Zoom 3"
+            kind: panel
+      - start_time: "10:50"
+        end_time: "11:15"
+        sessions:
+          - talk_slug: "practical-uses-for-metaprogramming-in-a-highly-trafficked-web-api"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "fables-and-foibles-of-observability-and-monitoring"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "rabbitmq"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "11:15"
+        end_time: "11:45"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:45"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "edbg-your-tty-debugger"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "writing-a-well-tested-deterministic-elixir-book"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "how-to-grow-your-local-community-como-criar-sua-comunidade-local"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "12:20"
+        end_time: "12:45"
+        sessions:
+          - talk_slug: "using-neo4j-and-the-beam-to-evaluate-students-proficiency"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "stack-to-the-future"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "mqtt-for-home-building-automation-hardware-interfacing"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "12:55"
+        end_time: "13:40"
+        sessions:
+          - talk_slug: "trust-but-isolate-the-future-of-software"
+            track: "Zoom 1"
+            kind: keynote
+
+  - name: "Day 3"
+    date: "2021-11-05"
+    position: 3
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "how-community-can-change-people-s-lives"
+            track: "Zoom 1"
+            kind: keynote
+      - start_time: "09:55"
+        end_time: "10:20"
+        sessions:
+          - talk_slug: "ask-me-anything-about-elixir-with-jos-valim"
+            track: "Zoom 1"
+            kind: talk
+      - start_time: "10:30"
+        end_time: "10:55"
+        sessions:
+          - talk_slug: "learning-elixir-and-otp-through-liveview"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "rclex-a-library-for-robotics-to-meet-elixir"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "beam-languages-with-erlang-co-inventor-robert-virding"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "11:05"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "rearchitecting-toward-resilience"
+            track: "Zoom 1"
+            kind: talk
+          - talk_slug: "harnessing-otp-through-continuous-integration"
+            track: "Zoom 2"
+            kind: talk
+          - talk_slug: "macaroons-elixir-distributed-api-authorization"
+            track: "Zoom 3"
+            kind: talk
+      - start_time: "11:45"
+        end_time: "12:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "12:15"
+        end_time: "13:00"
+        sessions:
+          - talk_slug: "live-from-undisclosed-locations"
+            track: "Zoom 1"
+            kind: keynote
+      - start_time: "13:00"
+        end_time: "13:15"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+      - start_time: "13:15"
+        end_time: "13:45"
+        sessions:
+          - title: "Afterparty"
+            kind: social
