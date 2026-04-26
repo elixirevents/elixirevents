@@ -620,3 +620,27 @@
   website: "https://thinkingelixir.com"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/dc7ca9397461de911a70c3f6f7c9a52146664d46.png"
   description: "Weekly podcast and newsletter covering the Elixir programming community."
+
+- name: "WhiteSource"
+  slug: "whitesource"
+  website: "https://www.whitesourcesoftware.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/2b1b8a45cc30ab3063ec5f4ce7b477310a1fba5a.png"
+  description: "Open-source security and license compliance platform (now Mend.io)."
+
+- name: "2600Hz"
+  slug: "2600hz"
+  website: "https://2600hz.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/244bac939b85cfd43126eaea15c0b8da3b74ad67.png"
+  description: "Open-source telecom platform built in Erlang, powering KAZOO and large-scale VoIP deployments."
+
+- name: "Simpli.fi"
+  slug: "simplifi"
+  website: "https://simpli.fi"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/9bcbde6a45172467eba9168ffa482842da5c0786.png"
+  description: "Programmatic advertising platform for localized marketing."
+
+- name: "Tubi"
+  slug: "tubitv"
+  website: "https://tubi.tv"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/40c60a457cb9a089681808a806cb0b5372d745d7.png"
+  description: "Free ad-supported streaming TV service owned by Fox Corporation, with backend systems built on Elixir."

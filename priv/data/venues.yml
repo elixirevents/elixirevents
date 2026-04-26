@@ -350,3 +350,16 @@
   longitude: 18.056175
   website: "https://www.munchenbryggeriet.se"
   description: "A historic former brewery on Södermalm, now one of Stockholm's largest event venues, with sweeping views over the city's waterfront."
+
+- name: "Hyatt Centric Fisherman's Wharf"
+  slug: "hyatt-centric-fishermans-wharf"
+  street: "555 North Point Street"
+  city: "San Francisco"
+  region: "California"
+  country: "United States"
+  country_code: "US"
+  postal_code: "94133"
+  latitude: 37.80585
+  longitude: -122.41614
+  website: "https://www.hyatt.com/en-US/hotel/california/hyatt-centric-fishermans-wharf-san-francisco/sfofw"
+  description: "A modern waterfront hotel on the edge of Fisherman's Wharf, walking distance to Pier 39 and the Cable Car Turnaround in San Francisco."

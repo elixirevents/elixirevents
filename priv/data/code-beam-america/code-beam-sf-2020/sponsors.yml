@@ -1,0 +1,47 @@
+- name: "Global Sponsor"
+  level: 1
+  sponsors:
+    - slug: "whatsapp"
+
+- name: "Diversity & Inclusion Sponsors"
+  level: 2
+  sponsors:
+    - slug: "pepsico"
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Platinum Sponsors"
+  level: 3
+  sponsors:
+    - slug: "the-realreal"
+
+- name: "Gold Sponsors"
+  level: 4
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "whitesource"
+    - slug: "2600hz"
+
+- name: "Silver Sponsor"
+  level: 5
+  sponsors:
+    - slug: "simplifi"
+
+- name: "T-shirt Sponsor"
+  level: 6
+  sponsors:
+    - slug: "tubitv"
+
+- name: "Lanyard Sponsor"
+  level: 7
+  sponsors:
+    - slug: "pleroma"
+
+- name: "Party Sponsor"
+  level: 8
+  sponsors:
+    - slug: "mux"
+
+- name: "Media"
+  level: 9
+  sponsors:
+    - slug: "goto-conferences"

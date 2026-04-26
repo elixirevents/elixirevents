@@ -1,0 +1,123 @@
+- title: "OTP for the seasoned Erlanger"
+  slug: "otp-for-the-seasoned-erlanger"
+  experience_level: "Advanced"
+  language: en
+  start_date: "2020-03-02"
+  end_date: "2020-03-04"
+  venue_slug: hyatt-centric-fishermans-wharf
+  description: |
+    Learn the prevailing Erlang design patterns called OTP behaviours. Covers generic behaviours, finite state machines, event handlers, and the supervisor and application behaviours patterns, so you can construct maintainable and fault tolerant software. Upon completion of this course, you'll be able to extend it all by devising your very own behaviours.
+
+    **Format:** 3 day training (09:00–17:00 PT)
+
+    Course outline: behaviours, generic servers, finite state machines, supervisors, event handlers, and structuring large Erlang-based systems.
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+    - concurrency
+
+- title: "OTP behaviours: Behind the scenes"
+  slug: "otp-behaviours-behind-the-scenes"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-03-02"
+  end_date: "2020-03-04"
+  venue_slug: hyatt-centric-fishermans-wharf
+  description: |
+    Hands-on training for Phoenix/Ecto developers ready to progress to the next level. Focuses on building applications using OTP behaviours and architecture guidelines.
+
+    **Format:** 3 day training (09:00–17:00 PT)
+
+    Topics: life before OTP, OTP architecture, behaviours, supervision, GenServer, GenStateMachine, GenStage, GenFlow, event handlers, optimizing for performance, ETS, and load regulation/back-pressure (fuse, safety valve).
+  trainers:
+    - manuelrubio
+  topics:
+    - elixir
+    - otp
+    - phoenix
+
+- title: "Introductory Phoenix LiveView: web development without JavaScript"
+  slug: "introductory-phoenix-liveview-web-development-without-javascript"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-03-04"
+  end_date: "2020-03-04"
+  venue_slug: hyatt-centric-fishermans-wharf
+  description: |
+    Build highly interactive web applications using Phoenix LiveView. Instead of coding JavaScript to move data between the client and server, rely on the power of Phoenix and Elixir to do the hard work for you.
+
+    **Format:** 1 day tutorial (09:00–17:00 PT)
+
+    Course outline: the LiveView lifecycle, building pages online and in templates, sending events with HTML, building back-end models, and building software in layers.
+  trainers:
+    - brucetate
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+
+- title: "The BEAM VM under the hood"
+  slug: "the-beam-vm-under-the-hood"
+  experience_level: "Advanced"
+  language: en
+  start_date: "2020-03-04"
+  end_date: "2020-03-04"
+  venue_slug: hyatt-centric-fishermans-wharf
+  description: |
+    Everything you wanted to know about the BEAM but were afraid to ask. Through examples and hands-on exercises, learn how to manage the BEAM VM in operational environments, optimizing for memory utilisation and performance when using Erlang or Elixir.
+
+    **Format:** 1 day tutorial (09:00–17:00 PT)
+
+    Course outline: intro to the BEAM, processes under the hood, the process scheduler, memory management, and tweaking and fine-tuning the VM.
+  trainers:
+    - dmytrolytovchenko
+  topics:
+    - erlang
+    - elixir
+    - otp
+    - concurrency
+
+- title: "Clueful Elixir with Kubernetes"
+  slug: "clueful-elixir-with-kubernetes"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-03-04"
+  end_date: "2020-03-04"
+  venue_slug: hyatt-centric-fishermans-wharf
+  description: |
+    Build, deploy, scale, and cluster Elixir applications on Kubernetes. Covers operating an Elixir cluster on Kubernetes, monitoring setup, debugging, templating configuration, and managing secrets.
+
+    **Format:** 1 day tutorial (09:00–17:00 PT)
+
+    Course outline: Docker images for Elixir, distillery releases, libcluster, Prometheus/Grafana monitoring, debugging deployment issues, Kubernetes controllers, Kube DNS, autoscaling, dependencies, health checks, and exposing apps via GKE.
+  trainers:
+    - bryanhunt
+  topics:
+    - elixir
+    - kubernetes
+    - deployment
+    - observability
+
+- title: "Tour the embedded BEAM with GRiSP and Nerves"
+  slug: "tour-the-embedded-beam-with-grisp-and-nerves"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2020-03-04"
+  end_date: "2020-03-04"
+  venue_slug: hyatt-centric-fishermans-wharf
+  description: |
+    A tour of the two major BEAM-powered embedded system projects, led by the creators of both. Both projects build on the rock solid reliability and productivity of the Erlang VM and are used in industrial projects around the world.
+
+    **Format:** 1 day tutorial (09:00–17:00 PT)
+
+    Hands-on labs covering the basics, interacting with low-level hardware, networking devices, and interoperability.
+  trainers:
+    - peerstritzinger
+    - frankhunleth
+  topics:
+    - erlang
+    - elixir
+    - embedded
+    - nerves

@@ -1,0 +1,287 @@
+tracks:
+  - name: "OK BEAMer"
+    color: "#3182CE"
+    position: 1
+  - name: "Gen X"
+    color: "#6B46C1"
+    position: 2
+  - name: "BEAMenial"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2020-03-05"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:10"
+        end_time: "09:55"
+        sessions:
+          - talk_slug: "old-ideas-made-new"
+            track: "OK BEAMer"
+            kind: keynote
+      - start_time: "09:55"
+        end_time: "10:10"
+        sessions:
+          - talk_slug: "elixir-ecosystem-elixir-core-team-updates"
+            track: "OK BEAMer"
+            kind: talk
+      - start_time: "10:10"
+        end_time: "10:40"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:40"
+        end_time: "11:25"
+        sessions:
+          - talk_slug: "php-over-erlang-how-and-why"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "customer-retention-and-how-to-avoid-double-billing"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "tls-the-otp-way"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "11:30"
+        end_time: "12:15"
+        sessions:
+          - talk_slug: "tactics-and-strategies-for-scalable-robust-intelligent-systems"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "iot-network-connectivity"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "coding-for-global-languages-unicode-charsets-strings-and-binaries"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:20"
+        end_time: "12:45"
+        sessions:
+          - talk_slug: "large-scale-distributed-video-processing-with-otp"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "riak-kv-3-0-worth-the-wait"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "let-the-garbage-crash"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:45"
+        end_time: "13:45"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:45"
+        end_time: "14:30"
+        sessions:
+          - talk_slug: "beam-and-kubernetes-better-together"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "rustling-up-predictive-sporting-betting-models-on-the-beam"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "diffing-hex-packages"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "14:35"
+        end_time: "15:20"
+        sessions:
+          - talk_slug: "off-beam-secure-software-development"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "docker-images-a-la-carte-with-elixir-and-rabbitmq"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "liveview-of-evolution"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:25"
+        end_time: "15:50"
+        sessions:
+          - talk_slug: "playing-with-lambda-calculus"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "think-in-erlang"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "your-erlang-graph-fix"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:50"
+        end_time: "16:20"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:20"
+        end_time: "17:05"
+        sessions:
+          - talk_slug: "bring-on-the-worker-bees-designing-elixir-systems-with-otp"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "building-a-realtime-websocket-api-in-phoenix"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "monkey-take-the-wheel"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "17:10"
+        end_time: "17:55"
+        sessions:
+          - talk_slug: "updates-from-the-erlang-ecosystem-foundation-working-groups"
+            track: "OK BEAMer"
+            kind: talk
+      - start_time: "17:55"
+        end_time: "18:00"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+      - start_time: "18:00"
+        end_time: "20:00"
+        sessions:
+          - title: "Party (sponsored by Mux)"
+            kind: social
+
+  - name: "Day 2"
+    date: "2020-03-06"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "beam-on-the-edge-innovation-through-problem-solving"
+            track: "OK BEAMer"
+            kind: keynote
+      - start_time: "09:50"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "otp-team-update"
+            track: "OK BEAMer"
+            kind: talk
+      - start_time: "10:05"
+        end_time: "10:35"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:35"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "erlang-is-getting-pretty"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "building-a-solar-powered-weather-station-with-nerves"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "making-iot-safer-with-beam-otp"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "11:25"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "building-a-ide-compiler-and-runtime-for-a-graphical-distributed-data-flow-language-in-erlang"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "kazoo-the-voip-cloud-platform-a-retrospective"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "observability-for-elixir-microservices"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:15"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "levelling-up-at-bleacher-report-a-cautionary-tale"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "instrumenting-and-monitoring-stateless-erlang-today"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "pivot-how-to-handle-change"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:40"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "unique-resiliency-of-the-erlang-vm-the-beam-and-erlang-otp"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "jedi-vs-clone-troopers-a-star-wars-themed-comparison-of-the-beam-and-rails-concurrency-models-and-how-it-affects-web-app-scalability"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "georacer-building-a-real-time-multiplayer-mobile-game-in-elixir-in-6-weeks"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "14:30"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "how-cisco-is-using-erlang-for-intent-based-networking"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "what-are-the-best-tools-for-browser-testing-click-to-find-out"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "elixir-vs-scala"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:20"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "from-5-to-1-and-back-ramping-up-by-learning-languages"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "the-yin-and-yang-of-mutability"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "it-s-time-to-embrace-erlang"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:45"
+        end_time: "16:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:15"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "macros-in-elixir-responsible-code-generation"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "un-learning-elixir"
+            track: "Gen X"
+            kind: talk
+      - start_time: "17:05"
+        end_time: "17:50"
+        sessions:
+          - talk_slug: "designing-change"
+            track: "OK BEAMer"
+            kind: keynote
+      - start_time: "17:50"
+        end_time: "18:00"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+      - start_time: "18:00"
+        end_time: "19:00"
+        sessions:
+          - title: "Leaving Drinks"
+            kind: social
