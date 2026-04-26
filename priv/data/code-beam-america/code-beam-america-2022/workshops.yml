@@ -1,0 +1,19 @@
+- title: "Architecting Reactive Systems"
+  slug: "architecting-reactive-systems"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2022-11-02"
+  end_date: "2022-11-02"
+  description: |
+    Learn how to architect fault-tolerant, scalable, soft, real-time systems with requirements for high availability. Lessons apply to the Erlang ecosystem (Elixir included) but are technology agnostic and could be applied to most stacks.
+
+    **Format:** Half-day workshop (16:00–20:00 UTC)
+
+    Covers distribution, interfaces and state, availability, scalability, and observability — the steps needed to design scalable and resilient systems. Based on the last four chapters of *Designing for Scalability with Erlang/OTP* by Francesco Cesarini.
+  trainers:
+    - francescocesarini
+  topics:
+    - erlang
+    - otp
+    - distribution
+    - observability

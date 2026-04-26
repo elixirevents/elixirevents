@@ -363,3 +363,16 @@
   longitude: -122.41614
   website: "https://www.hyatt.com/en-US/hotel/california/hyatt-centric-fishermans-wharf-san-francisco/sfofw"
   description: "A modern waterfront hotel on the edge of Fisherman's Wharf, walking distance to Pier 39 and the Cable Car Turnaround in San Francisco."
+
+- name: "Computer History Museum"
+  slug: "computer-history-museum"
+  street: "1401 N Shoreline Blvd"
+  city: "Mountain View"
+  region: "California"
+  country: "United States"
+  country_code: "US"
+  postal_code: "94043"
+  latitude: 37.4145135
+  longitude: -122.0787026
+  website: "https://computerhistory.org/"
+  description: "A museum dedicated to preserving and presenting the artifacts and stories of the Information Age, with a flexible event venue used by tech conferences in Silicon Valley."

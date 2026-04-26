@@ -1206,8 +1206,9 @@
 
 - name: "Dominik Katkó"
   slug: "dominikkatko"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Computer Science student"
+  bio: |
+    Computer Science MSc student at the Technical University of Denmark. Finished his bachelor's in Hungary at Eötvös Loránd University (program design specialization). He implemented the Language Server Protocol in the Wrangler Erlang refactoring tool and also works as an assistant instructor, program organizer, and full stack web developer.
 
 - name: "Duncan McGreggor"
   slug: "duncanmcgreggor"
@@ -3433,8 +3434,13 @@
 
 - name: "Andrew Ek"
   slug: "andrewek"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Principal Engineer, LaunchScout"
+  bio: |
+    Andrew Ek is a principal Engineer for LaunchScout, where he uses Elixir, Javascript, and Ruby to build software.
+
+    He otherwise spends most of his time helping other developers find more joy and satisfaction. Prior to being a software developer, he taught middle and high school language arts and math, and computer science at the collegiate level, and ran a non-profit where he taught poetry and taught other teachers how to teach poetry.
+
+    Andrew lives in Lincoln, Nebraska, USA, with his really excellent spouse and kiddo and their remarkably photogenic cats.
 
 - name: "Andrew Forward"
   slug: "andrewforward"
@@ -3789,8 +3795,9 @@
 
 - name: "Flora Petterson"
   slug: "florapetterson"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Technical writer & puppeteer"
+  bio: |
+    Flora is a technical writer who started learning Elixir to edit an article. Always curious, she is a second-generation puppeteer who built physics demonstrations in college. She lives in her hometown of New Orleans, where she enjoys camping, reading, and playing board games with her husband and children.
 
 - name: "Frank Midigo"
   slug: "frankmidigo"
@@ -3871,8 +3878,9 @@
 
 - name: "Jason Axelson"
   slug: "jasonaxelson"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Nerves and Scenic Enthusiast; Engineering Manager at Felt"
+  bio: |
+    Jason has been a professional developer for 11 years, using a variety of programming languages before falling in love with elixir in 2016. He enjoys writing developer tooling and has contributed to ElixirLS along with several other dev tooling projects. He enjoys tinkering with hardware and pushing Elixir to its limits. Oh, and he also enjoys a good whiskey.
 
 - name: "Jean Parapaillon"
   slug: "jeanparapaillon"
@@ -4086,8 +4094,9 @@
 
 - name: "Meryl Dakin"
   slug: "meryldakin"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Founding engineer at Knock"
+  bio: |
+    Meryl is a founding engineer at Knock where she enjoys working fullstack to create a delightful and powerful notification system (so you don't have to). She has been working on production Elixir applications since 2018; previously she worked primarily in Ruby. She is a bootcamp grad and former teacher at the Flatiron School.
 
 - name: "Michael Ries"
   slug: "michaelries"
@@ -4846,8 +4855,9 @@
 
 - name: "Elayne Juten"
   slug: "elaynejuten"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Software Engineer at Cars.com"
+  bio: |
+    Elayne Juten is enjoying her second career as a Software Engineer at Cars.com. She is passionate about helping early career developers build confidence. In her spare time, she enjoys contributing to Ruby for Good, playing Final Fantasy XIV online, singing musical theatre and hanging out with her pets.
 
 - name: "Erik Guzman"
   slug: "erikguzman"
@@ -4982,8 +4992,9 @@
 
 - name: "Andrew Moore"
   slug: "andrewmoore"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "I am a software engineer at Launch Scout focusing mainly in Elixir and Phoenix LiveView."
+  bio: |
+    I live in Pagosa Springs, Colorado with my lovely partner, our 9 year old son, our cat Nina, and our pet rats Cliffy and Admiral Whiskers. I began my career as a Front End web developer working on a React application, and was offered an apprenticeship position in Elixir with LaunchScout, and the rest is history unwritten.
 
 - name: "Anthony Accomazzo"
   slug: "anthonyaccomazzo"
@@ -5022,8 +5033,9 @@
 
 - name: "Katelynn Burns"
   slug: "katelynnburns"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Software Engineer at Launch Scout"
+  bio: |
+    An apprentice software engineer at Launch Scout with a background in Psychology and education. Katelynn has a Bachelors degree in psychology and is a bootcamp graduate from the Grace Hopper Program at Fullstack Academy. Experience with Javascript and Elixir. Katelynn has been engineering for over a year as a full stack developer.
 
 - name: "Kimberly Erni"
   slug: "kimberlyerni"
@@ -7773,3 +7785,101 @@
       url: "https://x.com/zurab"
     - platform: github
       url: "https://github.com/unix1"
+
+- name: "Ananya Shandilya"
+  slug: "ananyashandilya"
+  headline: "Staff Software Engineer at LinkedIn"
+  bio: |
+    Ananya is a Staff Software Engineer at LinkedIn solving problems in the infrastructure observability domain. She has been an Erlang developer for the last 3 years working on the network flow collection and processing system. She is a polyglot developer who can code in Erlang, Golang, Java and Python.
+
+- name: "David Ansari"
+  slug: "davidansari"
+  headline: "Software Engineer, VMware"
+  bio: |
+    David Ansari (Twitter: @david1ansari, GitHub: @ansd) is a software engineer at VMware. He joined the RabbitMQ team three years ago. In the past, he was a Cloud Foundry core contributor. David gave talks at KubeCon + CloudNativeCon, RabbitMQ Summit, Cloud Foundry Summit, VMware EMEA Tech Talk, and OOP Conference.
+
+- name: "Erin Boeger"
+  slug: "erinboeger"
+  headline: "Erlang Solutions"
+  bio: |
+    Erin has been working for several years in the Fin-Tech sector. Erin has designed and built many complex systems such as PCI compliant credit card vaults, funds transfer systems, authentications systems, accounting ledger systems, and experience with Blockchain. Erin has a focus on quality and creates extensive automated tests when building applications. Erin has a military and business background and is experienced with hiring and training software developers.
+
+- name: "Ian Butler"
+  slug: "ianbutler"
+  headline: "Tech Lead, Senior Engineer II"
+  bio: |
+    Writing code for over 20 years Ian has worked on everything from API development to data engineering and currently he is a Tech Lead for the Data Intelligence team. Ian currently does a lot of work with distributed systems, search, data processing and analytics. His current passion project is writing a full text distributed search engine using existing databases like Postgres and MySQL as the data store.
+
+- name: "Ihor Kuz"
+  slug: "ihorkuz"
+  headline: "Operating system engineer at Kry10 and seL4 TSC member"
+  bio: |
+    Dr. Ihor Kuz is an operating system engineer at Kry10, helping develop the Kry10 OS and Platform. Ihor has previous experience leading the team developing the seL4 microkernel, and has been involved with seL4 for as long as it's been around. He is also an associate professor at UNSW in Australia and has taught distributed systems and Erlang there for many years.
+
+- name: "Kent McLeod"
+  slug: "kentmcleod"
+  headline: "Operating system engineer at Kry10 Limited"
+  bio: |
+    Kent is an operating-systems engineer specialized in formally verifiable trustworthy systems using seL4. His interests include systems engineering and how using different operating system architectures can help construct trustworthy applications.
+
+    His work at Kry10 is focused on designing and developing the new Kry10 secure platform which includes a new device operating system, KOS, that leverages seL4 and the BEAM to make it easier to build and maintain embedded software that still needs to be secure and robust even if it’s connected to the internet.
+
+    He previously worked at the Trustworthy Systems Research Group at CSIRO's Data61 where he helped oversee the technical development of seL4 as an OS engineer. He is currently a member of the seL4 Foundation’s technical steering committee.
+
+- name: "Lee Barney"
+  slug: "leebarney"
+  headline: "Professor of Computer Science, Brigham Young University-Idaho"
+  bio: |
+    Twenty eight years ago, I entered the industry. In that time, I've been a senior software engineer, a junior programmer, a CEO, a product manager, an independent consultant, and pretty much everything in-between these. I have worked on mission-critical software for the semiconductor industry and began my own mobile-software startup company. Now I am a Professor of Computer Science and work to bring all those experiences into the classroom to help others succeeded in and love our industry.
+
+- name: "Lucas C. Tavano"
+  slug: "lucastavano"
+  headline: "Elixir Software Engineer"
+  bio: |
+    I'm Brazilian, living in Curitiba, PR. Started my interest in development since I was just a child, playing with Arduino and Raspberry Pi.
+
+    Started studying Computer Engineering at (Universidade Tecnológica Federal do Paraná) in 2015 and since then never left this path till today.
+
+    I've been hired as a software engineer for the first time in 2017, starting my career in embedded systems with Python and Shell, then moving to PHP and Elixir as a back-end developer for 3 years, and at last, I've fully focused my career on being an Elixir back-end developer for the last year.
+
+- name: "Marianne Bellotti"
+  slug: "mariannebellotti"
+  headline: "Author, Systems Geek, Relapsed Anthropologist"
+  bio: |
+    Marianne Bellotti is the author of books Kill It With Fire, Building Safety Critical Systems and Hiring Engineers, as well as a popular column on technology and system safety. She has built data infrastructure for the United Nations to help humanitarian organizations share crisis data and tackled some of the oldest and most complicated computer systems in the world as part of United States Digital Service. At Auth0 she ran Platform Services, a portfolio that included shared services, untrusted code execution, and developer tools. Currently she runs engineering teams at Rebellion Defense.
+
+- name: "Milton Mazzarri"
+  slug: "miltonmazzarri"
+  headline: "Senior Software Engineer"
+  bio: |
+    https://milmazz.uno/about/
+
+    Hello, my name is Milton Mazzarri (a.k.a. milmazz). I’m a Systems Engineer and an enthusiast of the Free/Libre Open Source Software philosophy.
+
+    I left my homeland (Venezuela) more than a decade ago and began exploring other opportunities worldwide. I worked for some years in Mexico, and now I work in the United States of America, always doing what I like, software development.
+
+    You can check my LinkedIn https://www.linkedin.com/in/milmazz and Github https://github.com/milmazz accounts if you want to know what I’m working on now.
+
+    Among the things I like the most are reading books, mainly in the science-fiction, biography, history, or technical categories. I also enjoy sharing time with family and friends, playing tennis, going for a bike ride, playing football, or just running near home. But, of course, I’m also passionate about Computer Science and Programming Languages.
+
+- name: "Mitchell Hanberg"
+  slug: "mitchellhanberg"
+  headline: "Senior Software Engineer at Simplebet"
+  bio: |
+    I am very passionate about using and teaching Elixir and have been doing so for the last 5 years.
+
+    I am the author/maintainer of a few libraries: Wallaby, Temple, an Elixir plugin for Neovim and frequently write articles to my blog explaining interesting topics and showcasing my latest open source activities.
+
+    I currently work at Simplebet as a Senior Software Engineer.
+
+- name: "Parker Rueve"
+  slug: "parkerrueve"
+  headline: "Software Developer, Launch Scout"
+  bio: |
+    I'm a software developer living in Ohio.
+
+    I'm interested in functional programming and user interfaces.
+
+    I work at Launch Scout as a software developer, delivering custom software using Elixir, Phoenix, and LiveView.
+
+    Before I started writing code professionally, I studied architecture and worked as a Vespa mechanic.

@@ -1,0 +1,505 @@
+## Talks
+
+  - title: "We are stronger together"
+    slug: "we-are-stronger-together"
+    kind: keynote
+    language: en
+    duration: 56
+    level: beginner
+    abstract: |
+      The BEAM is living its best days. The ecosystem is thriving, big companies are picking up our languages, innovation is sprawling, and BEAM-based solutions are getting traction in new domains.
+
+      But being fragmented, the ecosystem is not as strong as it deserves. There are over 30 languages speaking BEAM, yet only a few can talk to each other. While improvements to Erlang/OTP often trickle down to Elixir and Gleam, the opposite is rarely true. Rewriting everything with Erlang is not an option - we would not rewrite C++ in C either. So what can we do to bring the community together?
+
+      We want to talk about the challenges we are facing, the future we envision, and some ideas on how we can step into that future. We want to get you inspired to reunite the ecosystem.
+    speakers:
+      - maximfedorov
+      - andrealeopardi
+    topics:
+      - erlang
+      - elixir
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "BIeGVqg9bYo"
+        url: "https://www.youtube.com/watch?v=BIeGVqg9bYo"
+
+  - title: "OTP update"
+    slug: "otp-update"
+    kind: talk
+    language: en
+    duration: 18
+    level: beginner
+    abstract: |
+      Update from the OTP Core Team.
+    speakers:
+      - kennethlundin
+    topics:
+      - elixir
+      - embedded
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "4Ulurej4NTg"
+        url: "https://www.youtube.com/watch?v=4Ulurej4NTg"
+
+  - title: "Refactoring via the Language Server Protocol"
+    slug: "refactoring-via-the-language-server-protocol"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      Refactoring is the process of improving code without changing what it does, and is typically supported in tools such as Wrangler for Erlang. The Language Server Protocol (LSP) allows tools like this to be integrated in a variety of editors, including VS Code, emacs and vim, and the Erlang Language Server (ELS) provides an integration of Erlang into LSP.
+
+      After a short introduction to refactoring, Wrangler and Erlang LS, we explain how facilities in Wrangler, including refactorings, input and form-based choices, are incorporated into ELS and LSP, and demo these for a variety of Wrangler refactorings.
+    speakers:
+      - simonthompson
+      - dominikkatko
+
+  - title: "Network Observability at LinkedIn"
+    slug: "network-observability-at-linkedin"
+    kind: talk
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      The LinkedIn infrastructure has thousands of services serving millions of requests per second. At this scale, various kinds of data points must be collected, processed and observed to maintain the health of the infrastructure - one of them is network flows.
+      Our infrastructure components export flows at the rate of 2M packets per second. This talk describes a data collection, processing and storage system for network flow data written in Erlang. It gives an overview of the system’s architecture and some of the interesting challenges we faced while scaling this system.
+    speakers:
+      - ananyashandilya
+
+  - title: "Accessible Time-Series data with TimescaleDB"
+    slug: "accessible-time-series-data-with-timescaledb"
+    kind: talk
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      Timeseries data is everywhere! Whether you're tracking application metrics, financial price information, or IOT sensor data, having an effective means to store, analyze, and display this can add value to any product. However, having an accessible timeseries database can be a challenge, with many proprietary databases requiring licenses, infrastructure costs and maintenance. TimescaleDB is an open-source alternative that is simply a Postgres extension, a database that many developers are already using. In this talk, we will look at what problems are needed out of a Timeseries database, and how TimescaleDB can help you solve these problems with familiar tools that are easily accessible on the BEAM.
+    speakers:
+      - davelucia
+
+  - title: "Building blocks and how to use them: a MongooseIM case study"
+    slug: "building-blocks-and-how-to-use-them-a-mongooseim-case-study"
+    kind: talk
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      This is a talk about open source and the community, with MongooseIM as its backbone. MongooseIM is Erlang Solutions’ robust, scalable and customisable messaging server, and using it as a “case study”, I want to tell the story of the evolution of a big and old open source project. I’ll start presenting common Erlang design patterns for a server – the supervision trees, the many processes, the NIFs when they are needed, and most importantly, the ways to preserve a big project manageable and continuously evolving.
+
+      I also want to present the libraries that branched off from MongooseIM. In the evolution of a big project, often times you find pieces of code that are not an integral part of the business logic but actually can be generalised and reused for projects potentially very different from your own. I want to present what we found and how, what we extracted, and what we prepared for other people to reuse.
+    speakers:
+      - nelsonvides
+
+  - title: "Build animatronics with Nerves"
+    slug: "build-animatronics-with-nerves"
+    kind: talk
+    language: en
+    duration: 25
+    level: beginner
+    abstract: |
+      The Nerves platform, framework, and tooling provide a highly specialized environment for using Elixir to build advanced embedded devices in industries worldwide. But can Nerves also make a puppet dance?
+
+      In this talk, I'll share my experience as a second-generation puppeteer building interactive animatronics with Nerves. If you've ever wanted to automate a lawn decoration, create a haunted house in your garage, or code a small, silly project to give someone joy during a challenging time, this talk may be for you.
+    speakers:
+      - florapetterson
+
+  - title: "seL4 and BEAM: a match made in Erlang"
+    slug: "sel4-and-beam-a-match-made-in-erlang"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Erlang and Elixir can be used to develop robust and highly-available embedded applications with effective fault-tolerance, but the BEAM virtual machine still relies on the underlying operating system to provide a security and robustness foundation which can be insufficient when the OS cannot prevent other components from crashing the system.
+
+      The seL4 microkernel is a formally verified operating system kernel designed for embedded systems. seL4 provides isolation mechanisms that can prevent errors or attacks from spreading to other components but it expects each component to mange its own error detection and fault recovery.
+
+      I will demonstrate how combining the seL4 microkernel and the BEAM provide an exciting opportunity to fill these gaps. I will also describe my experience with building BEAM-based systems on seL4, integrating BEAM and seL4's inter-process communication mechanisms to allow robust communication between Beam apps and native OS components.
+    speakers:
+      - ihorkuz
+
+  - title: "Deep dive in Nx Backends"
+    slug: "deep-dive-in-nx-backends"
+    kind: talk
+    language: en
+    duration: 45
+    level: advanced
+    abstract: |
+      Elixir's Nx library implements its features through a configurable backend structure, in which inputs are dispatched to their respective implementations at runtime.
+
+      In this talk, we're going to review Nx's Backends and how they play with performance and automatic differentiation.
+      For this, we're going to study how Nx compiles and executes a given code sample and how using defn, Nx's numerical function definitions, can enable Axon (a deep learning library) to work.
+    speakers:
+      - paulovalente
+
+  - title: "One LiveView to Rule Them All: From Web to Mobile and Back Again"
+    slug: "one-liveview-to-rule-them-all-from-web-to-mobile-and-back-again"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      A year and a half ago a couple of apprentices and a supporting cast of mentors began working on a LiveView application. We recently launched that LiveView application into production. Let us tell you the tale of how we learned Elixir and the Phoenix Framework, and how we were able to turn that LiveView application into mobile apps that recently launched in the Google Play and Apple App Stores.
+    speakers:
+      - andrewmoore
+      - parkerrueve
+
+  - title: "Good behaviour: cultivating healthy Elixir teams and codebases"
+    slug: "good-behaviour-cultivating-healthy-elixir-teams-and-codebases"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      This talk is about how we as Elixir developers and managers can use our tool most effectively. As an Elixir developer who’s worked at three companies at varying stages of using the language, I cover practices of adoption and maintainability I’ve seen work best. We’ll look at an organization adopting it for microservices, a legacy codebase rebuilt from Ruby, and a startup using Elixir for its greenfield application. We’ll delve into best practices around testing, context organization, macros, Ecto, and more. IC’s and managers will come away with tangible strategies to develop processes and organize their work so the codebase remains flexible and coherent for the future of the product.
+    speakers:
+      - meryldakin
+
+  - title: "When the Cloud's Reign is Over"
+    slug: "when-the-cloud-s-reign-is-over"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      Cloud Computing is great. It gives you practically instant scalability with no need for a large infrastructure team and guaranteed up times, plus the ability to try scaled-down versions of your projects at negligible costs before investing in major infrastructure.
+      So it came as a surprise to me to discover that, after a certain tipping point, cloud computing is actually horrendously cost ineffective! We're not talking a few hundred dollars here, we're talking up to double the IT budget you'd be paying to run the majority of your systems in house. That doesn't even include any in-direct cost-savings such as reduced legal fees from simpler regulatory compliance! It turns out that GDPR and similar laws also become surprisingly simple when your customer's data is physically located on servers you control.
+      Join me for this talk to hear a few examples and a couple of options to move from someone else's computer to one of yours!
+    speakers:
+      - nicholasadams
+
+  - title: "On the way to achieve autonomous node communication in the Elixir ecosystem"
+    slug: "on-the-way-to-achieve-autonomous-node-communication-in-the-elixir-ecosystem"
+    kind: talk
+    language: en
+    duration: 25
+    level: advanced
+    abstract: |
+      Have you ever felt that finding communication nodes by specifying information such as IP addresses is complicated?
+
+      RTPS (Real-Time Publish Subscribe) is a communication protocol. The main advantage is that nodes can acquire autonomy in communication. Without setting up any broker, a node can automatically discover communication partners for publication/subscription only by specifying a topic. Note that the use of RTPS is restricted to the area under the NAT server.
+      We are working on R&D about "Rclex," a client library for ROS 2 platform. This library has directly integrated the feature of RTPS into Elixir.
+
+      This talk will consider how to bring the power of Rclex into Nerves devices. To find out the current status of Rclex, we will provide a way to realize this purpose. In addition, we will share our latest R&D activity to enable RTPS communication in Elixir/Nerves beyond the NAT server. Once achieved, we can apply RTPS to the wide-area distributed system.
+    speakers:
+      - hidekitakase
+
+  - title: "Fast IP address matching in Elixir with Radix Trees and persistent_term"
+    slug: "fast-ip-address-matching-in-elixir-with-radix-trees-and-persistent-term"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      When your web server receives a new login request, is it from a real user, or a rented cloud server? You have a list of thousands of IP prefixes, and need a way to compare each incoming conn's remote_ip to that list.
+
+      This problem will be used to illustrate several features of Elixir/Erlang. The beginning of the talk will introduce the problem to the audience, and show why the default Elixir data structures are not suitable. Once the radix tree has been covered, we'll move to the problem of thousands of processes needed to access the same data structure in a short period of time.
+
+      The talk will cover GenServers, ETS, and the constant pools optimization, and why these are the wrong choice for the problem. Finally, the complete solution will be shown, using persistent_term.
+    speakers:
+      - michaellubas
+
+  - title: "ActiveMemory the missing ORM for ETS and Mnesia"
+    slug: "activememory-the-missing-orm-for-ets-and-mnesia"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      A package to help bring the power of in memory storage with ETS and Mnesia to your Elixir application.
+
+      ActiveMemory provides a simple interface and configuration which abstracts the ETS and Mnesia specifics and provides a common interface called a Store.
+
+      Use ETS and Mnesia to help boost your application performance, simplify configurations and secrets, help reduce database dependency, and more.
+    speakers:
+      - erinboeger
+
+  - title: "Tackling Technical Debt at Adobe: A Story which started at Frame.io"
+    slug: "tackling-technical-debt-at-adobe-a-story-which-started-at-frame-io"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      After the aquisition of Frame.io by Adobe, priorities shifted. From being a startup, we were catapulted to a world of enterprise software development, with the potential of a 10x increase in volumes. Our first priority was tackling technical debt so as to allow us to scale and integrate with their other products.
+      In this talk, we will share some of the technical challenges we faced with a 6 year old Elixir code base and how we dealt with them. From internal code changes, improvements in stability, observability, the database layer, and of course, scalability. These initial improvements allowed us to replace some of the in-house applications with OSS and other Professional packages like Oban Pro+Web, and Broadway. In this talk, you will learn not only how to deal with technical debt, but also how to deal with management, getting them involved in the process and giving you the bandwidth you need to address the issues.
+    speakers:
+      - miltonmazzarri
+
+  - title: "Panel discussion: Erlang all the things!"
+    slug: "panel-discussion-erlang-all-the-things"
+    kind: talk
+    language: en
+    duration: 41
+    level: beginner
+    abstract: |
+      What the BEAM brings to the world of devices and why, sooner or later, you need to care.
+
+      According to Fortune Business insights: The global internet of things market is estimated to rise from USD 478.36 billion in 2022 to USD 2465.26 billion by 2029, with a global economic impact estimated at $11.1 _Trillion_ dollars by 2025. A compound annual growth rate of 26.4% — or — 7 IoT devices for every person on earth.
+
+      Fear not, intrepid programmer! Erlang, Elixir, and the BEAM are uniquely positioned to tackle problems at this scale using the techniques and technologies we use every day. Join us for an in-depth discussion on why the BEAM is the correct VM at the right time to meet the challenge of managing devices at global IoT scale.
+
+      Panelists:
+      Frank Hunleth - Embedded systems engineer, Co-Author of The Nerves Project, Author of "Build a Binary Clock with Elixir and Nerves"
+      Amos King - CEO at Binary Noggin, Elixir Outlaw podcast agitator, Man with Cat jokes
+      Boyd Multerer - Founder Kry10 secure platform, author of Senic, Ex-Microsoft and the reason you lost years of your live to XBox live
+      Andy King - Tech Executive | Educator | Author
+    speakers:
+      - randallthomas
+    topics:
+      - erlang
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "411wtYrw_MA"
+        url: "https://www.youtube.com/watch?v=411wtYrw_MA"
+
+  - title: "Keynote: Formal Verification? No, Formal Reasoning!"
+    slug: "keynote-formal-verification-no-formal-reasoning"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      Formal verification is difficult to integrate with a real software development process. It takes time, the abstraction of Boolean logic are difficult to learn and the specifications are out of date as soon as the system is updated. But formal logic can be used to make my operation tasks easier and more efficient if instead of using booleans to prove systems correct you use them to reason about system behavior and test hypothesis.
+    speakers:
+      - mariannebellotti
+
+  - title: "Elixir Update"
+    slug: "elixir-update"
+    kind: talk
+    language: en
+    duration: 26
+    level: beginner
+    abstract: |
+      Andrea will give updates on what the Elixir team has done in the last few months, what projects they're working on, what's going on on the research side, and what features will be in the next release.
+    speakers:
+      - andrealeopardi
+    topics:
+      - erlang
+      - security
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "cmt9ucvPlJ4"
+        url: "https://www.youtube.com/watch?v=cmt9ucvPlJ4"
+
+  - title: "How Elixir Helped Me to Love the Back-End"
+    slug: "how-elixir-helped-me-to-love-the-back-end"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      As someone whose main language was Javascript, I used to dread the backend. I would create the bare minimum and then set my focus on the frontend. Now that I use Elixir, however, I love working in the backend. This talk focuses on how Elixir makes the backend easy and intuitive and much less intimidating for anyone who shied away from the backend before.
+    speakers:
+      - katelynnburns
+
+  - title: "An Elixir application to a small hydropower plant with Nerves machines"
+    slug: "an-elixir-application-to-a-small-hydropower-plant-with-nerves-machines"
+    kind: talk
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      We have been working on developing small hydropower plants in regional areas in Japan. They have two subsystems, one controlling the plant and the other communicating with a management system on the internet. The latter subsystem, we call SCADA, or Supervisory Control And Data Acquisition.
+      We often use PLCs, or Programmable Logic Controllers, that are industrial computers for the former subsystem. However, PLCs are unsuitable for SCADA because they are too traditional to be a part of a distributed system like SCADA. Therefore we have been trying to use a modern method for it.
+      This time, we produce our own machine running Nerves, an extension of BeagleBone Green. Also, we made a program in Elixir to communicate the management system in the cloud. This presentation will report the system that Elixir uses in an industrial field. Also, we will discuss the issue in the domain that we should consider.
+    speakers:
+      - yutakakikuchi
+
+  - title: "Learn you some pattern matching for great good!"
+    slug: "learn-you-some-pattern-matching-for-great-good"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      Move `if` to the bottom of your toolbox. Have you ever looked at a function with numerous conditionals buried within and thought "there has to be a better way"? Well, there is! It's pattern matching!
+
+      This talk will focus on the basics of pattern matching, both how pattern matching works and why we might want to use it to simplify our code structure.
+
+      First, we will walk through an example of a simple pattern match and take a look at how these concepts can be applied in a larger codebase.
+
+      Then we will refactor by taking a look at a function that utilizes multiple conditionals and walk through how to implement pattern matching in a step by step process. We'll also discuss why refactoring to pattern matching can improve codebases.
+
+      Lastly, we'll discuss the pros and cons of utilizing pattern matching in different situations you might see in a large codebase. By the end of this talk, you'll have added pattern matching to your toolbox to wield with confidence.
+    speakers:
+      - elaynejuten
+
+  - title: "RabbitMQ Performance Improvements"
+    slug: "rabbitmq-performance-improvements"
+    kind: talk
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      This talk starts by providing an overview of RabbitMQ's architecture. Michal and David explain how the Erlang Runtime System is leveraged to implement a scalable message broker.
+
+      We discuss performance improvements in recent RabbitMQ releases for all queue types: Classic Queues, Quorum Queues, and Streams.
+      We provide examples of how we spotted and fixed bottlenecks in the broker thanks to new Erlang/OTP features.
+      Current performance shortcomings are also addressed in the presentation.
+
+      The talk concludes with an outlook of RabbitMQ's future direction and what the community can expect from RabbitMQ in 2023.
+    speakers:
+      - davidansari
+
+  - title: "Freestanding Erlang: Porting BEAM close to the metal"
+    slug: "freestanding-erlang-porting-beam-close-to-the-metal"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Erlang and Elixir are great languages for programming concurrent and fault-tolerant applications yet they still require BEAM to run them on real-world hardware. BEAM is a complex piece of software that leverages general purpose operating systems to enable concurrent applications to scale to incredible levels.
+
+      But what if you want to run Erlang or Elixir without an OS? Modern operating systems such as Linux are large and complex and can be the wrong choice to deploy on for embedded applications that prioritize security and robustness.
+
+      What would it take to run the open source BEAM implementation in a freestanding environment with no external OS services but still presented a partial POSIX system interface? Would this implementation still allow for useful applications? What are the tradeoffs and what features do we need to give up? This talk tries to answer these questions by presenting a recent project that ported BEAM to a freestanding environment for ARMv7 application processors.
+    speakers:
+      - kentmcleod
+      - ihorkuz
+
+  - title: "Typing with pixie dust"
+    slug: "typing-with-pixie-dust"
+    kind: talk
+    language: en
+    duration: 25
+    level: beginner
+    abstract: |
+      Legacy code. It can be...fragile. It really helps if you can already be sure what types your functions expect and return, but what if past-you didn't include type specs, making life harder for now-you?
+
+      Thankfully, TypEr already exists, but what if we could sprinkle on some pixie dust and make it more automagic? There's a Rebar3 plugin for that! Come learn about the tools used to create that plugin, discoveries along the way, and enhancements made to TypEr in the process.
+    speakers:
+      - mackenziemorgan
+
+  - title: "Diving In: a case study of using FP and Erlang in a Computer Science Curriculum"
+    slug: "diving-in-a-case-study-of-using-fp-and-erlang-in-a-computer-science-curriculum"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      Change can be hard, especially when everyone has input but not detailed experience. At BYU-Idaho we faced an outdated CS undergraduate curriculum that did not meet Higher Education or industry, and therefore student, needs. In a dramatic and complete rewrite of our CS curriculum, Functional Programming and Erlang became a large part of the solution to our problem.
+    speakers:
+      - leebarney
+
+  - title: "Comparing Elixir and Python when working with Simple Neural Networks"
+    slug: "comparing-elixir-and-python-when-working-with-simple-neural-networks"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      With a wide range of libraries focused on the machine learning market, such as TensorFlow, NumPy, Pandas, Keras, and others, Python has made a name for itself as one of the main programming languages. In February 2021, José Valim and Sean Moriarity published the first version of Numerical Elixir (Nx), a library for tensor operations written in Elixir. Nx aims to allow the language to be a good choice for GPU-intensive operations.
+
+       This talk aims to compare Python and Elixir when training convolutional neural networks using MNIST and CIFAR-10 datasets as examples, analyzing development experience, and performance difference.
+    speakers:
+      - lucastavano
+      - adolfoneto
+
+  - title: "OTP Process Abstractions with proc_lib"
+    slug: "otp-process-abstractions-with-proc-lib"
+    kind: talk
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      Creating your own generic process abstraction can allow developers to focus on their implementation and not worry about boilerplate. Examples of this exist in OTP with `gen_server`, in Elixir's Task, and in libraries like Phoenix with Channels.
+
+      Using `proc_lib`, you can quickly create your own process abstractions that are OTP-compliant: they're able to be supervised, respond to debugging tools like `sys:get_state/1`, and have their own custom callbacks (`handle_foo`). This is how `gen_server` and `gen_statem` are implemented.
+
+      In this talk, we'll explore all the different features that you've seen in OTP-compliant processes, what we might want in our own, and hypothesize what it takes to build one. We'll take this hypothesis and walk through building an abstraction for making custom language servers using the Language Server Protocol.
+
+      In the end, we'll see that in just a few lines of code, we can easily build our own OTP-compliant process abstraction and use it to build a process.
+    speakers:
+      - mitchellhanberg
+
+  - title: "Better Data Access with Composable Queries"
+    slug: "better-data-access-with-composable-queries"
+    kind: talk
+    language: en
+    duration: 45
+    level: beginner
+    abstract: |
+      The Ecto.Query DSL gives us a wonderfully expressive tool for fetching data. With a little bit of extra magic, we can create composable, human-readable, expressive, pipeline-able methods that reveal the human meaning behind the data we're accessing, rather than the implementation details of the DB schema itself.
+
+      In this talk, I'll show how to begin decomposing existing queries (and creating new queries) with composable queries, how to organize those queries, and how to make them discoverable. I'll also show how to accomplish common joins, make use of subqueries, and other common SQL operations.
+    speakers:
+      - andrewek
+
+  - title: "Crossing boundaries with Gleam - from functions to runtime."
+    slug: "crossing-boundaries-with-gleam-from-functions-to-runtime"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      As BEAM programming languages go, Gleam is a rising star that mantains the same capabilities we love from the platform but adds a slightly different route for constructing programs.
+
+      Gleam relies on type signatures and a friendly compiler that can very quickly detect some flaws in our logic. In some scenarios it will help with simple casting errors, but in others the type signatures can guide the design of our programs.
+
+      In this talk I would like to take a tabletop game and explore its implementation in Gleam, showing some of the bits and building blocks of the language plus different approaches of doing abstraction through types.
+
+      More so, once our core logic is defined we can start thinking on how it can be integrated to the BEAM runtime and how crossing this boundary looks like.
+    speakers:
+      - raulchouza
+
+  - title: "High throughput data processing with GenStage"
+    slug: "high-throughput-data-processing-with-genstage"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Data processing is a part of many disciplines in technology and as the amount of data you need to process grows so do the techniques you need to be able to safely and speedily ingest that data. Join us as we go through the building blocks Elixir offers to build different ingestion topologies that handle things like backpressure, partitioning, retries, and batching.
+    speakers:
+      - ianbutler
+
+  - title: "Nerves in a Cloud World"
+    slug: "nerves-in-a-cloud-world"
+    kind: talk
+    language: en
+    duration: 25
+    level: beginner
+    abstract: |
+      Nerves is an amazing project that allows you to run your Elixir projects on embedded devices. But did you know that your Nerves projects can escape the confines of hardware and live in the ethereal cloud? Yes, it’s true! I've been running a "production" Nerves project in the cloud for over a year and now. Although we know this is not the point of Nerves, it is fun to push the boundaries of Nerves and see what it can bring to novel situations. Join me in this talk to learn how to run Nerves in the cloud and what niche applications might benefit from such a set-up.
+    speakers:
+      - jasonaxelson
+
+  - title: "Barrel, a decentralized data platform to take back the control of your data"
+    slug: "barrel-a-decentralized-data-platform-to-take-back-the-control-of-your-data"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Along the years have built and provided to our customers a moderne decentralized platform which next iteration will be fully opensource. With barrel you can easily pass, filter and control the data between on-premise or cloud sites using a Peer-To-Peer network built over HTTP and other web technologies like WASM. You can also subscribe to different data stream using using AQMP, MQTT, Websockets, Server-Sent-Events.
+
+      The data is always under your control and sites even when using our service hosted in different datacenters in our own hardware.
+
+      With barrel we created and continue to maintain different opensource libraries and projects used by the Erlang Ecosystem: rocksbd binding, hackney, erlang nat, certifi... .. In this talk we will show how to use Barrel and its core opensource foundations in your own projects, why we build it in Erlang and how w' expect to maintain this opensource product and the different libraries we have built along the years
+    speakers:
+      - benoitchesneau
+
+  - title: "Keynote: Security Under the BEAM"
+    slug: "keynote-security-under-the-beam"
+    kind: talk
+    language: en
+    duration: 32
+    level: beginner
+    abstract: |
+      The BEAM VM is a leader in application-level isolation. Isolated code recovers from faults. Isolated processes can process messages asynchronously with very little coordination. Isolated data means garbage collection is fast and simple. We studied these isolation patterns and asked what would an operating system look like that learned from those lessons and was built to be good at running the BEAM? Could isolation patterns be used to provide deep security that runs from the OS up through the BEAM? The resounding answer to that question is yes! In this keynote, we will present our findings and show you how to build software that uses trustworthy isolation, so that if problems do occur, they cannot spread to the rest of the system. The combination of formal methods, the seL4 Microkernel and the BEAM is the magic formula to build a new operation system for the next generation of software and device. We are very excited to present, for the first time, the Kry10 Secure Platform.
+    speakers:
+      - boydmulterer
+    topics:
+      - erlang
+      - elixir
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "grQP1ikomek"
+        url: "https://www.youtube.com/watch?v=grQP1ikomek"

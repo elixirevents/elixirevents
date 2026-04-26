@@ -1,0 +1,180 @@
+tracks:
+  - name: "Hahn Auditorium"
+    color: "#3182CE"
+    position: 1
+  - name: "Grand Hall"
+    color: "#6B46C1"
+    position: 2
+
+days:
+  - name: "Day 1"
+    date: "2022-11-03"
+    position: 1
+    time_slots:
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "we-are-stronger-together"
+            track: "Hahn Auditorium"
+            kind: keynote
+      - start_time: "10:05"
+        end_time: "10:20"
+        sessions:
+          - talk_slug: "otp-update"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "10:50"
+        end_time: "11:35"
+        sessions:
+          - talk_slug: "network-observability-at-linkedin"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "refactoring-via-the-language-server-protocol"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "11:45"
+        end_time: "12:30"
+        sessions:
+          - talk_slug: "building-blocks-and-how-to-use-them-a-mongooseim-case-study"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "accessible-time-series-data-with-timescaledb"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "14:00"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "sel4-and-beam-a-match-made-in-erlang"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "build-animatronics-with-nerves"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "14:35"
+        end_time: "15:20"
+        sessions:
+          - talk_slug: "one-liveview-to-rule-them-all-from-web-to-mobile-and-back-again"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "deep-dive-in-nx-backends"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "15:30"
+        end_time: "16:15"
+        sessions:
+          - talk_slug: "when-the-cloud-s-reign-is-over"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "good-behaviour-cultivating-healthy-elixir-teams-and-codebases"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "16:30"
+        end_time: "16:55"
+        sessions:
+          - talk_slug: "fast-ip-address-matching-in-elixir-with-radix-trees-and-persistent-term"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "on-the-way-to-achieve-autonomous-node-communication-in-the-elixir-ecosystem"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "17:05"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "tackling-technical-debt-at-adobe-a-story-which-started-at-frame-io"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "activememory-the-missing-orm-for-ets-and-mnesia"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "17:40"
+        end_time: "18:30"
+        sessions:
+          - talk_slug: "panel-discussion-erlang-all-the-things"
+            track: "Hahn Auditorium"
+            kind: talk
+
+  - name: "Day 2"
+    date: "2022-11-04"
+    position: 2
+    time_slots:
+      - start_time: "09:10"
+        end_time: "09:55"
+        sessions:
+          - talk_slug: "keynote-formal-verification-no-formal-reasoning"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "elixir-update"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "10:45"
+        end_time: "11:30"
+        sessions:
+          - talk_slug: "an-elixir-application-to-a-small-hydropower-plant-with-nerves-machines"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "how-elixir-helped-me-to-love-the-back-end"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "11:40"
+        end_time: "12:25"
+        sessions:
+          - talk_slug: "rabbitmq-performance-improvements"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "learn-you-some-pattern-matching-for-great-good"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "12:35"
+        end_time: "13:00"
+        sessions:
+          - talk_slug: "typing-with-pixie-dust"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "freestanding-erlang-porting-beam-close-to-the-metal"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "14:00"
+        end_time: "14:45"
+        sessions:
+          - talk_slug: "comparing-elixir-and-python-when-working-with-simple-neural-networks"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "diving-in-a-case-study-of-using-fp-and-erlang-in-a-computer-science-curriculum"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "14:55"
+        end_time: "15:40"
+        sessions:
+          - talk_slug: "better-data-access-with-composable-queries"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "otp-process-abstractions-with-proc-lib"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "16:10"
+        end_time: "16:35"
+        sessions:
+          - talk_slug: "high-throughput-data-processing-with-genstage"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "crossing-boundaries-with-gleam-from-functions-to-runtime"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "16:45"
+        end_time: "17:10"
+        sessions:
+          - talk_slug: "barrel-a-decentralized-data-platform-to-take-back-the-control-of-your-data"
+            track: "Grand Hall"
+            kind: talk
+          - talk_slug: "nerves-in-a-cloud-world"
+            track: "Hahn Auditorium"
+            kind: talk
+      - start_time: "17:20"
+        end_time: "18:05"
+        sessions:
+          - talk_slug: "keynote-security-under-the-beam"
+            track: "Hahn Auditorium"
+            kind: talk
