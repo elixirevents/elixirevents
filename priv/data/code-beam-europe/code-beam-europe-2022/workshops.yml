@@ -1,0 +1,20 @@
+- title: "Building a Maintainable Open-Source Library with Erlang/OTP - A Speedrun"
+  slug: "building-a-maintainable-open-source-library-with-erlang-otp-a-speedrun"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2022-05-17"
+  end_date: "2022-05-17"
+  venue_slug: munchenbryggeriet
+  description: |
+    A hands-on speedrun through the conventions, tooling, and patterns that make an Erlang/OTP open-source library maintainable over the long term.
+
+    **Format:** 1 day workshop (09:30–17:00)
+
+    Covers project structure, CI, testing, documentation, releases, and community-friendly contribution workflows.
+  trainers:
+    - paulofoliveira
+    - brujobenavides
+  topics:
+    - erlang
+    - otp
+    - open-source
