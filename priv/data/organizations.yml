@@ -644,3 +644,15 @@
   website: "https://tubi.tv"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/40c60a457cb9a089681808a806cb0b5372d745d7.png"
   description: "Free ad-supported streaming TV service owned by Fox Corporation, with backend systems built on Elixir."
+
+- name: "Brex"
+  slug: "brex"
+  website: "https://brex.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/4c38dd13eabd1a19c8c32417d1c490e50e5e0284.png"
+  description: "Financial services and corporate cards for startups and growth companies."
+
+- name: "PagerDuty"
+  slug: "pagerduty"
+  website: "https://www.pagerduty.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/81f2c32dbe51aa2c9fb19680d2a83c10072cfa3e.png"
+  description: "Digital operations management platform for incident response and on-call scheduling."
