@@ -1,0 +1,75 @@
+- title: "The BEAM for Developers"
+  slug: "the-beam-for-developers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2025-11-04"
+  end_date: "2025-11-04"
+  venue_slug: estrel-berlin
+  description: |
+    A full-day, hands-on training exploring the Erlang Runtime System's internals. The course combines theory with practical coding labs, covering process architecture, memory management, messaging systems, scheduling, and debugging techniques.
+
+    Participants build a mini chat server, analyze system behavior, and learn to identify performance bottlenecks in production BEAM systems.
+
+    **Format:** 1 day in-person training (9:00–17:00 CET)
+
+    **Topics covered:**
+
+    - Process-oriented architecture for reliable systems
+    - Memory management, garbage collection, heaps, and stacks
+    - Message passing and signaling mechanisms
+    - Concurrency, schedulers, reductions, and SMP systems
+    - System tracing, profiling, and production observability
+    - Performance patterns and common anti-patterns
+    - Memory leak detection and incident analysis
+
+    **Prerequisites:** Basic experience with Elixir, Erlang, Gleam, or another BEAM language. Participants should bring a laptop with the BEAM and their preferred language pre-installed.
+  trainers:
+    - erikstenman
+  topics:
+    - erlang
+    - otp
+    - concurrency
+
+- title: "Secure Coding on the BEAM"
+  slug: "secure-coding-on-the-beam"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2025-11-04"
+  end_date: "2025-11-04"
+  venue_slug: estrel-berlin
+  description: |
+    Are your Erlang and Elixir applications as secure as they could be? Dive into the world of secure coding on BEAM with Erlang's co-creator Robert Virding to fortify your understanding of the BEAM platform's vulnerabilities, attacks, and defences.
+
+    This one-day tutorial is tailored for intermediate Erlang/Elixir developers, testers, and DevOps professionals who want to enhance their skill set and bolster the security of their projects. Discover best practices, uncover potential pitfalls, and master techniques to safeguard your applications from harm.
+
+    **Format:** 1 day in-person training (9:00–17:00 CET)
+
+    **Prerequisites:** Basic Elixir and Erlang syntax and concepts. Basic familiarity with the BEAM.
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - elixir
+    - security
+
+- title: "Architecting Systems for Scalability and Reliability"
+  slug: "architecting-systems-for-scalability-and-reliability"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2025-11-04"
+  end_date: "2025-11-04"
+  venue_slug: estrel-berlin
+  description: |
+    A comprehensive 8-hour tutorial on designing fault-tolerant, scalable systems with high availability requirements. The course covers distribution patterns, state management, fault tolerance techniques, scalability trade-offs, and observability practices.
+
+    While focused on the Erlang/Elixir ecosystem, the concepts apply broadly across various technology stacks.
+
+    **Format:** 1 day in-person training (10:00–18:00 CET)
+
+    **Prerequisites:** Software development experience required. Understanding of data consistency models is essential. Experience with distributed systems design is beneficial but optional.
+  trainers:
+    - francescocesarini
+  topics:
+    - erlang
+    - elixir
+    - distribution

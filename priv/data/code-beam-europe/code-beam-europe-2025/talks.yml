@@ -1,0 +1,1461 @@
+## Keynotes
+
+- title: "A Survival Guide for the AI Age"
+  slug: "a-survival-guide-for-the-ai-age"
+  kind: keynote
+  language: en
+  duration: 41
+  abstract: |
+    We’ve fully entered the AI age. There’s no putting the genie back in the bottle now. Things are about to look very different. This is a practical guide for an uncertain future.
+
+    This keynote is a wake-up call, a rallying cry and will present a practical roadmap for designing systems that serve both humans and AI. Learn how forward-thinking organisations are reimagining systems, teams, and delivery models to survive and thrive amid seismic shifts in software engineering economics.
+  speakers:
+    - joshprice
+  topics:
+    - ai
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "C7BWgWdhZwE"
+      url: "https://www.youtube.com/watch?v=C7BWgWdhZwE"
+
+- title: "From Super Bowl to Olympics: How CyanView Powers the World's Biggest Broadcasts with Elixir"
+  slug: "how-cyanview-powers-the-world-s-biggest-broadcasts-with-elixir"
+  kind: keynote
+  language: en
+  duration: 53
+  abstract: |
+    Discover how a 9-person Belgian startup revolutionized live broadcast technology using Elixir. CyanView controls 200+ cameras simultaneously during major events like the Olympics, Super Bowl, NBA, and NFL broadcasts—all without a marketing budget, growing purely on technical excellence.
+    This talk reveals how Elixir’s fault-tolerant architecture solved critical challenges in broadcast camera control. Learn about their MQTT + GenServer design that handles millions of real-time events, LiveView running on embedded ARM hardware, and supervision trees that prevent single camera failures from cascading across entire broadcasts.
+    We’ll explore real-world examples including their Olympics Beijing deployment—controlling 100+ cameras from Paris with zero broadcast failures despite intercontinental latency. See how binary pattern matching enables rapid protocol reverse engineering, allowing quick integration of new camera types and features like gimbal control.
+
+    Key Takeaways:
+
+    Explain CyanView use-case more detailed and present how Elixir can be used in broadcasting domain.
+
+    Target Audience:
+
+    Perfect for developers interested in IoT, real-time systems, and mission-critical applications where “you only get one chance.” Witness how the right technology choice enabled a tiny team to transform an entire industry.
+  speakers:
+    - daniilpopov
+    - davidbourgeois
+  topics:
+    - elixir
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "CseWOnKuk7o"
+      url: "https://www.youtube.com/watch?v=CseWOnKuk7o"
+
+- title: "Empathy in Engineering"
+  slug: "empathy-in-engineering"
+  kind: keynote
+  language: en
+  duration: 34
+  abstract: |
+    In this talk, we explore the human side of software development—where collaboration, understanding, and compassion are just as critical as code quality and system design. Through the lens of a real-world technical transformation at cars.com, this talk follows the journey of implementing a Server Driven UI (SDUI) architecture to unify feature delivery across web, iOS, and Android platforms.
+
+    As we set out to support all three platforms from a single source of truth, a critical architectural decision was made: step back from a LiveView-focused ecosystem and move toward a more flexible, client-agnostic GraphQL layer. While the technical ambition was bold, the true story lies in the people—engineers navigating the complexity of multi-platform development, and the friction—and growth—that comes from learning to support one another.
+
+    This talk is both a deep dive into architectural change and a reflection on why being a great teammate matters just as much as being a great technologist.
+
+    Key Takeaways for the Audience:
+
+    You can’t build scalable, cross-platform systems like Server Driven UI without deeply understanding the pain points and perspectives of your teammates across engineering, product, and design.
+    Good teammates ask questions, listen actively, and clarify assumptions. In a fast-moving, multi-team environment, clear, kind, and empathetic communication is just as essential as clean code.
+    The success of SDUI wasn’t just about rendering components from a server—it was about designing a system that enabled people to work together better, reduce redundant effort, and scale features more thoughtfully.
+  speakers:
+    - sundimyint
+  topics:
+    - community
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "G0wA5NTY1Rg"
+      url: "https://www.youtube.com/watch?v=G0wA5NTY1Rg"
+
+## Talks
+
+- title: "OTP Update"
+  slug: "update-from-the-otp-team"
+  kind: talk
+  language: en
+  duration: 15
+  abstract: "Ingela will present the updates on what the OTP team has done in the last few months, what the projects they’re working on are, and what’s going on on the research side."
+  speakers:
+    - ingelaandin
+  topics:
+    - otp
+    - erlang
+
+- title: "Champion the BEAM"
+  slug: "champion-the-beam"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    You can champion the BEAM and we all should.
+    If we each embrace a quantum of responsibility for community growth and promotion, then we collectively benefit from a more vibrant ecosystem and a desirable outlook. The world beyond our OTP borders, those unaware and unversed in the power and agility we cultivate, need to be tempted by our elegant, economical, and durable solutions. Only through our collective action can we broadly seed these ideas to foster acceptance and adoption. This session will provide context, a road map, and actions any member can take to realize these goals and ensure a strong, growing and engaging ecosystem
+
+    Key Takeaways:
+
+    Areas of need within the ecosystem and objective audiences in need of connection. A selection of actions individuals can take to engage and deepen connections within the community, and to build resources and capacity for outreach. Approaches and materials needed and available to help members conduct outreach to a variety of audiences.
+
+    Target Audience:
+
+    People interested in the sustainability and growth of the ecosystem and community, and greater acceptance of Elixir by prospective employers, customers and future developers.
+  speakers:
+    - danjanowski
+  topics:
+    - community
+    - erlang
+
+- title: "Reactor Under the Hood: Building a Graph-Based Saga Orchestrator in Elixir"
+  slug: "reactor-under-the-hood"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Here’s the thing - workflow engines sound complicated, but they don’t have to be. I’ll show you how Reactor uses a dead simple graph algorithm (find nodes with no dependencies, run them, remove them, repeat) to build something genuinely useful. We’ll dig into how this basic approach, combined with OTP, gives you concurrent execution with concurrency limits, automatic retries, compensation when things go wrong (and they will), and the ability to compose workflows inside each other. You’ll see how we made the simple cases easy without making the complex cases impossible.
+
+    Key Takeaways:
+
+    How a basic graph traversal becomes a proper execution engine when you add OTP to the mix
+    Managing shared concurrency pools so nested Reactors don’t starve each other of resources
+    Building compensation patterns that actually work when production decides to test your error handling
+    Making APIs that don’t make developers want to flip tables (harder than it sounds)
+
+    Target Audience:
+
+    Elixir developers who want to understand advanced OTP patterns, folks building libraries, system architects
+  speakers:
+    - jamesharton
+  topics:
+    - elixir
+    - ash
+
+- title: "The Roots of Resiliency"
+  slug: "the-roots-of-resiliency"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Have you ever worked on a feature you were proud of, only to have requirements change—leading you to rebuild it again—and again? I did, with a gnarly multi‑step Phoenix form. It was frustrating, it sparked doubt, and it drifted into defeatism. This talk traces the journey to becoming a more resilient engineer by reframing rework as adaptive growth, deleting code boldly, and drawing strength from your community. Expect practical, lightweight habits for Elixir/Phoenix developers to bend without breaking when requirements shift.
+
+    Key Takeaways:
+
+    Resilient mindsets and Elixir/Phoenix patterns to bend without breaking when specs shift.
+
+    Target Audience:
+
+    Developers who rebuild features as requirements evolve and are curious how Elixir/Phoenix support fast, safe iteration.
+  speakers:
+    - meksmcclure
+  topics:
+    - elixir
+    - community
+
+- title: "Proving What OTP Promises: GenServer in TLA+"
+  slug: "proving-what-otp-promises-genserver-in-tla"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Ever wondered how Erlang’s GenServer really works under the hood - and how you can be sure it behaves correctly?
+    This talk introduces TLA+, a powerful tool for modeling and thinking through complex system behaviors, and shows how it can be used to understand and verify the GenServer semantics.
+
+    Whether you’re new to formal methods or just curious about making your systems more robust, you’ll leave with a fresh way to look at your systems.
+
+    Key Takeaways:
+
+    Target Audience:
+  speakers:
+    - annettebieniusa
+    - arnestoll
+  topics:
+    - otp
+    - erlang
+
+- title: "Detecting Confident Nonsense: Testing LLM-Driven Apps"
+  slug: "detecting-confident-nonsense"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    It’s happening to more of us every day: out of nowhere, we’re told to integrate an LLM into the product. And so we do, we wire up a RAG pipeline, we add agents to detect adversarial prompts and we tweak all our system prompts.
+
+    And it works! The answers are both fluent and polite, and it even says “I don’t know” when it should. Everything looks great… until a tester reports that the AI promised them a 90% discount or gave dangerously bad advice.
+
+    How do we stop that from reaching production, when unit tests can’t validate human language?
+
+    In this talk, we’ll walk through practical ways to evaluate LLM-driven apps. From the most basic BLEU and ROUGE metrics to aspect-based evaluation, and retrieval scoring; you’ll learn what to measure, when to trust it, and how to catch confident nonsense before your users do.
+
+    Key Takeaways:
+
+    LLMs need to be tested in a fundamentally different way. We’ll look into those ways and why we pick different evaluations for different parts of the problem.
+
+    Target Audience:
+
+    People suddenly being asked to integrate LLMs into their customer-facing applications.
+  speakers:
+    - hernanrivasacosta
+  topics:
+    - ai
+    - testing
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qWbN_iW6F_c"
+      url: "https://www.youtube.com/watch?v=qWbN_iW6F_c"
+
+- title: "Browsers need not apply, UI testing with Lustre and Gleam."
+  slug: "ui-testing-with-lustre-and-gleam"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    UI testing is a chore. Often we end up settling with an end-to-end testing system, writing JavaScript assertion and snapshot tests, and dealing with half hour CI times. Isn't there a better way?
+
+    In this talk we'll break down and better understand what exactly it is we're trying to test when testing user interfaces before taking a look at four different approaches we can take for UI testing in Lustre without leaving the comfort of eunit.
+
+    We'll walk away with a toolkit of testing approaches we can reach for *before* we need to pull out Cypress and grind our CI to a halt!
+  speakers:
+    - hayleighthompson
+  topics:
+    - gleam
+    - testing
+
+- title: "BEAM Internals: Understanding the Erlang Scheduler"
+  slug: "understanding-the-erlang-scheduler"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Until recently, I took the magic of the BEAM for granted. Like many of us, I spawned processes, passed messages and happily used concurrency without much thought about how any of it really worked. While there is so much more to learn than fits in any one talk, this one aims to give an overview of the Erlang Scheduler and how it allows us write concurrent software without having to think about the hard parts.
+  speakers:
+    - sannekalkman
+  topics:
+    - erlang
+    - otp
+    - concurrency
+
+- title: "Concurrent AI Evaluation: Scaling Model Performance Monitoring with OTP"
+  slug: "scaling-model-performance-monitoring-with-otp"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Evaluating model performance remains a significant challenge in the rapidly evolving AI landscape. Traditional evaluation approaches often struggle with scale, consistency, and real-time feedback integration—precisely the problems that Elixir and the BEAM were designed to solve.
+
+    We’ll explore:
+
+    Live Benchmarking Pipelines: Implementing resilient GenServers and dynamic supervision trees that continuously process evaluation data at scale.
+
+    Concurrent Prompt Evaluation: Building distributed worker pools that can evaluate thousands of prompt variations across multiple LLM providers.
+
+    Systematic Human-in-the-Loop Automation: Designing resilient feedback processing pipelines using GenStage and Broadway that validate human annotations, detect inconsistent labelers, and automatically route corrections into training loops.
+
+    LangChain.ex Integration: Implementing “LLM-as-a-judge” evaluation patterns using LangChain.ex to create sophisticated, criteria-based evaluations of AI outputs with minimal code overhead.
+
+    This talk demonstrates why Elixir’s unique strengths make it the ideal platform for building AI evaluation systems that scale from prototype to production.
+
+    Key Takeaways:
+
+    This talk aims to bridge the gap between theoretical AI evaluation concepts and practical, production-ready implementations using Elixir’s unique capabilities. The audience will learn:
+
+    How to design and implement scalable AI evaluation architectures using OTP principles
+
+    Practical patterns for handling the inherent uncertainty in AI evaluation (timeouts, rate limits, inconsistent results)
+
+    How to integrate human feedback loops into automated evaluation pipelines
+
+    Working code examples using LangChain.ex and other Elixir AI libraries that they can adapt for their own projects
+
+    Target Audience:
+
+    Elixir developers working with AI/ML systems, AI engineers interested in scalable evaluation architectures, and teams building production LLM applications who need robust monitoring solutions.
+  speakers:
+    - ramiromatteoda
+  topics:
+    - ai
+    - otp
+    - elixir
+
+- title: "Adopting Gleam the Boring Way"
+  slug: "adopting-gleam-the-boring-way"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    You’ve learned about Gleam and are eager to use it in practice - but introducing a new language raises important questions: How will it integrate with your existing codebase? What if functionality isn’t available yet? Where does introducing Gleam even make sense?
+
+    Good news: adopting Gleam doesn’t have to be an all-or-nothing decision! In this talk, we’ll explore practical patterns for incremental adoption: identifying low-risk “islands” for Gleam, calling Gleam from Erlang/Elixir/JavaScript, and integrating existing libraries when you need them.
+
+    Through real-life FFI examples covering both backend integration and how to add Lustre to your frontends, you’ll leave with a toolkit for bringing Gleam to production without the big rewrite.
+
+    Key Takeaways:
+
+    How to identify if Gleam would be a good fit and finding the right niches
+    How Gleams FFI mechanism lets you call Erlang, Elixir and Javascript functions and how to annotate them
+    When to use FFI type assertions vs the dynamic/decode API
+    Best practices on writing good Gleam APIs around native libraries
+    Different techniques on how to integrate Gleam in existing Elixir, Erlan,g and frontend Javascript apps
+
+    Target Audience:
+
+    software architects and engineers evaluating tools for production systems.
+  speakers:
+    - yoshiereusch
+  topics:
+    - gleam
+
+- title: "Fifty shades of error"
+  slug: "fifty-shades-of-error"
+  kind: talk
+  language: en
+  duration: 21
+  abstract: |
+    “assert” is a brand new library for Erlang, designed at WhatsApp, which enhances how Erlang errors and assertions are rendered, making it easier for developers to understand what is wrong when an error occurs.
+
+    A drop-in replacement for Erlang/OTP stdlib’s assert macros and inspired by Elixir’s ExUnit library and the Exception behaviour, “assert” includes a structural diffing library and an exception blaming mechanism for Erlang.
+
+    In this talk you will learn how the library can help your productivity and how to use it. We will also explore the technical implementation behind “assert”.
+
+    “assert” is an example of how BEAM languages can influence each other, driving innovation and improvement across the whole ecosystem.
+
+    Key Takeaways:
+
+    Simple visual enhancements can lead to smarter debugging and more efficient development cycles
+    “assert” can be a precious tool in your debugging toolbox
+    BEAM languages can heavily inspire each other
+
+    Target Audience:
+
+    Erlang developers and enthusiasts
+    Anyone who will ever write or debug an Erlang test
+  speakers:
+    - robertoaloi
+  topics:
+    - erlang
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "fMHV4JMwpwA"
+      url: "https://www.youtube.com/watch?v=fMHV4JMwpwA"
+
+- title: "Stream, Decode, Detect"
+  slug: "stream-decode-detect"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: |
+    In my session, I would like to share with you the capabilities delivered by Boombox - an Elixir tool for multimedia streaming and processing that can be seamlessly integrated with AI models.
+
+    Together, we will build an Elixir application running real-time object detection models on frames from an external video stream. I will show you step-by-step how to integrate the newest computer vision AI models within the multimedia processing pipeline in order to analyze and modify the stream in real-time.
+
+    Prepare for a quick dive into the multimedia world with a pinch of YOLO ;)
+
+    Key Takeaways:
+
+    How to get and process an external multimedia stream in an Elixir application with Boombox
+    How to run computer vision AI models on video frames to detect objects in the stream
+    How to modify the multimedia stream in-flight to mark detected objects
+
+    Target Audience:
+
+    Anyone interested in:
+    Running state-of-the-art AI models on multimedia streams in Elixir
+    Adding multimedia streaming or processing capabilities to an Elixir project
+    Building production-ready solutions for server-side multimedia processing
+  speakers:
+    - felikspobiedzinski
+  topics:
+    - elixir
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "txXnlpPceAo"
+      url: "https://www.youtube.com/watch?v=txXnlpPceAo"
+
+- title: "You don't need an ORM"
+  slug: "you-don-t-need-an-orm"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Using SQL from other programming languages can prove to be quite the hassle: wrangling the database rows into the host’s language types is tedious and error prone, and making sure the application code stays up to date with the ever-changing database schema is just as challenging.
+
+    To address these developer experience shortcomings ORMs try to shield the developer from ever having to write any SQL at all. This doesn’t feel totally satisfying though: as developers we are always keen on using the right language for the job, so what would it look like to fully embrace SQL instead of trying to abstract it away?
+
+    In this talk we’ll look at Squirrel, a library that tackles database access in Gleam: a functional, statically-typed language. We’ll explore how code generation from raw SQL can help bridge the gap between the database and a functional language without compromising on type-safety, performance or developer experience.
+
+    Key Takeaways:
+
+    This talk will show you how one can use the right language for the job when faced with the task of talking to a database. As it turns out, we can stick to writing “plain old SQL” without having to resort to fancy (and leaky!) abstraction or compromising on developer experience!
+
+    You’ll discover how one can embrace SQL while using the functional languages they know and love, and what a fun time this can be!
+
+    Target Audience:
+
+    This talk is for everyone! You might find it particularly interesting if:
+    you have ever had to debug a nasty N+1 query problem, or an ORM performance issue, and wondered “is there a different way?”
+    if you are curious to learn how one can stick to plain old SQL and still have a good time using their favourite language of choice for app development
+  speakers:
+    - giacomocavalieri
+  topics:
+    - gleam
+    - postgresql
+
+- title: "What has Elvis been up to?"
+  slug: "what-has-elvis-been-up-to"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    It's been a few years since we presented the latest changes to Elvis (the Erlang linter) and there have been quite a lot of improvements, new rules, etc. So, I'll use this talk to show the evolution of the project, and showcase all the new rules we've added in the last 2 or 3 years.
+  speakers:
+    - brujobenavides
+  topics:
+    - erlang
+    - refactoring
+
+- title: "MoodBot: Raising a Tiny Robot with Elixir, Nerves, and AI"
+  slug: "moodbot-raising-a-tiny-robot-with-elixir-nerves-and-ai"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    What if your kid asked for a robot — and instead of buying one, you built it together with Elixir, Nerves, and a little help from AI?
+
+    That question kicked off the MoodBot project: a Raspberry Pi–powered robot that talks using text-to-speech, shows moods on a display, and is designed to evolve — from simple GenServers to generative AI.
+
+    This isn’t just about the features, though — it’s also about the process: using AI tools to explore unknown hardware, debug faster, and extend the system as new ideas emerge. MoodBot is part robot, part learning platform, and part family project.
+
+    In this talk, I’ll share:
+
+    How I’m approaching MoodBot with Elixir/Nerves, speech, and e-ink
+    How AI is helping me iterate, learn, and prototype in unknown territory
+    How this project blends family, fun, and fast feedback loops
+    Why the BEAM is ideal for AI-assisted tinkering at the edge
+
+    Key Takeaways:
+
+    How to start a real-world Nerves project, even with little hardware experience
+    Practical ways to integrate AI (like TTS and LLMs) into embedded Elixir applications
+    How AI tools can assist in debugging, prototyping, and hardware integration workflows
+    Why Elixir and the BEAM are a great fit for playful, resilient, and extensible robotics
+    Inspiration to combine family, learning, and tech in creative ways
+
+    Target Audience:
+
+    Elixir developers curious about combining hardware and AI in a playful way.
+  speakers:
+    - carstenroesnickneugebauer
+  topics:
+    - nerves
+    - embedded
+    - ai
+
+- title: "Jumping on the Bandwagon: How I ended up writing Gleam for a living"
+  slug: "how-i-ended-up-writing-gleam-for-a-living"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Diving into a new language can be pretty daunting. Falling into a new language by accident? That’s a completely different story.
+
+    This talk will discuss how a series of unexpected events led to a career in Gleam, highlighting the lessons learned along the way, Gleam’s strengths - and its pitfalls - and how to write production-ready Gleam code.
+
+    Key Takeaways:
+
+    I’m hoping to convince you to try Gleam if you haven’t already, and force your coworkers to try it if you have! We’ll go over all the things that make Gleam a great language for building production apps, and hear some success stories from people who’ve already done so!
+
+    Target Audience:
+
+    The BEAM-curious or the existing BEAMers who are new to Gleam and want to see how they could progress to being true Gleamlins.
+  speakers:
+    - isaacharrisholt
+  topics:
+    - gleam
+    - community
+
+- title: "Supervisors saving the day"
+  slug: "supervisors-saving-the-day"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    How does supervisors work, why should you use them? How have they evolved over time! Some tips and tricks and some real examples from OTP applications to show how I and my coworkers have utilized the power or supervisors and some consequence thereof.
+
+    Key Takeaways:
+
+    That they start to design their application thinking about supervisors from the start if they do not already do so. Otherwise maybe learn something about more resent additions such as significant children and supervisor:which_child/2
+
+    Target Audience:
+
+    Anyone writing Erlang/Elixir/Gleam applications.
+  speakers:
+    - ingelaandin
+  topics:
+    - otp
+    - erlang
+
+- title: "Formally Based Tools for Safer Erlang"
+  slug: "formally-based-tools-for-safer-erlang"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Ensuring program correctness (particularly in concurrent systems) is a complex challenge. Subtle bugs often arise from unexpected interactions or code changes and may go undetected until they cause failures in production. Formal methods help address these challenges by providing mathematically precise definitions and proofs of program behaviour. This talk focuses on Core Erlang, an intermediate language used within the Erlang compiler, and its precise implementation using the Coq/Rocq proof management system.
+
+    We explore practical tools built on this foundation, such as verifying program correctness and ensuring that refactorings and optimisations preserve behaviour without relying on testing. We also present a formally based interpreter for Erlang that validates our definitions against the behaviour of Erlang/OTP. Beyond serving as a reference implementation, our interpreter also enables systematic exploration of possible schedulings in concurrent programs, aiding developers in code comprehension. Our formal model also supports a long-term goal: developing a verified Erlang compiler free from miscompilation issues.
+
+    Key Takeaways:
+
+    Formal methods can be applied to Erlang: They offer a principled approach to ensuring program correctness, particularly in concurrent systems.
+    Core Erlang has a formal definition in Coq/Rocq: The intermediate language used by the Erlang/OTP compiler is precisely modelled in the Coq/Rocq proof management system.
+    Formally based tools for Erlang are actively developed: These tools support verification of program correctness and help developers better understand and reason about their code.
+    Toward a verified Erlang compiler: This work serves as a foundation for the long-term goal of developing a compiler with formally proven correctness, eliminating miscompilation risks.
+
+    Target Audience:
+
+    For anyone who is interested in applying formal methods and machine-assisted theorem proving to develop trustworthy software
+  speakers:
+    - danielhorpacsi
+    - peterbereczky
+  topics:
+    - erlang
+
+- title: "Gleam + TypeScript: Full-Stack Type Safety with Inertia-Wisp"
+  slug: "full-stack-type-safety-with-inertia-wisp"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Gleam developers love its functional simplicity, static types, and excellent error messages, but how do you convince a team with years of TypeScript expertise to give it a shot? This talk demonstrates two approaches to break down adoption barriers: smooth TypeScript interoperability and AI-assisted development. We’ll explore how Gleam’s unique properties make it the perfect backend counterpart to TypeScript frontends, with Inertia serving as the bridge that seamlessly connects these two worlds. Beyond type safety, teams gain the fault tolerance and scalability of the BEAM platform. Live demonstrations include sharing types and validation logic, server-side rendering, and how modern AI-enabled development can get you productive in hours, not weeks.
+
+    Key Takeaways:
+
+    Attendees will learn practical strategies for combining their existing skillset with React and TypeScript with elegant and reliable Gleam backends. They’ll see live demonstrations of full-stack type safety using Inertia-Wisp, understand how to leverage server-side React rendering from Gleam, and discover how AI assistance accelerates Gleam adoption. The talk provides concrete patterns for leveraging existing TypeScript knowledge while gaining the fault tolerance and scalability benefits of functional programming on the BEAM.
+
+    Target Audience:
+
+    BEAM ecosystem developers interested in frontend integration, TypeScript/JavaScript developers curious about functional backends, and technical leaders evaluating Gleam for their next project.
+  speakers:
+    - michaelbuhot
+  topics:
+    - gleam
+    - phoenix
+
+- title: "Building Fintech Systems That Stay Fast and Stay Compliant"
+  slug: "building-fintech-systems-that-stay-fast-and-stay-compliant"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Most fintech backends either grow too fast and break, or slow down to stay compliant. It doesn’t have to be either-or.
+
+    This talk is a practical overview of how to design systems that can handle regulation, scale, and product changes at the same time. I’ll share patterns I’ve used across different fintech projects: payment flows, ledgers, orchestration, and audits.
+
+    Some of it is low-level: typed money, trace IDs, and structured logs. Some of it is design choices: clear ownership, process boundaries, and how to support change without adding risk.
+
+    I’ll also touch on what the BEAM makes easier in this kind of environment, and where you still have to think for yourself. No frameworks, no buzzwords. Just decisions that hold up under pressure.
+
+    Key Takeaways:
+
+    What a system needs to support compliance without blocking teams
+    Practical patterns for ledgers, orchestration, and audit trails
+    Trade-offs that show up late if you ignore them early
+    Why BEAM is a strong fit for regulated infrastructure
+
+    Target Audience:
+
+    Developers, tech leads, and architects working on fintech systems or regulated platforms
+  speakers:
+    - erikstenman
+  topics:
+    - elixir
+    - engineering
+
+- title: "From Freakout to Fix: Navigating a Security Disaster"
+  slug: "from-freakout-to-fix-navigating-a-security-disaster"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Picture this: it’s late, you’re on your third coffee, and you realize your library has a serious security hole. Even worse—there’s already a public exploit. Thousands of projects are at risk, and it’s on you to fix it.
+
+    This talk walks through how to handle that situation without melting down. We’ll cover how to file vulnerabilities, notify users, and regain control. You’ll learn about vulnerability scanners, Hex version retirement, and how a bit of prep can save you when things catch fire.
+
+    We’ll also look at how to prevent disasters in the first place—with security policies, emergency contacts, and a healthy dose of paranoia. And most importantly: disclosure isn’t shameful. Done right, it’s leadership.
+
+    Walk away knowing how to go from panic to patch—and maybe even feel good about it.
+
+    Key Takeaways:
+
+    How to respond when a public vulnerability is discovered in your code
+
+    An understanding of how the vulnerability disclosure process works (including CVEs and Hex-specific tools)
+
+    Concrete steps you can take today to prepare for a security incident
+
+    Why being transparent and proactive about security is a strength, not a shame
+
+    Target Audience:
+
+    Anyone maintaining code that others rely on—whether it’s an open source library or a production application. If you’ve ever thought “what if I ship a bug that breaks the world?”, this talk is for you.
+  speakers:
+    - jonatanmannchen
+  topics:
+    - security
+    - erlang
+
+- title: "Bringing Gleam to Obsidian: A Minimal Plugin Journey"
+  slug: "bringing-gleam-to-obsidian-a-minimal-plugin-journey"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Are you curious about using Gleam, a statically typed functional language that compiles to JavaScript, outside its usual backend comfort zone? In this talk, I’ll walk you through my journey as a Gleam newcomer integrating its JavaScript target into the Obsidian plugin system. We’ll build a minimal yet practical plugin, exploring the setup, initial hurdles, and how Gleam’s type safety and functional style translate to the world of note-taking extensions. Whether you’re new to Gleam or just interested in alternative plugin development workflows, this session will share hands-on insights, lessons learned, and tips for getting started with Gleam in the Obsidian ecosystem.
+
+    Key Takeaways:
+
+    First-hand insights into the challenges and surprises encountered as a Gleam newcomer.
+
+    Practical tips for setting up a development workflow that combines Gleam and Obsidian.
+
+    Inspiration for trying out new languages and tools, even if you’re not an expert yet.
+
+    Target Audience:
+
+    Obsidian users and plugin authors looking for alternative development workflows.
+
+    Anyone who enjoys learning from real-world, beginner-friendly journeys into new ecosystems.
+  speakers:
+    - norbertmelzer
+  topics:
+    - gleam
+
+- title: "Taming 20 Million Oban Jobs in Production"
+  slug: "taming-20-million-oban-jobs-in-production"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    What happens when a queue meant for thousands of jobs swells to 20 million—and keeps growing? In this talk, I’ll walk you through a real-world incident where our Oban queue spiraled out of control in production. We’ll dissect what led to this situation, how we investigated the root cause without halting traffic, and the changes we made to restore stability. This isn’t just a story about background jobs—it’s a practical lesson in diagnosing live systems, managing back pressure, and making safe trade-offs in production.
+    As a bonus, I’ll share battle-tested design tips for building resilient systems with Oban—from queue isolation and job retries to rate-limiting and observability. Whether you’re scaling a system or preventing your own “20 million jobs” moment, these lessons will help.
+
+    Key Takeaways:
+
+    Strategies for debugging and resolving large-scale queue backlogs
+
+    Practical advice for running Oban in production environments
+
+    How to design job-processing systems that are resilient and observable
+
+    Techniques for managing job volume, retries, and queue isolation
+
+    Bonus tips from real-world experience designing with Oban
+
+    Target Audience:
+
+    Elixir developers, DevOps, and engineering leads working with or planning to adopt Oban.
+  speakers:
+    - karlosmid
+  topics:
+    - oban
+    - elixir
+
+- title: "Why We Killed Riak Search, and What We're Doing Instead"
+  slug: "why-we-killed-riak-search"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    Riak Search was a Solr-based full-text search engine included in Riak KV. This talk is about why it wasn’t a good idea, and what we are planning to replace it. We’ll discuss the issues we found when trying to manage a Java VM from the Erlang VM, scaling issues encountered, and how people got around them. We’ll also touch on how to do searches at the moment in OpenRiak KV 3.2.5 using secondary indexes and regular expressions, and discuss the new Filters-based search in OpenRiak KV 3.4. We’ll finish with how to integrate 3rd party search engines such as OpenSearch using the TicTac reconciliation engine.
+
+    Key Takeaways:
+
+    Why not to use multiple VMs on the same box, how to spot when this is an issue, how OpenRiak dealt with this, and how OpenRiak brought back similar functionality in a better way
+
+    Target Audience:
+
+    Anyone whose code relies on a 3rd party VM such as Java
+  speakers:
+    - nicholasadams
+    - peterclark
+  topics:
+    - libraries
+    - erlang
+
+- title: "Functional Domain Modeling with Gleam"
+  slug: "functional-domain-modeling-with-gleam"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    This presentation demonstrates how Gleam’s powerful type system and functional programming paradigm excel at domain modeling within Domain-Driven Design (DDD).
+
+    It showcases Gleam’s ability to create highly accurate domain representations through structs to represent data, union types for modeling choices, and pure functions that directly reflect business workflows.
+
+    It also explores how Gleam’s syntax makes domain logic self-evident and accessible to non-programmers while maintaining the robustness and concurrency benefits of the BEAM for production systems.
+
+    Key Takeaways:
+
+    Get insights on how Gleam’s type system can be used to directly represent domain concepts and business rules, and to build complex domain behaviors by composing simple, pure functions and data structures. Understand how well-modeled functional code becomes accessible documentation for both technical and non-technical stakeholders.
+
+    Target Audience:
+
+    Developers already familiar with functional programming concepts and interested in Domain-Driven Design, Gleam developers looking to apply DDD principles effectively in their projects and Elixir/Erlang folks exploring Gleam in general.
+  speakers:
+    - eduardohernacki
+  topics:
+    - gleam
+    - functional-programming
+
+- title: "Adding JIT to AtomVM"
+  slug: "adding-jit-to-atomvm"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    The just-in-time compiler was introduced at CodeBEAM V in 2020 by Lukas Larsson. It shipped with OTP-24 and succeeded HiPE in dramatically improving the speed of the BEAM.
+
+    In this talk we will discuss how native code compilation is brought to AtomVM, the virtual machine that runs on micro-controllers and in the browser, following a slightly different approach.
+
+    The talk will compare BEAM and AtomVM approaches to emulation. Typically, BeamASM, the JIT compiler of the BEAM, was designed with simplicity and maintenance in mind to cope with the size of OTP team. As AtomVM team is even smaller, simplicity and maintenance are also key requirements. AtomVM’s native compiler also needs to address AtomVM’s constraints such as portability to most important supported architectures (RISCV, ARM32, Xtensa, WASM) as well as compilation directly on the devices with very few amounts of RAM, as AtomVM can blink with 128 KB of RAM and run Distributed Erlang with as few as 400 KB.
+
+    Eventually, AtomVM JIT compiler, being a 2025 project, leverages newest software engineering technologies and the talk will also cover how an LLM eventually helped with such a complex task.
+
+    Key Takeaways:
+
+    How execution of code in BEAM languages work
+    How to software engineer a VM for microcontrollers
+    How LLM can be used to compensate for developer knowledge
+
+    Target Audience:
+
+    Erlang, Elixir and Gleam developers curious about execution of their code
+    IoT enthusiasts
+  speakers:
+    - paulguyot
+  topics:
+    - embedded
+    - erlang
+
+- title: "Erlang just got a new debugger"
+  slug: "erlang-just-got-a-new-debugger"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    OTP 28 comes with new debugging capabilities and edb is a stepping debugger built around them. Unlike OTP’s old debugger, edb will freeze your node and let you check what all those processes are up to, with no rush.
+
+    Is this a toy? Not at all! We use it at WhatsApp everyday and, as we will see in this talk, so can you.
+
+    Key Takeaways:
+
+    There’s a new debugger for Erlang (requires OTP 28)
+    Works with VSCode or any major editor/IDE
+    Not much is Erlang specific, shouldn’t be too hard to support other BEAM languages
+    They may want to try it out
+
+    Target Audience:
+
+    Erlang / Elixir / Gleam developers
+  speakers:
+    - danielgorin
+  topics:
+    - observability
+    - erlang
+
+- title: "Rapidly building with Gleam"
+  slug: "rapidly-building-with-gleam"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    iindy are a company that sends a lot of messages, we manage brand communication via WhatsApp, Instagram and more.
+    Powering all these conversations is a rules engine developed in Gleam, running on BEAM infrastructure.
+
+    Gleam gives us amazing development velocity, and we’re able to iterate on our rules engine quickly.
+    The BEAM gives us a robust and scalable platform to run our rules engine on, missing user messages is not an option.
+
+    This talk will cover how we use Gleam to build fast. We’ll discuss how the ecosystem and community makes productive development easy and natural.
+    We’ll cover how it fits into the wider BEAM ecosystem, as well as covering Gleams party trick of how it fits into the frontend ecosystem.
+
+    Key Takeaways:
+
+    Gleam is productive. Gleam has been production ready for a long time.
+
+    Target Audience:
+
+    I will assume some BEAM knowledge and focus on the things available in Gleam that are not available in the other BEAM languages
+  speakers:
+    - petersaxton
+  topics:
+    - gleam
+
+- title: "Build your own BEAM"
+  slug: "build-your-own-beam"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    We’ll build a toy single-threaded implementation of the BEAM scheduler from first principles, run some example programs on it and visualize what it’s doing under the hood. Topics: spawning, preemptivity, messaging, links.
+  speakers:
+    - martinjaniczek
+  topics:
+    - erlang
+    - compilers
+
+- title: "Elevating Phoenix with OpenRiak"
+  slug: "elevating-phoenix-with-openriak"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    This talk will be a heavy “lift” as we delve into the integration of two titans of the BEAM ecosystem: OpenRiak, a highly scalable distributed NoSQL database built in Erlang (and a new initiative of the Erlang Ecosystem Foundation), and the Phoenix Framework, a powerful web development framework in Elixir. We’ll focus on how to leverage OpenRiak’s strengths, such as high availability & support for unstructured data in order to complement Phoenix.
+
+    The session will cover practical ways to get started, illuminate full-stack challenges and resolutions, and reveal high-level strategies for success.
+
+    Our journey will take the form of a guided tour through a series of conceptual frameworks, building toward a little-known crown jewel of category theory—one that may even unify our entire BEAM ecosystem.
+
+    This talk is designed for developers and architects eager to elevate their skills and tooling while harnessing the synergy of Phoenix and OpenRiak. Whether you’re new to the BEAM ecosystem and seeking guidance or a veteran looking to deepen your expertise, this session will provide foundational understanding and empower you to build more scalable, resilient systems.
+
+    Key Takeaways:
+
+    · Pretty much what you expect it will be.
+    · Current Phoenix Framework strategies and how they change.
+    · More about the OpenRiak EEF initiative.
+
+    Target Audience:
+
+    Any BEAM coder, or someone looking at the BEAM community for the first time. Phoenix Framework users wanting to use OpenRiak. OpenRiak users wanting to expand into Phoenix.
+  speakers:
+    - robertcarbone
+  topics:
+    - libraries
+    - phoenix
+
+- title: "OTP and Gleam"
+  slug: "otp-and-gleam"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    The OTP framework gives applications written in Erlang and Elixir super-powers, but is that true for Gleam too?
+    Can Gleam take advantage of what OTP has to offer? And how does Gleam's strict type system work with message based concurrency in general?
+  speakers:
+    - louispilfold
+  topics:
+    - gleam
+    - otp
+
+- title: "The Erlang Ecosystem Frontier: Our Work Ahead"
+  slug: "erlang-ecosystem-frontier"
+  kind: talk
+  language: en
+  duration: 10
+  abstract: |
+    Everyone needs to know about the evolving and new work on the frontier of our ecosystem. From security planning and response, to building and reinforcing core components, to working with governments to ensure we are on top of regulatory compliance, to expanding our role in the larger open source world. Come hear a speedy breakdown of what you need to know.
+
+    Key Takeaways:
+
+    Clear vision of what’s coming, what to expect, and how to get involved.
+
+    Target Audience:
+
+    Everyone
+  speakers:
+    - danjanowski
+  topics:
+    - community
+    - erlang
+
+- title: "Update from the Elixir Core Team"
+  slug: "elixir-update"
+  kind: talk
+  language: en
+  duration: 15
+  abstract: "Andrea will give updates on what the Elixir team has done in the last few months, what projects they’re working on, what’s going on the research side, and what features will be in the next release."
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+
+- title: "Scaling, securing, and protecting DNS, in Erlang"
+  slug: "scaling-securing-and-protecting-dns-in-erlang"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    DNS is that protocol we all seem to know the basics of it but we all know we don’t know it in depth. It is at the core of the internet and we all need it to work, but, how does it work? And maybe more interestingly, how does it not work? And how is it implemented?
+    This presentation explores the application of Erlang/OTP in a DNS nameserver, highlighting its strengths and weaknesses, and the trade-offs. We’ll also compare against leading C++ solutions, judging by performance, fault-tolerance, development ease, and community support. We’ll cover engaging challenges, like:
+
+    How to implement a Plug-inspired extensible protocol: a purely functional idiom that allows for easy extensibility and testing
+    Networking stack in the BEAM: a critical component of any server and how to it tailor to your needs
+    DNSSEC and proof-of-non-existence: at scale, what do you sign, an empty string?!
+    Surviving DDoS attacks: did you know DNS DDoS represents a quarter of the world’s DDoS attacks?
+    What’s next: how I think the future will look for DNS and the BEAM
+
+    Key Takeaways:
+
+    A text-book example of the BEAM’s best features.
+    Insights into DNS operations and the strengths/weaknesses of Erlang/OTP for DNS.
+    Comparative analysis of Erlang/OTP and C++ solutions, focusing on performance and security.
+    Future trends in DNS and strategies for handling challenges like DDoS attacks.
+
+    Target Audience:
+
+    Developers curious about how such a core component of the internet is implemented in a functional and concurrent paradigm.
+    Professionals seeking advanced insights into DNS implementation and security.
+    Anybody looking for a perfect text-book example of Erlang’s programming model, including supervision trees, networking capabilities, concurrency, fault-tolerance, light-weight processes, ets tables, you name it.
+  speakers:
+    - nelsonvides
+  topics:
+    - erlang
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "Ts9OMaN0jqI"
+      url: "https://www.youtube.com/watch?v=Ts9OMaN0jqI"
+
+- title: "Beyond GenServers: Declarative AI Flows with gen_statem"
+  slug: "beyond-genservers-declarative-ai-flows-with-gen-statem"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    gen_statem is a rarely talked about and used OTP behaviour. Most BEAM developers reach for GenServer when building processes, but in the world of AI agents, gen_statem is the hidden gem that transforms complex agent loops into declarative state machines. Learn why gen_statem’s behaviour aligns with AI agent patterns, enabling developers to easily write cleaner code describing how their agents behave. You’ll learn how to build gen_statem processes, using features such as state functions, internal events, and postponing to build ReAct (Reasoning/Actions) AI agent loops. This talk is perfect for anyone building AI agents with Elixir wanting to level up their implementation with OTP behaviours.
+
+    Key Takeaways:
+
+    The main takeaway is that while it is one of the BEAM’s “hidden” gems, building AI agents with gen_statem can be a huge advantage over the more classical approach of building with GenServers. When state can have several transitions it is often a great idea to separate it from the data, as opposed to GenServers, where they tend to be combined. The audience will learn how to create gen_statem processes, how the ReAct (Reasoning/Actions) AI agent loop works, and how to build a ReAct loop using gen_statem, using gen_statem features such as state functions, events, and postponing.
+
+    Target Audience:
+
+    Anyone building AI Agents with Elixir. The target audience should ideally have Elixir experience, and understand basic concepts around processes and pattern matching. No prior experience in gen_statem is needed, we’ll build on basic fundamentals during the talk.
+  speakers:
+    - cobybenveniste
+  topics:
+    - ai
+    - otp
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "duEZxrsTUA4"
+      url: "https://www.youtube.com/watch?v=duEZxrsTUA4"
+
+- title: "Beyond the Squeeze: Shipping a Full BEAM Stack in 16 MB—Now with Energy‑Aware Booting"
+  slug: "shipping-a-full-beam-stack-in-16-mb-now-with-energy-aware-booting"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    Can a complete Erlang/OTP system truly thrive within just 16 MB of RAM, network effectively, and reliably boot using harvested energy?
+
+    At Code BEAM Lite Stockholm, we shared our work-in-progress on fitting the BEAM into an ultra-constrained environment, leaving memory management and energy harvesting as open challenges. Now, we have successfully completed this journey. Memory tuning is optimized enough to comfortably accommodate user applications. We have developed a robust, energy-aware boot sequence that safely initializes Erlang once sufficient harvested energy accumulates. Additionally, we’ve integrated GRiSP nano fully into GRiSP.io, providing a seamless, reproducible setup for the community.
+
+    This talk will highlight allocator diagnostics, memory usage insights, and live demonstrations of efficient low-power operation. Attendees will gain practical knowledge on extreme optimization, insights into designing energy-conscious boot processes, and an understanding of how to reliably deploy BEAM-based solutions in environments previously considered unreachable.
+
+    Key Takeaways:
+
+    Memory Optimization Techniques: General strategies for significantly reducing memory footprints, including allocator tuning, module management, and runtime adjustments.
+
+    Energy-Aware System Design: Insights into constructing boot sequences and runtime behaviors that adapt dynamically to available harvested energy.
+
+    Integration and Deployment Best Practices: Learnings from integrating highly optimized Erlang runtimes with minimal OS environments such as RTEMS.
+
+    Community Tooling Insights: How accessible, reproducible tooling, such as GRiSP.io, simplifies the deployment of constrained embedded Erlang applications for the broader community.
+
+    Target Audience:
+
+    Embedded and IoT System Developers interested in using Erlang/Elixir and the BEAM in resource-constrained hardware environments, such as GRiSP and GRiSP nano platforms.
+    BEAM Enthusiasts and Erlang/Elixir Developers keen on advanced optimization techniques and exploring the limits of Erlang/Elixir runtimes in non-traditional deployments.
+    Low-Power and Energy-Harvesting Experts looking for insights into integrating energy-aware boot and runtime management for sustainable computing.
+    Real-Time System Engineers seeking practical lessons from deploying Erlang/Elixir with RTEMS or similar real-time operating systems.
+    Researchers and Innovators exploring novel applications of functional programming and fault-tolerant technologies in ultra-low-power scenarios.
+  speakers:
+    - peerstritzinger
+  topics:
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "-Md3Mi5hukQ"
+      url: "https://www.youtube.com/watch?v=-Md3Mi5hukQ"
+
+- title: "The BEAM-Rust Sandwich"
+  slug: "the-beam-rust-sandwich"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    The BEAM is the perfect tool for building distributed systems that are resilient, maintainable and fun to implement. However, there are certain areas where the BEAM lacks, like computation heavy and graphically intensive applications.
+
+    In this talk I will demonstrate why Rust is the perfect match for Elixir. You will learn how to build a Phoenix LiveView application that is sandwiched between Rust, in the browser using WebAssembly, and in the backend using Rustler. Whether you’re planning to build a browser game with 3d graphics, a weather simulation or just want to calculate the last digit of Pi, there is no excuse not to run the BEAM anymore.
+
+    Key Takeaways:
+
+    This is a guided tour through the architecture of a Phoenix LiveView application that leverages Rust where Elixir falls short.
+
+    Targeting the browser, we will inspect how to compile a Rust module to WebAssembly, serve it through Phoenix and embed it in LiveView. Then we will look into how to call the same Rust code as a NIF using Rustler in the backend. To round it up, there will be a demo running both together in one web application.
+
+    Target Audience:
+
+    Everyone who wants to learn how to overcome the limitations of the BEAM using Rust. No prior knowledge of Rust is required to follow this talk, but you should bring some interest in learning it. We will not go into specifics of the Rust language, but I will guide you through all the nitty-gritty details of setting up your LiveView application to interface with Rust.
+  speakers:
+    - juliankoepke
+  topics:
+    - elixir
+    - rust
+  recordings:
+    - provider: youtube
+      external_id: "UrXtokOG2fQ"
+      url: "https://www.youtube.com/watch?v=UrXtokOG2fQ"
+
+- title: "How We Keep the Power On: Elixir at the Core of a Virtual Power Plant"
+  slug: "elixir-at-the-core-of-a-virtual-power-plant"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    As renewables reshape the energy landscape, the stability of the power grid demands smarter solutions. Sonnen’s Virtual Power Plant (VPP) networks tens of thousands of home batteries to stabilize the grid, reduce emissions, and reward users.
+
+    At the core is a distributed, fault-tolerant, and scalable Elixir backend. In this talk, we’ll explore the sonnenVPP architecture — from edge devices to market-facing APIs — and share lessons learned from scaling to production. We’ll dive into why Elixir and Rust were key to our success. Discover how software engineering meets green tech to keep the lights on sustainably.
+
+    Key Takeaways:
+
+    Learn something about power grid stabilization
+    Elixir’s Role in Scalability & Fault Tolerance
+
+    Target Audience:
+
+    Anybody interested in Greentech and building distributed systems with Elixir
+  speakers:
+    - jensfischer
+    - johannesweisslmuhs
+  topics:
+    - elixir
+    - rust
+  recordings:
+    - provider: youtube
+      external_id: "HKt0Kcg5J5M"
+      url: "https://www.youtube.com/watch?v=HKt0Kcg5J5M"
+
+- title: "Beyond your first NIF"
+  slug: "beyond-your-first-nif"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    You’ve written your first NIF that adds two numbers together, hooray! Now where do you go from here?
+
+    This talk digs deeper into the erl_nif interface, showcasing what it offers you for building high performance NIFs.
+
+    We will start by learning how to avoid the Cardinal Sin of NIFs, blocking the scheduler. Then we’ll move on to handling data more complex than a simple integer. We’ll see how to efficiently work with Elixir maps and binaries, and how to safely manage stateful resources that need to be cleaned up by the BEAM’s garbage collector.
+
+    Did you know that you can monitor a process from a NIF? Or that you can send a message to a GenServer using its registered name? We will go over all the different ways a NIF can interact with the BEAM, extending its capabilities well beyond executing a simple chunk of synchronous code.
+
+    NIFs are also capable of bringing the whole BEAM down, so we’ll learn some techniques to debug that pesky segfault when things go wrong.
+
+    Finally, all the concepts we discuss will be valid regardless of your implementation language. We’ll explore the available choices and the libraries that make using each language more ergonomic.
+
+    Key Takeaways:
+
+    By the end of this session, you will:
+    Know how to write NIFs that don’t block the BEAM schedulers
+    Understand the different ways a NIF can interact and exchange data with the BEAM
+    Have a practical approach for debugging NIFs that crash the virtual machine
+    Discover the different languages you can use to implement your NIFs and the tooling available for each of them
+
+    Target Audience:
+
+    Elixir and Erlang developers who have a basic understanding of NIFs and want to learn how to use them effectively in production
+    Senior developers looking for optimizing performance-critical parts of a BEAM application
+  speakers:
+    - riccardobinetti
+  topics:
+    - rust
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "1uKTclEF5oQ"
+      url: "https://www.youtube.com/watch?v=1uKTclEF5oQ"
+
+- title: "Teaching the BEAM to see"
+  slug: "teaching-the-beam-to-see"
+  kind: talk
+  language: en
+  duration: 33
+  abstract: |
+    What if your Elixir application could see and understand the world around it? In this talk, we’ll explore how to bring state-of-the-art object detection and tracking directly into your Elixir applications.
+
+    I’ll demystify how YOLO models work and show you how to integrate both Ultralytics and YOLOX models (including custom-trained ones) into Elixir using the YOLO library. We’ll briefly explore how to train a model on your custom data and dive into the mechanics of object detection and tracking, understanding how to maintain consistent identities as objects move through your camera’s view.
+
+    Through live demos, you’ll see how to build responsive pipelines with accelerated inference and benchmark them on edge devices. Building on Paulo Valente and Vittoria Bitton’s work running inference on a Raspberry Pi 5 with the Hailo-8 AI Hat, we’ll explore performance across various edge devices and hardware acceleration options. Whether you’re building IoT applications or interactive experiences, this talk will show you how to give your BEAM applications the gift of sight while leveraging Elixir’s concurrent, fault-tolerant architecture.
+
+    Key Takeaways:
+
+    Understand how YOLO models work under the hood and how to integrate them into Elixir applications using the Elixir YOLO library.
+    Learn the fundamentals of object detection and tracking, including how to maintain consistent object identities across video frames.
+    Discover how to use both pre-trained and custom-trained models, with a brief overview of training on your own data.
+    Gain insights into edge device performance and deployment considerations for computer vision workloads.
+
+    Target Audience:
+
+    Elixir developers curious about AI/ML integration, IoT enthusiasts working with embedded systems and edge devices, developers interested in real-time computer vision applications, and anyone looking to add intelligent visual capabilities to their BEAM-based projects.
+  speakers:
+    - alvisesusmel
+  topics:
+    - ai
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "zvFyCl4XEZI"
+      url: "https://www.youtube.com/watch?v=zvFyCl4XEZI"
+
+- title: "AtomVM: Unlocking the power of BEAM on Tiny Microcontrollers and Beyond"
+  slug: "unlocking-the-power-of-beam-on-tiny-microcontrollers-and-beyond"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    While Erlang, Elixir, and Gleam are well-known for building robust, scalable systems, this talk will remind you that their power extends far beyond massive clusters – enabling them to run on cheap devices so small they fit in the palm of your hand.
+
+    In this talk, we’ll explore the fundamental concepts of embedded systems and how AtomVM carves out its unique niche, distinguishing itself from other embedded BEAM initiatives like Nerves.
+
+    (Beyond just IoT, we’ll journey through the broader horizons of AtomVM. Discover its fascinating applications in the web with WebAssembly (WASM) and Emscripten – including a nod to the exciting Popcorn project for running Elixir directly in the browser – and explore compelling new use cases for AtomVM on Linux.)
+
+    Designed specifically for Erlang, Elixir, and Gleam developers, this session will feature practical examples in all three languages, demonstrating how familiar BEAM paradigms translate to these new environments. I’ll share insights and actionable information, equipping you to envision and build the next generation of small-footprint applications.
+
+    Key Takeaways:
+
+    How to use AtomVM for building applications for new scenarios
+    How to build an IoT project with Erlang, Elixir and Gleam
+    How to interact with the physical world
+    How AtomVM can be used in other scenarios that are not just IoT
+
+    Target Audience:
+
+    Anyone
+  speakers:
+    - davidebettio
+  topics:
+    - embedded
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "0nQU0ia8yuA"
+      url: "https://www.youtube.com/watch?v=0nQU0ia8yuA"
+
+- title: "Erlang/OTP for everyone"
+  slug: "erlang-otp-for-everyone"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    Erlang runs on many popular flavors of Windows and Linux, and it can be built on most UNIX-like operating systems, often with relatively little effort, however porting Erlang to legacy or mainframe-like operating environments generally presents a few more challenges, ranging from trivial matters such dealing with differences between C compiler and runtime library implementations through to dealing with somewhat more complicated and problematical areas such as threading, SMP support, JIT, and various other processor, operating system, and file system peculiarities. In this talk, the speaker will discuss some of these problems (based on personal experience) and solutions to them and will consider how porting Erlang to such environments can open up new and exciting opportunities for the Erlang ecosystem and for users of those legacy environments.
+
+    Key Takeaways:
+
+    To illustrate and discuss the feasibility and value of making Erlang available to a wider audience.
+
+    Target Audience:
+
+    General audience. Most relevant to people interested in porting Erlang and/or Erlang-based applications to alternative operating system environments and thereby help to achieve Erlang world-domination.
+  speakers:
+    - brettcameron
+  topics:
+    - erlang
+    - otp
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "JvRMYRNqR9M"
+      url: "https://www.youtube.com/watch?v=JvRMYRNqR9M"
+
+- title: "Structured Generation and Logits Processing with Elixir"
+  slug: "structured-generation-and-logits-processing-with-elixir"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    When we call an LLM from an application, the result can be a gamble: will it follow the schema, include every required field, or even produce valid JSON? Today we usually validate after generation. If it fails, trigger another generation round that may still break.
+
+    There is an alternative: By reaching into the raw, unnormalised token scores (logits) during decoding, we can prune every token that violates a grammar we supply. The model literally cannot create invalid output; no retries, no patch-ups.
+
+    This logits-level gating was first published in 2016, yet it remains largely unknown outside a handful of research papers. I’ll surface the idea, show why it slipped under industry radar, and—most importantly—demonstrate how easily you can apply it today with Elixir’s Bumblebee, Nx, and the BEAM’s supervision strengths.
+
+    We will see how the technique makes small but critical tasks reliable —emitting strict JSON configs, creating test data, or generating Erlang term syntax—where unconstrained decoding would crumble.
+
+    You’ll leave knowing how to wire grammar constraints into Bumblebee, eliminate brittle post-processing, and ship more reliable, safer Elixir systems.
+
+    Key Takeaways:
+
+    Built-in guardrails: By filtering tokens at decode time, the model simply can’t stray from your grammar or schema.
+
+    Good-bye, retry loop: No more validate-and-regenerate cycles—latency drops and errors disappear.
+
+    Hidden gem: The approach has been around since 2016, but few teams have discovered it (until now!).
+
+    Real-world wins: Perfect for tasks where the output can be described by a grammar or schema.
+
+    Target Audience:
+
+    Elixir & BEAM developers who already build services and want tighter control over LLM output.
+
+    Backend engineers concerned about reliability or security.
+
+    Machine-learning practitioners exploring practical inference tricks beyond basic temperature / top-k sampling.
+
+    Tech leads / architects evaluating where structured generation can reduce post-processing and failure handling.
+  speakers:
+    - chrisbeck
+  topics:
+    - ai
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "6r2MO2zk52A"
+      url: "https://www.youtube.com/watch?v=6r2MO2zk52A"
+
+- title: "Optimizing the BEAM's scheduler for many-core machines"
+  slug: "optimizing-the-beam-s-scheduler-for-many-core-machines"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: |
+    The BEAM is famous for supporting many lightweight processes. But the scheduler responsible for deciding which of these processes should execute on which core at which time was designed at a time when most servers only had a few cores, and can suffer from severe lock contention issues when used on many-core machines (100+ cores).
+    In this talk I’ll explain the main ideas behind how the BEAM’s scheduler works, how to discover and investigate lock-contention issues, and then explain some recent changes that mitigated these issues for the BEAM’s scheduler.
+
+    Key Takeaways:
+
+    The general design of the BEAM’s scheduler (task-stealing, periodic rebalancing with immigration/emigration between runqueues)
+    How to use lock-counting and interpret its results
+    If you have performance issues on large servers, upgrade to the latest OTP for a large improvement
+
+    Target Audience:
+
+    Anyone curious about the BEAM’s internals, anyone struggling to improve the scalability of their Erlang/Elixir application on a many-core server.
+  speakers:
+    - robinmorisset
+  topics:
+    - erlang
+    - concurrency
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "tC435RGwRCI"
+      url: "https://www.youtube.com/watch?v=tC435RGwRCI"
+
+- title: "Making your system debuggable - lessons from Erlang Doctor"
+  slug: "lessons-from-erlang-doctor"
+  kind: talk
+  language: en
+  duration: 20
+  abstract: |
+    After years of building custom tracing tools to debug complex Erlang systems, in 2017 I decided to make them reusable and public as erlang_doctor, followed by its Elixir counterpart, ex_doctor. Debugging issues in complex Erlang systems such as MongooseIM was a real-world battlefield for me, where I refined the tools over the years with the help of suggestions from my colleagues at Erlang Solutions. Their current versions allow extensive tracing with minimal impact on the running system, and querying the collected data afterwards.
+
+    In this talk, I will show real-life examples of diagnosing elusive and subtle issues. Such experiences allowed me not only to keep improving the tools, but also to make my own code easier to debug, and - in a broader sense - easier to reason about. Are there any coding practices that could make you get rid of a bug in a matter of minutes rather than days? Or maybe there are some anti-patterns to avoid? And how do tracing, instrumentation, logging and metrics complement one another? These questions are not easy to answer, but I will share practical insights that can help you improve your own Erlang system.
+
+    Key Takeaways:
+
+    How and when to use Erlang Doctor to speed up tracing/debugging.
+    How to improve their own code to make it easier to debug and comprehend.
+
+    Target Audience:
+
+    Erlang/Elixir engineers facing the reality - software with bugs, most of them difficult to find, especially if the system is complex
+  speakers:
+    - pawelchrzaszcz
+  topics:
+    - observability
+    - erlang
+
+- title: "Microservice the OTP way"
+  slug: "microservice-the-otp-way"
+  kind: talk
+  language: en
+  duration: 15
+  abstract: |
+    Microservices remain a hot topic, but their complexity and operational overhead often outweigh the benefits. OTP provides a powerful foundation for building distributed systems, yet much of this power is lost when trying to implement traditional microservice architectures.
+
+    In this talk, we’ll explore how to use OTP to build microservices that are scalable, resilient, maintainable, and composable. We’ll discuss how to decompose a monolith into microservices—and even how to reverse that process—based on evolving client and business requirements.
+
+    We’ll demonstrate how OTP enables truly composable microservices, share when it makes sense to “OTP” and when it doesn’t, and look at the common pitfalls of traditional microservices we’ve learned to avoid.
+
+    What did we learn from our experience—and should you do the same?
+
+    Key Takeaways:
+
+    Understand our reasons for microservices in the first place
+    Composable microservices using OTP
+    When to OTP or not to OTP
+
+    Target Audience:
+
+    Architects, senior/medior engineers
+  speakers:
+    - diedeclaessens
+  topics:
+    - microservices
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "dlQOc8EI1rk"
+      url: "https://www.youtube.com/watch?v=dlQOc8EI1rk"
+
+- title: "Softly, Surely: Bringing Elixir to Work"
+  slug: "softly-surely-bringing-elixir-to-work"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: |
+    They wanted to get Discord messages imported into the system. This service didn’t need to integrate with any of our existing libraries. This was it. I slowly realised: my chance to write this in Elixir! Unfortunately, they didn’t love functional programming languages – they almost didn’t hire me because I seemed too “FP”. But nothing ventured, nothing gained. I typed out “git push”, I clicked Enter. Took a deep breath and hoped I wouldn’t get fired.
+    We’ve all been forced to adopt the tech stack at the companies we’ve worked at. Wouldn’t it be nice to use Elixir instead? I’ve been lucky enough to actually work on technology that I found interesting, whether that meant mounting a satellite dish on the top of our building at Netscape to get stock information (yes, the old days!) on our SGI servers or Elixir for games and AI.
+    Or is it luck? Sometimes the benefit of choice comes with your title and position, or the relationship you have with the decision makers. But sometimes, it’s just about finding the right opportunity and approach.
+    This talk explores the soft strategies I’ve employed to achieve this – and how “soft” doesn’t always mean easy. Soft can be hard.
+
+    Key Takeaways:
+    Mark Zuckerberg recently said that corporate culture has become too “neutered.” But in many cultures, that energy often shows up as force, dominance, and heated debates. Not everyone, especially devs, are built for that.
+    This talk is about a quieter path. Using Elixir adoption as a real-world example, you’ll walk away with:
+
+    Examples and strategies for introducing Elixir into a team without needing permission, seniority, or confrontation
+    A framework for soft influence - mostly centered around the individual, how they can effectively employ soft influence for success (and definitely not manipulation for selfish purposes)
+    Recognition that not all devs are loud, and that’s not a weakness
+    Insights that apply beyond tech adoption: to career growth, team culture, and self-trust
+    This perspective is especially relevant in Europe, where companies sometimes mimic the tech companies in the US, but many others are looking for ways to build a different culture and still remain competitive. Instead of the startup mold where “alpha behaviour” is the norm, this talk offers a different path: quiet, effective, and human relationship based.
+
+    Target Audience:
+
+    Developers (indiv contributors) who are struggling to find their voice and influencing decision makers. Tech leads / CTO / managers who want to use Elixir or enact technical change.
+    I don’t think this will be very technical, so even people coming here who aren’t technical can find the talk relatable.
+  speakers:
+    - ellysecedeno
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "aaPmjQqHCRg"
+      url: "https://www.youtube.com/watch?v=aaPmjQqHCRg"
+
+## Lightning Talks
+
+- title: "Building Self-Contained Executables with Gleam"
+  slug: "building-self-contained-executables-with-gleam"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  abstract: "Yoshie presents static_erlang and gleepack, two projects that provide static Erlang binaries and a way to bundle a Gleam (or Erlang) project into a fully self-contained executable, respectively."
+  speakers:
+    - yoshiereusch
+  topics:
+    - gleam
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Ojs0YREqX8k"
+      url: "https://www.youtube.com/watch?v=Ojs0YREqX8k"
+
+- title: "An OTP Bug That Slept for 16 Years"
+  slug: "an-otp-bug-that-slept-for-16-years"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  abstract: |
+    How do you find a bug that's been sleeping in production since 2008? With Etylizer and the power of set-theoretic types. We present recent research advances in static analysis for Erlang, which has allowed Etylizer to scale to mature codebases like the Erlang/OTP standard library. Etylizer doesn't just spot type spec inconsistencies — it hunts down hidden crash conditions. We'll demonstrate how it found a crash-inducing type specification inconsistency in the Erlang standard library, hidden in (plain?) sight for 16 years, proving that no code is too old to be made safer.
+  speakers:
+    - albertschimpf
+  topics:
+    - otp
+    - erlang
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "_1T4iogogNc"
+      url: "https://www.youtube.com/watch?v=_1T4iogogNc"
+
+- title: "Erlang C Nodes and Sandboxing"
+  slug: "erlang-c-nodes-and-sandboxing"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  abstract: |
+    Erlang C Nodes can be easily sandboxed using lower level OS frameworks like Linux's Landlock LSM and FreeBSD's Capsicum. This ensures proper security for critical business logic or isolation from possibly malicious third party code.
+  speakers:
+    - krasenpenchev
+  topics:
+    - erlang
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "MQhyDFXMM78"
+      url: "https://www.youtube.com/watch?v=MQhyDFXMM78"
+
+- title: "rebar3 atomvm escriptize"
+  slug: "rebar3-atomvm-escriptize"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: "Use AtomVM to distribute BEAM code as embedded binaries."
+  speakers:
+    - paulguyot
+  topics:
+    - embedded
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "yu-ZvDkddak"
+      url: "https://www.youtube.com/watch?v=yu-ZvDkddak"
+
+- title: "From Zero to N Users: Amoc in 5 Minutes"
+  slug: "from-zero-to-n-users-amoc-in-5-minutes"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  abstract: "A sneak peek into how we use amoc to do performance testing in Baxter, but in general it's a small intro into the amoc library."
+  speakers:
+    - petarpilipovic
+  topics:
+    - testing
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "nJKPzCUHylk"
+      url: "https://www.youtube.com/watch?v=nJKPzCUHylk"
+
+- title: "Security in Numbers: SAFE vs Sobelow"
+  slug: "security-in-numbers-safe-vs-sobelow"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  abstract: |
+    SAFE and Sobelow are both security libraries used in the Erlang/Elixir ecosystem. They use different approaches to find vulnerabilities. In this lightning talk I will show some metrics comparing the two technologies.
+  speakers:
+    - zsomborgasparin
+  topics:
+    - security
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "rIRAeQHu4WA"
+      url: "https://www.youtube.com/watch?v=rIRAeQHu4WA"
+
+- title: "Type Safe Code Reloading in EYG"
+  slug: "type-safe-code-reloading-in-eyg"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  abstract: "Type safe code reloading is possible with structural typing and serializable continuations. I'll code reload a counter app to prove it. Get the BEAM brains thinking about how they can do the same."
+  speakers:
+    - petersaxton
+  topics:
+    - type-system
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "R6qYVslIneE"
+      url: "https://www.youtube.com/watch?v=R6qYVslIneE"
