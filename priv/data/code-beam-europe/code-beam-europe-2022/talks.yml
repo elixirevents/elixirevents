@@ -1,0 +1,961 @@
+## Talks
+
+  - title: "Runtime Modes and Plugins in Erlang"
+    slug: "runtime-modes-and-plugins-in-erlang"
+    kind: talk
+    language: en
+    duration: 26
+    abstract: |
+      Aeternity Foundation decided to introduce runtime modes (maintenance mode, dev mode, ...) and plugins in the already mature Aeternity Core blockchain system. Drawing on experiences from the old Ericsson AXD 301 system, Ulf introduced `app_ctrl`, a highly configurable application controller extension, and combined it with `setup`, a modular tool for installing and configuring systems. This allowed us to add exciting new functionality to a very stable system. In this talk, we describe some core OTP principles as well as some dirty tricks employed to make things work.
+
+      OBJECTIVES
+
+      Highlight OTP principles, describe some core OTP features and introduce new possibilities.
+
+      AUDIENCE
+
+      Erlang developers and architects.
+    speakers:
+      - ulfwiger
+    topics:
+      - otp
+      - libraries
+      - elixir
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "Qxk-9r2aB3c"
+        url: "https://www.youtube.com/watch?v=Qxk-9r2aB3c"
+
+  - title: "LiveView and JavaScript. A Guide to Achieving Synergy"
+    slug: "liveview-and-javascript-a-guide-to-achieving-synergy"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      LiveView famously allows developers to create rich interactive web interfaces without writing any line of JavaScript. However, does this mean one should ditch JavaScript altogether? Of course not! Web apps require instant local interactions that should never depend on communication with the server, and JavaScript is here to stay.
+
+      In this talk, we will go through built-in LiveView JS mechanisms, integration with AlpineJS, and how to effectively use LiveView together with full-blown frameworks like VueJS on the same page in scenarios where this makes sense.
+
+      OBJECTIVES
+
+      Teach participants how to:
+
+      - use LiveView built-in JS commands,
+
+      - use AlpineJS and have 2-way data binding between client and server,
+
+      - use VueJS-based UI components on LiveView pages.
+
+      AUDIENCE
+
+      Beginning and intermediate web developers.
+    speakers:
+      - hamzabelhaj
+      - michalgibowski
+    topics:
+      - liveview
+    recordings:
+      - provider: youtube
+        external_id: "KCdB7aoJf_0"
+        url: "https://www.youtube.com/watch?v=KCdB7aoJf_0"
+
+  - title: "Growing together with the BEAM"
+    slug: "growing-together-with-the-beam"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      Telia ACE is the leading contact center product in the Nordics, using BEAM's scalability, availability and ease of development to handle calls, sms, mail, chat, social media, and recording for major companies and municipalities. As one of the first adopters of Erlang/OTP for their backend, more than 20 years ago, the ACE team has seen the technology and community grow, and have followed along with impressive growth themselves.
+
+      Hans Nahringbauer, recipient of the "Erlang User of the Year" award from the Erlang User Conference 1999 (Code BEAM EU's spiritual predecessor), has been leading the ACE platform for more than 20 years. Stavros Aronis joined them in 2018 as a senior developer and Erlang Solutions consultant to assist with some of their latest projects, integrating with a new call recording and Interactive Voice Response (IVR) framework on Amazon Web Services (AWS).
+
+      Join this talk from Hans and Stavros to listen about the history, challenges, and exciting ongoing projects of some of the earliest Erlang/OTP enthusiasts!
+
+      OBJECTIVES
+
+      Tell the story of succeeding for more than 20 years with the BEAM, and show how Telia ACE plans to continue doing so for many years to come!
+
+      AUDIENCE
+
+      Developers of all levels, managers, students
+    speakers:
+      - stavrosaronis
+      - hansnahringbauer
+    topics:
+      - otp
+      - testing
+      - community
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "tdoyHVoN8vo"
+        url: "https://www.youtube.com/watch?v=tdoyHVoN8vo"
+
+  - title: "The Hunt for the Cluster-Killer Bug"
+    slug: "the-hunt-for-the-cluster-killer-bug"
+    kind: talk
+    language: en
+    duration: 47
+    abstract: |
+      We know Erlang is all about fault tolerance. A well-engineered Erlang system – such as Kred, in the heart of Klarna’s business – will never stop, no matter what. Yet, about a year ago a short Kafka outage shook our mighty Kred so bad it knocked out all but one node. A few days later a second outage took down the entire cluster. How could this happen?
+
+      This is the story of our hunt for the cluster-killer bug before it could strike again. It is a story of unexpected twists and descending to the deepest depths of the technology stack powering an Erlang application.
+
+      OBJECTIVES
+
+      Give some new tools for debugging low-level issues in an Erlang stack.
+
+      Teach about Erlang’s memory model.
+
+      AUDIENCE
+
+      Developers who would like to add some new tricks to their debugging toolbox.
+    speakers:
+      - danielszoboszlay
+    topics:
+      - observability
+      - distribution
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "rT8syj-Egjc"
+        url: "https://www.youtube.com/watch?v=rT8syj-Egjc"
+
+  - title: "Learning Erlang and Elixir through Exercism and Advent of Code"
+    slug: "learning-erlang-and-elixir-through-exercism-and-advent-of-code"
+    kind: talk
+    language: en
+    duration: 33
+    abstract: |
+      There are several good free resources for learning Erlang and Elixir. In the past few months, I have been using Exercism and the discussions on Advent of Code problems (at Elixir Forum and Erlang Forums) to learn more about those two languages. These two learning resources provide a very active way of learning the basics of these languages.
+
+      In this talk, I will discuss some of what I learned recently and I will also say which one I think is the best option for beginners.
+
+      OBJECTIVES
+
+      Viewers will understand the fundamental differences between Exercism and Advent of Code and will be able to choose which one (or both) will they use for their own learning.
+
+      AUDIENCE
+
+      Programmers, either newbies or intermediate, who want to learn the best ways of solving problems using Elixir or Erlang.
+    speakers:
+      - adolfoneto
+    topics:
+      - elixir
+      - learning
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "VGn2lmS1wbw"
+        url: "https://www.youtube.com/watch?v=VGn2lmS1wbw"
+
+  - title: "Flow-Based Programming with Elixir and ALF"
+    slug: "flow-based-programming-with-elixir-and-alf"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      Flow-based Programming (FBP) is a 50-years-old idea of presenting an application as a network of independent processes (components) exchanging data via message passing. The Actor concurrency model in Erlang, GenServer abstraction, and powerful GenStage library make it extremely easy to implement FBP in Elixir. In the talk, I’m going to present the advantages of the approach for modelling the application layer of a program and provide examples using the ALF library I’ve created.
+
+      OBJECTIVES
+
+      Discuss a new-old paradigm for creating software applications -a flow-based programming approach - and present a framework for supporting the approach.
+
+      AUDIENCE
+
+      Engineers who are interested in different approaches for writing software applications.
+    speakers:
+      - antonishchuk
+    topics:
+      - elixir
+      - libraries
+      - concurrency
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "2XrYd1W5GLo"
+        url: "https://www.youtube.com/watch?v=2XrYd1W5GLo"
+
+  - title: "Lambdapad, Static Websites with Elixir (or Erlang)"
+    slug: "lambdapad-static-websites-with-elixir-or-erlang"
+    kind: talk
+    language: en
+    duration: 26
+    abstract: |
+      Lambdapad was an effort performed by Garreth Smith to provide to the BEAM community (and Erlang mainly) a way to create a static site generator like Jekyll or Octopus from Ruby. Last year I take the code and using the "power of meta-programming" I performed my own vision about it and created a way to perform websites in an easier way, indeed, I'm using it for my blog (+300 posts) and different websites successfully.
+
+      OBJECTIVES
+
+      Introduce Lambdapad to the community and reach people who want to be involved in the project or support it.
+
+      AUDIENCE
+
+      People who want to create/maintain a website like a blog, landing page or similar.
+    speakers:
+      - manuelrubio
+    topics:
+      - elixir
+      - community
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "7m5u9AHVioA"
+        url: "https://www.youtube.com/watch?v=7m5u9AHVioA"
+
+  - title: "Conway's Law Compliance in a Many-Services Architecture"
+    slug: "conway-s-law-compliance-in-a-many-services-architecture"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      As your company grows and scales out, both in terms of people and software, a common pattern is to split the software up into multiple services maintained by multiple teams. Whether or not those services are micro, this leads to a lot of hard choices that you'll have to make about how to do that efficiently and maintainably.
+
+      Stord has grown significantly over the past year and has used several techniques to continue to scale our engineering teams and inter-service coordination, using synchronous API calls as well as asynchronous event-processing via Kafka. This talk will present some of the things that worked well and not-so-well that we've learned from.
+
+      OBJECTIVES
+
+      * Share learning from building a shared HTTP client for synchronous calls as well as an asynchronous event-processing infrastructure.
+
+      * Share tips for co-developing a socio-technical system that can sustain rapid growth
+
+      AUDIENCE
+
+      * Engineers looking for hard-earned technical lessons in service coordination
+
+      * Engineering Managers who are trying to scale their teams and software quickly
+    speakers:
+      - gregmefford
+    topics:
+      - community
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "tz9KbBChyWA"
+        url: "https://www.youtube.com/watch?v=tz9KbBChyWA"
+
+  - title: "Backtracking through Time and Space in Erlang"
+    slug: "backtracking-through-time-and-space-in-erlang"
+    kind: talk
+    language: en
+    duration: 50
+    abstract: |
+      Erlang grew out of experiments in logic programming in the 80s, but very little of that heritage remains today. This talk revisits those early days to explore the ideas that were borrowed from Prolog, the ideas that were forgotten, and the ideas that we may yet revisit in the future.
+
+      We'll discuss the connections between the earliest implementations of Erlang and modern metaprogramming techniques, how Elixir's pipe operator relates to parsing, and what declarative programming can teach us about distributed shared memory. All of these ideas will come together in an exploration of how the BEAM ecosystem can leverage these techniques today to shape the way we might write code in the future!
+    speakers:
+      - quinnwilton
+      - robertvirding
+    topics:
+      - elixir
+      - distribution
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "LN7hdiWucwo"
+        url: "https://www.youtube.com/watch?v=LN7hdiWucwo"
+
+  - title: "Smashing the Data Bottleneck with Federated Machine Learning on the BEAM"
+    slug: "smashing-the-data-bottleneck-with-federated-machine-learning-on-the-beam"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      If you use a centralized, batch-based approach to data management and analysis, the cost to derive intelligence from that data using machine learning techniques could be staggering. Massive amounts of data must be stored, protected, and analyzed, all before even machine learning techniques are applied. This process is slow and less secure. Federated learning is a type of distributed machine learning that provides a faster, less expensive and more secure solution.
+
+      In this talk, we will learn about various challenges of federated learning and walk through a code tutorial to see how Elixir, Erlang and BEAM help solve some of those challenges.
+
+      OBJECTIVES
+
+      The main objective of the talk is to demonstrate how Elixir, Erlang and BEAM help solve some of the challenges of Federated Machine Learning. We will then briefly examine a mind-map summary of a survey of federated learning system development and identify some references to guide future work on solving other open challenges.
+
+      AUDIENCE
+
+      Anyone interested in grasping the core concepts of federated machine learning and seeing how it can be implemented on the BEAM. Working knowledge of machine learning might help to get a deeper understanding.
+    speakers:
+      - vijaychakilam
+    topics:
+      - elixir
+      - distribution
+      - machine-learning
+      - ash
+    recordings:
+      - provider: youtube
+        external_id: "S6wE3ws3EFg"
+        url: "https://www.youtube.com/watch?v=S6wE3ws3EFg"
+
+  - title: "Improve your tests with Makina"
+    slug: "improve-your-tests-with-makina"
+    kind: talk
+    language: en
+    duration: 22
+    abstract: |
+      Writing good tests for complex software can be quite difficult. In the BEAM ecosystem, tools like QuickCheck and PropEr have demonstrated that Property-Based Testing (PBT) is an effective technique to find bugs in complex software.  Such testing normally involves checking that the tested system performs as predicted by a state machine programmed in a QuickCheck domain-specific language (DSL).
+
+      In spite of their proven effectiveness, the adoption of PBT state-machine models is frustratingly slow. Why? Writing state-machine models of complex systems can be a time consuming and error-prone activity, which requires substantial training. Moreover, maintaining such state-machine models is hard, even for PBT experts. To address such issues many projects attempt to automate testing. We, instead, aim to empower the test programmer by providing a more productive tool for writing test models: Makina.
+
+      Makina is a new test library for Elixir, compatible with PropEr and QuickCheck state-machine models. This library provides a DSL that aims to improve early error detection in test models providing static and dynamic type checking. It also facilitates test model development encouraging code reuse with built-in composition mechanisms and automatic model documentation.
+
+      OBJECTIVES
+
+      In this talk, we will discuss the design of Makina, and illustrate how the library enables us to efficiently test smart contracts running on the Ethereum blockchain.
+
+      AUDIENCE
+
+      Elixir and Erlang developers interested in testing in general and PBT in particular.
+    speakers:
+      - luiseduardobuesodebarrio
+    topics:
+      - elixir
+      - rust
+      - testing
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "3FYglv8NccM"
+        url: "https://www.youtube.com/watch?v=3FYglv8NccM"
+
+  - title: "Vaxine, the Rich-CRDT Database for Elixir/Phoenix Applications"
+    slug: "vaxine-the-rich-crdt-database-for-elixir-phoenix-applications"
+    kind: talk
+    language: en
+    abstract: |
+      CRDTs are key ingredient for low latency, collaborative applications. However, typical backend applications require more from their database than just commutativity. Vaxine is a new database system developed in Erlang and Elixir, based on AntidoteDB, that extends CRDTs with invariant safety and makes a CRDT database easy to use from Elixir and Phoenix applications. This talk explains the rationale for a rich-CRDT database and introduces the open-source Vaxine system.
+
+      OBJECTIVES
+
+      Introduce the Vaxine system and help the audience understand when and how they might use it.
+
+      AUDIENCE
+
+      Developers, technical architects, data architects, database developers, collaborative application developers, Elixir/Phoenix developers, LiveView developers, ...
+    speakers:
+      - jamesarthur
+    topics:
+      - elixir
+      - phoenix
+      - liveview
+      - libraries
+
+  - title: "Trace Specifications and Chaos Engineering: Advanced Testing with Snabbkaffe"
+    slug: "trace-specifications-and-chaos-engineering-advanced-testing-with-snabbkaffe"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      Testing distributed eventually consistent fault-tolerant Erlang applications is challenging: their state is difficult to inspect and model and supervisors can hide crashes. Fault tolerance is rarely checked by automatic tests.
+
+      We solved these problems using a new elegant approach to testing. Snabbkaffe is a test framework that relies on offline inspection of the execution trace of the system.
+
+      It makes verifying a distributed application recovering from the injected crashes as easy as writing a pure function.
+
+      OBJECTIVES
+
+      The trace-based approach to program verification is widely in academia, however, it remains relatively obscure in engineering circles. We have successfully adopted it for the practical applications running in production, and this is what the talk is about.
+
+      Trace-based testing allows us to verify more complex scenarios, so we believe that sharing it with a wider audience will improve the overall quality of the Erlang ecosystem in the long term.
+
+      AUDIENCE
+
+      Software engineers and QA
+    speakers:
+      - dmitriifedoseev
+    topics:
+      - testing
+      - distribution
+      - ash
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "Ou60e-aOoAg"
+        url: "https://www.youtube.com/watch?v=Ou60e-aOoAg"
+  - title: "Evolving Erlang/OTP Feature by Feature"
+    slug: "evolving-erlang-otp-feature-by-feature"
+    kind: talk
+    language: en
+    duration: 46
+    abstract: |
+      With the release of OTP25, support for selectable features in the language and the runtime will be added. This means that extensions and changes to the language and/or runtime system can be used selectively. One benefit is the possibility to try out features without affecting existing code, even for backwards-incompatible changes. This talk will be a deep dive into the ideas and implementation behind the support for features. As an extended example, we will show how this support is used to add Value-Based Error Handling (EEP49) as the first experimental feature.
+
+      OBJECTIVES
+
+      Stake out a path forward, evolving Erlang/OTP without forcing developers to rewrite legacy code.
+
+      AUDIENCE
+
+      - Developers using Erlang/OTP, both those wanting new features and those who don't.
+
+      - Managers of the same
+    speakers:
+      - constahs
+    topics:
+      - otp
+      - refactoring
+      - elixir
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "qxASWYZ48dA"
+        url: "https://www.youtube.com/watch?v=qxASWYZ48dA"
+
+  - title: "ROSiE the Robot Operating System in Erlang"
+    slug: "rosie-the-robot-operating-system-in-erlang"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      ROSiE is a pure Erlang implementation of ROS (Robot Operating System).
+
+      No matter where from cloud to robots at the edge: use Erlang or any other language on the BEAM to interact with the ROS ecosystem with the help of ROSiE.
+
+      It’s fully interoperable with existing ROS2 Robots with all the scalability, concurrency, distribution, and fault-tolerance of the BEAM.
+
+      ROS2 builds on the DDS data connectivity protocol which is used in many industries besides robotics. ROSiE therefore also provides a standalone DDS protocol stack.
+
+      It also features dedicated Rebar3 plugins, to integrate Erlang projects with the official ROS2 distributions.
+
+      There will be a demo with robots and GRiSP boards running ROS2 and ROSiE Nodes. You will see some hot code upgrade while robots are in action.
+
+      This project is funded by the EEF.
+
+      OBJECTIVES
+
+      Explain all the possibilities opened up by ROSiE.
+
+      Talk about how ROSiE works and how to work with it.
+
+      Show the advantages and strengths of ROSiE over ROS2.
+
+      Demonstrate the reliability of a code-hot-swap operation on a Robot inside a ROS network, only possible with Erlang and a ROSiE Robot.
+
+      AUDIENCE
+
+      Any developer or company working with the BEAM that could have any interest in ROBOTICS.
+
+      Anyone that would like a Pub-Sub protocol-stack for Erlang since ROSiE includes the first Erlang implementation of DDS.
+    speakers:
+      - lucasucci
+    topics:
+      - concurrency
+      - deployment
+      - embedded
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "VEdhCykQqSY"
+        url: "https://www.youtube.com/watch?v=VEdhCykQqSY"
+
+  - title: "Building a maintainable open-source library with Erlang/OTP - A Speedrun"
+    slug: "building-a-maintainable-open-source-library-with-erlang-otp-a-speedrun"
+    kind: talk
+    language: en
+    abstract: |
+      LOCATION
+
+      Virtual
+
+      TRAINING DESCRIPTION
+
+      You will learn how to go from an empty folder to a maintainable open-source library hosted on GitHub, ready to be published on Hex.pm and built with Erlang/OTP, using rebar3 and a host of plugins that will help you get there.We will guide you through this interactive process that will involve starting from a template, writing in-source documentation, creating and executing tests, performing static analysis, setting up continuous integration using Github Actions, and finally publishing your library on Hex.pm.
+
+      DURATION
+
+      7 Hours
+    speakers:
+      - brujobenavides
+    topics:
+      - otp
+      - testing
+      - libraries
+      - erlang
+
+  - title: "Working Effectively With Erlang Legacy Code"
+    slug: "working-effectively-with-erlang-legacy-code"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      So you just joined a massive project with tons of poorly-maintained Erlang code. DON'T PANIC! This talk will give you many tools and techniques that you will need to start working on it confidently and productively.
+
+      You will learn multiple tips and tricks to incrementally start using the compiler, Common Test, Xref, Dialyzer, Elvis, Hank, the Formatter, and others in large codebases. A task that's generally hard to do but usually produces enormous benefits in terms of maintenance. These tools and techniques will increase your confidence, and they'll help you and your team work more efficiently.
+
+      OBJECTIVES
+
+      The goal of the task is to reduce the pain developers feel when faced with large poorly-maintained projects written in Erlang, by showing how the tools that they would use from day 0 on new projects can be introduced gradually even when they were never used before.
+
+      AUDIENCE
+
+      Almost any Erlang developer, maybe except for those who had worked with me in the past:)
+    speakers:
+      - brujobenavides
+    topics:
+      - type-system
+      - testing
+      - refactoring
+      - compilers
+    recordings:
+      - provider: youtube
+        external_id: "qRBqDBKPiKI"
+        url: "https://www.youtube.com/watch?v=qRBqDBKPiKI"
+
+  - title: "Erlang for Untrusted Decentralized Systems"
+    slug: "erlang-for-untrusted-decentralized-systems"
+    kind: talk
+    language: en
+    abstract: |
+      Erlang is commonly used for distributed systems on a trusted substrate (when all the nodes are run by a single party) but what about when multiple parties who don't necessarily trust each other want to work together? This talk will discuss some of the technologies Andrew has implemented at Helium to build distributed systems on an untrusted substrate at Helium including HoneyBadgerBFT, threshold cryptography, distributed key generation and peer to peer networking.
+
+      OBJECTIVES
+
+      Educate Erlang developers on the alternatives to traditional distributed systems development on the BEAM.
+
+      AUDIENCE
+
+      People interested in alternatives to distributed Erlang, decentralization, cutting edge cryptography or untrusted consensus systems.
+    speakers:
+      - andrewthompson
+    topics:
+      - rust
+      - distribution
+      - security
+      - erlang
+
+  - title: "Incremental Dialyzer - How we made Dialyzer 3x Faster"
+    slug: "incremental-dialyzer-how-we-made-dialyzer-3x-faster"
+    kind: talk
+    language: en
+    duration: 29
+    abstract: |
+      Dialyzer is really powerful, but sometimes it can be hard to get the most out of it because the analyses can be quite slow. This talk introduces an incremental mode for Dialyzer that can significantly improve its performance by avoiding redundant work.
+
+      OBJECTIVES
+
+      Introduce a new "incremental" mode for Dialyzer, and explain how it differs from the classic model of building a PLT and checking it.
+
+      AUDIENCE
+
+      Erlang & Elixir users of Dialyzer
+    speakers:
+      - tomdavies
+    topics:
+      - elixir
+      - type-system
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "prjuvh0IN90"
+        url: "https://www.youtube.com/watch?v=prjuvh0IN90"
+
+  - title: "Comparing the Actor Model and CSP Concurrency with Elixir and Clojure"
+    slug: "comparing-the-actor-model-and-csp-concurrency-with-elixir-and-clojure"
+    kind: talk
+    language: en
+    duration: 26
+    abstract: |
+      One big selling point of the BEAM VM is its from-the-ground-up implementation of the Actor model. CSP, another concurrency paradigm, has gained a lot of traction via Go, while also being embraced by Clojure. There is shared heritage between Elixir & Clojure, as well as between Actor model & CSP. However, radical differences between BEAM and JVM inevitably lead to intriguing divergences. You'll gain a better understanding of these paradigms, and (hopefully) a bit more appreciation of what makes BEAM unique.
+
+      OBJECTIVES
+
+      Better understanding of the Actor model
+
+      Better understanding of unique features of the BEAM VM (e.g. process memory space isolation, preemptive scheduling, soft real-time, independent generational garbage collection)
+
+      Better understanding of CSP, of how concurrency challenges are approached in languages such as Go and Clojure.
+
+      Better understanding of the similarities and differences between Elixir and Clojure.
+
+      Better understanding of the strengths and weaknesses of the BEAM VM compared with other runtimes such as the JVM.
+
+      AUDIENCE
+
+      People who could benefit from more knowledge of the BEAM VM, with which they can become better Elixir/Erlang developers.
+
+      People who want to learn more about the characteristics of and differences between concurrency paradigms.
+
+      People who are curious about Go's/Clojure's approach to concurrency.
+
+      People who are curious about the contrast between Elixir and Clojure, the BEAM VM and the JVM.
+    speakers:
+      - xiangji
+    topics:
+      - elixir
+      - concurrency
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "cMyw4PfgLWs"
+        url: "https://www.youtube.com/watch?v=cMyw4PfgLWs"
+
+  - title: "A Serverless Runtime on the BEAM"
+    slug: "a-serverless-runtime-on-the-beam"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      Serverless runtimes are often hidden in cloud providers offering and exposed solely by their programming API and deployment procedures. In this talk, we'll explore an open-source Serverless runtime built for the cloud and on-premises, running on the BEAM with a polyglot programming model to build general-purpose applications.
+
+      OBJECTIVES
+
+      In this talk, we'll present how the BEAM and OTP are an ideal fit to build a Serverless runtime. After an introduction about Serverless and a polyglot programming model, we'll present the open-source project at eigr.io where we implemented the core of our runtime based on Erlang/OTP and written in Elixir.
+
+      AUDIENCE
+
+      Individuals interested in Serverless, Distributed State Management and polyglot programming models.
+    speakers:
+      - marcellanz
+    topics:
+      - elixir
+      - otp
+      - distribution
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "-qF_CWLqLf4"
+        url: "https://www.youtube.com/watch?v=-qF_CWLqLf4"
+
+  - title: "Designing BEAM Systems for the Cloud (Amazon AWS)"
+    slug: "designing-beam-systems-for-the-cloud-amazon-aws"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      System designers are now turning to cloud infrastructure for deploying and running BEAM systems at scale. But how can BEAM systems be designed to exploit cloud infrastructure such as Amazon AWS? In this talk, we look at some of the aspects to look out for when designing and architecting Erlang/Elixir systems for the cloud, with focus on Amazon AWS.
+
+      OBJECTIVES
+
+      Help Erlang/Elixir engineers better design systems for the cloud, (Amazon AWS).
+
+      AUDIENCE
+
+      Architects, Engineers and Developers.
+    speakers:
+      - ayandadube
+    topics:
+      - elixir
+      - deployment
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "Tr7OYrHvLSw"
+        url: "https://www.youtube.com/watch?v=Tr7OYrHvLSw"
+
+  - title: "Processes & Grains: A Journey in Orleans"
+    slug: "processes-grains-a-journey-in-orleans"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      A popular way to model the world and manage a long-running state in Erlang and Elixir programs is by using dedicated processes. While this approach is well understood, it can create runtime complexity which must be managed appropriately. Delete your orchestration code today by adopting a simpler way to cluster and distribute work.
+
+      OBJECTIVES
+
+      - Introduce concepts within the Orleans framework with existing Erlang/OTP foundation in mind
+
+      - Review community goals with clustering and workload management
+
+      - Review existing and new library implementations
+
+      - Discuss approaches to adopt the new way of workload orchestration
+
+      AUDIENCE
+
+      You should attend this session if:
+
+      - You are responsible for developing and maintaining custom applications that model a large number of concurrently active entities
+
+      - You have adopted Erlang/OTP clustering, but find the implementation cumbersome to maintain
+
+      - You would like to make your application more scalable and fault-tolerant
+
+      - You like to minimise effort and achieve the desired qualities with as little code as possible
+
+      For maximum enjoyment, you should:
+
+      - Know how to create and maintain applications in Erlang and/or Elixir
+
+      - Have a good understanding of the problem domain (interactive & data-intensive Web applications)
+    speakers:
+      - evadnewu
+    topics:
+      - elixir
+      - otp
+      - libraries
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "wvWUlDzsy_I"
+        url: "https://www.youtube.com/watch?v=wvWUlDzsy_I"
+
+  - title: "Sheldon: The Erlang Spell Checker"
+    slug: "sheldon-the-erlang-spell-checker"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      In this talk, I'll give you a comprehensive view of Sheldon, the Erlang spell checker Felipe Ripoll created for Inaka. With this talk, you'll learn how the spell checker can be used and integrated into your project and the advantages that you can expect from it. You will also find out what challenges we faced while we developed this library, you'll see how it evolved and how mentoring by Brujo Benavides was instrumental in the development and improvement of those projects.
+
+      OBJECTIVES
+
+      Show the potential of the library and plugin.
+
+      AUDIENCE
+
+      All Erlang and Elixir developers.
+    speakers:
+      - viacheslavkatsuba
+    topics:
+      - elixir
+      - libraries
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "C-N4MgIOsAs"
+        url: "https://www.youtube.com/watch?v=C-N4MgIOsAs"
+
+  - title: "Know your Past to Predict your Future --- Time Travel Debugging in Production!"
+    slug: "know-your-past-to-predict-your-future-time-travel-debugging-in-production"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      You've just hit a weird corner case in your production system. Looking at the code has proved hopeless. Your system's log has so much information you feel overwhelmed. How do you debug it? And how do you go about understanding all of the implications of this issue? In this talk we'll take the learnings from building specialised time-travelling debuggers for production systems and dive into how they help in these scenarios. Then we'll look into how you'd approach building one for your system, as well as the constraints that they put on your system's design.
+
+      OBJECTIVES
+
+      The goal of this presentation is to show people why they'd consider building specialised time-travelling debuggers for their production system, and look at a few approaches to building them, as well as what kind of constraints that puts in their system's design, based on debuggers the author has worked with before.
+
+      The idea of tracing itself isn't complicated, but it's not always clear what kind of trade-offs you need to make in production: you need to be more conscious of the required time and space overhead (which you can't always avoid, e.g.: when building a protocol parser). And it's not always clear how to correlate and present that data in a way that makes the information useful---most data in traces is noise, and just like looking at logs of modern production systems is useless without heavy filtering and correlation, debug traces for time-travelling need specialised analysis and visualisation tools.
+
+      AUDIENCE
+
+      This talk is aimed at engineers that run complex production systems on the BEAM, and would like better tools to understand their system's production behaviour when things go wrong.
+    speakers:
+      - quildreenmottaribeiro
+    topics:
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "Abmpo8Klg6E"
+        url: "https://www.youtube.com/watch?v=Abmpo8Klg6E"
+
+  - title: "Burn Your Laurels"
+    slug: "burn-your-laurels"
+    kind: talk
+    language: en
+    duration: 53
+    abstract: |
+      The BEAM has been tremendously successful for three decades and counting. It underpins a huge number of systems, served as the basis for many successful high profile projects, and seeded interest in the actor model among a huge number of programmers. To all the world, the BEAM is the absolute envy of the industry.
+
+      And yet our devices and networks are changing substantially for the first time in nearly a generation. We have new building blocks, rapidly evolving theory, and ever-shifting user expectations. Wasm, far edge, the digital commons, and trustless computing are all fundamentally changing the face of the industry. We can’t rest on our laurels: how do we rise to meet these new demands? What replaces processes when location is irrelevant? What even is a supervision tree when you don't trust the children? When is “let it crash” not enough? Can we make changes to the platform that radically simplify code for developers? How do we enable the next generation of LiveView, Nerves, and CouchDB to meet users where they are?
+
+      This talk will ask hard questions about where we are, where we’re going, and how to have the highest impact. The BEAM is a distributed systems trailblazer; we're riding a ton of momentum, and the ecosystem is a model for communities outside of our own. Let’s not stop here; the world is changing and we need a Cambrian explosion of activity and innovation to keep up with it. Let's move the needle, again!
+    speakers:
+      - brooklynzelenka
+    topics:
+      - liveview
+      - rust
+      - nerves
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "4HMb9eN94os"
+        url: "https://www.youtube.com/watch?v=4HMb9eN94os"
+
+  - title: "Update from the OTP Team"
+    slug: "update-from-the-otp-team"
+    kind: talk
+    language: en
+    duration: 13
+    abstract: "Update from the OTP Team."
+    speakers:
+      - kennethlundin
+    topics:
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "bHFzfEpriUE"
+        url: "https://www.youtube.com/watch?v=bHFzfEpriUE"
+
+  - title: "Update from the Elixir Core Dev Team"
+    slug: "update-from-the-elixir-core-dev-team"
+    kind: talk
+    language: en
+    duration: 13
+    abstract: |-
+      Andrea will give updates on what the Elixir team has done in the last few months, what are the projects they're working on, what's going on on the research side, and what features will be in the next release.
+    speakers:
+      - andrealeopardi
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "bHFzfEpriUE"
+        url: "https://www.youtube.com/watch?v=bHFzfEpriUE"
+
+  - title: "QUICER: Next-Generation Transport Protocol Library for BEAM"
+    slug: "quicer-next-generation-transport-protocol-library-for-beam"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      QUIC (RFC 9000) is a general-purpose transport layer protocol. It is selected as the transport layer for next-generation internet protocol HTTP/3. QUIC runs over UDP but it solves some issues that TCP could not and brings in a new way of developing and new features.
+
+      In this talk, we will give an introduction to QUIC protocol and then introduce the open-source NIF library QUICER (GitHub - emqx/quic: QUIC Protocol for Erlang & Elixir) that we build for BEAM.
+
+      OBJECTIVES
+
+      Get started with quic protocol and get community attention about the QUICER NIF library.
+
+      AUDIENCE
+
+      Someone wants to catch up with the next-generation transport protocol.
+
+      Someone wants to get some introduction with the quic protocol.
+
+      Someone wants to know how to use quicer.
+    speakers:
+      - williamyang
+    topics:
+      - elixir
+      - libraries
+      - community
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "JXgF_OtNPxo"
+        url: "https://www.youtube.com/watch?v=JXgF_OtNPxo"
+
+  - title: "Slaying the Type Hydra, or How We Went from 12,000 Dialyzer Errors to None"
+    slug: "slaying-the-type-hydra-or-how-we-went-from-12-000-dialyzer-errors-to-none"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Have you ever tried running Dialyzer on a large Erlang project for the first time? Did you also get thousands of cryptic errors? Three years ago at Klarna we stood at 1.7MLOC with 12k Dialyzer errors. This is the point where you typically through up your hands and walk away. But we didn't. We fought. And now we are up to 1.72MLOC, but completely free of Dialyzer errors. This talk is about our fight, but not just the fun war stories. You will get a detailed plan for slaying the type Hydra, no matter how many heads it grows.
+
+      OBJECTIVES
+
+      The aim is to get people excited about fixing Dialyzer errors in large code bases, to convince them that it can be done, even when there are lots of errors.
+
+      AUDIENCE
+
+      Erlang/Elixir developers in general, and developers maintaining large and/or legacy systems in particular, who would like to run Dialyzer on their code, but are limited due to the number of existing errors in the code.
+    speakers:
+      - jespereskilson
+    topics:
+      - elixir
+      - type-system
+      - refactoring
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "4PZE40h13wM"
+        url: "https://www.youtube.com/watch?v=4PZE40h13wM"
+
+  - title: "Kill All Mutants! (Intro to Mutation Testing)"
+    slug: "kill-all-mutants-intro-to-mutation-testing"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      How good is your test suite? Would it all still pass if the tested code was changed? If so, there may be problems with your code, your tests or both!
+
+      Mutation Testing reveals these cases. This talk will tell you how to use mutation testing, its benefits, drawbacks, inner workings, and history. There will be several examples and a list of tools for many popular languages.
+
+      You will come away equipped with a powerful new technique for making sure your tests are strict and your code is meaningful.
+
+      OBJECTIVES
+
+      Tell people:
+
+      what mutation testing is
+
+      why mutation testing is helpful
+
+      how to do mutation testing
+
+      some tools for doing mutation testing
+
+      AUDIENCE
+
+      Senior devs, and occasional intermediate developers, who are comfortable with unit testing and, ideally, are already familiar with more abstruse concepts like an Abstract Syntax Tree, but that's not absolutely required. Where experience helps is more in being able to connect the results of a particular case with what you should do about it.
+    speakers:
+      - davearonson
+    topics:
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "30ydZKPtVn4"
+        url: "https://www.youtube.com/watch?v=30ydZKPtVn4"
+
+  - title: "Building Brilliant BEAM Teams"
+    slug: "building-brilliant-beam-teams"
+    kind: talk
+    language: en
+    duration: 49
+    abstract: |-
+      Hiring developers can be a challenge, especially for smaller languages like Erlang or Elixir. When hiring we often focus on finding candidates with the exact right experience, which makes the pool of potential team members is much smaller than it needs to be. By building teams with people of a variety of skill levels and backgrounds, and fostering an environment that encourages learning we can find so many more excellent developers than we otherwise could.
+    speakers:
+      - sannekalkman
+    topics:
+      - elixir
+      - community
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "MvDXd7CWyLY"
+        url: "https://www.youtube.com/watch?v=MvDXd7CWyLY"
+
+  - title: "Testing Done PropEr"
+    slug: "testing-done-proper"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      What's better than writing tests? Having the computer write them for you. Well, at least teach the computer what it can do and let it loose to try to shake out any flaws.
+
+      This talk is about PropEr, a property-based testing framework, and more specifically about its support for testing state machines. I'll whet your appetite by introducing property-based testing, and then take a deep dive into PropEr statem and how you can use it to test state machines.
+
+      OBJECTIVES
+
+      Give the audience an overview of what PropEr statem is/does, and how to approach writing their own tests using it.
+
+      AUDIENCE
+
+      Erlang developers wanting to learn about property based testing in general, and PropEr statem testing in particular.
+    speakers:
+      - maxnordlund
+    topics:
+      - testing
+      - deployment
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "l0KrSwwM0z0"
+        url: "https://www.youtube.com/watch?v=l0KrSwwM0z0"
+
+  - title: "Digital Twin, Planning and Control with Erlang"
+    slug: "digital-twin-planning-and-control-with-erlang"
+    kind: talk
+    language: en
+    abstract: |
+      Showing you the current state of a smart industrial transport system project we are building using. For this, we are currently developing a new “Industrial GRiSP” hardware which will be shown for the first time in public. Based on the same hardware architecture as GRiSP2 I’ll show how we use custom-built PMODs and GRiSP2 boards to prototype while the new hardware was designed.
+
+      The final goal is to make a modular conveyor system with distributed built-in intelligence to prove what we call “Plug & Produce” operation.
+
+      There will be a demo of a Digital Twin with animated visualisation of the manufacturing conveyor transport system in Erlang. If the timing allows it, it will be connected live to a real conveyor system in a producing factory. The digital twin is connected to the sensors and actuators via an Erlang-based open-source OPC-UA protocol stack we have been developing.
+
+      Outlook: Using the complete state of the real world through this digital twin as starting point for a distributed planning algorithm in Erlang allows distributed online (while the world is moving) optimal planning of the material flow on the conveyor.
+
+      OBJECTIVES
+
+      Introduce digital twins, the manufacturing use case with an outlook to distributed planning algorithms.
+
+      AUDIENCE
+
+      Should be something in there for everyone.
+    speakers:
+      - peerstritzinger
+    topics:
+      - distribution
+      - erlang

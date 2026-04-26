@@ -1,0 +1,26 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "klarna"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "kivra"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "emqx"
+    - slug: "saltpay"
+
+- name: "Silver Sponsor"
+  level: 4
+  sponsors:
+    - slug: "v7-labs"
+
+- name: "Students' Sponsor"
+  level: 5
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"

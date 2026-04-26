@@ -560,3 +560,15 @@
   website: "https://underjord.io"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/f679d3993395469aa88c78053e8b7de716b65748.png"
   description: "Small Elixir-focused consultancy and BEAM ecosystem advocacy run by Lars Wikman."
+
+- name: "SaltPay"
+  slug: "saltpay"
+  website: "https://www.saltpay.co"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/009cda3e218a09425357b2b7aa44cf4800771dc4.png"
+  description: "Payment processing and merchant services company building Elixir-based platforms for small and medium businesses."
+
+- name: "V7 Labs"
+  slug: "v7-labs"
+  website: "https://www.v7labs.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/7e32d99a03ddac898305b96fe557031cf1f0abf8.png"
+  description: "AI training data platform for computer vision, helping teams label datasets and ship machine learning models faster."

@@ -1,0 +1,271 @@
+tracks:
+  - name: "Galleriet"
+    color: "#3182CE"
+    position: 1
+  - name: "Mässhallen"
+    color: "#6B46C1"
+    position: 2
+
+days:
+  - name: "Day 1"
+    date: "2022-05-19"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "building-brilliant-beam-teams"
+            track: "Mässhallen"
+            kind: keynote
+
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "update-from-the-otp-team"
+            track: "Mässhallen"
+            kind: talk
+
+      - start_time: "10:15"
+        end_time: "10:45"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "10:45"
+        end_time: "11:30"
+        sessions:
+          - talk_slug: "working-effectively-with-erlang-legacy-code"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "the-hunt-for-the-cluster-killer-bug"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "11:35"
+        end_time: "12:20"
+        sessions:
+          - talk_slug: "growing-together-with-the-beam"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "smashing-the-data-bottleneck-with-federated-machine-learning-on-the-beam"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "12:25"
+        end_time: "12:50"
+        sessions:
+          - talk_slug: "quicer-next-generation-transport-protocol-library-for-beam"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "comparing-the-actor-model-and-csp-concurrency-with-elixir-and-clojure"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "12:50"
+        end_time: "13:50"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:50"
+        end_time: "14:35"
+        sessions:
+          - talk_slug: "digital-twin-planning-and-control-with-erlang"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "liveview-and-javascript-a-guide-to-achieving-synergy"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "14:40"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "processes-grains-a-journey-in-orleans"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "slaying-the-type-hydra-or-how-we-went-from-12-000-dialyzer-errors-to-none"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "15:30"
+        end_time: "15:55"
+        sessions:
+          - talk_slug: "runtime-modes-and-plugins-in-erlang"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "conway-s-law-compliance-in-a-many-services-architecture"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "15:55"
+        end_time: "16:25"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "16:25"
+        end_time: "17:10"
+        sessions:
+          - talk_slug: "erlang-for-untrusted-decentralized-systems"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "learning-erlang-and-elixir-through-exercism-and-advent-of-code"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "17:15"
+        end_time: "17:40"
+        sessions:
+          - talk_slug: "vaxine-the-rich-crdt-database-for-elixir-phoenix-applications"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "incremental-dialyzer-how-we-made-dialyzer-3x-faster"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "17:45"
+        end_time: "18:30"
+        sessions:
+          - title: "Mässhallen Lightning talks"
+            kind: social
+
+      - start_time: "18:30"
+        end_time: "20:30"
+        sessions:
+          - title: "Conference Reception"
+            kind: break
+
+
+  - name: "Day 2"
+    date: "2022-05-20"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "backtracking-through-time-and-space-in-erlang"
+            track: "Mässhallen"
+            kind: keynote
+
+      - start_time: "09:50"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "update-from-the-elixir-core-dev-team"
+            track: "Mässhallen"
+            kind: talk
+
+      - start_time: "10:05"
+        end_time: "10:35"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "10:35"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "evolving-erlang-otp-feature-by-feature"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "designing-beam-systems-for-the-cloud-amazon-aws"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "11:25"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "trace-specifications-and-chaos-engineering-advanced-testing-with-snabbkaffe"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "know-your-past-to-predict-your-future-time-travel-debugging-in-production"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "12:15"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "lambdapad-static-websites-with-elixir-or-erlang"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "improve-your-tests-with-makina"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:40"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "rosie-the-robot-operating-system-in-erlang"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "testing-done-proper"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "14:30"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "kill-all-mutants-intro-to-mutation-testing"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "flow-based-programming-with-elixir-and-alf"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "15:20"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "a-serverless-runtime-on-the-beam"
+            track: "Mässhallen"
+            kind: talk
+          - talk_slug: "sheldon-the-erlang-spell-checker"
+            track: "Galleriet"
+            kind: talk
+
+      - start_time: "15:45"
+        end_time: "16:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "16:15"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "burn-your-laurels"
+            track: "Mässhallen"
+            kind: keynote
+
+      - start_time: "17:05"
+        end_time: "17:15"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+
+      - start_time: "17:15"
+        end_time: "18:15"
+        sessions:
+          - title: "LEAVING DRINKS"
+            kind: break
+
