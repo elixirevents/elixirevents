@@ -1,0 +1,564 @@
+## Talks
+
+  - title: "Designing LLM Native Systems"
+    slug: "designing-llm-native-systems"
+    kind: keynote
+    language: en
+    duration: 41
+    abstract: |
+      LLMs are incredible. I would argue that, at times, LLMs can feel like magic. Some would capitalize on that argument by pointing out that modern "magic" is performed by tricksters and illusionists---implying that LLMs do nothing more than give the illusion of intelligence. The truth is LLMs are magicians, but their greatest trick is not writing code or perfectly formatting your e-mail, it's convincing founders, executives, product managers, etc. to make their products less useful by adding LLM-based features nobody asked for. Many of these features are unnecessarily complex because they attempt to shoehorn LLMs to work in systems that were designed decades before the Transformer even existed.
+
+      LLMs deserve better. Your products deserve better. We all deserve better. To truly unlock the potential of LLMs, we need to start thinking about how to design systems that are LLM-native. In this talk, I will discuss what it means for a system to be LLM-native, what you need to consider when building LLM-based systems, and demonstrate LLM-native alternatives to decades old software solutions.
+    speakers:
+      - seanmoriarity
+    topics:
+      - ai
+      - machine-learning
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "R9JRhIKQmqk"
+        url: "https://www.youtube.com/watch?v=R9JRhIKQmqk"
+
+  - title: "Elixir Update"
+    slug: "elixir-update"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      Eric will give updates on what the Elixir team has done in the last few months, what projects they're working on, what's going on on the research side, and what features will be in the next release.
+    speakers:
+      - ericmeadowsjonsson
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "B0EPRGEs2Oo"
+        url: "https://www.youtube.com/watch?v=B0EPRGEs2Oo"
+
+  - title: "Live Voices with LiveView"
+    slug: "live-voices-with-liveview"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      TBA
+    speakers:
+      - larswikman
+    topics:
+      - elixir
+      - liveview
+    recordings:
+      - provider: youtube
+        external_id: "veUOaN2CNeA"
+        url: "https://www.youtube.com/watch?v=veUOaN2CNeA"
+
+  - title: "Livebook Meets GRiSP: Pushing IoT from Cloud to Edge, One Notebook at a Time"
+    slug: "livebook-meets-grisp-pushing-iot-from-cloud-to-edge-one-notebook-at-a-time"
+    kind: talk
+    language: en
+    duration: 41
+    level: intermediate
+    abstract: |
+      How can we simplify IoT development, make edge computing more accessible, and do it all with a few lines of code? By integrating Livebook with GRiSP.io, we're making the future of distributed computing more approachable, interactive, and collaborative.
+
+      I’ll show how to use Livebook to run distributed applications on GRiSP boards, build real-time dashboards, and manage cloud-to-edge communications easily. You’ll be able to tweak edge computing algorithms, run experiments on distributed nodes, and share everything with your team in real-time.
+
+      This talk is for anyone curious about building smarter IoT applications with less hassle. We’ll cover examples of edge computing, fog networks, and distributed workflows, and how Livebook and GRiSP can bring your IoT ideas to life—making distributed computing real, interactive, and intuitive.
+    speakers:
+      - peerstritzinger
+    topics:
+      - elixir
+      - embedded
+      - livebook
+    recordings:
+      - provider: youtube
+        external_id: "JytEAx47Y7U"
+        url: "https://www.youtube.com/watch?v=JytEAx47Y7U"
+
+  - title: "OpenRiak - how we gained from leaning on the Beam"
+    slug: "openriak-how-we-gained-from-leaning-on-the-beam"
+    kind: talk
+    language: en
+    duration: 40
+    level: intermediate
+    abstract: |
+      The first release of Riak KV under the newly formed OpenRiak community is an important milestone for the project. The aim of the talk is to show some of the non-functional characteristics of the Riak solution, to explain why it remains a potentially interesting technology.
+
+      We will also look under-the-hood at the improvements being made in Riak; and demonstrated the advantages that have gained by embracing BEAM technology further. Examining how improvements have been drawn from migrating NIFs to Erlang, making better use of OTP improvements, embracing the Erlang efficiency guide, as well as use of tools such as eprof and eqwaliser and the community support of the Erlef.
+    speakers:
+      - martinsumner
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "4U5_Nv3jjb0"
+        url: "https://www.youtube.com/watch?v=4U5_Nv3jjb0"
+
+  - title: "Detective Hat: Investigating Production Issues"
+    slug: "detective-hat-investigating-production-issues"
+    kind: talk
+    language: en
+    duration: 40
+    level: advanced
+    abstract: |
+      It was a dark and stormy night, and our production system was out cold. It was our job to find out what had gone wrong and set it right. But how? Our developer instincts weren't helping. Our tester's-intuition saw risk everywhere. We needed a third way; the hard-nosed, boots-on-the-ground, skeptical mindset of the detective!
+
+      We will give you a powerful mental model for tracking down production issues in your codebase and a set of tools to help you along the way. Using noir and tv detective stories as a backdrop, you'll learn how to take ownership of production behaviour, confront hard truths, bring your tools to bear, and follow through to make production better for everyone.
+
+      With the detective mindset, grit, and determination you can go beyond sleuthing out your systems' behaviours. You'll build better paths to observability and better processes to prevent and recover production incidents.
+
+      You might even help your colleagues find detective hats of their own.
+    speakers:
+      - jennybramble
+      - adriandunston
+    topics:
+      - observability
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "bLA2PYIDKLA"
+        url: "https://www.youtube.com/watch?v=bLA2PYIDKLA"
+
+  - title: "Bring back the power of Beam deployments with DeployEx"
+    slug: "bring-back-the-power-of-beam-deployments-with-deployex"
+    kind: talk
+    language: en
+    duration: 35
+    level: beginner
+    abstract: |
+      This talk explores how abstractions can accelerate production while sacrificing access to critical facilities. It consists of three parts:
+
+      1 - Contextualizing the Problem: We’ll examine challenges in embedded systems, highlighting the transition from microcontrollers to OS and the loss of hardware capabilities.
+
+      2 - Transitioning from Embedded to Web Deployments: I’ll share my journey, emphasizing deployment mistakes made while moving from scripts to tools like Kubernetes and Ansible, leading to the development of DeployEx, an Elixir application.
+
+      3 - Overview of DeployEx: Finally, I’ll discuss the features of this open-source project and its future potential.
+    speakers:
+      - thiagoesteves
+    topics:
+      - elixir
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "YppU35JnGYw"
+        url: "https://www.youtube.com/watch?v=YppU35JnGYw"
+
+  - title: "Phoenix sync with ElectricSQL"
+    slug: "phoenix-sync-with-electricsql"
+    kind: talk
+    language: en
+    duration: 40
+    level: intermediate
+    abstract: |
+      At ElixirConf US in September 2024, José gave a keynote outlining his vision for Phoenix sync. This talk introduces our work implementing Phoenix sync with ElectricSQL, an open source sync engine developed in Elixir that we've adapted under his guidance to realise José's original vision.
+
+      The talk re-caps the design objectives of local-first sync into the front-end directly from Phoenix and Ecto. It talks through our implementation approach with Electric and shows you how you can use the new Electric.Phoenix library to add sync to your Phoenix applications.
+
+      This includes syncing "shapes" based on Ecto queries, for direct sync into the front-end. And it includes syncing into the LiveView client using Phoenix.Streams via a new `electric_stream/2` function.
+    speakers:
+      - jamesarthur
+    topics:
+      - elixir
+      - phoenix
+      - postgresql
+
+  - title: "Crafting Fully Custom Code Generators"
+    slug: "crafting-fully-custom-code-generators"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Phoenix is powerful because it allows you to shape your code to meet your needs and just works. Your code generators should reflect that philosophy as well. Even with the customizable templates provided, there are choices baked into Phoenix’s generators that make them often seem like a learning resource but not a tool for speeding up your development.
+
+      Learn how straight forward it is to create code generators in an Elixir application that will allow you to specify every aspect of the code, including application architecture, file paths, test style, which packages to leverage, and more.
+    speakers:
+      - jeffreymatthias
+      - aidanobley
+    topics:
+      - elixir
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "uoJzZ9M97sM"
+        url: "https://www.youtube.com/watch?v=uoJzZ9M97sM"
+
+  - title: "Working with multilingual data in SQL databases through Erlang"
+    slug: "working-with-multilingual-data-in-sql-databases-through-erlang"
+    kind: talk
+    language: en
+    duration: 27
+    level: intermediate
+    abstract: |
+      In our diverse digital world, handling multilingual data in databases presents unique challenges that often go unnoticed until they cause critical issues. This talk aims to shed light on the challenges of handling character set encodings in different SQL databases. We'll dive into the complexities of Unicode support in database systems, examining how seemingly simple concepts like string length and case sensitivity become multifaceted problems when dealing with diverse character sets. This problem will be examined through the lens of a database virtualization platform written in Erlang.
+
+      Key sections of this talk will include:
+       1. Identifying and diagnosing Unicode-related issues in databases
+       2. Guidelines for writing robust tests to guard against encoding problems
+       3. Understanding the impact of default settings and implicit resolution rules
+       4. Implementing best practices for Unicode support in database design and querying
+    speakers:
+      - gourabmitra
+    topics:
+      - erlang
+      - postgresql
+    recordings:
+      - provider: youtube
+        external_id: "sEi_6Ua-Hgc"
+        url: "https://www.youtube.com/watch?v=sEi_6Ua-Hgc"
+
+  - title: "Acceptable Upgrades"
+    slug: "acceptable-upgrades"
+    kind: talk
+    language: en
+    duration: 28
+    level: intermediate
+    abstract: |
+      How do you upgrade a legacy application written around a legacy database—databases designed with best practices from the 90s, with UML looking somewhere between abstract expressionism and piles of spaghetti? …But keep the tests small and understandable, please!
+
+      In my experience, people write tests in 3 cases: they’re too stubborn not to; their problems are too complex to solve without them; or their setup is so understandable that there’s no reason _not to._ When working on large untested applications, it’s very easy to skip tests—there’s too much precedent to want to slow down and fight against the current.
+
+      Here, I will share patterns and experiments that help to write tests faster—and show that with good tooling you can fight upstream to make it so that you can maintain systems and update them with confidence.
+    speakers:
+      - ericsaxby
+    topics:
+      - elixir
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "OHWMOxT691Y"
+        url: "https://www.youtube.com/watch?v=OHWMOxT691Y"
+
+  - title: "Test automation – Get the BEAM into an organization"
+    slug: "test-automation-get-the-beam-into-an-organization"
+    kind: talk
+    language: en
+    duration: 26
+    level: intermediate
+    abstract: |
+      Adopting the BEAM in an organization can be a game-changer, offering fault tolerance, concurrency, and scalability that are hard to match. However, introducing the BEAM into an existing ecosystem often faces challenges like resistance to change, lack of familiarity, and integration complexity. In this talk, we’ll explore how test automation can serve as a bridge to overcome these barriers, driving smoother BEAM adoption within your organization.
+
+      The talk will cover why test automation is a good way to introduce the BEAM into an organization and one example of when it has been done.
+    speakers:
+      - magnussedlacek
+    topics:
+      - testing
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "8DrxTJ5xkfU"
+        url: "https://www.youtube.com/watch?v=8DrxTJ5xkfU"
+
+  - title: "Choosing an effective testing structure"
+    slug: "choosing-an-effective-testing-structure"
+    kind: talk
+    language: en
+    duration: 22
+    level: intermediate
+    abstract: |
+      Modern testing frameworks offer plentiful options for structuring your tests. This flexibility is powerful but can quickly become overwhelming. How do you choose the right approach? Should you use multiple setup blocks? Are fixtures the right choice? And what about testing code that spawns stateful processes?
+
+      This talk will address these questions and more, drawing from the speaker's extensive testing experience. We'll explore strategies to help you:
+
+      1. Choose the most effective test structure for your project
+      2. Optimize your testing process for speed and clarity
+      3. Handle complex scenarios, including stateful processes
+
+      This talk aims to provide practical strategies for creating clearer, more efficient tests that streamline development processes. The talk will focus on Elixir, but many of the techniques are broadly applicable across the entire BEAM ecosystem.
+    speakers:
+      - jasonaxelson
+    topics:
+      - elixir
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "LutLGOxnSYE"
+        url: "https://www.youtube.com/watch?v=LutLGOxnSYE"
+
+  - title: "Cracking the PubSub Code: Elixir's Key to Scalable Real-Time Systems"
+    slug: "cracking-the-pubsub-code-elixir-s-key-to-scalable-real-time-systems"
+    kind: talk
+    language: en
+    duration: 23
+    level: intermediate
+    abstract: |
+      This talk explores the inner workings of PubSub and its crucial role in building scalable, fault-tolerant, and real-time systems.
+
+      It begins with an introduction to the Publisher/Subscriber pattern, highlighting how it decouples services and facilitates efficient message broadcasting in distributed architectures.
+
+      The session then delves into Phoenix.PubSub, showing how it powers real-time features in LiveView and handles clustering across multiple nodes.
+
+      Two hands-on examples will demonstrate PubSub in action: a GenServer broadcasting state across nodes using libCluster, and real-time updates between LiveComponents and LiveView.
+
+      Perfect for Elixir developers looking to master PubSub and build resilient, scalable applications.
+    speakers:
+      - alvarocallero
+    topics:
+      - elixir
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "OIxE6BixJR0"
+        url: "https://www.youtube.com/watch?v=OIxE6BixJR0"
+
+  - title: "Fault-Tolerant Machine Learning Operations"
+    slug: "fault-tolerant-machine-learning-operations"
+    kind: keynote
+    language: en
+    duration: 50
+    level: beginner
+    abstract: |
+      Running machine learning models in production introduces all kinds of interesting questions:
+
+      1. How do we build resilient systems when we don't own the compute we run on?
+      2. How do we make consumer feedback and accurate telemetry first-class concerns for machine learning products?
+      3. Machine learning maturity models often prescribe training on production data: inputs that could not only break the system but also change it in hard-to-track ways. How can we de-risk this for a production model?
+      4. Deterministic code should do the same thing every time, but machine learning models often aren't deterministic. How do we gauge whether systems are working when we don't know exactly what output to expect from the working system?
+
+      This talk will explore those questions and outline some solutions for teams to consider. You'll see diagrams and possibly some example code, but the concepts remain language-agnostic and applicable to any ML stack.
+    speakers:
+      - chelseatroy
+    topics:
+      - machine-learning
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "t_LmMzyVdpI"
+        url: "https://www.youtube.com/watch?v=t_LmMzyVdpI"
+
+  - title: "AI for Worker Collective Action"
+    slug: "ai-for-worker-collective-action"
+    kind: keynote
+    language: en
+    duration: 41
+    level: beginner
+    abstract: |
+      "In today's gig economy, workers on platforms like Upwork and Amazon Mechanical Turk face significant challenges. Collective action could improve conditions, but existing systems are inadequate. In my keynote, I will introduce the AI for Worker Collective Action framework, grounded in social theories. This approach leverages Large Language Models (LLMs) and worker-owned data to create worker-centric technologies that empower workers and enhance their conditions. I'll present case studies demonstrating the framework’s potential to transform the future of work and conclude with a discussion on a research agenda focused on AI's societal impacts and worker wellbeing."
+    speakers:
+      - saiphsavage
+    topics:
+      - ai
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "CTwOITLFm2I"
+        url: "https://www.youtube.com/watch?v=CTwOITLFm2I"
+
+  - title: "OTP update"
+    slug: "otp-update"
+    kind: talk
+    language: en
+    duration: 18
+    abstract: |
+      Ingela will give updates on what the OTP team has done in the last few months, what projects they’re working on, what’s going on on the research side, and what features will be in the next release.
+    speakers:
+      - ingelaandertonandin
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "Z4sLQG0Y9Vs"
+        url: "https://www.youtube.com/watch?v=Z4sLQG0Y9Vs"
+
+  - title: "Nerves ❤️ Flutter"
+    slug: "nerves-flutter"
+    kind: talk
+    language: en
+    duration: 29
+    level: intermediate
+    abstract: |
+      At SmartRent we've deployed Nerves powered devices into living spaces across the country.
+
+      From Smart Home Hubs to Thermostats, we've rolled our own hardware built for the BEAM. But we had to face one of our toughest challenges yet:
+
+      Consumer-Facing UI! 😱
+
+      How would we build a user interface that was responsive, intuitive, animated and extensible?
+      How would we meet the expectations of users who have used devices like modern-day phones and tablets?
+      How would we do this all on a device that's low power and inexpensive, while also foregoing the standard "just ship a web browser" solution?
+      The answer came from Flutter. Google's UI framework written in Dart.
+
+      It ended up being a powerful pairing.
+
+      Let's explore the development journey of how we built an entire Thermostat and Smart Home Hub UI for our Nerves devices. And how this will help to kickstart the "Nerves ❤️ Flutter" initiative within the Nerves community.
+    speakers:
+      - digit
+    topics:
+      - elixir
+      - embedded
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "ZKX9lkQZmKE"
+        url: "https://www.youtube.com/watch?v=ZKX9lkQZmKE"
+
+  - title: "Microcontrollers with Gleam"
+    slug: "microcontrollers-with-gleam"
+    kind: talk
+    language: en
+    duration: 25
+    level: beginner
+    abstract: |
+      An overview of my journey learning Gleam, Erlang and AtomVM for creating a Micro-controller framework for ESP32 and Raspberry PICO devices. This talk will discuss the tools and knowledge acquired while achieving the completion of embedded hobby prototypes under the new framework. For demonstrating the developer experience we're going to give an overview of the tools created and simple code examples.
+    speakers:
+      - raydelossantos
+    topics:
+      - gleam
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "-jd1lRQ4LZg"
+        url: "https://www.youtube.com/watch?v=-jd1lRQ4LZg"
+
+  - title: "Battling Memory Leaks: Tales from the Trenches at WhatsApp"
+    slug: "battling-memory-leaks-tales-from-the-trenches-at-whatsapp"
+    kind: talk
+    language: en
+    duration: 43
+    level: intermediate
+    abstract: |
+      Is your Erlang/Elixir app guzzling memory like an all-you-can-eat buffet? Tired of restarting it every few days during code freeze just to keep things running? It doesn’t have to be this way!
+
+      Join me for a deep dive into BEAM memory troubleshooting, where we’ll demystify garbage collection, allocators, and the finer, more advanced details of memory management. We’ll explore real-world techniques for instrumenting memory, preventing, and diagnosing Out-Of-Memory (OOM) issues—strategies we use at WhatsApp to keep things under control at scale.
+
+      You'll learn how to apply these strategies to your own apps, fortify your systems against memory leaks, and gain the confidence to tackle even the trickiest performance issues. Walk away with the tools to keep your app stable, resilient, and—most importantly—running. Your users (and your future self) will thank you.
+    speakers:
+      - miriampena
+    topics:
+      - erlang
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "5Xcp-PSlW-I"
+        url: "https://www.youtube.com/watch?v=5Xcp-PSlW-I"
+
+  - title: "Elixir LSP"
+    slug: "elixir-lsp"
+    kind: talk
+    language: en
+    duration: 42
+    level: beginner
+    abstract: |
+      The official LSP implementation is going to send the Elixir developer experience to the moon!
+
+      We've seen TWO new language server implementations, Next LS and Lexical, enter the fray alongside Elixir LS, the existing community project.
+
+      Now, the three projects are fusing to become the official LSP team and bring to you an official LSP implementation, *project codename*.
+
+      Let's dive into the technical strengths of each of the projects, the Elixir and OTP improvements, and the future of the Elixir IDE experience.
+    speakers:
+      - mitchellhanberg
+    topics:
+      - elixir
+      - libraries
+      - code-intelligence
+    recordings:
+      - provider: youtube
+        external_id: "C0NyliQ9mxE"
+        url: "https://www.youtube.com/watch?v=C0NyliQ9mxE"
+
+  - title: "The Next Dimension of Developer Experience"
+    slug: "the-next-dimension-of-developer-experience"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Igniter is a project patching and code generation framework for Elixir.
+
+      By leveraging AST-based code patching, library authors can provide intelligent installer and upgraders, massively improving the developer experience for getting started with a new Elixir tool. It also standardizes the process of installing and upgrading elixir packages, massively reducing the cognitive overhead of setting up new applications or installing new packages.
+
+      Want to set up a new package? mix igniter.install.
+      Want to upgrade a package and apply any changes suggested by the package authors? mix igniter.upgrade..
+
+      We start by exploring the unique capabilities Igniter offers to library and application authors today. After walking through examples, from straightforward to advanced, we’ll discuss how Igniter and similar tools elevate the developer experience. Finally, we’ll map out the exciting future of Igniter and its potential to transform the way we work with our Elixir applications every day.
+    speakers:
+      - zachdaniel
+    topics:
+      - elixir
+      - engineering
+
+  - title: "CRDTs and the BEAM: Eventual Consistency Through Acronyms"
+    slug: "crdts-and-the-beam-eventual-consistency-through-acronyms"
+    kind: talk
+    language: en
+    duration: 27
+    level: intermediate
+    abstract: |
+      Conflict-free Replicated Datatypes (CRDTs) allow for distributed, p2p-style workflows where users generate data without conflicts. At screen.garden we wrap Yjs, a CRDT, inside a NIF to push business logic down into clients. This pairs surprisingly well with the BEAM, as we can manage those CRDTs inside stateful processes to turn a fundamentally imperative data structure into a functional one. Adding Phoenix for pubsub and LiveView, we use this architecture to create screen.garden, a collaboration and sync platform for Obsidian. All of this allows for fine-grained sync between a server and many devices, without conflicts and without fear of downtime.
+    speakers:
+      - kevinbarrett
+      - sloaneperrault
+    topics:
+      - elixir
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "16mktow5HTc"
+        url: "https://www.youtube.com/watch?v=16mktow5HTc"
+
+  - title: "Learn you some Agroecology for great good! OR how distributed systems inform climate resilience"
+    slug: "learn-you-some-agroecology-for-great-good-or-how-distributed-systems-inform-climate-resilience"
+    kind: talk
+    language: en
+    duration: 25
+    level: beginner
+    abstract: |
+      This talk is about the base foundation of most modern technology: agriculture.
+
+      Beginning in human prehistory, we venture through time, exploring how agriculture first came to be, and how it has evolved into its current dominant form(s). Using programming paradigms as analogies we will discuss where things stand and how they might want to change in order to improve sustainability of human societies. If this wasn’t already cool enough, we will get to see some pictures of my family’s backyard chickens.
+
+      But most importantly, we will discuss why erlang and distributed systems generally could be considered a desirable future model for climate resilience in agriculture, and how we as technologists might be uniquely positioned to enable that possibility.
+    speakers:
+      - johnmandalakas
+    topics:
+      - distribution
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "6MgbnrTafQA"
+        url: "https://www.youtube.com/watch?v=6MgbnrTafQA"
+
+  - title: "LiveView and Web Components"
+    slug: "liveview-and-web-components"
+    kind: talk
+    language: en
+    duration: 23
+    level: beginner
+    abstract: |
+      LiveView gives us immense productivity as Elixir developers building web applications. What do we do when we need to go past what LiveView gives us? In this session, we’ll explore why using Web Components can be the perfect way to extend LiveView with custom or existing javascript in a way that still feels like LiveView. We’ll see how LiveElements lets us turn our web components into LiveView functional components. We’ll work through examples of using existing web components, building our own from scratch, and using web components to “wrap” existing javascript libraries.
+    speakers:
+      - chrisnelson
+    topics:
+      - elixir
+      - liveview
+    recordings:
+      - provider: youtube
+        external_id: "mEnNNi5XRi8"
+        url: "https://www.youtube.com/watch?v=mEnNNi5XRi8"
+
+  - title: "The socio-technical elements that make good platforms"
+    slug: "the-socio-technical-elements-that-make-good-platforms"
+    kind: keynote
+    language: en
+    duration: 62
+    level: beginner
+    abstract: |
+      Draft abstract, may be updated.
+
+      Great teams with great tech can do great things and that's unsurprising. Bad tech can be saved by good teams. But can bad teams be saved by great tech? What are the elements that lead to good team performance?
+
+      Smaller communities often frame their stack as some sort of secret sauce that lets them defy expectations. In this talk, we propose that great technological powers only get the opportunity to be leveraged when the proper support systems are in place. If you can't build, buy, and combine these to let your teams be their best selves, it won't matter just how great the tech is.
+    speakers:
+      - fredhebert
+      - charitymajors
+    topics:
+      - engineering
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "rJfy6byW-K0"
+        url: "https://www.youtube.com/watch?v=rJfy6byW-K0"

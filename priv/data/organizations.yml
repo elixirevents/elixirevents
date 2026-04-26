@@ -668,3 +668,15 @@
   website: "https://media7.com"
   logo_url: "https://codebeamamerica.com/assets/images/Media%207-logo.png"
   description: "B2B media platform for technology marketers and decision-makers."
+
+- name: "DraftKings"
+  slug: "draftkings"
+  website: "https://careers.draftkings.com"
+  logo_url: "https://codebeamamerica.com/assets/images/sponsors/DraftKings_Tagline_Stacked_FC.png"
+  description: "Digital sports entertainment and gaming company, with backend systems built on Elixir and Erlang."
+
+- name: "Erlang & Elixir Meetup San Francisco"
+  slug: "erlang-elixir-sf-meetup"
+  website: "https://www.meetup.com/erlangelixirsf/"
+  logo_url: "https://codebeamamerica.com/assets/images/sponsors/erlang-elixir-SF-meetup.png"
+  description: "Bay Area meetup group for Erlang and Elixir developers."

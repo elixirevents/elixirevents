@@ -4962,8 +4962,9 @@
 
 - name: "Sean Moriarity"
   slug: "seanmoriarity"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Co-creator of Nx, creator of Axon"
+  bio: |
+    Author of Genetic Algorithms in Elixir and Machine Learning in Elixir. Creator of Axon, co-creator of Nx, as well as a number of libraries in the Elixir ecosystem. Co-chair of the Erlang Ecosystem Foundation Machine Learning Working Group. His interests include artificial intelligence, evolutionary algorithms, mathematics, and functional programming.
 
 - name: "Stephen Ball"
   slug: "stephenball"
@@ -7199,13 +7200,15 @@
 
 - name: "Digit"
   slug: "digit"
-  headline: "Generalist"
-  bio: "Digit is a senior engineer"
-  social_links:
-    - platform: twitter
-      url: "https://x.com/doawoo"
-    - platform: github
-      url: "https://github.com/doawoo"
+  headline: "Senior Firmware Engineer @ SmartRent"
+  bio: |
+    A self-described “hyper-generalist” Digit has been hacking up all sorts of projects throughout his life including IoT hardware, graphics, embedded systems, developer tools, game engines, and interactive web applications.
+
+    He currently maintains the Elixir Burrito project, and contributes occasionally to the Nerves community as well.
+
+    When he's not programming you'll find him perfecting his morning espresso shot, exploring the PNW, or playing table top games.
+
+    Digit is currently a Senior Firmware Engineer @ SmartRent.
 
 - name: "Dylan Kennedy"
   slug: "dylankennedy"
@@ -8004,3 +8007,71 @@
     I'm a research scientist currently working at WhatsApp Infrastructure, experienced on cluster scalability, transport protocols, container managements, server efficiency, as well as control planes.
 
     I'm also very interested in distributed protocols and algorithms, and like to solve hard technical problems.
+
+- name: "Adrian Dunston"
+  slug: "adriandunston"
+  headline: "Director of Engineeering at Papa, Inc."
+  bio: |
+    Adrian P. Dunston has worked in companies of all sizes as a software developer, data architect, scrum master, manager, and briefly founder. He has presented on technical and interpersonal topics across the US, and he currently works as director of backend engineering at Papa, Inc. Adrian is passionate about neurodiversity, using computers to help people, growing a more inclusive tech industry, and storytelling. He wants to learn together how to grow the perfect software company.
+
+- name: "Aidan Obley"
+  slug: "aidanobley"
+  headline: "they/them - Software Engineer @ Mechanical Orchard"
+  bio: |
+    Aidan is a passionate self-taught developer with a focus on developer and user joy. They currently work as a Staff Software Engineer at Mechanical Orchard safely modernizing legacy systems that run the world. Aidan loves to solve problems collaboratively, pair within and across disciplines, and test-drive code.
+
+- name: "Charity Majors"
+  slug: "charitymajors"
+  headline: "Honeycomb.io"
+  bio: |
+    Charity is a co-founder and engineer at Honeycomb.io, a startup that blends the speed of time series with the raw power of rich events to give you interactive, iterative debugging of complex systems. She has worked at companies like Facebook, Parse, and Linden Lab, as a systems engineer and engineering manager, but always seems to end up responsible for the databases too. She loves free speech, free software and a nice peaty single malt.
+
+- name: "Jeffrey Matthias"
+  slug: "jeffreymatthias"
+  headline: "Is there a test for that?"
+  bio: |
+    Jeffrey co-authored Testing Elixir with his friend and Elixir Core Team member Andrea Leopardi. He currently hangs his hat at Mechanical Orchard, where he is a Staff Engineer.
+
+    Jeffrey deployed his first Elixir app to production over 9 years ago.
+
+    He's passionate about creating things and supporting others doing so.
+
+- name: "John Mandalakas"
+  slug: "johnmandalakas"
+  headline: "Software developer, aspiring farmer, and sustainability advocate"
+  bio: |
+    John Mandalakas is a software developer at NFI Industries, where he has been using elixir to build out an event-driven logistics system for the last six years.
+
+    About a decade ago, he escaped a harrowing career in international finance by attending Dev Bootcamp, where an instructor once showed him Racket; he has been hooked on functional programming since that moment.
+
+    When not coding in esoteric programming languages, he is spending time with his family, riding bikes, cooking, exploring forests, or pretending to farm in his backyard.
+
+- name: "Kevin Barrett"
+  slug: "kevinbarrett"
+  headline: "Cofounder, screen.garden"
+  bio: |
+    Kevin Barrett is a writer and programmer in the Washington, DC area. Together with Sloane Perrault he founded screen.garden, a backend, website, and Obsidian plugin for turning Obsidian into a web-enabled, highly collaborative documents platform like Notion or Google Docs. He adores the BEAM and is convinced it is a superpower for companies and individuals alike.
+
+- name: "Ray De Los Santos"
+  slug: "raydelossantos"
+  headline: "Lead Software Developer @ Ensemble Systems Inc"
+  bio: |
+    Ray is a full-stack lead web developer based in Vancouver. He began his programming journey in his teenage years and has since gained extensive experience working on various websites and web apps over the past decades. Ray is proficient in diverse frameworks such as Vue, React/NextJS, WordPress and others. Outside of work, he enjoys spending time with his family, photography, and tinkering with technology.
+
+- name: "Saiph Savage"
+  slug: "saiphsavage"
+  headline: "UNAM & Northeastern University"
+  bio: |
+    Saiph Savage is an Assistant Professor at Northeastern University’s Khoury College of Computer Sciences, where she researches Human-Computer Interaction, AI, and Civic Technology. Recognized as one of MIT Technology Review's 35 Innovators under 35, she has received the Google Anita Borg Scholarship and is a fellow at the Center for Democracy & Technology. Her work has been featured in the BBC, Economist, and New York Times, and published in top venues like ACM CHI and CSCW, earning awards and honors. Dr. Savage has secured grants from the NSF, including the prestigious CAREER award, the United Nations, and industry partners. She collaborates with governments to integrate AI into public services. Her students have interned at companies like Facebook, Twitch, and Microsoft Research. Dr. Savage holds a bachelor's in Computer Engineering from the Universidad Nacional Autnoma de Mexico (UNAM) and a Ph.D. in Computer Science from UCSB. She has also worked at Microsoft, and Intel Labs.
+
+- name: "Sloane Perrault"
+  slug: "sloaneperrault"
+  headline: "Cofounder, screen.garden"
+  bio: |
+    Sloane is a professional programmer and cofounder of screen.garden. She is using her love of functional programming and Elixir to bring real-time collaboration to Obsidian users everywhere. Outside of her professional life she enjoys cooking, singing, and running tabletop role-playing games for her friends and family.
+
+- name: "Thiago Esteves"
+  slug: "thiagoesteves"
+  headline: "Software Architect"
+  bio: |
+    Thiago Esteves is a Software Engineer whose career has evolved from low-level systems with microcontrollers to embedded systems, safety applications, and high-level language applications such as web servers. With a strong hardware background, he brings a unique perspective to software solutions. With over 20 years of experience—more than six dedicated to Beam projects—Thiago has led and contributed to many successful projects. Now, he’s focused on spreading the word that the Beam is all you need!
