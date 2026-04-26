@@ -52,18 +52,19 @@ mix elixir_events.data.fix --dry-run  # preview without changing files
 
 Search is powered by [Typesense](https://typesense.org). Records are automatically synced to Typesense on every insert, update, and delete — including during deployment data imports. Under normal operation, no manual intervention is needed.
 
-If search results get out of sync (e.g. after a failed deploy, manual database changes, or Typesense downtime), connect to the production console and trigger a reindex:
+If search results get out of sync (e.g. after a failed deploy, manual database changes, or Typesense downtime), trigger a reindex from your machine:
 
 ```bash
-# Connect to the production IEx console
-kamal app exec -i "/app/bin/elixir_events remote"
+kamal reindex
+```
+
+Or against a specific collection from the console:
+
+```bash
+kamal console
 ```
 
 ```elixir
-# Reindex all collections
-ElixirEvents.Search.reindex()
-
-# Or reindex a specific collection
 ElixirEvents.Search.reindex("events")
 ElixirEvents.Search.reindex("talks")
 ElixirEvents.Search.reindex("profiles")
@@ -75,7 +76,32 @@ Reindex jobs run asynchronously via Oban.
 
 ## Deployment
 
-Production runs on Hetzner Cloud with Kamal 2, PostgreSQL, and Cloudflare.
+Production runs on [Kamal 2](https://kamal-deploy.org). Deploys are automated: push to `main`, GitHub Actions builds the image and runs `kamal deploy`.
+
+The release uses two roles on the same host:
+
+- **web** — serves HTTP, does not process Oban jobs (`OBAN_QUEUES=none`)
+- **workers** — processes Oban jobs, no HTTP
+
+This keeps long-running jobs from impacting request latency.
+
+### Common operations
+
+Run from your local machine (Kamal aliases defined in `config/deploy.yml`):
+
+| Command | What it does |
+|---|---|
+| `kamal console` | Remote IEx shell into the running web node |
+| `kamal shell` | Bash shell inside the web container |
+| `kamal logs` | Tail application logs |
+| `kamal errors` | Tail logs filtered to errors / exceptions |
+| `kamal sync` | Re-import all YAML data (`Release.full_sync()`) |
+| `kamal reindex` | Enqueue full Typesense reindex of every collection |
+| `kamal db` | `psql` into the production database |
+| `kamal db-dump > backup.dump` | Stream a `pg_dump` to your machine |
+| `kamal restart` | Reboot the app containers |
+
+The remote IEx connection relies on a pinned node name configured in `rel/env.sh.eex` (long-name distribution with a fixed `127.0.0.1` host) — required to make `bin/<app> remote` work reliably inside Kamal/Docker containers, where the auto-detected hostname is unstable.
 
 ## Contributing
 
