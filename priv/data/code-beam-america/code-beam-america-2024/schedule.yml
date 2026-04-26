@@ -1,0 +1,171 @@
+tracks:
+  - name: "Crystal Ballroom"
+    color: "#3182CE"
+    position: 1
+  - name: "Crystal Lounge"
+    color: "#6B46C1"
+    position: 2
+
+days:
+  - name: "Day 1"
+    date: "2024-03-07"
+    position: 1
+    time_slots:
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "programming-distributed-systems"
+            track: "Crystal Ballroom"
+            kind: keynote
+      - start_time: "10:10"
+        end_time: "10:30"
+        sessions:
+          - talk_slug: "otp-update-virtually"
+            track: "Crystal Ballroom"
+            kind: talk
+      - start_time: "11:00"
+        end_time: "11:40"
+        sessions:
+          - talk_slug: "from-concept-to-hardware-a-journey-of-cross-continental-iot-development-using-the-beam"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "using-llms-and-ai-agents-to-super-power-your-phoenix-apps"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "11:45"
+        end_time: "12:25"
+        sessions:
+          - talk_slug: "the-beam-in-homes-across-the-us-deploying-nerves-at-scale"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "contributing-to-the-erlang-ecosystem-my-journey-from-individual-contributor-to-maintainer"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "13:30"
+        end_time: "13:55"
+        sessions:
+          - talk_slug: "swerl-a-library-for-phones-watches-and-headsets"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "getting-to-know-actors-in-gleam"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "14:00"
+        end_time: "14:40"
+        sessions:
+          - talk_slug: "rpc-in-whatsapp"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "it-s-time-to-start-paying-attention-to-webassembly-again"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "14:45"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "ruby-as-a-node"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "erlang-fundamentals-for-debugging-elixir"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "16:00"
+        end_time: "16:25"
+        sessions:
+          - talk_slug: "zenohex-an-eloquent-scalable-and-fast-communication-library-for-elixir"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "the-eef-and-you-unwrapping-5-years-of-the-foundation"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "16:30"
+        end_time: "16:55"
+        sessions:
+          - talk_slug: "motion-commotion-motion-tracking-with-bumblebee-and-liveview"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "high-throughput-data-conversion-for-database-virtualization"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "17:00"
+        end_time: "17:45"
+        sessions:
+          - talk_slug: "30-years-on-and-in-the-beam-mastering-concurrency"
+            track: "Crystal Ballroom"
+            kind: keynote
+
+  - name: "Day 2"
+    date: "2024-03-08"
+    position: 2
+    time_slots:
+      - start_time: "09:10"
+        end_time: "09:55"
+        sessions:
+          - talk_slug: "the-human-factor"
+            track: "Crystal Ballroom"
+            kind: keynote
+      - start_time: "10:05"
+        end_time: "10:25"
+        sessions:
+          - talk_slug: "elixir-update-virtually"
+            track: "Crystal Ballroom"
+            kind: talk
+      - start_time: "11:00"
+        end_time: "11:40"
+        sessions:
+          - talk_slug: "elixir-erlang-and-the-quest-for-ai-justice-building-unbiased-ml-systems"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "working-with-legacy-code"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "11:45"
+        end_time: "12:25"
+        sessions:
+          - talk_slug: "this-too-shall-parse"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "unlock-the-power-of-openid-connect-on-the-beam"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "13:30"
+        end_time: "14:10"
+        sessions:
+          - talk_slug: "against-the-grain"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "raft-for-database-consensus-at-scale"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "14:15"
+        end_time: "14:40"
+        sessions:
+          - talk_slug: "an-elixir-for-environmental-health-empowering-environmental-recovery-with-software"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "erlang-and-sql-why-is-this-so-hard"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "14:45"
+        end_time: "15:10"
+        sessions:
+          - talk_slug: "managing-event-sourcing-race-conditions-with-liveview"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "designing-maintainable-infrastructure-as-code"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "15:40"
+        end_time: "16:05"
+        sessions:
+          - talk_slug: "bringing-functional-to-an-organization"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "accelerating-machine-learning-hardware-development-with-elixir"
+            track: "Crystal Lounge"
+            kind: talk
+      - start_time: "16:10"
+        end_time: "16:55"
+        sessions:
+          - talk_slug: "beautiful-and-right-hidden-features-and-abstractions-that-make-languages-work"
+            track: "Crystal Ballroom"
+            kind: keynote

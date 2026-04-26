@@ -376,3 +376,16 @@
   longitude: -122.0787026
   website: "https://computerhistory.org/"
   description: "A museum dedicated to preserving and presenting the artifacts and stories of the Information Age, with a flexible event venue used by tech conferences in Silicon Valley."
+
+- name: "Marines' Memorial Club & Hotel"
+  slug: "marines-memorial-club"
+  street: "609 Sutter Street"
+  city: "San Francisco"
+  region: "California"
+  country: "United States"
+  country_code: "US"
+  postal_code: "94102"
+  latitude: 37.78892
+  longitude: -122.41072
+  website: "https://marinesmemorial.org"
+  description: "A historic 12-story hotel and event venue in San Francisco's Union Square, owned and operated by the Marines' Memorial Association as a living memorial to fallen U.S. Marines."

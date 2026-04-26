@@ -839,8 +839,11 @@
 
 - name: "Benjamin Philip"
   slug: "benjaminphilip"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Elixir and FP Enthusiast, Linux user, Highschooler"
+  bio: |
+    Benjamin is an Elixir and Functional Programming enthusiast, and the maintainer of Erlang's Apache Arrow implementation. Though not a core contributor, he also frequently contributes to the Nx and Livebook projects with the occasional contributions to Hexpm and Hex. Being a 16 year old high schooler, he does not have any professional programming experience but he tries to contribute to Opensource whenever time permits.
+
+    In his free time he likes to read Non Fiction and Fantasy, listen to 70s and 80s music (and additionally grumble about how nobody at school shares his taste in music) and crack terrible jokes. Beware. He's bit of a Linux and Emacs zealot.
 
 - name: "Bikram Chatterjee"
   slug: "bikramchatterjee"
@@ -3365,8 +3368,11 @@
 
 - name: "Adam Lancaster"
   slug: "adamlancaster"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Putting the \"wow\" in \"wow, who the hell wrote this?!\""
+  bio: |
+    Adam has been writing Elixir professionally for 7 years and no one has stopped him yet.
+
+    Working mostly in startups and in London he has recently moved to the USA to continue delivering value to the people. An active speaker and blogger Adam is passionate about making software tractable, correct and fast. He is always happy to talk about making systems simple and the intersection between people and computers.
 
 - name: "Adam Tornhill"
   slug: "adamtornhill"
@@ -3680,8 +3686,9 @@
 
 - name: "Chris Nelson"
   slug: "chrisnelson"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Co-Founder and Principal Engineer"
+  bio: |
+    Chris Nelson is a Co-Founder of Launch Scout. He created the company’s apprenticeship program, mentors new developers, and sets technology direction. He loves sharing what he’s learned from over 25 years of developing software across a wide range of industries. Chris has given workshops across the country and spoken at conferences including ElixirConf, RailsConf, RubyConf, JavaOne, CodeMash and Scottish Ruby Conf.
 
 - name: "Clark Kampfe"
   slug: "clarkkampfe"
@@ -4892,8 +4899,11 @@
 
 - name: "Jenny Bramble"
   slug: "jennybramble"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Quality Advocate and Local Badass"
+  bio: |
+    Jenny ended up in a quality assurance career after coming up through support and devops, cutting her teeth on that interesting role that acts as the 'translator' between customer requests from support and the development team. Her love of support and the human side of problems lets her find a sweet spot between empathy for the user and empathy for my team. She's done testing, support, or human interfacing for most of her career. She finds herself happiest when she's making an impact on other people--whether it's helping find issues in applications, leading scrum, speaking at events, or just grabbing coffee and chatting.
+
+    Twitter: @jennydoesthings
 
 - name: "Justin Wood"
   slug: "justinwood"
@@ -5028,14 +5038,15 @@
 
 - name: "Isaac Yonemoto"
   slug: "isaacyonemoto"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Elixir Plumber"
+  bio: |
+    Isaac has been an elixir developer since 2016, and currently has released several libraries for elixir, including Zigler, which is a framework for writing zig nifs. He currently writes the "E-xyza" collection of elixir libraries and runs a company, Veridia, which specializes in solar power management software.
 
 - name: "Katelynn Burns"
   slug: "katelynnburns"
   headline: "Software Engineer at Launch Scout"
   bio: |
-    An apprentice software engineer at Launch Scout with a background in Psychology and education. Katelynn has a Bachelors degree in psychology and is a bootcamp graduate from the Grace Hopper Program at Fullstack Academy. Experience with Javascript and Elixir. Katelynn has been engineering for over a year as a full stack developer.
+    A software engineer at Launch Scout with a background in Psychology and education. Katelynn has a Bachelors degree in psychology and is a bootcamp graduate from the Grace Hopper Program at Fullstack Academy. Experience with Javascript and Elixir. Katelynn has been engineering for over two year as a full stack developer.
 
 - name: "Kimberly Erni"
   slug: "kimberlyerni"
@@ -7792,17 +7803,45 @@
   bio: |
     Ananya is a Staff Software Engineer at LinkedIn solving problems in the infrastructure observability domain. She has been an Erlang developer for the last 3 years working on the network flow collection and processing system. She is a polyglot developer who can code in Erlang, Golang, Java and Python.
 
+- name: "Byron Saltysiak"
+  slug: "byronsaltysiak"
+  headline: "CTO at AdmIntel Inc"
+  bio: |
+    I’m Byron Saltysiak (https://byronsalty.com) I’ve been in Software Dev for over 20 years at Turner Broadcasting most of my career running services for sites like CNN, NBA and CartoonNetwork.
+
+    I was involved in the DockYard Academy Elixir bootcamp and I'm now I'm a mentor for them.
+
+    I’m now CTO at a start-up called AdmIntel Inc, building Elixir/Phoenix based AI/LLM powered products.
+
 - name: "David Ansari"
   slug: "davidansari"
   headline: "Software Engineer, VMware"
   bio: |
     David Ansari (Twitter: @david1ansari, GitHub: @ansd) is a software engineer at VMware. He joined the RabbitMQ team three years ago. In the past, he was a Cloud Foundry core contributor. David gave talks at KubeCon + CloudNativeCon, RabbitMQ Summit, Cloud Foundry Summit, VMware EMEA Tech Talk, and OOP Conference.
 
+- name: "Emily deGroot"
+  slug: "emilydegroot"
+  headline: "Stay Focused, Stay hopeful."
+  bio: |
+    As a passionate advocate for the intersection of environmentalism and technology, I am dedicated to supporting environmental innovators as they tackle local economic, social, and environmental challenges. Through my work with the Open Landscape Network, I am committed to promoting accessibility to sustainable digital finance through nature-based solutions.
+
 - name: "Erin Boeger"
   slug: "erinboeger"
   headline: "Erlang Solutions"
   bio: |
     Erin has been working for several years in the Fin-Tech sector. Erin has designed and built many complex systems such as PCI compliant credit card vaults, funds transfer systems, authentications systems, accounting ledger systems, and experience with Blockchain. Erin has a focus on quality and creates extensive automated tests when building applications. Erin has a military and business background and is experienced with hiring and training software developers.
+
+- name: "Gourab Mitra"
+  slug: "gourabmitra"
+  headline: "Software Engineer at Datometry"
+  bio: |
+    Gourab Mitra works as a Software Engineer at Datometry. He became part of the BEAM ecosystem while developing products at Datometry in 2018. He has worked across the globe in various industries. He started his career as an aspiring software engineer who used to work wearing a hard hat and steel-toed boots. He holds an MS in Computer Science from the State University of New York at Buffalo, New York, and a BS in Information Technology from Birla Institute of Technology, Mesra, India. Outside of work, he is an avid yogi and a public speaker
+
+- name: "Henry Sun"
+  slug: "henrysun"
+  headline: "Software Engineer at WhatsApp"
+  bio: |
+    Henry Sun has 4 years of experience designing highly distributed systems in Erlang at WhatsApp where he works on the distributed storage system that underlies WhatsApp messaging and WhatsApp Channels. During this time, he built and maintains WARaft, an Erlang implementation of the RAFT consensus algorithm geared towards the development of strongly consistent distributed storage solutions in Erlang. Previously, Henry Sun studied Computer Science at Caltech where he did research on compilers and operating systems design.
 
 - name: "Ian Butler"
   slug: "ianbutler"
@@ -7815,6 +7854,18 @@
   headline: "Operating system engineer at Kry10 and seL4 TSC member"
   bio: |
     Dr. Ihor Kuz is an operating system engineer at Kry10, helping develop the Kry10 OS and Platform. Ihor has previous experience leading the team developing the seL4 microkernel, and has been involved with seL4 for as long as it's been around. He is also an associate professor at UNSW in Australia and has taught distributed systems and Erlang there for many years.
+
+- name: "Justin Scherer"
+  slug: "justinscherer"
+  headline: "NM Lead Software Engineer"
+  bio: |
+    Justin Scherer has been professionally developing applications for over 10 years. On top of this, he has worked in a variety of fields ranging from embedded systems to high-performance cluster applications. Justin has led development teams that utilize JavaScript on the web and on the server. He currently works for a Northwestern Mutual building the next generation of illustration software.
+
+- name: "Kathy Rodante"
+  slug: "kathyrodante"
+  headline: "Lead Software Engineer at Factory Quality"
+  bio: |
+    Kathy has over 6 years of programming with Elixir at Bleacher Report and The RealReal. She is currently supporting the team at Factored Quality with their full Elixir, Phoenix, and LiveView stack. She studied music and foreign language at university and is a self-taught software engineer. Outside of work she plays and develops video games and focuses on her family (husband, two toddlers, dog, and two cats!)
 
 - name: "Kent McLeod"
   slug: "kentmcleod"
@@ -7842,11 +7893,23 @@
 
     I've been hired as a software engineer for the first time in 2017, starting my career in embedded systems with Python and Shell, then moving to PHP and Elixir as a back-end developer for 3 years, and at last, I've fully focused my career on being an Elixir back-end developer for the last year.
 
+- name: "Mae Milano"
+  slug: "maemilano"
+  headline: "Inventing new ways to write correct distributed systems code"
+  bio: |
+    Mae Milano is an assistant professor at Princeton University working at the intersection of Programming Languages, Distributed Systems, and Databases. Her work has appeared at top-tier academic venues and has attracted the attention of the Swift language team. She is a recipient of the NDSEG Fellowship, has won several awards for her writing and service, and is a founding member of the Computing Connections Fellowship's selection committee (https://computingconnections.org/). https://languagesforsyste.ms
+
 - name: "Marianne Bellotti"
   slug: "mariannebellotti"
   headline: "Author, Systems Geek, Relapsed Anthropologist"
   bio: |
     Marianne Bellotti is the author of books Kill It With Fire, Building Safety Critical Systems and Hiring Engineers, as well as a popular column on technology and system safety. She has built data infrastructure for the United Nations to help humanitarian organizations share crisis data and tackled some of the oldest and most complicated computer systems in the world as part of United States Digital Service. At Auth0 she ran Platform Services, a portfolio that included shared services, untrusted code execution, and developer tools. Currently she runs engineering teams at Rebellion Defense.
+
+- name: "Matthew Pope"
+  slug: "matthewpope"
+  headline: "Software Engineer at Datometry"
+  bio: |
+    Matthew Pope is a Software Engineer working with Erlang in the database virtualization field. He has previous experience working in the video game industry, working on scaling Ejabberd as well as real-time match making. He wants to see the BEAM ecosystem thrive as more advanced tools and languages are created.
 
 - name: "Milton Mazzarri"
   slug: "miltonmazzarri"
@@ -7872,6 +7935,18 @@
 
     I currently work at Simplebet as a Senior Software Engineer.
 
+- name: "Mitsuhiro Osaki"
+  slug: "mitsuhirosaki"
+  headline: "Technical Supervisor"
+  bio: |
+    Mitsu is a technical supervisor at CityNet Inc. He has been developing a management system for small hydropower plants with Nerves. Also, he is working on a plan for the agricultural field with drones and wireless communication.
+
+    He is a member of a research project named Beyone that has been developing a new platform for distributed computing, including his major topic Giocci within local 5G.
+
+    He has enjoyed the Yosakoi Festival in Kochi, Japan as a choreographer of flag bearers.
+
+    https://www.youtube.com/watch?v=4d_REO6WVH0
+
 - name: "Parker Rueve"
   slug: "parkerrueve"
   headline: "Software Developer, Launch Scout"
@@ -7883,3 +7958,49 @@
     I work at Launch Scout as a software developer, delivering custom software using Elixir, Phoenix, and LiveView.
 
     Before I started writing code professionally, I studied architecture and worked as a Vespa mechanic.
+
+- name: "Rashmi Nagpal"
+  slug: "rashminagpal"
+  headline: "Machine Learning Engineer at Patchstack"
+  bio: |
+    Rashmi Nagpal is a Software Engineer with 3+ years of work experience. Also, She is a Research Affiliate at the University of San Francisco, CA, working in sociolinguistics. She is passionate about exploring FATE (Fairness, Accountability, Transparency, and Ethics) in NLP algorithms. She a graduate in Artificial Intelligence from the University of California Berkeley and Plaksha. She is a leader at Women Who Go, wherein she is actively involved in bridging the gender gap in Science, Technology, Engineering, and Mathematics (STEM) fields.
+
+- name: "Ricardo Lanziano"
+  slug: "ricardolanziano"
+  headline: "Software developer at Erlang Solutions Americas"
+  bio: |
+    Systems engineer and computer programmer, currently working on Erlang based platforms. Used to tour across the country on a bike, nowadays he cosplays as a farmer. Experienced in BEAM based languages and different Lisp dialects. Has worked with software from embedded devices to redundant multicore HA servers.
+
+- name: "Shintaro Hosoai"
+  slug: "shintarohosoai"
+  headline: "The University of Tokyo, Project Researcher, Embedded System/IoT"
+  bio: |
+    Shintaro Hosomi is a Project researcher at the University of Tokyo.
+
+    His research is communication middleware for embedded systems and IoT, Software Engineering, System Modeling.
+
+    He previously worked at a software company, where I was responsible for developing UML modeling tools and providing consulting on software engineering.
+
+- name: "Sylvia Deal"
+  slug: "sylviadeal"
+  headline: "Seeking Meaningful Employment"
+  bio: |
+    Sylvia graduated from Brigham Young University-Idaho this past December. In addition to a love of functional programming and arguing about naming conventions they have a passion for audio, cooking, and any night of good games with friends.
+
+    Sylvia has a spouse and two children, ages 3 years and 6 months. Their 3YO didn't have a "why" phase, he had a "but how does that work" phase. Sylvia likes to think that's a result of their influence.
+
+- name: "Tom Collins"
+  slug: "tomcollins"
+  headline: "Co-founder of the Open Landscape Network"
+  bio: |
+    Tom and Emily are cofounders of the Open Landscape Network. Passionate about the intersection of environmentalism and technology, they saw the environmental sector was lagging in technical innovation, despite the climate and biodiversity crisis being some of the most significant challenges of our time.
+
+    The organization now supports projects in multiple countries to develop and scale their efforts, while demonstrating the potential of cross-stakeholder collaboration.
+
+- name: "Zeyu Zhang"
+  slug: "zeyuzhang"
+  headline: "Research Scientist at WhatsApp"
+  bio: |
+    I'm a research scientist currently working at WhatsApp Infrastructure, experienced on cluster scalability, transport protocols, container managements, server efficiency, as well as control planes.
+
+    I'm also very interested in distributed protocols and algorithms, and like to solve hard technical problems.
