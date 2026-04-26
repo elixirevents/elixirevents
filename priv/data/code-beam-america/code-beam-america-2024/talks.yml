@@ -1,0 +1,651 @@
+## Talks
+
+  - title: "Programming Distributed Systems"
+    slug: "programming-distributed-systems"
+    kind: keynote
+    language: en
+    duration: 45
+    level: intermediate
+    abstract: |
+      Our interconnected world is increasingly reliant on distributed systems of unprecedented scale, serving applications which must share state across the globe. And, despite decades of research, we're still not sure how to program them! In this talk, I'll show how to use ideas from programming languages to make programming at scale easier, without sacrificing performance, correctness, or expressive power in the process. We'll see how slight tweaks to modern imperative programming languages can provably eliminate common errors due to replica consistency or concurrency---with little to no programmer effort. We'll see how new language designs can unlock new systems designs, yielding both more comprehensible protocols and better performance. And we'll conclude by imagining together the role that a new cloud-centric programming language could play in the next generation of distributed programs.
+    speakers:
+      - maemilano
+    topics:
+      - distribution
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "QSoMhUlivyU"
+        url: "https://www.youtube.com/watch?v=QSoMhUlivyU"
+
+  - title: "OTP update (virtually)"
+    slug: "otp-update-virtually"
+    kind: talk
+    language: en
+    duration: 12
+    level: beginner
+    abstract: |
+      Update from the OTP Core Team on their work.
+
+      Talk is given remotely.
+    speakers:
+      - ingelaandertonandin
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "TSffKlAn2q8"
+        url: "https://www.youtube.com/watch?v=TSffKlAn2q8"
+
+  - title: "From Concept to Hardware: A Journey of Cross-Continental IoT Development Using the BEAM"
+    slug: "from-concept-to-hardware-a-journey-of-cross-continental-iot-development-using-the-beam"
+    kind: talk
+    language: en
+    duration: 38
+    level: beginner
+    abstract: |
+      In this presentation, we embark on a journey through the dynamic landscape of the Internet of Things. We will delve into the crucial role of multiprotocol gateways and companion ecosystem devices, examining their impact on the development and deployment of comprehensive hardware-software solutions. We will also share our firsthand experience in successfully traversing continents to deliver these solutions.
+
+      Our exploration begins with a refined understanding of IoT, encompassing trending concepts such as Edge AI/ML and heterogeneous computing. This reframed perspective paves the way for a deeper appreciation of the complex ecosystem in which our solutions operate. We then proceed to dissect the intricate architecture and implementation of multiprotocol gateways and sensor devices, utilising the ESL Reference IoT platform as a tangible case study. This detailed examination illuminates the interplay between diverse hardware and software components, and how we leverage BEAM technologies to orchestrate them seamlessly.
+      We also go through the journey of prototyping and shipping tangible hardware products, co-developed across continents, using the latest tools and services available for small scale hardware delivery.
+    speakers:
+      - ricardolanziano
+      - omerkilic
+    topics:
+      - embedded
+      - erlang
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "Cs6Qc0F_0rE"
+        url: "https://www.youtube.com/watch?v=Cs6Qc0F_0rE"
+
+  - title: "Using LLMs and AI Agents to super power your Phoenix apps"
+    slug: "using-llms-and-ai-agents-to-super-power-your-phoenix-apps"
+    kind: talk
+    language: en
+    duration: 38
+    level: intermediate
+    abstract: |
+      AI and LLM powered applications are poised to become the next big thing in software. All of the incredible advancements in the last few years have created the foundational layers of AI. In this talk, we will take a hands-on approach to using these foundations directly in our Elixir/Phoenix based applications.
+    speakers:
+      - byronsaltysiak
+    topics:
+      - elixir
+      - phoenix
+      - ai
+    recordings:
+      - provider: youtube
+        external_id: "Hnpt2zv0rVw"
+        url: "https://www.youtube.com/watch?v=Hnpt2zv0rVw"
+
+  - title: "The BEAM in Homes across the US: Deploying Nerves at Scale"
+    slug: "the-beam-in-homes-across-the-us-deploying-nerves-at-scale"
+    kind: talk
+    language: en
+    duration: 41
+    level: intermediate
+    abstract: |
+      This talk is about lessons, unexpected benefits, and areas for improvement from deploying Elixir and Erlang/OTP on custom hardware running Nerves at SmartRent. SmartRent provides smart home features to rental properties and uses Nerves in smart thermostats and IoT gateways. While we create our own custom hardware and use many Nerves features, this talk is less about that and more about how we’ve ended up using the BEAM. In many ways, it’s a reflection on why we chose the platform in the first place.
+
+      The talk starts with describing the types of devices we build and constraints we have with our embedded processors and our deployment environment. OTP comes to the rescue with solutions, and as countless others have, we’ve had a journey of discovery of functionality that we had in the beginning.
+
+      Even if you’re not an embedded developer, my hope is that you’ll gain appreciation and insights into developing applications on the BEAM based on our experiences at SmartRent.
+    speakers:
+      - frankhunleth
+    topics:
+      - elixir
+      - embedded
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "6_DIZUIw_MI"
+        url: "https://www.youtube.com/watch?v=6_DIZUIw_MI"
+
+  - title: "Contributing to the Erlang Ecosystem: My Journey from Individual Contributor to Maintainer"
+    slug: "contributing-to-the-erlang-ecosystem-my-journey-from-individual-contributor-to-maintainer"
+    kind: talk
+    language: en
+    duration: 29
+    level: beginner
+    abstract: |
+      Lately the Erlang Ecosystem has grown to address many new domains. But is its community growing enough to support it? My experience as a new contributor may shed light on this.
+
+      I'm a 16 year old student who started contributing to the Livebook, Hexpm and Nx projects at 14. Since then I've grown from being a raw newbie to receiving funding from The EEF to work on packages that will support Erlang's telemetry
+      implementation.
+
+      Join me as I talk about my challenging transition and see how I:
+
+      - overcame my fear of the opensource community
+      - learned to work with other members
+      - found more meaningful ways to contribute
+      - learned to balance my contributions with my other priorities
+
+      If you're new to the community, you'll learn how to get started and grow in the community - even if you have as little experience as i did.
+
+      Maintainers will see how the community helped me to make valuable contributions, how it got in my way, and how my experiences can help their projects.
+    speakers:
+      - benjaminphilip
+    topics:
+      - erlang
+      - community
+      - open-source
+    recordings:
+      - provider: youtube
+        external_id: "CGYi-_1msTY"
+        url: "https://www.youtube.com/watch?v=CGYi-_1msTY"
+
+  - title: "SwErl: a library for phones, watches, and headsets"
+    slug: "swerl-a-library-for-phones-watches-and-headsets"
+    kind: talk
+    language: en
+    duration: 24
+    level: intermediate
+    abstract: |
+      It is estimated that there are over 1 billion current users of the iPhone. That doesn't even count the number of watch, Mac, and headset users. SwErl is an easy-to-use open source library that enables these 1 billion plus devices to be nodes in Erlang systems....and it mimics Erlang programming patterns and syntax in Swift.
+    speakers:
+      - leebarney
+      - sylviadeal
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "ju3eSKP_3NY"
+        url: "https://www.youtube.com/watch?v=ju3eSKP_3NY"
+
+  - title: "Getting to know Actors in Gleam"
+    slug: "getting-to-know-actors-in-gleam"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Gleam is a programming language that makes the case for type safety in the BEAM. Give it a try and you will soon discover that the straightforward syntax and great error messages give you the power to start building your domain logic behind a lovely typed foundation.
+      It is a great choice for simple finite programs that will not break, but the BEAM offers much more than that... Its process primitive gives us the means to model asynchronous and concurrent work.
+      Gleam offers a way to represent processes and messages within the type system and uses that to rebuild one of the fundamental abstractions of OTP an Actor. In this talk we’re going to disassemble what makes an Actor and what it takes Gleam to make it work along its type system.
+    speakers:
+      - raulchouza
+    topics:
+      - gleam
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "WaHx6n2UZJg"
+        url: "https://www.youtube.com/watch?v=WaHx6n2UZJg"
+
+  - title: "RPC in WhatsApp"
+    slug: "rpc-in-whatsapp"
+    kind: talk
+    language: en
+    duration: 35
+    level: advanced
+    abstract: |
+      In this talk, we will cover multiple areas in WhtasApp's infrastructure related to the lifecycle of a request flowing between our Erlang services. It incudes how to overcome the limitation and scale our cluster to more than 40 thousand nodes using Erlang Distribution, the service discovery and routing mechanism, the job dispatching and queueing model, as well as the bottlenecks and overload protections. We welcome you to come and learn on how to build Erlang infrastructure at scale.
+    speakers:
+      - zeyuzhang
+    topics:
+      - erlang
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "A5bLRH-PoMY"
+        url: "https://www.youtube.com/watch?v=A5bLRH-PoMY"
+
+  - title: "It’s time to start paying attention to WebAssembly (again)"
+    slug: "it-s-time-to-start-paying-attention-to-webassembly-again"
+    kind: talk
+    language: en
+    duration: 34
+    level: intermediate
+    abstract: |
+      WebAssembly is an up and coming technology with wide support and bright promise. But until recently, integrating with WebAssembly for something as simple as calling a function with a string was almost prohibitively difficult. That is in the process of changing: there are now multiple options to integrate Elixir and WebAssembly at a higher level in a more productive way. In this session, we’ll start with a brief (re-)introduction to WebAssembly and discuss the possibilities it unlocks for us as Elixir developers. We’ll see what the challenges are to integration and how they are addressed by open source projects like Extism and advances to WebAssembly itself such as the WebAssembly Component Model. We’ll explore this via concrete, thoroughly explained code examples. You will walk away from this talk with the knowledge of why and how you can integrate WebAssembly in your next Elixir application.
+    speakers:
+      - chrisnelson
+    topics:
+      - erlang
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "2mkplD9W-IM"
+        url: "https://www.youtube.com/watch?v=2mkplD9W-IM"
+
+  - title: "Ruby as a Node"
+    slug: "ruby-as-a-node"
+    kind: talk
+    language: en
+    duration: 38
+    level: advanced
+    abstract: |
+      BEAM comes with its own tools like EPMD and :rpc that enable seamless communication between nodes.
+      When it comes to making different technologies talk to each other, there are lots of options like gRPC. In this presentation, we'll explore how to connect Elixir and Ruby apps using these BEAM-specific mechanisms.
+    speakers:
+      - artursulej
+    topics:
+      - erlang
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "Z5QsHyhkzz4"
+        url: "https://www.youtube.com/watch?v=Z5QsHyhkzz4"
+
+  - title: "Erlang Fundamentals for Debugging Elixir"
+    slug: "erlang-fundamentals-for-debugging-elixir"
+    kind: talk
+    language: en
+    duration: 16
+    abstract: |
+      In this talk we will explore the fundamentals behind the magic of some of the debugging tools in Elixir and their benefits to debug borderline conditions and find hard to reproduce bugs in live Erlang systems 🔮🪄
+
+      Elixir has a very powerful set of debugging tools not everyone is aware of. They bring the community benefits inherited from the need to debug borderline conditions and find hard to reproduce bugs in live Erlang systems. In this talk, we'll explore the foundations behind Elixir wrappers like Rexbug, using examples to explain the fundamentals which give us all this magic.
+    speakers:
+      - lorenamireles
+    topics:
+      - erlang
+      - elixir
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "RHAxGtewcEA"
+        url: "https://www.youtube.com/watch?v=RHAxGtewcEA"
+
+  - title: "Zenohex: an eloquent, scalable and fast communication library for Elixir"
+    slug: "zenohex-an-eloquent-scalable-and-fast-communication-library-for-elixir"
+    kind: talk
+    language: en
+    duration: 24
+    level: intermediate
+    abstract: |
+      How do you handle communication in complex networks or when communicating with other languages and IoT devices? Elixir offers various Pub/Sub communication libraries, but network configurations may limit their usability, and some require a broker server.
+      Zenohex is a high-performance Pub/Sub communication library based on Zenoh, implemented in Rust. Zenoh has broker-based and broker-less Pub/Sub communications, akin to MQTT and DDS, respectively, but with unique features that enable communication across languages, platforms, and devices. Since Zenohex is realized by using Rustler, this talk will also cover how to integrate Rust modules in your Elixir library. Note that our library also provides Rustler-Precompiled binaries, making it easy to use without a Rust.
+      We will show a demonstration of controlling a mobile robot remotely using Zenohex integrated with ROS (Robot Operating System).
+      Github: https://github.com/b5g-ex/zenohex, Hex.pm: https://hex.pm/packages/zenohex
+    speakers:
+      - shintarohosoai
+      - hidekitakase
+      - mitsuhirosaki
+    topics:
+      - elixir
+      - libraries
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "9DIamjWqass"
+        url: "https://www.youtube.com/watch?v=9DIamjWqass"
+
+  - title: "The EEF and You: Unwrapping 5 Years of the foundation"
+    slug: "the-eef-and-you-unwrapping-5-years-of-the-foundation"
+    kind: talk
+    language: en
+    duration: 23
+    abstract: |
+      The Erlang Ecosystem Foundation (EEF) has just turned 5 years old, and it has been a whirlwind! Come and join us to recap some of the coolest EEF-funded/driven initiatives that you use every day, from faster rebar 3 builds, a JIT compiler optimized for arm64 that is saving the planet to smoother documentation navigation that is there to save our day. But that's not all – we've also been hard at work fostering a more diverse and inclusive community. As we unravel these achievements, let's also explore upcoming opportunities to collaborate, build and continue support. Find out how you can play a vital role in strengthening our community together!
+    speakers:
+      - miriampena
+    topics:
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "hLsIzP3MLGQ"
+        url: "https://www.youtube.com/watch?v=hLsIzP3MLGQ"
+
+  - title: "Motion Commotion: Motion Tracking with Bumblebee and Liveview"
+    slug: "motion-commotion-motion-tracking-with-bumblebee-and-liveview"
+    kind: talk
+    language: en
+    duration: 19
+    level: intermediate
+    abstract: |
+      As someone who models, dances, and draws in my spare time, the movement of bodies is fascinating and complicated. AI might still have trouble knowing how many fingers a person should have, but with Liveviews’ open socket design and Bumblebee’s neural network capability guided by an artistic engineer, we can make some motion magic.
+    speakers:
+      - katelynnburns
+    topics:
+      - elixir
+      - liveview
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "oSEIhojs2Ec"
+        url: "https://www.youtube.com/watch?v=oSEIhojs2Ec"
+
+  - title: "High throughput data conversion for database virtualization"
+    slug: "high-throughput-data-conversion-for-database-virtualization"
+    kind: talk
+    language: en
+    duration: 22
+    level: intermediate
+    abstract: |
+      Hyper-Q is a database virtualization application written in Erlang. It emulates the syntax and semantics of a guest database over a host database, which involves cross-compiling SQL from one dialect to another. Additionally, it emulates functionalities that are not offered by the host database. Tuning Hyper-Q for new SQL workloads involves identifying bottlenecks in the cross-compilation process. This presentation will provide an overview of the diagnosis process for identifying bottlenecks through profiling and will also focus on some architectural changes made to address them.
+
+      The main objective of this initiative was to reduce memory consumption during processing, thereby improving the throughput of queries that can be processed through Hyper-Q. This, in turn, assists customers in transitioning from legacy data warehouses to cloud databases with minimum need for application rewrites saving time and effort.
+    speakers:
+      - gourabmitra
+      - matthewpope
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "-lhpLQ0zZOs"
+        url: "https://www.youtube.com/watch?v=-lhpLQ0zZOs"
+
+  - title: "30 Years On and In the Beam: Mastering Concurrency"
+    slug: "30-years-on-and-in-the-beam-mastering-concurrency"
+    kind: keynote
+    language: en
+    duration: 42
+    level: beginner
+    abstract: |
+      Abstract:
+      This presentation charts the evolution of the BEAM virtual machine over 30 years, focusing on its concurrency model and its role in fostering robust, fault-tolerant systems. It will cover the progression from Erlang's implementation in Prolog to the creation of JAM and the subsequent development of the BEAM. The talk will include technical experiences from Klarna, highlighting how BEAM’s architecture supports efficient and reliable concurrent programming. It will give you insight into how to think when developing concurrent programs.
+    speakers:
+      - erikstenman
+    topics:
+      - erlang
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "gKFc5ytde14"
+        url: "https://www.youtube.com/watch?v=gKFc5ytde14"
+
+  - title: "The Human Factor"
+    slug: "the-human-factor"
+    kind: keynote
+    language: en
+    duration: 49
+    level: beginner
+    abstract: |
+      What does a crash in your app mean if it just happens to one person? What if that app is their only way to communicate with the outside world? What does a minor defect in your app mean when it’s supposed to be safeguarding the health of your community?
+
+      How does the context of the app change based on who’s using it and why?
+
+      This is the human factor—the way that our users and their use cases affect our testing.
+
+      Join this speaker as she describes several applications she’s worked on and how the human factor has impacted her team’s testing and their responses to defects. She’ll talk about the human side of use cases from communication to health to music to social media and how we as testers can be better at our jobs with more empathetic testing.
+    speakers:
+      - jennybramble
+    topics:
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "R6q8bs5PhTQ"
+        url: "https://www.youtube.com/watch?v=R6q8bs5PhTQ"
+
+  - title: "Elixir Update (virtually)"
+    slug: "elixir-update-virtually"
+    kind: talk
+    language: en
+    duration: 23
+    level: beginner
+    abstract: |
+      José will give updates on what the Elixir team has done in the last few months, what projects they’re working on, what’s going on on the research side, and what features will be in the next release.
+
+      Talk is given remotely.
+    speakers:
+      - josevalim
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "i-_ZoC0i1F4"
+        url: "https://www.youtube.com/watch?v=i-_ZoC0i1F4"
+
+  - title: "Elixir, Erlang, and the Quest for AI Justice: Building Unbiased ML Systems"
+    slug: "elixir-erlang-and-the-quest-for-ai-justice-building-unbiased-ml-systems"
+    kind: talk
+    language: en
+    duration: 34
+    level: intermediate
+    abstract: |
+      In the era of artificial intelligence, fairness is our North Star. Lets discover how Elixir and Erlang rise as champions of AI justice, illuminating the shadows of algorithmic bias and discrimination with astonishing statistics! In this talk, we will venture into the uncharted territory of unbiased machine learning and ponder the timeless wisdom of Martin Luther King Jr.: 'The time is always right to do what is right.' and embark on a mission to ensure fairness in AI.
+
+      This talk is not a mere summons; it's a call to action that transcends awareness. As technologist Grace Hopper once noted, "The most dangerous phrase in the language is, 'We've always done it this way.'" Lets understand how Elixir and Erlang wield their power not just as tools but as gatekeepers of fairness and sentinels against bias in AI.
+    speakers:
+      - rashminagpal
+    topics:
+      - elixir
+      - erlang
+      - machine-learning
+      - ai
+    recordings:
+      - provider: youtube
+        external_id: "eYKrJvz4n3Y"
+        url: "https://www.youtube.com/watch?v=eYKrJvz4n3Y"
+
+  - title: "Working with Legacy Code"
+    slug: "working-with-legacy-code"
+    kind: talk
+    language: en
+    duration: 40
+    level: beginner
+    abstract: |
+      The talk presents origins of legacy code: the messy tangle of untested code you might have as today's legacy, once was perfectly documented and tested, reviewed by the team's seniors and merged. The talk shows multiple approaches to investigating, learning the structure of, testing and transforming the existing legacy into workable pieces of code.
+    speakers:
+      - dmytrolytovchenko
+    topics:
+      - erlang
+      - refactoring
+    recordings:
+      - provider: youtube
+        external_id: "8MG1ctZIGcg"
+        url: "https://www.youtube.com/watch?v=8MG1ctZIGcg"
+
+  - title: "This Too Shall Parse"
+    slug: "this-too-shall-parse"
+    kind: talk
+    language: en
+    duration: 40
+    level: advanced
+    abstract: |
+      XML is still a widely used data format and parsing it quickly and efficiently is crucial in certain domains. This is a wild ride through a project my team undertook to improve XML parsing in Elixir for large payloads by 10x.
+
+      The approach taken marries a few different ideas but also introduces a parsing approach that slims down the amount of parsing that needs to happen by ignoring data that has not been previously specified as expected. This has good consequences for security as well as performance as I will outline.
+
+      Afterwards I extend the idea to JSON parsing with interesting consequences.
+    speakers:
+      - adamlancaster
+
+  - title: "Unlock the Power of OpenID Connect on the BEAM"
+    slug: "unlock-the-power-of-openid-connect-on-the-beam"
+    kind: talk
+    language: en
+    duration: 33
+    level: beginner
+    abstract: |
+      In an increasingly interconnected digital world, ensuring robust security and seamless user experiences is paramount. OpenID Connect, a proven authentication framework, stands at the forefront of this challenge. This conference talk delves deep into the realm of OpenID Connect, shedding light on its myriad benefits and showcasing practical techniques to effortlessly integrate it into your Erlang and Elixir web applications and APIs.
+
+      Discover the foundational concepts that make OpenID Connect a compelling choice for identity authentication. Explore how it simplifies the process of verifying user identities while enhancing security. We'll explore the benefits of Single Sign-On (SSO), identity federation, and secure user data exchange, all facilitated by OpenID Connect.
+    speakers:
+      - jonatanmannchen
+    topics:
+      - erlang
+      - elixir
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "4mTrqRSttyo"
+        url: "https://www.youtube.com/watch?v=4mTrqRSttyo"
+
+  - title: "Against the Grain"
+    slug: "against-the-grain"
+    kind: talk
+    language: en
+    duration: 34
+    abstract: |
+      This talk tells the story of developing a bespoke Kafka client. None of the existing libraries in the BEAM ecosystem fulfilled the needs of the team, and it was estimated that contributing new changes to those projects would be very difficult. At the same time, writing and maintaining a client from scratch would require a lot of time, much more than the team could afford.
+
+      So what can we do in such situation? Join me and find out how by making some atypical choices we got ourselves out of a tricky situation.
+    speakers:
+      - sasajuric
+    topics:
+      - elixir
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "s6c4iqsl2us"
+        url: "https://www.youtube.com/watch?v=s6c4iqsl2us"
+
+  - title: "RAFT for database consensus at scale"
+    slug: "raft-for-database-consensus-at-scale"
+    kind: talk
+    language: en
+    duration: 38
+    level: intermediate
+    abstract: |
+      One of the most difficult problems in distributed computing is consensus, getting participants to a distributed computation to agree. RAFT is a distributed consensus algorithm built around the simple property that no group can simultaneously have two simple majorities.
+
+      Join me in learning about RAFT, how it can be used to build databases, and the decision decisions we made when scaling WARaft, WhatsApp's implementation of RAFT in Erlang, to support a message database for 2B+ users.
+    speakers:
+      - henrysun
+    topics:
+      - distribution
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "2TM3YR90Yr0"
+        url: "https://www.youtube.com/watch?v=2TM3YR90Yr0"
+
+  - title: "An Elixir for Environmental Health: Empowering environmental recovery with software"
+    slug: "an-elixir-for-environmental-health-empowering-environmental-recovery-with-software"
+    kind: talk
+    language: en
+    duration: 25
+    level: beginner
+    abstract: |
+      The Open Landscape Network is a diverse community of environmentalists and technologists developing information systems for evidence-based recovery of environmental health. The OLN is conceived as a shared yet customizable infrastructure that provides scalable, dependable, and affordable capabilities to help environmental projects collaborate with landholders (spanning European farmers to Indigenous peoples), scientists, funders, business and governments.
+
+      The R&D process led to Elixir as a potential base on which to develop the system. First trials in Europe (The Netherlands and Spain) in 2019 were successful, but revealed challenges in the model. Refinements are made continuously, and in 2023 the project expanded to Alaska in partnership with an Indigenous tribal government, with future growth planned across the U.S..
+
+      This talk summarizes the journey, challenges encountered and solutions adopted. It references features such as Umbrella Apps and open source components.
+    speakers:
+      - tomcollins
+      - emilydegroot
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "U1F4QyOeZlY"
+        url: "https://www.youtube.com/watch?v=U1F4QyOeZlY"
+
+  - title: "Erlang and SQL - Why is this so hard?"
+    slug: "erlang-and-sql-why-is-this-so-hard"
+    kind: talk
+    language: en
+    duration: 25
+    level: intermediate
+    abstract: |
+      Relational databases are powerful tools for managing data. Erlang is great at moving data around. Why is it so hard to mesh the two of them together? Many projects use relational databases in only the simplest way, through simple templating libraries, or custom code, forgoing the power of the relational database. Is there a better way? We'll survey some of the technology pieces such as ODBC, dispel some misconceptions, and explore the awkward impedance mismatch between Erlang and relational databases.
+    speakers:
+      - marcsugiyama
+    topics:
+      - erlang
+      - postgresql
+    recordings:
+      - provider: youtube
+        external_id: "r5z4hjnL_z0"
+        url: "https://www.youtube.com/watch?v=r5z4hjnL_z0"
+
+  - title: "Managing Event Sourcing Race Conditions with LiveView"
+    slug: "managing-event-sourcing-race-conditions-with-liveview"
+    kind: talk
+    language: en
+    duration: 15
+    level: beginner
+    abstract: |
+      Reservation management can be tricky with hundreds or even thousands of people requesting the same time slot concurrently. This talk aims to showcase the power of event sourcing through OTP using a reservation app written with LiveView. We'll go through the implementation and then do a live demo with the audience while monitoring performance.
+    speakers:
+      - kathyrodante
+    topics:
+      - elixir
+      - liveview
+    recordings:
+      - provider: youtube
+        external_id: "ELeV5i7TX3w"
+        url: "https://www.youtube.com/watch?v=ELeV5i7TX3w"
+
+  - title: "Designing maintainable infrastructure-as-code"
+    slug: "designing-maintainable-infrastructure-as-code"
+    kind: talk
+    language: en
+    duration: 35
+    level: beginner
+    abstract: |
+      This talk will focus on designing infrastructure-as-code modules that are maintainable and extensible.
+
+      We'll cover important topics like:
+      * all module registries are a dumpster fire
+      * handling different lifecycles between related resources
+      * managing env parity when scale differs
+      * use-case-specific modules
+      * designing inputs, outputs, and locals to minimize developer overhead and maximize encapsulating expertise
+
+      The talk will use OpenTofu/Terraform to illustrate but applies to other IaC tools like Pulumi and Crossplane.
+    speakers:
+      - coryodaniel
+    topics:
+      - deployment
+      - kubernetes
+    recordings:
+      - provider: youtube
+        external_id: "kh9TswhHbxs"
+        url: "https://www.youtube.com/watch?v=kh9TswhHbxs"
+
+  - title: "Bringing Functional to an Organization"
+    slug: "bringing-functional-to-an-organization"
+    kind: talk
+    language: en
+    duration: 23
+    level: beginner
+    abstract: |
+      Almost every software engineer has heard of functional languages. There are many common tropes associated with them that get tossed around constantly. They are hard to learn, they are not compatible with the current cloud, it would be hard to upskill our employees. But, what does it truly take to bring a functional language to an organization?
+      In this session, we will go through the pain points of functional languages and the BEAM ecosystem. We will then try to dispel common myths associated with them, and showcase how many of the functional features are being utilized in organizations today.
+      At the end of this session, listeners should be prepared to take this information back to their organizations to showcase how the ecosystem can better their organizations and potentially even create MVPs so their organizations can properly evaluate without all of the headaches common with bringing the ecosystem to their organization.
+    speakers:
+      - justinscherer
+    topics:
+      - functional-programming
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "2M3D3OsQFXU"
+        url: "https://www.youtube.com/watch?v=2M3D3OsQFXU"
+
+  - title: "Accelerating machine learning hardware development with Elixir"
+    slug: "accelerating-machine-learning-hardware-development-with-elixir"
+    kind: talk
+    language: en
+    duration: 33
+    level: advanced
+    abstract: |
+      I'll talk about how we used Elixir at Positron to accelerate the process of developing machine learning hardware. The BEAM VM offers some incredible advantages in servicing ML workloads and I'll be talking about these advantages as I see them. Especially as the current state of the art tends to use python, I'll make some specific comparisons there.
+    speakers:
+      - isaacyonemoto
+    topics:
+      - elixir
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "rXBYamvsAVQ"
+        url: "https://www.youtube.com/watch?v=rXBYamvsAVQ"
+
+  - title: "Beautiful and Right - Hidden Features and Abstractions that Make Languages Work"
+    slug: "beautiful-and-right-hidden-features-and-abstractions-that-make-languages-work"
+    kind: keynote
+    language: en
+    duration: 39
+    level: intermediate
+    abstract: |
+      Elixir embraces a fascinating mix of types, features, and libraries to build a surprising breadth of concurrent libraries and services with stunning reliability and concurrency. This talk allows a peek under the hood at how Nerves, LiveView, NX, LiveBook, and more push Elixir and yet provide a natural, coherent development experience.
+
+      Behaviours in OTP establish contracts for inversion of control. Phoenix and LiveView take advantage of the same behaviours and also use macros to provide a uniform, concise usage model and adds macros to hide ceremony while surfacing beautiful user experience that remains correct under pressure, from templates to infrastructure
+
+      Come find out how Elixir's most loved frameworks and tools got that way, and the Elixir tools that make those frameworks both beautiful and right.
+    speakers:
+      - brucetate
+    topics:
+      - compilers
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "G7rhsWLrA_g"
+        url: "https://www.youtube.com/watch?v=G7rhsWLrA_g"

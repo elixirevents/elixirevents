@@ -1,0 +1,39 @@
+- title: "Elixir Security"
+  slug: "elixir-security"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2024-03-05"
+  end_date: "2024-03-05"
+  description: |
+    When deploying your Elixir/Phoenix application, it seems like there is a never ending list of security problems to worry about. XSS, CSRF, RCE, timing attacks, the list of acronyms and jargon goes on. How should you get started securing your Elixir app? What is worth focusing on?
+
+    **Format:** Virtual full-day tutorial (online)
+
+    Introduction to the web application security concepts most relevant to Elixir applications, common vulnerabilities, and recommended best practices. Covers vulnerable code examples in Elixir/Phoenix that students run locally, and tools to prevent and fix these vulnerabilities. Includes the [potion_shop](https://github.com/securityelixir/potion_shop) lab repository.
+  trainers:
+    - michaellubas
+  topics:
+    - elixir
+    - phoenix
+    - security
+
+- title: "BEAM VM Under the Hood"
+  slug: "the-beam-vm-under-the-hood"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2024-03-06"
+  end_date: "2024-03-06"
+  venue_slug: marines-memorial-club
+  description: |
+    Everything you wanted to know about the BEAM but were afraid to ask. Through examples and hands-on exercises, learn how to manage the BEAM VM in operational environments, optimising for memory utilisation and performance when using Erlang or Elixir.
+
+    **Format:** In-person full-day tutorial
+
+    Course outline: intro to the BEAM, processes under the hood, the process scheduler, memory management, and tweaking/fine-tuning the VM.
+  trainers:
+    - dmytrolytovchenko
+  topics:
+    - erlang
+    - elixir
+    - otp
+    - concurrency

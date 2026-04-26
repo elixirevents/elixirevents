@@ -1,0 +1,25 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "emqx"
+    - slug: "grox-io"
+
+- name: "Silver Sponsor"
+  level: 3
+  sponsors:
+    - slug: "smartrent"
+
+- name: "Lanyard Sponsors"
+  level: 4
+  sponsors:
+    - slug: "wyeworks"
+
+- name: "Student Ticket Sponsor"
+  level: 5
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"
