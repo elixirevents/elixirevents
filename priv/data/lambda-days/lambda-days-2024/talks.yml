@@ -367,6 +367,7 @@
   topics:
     - functional-programming
     - type-system
+    - python
   recordings:
     - provider: youtube
       external_id: "3zinei9AAq0"

@@ -6213,3 +6213,323 @@
       url: "https://twitter.com/galateadunkel"
     - platform: linkedin
       url: "https://linkedin.com/in/mariajosegavilan/"
+
+- name: "Stavros Aronis"
+  slug: "stavrosaronis"
+  headline: "Developer & Trainer at Erlang Solutions"
+  bio: |
+    Stavros' experience with Erlang started at the deep end of the pool, when he picked Dialyzer, the famously "never wrong" tool, and made it even smarter, as a master thesis project under the supervision of Kostis Sagonas. He then made Dialyzer faster and parallel, an improvement which has been included in the Erlang/OTP distribution since 2012. Later he got his PhD by re-engineering Concuerror, another tool for Erlang developers, focused on finding concurrency errors in programs and protocols.
+
+    Stavros loves testing and making tools and is now trying to bring all his favorite techniques into industry as an Erlang Solutions consultant and trainer.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/vahnatai"
+    - platform: github
+      url: "https://github.com/aronisstav"
+
+- name: "Jacek Królikowski"
+  slug: "jacekkrolikowski"
+  headline: "Creator of Rexbug and Hoplon, chronic optimiser"
+  bio: "Jacek has been working full time with Elixir since 2016, building messaging products, payment networks, and open source projects. Before that he programmed for Microsoft and tried his luck in algorithms competitions. He loves simple yet powerful tools and interfaces that are hard to use wrong."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/nietaki"
+    - platform: github
+      url: "https://github.com/nietaki"
+
+- name: "Dmytro Lytovchenko"
+  slug: "dmytrolytovchenko"
+  headline: "Senior developer at Erlang Solutions, refactoring terrible software to be pretty and readable"
+  bio: "Erlang and C++ professional, Rust, C# and Python enthusiast, 9 years of Erlang experience, 20+ years of C and C++."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/kvakvs"
+    - platform: github
+      url: "https://github.com/kvakvs"
+
+- name: "Zhengyu Pan"
+  slug: "zhengyupan"
+  headline: "VP of open source product at EMQ"
+  bio: "Zhengyu has been building MQTT based IoT systems for companies at various scales since 2017. These systems are now connection millions of devices over the world."
+
+- name: "Ricardo Oliveira"
+  slug: "ricardooliveira"
+  headline: "Technical lead and senior software engineer @ Talkdesk"
+  bio: |
+    Ricardo loves to interact with computers since he is a little kid. He keeps pushing for progress and into making things better for everyone. He likes to face good challenges. He is also a very positive person that enjoys having fun and spend time with friends.
+
+    Ricardo has supported the flight control team (FCT), as part of the software support team, in the simulations and launch and early orbit phase (LEOP) of the Herschel and Plank satellite mission.
+
+    He is passionate about music and plays the guitar, sports (surfing, football, capoeira, snowboard) and motorbikes.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/picaoao"
+    - platform: github
+      url: "https://github.com/picaoao"
+
+- name: "Manuel Rubio"
+  slug: "manuelrubio"
+  headline: "Polyglot Developer, Writer, Manager and Trainer"
+  bio: |
+    Manuel is a developer since he was 12 years old (30 years ago) and he started with Basic, like others, but later also with Modula-2, Pascal, C, Assembler and these before 20 years old. In his professional career, he used Perl, PHP, Python, Ruby, Java, JavaScript, and last 14 years he was more on Erlang and 8 years ago he started with Elixir and Go. He can be considered a polyglot programmer and he loves to teach and mentor others.
+
+    He is also a fan of creating crazy projects like myproto, ephp or skirnir and helping with others like lambdapad.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/MRonErlang"
+    - platform: github
+      url: "https://github.com/manuel-rubio"
+
+- name: "Gabor Olah"
+  slug: "gaborolah"
+  headline: "Software engineer and trainer"
+  bio: |
+    Gabor was introduced to Erlang during his university studies by participating in the RefactorErl group. He was interested in language design and a lot of academic problems, so this project was an excellent opportunity to get into type systems and other projects. From there, he joined Ericsson Hungary in 2011 to work on telephony switches (mostly on the famous one mentioned in Joe’s book). This taught Gabor to enjoy the complexity of this application.
+
+    This was the point when Gabor started loving working with legacy code and learned how to work in a team. After three and a half years, he joined a research project inside Ericsson where he was exposed to Executable UML and testing strategies. In 2015, Gabor joined Erlang Solutions where he has been working with different clients (e.g. backbone financial payment solutions) as well as internal products like WombatOAM. Gabor's main professional interests are language design, architecture and math.
+
+    Gabor likes drawing and painting, watching science fiction movies and series, he is a big Doctor Who fan.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/olikasg"
+    - platform: github
+      url: "https://github.com/olikasg"
+
+- name: "Bjarne Däcker"
+  slug: "bjarnedacker"
+  headline: "Former manager of the Computer Science Laboratory at Ericsson"
+  bio: |
+    Bjarne Däcker worked 36 years at Ericsson, first as programmer and systems designer and the last 18 years as manager of the Computer Science Laboratory. http://www.cs-lab.org/
+
+    Bjarne Däcker holds a licentiate of technology from the Royal Institute of Technology and an honorary doctorate from Linköping university.
+
+    He was chairman of the steering committee for the Swedish national program for Computer Science research for five years. Bjarne has also been Swedish representative on the committee for EU’s IT prize. He is a member of the Swedish Royal Academy of the Engineering Sciences.
+
+    As a pensioner, Bjarne Däcker has taken up university studies and has a B.A. in Archaeology.
+
+- name: "Ricardo Corral-Corral"
+  slug: "ricardocorralcorral"
+  headline: "VP of Engineering at Suggestic Inc."
+  bio: |
+    Ricardo is an applied mathematician and Biochemistry Ph.D. CEO of Analitica Predictiva and co-inventor of three US patents around AR, deep learning and blockchain applications for health.
+
+    He is currently VP of Engineering at Silicon Valley based company Suggestic Inc. His academic research is on structural computational biology, mainly based on predictive models for understanding molecular activity.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/doctorcorral"
+    - platform: github
+      url: "https://github.com/doctorcorral"
+
+- name: "Cons T. Åhs"
+  slug: "constahs"
+  headline: "Developer in Erlang/OTP Team, Borderline Senior"
+  bio: |
+    Cons has a long history of writing code, with Lisp and functional languages from early days. Worked with formal methods, language implementation and lecturing at Uppsala University and escaped to a life of speech synthesis, music notation, graphics, networks, imaging, online poker, network configuration and more language implementation.
+
+    Currently falling down the rabbit hole at the Erlang/OTP team at Ericsson, working with language aspects, the compiler and ssh.  In parallel with this,  very fond of typed languages, testing, tooling and targeting the BEAM with yet another language.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/lisztspace"
+    - platform: github
+      url: "https://github.com/lisztspace"
+
+- name: "Karl Nilsson"
+  slug: "karlnilsson"
+  headline: "Karl wrestles distributed rabbits for a living"
+  bio: "Karl comes from a .NET background (C# / F#) where he worked mostly on distributed systems. He is an avid proponent of functional programming. He is now a Senior Member of Technical Staff at VMware."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/kjnilsson"
+    - platform: github
+      url: "https://github.com/kjnilsson"
+    - platform: github
+      url: "https://github.com/rabbitmq/ra"
+
+- name: "Johnny Winn"
+  slug: "johnnywinn"
+  headline: "Host of the Elixir Fountain podcast"
+  bio: |
+    The renaissance man from Jacksonville, Johnny embarked on his computing curiosity during the eighties on a Commodore 64. However the road leading toward software craftsmanship has diverged down many paths. From musician to electrical engineer, chef to software developer, rugby player to local politician, the twist and turns have provided a wide range of experiences that have helped to shape him.
+
+    Johnny Winn hosts and runs the popular Elixir Fountain podcast.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/johnny_rugger"
+    - platform: github
+      url: "https://github.com/nurugger07"
+
+- name: "Hakan Mattsson"
+  slug: "hakanmattsson"
+  headline: "Wrote escript, reltool, megaco - attended all EUC's since 1997"
+  bio: "Hakan started working with Erlang/OTP the previous millennium, before the release of OTP R1. Developed Mnesia, Escript, Reltool, Megaco and more. He was the first employee in the OTP team and worked at Ericsson Computer Science Lab. Hakan has attended all EUC'S since 1997 and is now working at Cisco. He is using Erlang of course."
+  social_links:
+    - platform: github
+      url: "https://github.com/hawk"
+
+- name: "Erik Svensson"
+  slug: "eriksvensson"
+  headline: "Software developer at Asolvi, gets to work with Elixir every day"
+  bio: "Developer at Asolvi who works with new product development. Member of a team that's building Elixir microservices for the field service industry."
+  social_links:
+    - platform: github
+      url: "https://github.com/svan-jansson"
+
+- name: "Martin Sumner"
+  slug: "martinsumner"
+  headline: "Worked long enough in networks, to always blame the application"
+  bio: "Martin was the technical lead on one of the largest (by volume) public sector systems in Europe - the UK National Health Service Spine II. The architecture of this was inspired by Erlang, and the Actor Model - and Spine II has maintained 5 nines availability since its go-live in 2014. Spine II is a big user of Riak, and for the past 3 years Martin has worked full-time on developing and maintaining the open-source Riak project - learning to love Erlang and the BEAM in the process."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/masleeds"
+    - platform: github
+      url: "https://github.com/martinsumner"
+
+- name: "Ayanda Dube"
+  slug: "ayandadube"
+  headline: "Principal Engineer and RabbitMQ Contributor"
+  bio: |
+    Ayanda is an Erlang engineer and RabbitMQ specialist, leading research on running BEAM systems on the cloud. He’s worked with companies such as 8x8 Inc, on their messaging platform. He also led the RabbitMQ Engineering team at Erlang Solutions, and contributed a number of significant features to the RabbitMQ product. His journey with Erlang dates back 12 years ago, at Pharos Avantgard, where he spent a while building Telco/GSM core network nodes in Erlang.
+
+    He's done some research at the University of Leeds on router/ATM switch fabric design. He's also a trainer, speaker, and part-organizer of the annual RabbitMQ Summit.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/dube_aya"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/ayanda-d-97b467144"
+    - platform: github
+      url: "https://github.com/Ayanda-D"
+
+- name: "Peter Van Roy"
+  slug: "petervanroy"
+  headline: "Distributed systems guru"
+  bio: |
+    Peter Van Roy is a professor in the ICTEAM Institute at the Université Catholique de Louvain (Belgium). In his spare time, he coordinates the LightKone Horizon 2020 project which is working on an Erlang-based programming platform for general-purpose computing on edge networks based on CRDTs and hybrid gossip algorithms.
+
+    He is the author of "Concepts, Techniques, and Models of Computer Programming" and of "Programming Paradigms for Dummies".
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/PeterLodewijk"
+    - platform: github
+      url: "https://github.com/petervanroy"
+
+- name: "Thiago Rocha Camargo"
+  slug: "thiagorochacamargo"
+  headline: "XMPP and voice/video specialist, creator of Jingle Nodes and Mobile Platforms"
+  bio: "Thiago is an open-software advocate with focus on realtime technologies, with experience on massive scale platforms deploy around the World. Author of Jingle Nodes and many XMPP, SIP and realtime protocol libraries."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/xmppjingle"
+    - platform: github
+      url: "https://github.com/xmppjingle"
+
+- name: "Gianluca Padovani"
+  slug: "gianlucapadovani"
+  headline: "Elixir Developer, CTO (Coders51)"
+  bio: "Gianluca is a SW craftsmanship, TDD addicted and agile coach. Gianluca has fallen in love with functional programming, Elixr/Erlang in particular. He also likes Ruby, NodeJs and C++. He is the CTO at Coders51."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/gpad619"
+    - platform: github
+      url: "https://github.com/gpad"
+
+- name: "Andrey Chernykh"
+  slug: "andreychernykh"
+  headline: "Full-time Elixir developer, OSS enthusiast, medium.com-writer"
+  bio: |
+    Andrey started as C# developer more than 10 years ago, with C# he took the path from junior developer to team lead position. After doing enterprise stuff, Andrey switched to Ruby. Andrey had been working with Ruby on various projects for years when he decided to add new programming language for concurrent, distributed systems into the toolbox.
+
+    He considered Scala, Go, Erlang ... and finally noticed Elixir. Elixir made the same wow-effect as Ruby when Andrey had first switched to it from C#. Andrey had found what he'd been searching for!
+
+    Andrey works with Elixir on a daily basis and has done so for the past two years. Andrey's created a number of services which work in production, he contributes to open source (exop, express and other), writes articles on Medium and enjoys Elixir every single day. Andrey is very keen on clean, maintainable code and the DDD principle.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/Andrei_Chernykh"
+    - platform: github
+      url: "https://github.com/madeinussr"
+
+- name: "Anayeli Malvaez"
+  slug: "anayelimalvaez"
+  headline: "Backend Developer at SoundTrackYourBrand"
+  bio: "Mexican Software Engineer living and working in Sweden. Co-creator of CodigoyFika Youtube channel focussed on delivering tech content in Spanish. Currently, she works at SoundTrackYourBrand, and she has experience working on Elixir apps. Loves teaching and mentoring and considers it a work of heart."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/AnayeliMalvaez"
+
+- name: "Rafael Rocha"
+  slug: "rafaelrocha"
+  headline: "Software Developer"
+  bio: "Rafael Rocha is a passionate software developer at The RealReal who loves to make beautiful and meaningful user applications. OBJECTIVES"
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/RocRafael"
+    - platform: github
+      url: "https://github.com/rafaelrochasilva"
+
+- name: "Karolis Petrauskas"
+  slug: "karolispetrauskas"
+  headline: "Co-founder at Erisata"
+  bio: |
+    Karolis is a Chief IT Architect and co-owner at Erisata LTD., a company based in Lithuania, focusing on Erlang/OTP solutions. Here he designed a number of Erlang/OTP based systems for telecommunication and electricity companies, many of which involved management of long-running business processes. Experience in building such systems allowed him to extract key features for the business process management platform to have it effective while being non-invasive.
+
+    He is also an associate professor at the Vilnius University, giving lectures on software engineering. His scientific interest is in the domain of formal modelling and verification of software systems. This experience led him to successfully apply these methods (like specification in TLA+ language) in real business problems.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/kape1395"
+    - platform: github
+      url: "https://github.com/kape1395"
+
+- name: "Kenneth Lundin"
+  slug: "kennethlundin"
+  headline: "Head of the Erlang/OTP Team at Ericsson"
+  bio: "Kenneth Lundin has been working with SW development since the late 70s. As a curiosity it can be mentioned that Kenneth was one of the pioneers in the use of C++ at Ericsson. He joined the Erlang/OTP project in it's early stages 1996 and has been working both with application components and the run-time system since then. Has been a technical leader and manager for the OTP team since 1998."
+  social_links:
+    - platform: github
+      url: "https://github.com/KennethL"
+
+- name: "Johan Sommerfeld"
+  slug: "johansommerfeld"
+  headline: "System architect and multi language developer"
+  bio: "Johan is an Electrical M.Sc with a background in both operations and development. With a preference for building systems that are highly available, scalable and easy to automate he have fallen in love with Erlang and Python."
+  social_links:
+    - platform: github
+      url: "https://github.com/s2hc-johan"
+
+- name: "Madeleine Malmsten"
+  slug: "madeleinemalmsten"
+  headline: "Squeeder and Prolog geek introducing girls to tech using IoT and horses"
+  bio: |
+    Madeleine is a Prolog/Erlang developer with a background at Chalmers University of Technology, where she built the initial system architecture of HSB Living Lab.
+
+    She's currently working at the startup ChillServices where she helps to reduce the CO2 emissions with a few thousand tons a year using big data analytics and machine learning.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/madde"
+    - platform: github
+      url: "https://github.com/mmalmsten"
+
+- name: "Kenji Rikitake"
+  slug: "kenjirikitake"
+  headline: "Erlang/OTP rand module co-creator, amateur radio enthusiast"
+  bio: |
+    Kenji Rikitake started programming at age 8 (45 years ago). He began his professional career as a programmer and operating system tools designer at Digital Equipment Corporation Japan R&D Center. He is a user of Erlang/OTP since 2008.
+
+    Kenji has a Ph.D. of Information Science from Osaka University and is a government-registered Professional Engineer of Information Engineering in Japan. His research interests include DNS, remote working, network security, operating systems, and software-defined radio engineering.
+
+    Kenji has been an independent software engineer since 2014, after working for various institutions including KDDI R&D Labs, NICT of Japan's Telecom Ministry, and Kyoto University. His contribution to the BEAM communities includes Erlang/OTP rand module, ACM SIGPLAN Erlang Workshop 2011 Workshop Chair and the 2019 Workshop Program Committee Member, and ten talks on Erlang Factory and Code BEAM events since 2010.
+
+    Kenji is also a seasoned amateur radio operator since 1976 with the primary callsign JJ1BDX.
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/jj1bdx"
+    - platform: github
+      url: "https://github.com/jj1bdx"
+
+- name: "Iliia Khaprov"
+  slug: "iliiakhaprov"
+  headline: "Open source software enthusiast"
+  bio: "Iliia started as a C# and .NET developer and then moved to Common Lisp and the Erlang ecosystem, Emacs and Linux. He is an open source software enthusiast."
+  social_links:
+    - platform: twitter
+      url: "https://twitter.com/dead_trickster"
+    - platform: github
+      url: "https://github.com/deadtrickster"

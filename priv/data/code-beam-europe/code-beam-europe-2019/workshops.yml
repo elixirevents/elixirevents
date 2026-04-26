@@ -1,0 +1,83 @@
+- title: "Kung Fu Erlang: From Zero to Hero"
+  slug: "kung-fu-erlang-from-zero-to-hero"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2019-05-13"
+  end_date: "2019-05-15"
+  description: |
+    Use Erlang's strengths to create software that is fault-tolerant, scalable, and deployable in a distributed network.
+
+    **Format:** 3 days in-person training (9:00–17:00 CEST), Regus Klarabergsgatan 29, Stockholm
+
+    **Objectives:**
+
+    - Understanding of the basics of Erlang
+    - Read, write, and design Erlang programs
+    - Provides the basics needed to attend the OTP course
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+
+- title: "OTP for the Seasoned Erlanger"
+  slug: "otp-for-the-seasoned-erlanger"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2019-05-20"
+  end_date: "2019-05-22"
+  description: |
+    You will learn the prevailing Erlang design patterns called OTP behaviours. We will cover Erlang design patterns such as generic behaviours, finite state machines, and event handlers. You will also learn how to develop systems using the supervisor and application behaviours, and how to package code and create release upgrades.
+
+    **Format:** 3 days in-person training (9:00–17:00 CEST), Regus Klarabergsgatan 29, Stockholm
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+
+- title: "Elixir Bootcamp: From Apprentice to Alchemist"
+  slug: "elixir-bootcamp-from-apprentice-to-alchemist"
+  experience_level: "Beginner"
+  language: en
+  start_date: "2019-05-13"
+  end_date: "2019-05-15"
+  description: |
+    A hands-on introduction to Elixir for developers coming from other programming languages.
+
+    **Format:** 3 days in-person training (9:00–17:00 CEST), Regus Klarabergsgatan 29, Stockholm
+
+    **Objectives:**
+
+    - Basic, sequential, and concurrent Elixir
+    - Parallel programming
+    - Building, documenting, and testing systems using Mix
+
+    **Prerequisites:** Good programming skills in another language such as Java, Perl, Python, node.js, or Ruby. Familiarity with server-side software development.
+  trainers:
+    - manuelrubio
+  topics:
+    - elixir
+
+- title: "Scaling Elixir and Phoenix to Millions Before Breakfast"
+  slug: "scaling-elixir-and-phoenix-to-millions-before-breakfast"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2019-05-20"
+  end_date: "2019-05-22"
+  description: |
+    Learn how to organise, grow, and scale Phoenix applications.
+
+    **Format:** 3 days in-person training (9:00–17:00 CEST), Stockholm
+
+    **Objectives:**
+
+    - How to organise, grow, and maintain an application with multiple responsibilities
+    - How to test and statically check an application to minimise integration issues
+    - How to integrate resilience patterns to provide partial availability despite outages
+
+    **Prerequisites:** Prior experience with Elixir and Phoenix.
+  trainers:
+    - martingausby
+  topics:
+    - elixir
+    - phoenix

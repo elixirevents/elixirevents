@@ -1,0 +1,33 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "klarna"
+    - slug: "erlang-solutions"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "klarna"
+    - slug: "the-realreal"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "dek-technologies"
+    - slug: "erlang-solutions"
+    - slug: "derivco"
+
+- name: "Silver Sponsor"
+  level: 4
+  sponsors:
+    - slug: "aeternity"
+
+- name: "Media"
+  level: 5
+  sponsors:
+    - slug: "goto-conferences"
+    - slug: "elixir-fountain"
+    - slug: "spawnfest"
+    - slug: "infoq"
+    - slug: "sticker-mule"
+    - slug: "manning"
