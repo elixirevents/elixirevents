@@ -295,6 +295,8 @@
       url: "https://github.com/rvirding"
     - platform: twitter
       url: "https://x.com/raborvirding"
+    - platform: twitter
+      url: "https://x.com/rvirding"
 
 - name: "Philipp Tessenow"
   slug: "philipptessenow"
@@ -598,6 +600,11 @@
   slug: "ericsaxby"
   headline: "Elixir Developer"
   bio: "Developer advocating for leveraging Elixir's standard library."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ecdysone"
+    - platform: github
+      url: "https://github.com/sax"
 
 - name: "Divya Sasidharan"
   slug: "divyasasidharan"
@@ -739,6 +746,11 @@
   slug: "bramverburg"
   headline: "Security Expert"
   bio: "Elixir security expert and author of secure coding guidelines for the BEAM."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/voltonez"
+    - platform: github
+      url: "https://github.com/voltone"
 
 - name: "Justin Schneck"
   slug: "justinschneck"
@@ -990,8 +1002,14 @@
 
 - name: "Marc Sugiyama"
   slug: "marcsugiyama"
-  headline: "Erlang Developer"
-  bio: "Erlang developer and distributed systems engineer."
+  headline: "Experienced Erlang engineer, consultant, and trainer"
+  bio: |
+    Marc Sugiyama is a software engineer at Datometry where he works on HyperQ an Adaptive Data Virtualization(TM) technology that enables enterprises to run their existing applications on modern cloud data warehouses, without rewriting or reconfiguring them. Prior to joining Datometry, Marc was a senior architect at Erlang Solutions, Inc., where his projects included developing an OpenFlow controller and sample applications for the IvanOS project, design and code reviews, and providing training at conferences and for clients. A Bay Area native, Marc has more than 30 years of software development experience and has worked on everything from testing frameworks at Sybase and Cisco to SMP relational database engines at Sybase, an MMO engine for Pixverse (a company he co-founded), and a large-scale real-time chat system for hi5 Networks. A published author, Marc wrote his first magazine articles and books while still in high school. Marc holds a BS in engineering and a masters of engineering from Harvey Mudd College. He currently serves on the College Preparatory School Advisory Council and the board of directors of the Heart Mountain Wyoming Foundation.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/marcsugiyama"
+    - platform: github
+      url: "https://github.com/marcsugiyama"
 
 - name: "Markus Kuhnt"
   slug: "markuskuhnt"
@@ -1007,6 +1025,12 @@
   slug: "quinnwilton"
   headline: "Collector of dead languages"
   bio: "Distributed systems researcher and Elixir community member."
+  website: "https://quinnwilton.com/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/wilton_quinn"
+    - platform: github
+      url: "https://github.com/QuinnWilton"
 
 - name: "Rickard Green"
   slug: "rickardgreen"
@@ -1653,6 +1677,11 @@
   slug: "danielwidgren"
   headline: "Erlang. Web. Simpler than you think"
   bio: "Daniel Widgren challenges the idea that you can’t build simple web apps in Erlang. An Erlang developer and creator of Nova, he focuses on proving that modern web development on the BEAM doesn’t have to be heavy, academic, or “too much OTP.” His message is simple: Erlang web apps aren’t complicated — you’ve just been told they are."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/dwidgren"
+    - platform: github
+      url: "https://github.com/Taure"
 
 - name: "Danielle Maywood"
   slug: "daniellemaywood"
@@ -1806,6 +1835,8 @@
     social_links:
       - platform: github
         url: https://github.com/burbas
+    - platform: twitter
+      url: "https://x.com/burbass"
 
 - name: "Peer Stritzinger"
   slug: "peerstritzinger"
@@ -2245,6 +2276,8 @@
   social_links:
     - platform: linkedin
       url: "https://www.linkedin.com/in/pawe%C5%82-chrz%C4%85szcz-97408457/"
+    - platform: github
+      url: "https://github.com/chrzaszcz"
 
 - name: "Elaine Watanabe"
   slug: "elainewatanabe"
@@ -3184,8 +3217,13 @@
 
 - name: "Jacqueline Manzi"
   slug: "jacquelinemanzi"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Engineering Manager and seasoned Full Stack software engineer at Mux"
+  bio: "Jacqueline Manzi is an Engineering Manager at Mux and seasoned Full Stack software engineer. She has been enjoying web development with Elixir for over four years."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/cryptopattern"
+    - platform: github
+      url: "https://github.com/JacquiManzi"
 
 - name: "Miriam Pena"
   slug: "miriampena"
@@ -3201,6 +3239,12 @@
   slug: "chriskeathley"
   headline: "Software Developer"
   bio: "Software Developer"
+  website: "http://frame.io/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ChrisKeathley"
+    - platform: github
+      url: "https://github.com/keathley"
 
 - name: "Emerson Macedo"
   slug: "emersonmacedo"
@@ -3297,8 +3341,14 @@
 
 - name: "Adi Iyengar"
   slug: "adiiyengar"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Software Engineer/Architect; Elixir, TDD & Open Source Advocate"
+  bio: |
+    Adi is a Senior Software Engineer/Architect who is passionate about Test Driven Development and functional programming. He was extremely lucky to start off as an Elixir developer and has been using Elixir in production since 2015. Over those years, he has worked across a wide array of applications, and authored / contributed to several open source libraries. He enjoys finding ways of making software more deterministic and easy to work on. Adi is also currently working on a book for Packt which talks through building a web framework in Elixir. He also spends his time organizing Boston Elixir meetups, mentoring people new to Software development, and selling Elixir to them. In his free time, he can be seen playing Billiards, Ping Pong or Breakdancing. He is also very passionate about Theoretical Physics and spends a good amount of his time keeping up with advancements in that field.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/lebugcatcher"
+    - platform: github
+      url: "https://github.com/thebugcatcher"
 
 - name: "Adrian Cruz"
   slug: "adriancruz"
@@ -3322,8 +3372,15 @@
 
 - name: "Amos King"
   slug: "amosking"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "CEO @ Binary Noggin, @TheErlef member, Co-Host of Elixir Outlaws"
+  bio: |
+    Amos is an Agile practitioner who loves writing great code and teaching teams to ship quality instead of choosing between shipping or quality. Agile podcast host who values starting with trust and working into a strong team. Conference speaker, and meet up organizer.
+  website: "https://binarynoggin.com"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/Adkron"
+    - platform: github
+      url: "https://github.com/adkron"
 
 - name: "André Graf"
   slug: "andregraf"
@@ -3368,8 +3425,14 @@
 
 - name: "Anna Lito Michala"
   slug: "annalitomichala"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Researching better systems for IoT at the University of Glasgow."
+  bio: |
+    Anna Lito Michala (http://www.dcs.gla.ac.uk/~amichala/) is an Assistant Professor in Understandable Autonomous Systems at the School of Computing Science, University of Glasgow. She has expertise in safety-critical systems software engineering, system/sub-system prognostics in extreme and resource constrained environments and particularly vessel condition monitoring. She has acquired her MSc in 2008 on Biomedical Engineering at the University of Strathclyde and Bachelor degree is in Computer Science from the University of Crete where she had worked at the FORTH instituted of research at the Computer Architecture and VLSI Systems Laboratory. Her research interests are in cyber-physical systems engineering, Industrial IoT, machine learning for decision support. Funded projects include RSE/SE CH12, EPSRC AnyScale Apps EP/L000725/1, EU FP7 INCASS 605200.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/LitoAnna"
+    - platform: github
+      url: "https://github.com/annalito"
 
 - name: "Anna Sherman"
   slug: "annasherman"
@@ -3741,8 +3804,13 @@
 
 - name: "Jeffery Utter"
   slug: "jefferyutter"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Software Engineer at Bleacher Report"
+  bio: "Jeff is a software engineer building backend systems for Bleacher Report. In his free time, Jeff leads a double-life as a jazz double bassist."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/jeffutter"
+    - platform: github
+      url: "https://github.com/jeffutter"
 
 - name: "Jeff Grunewald"
   slug: "jeffgrunewald"
@@ -4028,10 +4096,16 @@
   headline: "Software Developer"
   bio: "Software Developer"
 
-- name: "Renan Ranelli"
+- name: "Renan \"Milhouse\" Ranelli"
   slug: "renanranelli"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Elixir and cocktail mixer"
+  bio: |
+    Renan is a Brazilian software developer focused on backend, operations and databases and has been working with Elixir since 2015. He is also a co-organizer of ElugSP. He has worked in companies both very large and very small. He is a frequent speaker at technology events in Brazil and abroad. He has spoken numerous times about Elixir. When not talking about software, Renan likes to cook, make cocktails and dance.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/renanranelli"
+    - platform: github
+      url: "https://github.com/rranelli"
 
 - name: "Ricardo Echavarria"
   slug: "ricardoechavarria"
@@ -4212,8 +4286,13 @@
 
 - name: "Willian Frantz"
   slug: "willianfrantz"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Software Alchemist, love to create and maintain distributed bugs."
+  bio: "Software Developer and Elixir Enthusiast, catlover, worst gamer ever."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/frantz_willian"
+    - platform: github
+      url: "https://github.com/WLSF"
 
 - name: "Will Ockelmann Wagner"
   slug: "willockelmannwagner"
@@ -4319,8 +4398,9 @@
 
 - name: "Simon Unge"
   slug: "simonunge"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Developer at Zoom Communications"
+  bio: |
+    Simon Unge is an on again/off again Erlang developer who always strive to work with Erlang, but for reasons always ends up working with other stuff. He is finally on the wagon again as a full blown Erlang developer working on Zooms ejabberd server.
 
 - name: "Tim Mechlem"
   slug: "timmechlem"
@@ -4349,8 +4429,12 @@
 
 - name: "Boyd Multerer"
   slug: "boydmulterer"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Creator of Scenic and lead engineering for Xbox Live, XNA"
+  bio: |
+    Boyd’s near 30-year career spans the range of software projects, from desktop publishing, to web servers, to game consoles, to low-level operating systems. For the past four years, he has been independently exploring and building a full stack for Connected Devices that heavily leverages the BEAM. Previously, Boyd spent 18 years at Microsoft running engineering for things such as Xbox Live, XNA (game developer program), and everything OS for Xbox One. This work includes large scaled-out datacenter services, VMs, and the layout of the hypervisor/kernel. His most recent release is the open-source Scenic libraries, which is a functional UI stack built on the BEAM. Its primary goal is for use in connected devices, but it is already being used for desktop apps and more. His current work takes the foundation laid with Scenic and is attempting to answer deeper questions about the future of client-side operating systems.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/BoydMulterer"
 
 - name: "Bruce Williams"
   slug: "brucewilliams"
@@ -4829,8 +4913,11 @@
 
 - name: "Michał Śledź"
   slug: "michasledz"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "One of the authors of WebRTC implementation in Elixir"
+  bio: "Michał is one of the developers working on the first WebRTC implementation in Elixir. He is interested in multimedia and network stuff."
+  social_links:
+    - platform: github
+      url: "https://github.com/mickel8"
 
 - name: "Razvan Draghici"
   slug: "razvandraghici"
@@ -4864,8 +4951,14 @@
 
 - name: "Benoit Chesneau"
   slug: "benoitchesneau"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Edge computing artisan"
+  bio: |
+    Benoît is a French entrepreneur, owner of Enki Multimedia, a French Company providing consulting & development in decentralised data and (tele)communication platforms. Most of the work provided by Enki Multimedia is done in primarily done in Erlang. Benoît is best known for his work in open-source with many libraries and tools successfully used in Erlang and Elixir applications. Among them Hackney, but others as well. Benoît has been committed to the Erlang community for a long time. It all started by joining the CouchDB project, one of the oldest databases written in Erlang. You may have met him in a number of conferences and meetups around the world (San Francisco, Stockholm, Milan, Munich, Moscow, Tokyo, Paris, …). He also organises the French Erlang Paris meetup.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/benoitc"
+    - platform: github
+      url: "https://github.com/benoitc"
 
 - name: "Bryan Hughes"
   slug: "bryanhughes"
@@ -4948,8 +5041,14 @@
 
 - name: "Mariano Guerra"
   slug: "marianoguerra"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Programmer (Instadeq)"
+  bio: |
+    Interested in programming language development, distributed systems and making computing accessible to everyone. Co founder of instadeq.com and event-fabric.com, creator of the Efene Programming Language, emesene instant messenger, author of the Little Riak Core Book.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/warianoguerra"
+    - platform: github
+      url: "https://github.com/marianoguerra"
 
 - name: "Mark Allen"
   slug: "markallen"
@@ -4993,6 +5092,11 @@
     Robert Carbone has always had an affinity for keyboards - acoustic & digital. Fluent in music theory, graphic design and armed with a Masters of Accountancy, his passion lies in the valuation of intangibles, more specifically, analyzing & graphically representing them in conceptual frameworks.
 
       His journey to develop wearable tech led him to Erlang, GUI programming, Distributed Applications & Databases(particularly Riak). When he isn’t being an evangelist for Erlang or coding, you will find him longboarding around a city, snagging a disc(frisbee) or composing, at a keyboard.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ScriptCulture"
+    - platform: github
+      url: "https://github.com/RobertCarbone"
 
 - name: "Sam Williams"
   slug: "samwilliams"
@@ -5084,10 +5188,16 @@
   headline: "Software Developer"
   bio: "Software Developer"
 
-- name: "Laura M Castro"
+- name: "Laura M. Castro"
   slug: "lauramcastro"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Professor and lead researcher @ University of A Coruña"
+  bio: |
+    Laura became fascinated with Erlang during her studies in Software Engineering and has been an advocate of our beloved technology ever since. Nowadays, this means she introduces the BEAM to the next generations of CS graduates, preaches it to local developer groups and FP-related events, introduces it in new projects with local companies, and exploits it as a research tool in collaboration with colleagues all around the world.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/lauramcastro"
+    - platform: github
+      url: "https://github.com/lauramcastro"
 
 - name: "Lech Głowiak"
   slug: "lechglowiak"
@@ -5642,6 +5752,8 @@
         url: "https://wandering.shop/@chouzar/"
       - platform: linkedin
         url: "https://www.linkedin.com/in/raulhumberto/"
+    - platform: github
+      url: "https://github.com/chouzar"
 
 - name: "Robert Fiko"
   slug: "robertfiko"
@@ -5823,6 +5935,8 @@
   social_links:
     - platform: linkedin
       url: "https://linkedin.com/in/nicholas-adams/"
+    - platform: github
+      url: "https://github.com/Bob-The-Marauder"
 
 - name: "Eduardo Hernacki"
   slug: "eduardohernacki"
@@ -6767,7 +6881,7 @@
     He is a machine learning software engineer currently working as the Head of Machine Learning at Partsimony. His research interests lie at the intersection of mathematics, computer science and statistics. He is currently focused on software engineering to facilitate large scale federated machine learning. Outside of work, Vijay is passionate about Indian (Carnatic) classical music.
   social_links:
     - platform: twitter
-      url: "https://twitter.com/thankrandomness"
+      url: "https://x.com/thankrandomness"
     - platform: github
       url: "https://github.com/thankrandomness"
 
@@ -6798,7 +6912,7 @@
   bio: "Marcel Lanz is a Systems and Software Architect working at proCentric AG. At heart, he is an engineer and in general curious about how things work. He has been working professionally for over 20 years in different fields like embedded- and realtime-systems as well as with enterprise systems in healthcare, insurance and fintech industries. When he is not exploring all things Go, Erlang and Serverless, Marcel enjoys time with his family."
   social_links:
     - platform: twitter
-      url: "https://twitter.com/marcellanz"
+      url: "https://x.com/marcellanz"
     - platform: github
       url: "https://github.com/marcellanz"
 
@@ -6815,7 +6929,7 @@
     Today, as the product manager, Hans conducts the rapid development of Telia ACE with new cutting edge technology.
   social_links:
     - platform: twitter
-      url: "https://twitter.com/hnahringbauer"
+      url: "https://x.com/hnahringbauer"
 
 - name: "Viacheslav Katsuba"
   slug: "viacheslavkatsuba"
@@ -6831,7 +6945,7 @@
   bio: "Quil is an illustrator, writer, and software engineer with a background in programming language design. They're particularly interested in making computers safer and more reliable for everyone. In their free time Quil writes horror fiction, paints with digital watercolours, and works on Crochet, a security and privacy-conscious programming language that uses types to describe and enforce security constraints."
   social_links:
     - platform: twitter
-      url: "https://twitter.com/robotlolita"
+      url: "https://x.com/robotlolita"
     - platform: github
       url: "https://github.com/robotlolita"
 
@@ -6849,7 +6963,7 @@
   bio: "Jesper is a senior engineer with a background in compiler development and IDE tooling. He currently works at Klarna, maintaining a large and highly available distributed Erlang system. He oftens finds himself improving build systems and fixing errors in static code analysers. When he isn't working, he is doing cross-stitch embroidery and using GPS to find plastic containers in the woods."
   social_links:
     - platform: twitter
-      url: "https://twitter.com/JesperEs"
+      url: "https://x.com/JesperEs"
     - platform: github
       url: "https://github.com/jesperes"
 
@@ -6862,7 +6976,7 @@
     Outside work he plays board games, preferably silly ones, and does scouting. To be a scout leader means you get to talk to kids and young adults and see them grow. The best part is when you get to follow someone and see how they form their own identity and pave their own path. Sometimes they even get to be your scout leader colleagues.
   social_links:
     - platform: twitter
-      url: "https://twitter.com/nevonnen"
+      url: "https://x.com/nevonnen"
     - platform: github
       url: "https://github.com/maxnordlund"
 
@@ -6870,3 +6984,153 @@
   slug: "paulofoliveira"
   headline: "Erlang Developer, Senior Engineer"
   bio: "I started working with Erlang in 2014, back in R16B03. Before that, I wrote C, Java and server-side JavaScript. I've worked on mobile games' backends and internet portals, NATO port surveillance systems and helicopter engine software, as well as space projects and integrations with SAP. I was born and live in Portugal, and enjoy most of my coding in my apartment's balcony, in the sun, these days. I'm a CI and static analysis aficionado and a regular FOSS contributor, for projects such as setup-beam, elvis_core, and a few others. In 2021, I helped organize SpawnFest with other elements of The Fellowship of the BEAM."
+
+- name: "Alda Rocha"
+  slug: "aldarocha"
+  headline: "Paved the way for diversity, inclusion, mental health and social issues at tech events"
+  bio: |
+    Designer with over 20 years of career. Graduated in Graphic Design, Information Architecture and Astronomy at IAG at USP. Today she's Designer lead in an important national pharmaceutical retail product and leading a team of 10 designers. In her spare time, founded the project @codamos which focuses on the inclusion of underrepresented groups in technology and created the event @elixir_brasil, one of the most inclusive programming events in Brazil.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/mjcoffeeholick"
+    - platform: github
+      url: "https://github.com/mjcoffeeholick"
+
+- name: "Andrei Zavada"
+  slug: "andreizavada"
+  headline: "Software Engineer at TI-Tokyo, tending to riaks"
+  bio: |
+    Andyi started his proffesional programming adventure from coding in Erlang over 10 years ago. Since then he also worked with C++, Python, Elm, JS and Elixir. Currently he is on course to fulfill his dream to make it to retirement without a need to touch any language other than Erlang.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/AndreiZavada"
+    - platform: github
+      url: "https://github.com/hmmr"
+
+- name: "Carlo Gilmar"
+  slug: "carlogilmar"
+  headline: "GitHub Campus Expert, ilustration and founder of Visual Partnership"
+  bio: |
+    Carlo is a software developer at Erlang Solutions based on CDMX. He's the founder of Visual Partnership, a project to combine visual thinking and software development. He use to record technical talks in real time into a graphic recordings. He likes to share his passion working with Elixir and the BEAM ecosystem with the community.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/carlogilmar"
+    - platform: github
+      url: "https://github.com/carlogilmar"
+
+- name: "Digit"
+  slug: "digit"
+  headline: "Generalist"
+  bio: "Digit is a senior engineer"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/doawoo"
+    - platform: github
+      url: "https://github.com/doawoo"
+
+- name: "Dylan Kennedy"
+  slug: "dylankennedy"
+  headline: "Global VP @ Emqx.io"
+  bio: "Dylan is the Global VP at Emqx.io and he will be representing the MQTT perspective."
+
+- name: "Jan Cieśla"
+  slug: "janciesla"
+  headline: "MongooseIM developer, bringing scalability and reliability to FinTech industry"
+  bio: "Network Consultant turned Software Developer. Jan is an Erlang enthusiast part of the Erlang Solutions team. MongooseIM developer now brining scalability and reliability to FinTech industry."
+  social_links:
+    - platform: github
+      url: "https://github.com/janciesla8818"
+
+- name: "Joel Jucá"
+  slug: "joeljuca"
+  headline: "Founder and host of Elug CE"
+  bio: |
+    Joel is a self-taught, full-stack web engineer with experience in different industries. Fan of Elixir, he shifted his career to work with Elixir and the BEAM ecosystem for its superior capabilities and overall development experience. He's also the founder and host of Elug CE, one of the most active local meetups in Brazil.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/holyshtjoe"
+    - platform: github
+      url: "https://github.com/joeljuca"
+
+- name: "Cristine Guadelupe"
+  slug: "cristineguadelupe"
+  headline: "Elixir developer at Dashbit"
+  bio: |
+    Cristine Guadelupe is an Elixir developer at Dashbit and a co-organizer of Elixir em Foco, a Brazilian Elixir community event. She has been working with Elixir for several years and contributes to the community through workshops, talks, and educational content.
+  social_links:
+    - platform: github
+      url: "https://github.com/cristineguadelupe"
+
+- name: "Niko Tsikoudis"
+  slug: "nikotsikoudis"
+  headline: "Software engineer at Datometry"
+  bio: |
+    Niko is enjoying coding in Erlang for Hyper-Q, a hypervisor platform for databases that make existing applications instantly interoperable with modern cloud data warehouse technology. Prior to joining Datometry Niko got a Ph.D. in computer science from Brandeis University where he designed and developed efficient techniques for scalable, high-performance snapshot analysis for data stores.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ntsikudis"
+
+- name: "Omer Kilic"
+  slug: "omerkilic"
+  headline: "IoT Plumber at Ordinatra Minima"
+  bio: "Omer is an embedded systems engineer who works at the various intersections of hardware and software engineering practices, product development and manufacturing."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/omerk"
+    - platform: github
+      url: "https://github.com/omerk"
+
+- name: "Peter Alvaro"
+  slug: "peteralvaro"
+  headline: "Computer Science Assistant Professor at the University of California"
+  bio: |
+    Peter Alvaro is an Assistant Professor of Computer Science at the University of California Santa Cruz, where he leads the Disorderly Labs research group (). His research focuses on using data-centric languages and analysis techniques to build and reason about data-intensive distributed systems, in order to make them scalable, predictable and robust to the failures and nondeterminism endemic to large-scale distribution. Peter earned his PhD at UC Berkeley, where he studied with Joseph M. Hellerstein. He is a recipient of the NSF CAREER Award, the Facebook Research Award, the USENIX ATC Best Presentation Award, and the UCSC Excellence in Teaching Award.
+  website: "http://disorderlylabs.github.io/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/palvaro"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/peteralvaro"
+    - platform: github
+      url: "https://github.com/palvaro"
+
+- name: "Rachel Curioso"
+  slug: "rachelcurioso"
+  headline: "Software consultant at Erlang Solutions and Elixir Lab Co-Host"
+  bio: |
+    Rachel Curioso is a developer with 4 years of experience and found in elixir her place in the dev world. She was impacted by the dev community early on in her career and tries to contribute to its growth, whether by creating more elixir content or informally mentoring people because she thinks that being part of it positively impacts people's lives. She uses emoji as punctuation, reads a lot of sci-fi, and she's been playing video games since she could hold a controller.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/_rchc"
+    - platform: github
+      url: "https://github.com/Rachc"
+
+- name: "Sean Cribbs"
+  slug: "seancribbs"
+  headline: "Experienced tech leader and long-time BEAMer"
+  bio: |
+    Sean Cribbs is a software engineer and leader at BlockFi, focusing on product architecture, scalability, and observability. Previously, he held positions at Postmates, Comcast Cable and Basho Technologies. A decade-long enthusiast of the BEAM, Sean has contributed to both Erlang/OTP and Elixir, worked for five years on Riak, and created the parsing tool Neotoma.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/seancribbs"
+    - platform: github
+      url: "https://github.com/seancribbs"
+
+- name: "Victor Caciquinho"
+  slug: "victorcaciquinho"
+  headline: "Software Engineer and creator of Neo4Ecto an Ecto adapter for Neo4j"
+  bio: "Software Developer focused in building solutions using Elixir and currently mixing elixir with graphs"
+  social_links:
+    - platform: github
+      url: "https://github.com/Caciquez"
+
+- name: "William Huba"
+  slug: "williamhuba"
+  headline: "Distributed systems engineer and co-founder of JumpWire"
+  bio: |
+    William is an engineer and co-founder of JumpWire. He greatly enjoys working with distributed systems to solve problems (and create new ones). He’s been working with Elixir since 2015 and loves helping people dive deeply into the Elixir ecosystem.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/hexedpackets"
+    - platform: github
+      url: "https://github.com/hexedpackets"

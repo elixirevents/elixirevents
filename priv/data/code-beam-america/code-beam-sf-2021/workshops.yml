@@ -1,0 +1,39 @@
+- title: "Architecting Reactive Systems for Scalability and Availability"
+  slug: "architecting-reactive-systems-for-scalability-and-availability"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-11-01"
+  end_date: "2021-11-01"
+  description: |
+    Learn how to architect fault-tolerant, scalable, soft, real-time systems with requirements for high availability.
+
+    **Format:** Half-day workshop (09:00–13:00 PT, 3.5 hours)
+
+    Covers distribution, interfaces and state, availability, scalability, and observability. Lessons apply to the Erlang ecosystem (Elixir included) but are technology agnostic and can be applied to most stacks. Based on the last four chapters of *Designing for Scalability with Erlang/OTP* by Francesco Cesarini.
+  trainers:
+    - francescocesarini
+  topics:
+    - erlang
+    - otp
+    - distribution
+    - observability
+
+- title: "The BEAM VM under the hood"
+  slug: "the-beam-vm-under-the-hood"
+  experience_level: "Advanced"
+  language: en
+  start_date: "2021-11-08"
+  end_date: "2021-11-08"
+  description: |
+    A guide for operations and development teams. Everything you wanted to know about the BEAM but were afraid to ask. Through examples and hands-on exercises, learn how to manage the BEAM VM in operational environments, optimizing for memory utilisation and performance when using Erlang or Elixir.
+
+    **Format:** 1 day workshop (09:00–17:00 PT)
+
+    Course outline covers: intro to the BEAM, processes under the hood, the process scheduler, memory management, and tweaking and fine-tuning the VM.
+  trainers:
+    - dmytrolytovchenko
+  topics:
+    - erlang
+    - elixir
+    - otp
+    - concurrency
