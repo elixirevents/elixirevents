@@ -326,3 +326,15 @@
   postal_code: "11201"
   latitude: 40.7033
   longitude: -73.9867
+
+- name: "Estrel Berlin"
+  slug: "estrel-berlin"
+  street: "Sonnenallee 225"
+  city: "Berlin"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "12057"
+  latitude: 52.4734
+  longitude: 13.4528
+  website: "https://www.estrel.com"
+  description: "Germany's largest hotel and convention centre, located in Berlin's Neukölln district along the banks of the Neukölln Ship Canal."

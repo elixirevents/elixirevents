@@ -1,0 +1,311 @@
+tracks:
+  - name: "Track 1"
+    color: "#3182CE"
+    position: 1
+  - name: "Track 2"
+    color: "#6B46C1"
+    position: 2
+  - name: "Track 3"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2025-11-05"
+    position: 1
+    time_slots:
+      - start_time: "08:15"
+        end_time: "09:15"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "a-survival-guide-for-the-ai-age"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "10:05"
+        end_time: "10:20"
+        sessions:
+          - talk_slug: "update-from-the-otp-team"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "10:20"
+        end_time: "10:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "10:50"
+        end_time: "11:10"
+        sessions:
+          - talk_slug: "champion-the-beam"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "reactor-under-the-hood"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "the-roots-of-resiliency"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "11:15"
+        end_time: "11:35"
+        sessions:
+          - talk_slug: "proving-what-otp-promises-genserver-in-tla"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "detecting-confident-nonsense"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "ui-testing-with-lustre-and-gleam"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "11:40"
+        end_time: "12:00"
+        sessions:
+          - talk_slug: "understanding-the-erlang-scheduler"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "scaling-model-performance-monitoring-with-otp"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "adopting-gleam-the-boring-way"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "12:05"
+        end_time: "12:25"
+        sessions:
+          - talk_slug: "fifty-shades-of-error"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "stream-decode-detect"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "you-don-t-need-an-orm"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "12:30"
+        end_time: "12:50"
+        sessions:
+          - talk_slug: "what-has-elvis-been-up-to"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "moodbot-raising-a-tiny-robot-with-elixir-nerves-and-ai"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "how-i-ended-up-writing-gleam-for-a-living"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "12:50"
+        end_time: "13:50"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "13:50"
+        end_time: "14:30"
+        sessions:
+          - talk_slug: "supervisors-saving-the-day"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "formally-based-tools-for-safer-erlang"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "full-stack-type-safety-with-inertia-wisp"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "14:35"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "building-fintech-systems-that-stay-fast-and-stay-compliant"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "from-freakout-to-fix-navigating-a-security-disaster"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "bringing-gleam-to-obsidian-a-minimal-plugin-journey"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "15:20"
+        end_time: "15:40"
+        sessions:
+          - talk_slug: "taming-20-million-oban-jobs-in-production"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "why-we-killed-riak-search"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "functional-domain-modeling-with-gleam"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "15:40"
+        end_time: "16:10"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "16:10"
+        end_time: "16:50"
+        sessions:
+          - talk_slug: "adding-jit-to-atomvm"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "erlang-just-got-a-new-debugger"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "rapidly-building-with-gleam"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "16:55"
+        end_time: "17:15"
+        sessions:
+          - talk_slug: "build-your-own-beam"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "elevating-phoenix-with-openriak"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "otp-and-gleam"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "17:20"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "erlang-ecosystem-frontier"
+            track: "Track 1"
+            kind: talk
+
+
+  - name: "Day 2"
+    date: "2025-11-06"
+    position: 2
+    time_slots:
+      - start_time: "08:15"
+        end_time: "09:15"
+        sessions:
+          - title: "Registration"
+            kind: break
+
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "how-cyanview-powers-the-world-s-biggest-broadcasts-with-elixir"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "elixir-update"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "10:15"
+        end_time: "10:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "10:50"
+        end_time: "11:30"
+        sessions:
+          - talk_slug: "scaling-securing-and-protecting-dns-in-erlang"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "beyond-genservers-declarative-ai-flows-with-gen-statem"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "11:35"
+        end_time: "12:15"
+        sessions:
+          - talk_slug: "shipping-a-full-beam-stack-in-16-mb-now-with-energy-aware-booting"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "the-beam-rust-sandwich"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "12:20"
+        end_time: "13:00"
+        sessions:
+          - talk_slug: "elixir-at-the-core-of-a-virtual-power-plant"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "beyond-your-first-nif"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "13:00"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+
+      - start_time: "14:00"
+        end_time: "14:40"
+        sessions:
+          - talk_slug: "teaching-the-beam-to-see"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "unlocking-the-power-of-beam-on-tiny-microcontrollers-and-beyond"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "14:45"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "erlang-otp-for-everyone"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "structured-generation-and-logits-processing-with-elixir"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "15:25"
+        end_time: "15:55"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "15:55"
+        end_time: "16:15"
+        sessions:
+          - talk_slug: "optimizing-the-beam-s-scheduler-for-many-core-machines"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "lessons-from-erlang-doctor"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "16:20"
+        end_time: "16:40"
+        sessions:
+          - talk_slug: "microservice-the-otp-way"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "softly-surely-bringing-elixir-to-work"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "16:45"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "empathy-in-engineering"
+            track: "Track 1"
+            kind: keynote
+

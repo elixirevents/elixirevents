@@ -1,0 +1,43 @@
+- name: "Global Community Support Sponsor"
+  level: 1
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Platinum Sponsor"
+  level: 2
+  sponsors:
+    - slug: "alembic"
+
+- name: "Gold Sponsor"
+  level: 3
+  sponsors:
+    - slug: "herrmann-ultraschall"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "baxter"
+    - slug: "hellgate"
+    - slug: "getmyinvoices"
+    - slug: "bitcrowd"
+
+- name: "Lanyard Sponsor"
+  level: 5
+  sponsors:
+    - slug: "9elements"
+
+- name: "Student Tickets Sponsor"
+  level: 6
+  sponsors:
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Community Partners"
+  level: 7
+  sponsors:
+    - slug: "elixir-berlin"
+    - slug: "elixir-erlang-munich"
+    - slug: "elixir-vienna"
+    - slug: "erlang-elixir-krakow"
+    - slug: "erlang-elixir-budapest"
+    - slug: "elixir-tallinn"
+    - slug: "germantechjobs"
