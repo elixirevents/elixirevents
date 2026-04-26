@@ -1,0 +1,28 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "pepsico"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "blockfi"
+    - slug: "the-realreal"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "frame-io"
+
+- name: "Silver Sponsor"
+  level: 4
+  sponsors:
+    - slug: "binary-noggin"
+    - slug: "mux"
+
+- name: "Media"
+  level: 5
+  sponsors:
+    - slug: "elixir-radar"
+    - slug: "thinking-elixir"

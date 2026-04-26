@@ -94,6 +94,7 @@
   bio: "Parker Selbert is a developer with a passion for building things both virtual and physical. He is the creator of Oban background job framework, chief architect at dscout, and partners with his wife at Soren building Oban Web and Pro."
   city: Chicago
   country_code: US
+  website: "https://sorentwo.com/"
   social_links:
     - platform: github
       url: "https://github.com/sorentwo"
@@ -440,6 +441,9 @@
   slug: "alistairwoodman"
   headline: "EEF Board Member"
   bio: "Board member of the Erlang Ecosystem Foundation."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/alistair-woodman-51934433/"
 
 - name: "Jonatan Männchen"
   slug: "jonatanmannchen"
@@ -674,6 +678,8 @@
         url: "https://x.com/sundikhin"
       - platform: linkedin
         url: "https://linkedin.com/in/sundimyint/"
+    - platform: github
+      url: "https://github.com/sundikhin"
 
 - name: "Bryan Green"
   slug: "bryangreen"
@@ -756,6 +762,12 @@
   slug: "justinschneck"
   headline: "Nerves Co-creator"
   bio: "Co-creator of the Nerves project for embedded Elixir systems."
+  website: "http://mobileoverlord.com/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/mobileoverlord"
+    - platform: github
+      url: "https://github.com/mobileoverlord"
 
 - name: "Keith Salisbury"
   slug: "keithsalisbury"
@@ -1198,6 +1210,11 @@
   slug: "duncanmcgreggor"
   headline: "LFE Contributor"
   bio: "Principal engineer and contributor to Lisp Flavoured Erlang (LFE)."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/oubiwann"
+    - platform: github
+      url: "https://github.com/oubiwann"
 
 - name: "Edwin Brady"
   slug: "edwinbrady"
@@ -1997,6 +2014,8 @@
       url: "https://www.linkedin.com/in/niemier/"
     - platform: github
       url: "https://github.com/hauleth"
+    - platform: twitter
+      url: "https://x.com/hauleth"
 
 - name: "Joshua Plicque"
   slug: "joshuaplicque"
@@ -2204,6 +2223,8 @@
     social_links:
       - platform: twitter
         url: "https://x.com/daksis"
+    - platform: github
+      url: "https://github.com/daksis"
 
 - name: "Njoki Kiarie"
   slug: "njikikiarie"
@@ -3227,8 +3248,15 @@
 
 - name: "Miriam Pena"
   slug: "miriampena"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Voted one of the women to watch in tech by Women 2.0"
+  bio: |
+    Miriam loves to architect scalable, high performance, high concurrency, and high availability systems. Bonus point if they are written in Erlang/Elixir. She is a Staff Engineer at AdRoll, designing critical parts of their AdServers infrastructure and organizer of the Erlang and Elixir meetup in San Francisco. Prior to AdRoll, she provided Erlang specialized consultancy and studied Computer Science Engineering from La Coruña University in Spain. Voted one of the women to watch in 2018 by Women 2.0 . KEY ACHIEVEMENTS Open source , a scalable and lightweight client for Memcached and for load shedding.
+  website: "https://you.women2.com/12-inspiring-female-staff-engineers-to-watch-b487b39558e1"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/miriampena"
+    - platform: github
+      url: "https://github.com/miriampena"
 
 - name: "Scott Southworth"
   slug: "scottsouthworth"
@@ -3987,8 +4015,14 @@
 
 - name: "Melvin Cedeno"
   slug: "melvincedeno"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Developer, SmartLogic"
+  bio: |
+    Melvin has been coding for a couple years now, he went to the Turing School of software and design. He started learning Elixir about 3 years ago, and he loves it. He has spent many weekends teaching Intro to Elixir classes to dozens of junior developers. He loves teaching.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/thecraftedgem"
+    - platform: github
+      url: "https://github.com/thecraftedgem"
 
 - name: "Meryl Dakin"
   slug: "meryldakin"
@@ -4096,7 +4130,7 @@
   headline: "Software Developer"
   bio: "Software Developer"
 
-- name: "Renan \"Milhouse\" Ranelli"
+- name: 'Renan "Milhouse" Ranelli'
   slug: "renanranelli"
   headline: "Elixir and cocktail mixer"
   bio: |
@@ -4987,8 +5021,14 @@
 
 - name: "Fred Hebert"
   slug: "fredhebert"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Erlang, Tools, and Systems (Postmates)"
+  bio: |
+    Fred is the author of Learn You Some Erlang, Erlang in Anger, and more recently, Property-Based Testing with PropEr, Erlang, and Elixir. He co-founded and is a board member at the Erlang Ecosystem Foundation. He is a maintainer of Rebar3, and of various libraries such as recon, pobox, and so on. He is a platform developer at Postmates, with a focus on learning from incidents and poking at various things. Previously, he was Systems Architect at Genetec, a company offering security video and IoT integration systems. Even earlier, he was a principal member of technical staff on the Heroku platform, worked in real-time bidding, and provided Erlang training.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/mononcqc"
+    - platform: github
+      url: "https://github.com/ferd"
 
 - name: "Irina Guberman"
   slug: "irinaguberman"
@@ -5170,8 +5210,12 @@
 
 - name: "John Hughes"
   slug: "johnhughes"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Co-Designer Of Haskell And QuickCheck"
+  bio: |
+    John Hughes has been a functional programming enthusiast for more than thirty years, at the Universities of Oxford, Glasgow, and since 1992 Chalmers University in Gothenburg, Sweden. He served on the Haskell design committee, co-chairing the committee for Haskell 98, and is the author of more than 100 papers, including "Why Functional Programming Matters", one of the classics of the area. With Koen Claessen, he created QuickCheck, the most popular testing tool among Haskell programmers, and in 2006 he founded Quviq to commercialise the technology using Erlang. In 2018 he became an ACM Fellow.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/rjmh"
 
 - name: "Konrad Malawski"
   slug: "konradmalawski"
@@ -7134,3 +7178,113 @@
       url: "https://x.com/hexedpackets"
     - platform: github
       url: "https://github.com/hexedpackets"
+
+- name: "Aleksei Magusev"
+  slug: "alekseimagusev"
+  headline: "Tea advocate, engineer, Elixir Core team member"
+  bio: |
+    Aleksei is a long-time software developer coming from the space engineering background. He crafts code for fun and profit, otherwise, enjoys climbing, inline skating, and experiencing a fine cup of tea. Aleksei is currently the CTO of Forza Football.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/lexmag"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/https://www.linkedin.com/in/lexmag/?originalSubdomain=se"
+    - platform: github
+      url: "https://github.com/lexmag"
+
+- name: "Alex Koutmos"
+  slug: "alexkoutmos"
+  headline: "Author of the PromEx library and the Twitter Elixir Tip series"
+  bio: |
+    Alex Koutmos is currently a Senior Software Engineer working at Boulevard. He has been working professionally with Elixir since 2016 and was hooked on the BEAM since reading Elixir in Action by Saša Jurić in 2015. When Alex is not programming or reading books, he is playing video games with his two daughters. Alex Koutmos is also the author of a number of Elixir blog posts that he publishes on https://akoutmos.com. He also publishes regular Elixir Tips on Twitter under the #myelixirstatus hashtag. He has also maintains a few packages on Hex.pm and is currently obsessed with taking Elixir application observability to the next level with his latest project PromEx.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/akoutmos"
+    - platform: github
+      url: "https://github.com/akoutmos"
+
+- name: "Amy Null"
+  slug: "amynull"
+  headline: "Software engineer + open source &lt;3"
+  bio: "Amy is a software engineer who enjoys trying to improve developer tooling and infrastructure, as well as building distributed systems in Elixir."
+  social_links:
+    - platform: github
+      url: "https://github.com/queer"
+
+- name: "Chelsea Troy"
+  slug: "chelseatroy"
+  headline: "By day, writer of code. By night, researcher of software risks. By always, lover of bubble tea."
+  bio: |
+    Chelsea writes code on projects like the Zooniverse Citizen Science Mobile App and the NASA Landsat Image Processing Pipeline. She looks for clients who are saving the planet, advancing basic scientific research, or providing resources to underserved communities. She has been known to take projects in mobile development, web development, and machine learning. She streams some programming sessions to YouTube, so you can watch her code (and narrate!) in real time. She then turns the recordings into educational materials. Chelsea also teaches Mobile Software Development and Python Programming at the Master’s Program in Computer Science at the University of Chicago. She is the author of chelseatroy.com and a book called Remote Work Sucks (the title is kind of a trap). She organizes two conferences: PromptConf (Chicago area, very technical) and ORD Camp (Chicago area, not nearly as technical). Chelsea flings barbells around for fun. She drives an electric cafe cruiser named Gigi.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/HeyChelseaTroy"
+    - platform: github
+      url: "https://github.com/chelseatroy"
+
+- name: "Eric Meadows-Jönsson"
+  slug: "ericmeadowsjonsson"
+  headline: "Elixir team member, creator of Hex and Ecto"
+  bio: "Eric Meadows-Jönsson is a member of the Elixir core team and an active member of the BEAM community. Heis the creator of many libraries, including Ecto and the Hex package manager."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/emjii"
+    - platform: github
+      url: "https://github.com/ericmj"
+
+- name: "Jane Walerud"
+  slug: "janewalerud"
+  headline: "Persuaded Ericsson's management to release Erlang Open Source (​Walerud Ventures​)"
+  bio: |
+    ​Jane builds companies, often around technical ideas. She's done well since persuading Ericsson to release Erlang open source, with Klarna, Tobii, Lensway, and eleven other companies on her lipstick case since selling Bluetail in 2000. Her returns are more than 60% annual ROI since 2002 on average.​ She is the Co-founder & CEO of Bluetail. She invested in Klarna before incorporation and is on the Executive Chair of Lensway. Jane is also a member of the Swedish government's Innovation Council, a member and gold medalist of the Royal Academy of Engineering, a member of SUP46 Hall of Fame and holds an Honorary doctorate, KTH.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/JaneWalerud"
+
+- name: "Jessica Kerr"
+  slug: "jessicakerr"
+  headline: "Symmathecist, in the medium of code"
+  bio: |
+    Jessitron is a developer at Atomist, where she works on very exciting development and delivery automation tools. She is into resilience engineering, domain-driven design, and symmathesy. She works remotely from St. Louis, MO, where she raises two daughters.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/jessitron"
+    - platform: github
+      url: "https://github.com/jessitron"
+
+- name: "John Samuel"
+  slug: "johnsamuel"
+  headline: "Head of RabbitMQ & London Projects @ Erlang Solutions"
+  bio: |
+    Experienced Project Manager with a demonstrated history of working in the information technology and servicesindustry. Skilled in ITIL, IT Strategy, Management, Contract Negotiation, and Software Development. Strongprogram and project management professional graduated from Royal Holloway, U. of London.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/https://www.linkedin.com/in/johnvsamuel/"
+
+- name: "Rob Mee"
+  slug: "robmee"
+  headline: "Founder of Pivotal Labs and Geometer"
+  bio: |
+    Rob entered the workforce as a dishwasher, a job he clung to for several years until the flashing LED lights of an IBM PC AT lured him into the world of programming. He clung to his next job for three decades: founding Pivotal in 1989, selling it to EMC in 2012, taking it public on the NYSE in 2018, and finally selling it again to VMware in 2019. Now in his third real job, he has started a new incubator called Geometer. Geometer relies on an evolved software development method, extraordinary engineering and product talent, and a killer technology (guess which one) to build businesses that innovate on highly concurrent, large scale services and platforms.
+
+- name: "Steven Nunez"
+  slug: "stevennunez"
+  headline: "Senior Software Engineer @ GitHub; Teacher"
+  bio: |
+    Steven is an experience Elixir dev who championed Elixir adoption at his previous engineering organization, The Flatiron School. He's a dedicated teacher with years of experience teaching programming to career-change students and more recently he co-created a workshop on event-driven design with Elixir and RabbitMQ.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/_StevenNunez"
+    - platform: github
+      url: "https://github.com/octosteve"
+
+- name: "William King"
+  slug: "williamking"
+  headline: "Every Millisecond Counts"
+  bio: |
+    When not collecting really hard puzzles and dying often in his favorite first person shooters William is a real-time communications expert and a core developer of the Freeswitch project, William led the development of Flowroute’s core tech, Portugal Telecom next generation network, and the Silent Circle network. You can find William on Discord at william_subspace#0451
+  social_links:
+    - platform: twitter
+      url: "https://x.com/quentusrex"
+    - platform: github
+      url: "https://github.com/quentusrex"

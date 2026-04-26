@@ -1,0 +1,16 @@
+name: "Code BEAM V America 2021"
+slug: "code-beam-v-america-2021"
+kind: conference
+status: completed
+format: online
+start_date: "2021-03-10"
+end_date: "2021-03-12"
+timezone: "America/Los_Angeles"
+language: en
+location: "Online (San Francisco spirit)"
+website: "https://www.codesync.global/conferences/code-beam-v-america-2021/"
+color: "#3182CE"
+description: |
+  Code BEAM V America 2021 — the first American virtual edition of the Erlang and Elixir conference for 2021.
+
+  Originally planned in San Francisco where Code BEAM SF traditionally takes place, this March 2021 edition continued the online-only format. Three half-days of talks, fireside chats, and panels for the BEAM community, with attendees joining from around the world.

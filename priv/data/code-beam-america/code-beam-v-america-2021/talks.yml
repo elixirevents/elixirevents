@@ -1,0 +1,646 @@
+## Talks
+
+  - title: "What Counts as a Programming Language?"
+    slug: "what-counts-as-a-programming-language"
+    kind: keynote
+    language: en
+    duration: 51
+    abstract: |
+      When we think of programming languages, we think of Java, Kotlin, JavaScript, or Python. We don't think of CSS, SQL, or HTML. And we don't think of Alloy, Modelica, or SNOBOL—in fact, maybe we haven't even heard of all those. But what's the distinction? And maybe most importantly, what can we learn as programmers from "not programming languages"?
+
+      OBJECTIVES
+
+      The talk aims to show folks what we can learn from questioning how we categorize things rather than ignoring things outside our arbitrary categories. It also aims to help folks understand that most "universal truths" aren't as universal as we might be led to believe—and why it matters.
+
+      AUDIENCE
+
+      This talk should appeal to programmers of all stripes!
+    speakers:
+      - chelseatroy
+    topics:
+      - compilers
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "sEQCM_N_d_s"
+        url: "https://www.youtube.com/watch?v=sEQCM_N_d_s"
+
+  - title: "Ask me anything about OTP"
+    slug: "ask-me-anything-about-otp"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      Short update from the OTP Team and then you will be able to ask them any question you like about their work.
+    speakers:
+      - kennethlundin
+      - lukaslarsson
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "DmMk3IoeiYw"
+        url: "https://www.youtube.com/watch?v=DmMk3IoeiYw"
+
+  - title: "Addressing Escalating Risks in our Code Base"
+    slug: "addressing-escalating-risks-in-our-code-base"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      When we rush development, skip tests and refactoring, and fail to document our code, we get escalating risk. How can we measure that risk? What could we do to avoid the risk? How can we communicate the risk to people who depend on our tech team? And once we already have escalated risk, how do we reduce it?
+
+      This session will function like a conversation, and we'll discuss the aforementioned questions.
+    speakers:
+      - chelseatroy
+      - jessicakerr
+    topics:
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "IVnm_vbAn4M"
+        url: "https://www.youtube.com/watch?v=IVnm_vbAn4M"
+
+  - title: "Using Elixir to fight Covid-19"
+    slug: "using-elixir-to-fight-covid-19"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      “Luck is what happens when preparation meets opportunity.”
+
+      I had the opportunity in 2020 to power Covid-19 contact tracing. Tools built in Elixir provided a data backbone that worked faster, was changed easier, and was more resilient than the systems we replaced.
+
+      In this story we’ll meet a cast of characters including Phoenix, Broadway, Oban, as well as Lambda, NodeJS, Ruby on Rails. Some worked well. Some were confusing. Some were both.
+
+      Some I would use again.
+
+      OBJECTIVE:
+
+      The big takeaway that I would like people to take away is that Elixir and other BEAM languages provide a solid basis for resilient, critical infrastructure, perhaps more so than tools which might have better traction in enterprise companies.
+
+      AUDIENCE:
+
+      Software engineers, engineering managers, software architects. This would be better suited for intermediate to advanced practitioners.
+    speakers:
+      - ericsaxby
+    topics:
+      - elixir
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "QZ4setS8HAE"
+        url: "https://www.youtube.com/watch?v=QZ4setS8HAE"
+
+  - title: "SCRAM: Challenging your authentication in the BEAM"
+    slug: "scram-challenging-your-authentication-in-the-beam"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      Passwords, that nemesis of all users. Get a weak password, and it can be cracked. Store it plaintext, and it can be stolen. Store it hashed, and it can be brute-forced. Use the same in two different places, and stealing one means losing the other. Submit it deterministically, and the authentication can be replayed by an attacker.
+
+      Enter SCRAM, a:
+
+      Salted: no two usages of the same password can be matched
+
+      Challenge: exponentially slow down brute-force attacks.
+
+      Response: clients need to submit a different response on each authentication, hence solving replay attacks.
+
+      Authentication Mechanism: well, you guess what this means.
+
+      But mind you, the challenge needs to be a challenge for the client, not for the server!
+
+      In this talk I’ll introduce you to this authentication protocol, and to some implementation tricks that all evil attackers know but servers tend to forget. And to some very important insight on how to do this efficiently on the BEAM
+
+      OBJECTIVE
+
+      To introduce an authentication mechanism that is NIST approved, a ietf standard, and with plenty of open-source libraries ready to be plugged in your project: in particular, to present the most performant Erlang library for the protocol you can find.
+
+      AUDIENCE
+
+      If you’re authenticating clients to your services, or even so if you’re already using SCRAM, you should definitely join. If you’re concerned about security, authentication protocols, the performance of some cryptographic primitives like HMAC, and funny performance mistakes that popular crypto libraries have made, you will enjoy this.
+    speakers:
+      - nelsonvides
+    topics:
+      - erlang
+      - elixir
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "yhRq-Bwq_s8"
+        url: "https://www.youtube.com/watch?v=yhRq-Bwq_s8"
+
+  - title: "Don't try this at home: Rethinking infrastructure with Elixir"
+    slug: "don-t-try-this-at-home-rethinking-infrastructure-with-elixir"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      The modern, scalable application development process has a lot of moving parts -- deploying code with a tool like Kubernetes, managing hosts with a tool like Saltstack, uploading assets somewhere like S3, message queues like RabbitMQ, plus concerns like service discovery, load balancing, failover, and many more. But these are all treated as separate problems, when they might actually be strongly related. What might things look like if we rethought these problems in a more integrated way, powered by Elixir?
+
+      OBJECTIVE
+
+      The objective is to provide a brief overview of current application infrastructure and some patterns that can be seen with it, how the different parts are looking at the same problem from a different angle, and how Elixir can be used to bring it all together. While this can be accomplished with most languages, the aim is to highlight how Elixir is suited to a potential solution in this problem space.
+
+      AUDIENCE
+
+      Anyone interested in learning more about application infrastructure
+    speakers:
+      - amynull
+    topics:
+      - elixir
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "MHkHhHICngA"
+        url: "https://www.youtube.com/watch?v=MHkHhHICngA"
+
+  - title: "LiveView"
+    slug: "liveview"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      Bruce Tate and Sophie DeBenedetto, co-authors of Pragmatic Bookshelf's LiveView book, discuss what's so great about LiveView and how it will change web development forever.
+
+      LiveView will change the way you develop single-page apps. By allowing you to focus your brain power purely on the server, and use the power of Elixir and Phoenix to support fault-tolerant single-page flows, you and your team will be more productive than ever before.
+
+      Our host, Sophie, will pose some questions for our guest, Bruce, that dig into what LiveView is and how it differs drastically from traditional SPA development frameworks, how you can leverage LiveView to solve almost any problem a typical SPA needs to address, what this means for the future of web development and where LiveView is going next. Bruce will also have a chance to ask Sophie some questions.
+    speakers:
+      - brucetate
+      - sophiedebenedetto
+    topics:
+      - elixir
+      - phoenix
+      - liveview
+    recordings:
+      - provider: youtube
+        external_id: "IDiPAyVg6-w"
+        url: "https://www.youtube.com/watch?v=IDiPAyVg6-w"
+
+  - title: "Sound on BEAM: Music in the Land of Distributed Lisp"
+    slug: "sound-on-beam-music-in-the-land-of-distributed-lisp"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      While not built for sound or digital signal processing, Erlang excels in the realm where music control systems have converged: network message-passing. In this talk, Duncan will provide some brief background and share previous related sound-generation work on the BEAM, then cover a recent effort in Lisp Flavoured Erlang (LFE) to integrate with well-established improvisational tools and music recording systems. Full use of LFE/OTP behaviours and supervision trees will be covered, as well as application start phases for synchronizing system startup. In addition, LFE's strength as a platform for creating DSL's will be covered in the dual context of integrating with multiple systems and creating generative music.
+    speakers:
+      - duncanmcgreggor
+    topics:
+      - erlang
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "YjxWuJN5pH0"
+        url: "https://www.youtube.com/watch?v=YjxWuJN5pH0"
+
+  - title: "Forum over Functions"
+    slug: "forum-over-functions"
+    kind: keynote
+    language: en
+    duration: 52
+    abstract: |
+      What 20+ years of bad languages, awful frameworks, and half-assed implementations tell us about Elixir, Erlang, and the future of BEAM?
+
+      He who cannot remember history is doomed to repeat it—an apt aphorism summing up the last 30 years of software development if ever there was one. We will take a walk down memory lane and identify the mistakes languages and frameworks seem to make over and over again and why languages like Elixir might just help us get out of the vicious cycle.
+    speakers:
+      - randallthomas
+    topics:
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "Nw_mQKa3SCI"
+        url: "https://www.youtube.com/watch?v=Nw_mQKa3SCI"
+
+  - title: "Machine Learning in Elixir and the BEAM"
+    slug: "machine-learning-in-elixir-and-the-beam"
+    kind: talk
+    language: en
+    duration: 35
+    abstract: |
+      Join us for a chat and Q&A about the recently open-sourced Nx project, Numerical Computing and Machine Learning in Elixir and the Erlang VM.
+    speakers:
+      - brucetate
+      - josevalim
+    topics:
+      - elixir
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "IsAIbxk8WdM"
+        url: "https://www.youtube.com/watch?v=IsAIbxk8WdM"
+
+  - title: "Ask me anything about Elixir"
+    slug: "ask-me-anything-about-elixir"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      Short update from the Elixir Core Team and then you will be able to ask them any question you like about their work.
+    speakers:
+      - alekseimagusev
+      - ericmeadowsjonsson
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "aDqbr5gZ8x4"
+        url: "https://www.youtube.com/watch?v=aDqbr5gZ8x4"
+
+  - title: "Concurrency before Erlang"
+    slug: "concurrency-before-erlang"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      This talk covers:
+
+      concurrent languages at Ericsson before Erlang,
+      imperative concurrent languages Modula, Chill and Ada (the last two large international efforts),
+      start of the Computer Science Lab at Ericsson and experimentation with language paradigms, and
+      the prototyping that led up to Erlang.
+
+      THIS TALK IN THREE WORDS
+
+      Concurrency
+
+      Applied research
+
+      Prototyping
+
+      OBJECTIVES
+
+      A note on history - how complicated concurrency seemed to persons used to imperative sequential programming.
+
+      TARGET AUDIENCE
+
+      For people interested in the history of their profession.
+    speakers:
+      - bjarnedacker
+    topics:
+      - erlang
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "cg9CphowQiM"
+        url: "https://www.youtube.com/watch?v=cg9CphowQiM"
+
+  - title: "Property Based Testing"
+    slug: "property-based-testing"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      Property-Based Testing is one of the most powerful testing methods out there, and the Erlang ecosystem has some of the best frameworks available across all languages. Property-based testing has the potential to drastically increase the quality of software we ship by testing for issues we couldn’t even imagine.
+
+      Despite great tooling and promises, adoption is still somewhat limited. Simple examples are easy to write, but more complex ones can often feel like black magic.
+
+      In this Q&A session, Fred Hebert invites John Hughes, one of the inventors of Quickcheck, to discuss adoption strategies, how to gauge the accuracy and effectiveness of property tests, potential ideas for the future, and any questions the people in the audience might have.
+    speakers:
+      - fredhebert
+      - johnhughes
+    topics:
+      - testing
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "pZL-HxnXiQM"
+        url: "https://www.youtube.com/watch?v=pZL-HxnXiQM"
+
+  - title: "Startups, Venture Capital in the Erlang Ecosystem"
+    slug: "startups-venture-capital-in-the-erlang-ecosystem"
+    kind: panel
+    language: en
+    duration: 38
+    abstract: |
+      In this Panel, we bring together angel and VC investors and founders to discuss the main drivers behind startups, investment and the BEAM. The panel features angel investor Jane Walerud, who not only got Erlang open sourced at Ericsson, but has invested and been CEO of multiple companies using the BEAM. Rob Mee is the founder of Pivotal labs, and is currently running an incubator which makes heavy use of Elixir. William King is the co-founder of Subspace, a company building the world’s (and space’s) fastest internet. Subspace has successfully raised over $100m over multiple rounds of funding. Together, we will discuss what really matters when raising funds. Was it the technology stack, the passion, the idea, the track record, or a mixture of all of them? What do VCs look for, and what do founders have to do to succeed?
+    speakers:
+      - alistairwoodman
+      - janewalerud
+      - robmee
+      - williamking
+    topics:
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "5vDdE2opGHQ"
+        url: "https://www.youtube.com/watch?v=5vDdE2opGHQ"
+
+  - title: "The Kry10 Operating System: Security and the BEAM"
+    slug: "the-kry10-operating-system-security-and-the-beam"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      After years of work, we are finally ready to start discussing the upcoming Kry10 Operating System, which is designed for both high security and running the BEAM as a first-class application. In his talk, Boyd will give a preview, discuss goals, directions and show working code. Whilst we will get an update on the Scenic UI framework, emphasis will be on the OS and where it fits into the larger ecosystem.
+    speakers:
+      - boydmulterer
+    topics:
+      - erlang
+      - security
+      - embedded
+
+  - title: "LFE"
+    slug: "lfe"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      In this session we will seek Robert's advice on practical matters when creating applications and services in OTP on the BEAM, design decisions that face every implementor sooner or later, how creating software in LFE may or may not affect such decisions, and common misconceptions that must be overcome when building distributed solutions for customers. If time allows, we will take the opportunity to hear Robert's thoughts on best practices for BEAM language designers.
+    speakers:
+      - duncanmcgreggor
+      - robertvirding
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "e7YxB8scdUQ"
+        url: "https://www.youtube.com/watch?v=e7YxB8scdUQ"
+
+  - title: "Teaching Functional Programming With Elixir"
+    slug: "teaching-functional-programming-with-elixir"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      This will be a talk about what I've learned from teaching functional programming with Elixir. I've taught over a dozen classes with the class room size averaging between 15-25 people. I'll be going over what Ive learned, and how I go about getting folks over their blockers. How to manage a class remotely, how to keep folks engaged, what material I've found to benefit people the most. You'll walk away with some insights to help to train new developers transition into the wonderful language that is elixir.
+    speakers:
+      - melvincedeno
+    topics:
+      - elixir
+      - learning
+      - functional-programming
+    recordings:
+      - provider: youtube
+        external_id: "UeRfbBA2PPo"
+        url: "https://www.youtube.com/watch?v=UeRfbBA2PPo"
+
+  - title: "How not to fail at distributed systems with examples from Riak"
+    slug: "how-not-to-fail-at-distributed-systems-with-examples-from-riak"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      In this talk, we reflect on our years of supporting the Erlang based distributed key/value store, Riak, and share stories of how our clients' best intended configurations have come back to bite them in ways they did not foresee. This talk is intended as edutainment. We showcase some common pitfalls of distributed systems as taken from our Riak helpdesk history, explain why things went wrong and how to avoid making the same mistakes. Disclaimer: no client names are used in this talk and any logs or config files used have been anonymised. All characters and impressions used in this talk are entirely fictitious ones of my own creation and any resemblance to real persons, dead or alive, or other real-life entities, past or present, is purely coincidental.
+
+      AUDIENCE: This talk is recommended for helpdesk veterans, people interested in distributed systems and anybody who has ever touched Riak.
+    speakers:
+      - nicholasadams
+    topics:
+      - erlang
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "7tRGcYc-Nsg"
+        url: "https://www.youtube.com/watch?v=7tRGcYc-Nsg"
+
+  - title: "Contract Programming with Elixir"
+    slug: "contract-programming-with-elixir"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      How can we ensure that the data we pipe through a system passes the checks? Has the expected shape? Behaves correctly? The Elixir language already ships with some niceties to keep our interactions safe, but when this is not enough the library ecosystem offers a wide range of tactics.
+
+      This is an exploration of what is available, and what can we look up to.
+
+      OBJECTIVE
+
+      Leverage the "fail fast" and "let it crash" philosophy of erlang to contracts and explore its possibilities within the BEAM.
+
+      AUDIENCE
+
+      Beginner, Intermediate; individuals interested in specification, correctness or handling errors in programs.
+    speakers:
+      - raulchouza
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "RJ1LEhhdjxo"
+        url: "https://www.youtube.com/watch?v=RJ1LEhhdjxo"
+
+  - title: "Adopting Elixir"
+    slug: "adopting-elixir"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      TBA
+    speakers:
+      - sundimyint
+      - benmarx
+    topics:
+      - elixir
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "NX2V3eg0aok"
+        url: "https://www.youtube.com/watch?v=NX2V3eg0aok"
+
+  - title: "EEF — looking back at 2020 and forward at 2021"
+    slug: "eef-looking-back-at-2020-and-forward-at-2021"
+    kind: keynote
+    language: en
+    duration: 60
+    abstract: |
+      TBA
+    speakers:
+      - peerstritzinger
+    topics:
+      - community
+      - erlang
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "-OpOqSxOycA"
+        url: "https://www.youtube.com/watch?v=-OpOqSxOycA"
+
+  - title: "History and philosophy of Erlang with its creators"
+    slug: "history-and-philosophy-of-erlang-with-its-creators"
+    kind: keynote
+    language: en
+    duration: 55
+    abstract: |
+      Garrett Smith will host a fireside chat with Erlang co-inventors Mike Williams and Robert Virding, and the co-founder and former head of the Ericsson Computer Science Lab Bjarne Dacker. In his fireside, Garrett will be exploring the Erlang rationale, understanding how to drive innovation aimed at solving specific problems, and moving the results from a research institution to a commercial entity. As with previous fireside chats with Erlang-co inventors, expect lots of nuggets, anecdotes and stories explaining how, 30 years on, Erlang is still leading the way in the space of concurrency, distributed programming, resilience and scale.
+    speakers:
+      - bjarnedacker
+      - mikewilliams
+      - robertvirding
+      - garrettsmith
+    topics:
+      - erlang
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "-j_vy9zq3EY"
+        url: "https://www.youtube.com/watch?v=-j_vy9zq3EY"
+
+  - title: "Ask me anything about OTP with Andrea Leopardi & Francesco Cesarini"
+    slug: "ask-me-anything-about-otp-with-andrea-leopardi-francesco-cesarini"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      Do you have any questions on OTP, be it Erlang, Elixir or the underlying concepts behind both? Come ask Francesco Cesarini, member of the team who released the first version of OTP (and co-author of designing for Scalability with Erlang/OTP) and Andrea Leopardi, member of the Elixir core team and longtime advocate of OTP.
+    speakers:
+      - andrealeopardi
+      - francescocesarini
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "optbrUvjV78"
+        url: "https://www.youtube.com/watch?v=optbrUvjV78"
+
+  - title: "RabbitMQ"
+    slug: "rabbitmq"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Open session with RabbitMQ contributors - a chance to ask them questions you always wanted about their work.
+    speakers:
+      - ayandadube
+      - johnsamuel
+      - karlnilsson
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "R3gNNhP-p6s"
+        url: "https://www.youtube.com/watch?v=R3gNNhP-p6s"
+
+  - title: "BEAM + Prometheus + Grafana = Observability Heaven"
+    slug: "beam-prometheus-grafana-observability-heaven"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      Learn about the importance of application/system observability and how it can impact both the engineering and business sides of the house. Also learn about some of the phenomenal community tooling that we have available to us on the BEAM and how to setup PromEx to leverage all that telemetry goodness.
+
+      OBJECTIVE
+
+      The goal of this presentation is to give some background on the importance of application and system observability along with some best practices/anti-patterns. Next, we'll dive into some ecosystem observability tools available on the BEAM. Lastly we'll take PromEx for a test drive and see how easy it is to instrument our applications and extract metrics from all our telemetry supported libraries.
+
+      AUDIENCE
+
+      Anyone running production systems in Elixir who wants to step up the observability of their applications/systems.
+    speakers:
+      - alexkoutmos
+    topics:
+      - observability
+      - erlang
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "0SkVsUdUutE"
+        url: "https://www.youtube.com/watch?v=0SkVsUdUutE"
+
+  - title: "Who supervises supervisors?"
+    slug: "who-supervises-supervisors"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      OTP supervisors allow programmers to write reliable software in occurrence of errors in our code, but what happens when there is a bug in the OTP itself? Or in cases when our system becomes unresponsive despite the fact that all processes are up and running. That is where the system supervisor, like systemd, comes to play to help operations to keep the application up and running while being able to reliably observe the state of application.
+
+      OBJECTIVE:
+
+      Present the community that the supervisor approach is not distinctive to the OTP and that it is very handy solution to publish and manage BEAM applications within the existing systems without using additional tooling like k8s or Nomad. How to run applications in constrained and safe environments without usage of Docker/Podman while making it easy to run and manage on host OSes.
+
+      AUDIENCE:
+
+      Intermediate/advanced developers who want to manage their own applications and DevOps that are managing BEAM applications.
+    speakers:
+      - lukaszniemier
+    topics:
+      - erlang
+      - otp
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "hNnnliW7Kqs"
+        url: "https://www.youtube.com/watch?v=hNnnliW7Kqs"
+
+  - title: "The Architecture of Oban"
+    slug: "the-architecture-of-oban"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      Oban is an Elixir job processing system backed by PostgreSQL for persistence and coordination. It stands on the shoulders of giants, blending OTP and PostgreSQL into a tool that's uniquely possible on the BEAM.
+
+      Together we'll explore how Oban composes components of Elixir and OTP to enable powerful features such as job isolation, dynamic scaling, in-flight job cancelling, safe timeouts and graceful shutdown. We'll also investigate how support for plugins and telemetry integration makes Oban so extensible that a paid product was built on top of it without any special handling. Come take a look under the hood of a dynamic, scalable and reliable job processor made possible by the BEAM.
+    speakers:
+      - parkerselbert
+    topics:
+      - elixir
+      - oban
+    recordings:
+      - provider: youtube
+        external_id: "eQmAzkaHuXw"
+        url: "https://www.youtube.com/watch?v=eQmAzkaHuXw"
+
+  - title: "Nerves"
+    slug: "nerves"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |
+      Join us for a fireside chat with Frank Hunleth and Justin Schneck where Amos King leads a “how it started...how it’s going” interview with the two co-authors of the Nerves project. Nerves uses the BEAM to help both industrial and recreational users create robust and fault tolerant embedded systems while enjoying the friendly environs of the Elixir and Erlang languages. Come enjoy and participate in a discussion of what makes the Nerves community great and get all the inside jokes.
+    speakers:
+      - amosking
+      - frankhunleth
+      - justinschneck
+    topics:
+      - elixir
+      - embedded
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "-Tu_vPM52Bc"
+        url: "https://www.youtube.com/watch?v=-Tu_vPM52Bc"
+
+  - title: "What Other Languages Can Learn From BEAM: A Ruby Case Study"
+    slug: "what-other-languages-can-learn-from-beam-a-ruby-case-study"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      One of the core building blocks of the BEAM's concurrency story is the Actor Model. It's the foundation for Supervision trees, Agents and Tasks in Elixir, and GenServers.
+
+      A new kid on the Actor Model block has arrived. With version 3, Ruby has implemented their own version of the Actor Model. We'll explore what it learned from the BEAM, and where it needs to grow if it wants to let developers build world class, concurrent applications with it.
+    speakers:
+      - stevennunez
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "rcvijP2QIx0"
+        url: "https://www.youtube.com/watch?v=rcvijP2QIx0"
+
+  - title: "Wild Wild West"
+    slug: "wild-wild-west"
+    kind: keynote
+    language: en
+    duration: 42
+    abstract: |
+      Elixir Outlaws will treat us to a podcast.
+    speakers:
+      - amosking
+      - annaneyzberg
+      - chriskeathley
+    topics:
+      - elixir
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "4FR1QxCPwKM"
+        url: "https://www.youtube.com/watch?v=4FR1QxCPwKM"
