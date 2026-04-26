@@ -1,0 +1,294 @@
+tracks:
+  - name: "OK BEAMer"
+    color: "#3182CE"
+    position: 1
+  - name: "Gen X"
+    color: "#6B46C1"
+    position: 2
+  - name: "BEAMenial"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2019-02-28"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "designing-an-engineering-org-for-saas-and-on-prem-delivery-models"
+            track: "OK BEAMer"
+            kind: keynote
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "update-elixir-core-dev-team"
+            track: "OK BEAMer"
+            kind: talk
+      - start_time: "10:15"
+        end_time: "10:45"
+        sessions:
+          - title: "Break"
+            kind: break
+      - start_time: "10:45"
+        end_time: "11:30"
+        sessions:
+          - talk_slug: "the-evolution-of-a-language"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "the-art-of-the-live-upgrade-lessons-from-10-years-of-evolving-a-live-system"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "beyond-the-mqtt-broker"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "11:35"
+        end_time: "12:20"
+        sessions:
+          - talk_slug: "otp-behaviours-and-how-to-behave-around-them"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "pretty-state-machine"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "riak-s-rebirth"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:25"
+        end_time: "12:50"
+        sessions:
+          - talk_slug: "applied-ai-research-with-starcraft-torch-and-the-beam"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "monitoring-environment-stability-with-erlang"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "functional-farming-with-nerves"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:50"
+        end_time: "13:50"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:50"
+        end_time: "14:35"
+        sessions:
+          - talk_slug: "mid-air-airplane-repair-troubleshooting-at-whatsapp"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "membrane-framework-bringing-beam-into-world-of-multimedia-and-streaming"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "getting-results-finding-what-we-need-with-elixir"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "14:40"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "operable-erlang-and-elixir"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "understanding-erlang-kernel"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "the-art-of-the-beam-how-to-replace-the-jvm-and-not-get-fired"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:30"
+        end_time: "15:55"
+        sessions:
+          - talk_slug: "fantastic-voyage-iii-destination-beam"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "composing-in-style-an-introduction-to-wxerlang-s-styledtextctrl"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "microservices-with-elixir"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:55"
+        end_time: "16:25"
+        sessions:
+          - title: "Break"
+            kind: break
+      - start_time: "16:25"
+        end_time: "17:10"
+        sessions:
+          - talk_slug: "process-signals-in-otp-21"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "create-a-decentralized-database-with-exabci-and-tendermint"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "server-side-network-protocol"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "17:15"
+        end_time: "17:40"
+        sessions:
+          - talk_slug: "property-based-testing-in-kazoo"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "feature-flagging-in-erlang-using-launchdarkly"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "refactoring-elixir-for-maintainability"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "17:45"
+        end_time: "18:30"
+        sessions:
+          - talk_slug: "introducing-the-erlang-ecosystem-foundation"
+            track: "OK BEAMer"
+            kind: panel
+      - start_time: "18:30"
+        end_time: "22:00"
+        sessions:
+          - title: "Conference Party"
+            kind: social
+
+  - name: "Day 2"
+    date: "2019-03-01"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "announcing-broadway"
+            track: "OK BEAMer"
+            kind: keynote
+      - start_time: "09:50"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "update-otp-team"
+            track: "OK BEAMer"
+            kind: talk
+      - start_time: "10:05"
+        end_time: "10:35"
+        sessions:
+          - title: "Break"
+            kind: break
+      - start_time: "10:35"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "beam-extreme-don-t-try-this-at-home"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "zenmonitor-scaling-distributed-monitoring-at-discord"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "building-high-performance-modularization-architecture-in-short-messaging-systems"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "11:25"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "how-whatsapp-moved-1-5b-users-across-data-centres"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "erlang-logging-for-the-21st-otp"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "building-a-highly-scalable-service-that-survived-a-super-bowl"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "12:15"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "containers-orchestration-the-elixir-way"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "barrel-keep-your-data-in-sync-in-your-erlang-application"
+            track: "Gen X"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:40"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "modeling-and-verifying-distributed-applications-with-concuerror"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "partisan-testable-high-performance-large-scale-distributed-erlang"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "a-distributed-elixir-phoenix-application-for-force-scanning-how-we-built-it-and-what-we-ve-learned"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "14:30"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "erlang-distribution-via-udp-combined-with-ethernet-tsn"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "chemanalysis-dialyzing-elixir"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "using-otp-presence-to-power-real-time-analytics"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:20"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "casting-against-type-s"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "clixir-mixing-c-and-elixir-code"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "fips-140-2-in-beam-apps"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "15:45"
+        end_time: "16:15"
+        sessions:
+          - title: "Break"
+            kind: break
+      - start_time: "16:15"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "go-vs-elixir-a-concurrency-comparison"
+            track: "OK BEAMer"
+            kind: talk
+          - talk_slug: "using-distillery-understanding-otp-releases"
+            track: "Gen X"
+            kind: talk
+          - talk_slug: "building-a-credit-card-issuer-with-elixir"
+            track: "BEAMenial"
+            kind: talk
+      - start_time: "17:05"
+        end_time: "17:50"
+        sessions:
+          - talk_slug: "are-programmers-heading-towards-another-bursting-bubble"
+            track: "OK BEAMer"
+            kind: keynote
+      - start_time: "17:50"
+        end_time: "18:00"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+      - start_time: "18:00"
+        end_time: "19:00"
+        sessions:
+          - title: "Leaving Drinks"
+            kind: social

@@ -3385,8 +3385,13 @@
 
 - name: "Adrian Cruz"
   slug: "adriancruz"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Search, discovery and personalization software engineer"
+  bio: "Adrian is a software engineer, an open-source contributor, and sometimes a speaker. He works at an educational tech startup, Teachers Pay Teachers, helping educators get the resources they need."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/drincruz"
+    - platform: github
+      url: "https://github.com/drincruz"
 
 - name: "Aldebaran Alonso"
   slug: "aldebaranalonso"
@@ -3595,8 +3600,13 @@
 
 - name: "Brian Troutwine"
   slug: "briantroutwine"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Low-level systems engineer on the Dropbox Performance team. Has thoughts about spacecraft."
+  bio: "Brian L. Troutwine is a software engineer with a focus on low-level and fault-tolerant systems. Brian also has thoughts about mega-engineering projects, both historical and theoretical."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/bltroutwine"
+    - platform: github
+      url: "https://github.com/blt"
 
 - name: "Bruce Park"
   slug: "brucepark"
@@ -3886,8 +3896,14 @@
 
 - name: "Jeff Smith"
   slug: "jeffsmith"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Software engineer at Enbala"
+  bio: |
+    Jeff is a concurrency and hardware junky from OKC. He arrived at the gates of Erlang as a refugee after spending many years in denial of the realities of concurrency in OOP languages. He began experimenting with Erlang in 2010 and started writing Elixir professionally in 2013. He enjoys collecting STEM-related hobbies and traveling with his wife Laura.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/electricshaman"
+    - platform: github
+      url: "https://github.com/electricshaman"
 
 - name: "Jenn Gamble"
   slug: "jenngamble"
@@ -4741,8 +4757,14 @@
 
 - name: "Tian Chen"
   slug: "tianchen"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "VPE, Technical Writer, Elixir Enthusiast"
+  bio: |
+    Tian Chen has over fifteen years of experience working in the software industry. He currently works at ArcBlock Inc. as VP of Engineering. Tian is an Elixir lover and blockchain technology evangelist, he loves the beauty of the concurrency model of Elixir and worked hard to push it to the blockchain world.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/tyrchen"
+    - platform: github
+      url: "https://github.com/tyrchen"
 
 - name: "Zach Porter"
   slug: "zachporter"
@@ -5038,8 +5060,14 @@
 
 - name: "Andrew Thompson"
   slug: "andrewthompson"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Author of Lager and Gen_smtp, Rebar and Riak Contributor"
+  bio: |
+    Andrew has been doing Erlang since 2008, first in the VoIP world writing mod_erlang_event for FreeSWITCH, and using that to build an open-source call center platform called OpenACD. After that, Andrew was a Senior Engineer at Basho working on Riak and from there he moved to the IoT world at Helium. At Helium Andrew has built several Erlang powered platforms over the years culminating in building Helium's decentralized, distributed IoT network.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/potsdamnhacker"
+    - platform: github
+      url: "https://github.com/Vagabond"
 
 - name: "Anthony Molinaro"
   slug: "anthonymolinaro"
@@ -7581,3 +7609,167 @@
       url: "https://x.com/vchitters"
     - platform: github
       url: "https://github.com/vamsikc"
+
+- name: "Andrei Soroker"
+  slug: "andreisoroker"
+  headline: "Director of Product at 8x8"
+  bio: |
+    Andrei is the Director of Product for Messaging at 8x8 (NYSE: EGHT). Prior to 8x8, Andrei was the CEO of Sameroom, a chat interoperability startup (acquired by 8x8 in 2017). Andrei has been building Erlang and Elixir-based systems since 2009.
+
+- name: "Cees de Groot"
+  slug: "ceesdegroot"
+  headline: "Principal engineer at PagerDuty, Inc."
+  bio: |
+    Cees de Groot is a coder at heart with 30 years of experience in the field. A long journey through the lands of many programming languages made him land at his current resting spot of Elixir country, where he spends most of his time either at work or in the evening toying with Nerves. Born and raised in the Netherlands, he now lives in rural Canada working remotely.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/cdegroot"
+    - platform: github
+      url: "https://github.com/cdegroott"
+
+- name: "Drew Varner"
+  slug: "drewvarner"
+  headline: "GIAC exploit researcher & advanced penetration tester"
+  bio: |
+    An Erlang and Elixir enthusiast trying to bring functional to Federal. Drew is a GIAC Exploit Researcher & Advanced Penetration Tester. Drew is the founder of NineFX, a software firm focused on the US Federal market. He has worked professionally as an Erlang software engineer for the last five years.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/varnerac"
+    - platform: github
+      url: "https://github.com/varnerac"
+
+- name: "Greg Woodward, Ph.D."
+  slug: "gregwoodward"
+  headline: "CTO & VP Engineering at Sparta Science"
+  bio: |
+    Greg oversees technology design and development as CTO at Sparta Science, and specializes dynamics & kinematics, together with agile development methodologies, with over 25 years of commercial software development experience. Before Sparta, Greg was CTO of NASDAQ Private Market (NPM) where he led their agile development team, prior to that, he was CTO at SharesPost, and before that Greg was VP of engineering at various technology startups in the Bay Area. Greg graduated 1st in his class at Texas A&M University with a BS in mechanical engineering and received MS and PhD degrees in ME from Stanford University, where his research involved the use of tethered satellites with the space shuttle.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/gregwoodward"
+    - platform: github
+      url: "https://github.com/gregwoodward"
+
+- name: "Igors Istocniks"
+  slug: "igorsistocniks"
+  headline: "Software engineering manager at WhatsApp"
+  bio: |
+    Igors is a passionate software engineer who happened to work on various types of data migration for the last 6 years. He enjoys building distributed systems and solve scalability, availability and reliability problems that come with them.
+
+- name: "Jay Nelson"
+  slug: "jaynelson"
+  headline: "Proselytizes \"the Erlang way\" for apps in telecoms, electronic payments, secure texting, and ad delivery"
+  bio: "Jay has spent the last 10 years proselytizing The Erlang Way for applications in telecoms, electronic payments, secure texting, and ad delivery."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/duomark"
+    - platform: github
+      url: "https://github.com/jaynox"
+
+- name: "Jean Chassoul"
+  slug: "jeanchassoul"
+  headline: "Software designer"
+  bio: "Jean believes Luerl brings powerful mechanisms to the BEAM ecosystem and LFE macros as the ones that glob intended."
+  social_links:
+    - platform: twitter
+      url: "https://x.com/jchassoul"
+    - platform: github
+      url: "https://github.com/spacebeam"
+
+- name: "Jonathan Lima"
+  slug: "jonathanlima"
+  headline: "Software developer at Brex"
+  bio: |
+    Jonathan has been programming and building systems since he was eight years old. He loves to hack games and create his own computer world. Jonathan has been mastering payments and credit cards since 2013.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/gboxmuchacho"
+    - platform: github
+      url: "https://github.com/greenboxal"
+
+- name: "Keith Elder"
+  slug: "keithelder"
+  headline: "Technology evangelist, technologist, software engineer, speaker, trainer, and storyteller"
+  bio: |
+    Keith Elder is the senior technology evangelist at Quicken Loans, the nation's largest online mortgage lender based in Detroit, MI. He is an experienced technologist, systems administrator, software engineer, speaker, trainer and noted storyteller. He has spoken throughout the United States at major technical conferences on topics ranging from various new technologies, software architectures and soft skills. For over 12 years he led the Engineering Tools team as the Director of Software Engineering within Quicken Loans. When not sitting in front of a computer he spends the majority of his time as captain of the vessel Sea Sharp navigating the waters in the Gulf of Mexico in search of giant pelagic fish.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/keithelder"
+    - platform: github
+      url: "https://github.com/keithelder"
+
+- name: "Ken Cross"
+  slug: "kencross"
+  headline: "Software Engineer at HelloSign"
+  bio: |
+    Ken is passionate about large systems architecture and mathematical topics. While working abroad in Korea for two years, he discovered his passion in computer science and returned to the field and got his degree. He has been very happy to be writing meaningful Elixir programs and tries to spend as much time contributing to open source when not working, commuting and fathering.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/quasarken"
+    - platform: github
+      url: "https://github.com/k-cross"
+
+- name: "Marcin Lewandowski"
+  slug: "marcinlewandowski"
+  headline: "Partner at Software Mansion"
+  bio: |
+    Marcin founded his first IT company when he was still in high school. A graduate of Human-Computer Interaction at Jagiellonian University in Poland, he bounced between media and IT industries for quite a while. Marcin went on to found a cult local FM radio station, then RadioKit, a SaaS startup aiming at building software for the media industry and then smoothly migrated into multimedia. Marcin is currently a partner at Software Mansion - a fast-growing software house serving mostly US startups.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/mspanc"
+    - platform: github
+      url: "https://github.com/mspanc"
+
+- name: "Matthew Nowack"
+  slug: "matthewnowack"
+  headline: "Senior backend engineer at Discord"
+  bio: |
+    Matt Nowack has spent a career working on scaling distributed systems. From Twilio's REST API to Discord's Real-Time Communications Infrastructure, Matt is passionate about building and scaling high-quality low-latency distributed systems. Matt scaled the Twilio API to 99.999% uptime and 99.99999% success rate serving billions of requests per week. He's now hard at work scaling the real-time communications infrastructure that powers Discord.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ihumanable"
+    - platform: github
+      url: "https://github.com/ihumanable"
+
+- name: "Nuwan Wijerathne"
+  slug: "nuwanwijerathne"
+  headline: "Tech-Lead at Global Wavenet"
+  bio: |
+    Nuwan is a senior Tech Lead at Wavenet International with almost 10 years of experience (including 6+ years of career exposure in the United Kingdom). Nuwan holds an MSc in Information Systems Security and a BSc Hons degree in Information Technology from The Sheffield Hallam University in the UK. Technically, Nuwan is an expert in multiple product domains and has experience in working across multiple sectors in Telecommunications in Latin America, UK, New Zealand, Asian countries, in Healthcare in Asia, in the Apparel sector in Asia - Sri Lanka on enterprise resource planning, and The Government sector in UK for the immigration/ justice department. Nuwan is a knowledgeable and highly experienced trainer in his field of work, and has professional qualifications from overseas - namely, BSI Certified Lead Auditor (ISO 27001) UK, NEC SV 8100 Console Lite Training Certification (UK), Telerik Sitefinity Training Certification from Singapore. Nuwan has a passion for coding and loves experimenting with Erlang. He believes in creating new ways of doing things and currently manages an erlang team at Wavenet to bring customer solutions to life.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/wavenet_intl"
+
+- name: "Rodrigo Nonose"
+  slug: "rodrigononose"
+  headline: "Curiosity-driven developer experienced in multiple languages"
+  bio: |
+    Rodrigo is a software engineer with experience in multiple languages, such as Java, PHP, Python and now Elixir/Erlang. He's a curiosity-driven developer, studying a variety of topics and loves hands-on experience.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/backendwizard"
+    - platform: github
+      url: "https://github.com/rhnonose"
+
+- name: "Steve Morin"
+  slug: "stevemorin"
+  headline: "CTO @Tripping, hacker, entrepreneur, and software engineer"
+  bio: |
+    Steve Morin is the CTO at Tripping.com, responsible for engineering efforts across the organization. Steve brings over 20 years of experience in running and growing technology and product development teams for Fortune 500 companies and startups, including AT&T, Sociocast, AOL, and Yahoo!’s Mobile Search Marketing Platform. Prior to joining Tripping, Steve was a managing partner and CTO at Nvent, a big data consultancy serving a range of clients, including Comcast, AT&T, Autodesk and Kixeye. He has specialities in machine learning, distributed systems, data systems engineering, large-scale consumer and advertising platforms.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/SteveMorin"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/stevebmorin"
+    - platform: github
+      url: "https://github.com/smorin"
+
+- name: "Zurab Davitiani"
+  slug: "zurabdavitiani"
+  headline: "Feature flagging enthusiast, wrote an Erlang/Elixir SDK client for LaunchDarkly"
+  bio: |
+    Zurab started programming as a kid on an Olivetti 286 laptop running DR-DOS. Since then he has worked anywhere from startups to large corporations, accumulating an extensive experience creating, and leading teams to create, web applications and services. Currently a software engineer at LaunchDarkly, Zurab loves challenges brought by concurrency and distributed systems.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/zurab"
+    - platform: github
+      url: "https://github.com/unix1"
