@@ -1,5 +1,6 @@
 name: "Code BEAM SF 2018"
 slug: "code-beam-sf-2018"
+venue_slug: "marines-memorial-club"
 kind: conference
 status: completed
 format: in_person
@@ -7,6 +8,8 @@ start_date: "2018-03-15"
 end_date: "2018-03-16"
 timezone: "America/Los_Angeles"
 language: en
-location: "San Francisco, CA, USA"
-website: "https://codesync.global/conferences/code-beam-sf-2018"
+location: "San Francisco, USA"
+website: "https://www.codesync.global/conferences/code-beam-sf-2018/"
 color: "#3182CE"
+description: |
+  Code BEAM SF 2018 — the only conference in the USA bringing all the languages that run on the BEAM together, including Erlang and Elixir. Two days of talks across three tracks (Crystal Ballroom, Crystal Lounge, Regimental) at the Marines' Memorial Club & Hotel in San Francisco's Union Square. Notable for Joe Armstrong's keynote on "The Forgotten Ideas in Computer Science".

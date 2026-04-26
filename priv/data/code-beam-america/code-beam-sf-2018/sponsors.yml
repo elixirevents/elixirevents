@@ -1,0 +1,28 @@
+- name: "Global Sponsor"
+  level: 1
+  sponsors:
+    - slug: "whatsapp"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "8x8"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "tigertext"
+
+- name: "Media"
+  level: 4
+  sponsors:
+    - slug: "elixir-fountain"
+    - slug: "functional-geekery"
+    - slug: "plataformatec"
+    - slug: "elixir-radar"
+    - slug: "open-source-initiative"
+    - slug: "witi"
+    - slug: "elixir-forum"
+    - slug: "challenge-rocket"
+    - slug: "infoq"
