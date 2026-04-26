@@ -1,0 +1,232 @@
+tracks:
+  - name: "Track 1"
+    color: "#3182CE"
+    position: 1
+  - name: "Track 2"
+    color: "#6B46C1"
+    position: 2
+  - name: "Track 3"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2021-05-19"
+    position: 1
+    time_slots:
+      - start_time: "12:00"
+        end_time: "12:15"
+        sessions:
+          - title: "Wellness Booster"
+            kind: break
+
+      - start_time: "12:15"
+        end_time: "12:30"
+        sessions:
+          - title: "Welcome -> (Times in CEST)"
+            kind: social
+
+      - start_time: "12:30"
+        end_time: "13:10"
+        sessions:
+          - talk_slug: "adopting-elixir-and-growing-the-elixir-community-across-africa"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "13:20"
+        end_time: "14:00"
+        sessions:
+          - talk_slug: "how-not-to-fail-at-distributed-systems-with-examples-from-riak"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "kill-your-dead-code-with-fire"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "on-security-for-practitioners-academics"
+            track: "Track 3"
+            kind: keynote
+
+      - start_time: "14:00"
+        end_time: "14:30"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "14:30"
+        end_time: "15:10"
+        sessions:
+          - talk_slug: "covid-19-contact-tracing-on-the-beam"
+            track: "Track 1"
+            kind: talk
+          - title: "Here be Floating Dragons: A Tale of Making OTP Faster"
+            track: "Track 2"
+            kind: talk
+          - title: "Fireside Chat: Making a type-safe language on the BEAM"
+            track: "Track 3"
+            kind: keynote
+
+      - start_time: "15:20"
+        end_time: "15:50"
+        sessions:
+          - title: "Ask me anything about OTP"
+            track: "Track 1"
+            kind: talk
+          - title: "Ask me anything about Erlang Ecosystem Foundation"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "15:50"
+        end_time: "16:30"
+        sessions:
+          - talk_slug: "on-liveview-the-future-of-phoenix-web-development"
+            track: "Track 1"
+            kind: keynote
+
+
+  - name: "Day 2"
+    date: "2021-05-20"
+    position: 2
+    time_slots:
+      - start_time: "12:00"
+        end_time: "12:15"
+        sessions:
+          - title: "Wellness Booster"
+            kind: break
+
+      - start_time: "12:15"
+        end_time: "12:20"
+        sessions:
+          - title: "Opening notes"
+            kind: social
+
+      - start_time: "12:20"
+        end_time: "13:00"
+        sessions:
+          - title: "The Future of Erlang LS"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "managing-a-tera-of-networking-flows-using-erlang-s-bastien-merle-peer-stritzinger"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "backoffice-admin-tool-built-with-petal-stack"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "13:10"
+        end_time: "13:50"
+        sessions:
+          - title: "Breaking up with Mnesia"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "compositional-protocol-engineering-for-communicating-actors-laura-bocchi-laura-voinea"
+            track: "Track 2"
+            kind: talk
+          - title: "Fireside Chat on LiveView Surface"
+            track: "Track 3"
+            kind: keynote
+
+      - start_time: "13:50"
+        end_time: "14:20"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "14:20"
+        end_time: "15:00"
+        sessions:
+          - talk_slug: "end-to-end-encryption-with-elixir-and-beam-mrinal-wadhwa-code-beam-v-eu-21"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "atlas-flexible-software-composition-using-protocols"
+            track: "Track 2"
+            kind: talk
+          - title: "Fireside chat about Nova and Nitrogen"
+            track: "Track 3"
+            kind: keynote
+
+      - start_time: "15:10"
+        end_time: "15:40"
+        sessions:
+          - title: "Ask me anything about Elixir"
+            track: "Track 1"
+            kind: talk
+          - title: "Ask me anything about MongooseIM"
+            track: "Track 2"
+            kind: talk
+
+      - start_time: "15:40"
+        end_time: "16:30"
+        sessions:
+          - talk_slug: "on-machine-learning-on-the-beam"
+            track: "Track 1"
+            kind: keynote
+
+
+  - name: "Day 3"
+    date: "2021-05-21"
+    position: 3
+    time_slots:
+      - start_time: "12:00"
+        end_time: "12:15"
+        sessions:
+          - title: "Wellness Booster"
+            kind: break
+
+      - start_time: "12:15"
+        end_time: "12:20"
+        sessions:
+          - title: "Opening notes"
+            kind: social
+
+      - start_time: "12:20"
+        end_time: "13:00"
+        sessions:
+          - title: "Fireside chat on code design"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "13:10"
+        end_time: "13:50"
+        sessions:
+          - talk_slug: "jumping-gen-servers-a-new-way-of-building-distributed-applications-peer-stritzinger"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "convert-your-web-app-to-a-desktop-app-with-elixir-desktop-dominic-letz-code-beam-v-eu-21"
+            track: "Track 2"
+            kind: talk
+          - title: "Fireside chat on JIT compiler"
+            track: "Track 3"
+            kind: keynote
+
+      - start_time: "13:50"
+        end_time: "14:20"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+
+      - start_time: "14:20"
+        end_time: "15:00"
+        sessions:
+          - title: "Metaprogramming + DSL Design in Elixir"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "check-your-code-with-refactorerl-melinda-to-th"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "on-bringing-more-fp-to-elixir"
+            track: "Track 3"
+            kind: keynote
+
+      - start_time: "15:10"
+        end_time: "15:20"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+
+      - start_time: "15:20"
+        end_time: "16:00"
+        sessions:
+          - talk_slug: "if-at-first-you-don-t-succeed-try-again-smarter"
+            track: "Track 1"
+            kind: keynote
+

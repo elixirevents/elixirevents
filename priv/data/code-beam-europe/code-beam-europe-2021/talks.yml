@@ -1,0 +1,524 @@
+## Keynotes
+
+  - title: "on LiveView, the Future of Phoenix Web Development"
+    slug: "on-liveview-the-future-of-phoenix-web-development"
+    kind: keynote
+    language: en
+    duration: 35
+    abstract: |
+      Fireside Chat on LiveView, the Future of Phoenix Web Development | Sophie DeBenedetto -Senior Engineer at Github and Co-author of Programming Phoenix LiveView & Bruce Tate - Author, editor, founder of grox.io
+
+      ABSTRACT
+      Join Bruce Tate and Sophie DeBenedetto, authors of Programming Phoenix LiveView, for a fireside chat on LiveView and its impact on the future of web development.
+
+      LiveView will change the way you develop single-page apps and increase Elixir and Phoenix adoption. It gives teams the ability to move fast while focusing brain power purely on the server-side, using the power of Elixir and Phoenix to support fault-tolerant single-page flows.
+
+      Bruce and Sophie will talk about some of the basic building blocks that make LiveView so powerful, including discussions of how LiveView lets you build complex interactive flows without writing any JavaScript, how this differs from traditional SPA development, what it's like to test LiveView, what the Surface component library brings to the table, and how you can design a beautiful, layered UI with one simple pattern.
+
+      This chat will be an interactive conversation not only between Sophie and Bruce, but also with you, the audience. Bring your LiveView questions so we can have a lively discussion about what LiveView brings to web development, and where it needs to go next.
+    speakers:
+      - brucetate
+      - timmoverlaan
+      - marlussaraiva
+    topics:
+      - phoenix
+      - liveview
+    recordings:
+      - provider: youtube
+        external_id: "UYBWFB2FRkE"
+        url: "https://www.youtube.com/watch?v=UYBWFB2FRkE"
+
+  - title: "on code design"
+    slug: "on-code-design"
+    kind: keynote
+    language: en
+    duration: 40
+    abstract: |
+      Fireside Chat on code design | Eric Meadows-Jönsson - Creator of HEX and ECTO & Ulf Wiger - Core developer at æternity
+
+      ABSTRACT
+      Source code is much more than a collection of characters which gets compiled into an executable program. It is the place where developers spend a lot of their working time, extending the existing software, as well as debugging and optimizing it. The vast majority of development takes place on an existing codebase. Frequently a large part of that code is written by other people, some of which are not even a part of the team anymore. It is therefore essential that the code gets organized in a way which allow the developers to be both, efficient and effective. But can this even be done, and if so, how exactly? Come and join us in this session, where we'll explore the challenges of designing a codebase written in BEAM languages, such as Erlang and Elixir.
+    speakers:
+      - ulfwiger
+      - aleksandarfilipov
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "qMKB4kjXAa4"
+        url: "https://www.youtube.com/watch?v=qMKB4kjXAa4"
+
+  - title: "If at first you don't succeed, try again smarter"
+    slug: "if-at-first-you-don-t-succeed-try-again-smarter"
+    kind: keynote
+    language: en
+    duration: 51
+    abstract: |
+      Keynote: If at first you don't succeed, try again smarter | Mike Wiliams - Erlang Co-Inventor and Fred Herbert - co-founder at Erlang Ecosystem Foundation
+
+      ABSTRACT
+      Mike has seen it all begin, from the early Erlang experiments, down to its ban from Ericsson, until it rose from its ashes like a phoenix. Fred joined the community later, on the first hype wave following WhatsApp's early successes, slowly making a place for itself in cloud software. Together they've seen Erlang and other BEAM technologies successfully adopted, but also have seen them fail or be abandoned. In this presentation, Mike and Fred source from their experience to offer insights about the challenges you will encounter and mistakes that can be avoided when trying to push your workplace to use new technologies, where good tech is not enough to succeed.
+    speakers:
+      - fredhebert
+      - mikewilliams
+      - tristansloughter
+      - bjarnedacker
+      - robertvirding
+      - josevalim
+      - miriampena
+      - francescocesarini
+      - peerstritzinger
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "M5NSxVWkvsg"
+        url: "https://www.youtube.com/watch?v=M5NSxVWkvsg"
+
+  - title: "on Machine Learning on the BEAM"
+    slug: "on-machine-learning-on-the-beam"
+    kind: keynote
+    language: en
+    duration: 45
+    abstract: |
+      Panel on Machine Learning on the BEAM | José Valim - Creator of the Elixir Programming Language, R.Thomas, D. Lucia - founder of Thunderbolt Labs, G. Smith - founder of Guild AI & S.Levitan - Principal Algorithms and Machine Learning Scientist at Walgreens Co.
+
+      ABSTRACT
+      Machine learning is a method of programming where software is generated by other software. It's taught, or "learned" using examples, statistics, and iterative improvements to create useful functions. Nx, Axon, and other projects in Elixir and Erlang are bringing the benefits of machine learning to the BEAM. In this discussion, a panel of machine learning experts consider recent development in ML and BEAM languages and explore future work to help release the promise of machine learning for scalable, fault tolerant systems. If you're new to machine learning or a seasoned expert, this discussion will bring you up to speed on ML and the BEAM and will inspire your work in data-enabled application development.
+    speakers:
+      - randallthomas
+      - davelucia
+      - garrettsmith
+      - svetlanalevitan
+      - josevalim
+    topics:
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "lS5VQmvI7is"
+        url: "https://www.youtube.com/watch?v=lS5VQmvI7is"
+
+  - title: "on bringing more FP to Elixir"
+    slug: "on-bringing-more-fp-to-elixir"
+    kind: keynote
+    language: en
+    duration: 37
+    abstract: |-
+      In this fireside chat, Brooklyn and Thomas will talk about structural thinking and abstraction. Come hear (and discuss!) how to make your code more understandable, help you move quickly, and eliminate tricky bugs, drawing from real world examples, the Witchcraft suite, and Exceptional.
+    speakers:
+      - thomasarts
+      - brooklynzelenka
+      - tobiaslindahl
+    topics:
+      - elixir
+      - code-intelligence
+    recordings:
+      - provider: youtube
+        external_id: "Iyyvizxl7eM"
+        url: "https://www.youtube.com/watch?v=Iyyvizxl7eM"
+
+  - title: "on security for practitioners & academics"
+    slug: "on-security-for-practitioners-academics"
+    kind: keynote
+    language: en
+    duration: 41
+    abstract: |
+      Let’s talk about what keeps you awake at night... and about what should keep you awake at night.
+      Join Bram and Viktória and learn about the threats targeting BEAM users, the solutions that exist today and the unsolved challenges that await brilliant minds.
+    speakers:
+      - bramverburg
+      - viktoriafordos
+      - peerstritzinger
+      - bryannaegele
+      - toddresudek
+      - maximfedorov
+      - frankhunleth
+      - johnnywinn
+    topics:
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "hdy9lPPZn7g"
+        url: "https://www.youtube.com/watch?v=hdy9lPPZn7g"
+
+  - title: "on making a typed language on the BEAM"
+    slug: "on-making-a-typed-language-on-the-beam"
+    kind: keynote
+    language: en
+    duration: 39
+    abstract: |
+      "Gleam is a fast, friendly, and functional language for building type-safe, scalable systems."
+      "Caramel is a functional language for building type-safe, scalable and maintainable applications." These are currently the official slogans of the Gleam and Caramel languages, and it's easy to see the alignment on functional programming, scalability and maintainability. But with both being languages running on the BEAM, these are not too surprising. Type-safety on the BEAM, on the other hand? That is a more intriguing story! Join us on this fireside chat hosted by Stavros Aronis, where Louis Pilford, author of Gleam, and Leandro Ostera, author of Caramel, will answer all your questions about making a type-safe language on the BEAM!
+    speakers:
+      - louispilfold
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "UCLYxLSewAM"
+        url: "https://www.youtube.com/watch?v=UCLYxLSewAM"
+
+  - title: "with LiveView Surface"
+    slug: "with-liveview-surface"
+    kind: keynote
+    language: en
+    duration: 40
+    abstract: |-
+      Join Marlus Saraiva, the creator of Surface, alongside Timmo Verlaan and Bruce Tate for a discussion about Surface, the new LiveView Component library. Surface is a server-side rendering component library built on top of LiveView. Surface brings static type checks to LiveComponents, while providing better ergonomics and a high-degree of composability. It is a powerful tool in the LiveView developer's toolkit for designing rich, interactive UIs that are easy to build, layer, and maintain. Bruce Tate, co-author of Programming Phoenix LiveView, will moderate a discussion between Marlus Saraiva and Timmo Verlaan. We'll talk with Marlus about the problems Surface is designed to solve, what it's been like to build the library, where Surface is going next, and more. We'll also hear from Timmo Verlaan on his experience working with Surface, when and why he reaches for Surface, and what Surface has brought to LiveView development. We also want to hear from you, the audience. So come with all of your Surface questions and join us for this lively discussion.
+    speakers:
+      - timmoverlaan
+      - brucetate
+      - marlussaraiva
+    topics:
+      - phoenix
+      - liveview
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "xdqd1DOufAg"
+        url: "https://www.youtube.com/watch?v=xdqd1DOufAg"
+
+  - title: "on JIT compiler"
+    slug: "on-jit-compiler"
+    kind: keynote
+    language: en
+    duration: 39
+    abstract: |-
+      "Good things come to those who wait" goes the saying, and indeed, after 10 years and several interesting attempts and research, Erlang 24.0 finally comes out of the box with a JIT (i.e. Just-In-Time) compiler that is impressive both in its performance, as well as its simplicity, and has gotten the entire BEAM community talking about it!
+    speakers:
+      - johnhogberg
+      - lukaslarsson
+    topics:
+      - community
+      - compilers
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "D-Rt92xDEPk"
+        url: "https://www.youtube.com/watch?v=D-Rt92xDEPk"
+
+
+## Talks
+
+  - title: "Adopting Elixir and Growing the Elixir Community Across Africa"
+    slug: "adopting-elixir-and-growing-the-elixir-community-across-africa"
+    kind: talk
+    language: en
+    duration: 48
+    abstract: |
+      Adopting Elixir and Growing the Elixir Community Across Africa
+      by Getty Orawo - Founder GirlsGetGeeky & Okoth Kongo - Organizer of Elixir Conf Africa
+
+      ABSTRACT
+      The adoption of Elixir across the African continent has been experiencing steady growth. This can be shown by the growth of the number of software developers learning Elixir, in anticipation of job opportunities, the companies adopting Elixir will offer. We will discuss some problems facing Africa, especially those which these companies are solving and why Elixir is suitable for these given problems. We will also discuss the growth of the Elixir community, its impact on both Elixir and non-Elixir developers, together with the success, lessons and challenges facing both adoption (companies and developers) and the Elixir community
+
+      • Timecodes
+        00:00 - 04:40 - Introduction
+        04:41 - 10:47 - Adopting Elixir in Africa - Why Elixir?
+        10:48 - 21:29 - Use cases of Elixir Africa
+        21:30 - 28:09 - Challenge facing the adoption
+        28:10 - 33:12 - Recommandations
+        33:13 - 47:52 - Growing the Elixir community in Africa
+    speakers:
+      - okothkongo
+    topics:
+      - elixir
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "HOiV_WhYoxs"
+        url: "https://www.youtube.com/watch?v=HOiV_WhYoxs"
+
+  - title: "Atlas: Flexible Software Composition using Protocols"
+    slug: "atlas-flexible-software-composition-using-protocols"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      Atlas  Flexible Software Composition using Protocols | Quinn Wilton - Senior Applied Researcher at Fission
+
+      ABSTRACT
+      Last year, my team delivered an application that aggregated data from multiple remote services, and we produced it in a third of the time allocated.
+      To facilitate this pace of development, I modeled our services using Norm, composed those models using protocols, and then used property testing to verify them against the real services: enabling us to concurrently develop the frontend, backend, and upstream services.
+      I'll explore these patterns through an example application that demonstrates them in action.
+    speakers:
+      - quinnwilton
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "fhheJ5zsXBQ"
+        url: "https://www.youtube.com/watch?v=fhheJ5zsXBQ"
+
+  - title: "Backoffice admin tool built with PETAL stack"
+    slug: "backoffice-admin-tool-built-with-petal-stack"
+    kind: talk
+    language: en
+    duration: 35
+    abstract: |
+      Backoffice is a new admin tool built with the recently coined PETAL stack (Phoenix, Elixir, TailwindCSS, AlpineJS & LiveView).
+      The core tenet of Backoffice is to provide you with the building blocks to help you build admin tool effortlessly and explicitly, and gets out of your way if and when you need more customisation.
+      In this talk we will look at how the core tenet of Backoffice drove the design. We will also talk about why I chose the PETAL stack for Backoffice, and I hope that it inspires you to use PETAL stack for your next project.
+    speakers:
+      - edisonyap
+    topics:
+      - elixir
+      - phoenix
+      - liveview
+      - code-intelligence
+    recordings:
+      - provider: youtube
+        external_id: "LcRQX9JpSE8"
+        url: "https://www.youtube.com/watch?v=LcRQX9JpSE8"
+
+  - title: "Check your code with RefactorErl! | Melinda Tóth"
+    slug: "check-your-code-with-refactorerl-melinda-to-th"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |-
+      RefactorErl is a source code analysis and transformation tool for Erlang. You might know some of its useful features, like refactorings, code comprehension support, semantic queries, software complexity measures, dependence analysis, software clustering, etc. In this talk, I would like to show how you can use the tool • to check certain properties of your software (for example, checking lexical, syntactic conditions (e.g. design rules)), • to find code fragments during bug localisation or code comprehension, and I will also highlight some recent developments in security vulnerability checkers.
+    speakers:
+      - melindatoth
+    topics:
+      - refactoring
+      - security
+      - code-intelligence
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "Rp5UsMT-32E"
+        url: "https://www.youtube.com/watch?v=Rp5UsMT-32E"
+
+  - title: "Metaprogramming + DSL Design in Elixir | Adi Iyengar | Code BEAM V EU 21"
+    slug: "metaprogramming-dsl-design-in-elixir-adi-iyengar-code-beam-v-eu-21"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |-
+      Elixir relies heavily on metaprogramming. We use metaprogramming features in Elixir regularly, sometimes without even knowing. In this talk, we will cover some of the low level constructs in Elixir, which will help you better understand how metaprogramming works in Elixir. We will finish up by using some of those constructs to build a Domain-Specific Language to compose music using Elixir.
+    speakers:
+      - adiiyengar
+    topics:
+      - elixir
+      - code-intelligence
+    recordings:
+      - provider: youtube
+        external_id: "CjeJxHFEwZo"
+        url: "https://www.youtube.com/watch?v=CjeJxHFEwZo"
+
+  - title: "Convert your Web App to a Desktop App with Elixir Desktop | Dominic Letz | Code BEAM V EU 21"
+    slug: "convert-your-web-app-to-a-desktop-app-with-elixir-desktop-dominic-letz-code-beam-v-eu-21"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      Elixir-Desktop is a new project and library to convert Elixir Phoenix (LiveView) apps into native Desktop applications for macOS Linux and Windows. Think what electron brought to JavaScript but for Elixir.
+      During this talk, I would like to showcase the library and how to get started and then dive into some of the nitty-gritty details of creating a macOS dmg from your project and deploying it through the mac appstore.
+    speakers:
+      - dominicletz
+    topics:
+      - elixir
+      - phoenix
+      - liveview
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "P6b-2RnPKBs"
+        url: "https://www.youtube.com/watch?v=P6b-2RnPKBs"
+
+  - title: "Jumping gen_servers! A new way of building distributed applications | Peer Stritzinger"
+    slug: "jumping-gen-servers-a-new-way-of-building-distributed-applications-peer-stritzinger"
+    kind: talk
+    language: en
+    duration: 40
+    abstract: |-
+      Distributed applications in Erlang have been static, limited and manual. Couldn't they be dynamic, limitless and automatic instead? Heterogenous large networks with interesting topology and varied properties of nodes and links call for a new way of building such applications. We will together explore building blocks made out of processes, messages, links and monitors sprinkled with practical experiments. Distributed self managing computation and communication, seeking new emergent behaviours.
+    speakers:
+      - peerstritzinger
+      - barbarachassoul
+    topics:
+      - distribution
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "0ffcj5p_TQ4"
+        url: "https://www.youtube.com/watch?v=0ffcj5p_TQ4"
+
+  - title: "End to End Encryption with Elixir and Beam | Mrinal Wadhwa | Code BEAM V EU 21"
+    slug: "end-to-end-encryption-with-elixir-and-beam-mrinal-wadhwa-code-beam-v-eu-21"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      Erlang LS is slowly becoming the de-facto standard when it comes to an Erlang development environment. Being completely editor-agnostic, Erlang LS brings the most popular Erlang developer tools such as Elvis, Dialyzer and TypEr to the masses. But what is next?
+      During this talk we will discover what is cooking among the Erlang LS core contributors. We will peek at the work being done around the Build Server Protocol, which allows language servers to integrate with existing build tools (rebar3 anyone?) and the Debug Adapter Protocol, which can transform your editor into a fully-fledged debugger.
+    speakers:
+      - mrinalwadhwa
+    topics:
+      - elixir
+      - type-system
+      - security
+      - code-intelligence
+    recordings:
+      - provider: youtube
+        external_id: "IwvMuEnDcIg"
+        url: "https://www.youtube.com/watch?v=IwvMuEnDcIg"
+
+  - title: "Compositional protocol engineering for communicating actors | Laura Bocchi & Laura Voinea"
+    slug: "compositional-protocol-engineering-for-communicating-actors-laura-bocchi-laura-voinea"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |-
+      In systems of communicating processes or actors, data types can be used to discipline the sorts of sent and received messages. Session types, in addition, can describe specific causalities and patterns among different send/receive actions (like application-level protocols). I will give an overview on recent and ongoing research about writing “good protocols” using session types and session types to yield correct implementations. I will then focus on modular composition of protocols. Real-world communication protocols are often built out of simpler protocols that cater for some specific functionality (e.g., banking, authentication) or operate at different levels of abstraction (e.g., HTTP, POP). However much of the work used for program verification (e.g., session types) treat protocols as monolithic units. I will show an approach to protocol composition, including a tool that extracts models from concurrent Erlang code into a protocol language based on session types, implements an algorithmic notion of protocol composition, and provides code generation from protocols. The purpose is greater modularisation and code reuse.
+    speakers:
+      - laurabocchi
+    topics:
+      - concurrency
+      - elixir
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "VPW6H0L4Gek"
+        url: "https://www.youtube.com/watch?v=VPW6H0L4Gek"
+
+  - title: "Managing a tera of networking flows using Erlang | Sébastien Merle & Peer Stritzinger"
+    slug: "managing-a-tera-of-networking-flows-using-erlang-s-bastien-merle-peer-stritzinger"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      As part of the 2021 TeraFlow research group, we are developing a distributed Software-Defined Network (SDN) controller targeting a tera of managed flows in beyond 5G networks.
+      After an overview of what an SDN controller is and the protocols involved, we will introduce our architecture, the concerns, constraints, and challenges. Then we will perform a live demo showing the progress so far. Finally, we will present the open-source projects created or improved as part of the development. OBJECTIVES
+      Give the audience a good idea of what is a Software-Defined Network (SDN) controller, and some of the challenges of developing a scalable one.
+    speakers:
+      - sebastienmerle
+    topics:
+      - distribution
+      - elixir
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "miNjrA-sQJY"
+        url: "https://www.youtube.com/watch?v=miNjrA-sQJY"
+
+  - title: "The Future of Erlang LS | Roberto Aloi and Andreas Löscher"
+    slug: "the-future-of-erlang-ls-roberto-aloi-and-andreas-l-scher"
+    kind: talk
+    language: en
+    duration: 34
+    abstract: |
+      Erlang LS is slowly becoming the de-facto standard when it comes to an Erlang development environment. Being completely editor-agnostic, Erlang LS brings the most popular Erlang developer tools such as Elvis, Dialyzer and TypEr to the masses. But what is next?
+      During this talk we will discover what is cooking among the Erlang LS core contributors. We will peek at the work being done around the Build Server Protocol, which allows language servers to integrate with existing build tools (rebar3 anyone?) and the Debug Adapter Protocol, which can transform your editor into a fully-fledged debugger. OBJECTIVES:
+      Showcase the current status of Erlang LS
+      Present the roadmap for Erlang LS
+      Give a gentle introduction to the BSP and DAP protocols
+    speakers:
+      - robertoaloi
+    topics:
+      - type-system
+      - code-intelligence
+      - elixir
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "OJJnrDCJ7Yg"
+        url: "https://www.youtube.com/watch?v=OJJnrDCJ7Yg"
+
+  - title: "Breaking up with Mnesia | Dániel Szoboszlay & Onno Vos"
+    slug: "breaking-up-with-mnesia-d-niel-szoboszlay-onno-vos"
+    kind: talk
+    language: en
+    duration: 37
+    abstract: |
+      Klarna runs its business on Mnesia from day one. 16 years later we're still together... but we’re heading towards a break up.
+      How did we get here? What’s the way forward? Over the years problems hit us for sure, but as we’re about to part we also found good in Mnesia we'd taken for granted and never appreciated before. Are you just launching on Mnesia? Come and learn how not to corner yourself by the time you grow to a Unicorn. Already stretching limits? See how we made Postgres a viable replacement. OBJECTIVE
+      Mnesia has some superpowers, but you won’t realise they exist until you try to live without them. Become aware of them, and you will be able to make conscious choices on whether to fully utilize them or to keep your options open.
+    speakers:
+      - danielszoboszlay
+    topics:
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "MgBx1qBLM8U"
+        url: "https://www.youtube.com/watch?v=MgBx1qBLM8U"
+
+  - title: "Kill your Dead Code with Fire!"
+    slug: "kill-your-dead-code-with-fire"
+    kind: talk
+    language: en
+    duration: 35
+    abstract: |-
+      Working with legacy code can be very frightening sometimes. That's why most of us tend to touch as little as possible every time we need to make a change, particularly when we're removing stuff. That leads to lots and lots of "dead code" (pieces of code that are no longer needed but never removed… just in case). That piling of dead code makes debugging and maintaining systems harder and harder, and the cycle starts again… That's why, at NextRoll, we created Hank, the Dead Code Killer. Our latest open-source tool that you need to start using today!
+    speakers:
+      - brujobenavides
+    topics:
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "8rPotK8BrUE"
+        url: "https://www.youtube.com/watch?v=8rPotK8BrUE"
+
+  - title: "How not to Fail at Distributed Systems with Examples from Riak"
+    slug: "how-not-to-fail-at-distributed-systems-with-examples-from-riak"
+    kind: talk
+    language: en
+    duration: 32
+    abstract: |-
+      In this talk, we reflect on our years of supporting the Erlang based distributed key/value store, Riak, and share stories of how our clients' best intended configurations have come back to bite them in ways they did not foresee. This talk is intended as edutainment. We showcase some common pitfalls of distributed systems as taken from our Riak helpdesk history, explain why things went wrong and how to avoid making the same mistakes. Disclaimer: no client names are used in this talk and any logs or config files used have been anonymised. All characters and impressions used in this talk are entirely fictitious ones of my own creation and any resemblance to real persons, dead or alive, or other real-life entities, past or present, is purely coincidental.
+    speakers:
+      - nicholasadams
+    topics:
+      - distribution
+      - code-intelligence
+      - libraries
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "cgC7j8vII30"
+        url: "https://www.youtube.com/watch?v=cgC7j8vII30"
+
+  - title: "Real-time Object Detection with Phoenix and Python"
+    slug: "real-time-object-detection-with-phoenix-and-python"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      Real-time Object Detection with Phoenix and Python | Alvise Susmel - CTO at Knowsis
+
+      ABSTRACT
+      YOLO (You Only Look Once) is a state-of-the-art, real-time object detection system. In this talk Alvise shares how we can bring its functionalities in a Phoenix app, taking advantage of Python's fantastic set of Machine Learning libraries.
+      Alvise will start by building an Elixir wrapper around a Python library, so he can detect objects on single images. Then we make it real-time on a Phoenix app, detecting objects from a webcam feed.
+    speakers:
+      - alvisesusmel
+    topics:
+      - phoenix
+      - python
+      - ai
+    recordings:
+      - provider: youtube
+        external_id: "FL1qcLemml0"
+        url: "https://www.youtube.com/watch?v=FL1qcLemml0"
+
+  - title: "COVID-19 contact tracing on the BEAM"
+    slug: "covid-19-contact-tracing-on-the-beam"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      COVID-19 contact tracing on the BEAM | Jonatan Männchen - technology lead at JOSHMARTIN  & Jeremy "Jay" Zahner - Business Lead at JOSHMARTIN
+
+      ABSTRACT
+      COVID-19 contact tracing on the BEAMTracing a pandemic's spread throughout society presents its unique challenges. This talk will cover the history of «Hygeia», an application on the BEAM, built from scratch for the sole purpose of empowering health workers in managing the pandemic and its impact on the lives of the affected.
+      We will cover the story of how technologies such as Phoenix, LiveView, ecto, gen_smtp, Surface, and Docker/Kubernetes empowered us to develop a viable application in a highly dynamic field and how we discovered and overcame many pitfalls along the way.
+    speakers:
+      - jeremyjayzahner
+      - jonatanmannchen
+    topics:
+      - observability
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "7ypfyCOfwLo"
+        url: "https://www.youtube.com/watch?v=7ypfyCOfwLo"

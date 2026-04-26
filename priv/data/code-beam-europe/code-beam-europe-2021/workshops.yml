@@ -1,0 +1,84 @@
+- title: "OTP for Erlang Programmers"
+  slug: "otp-for-erlang-programmers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-05-24"
+  end_date: "2021-05-28"
+  description: |
+    A hands-on training in the OTP design patterns and behaviours that underpin production Erlang systems, taught by Erlang's co-creator Robert Virding.
+
+    **Format:** 5 days online training
+
+    Covers generic behaviours, supervisors, applications, releases, and how to design and architect fault-tolerant Erlang systems that scale.
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+
+- title: "OTP for Elixir Programmers"
+  slug: "otp-for-elixir-programmers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-05-24"
+  end_date: "2021-05-28"
+  description: |
+    OTP design patterns for Elixir developers — learn how to build back-end, fault-tolerant systems using the proven abstractions of OTP behaviours.
+
+    **Format:** 5 days online training
+
+    Includes substantial lab time with coding exercises alongside the instructor.
+  trainers:
+    - aleksanderlisiecki
+  topics:
+    - elixir
+    - otp
+
+- title: "Shipping Greenfield Elixir in a Legacy World"
+  slug: "shipping-greenfield-elixir-in-a-legacy-world"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-05-17"
+  end_date: "2021-05-18"
+  description: |
+    Practical strategies for introducing and shipping new Elixir applications into established legacy environments — integration patterns, deployment, and engineering team enablement.
+
+    **Format:** 2 days online training
+  trainers:
+    - sophiedebenedetto
+  topics:
+    - elixir
+    - phoenix
+    - engineering
+
+- title: "Working Effectively with Erlang Legacy Code"
+  slug: "working-effectively-with-erlang-legacy-code"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-05-18"
+  end_date: "2021-05-18"
+  description: |
+    Techniques for understanding, refactoring, and safely evolving large Erlang codebases that have been in production for years.
+
+    **Format:** 1 day online tutorial
+  trainers:
+    - brujobenavides
+  topics:
+    - erlang
+    - refactoring
+
+- title: "BEAM VM under the Hood"
+  slug: "beam-vm-under-the-hood"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2021-05-18"
+  end_date: "2021-05-18"
+  description: |
+    Go deep into the internals of the BEAM virtual machine — process scheduling, memory management, garbage collection, and how the runtime executes Erlang and Elixir code.
+
+    **Format:** 1 day online tutorial
+  trainers:
+    - dmytrolytovchenko
+  topics:
+    - erlang
+    - concurrency
