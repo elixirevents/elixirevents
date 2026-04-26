@@ -1,0 +1,16 @@
+name: "Code BEAM V 2020"
+slug: "code-beam-europe-2020"
+kind: conference
+status: completed
+format: online
+start_date: "2020-09-10"
+end_date: "2020-09-11"
+timezone: "Europe/London"
+language: en
+location: "Online (London spirit)"
+website: "https://www.codesync.global/conferences/code-beam-sto/"
+color: "#3182CE"
+description: |
+  Code BEAM V 2020 — the fully virtual edition of the Erlang and Elixir conference.
+
+  Originally planned in London where Code Mesh was set to take place, this 2020 edition pivoted to an online-only format due to the global pandemic. Two days of talks, panels, and networking for the BEAM community, with attendees joining from around the world.

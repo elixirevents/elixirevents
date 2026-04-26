@@ -1,0 +1,296 @@
+tracks:
+  - name: "Track 1"
+    color: "#3182CE"
+    position: 1
+  - name: "Track 2"
+    color: "#6B46C1"
+    position: 2
+  - name: "Track 3"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2020-09-10"
+    position: 1
+    time_slots:
+      - start_time: "13:00"
+        end_time: "13:10"
+        sessions:
+          - title: "Welcome -> (Times in CEST)"
+            kind: social
+
+      - start_time: "13:10"
+        end_time: "13:55"
+        sessions:
+          - talk_slug: "unite-and-conquer"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "13:55"
+        end_time: "14:10"
+        sessions:
+          - talk_slug: "an-update-from-the-otp-team"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "14:20"
+        end_time: "15:00"
+        sessions:
+          - talk_slug: "programming-languages-on-top-of-the-beam"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "monkey-take-the-wheel"
+            track: "Track 2"
+            kind: talk
+          - title: "Real-time Object Detection with Phoenix and Python"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "15:00"
+        end_time: "15:20"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "15:20"
+        end_time: "16:00"
+        sessions:
+          - talk_slug: "who-takes-out-your-trash"
+            track: "Track 1"
+            kind: talk
+          - title: "Decade of writing and selling Erlang based Flussonic"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "rebuilding-a-complex-web-app-with-elixir-and-phoenix-liveview"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "16:10"
+        end_time: "16:35"
+        sessions:
+          - talk_slug: "an-introduction-to-the-new-socket-api"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "how-a-startup-survived-the-hype-years-of-nosql"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "from-the-idea-to-a-mvp-in-less-than-3-months"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "16:45"
+        end_time: "17:25"
+        sessions:
+          - title: "Ask me anything about creating Erlang"
+            track: "Track 1"
+            kind: talk
+          - title: "Ask me anything about OTP Team"
+            track: "Track 2"
+            kind: talk
+          - title: "Ask me anything about Research"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "17:35"
+        end_time: "18:15"
+        sessions:
+          - talk_slug: "how-the-beam-boots-and-what-can-be-done-about-it"
+            track: "Track 1"
+            kind: talk
+          - title: "From 10s to 1000s engineers: scaling Erlang developer experience at WhatsApp"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "the-holy-grail-of-isomorphism"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "18:25"
+        end_time: "19:05"
+        sessions:
+          - talk_slug: "don-t-write-nifs-at-least-not-in-c"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "a-war-story-from-failures-to-success"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "unicode-charsets-strings-and-binaries"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "19:05"
+        end_time: "19:25"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "19:25"
+        end_time: "20:10"
+        sessions:
+          - talk_slug: "using-the-beam-to-fight-covid-19"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "20:10"
+        end_time: "20:15"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+
+      - start_time: "20:15"
+        end_time: "21:15"
+        sessions:
+          - title: "Birds of a Feather sessions"
+            track: "Track 1"
+            kind: talk
+
+
+  - name: "Day 2"
+    date: "2020-09-11"
+    position: 2
+    time_slots:
+      - start_time: "13:00"
+        end_time: "13:10"
+        sessions:
+          - title: "Welcome"
+            kind: social
+
+      - start_time: "13:10"
+        end_time: "13:40"
+        sessions:
+          - talk_slug: "safety-in-numbers-securing-our-beam"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "13:40"
+        end_time: "14:10"
+        sessions:
+          - talk_slug: "jit-compiler-for-erlang-otp"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "14:10"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "update-elixir-core-dev-team"
+            track: "Track 1"
+            kind: talk
+
+      - start_time: "14:35"
+        end_time: "15:15"
+        sessions:
+          - title: "Deploying Elixir on Docker"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "flamegraph-and-heatmap-profiling"
+            track: "Track 2"
+            kind: talk
+          - title: "Mnesia as a complete production database system"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "15:15"
+        end_time: "15:35"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "15:35"
+        end_time: "16:15"
+        sessions:
+          - title: "Graceful shutdown in Elixir - try not to drop the ball"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "boost-your-productivity-with-the-erlang-language-server"
+            track: "Track 2"
+            kind: talk
+          - title: "TLS the OTP way"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "16:25"
+        end_time: "16:50"
+        sessions:
+          - title: "Consensus Protocols in OTP"
+            track: "Track 1"
+            kind: talk
+          - talk_slug: "a-beginner-s-guide-to-tla-exploring-state-machines-proving-correctness-jeff-weiss-code-beam-v"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "nova-a-web-framework-for-erlang"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "16:55"
+        end_time: "17:40"
+        sessions:
+          - title: "Hans Elias B. Josephsen , Maxim Kharchenko , Kresten Krab Thorup , Kenneth Lundi"
+            kind: social
+
+      - start_time: "17:00"
+        end_time: "17:40"
+        sessions:
+          - title: "Ask me anything about Elixir"
+            track: "Track 1"
+            kind: talk
+          - title: "Ask me anything about creating Erlang"
+            track: "Track 2"
+            kind: talk
+          - title: "Ask Me Anything about Erlang Ecosystem Foundation"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "17:50"
+        end_time: "18:30"
+        sessions:
+          - talk_slug: "four-patterns-to-save-your-codebase-and-your-sanity"
+            track: "Track 1"
+            kind: talk
+          - title: "Visualising concurrency with Kotlin"
+            track: "Track 2"
+            kind: talk
+          - talk_slug: "applied-telemetry-lessons-from-the-field"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "18:40"
+        end_time: "19:20"
+        sessions:
+          - talk_slug: "adventures-in-high-performance-logging"
+            track: "Track 1"
+            kind: talk
+          - title: "Kubernetes and the Beam"
+            track: "Track 2"
+            kind: talk
+          - title: "Nerves of Steel"
+            track: "Track 3"
+            kind: talk
+
+      - start_time: "19:20"
+        end_time: "19:40"
+        sessions:
+          - title: "BREAK"
+            kind: break
+
+      - start_time: "19:40"
+        end_time: "20:25"
+        sessions:
+          - talk_slug: "software-for-one-ideas-for-all"
+            track: "Track 1"
+            kind: keynote
+
+      - start_time: "20:25"
+        end_time: "20:35"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+
+      - start_time: "20:35"
+        end_time: "21:35"
+        sessions:
+          - title: "Track 1 Lightning talks"
+            kind: social
+          - title: "Birds of a Feather sessions"
+            track: "Track 2"
+            kind: talk
+

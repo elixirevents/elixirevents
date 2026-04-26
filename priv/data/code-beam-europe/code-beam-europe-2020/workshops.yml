@@ -1,0 +1,84 @@
+- title: "OTP for Erlang Programmers"
+  slug: "otp-for-erlang-programmers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-09-07"
+  end_date: "2020-09-09"
+  description: |
+    A hands-on training in the OTP design patterns and behaviours that underpin production Erlang systems, taught by Erlang's co-creator Robert Virding.
+
+    **Format:** 3 days online training (9:00–17:00)
+
+    Covers generic behaviours, supervisors, applications, releases, and how to design and architect fault-tolerant Erlang systems that scale.
+  trainers:
+    - robertvirding
+  topics:
+    - erlang
+    - otp
+
+- title: "OTP for Elixir Programmers"
+  slug: "otp-for-elixir-programmers"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-09-07"
+  end_date: "2020-09-09"
+  description: |
+    OTP design patterns for Elixir developers — learn how to build back-end, fault-tolerant systems using the proven abstractions of OTP behaviours.
+
+    **Format:** 3 days online training (9:00–17:00)
+
+    Includes substantial lab time with coding exercises alongside the instructor.
+  trainers:
+    - aleksanderlisiecki
+  topics:
+    - elixir
+    - otp
+
+- title: "Clueful Elixir with Kubernetes"
+  slug: "clueful-elixir-with-kubernetes"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-09-09"
+  end_date: "2020-09-09"
+  description: |
+    A one-day tutorial on running Elixir applications on Kubernetes — clustering, deployment, observability, and operational patterns for production.
+
+    **Format:** 1 day online tutorial (9:00–17:00)
+  trainers:
+    - bryanhunter
+  topics:
+    - elixir
+    - kubernetes
+    - deployment
+
+- title: "BEAM VM under the Hood"
+  slug: "beam-vm-under-the-hood"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-09-09"
+  end_date: "2020-09-09"
+  description: |
+    Go deep into the internals of the BEAM virtual machine — process scheduling, memory management, garbage collection, and how the runtime executes Erlang and Elixir code.
+
+    **Format:** 1 day online tutorial (9:00–17:00)
+  trainers:
+    - dmytrolytovchenko
+  topics:
+    - erlang
+    - concurrency
+
+- title: "Unit, System and Property Based Testing — Break Your Erlang System Before Your Customers Do!"
+  slug: "unit-system-and-property-based-testing"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2020-09-09"
+  end_date: "2020-09-09"
+  description: |
+    A one-day tutorial on testing strategies for Erlang systems — from unit and system tests to property-based testing techniques that catch bugs before they reach production.
+
+    **Format:** 1 day online tutorial (9:00–17:00)
+  trainers:
+    - stavrosaronis
+  topics:
+    - erlang
+    - testing
