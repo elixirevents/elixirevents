@@ -1,0 +1,73 @@
+- title: "OTP Supervision Trees"
+  slug: "otp-supervision-trees"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2018-03-17"
+  end_date: "2018-03-17"
+  venue_slug: marines-memorial-club
+  description: |
+    Starting from first principles, investigate how to design reliable OTP applications. Covers links and monitors and how/why they are used by OTP to handle process dependencies. Then covers Supervisors and the guarantees provided by each strategy. Finally, put this together to build supervision trees that isolate errors and recover systems to a good state with minimal side effects.
+
+    **Format:** Full-day tutorial
+
+    Hands-on session involving adding fault tolerance to existing applications and implementing your own versions of a few OTP features, including writing a basic supervisor.
+
+    **Prerequisites:** Familiarity with the Elixir language and the basics of Tasks, Agents and GenServers. Some knowledge of Supervisors is welcome but not essential. A laptop with Elixir 1.6+ and Erlang/OTP 19+ is required.
+  trainers:
+    - benmarx
+  topics:
+    - elixir
+    - otp
+    - concurrency
+
+- title: "BEAM and Erlang Runtime System"
+  slug: "beam-and-erlang-runtime-system"
+  experience_level: "Advanced"
+  language: en
+  start_date: "2018-03-17"
+  end_date: "2018-03-17"
+  venue_slug: marines-memorial-club
+  description: |
+    A deep tutorial on the BEAM interpreter, the scheduler loop, and how memory allocation works. Erik Stenman walks through the internals of the Erlang Virtual Machine.
+
+    **Format:** Full-day tutorial
+
+    Course outline:
+
+    - **Processes** — how they are represented in memory, the PCB, the stack and heap and tagging, how message passing is implemented, tools for inspecting processes
+    - **The compiler** — options, how to inspect generated code, the BEAM instruction set and BEAM modules, the BEAM interpreter/VM, native code through HiPE, tools for tracing and profiling
+    - **The scheduler** — the scheduler loop, the ready queue, timing wheels, ports, flags for controlling the scheduler
+    - **Memory** — how the GC works, how memory allocation works, flags and tweaks for memory, memory profiling tools
+  trainers:
+    - erikstenman
+  topics:
+    - erlang
+    - otp
+    - concurrency
+
+- title: "Building Distributed Systems with Riak Core"
+  slug: "building-distributed-systems-with-riak-core"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2018-03-17"
+  end_date: "2018-03-17"
+  venue_slug: marines-memorial-club
+  description: |
+    Riak Core is the battle-hardened library that powers the popular open-source distributed key/value store Riak. Not many people are aware of how easily it can be used outside Riak to power your own horizontally scalable Erlang applications, be they session storage, message routing, or distributed computation.
+
+    **Format:** Full-day tutorial
+
+    This course explores the practical aspects of implementing such applications. Goals:
+
+    - Introduce participants to riak_core and provide an overview of its general characteristics and architecture
+    - Demonstrate the use of rebar3 in building modern riak_core based projects
+    - Demonstrate implementation considerations
+    - Enable you to determine if riak_core is right for your application
+    - Demonstrate how webmachine can be used to integrate with riak_core
+    - Build and take away your own riak_core application by the end of the day
+  trainers:
+    - marianoguerra
+  topics:
+    - erlang
+    - distribution
+    - libraries

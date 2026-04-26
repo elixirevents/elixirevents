@@ -1,880 +1,1196 @@
-## Keynotes
-
-- title: "Keynote: Unsung Heroes of the BEAM"
-  slug: "keynote-unsung-heroes-of-the-beam"
-  kind: keynote
-  language: en
-  duration: 36
-  abstract: "There are women –rarely known– who have had a massive impact in the Erlang & Elixir community. We wouldn't even be here in this conference if it wasn't for some of them. Their achievements and stories are known only in small circles because often their protagonists have been humble and discreet."
-  speakers:
-    - miriampena
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "j6wbuV8pMx8"
-      url: "https://www.youtube.com/watch?v=j6wbuV8pMx8"
-
-- title: "Keynote: Testing Tools for the Erlang Ecosystem"
-  slug: "keynote-testing-tools-for-the-erlang-ecosystem"
-  kind: keynote
-  language: en
-  duration: 52
-  abstract: "The second tool, Concuerror (http://concuerror.com/), has recently seen significant improvements to its underlying technology that allowed it to test and verify protocols for chain repair for CORFU, a distributed shared log which aims to be scalable and reliable in the presence of failures and async"
-  speakers:
-    - kostissagonas
-  topics:
-    - elixir
-    - erlang
-    - testing
-  recordings:
-    - provider: youtube
-      external_id: "4-vJeCmkCZE"
-      url: "https://www.youtube.com/watch?v=4-vJeCmkCZE"
-
-- title: "Keynote: The Forgotten Ideas in Computer Science"
-  slug: "keynote-the-forgotten-ideas-in-computer-science"
-  kind: keynote
-  language: en
-  duration: 50
-  abstract: "In the early days of computing there were many good ideas that were 'before their time' and for one reason or another, these ideas were dropped!"
-  speakers:
-    - joearmstrong
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "-I_jE0l7sYQ"
-      url: "https://www.youtube.com/watch?v=-I_jE0l7sYQ"
-
 ## Talks
 
-- title: "Update: OTP Team"
-  slug: "update-otp-team"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 14
-  abstract: "In Erlang/OTP 19.0 a new gen_* behaviour targeted at writing state machines was introduced - gen_statem. With its much richer feature set and a more general event model it was intended to replace the gen_fsm behaviour."
-  speakers:
-    - raimoniskanen
-  topics:
-    - elixir
-    - otp
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "hHhm0bfdj-4"
-      url: "https://www.youtube.com/watch?v=hHhm0bfdj-4"
+  - title: "Testing Tools for the Erlang Ecosystem"
+    slug: "testing-tools-for-the-erlang-ecosystem"
+    kind: keynote
+    language: en
+    duration: 51
+    abstract: |
+      In this talk we will present two testing tools for Erlang, focusing on recent additions to their features and capabilities that were developed and motivated by industrial case studies and applications.
 
-- title: "A Reflection on Building the WhatsApp Server"
-  slug: "a-reflection-on-building-the-whatsapp-server"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 47
-  abstract: "In this talk, we describe some of the best tools we use for developing reliable and scalable servers in Erlang. Some of these tools and approaches may not be widely known in a broader Erlang community. Others may be considered controversial and going against more conventional Erlang practices."
-  speakers:
-    - antonlavrik
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "LJx6mUEFAqQ"
-      url: "https://www.youtube.com/watch?v=LJx6mUEFAqQ"
+      The first tool, Proper (http://proper.softlab.ntua.gr/), has been extended to support targeted property-based testing, a powerful extension of property-based testing (PBT) that adds a search-based component to input generation. We will present how targeted PBT can be made automatic and how it can be applied to application areas such as sensor networks and security.
 
-- title: "Update: Elixir Core Dev Team"
-  slug: "update-elixir-core-dev-team"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 14
-  speakers:
-    - jamesfish
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "l4ISqxmZQtE"
-      url: "https://www.youtube.com/watch?v=l4ISqxmZQtE"
+      The second tool, Concuerror (http://concuerror.com/), has recently seen significant improvements to its underlying technology that allowed it to test and verify protocols for chain repair for CORFU, a distributed shared log which aims to be scalable and reliable in the presence of failures and asynchrony.
+    speakers:
+      - kostissagonas
+    topics:
+      - erlang
+      - testing
+    recordings:
+      - provider: youtube
+        external_id: "4-vJeCmkCZE"
+        url: "https://www.youtube.com/watch?v=4-vJeCmkCZE"
 
-- title: "LPWAN and Cellular IoT Explained"
-  slug: "lpwan-and-cellular-iot-explained"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 25
-  abstract: "Industrial IoT has been around for a lot longer than most people think, predating the consumer internet of things. Its early incarnations were originally called M2M, or machine-to-machine, networks. These early systems were always networks of wired machines communicating via Ethernet, Fiber, DSL or "
-  speakers:
-    - bryanhughes
-  topics:
-    - elixir
-    - nerves
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "WdetR9B4oUM"
-      url: "https://www.youtube.com/watch?v=WdetR9B4oUM"
+  - title: "Intro to Machine Learning"
+    slug: "intro-to-machine-learning"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Explore the basics of machine learning, deep learning, and neural networks. Discover how to use Elixir to teach your computer how to learn and solve problems with data you already have. No math degree (or previous experience) required!
 
-- title: "Quantum Computing Exposed: Schrödinger's Grumpy Cat"
-  slug: "quantum-computing-exposed-schrodingers-grumpy-cat"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "The buzz about quantum computing has been rapidly increasing lately, and a growing number of developers have been looking into the subject. Concepts that developers typically find challenging after a cursory investigation of quantum computing include:"
-  speakers:
-    - jamesweaver
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "SLgMXDD_KRg"
-      url: "https://www.youtube.com/watch?v=SLgMXDD_KRg"
+      OBJECTIVES
 
-- title: "gen_statem: The Tool You Never Knew You Always Wanted"
-  slug: "gen-statem-the-tool-you-never-knew-you-always-wanted"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 38
-  abstract: "In Erlang/OTP 19.0 a new gen_* behaviour targeted at writing state machines was introduced - gen_statem. With its much richer feature set and a more general event model it was intended to replace the gen_fsm behaviour."
-  speakers:
-    - raimoniskanen
-  topics:
-    - elixir
-    - otp
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "f_jl6MR3kXQ"
-      url: "https://www.youtube.com/watch?v=f_jl6MR3kXQ"
+      Teach the basics of machine learning, including how to build an effective neural network in Elixir.
 
-- title: "Packaging for Production"
-  slug: "packaging-for-production"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "The final step in any successful release of Erlang (or Elixir) software is getting the release artifact(s) onto production machines. There are currently many ways this can be accomplished. This talk investigates some of the current approaches I've encountered, addresses some of the ways I've gone ab"
-  speakers:
-    - anthonymolinaro
-  topics:
-    - elixir
-    - erlang
-    - deployment
-  recordings:
-    - provider: youtube
-      external_id: "AXY0d0YXQSU"
-      url: "https://www.youtube.com/watch?v=AXY0d0YXQSU"
+      AUDIENCE
 
-- title: "From Cloud to Edge Networks"
-  slug: "from-cloud-to-edge-networks"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "Where is Erlang when we move from the cloud towards the edge?"
-  speakers:
-    - sebastienmerle
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "Iq-9eOijX2s"
-      url: "https://www.youtube.com/watch?v=Iq-9eOijX2s"
+      Beginner/intermediate mostly unfamiliar with machine learning.
+    speakers:
+      - jesseanderson
+    topics:
+      - elixir
+      - machine-learning
+    recordings:
+      - provider: youtube
+        external_id: "S9RlMhru29I"
+        url: "https://www.youtube.com/watch?v=S9RlMhru29I"
 
-- title: "Why Elixir Matters: A Genealogy of Functional Programming"
-  slug: "why-elixir-matters-a-genealogy-of-functional-programming"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 40
-  abstract: |
-    Members of the Elixir community often receive the question: "why should I use Elixir?" The answer to this nuanced question remains elusive, because the answer is not primarily technical.
-  speakers:
-    - osagaius
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "EE7-MkHwB7o"
-      url: "https://www.youtube.com/watch?v=EE7-MkHwB7o"
+  - title: "From Cloud to Edge Networks"
+    slug: "from-cloud-to-edge-networks"
+    kind: talk
+    language: en
+    duration: 43
+    abstract: |
+      Where is Erlang when we move from the cloud towards the edge?
 
-- title: "Building and Integrating a Data Platform"
-  slug: "building-and-integrating-a-data-platform"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 32
-  abstract: "Last year, Benoit and others were busy integrating and customising Barrel, a modern and opensource data platform with master-master replication written in Erlang."
-  speakers:
-    - benoitchesneau
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "dPDAFFSKS18"
-      url: "https://www.youtube.com/watch?v=dPDAFFSKS18"
+      Its traditional use case in telecom equipment has always been in larger embedded systems, which were always reaching towards the edge of the network. With our GRiSP project and evaluation board we push to get Erlang's advantages into smaller devices in IoT, home automation, manufacturing and automotive systems.
 
-- title: "Next Generation SCADA"
-  slug: "next-generation-scada"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 42
-  abstract: "Supervisory control and data acquisition (SCADA) is a control system architecture that uses computers, networking, and graphical user interfaces for process monitoring and control, operating in conjunction with peripheral devices such as programmable logic controllers, sensors, and actuators to inte"
-  speakers:
-    - brettcameron
-    - davidbrinnen
-  topics:
-    - elixir
-    - otp
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "tl-3EftSK90"
-      url: "https://www.youtube.com/watch?v=tl-3EftSK90"
+      To extend this reach of the Erlang VM even further we are not only building boards and software that run Erlang directly on the hardware but also extending the capabilities of the Erlang VM towards a more scalable, heterogeneous, Erlang distribution protocol supporting hard realtime Erlang processes.
 
-- title: "Opaque Structures and Other Yerbas"
-  slug: "opaque-structures-and-other-yerbas"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 20
-  abstract: "Opaque Data Structures provide a very nice technique to structure systems and they are particularly useful within the functional programming paradigm. With the addition of maps and the opaque attribute for modules, Erlang is now perfectly suited to get the best of these structures, if you use it pro"
-  speakers:
-    - brujobenavides
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "hxLh0qFX9oI"
-      url: "https://www.youtube.com/watch?v=hxLh0qFX9oI"
+      In this talk we will give an overview of our progress so far and will demonstrate use cases in home automation and robotics. Our work for improving Erlang distribution for our Industrial and IoT applications will bring improvements for cloud based solutions too, like a remedy for head of line blocking and better scalability.
 
-- title: "Introducing Wrek: A Library For Executing Dependency Graphs"
-  slug: "introducing-wrek-a-library-for-executing-dependency-graphs"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 18
-  abstract: "Dependency graphs are a useful representation for exploring opportunities to introduce concurrency in a larger system. They are hidden all over computing (compilers, build systems) and everyday life (to-do lists, cooking recipes). Users can define a set of tasks, as well as dependencies between them"
-  speakers:
-    - richardkallos
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "dYDdnZoH0uk"
-      url: "https://www.youtube.com/watch?v=dYDdnZoH0uk"
+      OBJECTIVES
 
-- title: "Metaprogramming: Programs that Write Programs"
-  slug: "metaprogramming-programs-that-write-programs"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 42
-  abstract: "Programs that write programs are called metaprograms. They occupy the space between your problem and its solution. When used haphazardly the results can be confusing and cryptic. But when used wisely, they simplify that space and make it possible to solve hard problems in elegant ways."
-  speakers:
-    - jayhayes
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "S_WtnSrfR5s"
-      url: "https://www.youtube.com/watch?v=S_WtnSrfR5s"
+      Expand the horizon of the possible use-cases for the Erlang VM and demonstrate some of them.
 
-- title: "Learning Elixir Better through Collaboration and Giving Back"
-  slug: "learning-elixir-better-through-collaboration-and-giving-back"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 44
-  abstract: "More details here: https://codesync.global/speaker/mohnish-jadwani/"
-  speakers:
-    - mohnishjadwani
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "lWIeZlNoVSQ"
-      url: "https://www.youtube.com/watch?v=lWIeZlNoVSQ"
+      AUDIENCE
 
-- title: "The Magic Behind Immutable Maps"
-  slug: "the-magic-behind-immutable-maps"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 18
-  abstract: |
-    Erlang variables are immutable. But what happens when we do `Map2 = maps:put(Key, Value, Map1)`? Surely the VM doesn't copy all of Map1 to a new Map2 in memory just to add that new Key-Value pair? But then how does it give us the illusion that Map1 still exists, without the new pair? How does it keep both copies around?
-  speakers:
-    - jeanrouge
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "-M1P8TSJcg8"
-      url: "https://www.youtube.com/watch?v=-M1P8TSJcg8"
+      Erlang developers interested in IoT, Decision Makers interested in new areas to apply Erlang based technology on.
+    speakers:
+      - sebastienmerle
+    topics:
+      - erlang
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "Iq-9eOijX2s"
+        url: "https://www.youtube.com/watch?v=Iq-9eOijX2s"
 
-- title: "Let it Be Hacked"
-  slug: "let-it-be-hacked"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 46
-  abstract: "Cyber-attacks are increasing in terms of sophistication, speed and dynamics. Defenses are not keeping up. Why does the attacker have such an advantage? Because most software is not designed with 'let it fail' in mind. Our community has a significant advantage in the area and we should capitalize on "
-  speakers:
-    - duncansparrell
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "NYkwvVKlbU8"
-      url: "https://www.youtube.com/watch?v=NYkwvVKlbU8"
+  - title: "Arduino, Elixir And Nerves: A Deep Dive Into the Firmata Protocol"
+    slug: "arduino-elixir-and-nerves-a-deep-dive-into-the-firmata-protocol"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      Firmata is a binary protocol that extends the MIDI protocol. It is used by many languages to talk to microcontrollers from any host machine (https://github.com/firmata/protocol). This talk will go over the details of implementing the protocol in Elixir and have some live demos of communicating from a Nerves based host machine to an Arduino Uno.
 
-- title: "Intro to Machine Learning"
-  slug: "intro-to-machine-learning"
-  kind: talk
-  level: beginner
-  language: en
-  duration: 46
-  abstract: "Explore the basics of machine learning, deep learning, and neural networks. Discover how to use Elixir to teach your computer how to learn and solve problems with data you already have. No math degree (or previous experience) required!"
-  speakers:
-    - jesseanderson
-  topics:
-    - elixir
-    - erlang
-    - machine-learning
-  recordings:
-    - provider: youtube
-      external_id: "S9RlMhru29I"
-      url: "https://www.youtube.com/watch?v=S9RlMhru29I"
+      Details will include:
 
-- title: "Hype For Types: Using Dialyzer to Bring Type Checking"
-  slug: "hype-for-types-using-dialyzer-to-bring-type-checking"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 30
-  abstract: "We'll start off with a bit of theory around types, starting with some theoretical background around various type systems and making the case for type checking. While motivating type checking, we'll consider specific scenarios where type checking can add additional assurances in your development proc"
-  speakers:
-    - emmacunningham
-  topics:
-    - elixir
-    - erlang
-    - type-system
-  recordings:
-    - provider: youtube
-      external_id: "yZO6FkkdJEg"
-      url: "https://www.youtube.com/watch?v=yZO6FkkdJEg"
+      implementing I2C sensors,
+      ultra-sonic distance sensors
+      analog sensors.
 
-- title: "CQRS and Event Sourcing"
-  slug: "cqrs-and-event-sourcing"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 24
-  abstract: "A look into what EventSourcing and Command Query Responsibility Segregation are and how they fit together, followed by a tutorial on how to implement an application using these concepts with Commanded (a framework for elixir)."
-  speakers:
-    - bernardoamorim
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "S3f6sAXa3-c"
-      url: "https://www.youtube.com/watch?v=S3f6sAXa3-c"
+      Christopher is one of the maintainers of the Elixir Firmata library (https://github.com/entone/firmata) and a Core member of the Nerves development team (http://nerves-project.org/).
 
-- title: "Is Security on Your Nerves"
-  slug: "is-security-on-your-nerves"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 45
-  abstract: "TLS based security (https),"
-  speakers:
-    - paulrogers
-  topics:
-    - elixir
-    - nerves
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "DP6wYYQ90QI"
-      url: "https://www.youtube.com/watch?v=DP6wYYQ90QI"
+      OBJECTIVES
 
-- title: "Aeternity: Scalable Smart Contracts"
-  slug: "aeternity-scalable-smart-contracts"
-  kind: talk
-  level: beginner
-  language: en
-  duration: 26
-  abstract: "In this talk I will tell you about a new blockchain that is built in Erlang and Elixir to run on top of BEAM. I will give you a brief introduction to blockchain technology and then present the AEternity project and some of the features of AEternity, such as State Channels and Oracles."
-  speakers:
-    - erikstenman
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "VXsqvfPIdWg"
-      url: "https://www.youtube.com/watch?v=VXsqvfPIdWg"
+      Demo implementing binary protocols in Elixir. Exhibit Nerves and embedded development using Elixir. Hardware integration with Elixir/Nerves.
 
-- title: "High Performance Metrics Through Mutable Counters"
-  slug: "high-performance-metrics-through-mutable-counters"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 28
-  abstract: "Talk about design and motivation for high performance metrics library in Erlang developed by Xaptum using mutable counters -- based on and inspired by oneup app."
-  speakers:
-    - irinaguberman
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "peKLuq-tdQo"
-      url: "https://www.youtube.com/watch?v=peKLuq-tdQo"
+      AUDIENCE
 
-- title: "The Hitchhiker's Guide to the Unexpected"
-  slug: "the-hitchhikers-guide-to-the-unexpected"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "Bugs you know you will happen in production are usually easy to handle since you know about them. The problem is that we, as humans, have limited knowledge and understanding about the problem domains we write programs for and very often about our programs themselves. This is at the root of all the s"
-  speakers:
-    - fredhebert
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "W0BR_tWZChQ"
-      url: "https://www.youtube.com/watch?v=W0BR_tWZChQ"
+      Hardware folks, protocol implementation
+    speakers:
+      - christophercote
+    topics:
+      - elixir
+      - embedded
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "sTOOjfUrQ0A"
+        url: "https://www.youtube.com/watch?v=sTOOjfUrQ0A"
 
-- title: "Crypto + Concurrency"
-  slug: "crypto-concurrency"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 34
-  abstract: "We know that OTP is an important part of the elixir ecosystem. But why is it important and how does it work? How do we leverage OTP appropriately to build highly concurrent systems at scale. We will walk through the why and the how by building a real time crypto-currency exchange, and then adding lo"
-  speakers:
-    - annaneyzberg
-  topics:
-    - elixir
-    - otp
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "X6dmjopTrLE"
-      url: "https://www.youtube.com/watch?v=X6dmjopTrLE"
+  - title: "Metaprogramming: Programs that Write Programs"
+    slug: "metaprogramming-programs-that-write-programs"
+    kind: talk
+    language: en
+    duration: 41
+    abstract: |
+      Programs that write programs are called metaprograms. They occupy the space between your problem and its solution. When used haphazardly the results can be confusing and cryptic. But when used wisely, they simplify that space and make it possible to solve hard problems in elegant ways.
 
-- title: "wxErlang & Faithful Representation"
-  slug: "wxerlang-and-faithful-representation"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 39
-  abstract: |
-    For over a decade, Erlang's cross-platform GUI interface, wxErlang, has sat dormant without a meaningful & practical guide. This talk is wxErlang's long-awaited tutorial.
-  speakers:
-    - robertcarbone
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "3Q_pR1-v1eo"
-      url: "https://www.youtube.com/watch?v=3Q_pR1-v1eo"
+      Elixir embraces metaprogramming. In fact, it's fundamental to the implementation of the language itself.
 
-- title: "Bridging The Physical and Blockchain World With Erlang"
-  slug: "bridging-the-physical-and-blockchain-world-with-erlang"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 25
-  abstract: |
-    We're over a decade into the era of the IoT and it still hasn't really arrived. Data privacy, data ownership, network coverage & access, technical fragmentation, vendor longevity and hardware costs are still big obstacles to large deployments.
-  speakers:
-    - andrewthompson
-  topics:
-    - elixir
-    - nerves
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "QnHYWNfvV2c"
-      url: "https://www.youtube.com/watch?v=QnHYWNfvV2c"
+      This talk will answer questions for you such as:
 
-- title: "Wide World of Actors"
-  slug: "wide-world-of-actors"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 44
-  abstract: "As Erlang & Elixir/OTP programmers, the actor model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted. The Pony language started with the same foundation as Erlang: th"
-  speakers:
-    - scottlystigfritchie
-  topics:
-    - elixir
-    - otp
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "uv-3ptTD8hg"
-      url: "https://www.youtube.com/watch?v=uv-3ptTD8hg"
+      "When should I write a macro?"
+      "What is quote and unquote and when do I use them?"
+      "When and where does this macro code execute?"
+      "Macro.prewalk?
+      What does this have to do with macros?"
 
-- title: "Taking Erlang/Elixir to the Metal"
-  slug: "taking-erlang-elixir-to-the-metal"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 43
-  abstract: "Elixir is a great choice for most applications. It's powered by the battle-tested Erlang VM know as the BEAM. It allows programmers to build incredibly fast, efficient, scalable, and fault-tolerant distributed systems."
-  speakers:
-    - sonnyscroggin
-  topics:
-    - elixir
-    - erlang
-    - testing
-  recordings:
-    - provider: youtube
-      external_id: "F86JXaCPowo"
-      url: "https://www.youtube.com/watch?v=F86JXaCPowo"
+      Along with some practical examples.
 
-- title: "A Tour Through the Distributed System Zoo"
-  slug: "a-tour-through-the-distributed-system-zoo"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 47
-  abstract: "The talk will go through different categories and patterns in distributed systems, compare them and explore them applying each to the case of a distributed key value store."
-  speakers:
-    - marianoguerra
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "L7OTjuCIZc0"
-      url: "https://www.youtube.com/watch?v=L7OTjuCIZc0"
+      What's more astonishing is how approachable (and safe!) Elixir makes this complex subject. With this solid foundation, your code will be writing itself in no time!
+    speakers:
+      - jayhayes
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "S_WtnSrfR5s"
+        url: "https://www.youtube.com/watch?v=S_WtnSrfR5s"
 
-- title: "Fighting Authoritarianism With Blockchain And Blockweaves"
-  slug: "fighting-authoritarianism-with-blockchain-and-blockweaves"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 44
-  abstract: "It is cliche to say that we live in the age of information, but it is also profoundly true. Information (and access to it) shapes our thoughts and actions as a society, now more than ever. Control and political censorship of that information poses a systemic risk to democratic societies worldwide."
-  speakers:
-    - samwilliams
-  topics:
-    - elixir
-    - erlang
-    - security
-  recordings:
-    - provider: youtube
-      external_id: "hd8IQRm0Q1k"
-      url: "https://www.youtube.com/watch?v=hd8IQRm0Q1k"
+  - title: "Implementing Languages on the BEAM"
+    slug: "implementing-languages-on-the-beam"
+    kind: talk
+    language: en
+    duration: 44
+    abstract: |
+      Why LFE is not just Common Lisp on the BEAM, why Elixir is not just Ruby, why Efene is not just Python?
 
-- title: "Spells, Hexes, and Charms: Running Your Own Private Package Service"
-  slug: "spells-hexes-and-charms-running-your-own-private-package-service"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 32
-  abstract: "The hex.pm service is a fantastic tool and fills a huge need in the Elixir and Erlang community. But what if you wanted to run your own private package service behind your own firewall? This talk explores what it takes to get up and running a hex-like service both from the server and client sides. I"
-  speakers:
-    - markallen
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "lN_KFDyjmnY"
-      url: "https://www.youtube.com/watch?v=lN_KFDyjmnY"
+      In this talk we will explore the ressons why BEAM languages are the way they are, which things the BEAM makes easy and which makes... complicated.
 
-- title: "Arduino, Elixir and Nerves: A Deep Dive"
-  slug: "arduino-elixir-and-nerves-a-deep-dive"
-  kind: talk
-  level: advanced
-  language: en
-  duration: 41
-  abstract: "Details will include:"
-  speakers:
-    - christophercote
-  topics:
-    - elixir
-    - nerves
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "sTOOjfUrQ0A"
-      url: "https://www.youtube.com/watch?v=sTOOjfUrQ0A"
+      We will explore what's involved in developing a language on the BEAM that's actually useful and share experiences and tips.
 
-- title: "Unreachable Code: A Conversation about Safety and Human Factors"
-  slug: "unreachable-code-a-conversation-about-safety-and-human-factors"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 47
-  abstract: |
-    "...There's so much talk about the system. And so little understanding." -Robert Pirsig
-  speakers:
-    - jessicadevita
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "BSPVrOR85fo"
-      url: "https://www.youtube.com/watch?v=BSPVrOR85fo"
+      @Code BEAM SF 2018
+    speakers:
+      - marianoguerra
+      - robertvirding
+    topics:
+      - erlang
+      - compilers
+    recordings:
+      - provider: youtube
+        external_id: "lkAbwmn5Rv8"
+        url: "https://www.youtube.com/watch?v=lkAbwmn5Rv8"
 
-- title: "Releases and Elixir: Envisioning a More Perfect Union"
-  slug: "releases-and-elixir-envisioning-a-more-perfect-union"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 47
-  abstract: "In this talk I am going to share how Elixir's deployment tooling has gotten to where it is today, what problems we've addressed, what problems remain, and going into the future, how we're planning to evolve and improve."
-  speakers:
-    - paulschoenfelder
-  topics:
-    - elixir
-    - erlang
-    - deployment
-  recordings:
-    - provider: youtube
-      external_id: "OS94i3cF6mY"
-      url: "https://www.youtube.com/watch?v=OS94i3cF6mY"
+  - title: "Bridging The Physical and Blockchain World With Erlang"
+    slug: "bridging-the-physical-and-blockchain-world-with-erlang"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      We're over a decade into the era of the IoT and it still hasn't really arrived. Data privacy, data ownership, network coverage & access, technical fragmentation, vendor longevity and hardware costs are still big obstacles to large deployments. People have great ideas for making the world a better place with more connected devices; they just still can't turn their ideas into reality.
 
-- title: "A GraphQL-on-Elixir Primer"
-  slug: "a-graphql-on-elixir-primer"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 45
-  abstract: "GraphQL, a data query language released by Facebook in 2015, has been growing steadily in popularity, with GraphQL APIs supplementing (and in many cases supplanting) REST APIs for use in modern client-side web and mobile applications."
-  speakers:
-    - brucewilliams
-  topics:
-    - elixir
-    - erlang
-    - deployment
-  recordings:
-    - provider: youtube
-      external_id: "enbksvAko98"
-      url: "https://www.youtube.com/watch?v=enbksvAko98"
+      We're sick of waiting and we've decided to take a radical new approach: build all the components for a decentralized, cooperative internet of things network and give it to the world as open hardware and software; no royalties, no patent licenses, no strings attached. To make this work, we've designed a new network infrastructure centered around low-cost software defined radio gateways that use a blockchain with a novel radio-based proof-of-work replacement to create and a maintain a world-wide IoT network. Crucial to making this work is a way to allow gateways and end devices owned by anyone to work together without any pre-established trust. This is where blockchain technology comes in. Helium is building a blockchain from scratch in Erlang to help build the future of IoT and we want to show it to the world.
 
-- title: "Erlang In Action: Creating Scalable Edge Based IoT Solution"
-  slug: "erlang-in-action-creating-scalable-edge-based-iot-solution"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 45
-  abstract: |
-    Entrigna's data scientists had an idea to create an IoT software platform that could process large amounts of data and scale while living on the edge. They evaluated several different technologies, however, Erlang was the best fit for their needs.
-  speakers:
-    - muralikashaboina
-  topics:
-    - elixir
-    - otp
-    - nerves
-  recordings:
-    - provider: youtube
-      external_id: "2PQ8OIE8lOM"
-      url: "https://www.youtube.com/watch?v=2PQ8OIE8lOM"
+      OBJECTIVES
 
-- title: "Trusted Autonomy"
-  slug: "trusted-autonomy"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 25
-  abstract: "Smaller teams are easier to manage just as simpler systems are easier to manage. As your team grows, your system inevitably becomes more complex. Without a clear vision, software quality can decline and, likewise, developers happiness can wane. At Bleacher Report, as we've grown our team, we've put "
-  speakers:
-    - benmarx
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "NAdCxr6C4DI"
-      url: "https://www.youtube.com/watch?v=NAdCxr6C4DI"
+      Show how to design and build blockchains in Erlang including what went right, what went wrong and the supporting tools and libraries we've had to build along the way. We will also touch on software defined radio, radio protocols and modulation, cryptography and peer-to-peer networking.
 
-- title: "Making It Lazy: Never Evaluate Anything More Than Once"
-  slug: "making-it-lazy-never-evaluate-anything-more-than-once"
-  kind: talk
-  level: advanced
-  language: en
-  duration: 43
-  abstract: "Put some more advanced features of Erlang to work by implementing lazy evaluation. First we find a way of being non-strict, so we only evaluate things by need, and then we find a way of memoising the results. We show how to build infinite, graphical and indeed cyclic data structures, using higher-or"
-  speakers:
-    - simonthompson
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "uh7qYf8rC00"
-      url: "https://www.youtube.com/watch?v=uh7qYf8rC00"
+      AUDIENCE
 
-- title: "Mixing in Elixir to Build Search"
-  slug: "mixing-in-elixir-to-build-search"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 22
-  abstract: "Search is one of the toughest problems in computer science. This talk will discuss the challenges we've gone through at Teachers Pay Teachers while adopting Elixir as our new go-to language. Adrian will discuss some problems they discovered while building out search and more specifically how they ar"
-  speakers:
-    - adriancruz
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "vogAxP4Sq_g"
-      url: "https://www.youtube.com/watch?v=vogAxP4Sq_g"
+      Anyone who wants to help cut the Gordian knot of IoT deployment, people interested in software defined radio or low-power/long range radio networking, blockchain enthusiasts, embedded developers.
+    speakers:
+      - andrewthompson
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "QnHYWNfvV2c"
+        url: "https://www.youtube.com/watch?v=QnHYWNfvV2c"
 
-- title: "Quaff That Potion: Saving $Millions"
-  slug: "quaff-that-potion-saving-millions"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 21
-  abstract: "We slashed our Amazon DynamoDB costs by over 75% using Kinesis, DynamoDB streams, and Erlang/OTP to implement a global cache warming system for advertising profile data. Using Elixir and the Flow framework, we subsequently doubled the performance of that system with only minor modifications. This ta"
-  speakers:
-    - mikewatters
-  topics:
-    - elixir
-    - otp
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "CvjVpGktLC0"
-      url: "https://www.youtube.com/watch?v=CvjVpGktLC0"
+  - title: "Opaque Structures and Other Yerbas"
+    slug: "opaque-structures-and-other-yerbas"
+    kind: talk
+    language: en
+    duration: 20
+    abstract: |
+      Opaque Data Structures provide a very nice technique to structure systems and they are particularly useful within the functional programming paradigm. With the addition of maps and the opaque attribute for modules, Erlang is now perfectly suited to get the best of these structures, if you use it properly.
 
-- title: "Understanding Erlang Term"
-  slug: "understanding-erlang-term"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 27
-  abstract: |
-    There's an Erlang/Elixir myth that tail-recursive functions are much faster than body-recursive functions. In this talk we will first explore how Erlang terms are represented in bit level, and then take a closer look at this myth.
-  speakers:
-    - boshansun
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "mPPbCQ2ffZc"
-      url: "https://www.youtube.com/watch?v=mPPbCQ2ffZc"
+      In this talk, Brujo will show what opaque data structures are, how to use them and why they are so useful, even more so if you're developing an open-source library. This talk will be conceptual, but it won't be 100% theoretical.
 
-- title: "Getting to Know Your Rabbit"
-  slug: "getting-to-know-your-rabbit"
-  kind: talk
-  level: advanced
-  language: en
-  duration: 38
-  abstract: "RabbitMQ is a popular 100% Erlang-based Open Source message queuing system that implements the Advanced Message Queuing Protocol (AMQP). It was been estimated that there are 50,000+ production deployments of RabbitMQ across the globe, and this number is continuing to grow."
-  speakers:
-    - brettcameron
-  topics:
-    - elixir
-    - erlang
-    - deployment
-  recordings:
-    - provider: youtube
-      external_id: "wN0jqAHmqXc"
-      url: "https://www.youtube.com/watch?v=wN0jqAHmqXc"
+      Brujo will also present examples and tools that assist us in making better use of these techiques.
 
-- title: "Release, Deploy, Monitor and Upgrade Elixir Services in Real World"
-  slug: "release-deploy-monitor-and-upgrade-elixir-services-in-real-world"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 37
-  abstract: "Although Elixir has been rapidly adopted in the past few years, it still lacks a general guide and practices on releasing, deploying and upgrading (maintaining) the elixir services in a production environment."
-  speakers:
-    - tianchen
-  topics:
-    - elixir
-    - erlang
-    - deployment
-  recordings:
-    - provider: youtube
-      external_id: "kwHtlmyxE6c"
-      url: "https://www.youtube.com/watch?v=kwHtlmyxE6c"
+      OBJECTIVES
 
-- title: "Gently Down the Stream"
-  slug: "gently-down-the-stream"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 19
-  abstract: "Elixir provides the concept of enumerables, allowing you to transform, sort, group, filter and retrieve items using functions in the enum module. As an alternative to Enum, Elixir provides the Stream module which supports lazy operations. This talk will give an overview of the Stream module. We'll g"
-  speakers:
-    - geoffreylessel
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "1e6ktNUQuGs"
-      url: "https://www.youtube.com/watch?v=1e6ktNUQuGs"
+      The main goal of the talk is to showcase a way to structure Erlang systems based on strong type definitions and explain why and how that structure is beneficial to Erlang developers.
 
-- title: "Designing Rich API Clients at Scale"
-  slug: "designing-rich-api-clients-at-scale"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 38
-  abstract: "Many APIs are defined as RESTful resources, represented in JSON, and accessed via HTTP. While it's possible to make raw HTTP calls from your program, an API client library can provide significant benefits in safety, security, and readability. This session discusses how Google designs client librarie"
-  speakers:
-    - jeffching
-  topics:
-    - elixir
-    - erlang
-    - security
-  recordings:
-    - provider: youtube
-      external_id: "CiSNwmDj6ls"
-      url: "https://www.youtube.com/watch?v=CiSNwmDj6ls"
+      AUDIENCE
 
-- title: "Implementing Languages on the BEAM"
-  slug: "implementing-languages-on-the-beam"
-  kind: talk
-  level: intermediate
-  language: en
-  duration: 44
-  abstract: "Why LFE is not just Common Lisp on the BEAM, why Elixir is not just Ruby, why Efene is not just Python?"
-  speakers:
-    - robertvirding
-    - marianoguerra
-  topics:
-    - elixir
-    - erlang
-  recordings:
-    - provider: youtube
-      external_id: "lkAbwmn5Rv8"
-      url: "https://www.youtube.com/watch?v=lkAbwmn5Rv8"
+      Everyone, but it might be of particular interest for those building open-source libraries and/or big applications with lots of modules.
+    speakers:
+      - brujobenavides
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "hxLh0qFX9oI"
+        url: "https://www.youtube.com/watch?v=hxLh0qFX9oI"
+
+  - title: "The Magic Behind Immutable Maps, Or Why Erlang Didn't Have Maps Years Earlier"
+    slug: "the-magic-behind-immutable-maps-or-why-erlang-didn-t-have-maps-years-earlier"
+    kind: talk
+    language: en
+    duration: 18
+    abstract: |
+      Erlang variables are immutable. But what happens when we do `Map2 = maps:put(Key, Value, Map1)`? Surely the VM doesn't copy all of Map1 to a new Map2 in memory just to add that new Key-Value pair? But then how does it give us the illusion that Map1 still exists, without the new pair? How does it keep track of which erlang map contains which pairs? And which performance costs do our applications pay for that magic?
+    speakers:
+      - jeanrouge
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "-M1P8TSJcg8"
+        url: "https://www.youtube.com/watch?v=-M1P8TSJcg8"
+
+  - title: "Getting to Know Your Rabbit"
+    slug: "getting-to-know-your-rabbit"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      RabbitMQ (http://www.rabbitmq.com) is a popular 100% Erlang-based Open Source message queuing system that implements the Advanced Message Queuing Protocol (AMQP). It was been estimated that there are 50,000+ production deployments of RabbitMQ across the globe, and this number is continuing to grow.
+
+      Most of these deployments are business-critical, underpinning everything from internet-based pizza ordering systems through to providing the central nervous system for large scale cloud-based application deployments.
+
+      One of the reasons for RabbitMQ's popularity is that it is easy to install and to start doing something useful with it; however despite this apparent ease of use, RabbitMQ is a complex software product that is highly flexible in terms of the use-cases that it can support and highly configurable, with a large number of tuneable parameters (many courtesy of Erlang).
+
+      Accordingly, specialist skills and knowledge are often required in order to obtain best results in terms of scalability, reliability, security, application design, and performance.
+
+      In this short talk, Brett will provide a brief overview of RabbitMQ in terms of its history and general capabilities, and will discuss options available to RabbitMQ users (or prospective users) requiring assistance in terms of product support, training, and consulting services.
+    speakers:
+      - brettcameron
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "wN0jqAHmqXc"
+        url: "https://www.youtube.com/watch?v=wN0jqAHmqXc"
+
+  - title: "Let it Be Hacked"
+    slug: "let-it-be-hacked"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Cyber-attacks are increasing in terms of sophistication, speed and dynamics. Defenses are not keeping up. Why does the attacker have such an advantage? Because most software is not designed with 'let it fail' in mind. Our community has a significant advantage in the area and we should capitalize on it. The talk will start with some cybersecurity fundamentals. I'll explain the advantages of OTP from a cybersecurity perspective. There are still pitfalls and I'll cover some of them as well as present some best practices to help your code be more secure. I'll do a survey of the open source software available as well as touch on areas where work is needed. The goal is to promote the "let it be hacked" mentality - which will both promote erlang/elixir and be good for cybersecurity.
+
+      OBJECTIVES
+
+      This talk aims to:
+
+      educate everyone (at least a little bit) in cybersecurity
+      explain why beam/erlang/elixir are great for developing cybersecurity software
+      give some ptifalls to avoid and best practices to follow
+      present a survey of cybersecurity open source software from a BEAM perspective (ie both what is there, and what is needed)
+      an unabashed plea for helping promote beam for cybersecurity
+
+      ARCHIVE
+
+      Security-conscious Erlang & Elixir developers as well as managers of software projects
+    speakers:
+      - duncansparrell
+    topics:
+      - elixir
+      - security
+    recordings:
+      - provider: youtube
+        external_id: "NYkwvVKlbU8"
+        url: "https://www.youtube.com/watch?v=NYkwvVKlbU8"
+
+  - title: "Learning Elixir Better through Collaboration and Giving Back"
+    slug: "learning-elixir-better-through-collaboration-and-giving-back"
+    kind: talk
+    language: en
+    duration: 43
+    abstract: |
+      Learning a new programming language can be intimidating and it doesn’t take too long before impostor syndrome can kick in. Things can even get more challenging if you’re learning includes being exposed to a new programming paradigm. This talk discusses about ways through which the journey of learning Elixir can be made more fulfilling and worthwhile through collaboration. We will explore how the better usage of mediums like Exercism, Slack etc., not only help us identify different ways of getting unstuck as we work towards getting a clearer understanding of the functional concepts in Elixir but also how they empower us to be better programmers in general through thoughtful conversations about code. We will also see how this journey of learning Elixir gives us opportunities through which we can contribute back to the language and community.
+    speakers:
+      - mohnishjadwani
+    topics:
+      - elixir
+      - community
+      - learning
+    recordings:
+      - provider: youtube
+        external_id: "lWIeZlNoVSQ"
+        url: "https://www.youtube.com/watch?v=lWIeZlNoVSQ"
+
+  - title: "Understanding Erlang Term"
+    slug: "understanding-erlang-term"
+    kind: talk
+    language: en
+    duration: 26
+    abstract: |
+      There's an Erlang/Elixir myth that tail-recursive functions are much faster than body-recursive functions. In this talk we will first explore how Erlang terms are represented in bit level, and then take a closer look at this myth to understand what really happens with tail-recursive functions vs body-recursive functions. You will understand more about BEAM internals and Erlang's Efficiency Guide.
+
+      OBJECTIVES
+
+      Give the audience an overview on how Erlang's dynamic typing system work, and how does that produce idiomatic Elixir/Erlang code.
+
+      AUDIENCE
+
+      Intermediate Elixir/Erlang users who are curious on how things work under the hood.
+    speakers:
+      - boshansun
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "mPPbCQ2ffZc"
+        url: "https://www.youtube.com/watch?v=mPPbCQ2ffZc"
+
+  - title: "The Hitchhiker's Guide to the Unexpected"
+    slug: "the-hitchhiker-s-guide-to-the-unexpected"
+    kind: talk
+    language: en
+    duration: 43
+    abstract: |
+      Bugs you know you will happen in production are usually easy to handle since you know about them. The problem is that we, as humans, have limited knowledge and understanding about the problem domains we write programs for and very often about our programs themselves. This is at the root of all the surprising unexpected bugs that we actually encounter all the time. While we can become experts at being careful and well-equipped in tooling and just knowing all kinds of weird situations that can arise from code and computers being a thing that we all have to live with, there are some other approaches that can prove helpful as well.
+
+      In this talk, we'll see some broad and diverse approaches to handling the unexpected, but will keep a specific focus on how building the proper supervision structures lets us encode predefined failure semantics into our programs so that we know how most errors will be handled, without even knowing what they are.
+    speakers:
+      - fredhebert
+    topics:
+      - erlang
+      - elixir
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "W0BR_tWZChQ"
+        url: "https://www.youtube.com/watch?v=W0BR_tWZChQ"
+
+  - title: "Is Security on Your Nerves?"
+    slug: "is-security-on-your-nerves"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Help me HTTPS, you’re my only hope! Then again, maybe not.
+
+      In this presentation I’ll show an iPad app that communicates with three Raspberry Pi 3 devices, each controlling a stop light via Elixir and Nerves. So how do we secure the communication such that only the iOS app controls the lights?
+
+      We'll look at three RPi3 setups, each identical save one very important, security related difference:
+
+      no security (http),
+      TLS based security (https),
+      and application layer security (srpc).
+
+      We'll discuss why systems based on RSA, initially designed to solve an open system problem, should not be applied in a rote manner to closed system problems. And we'll look at how the Secure Remote Password (SRP) protocol can offer mutually authenticated application layer security that leaves no room for Man-in-the-Middle issues and attacks.
+    speakers:
+      - paulrogers
+    topics:
+      - elixir
+      - embedded
+      - security
+      - nerves
+    recordings:
+      - provider: youtube
+        external_id: "DP6wYYQ90QI"
+        url: "https://www.youtube.com/watch?v=DP6wYYQ90QI"
+
+  - title: "CQRS and Event Sourcing"
+    slug: "cqrs-and-event-sourcing"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      A look into what EventSourcing and Command Query Responsibility Segregation are and how they fit together, followed by a tutorial on how to implement an application using these concepts with Commanded (a framework for elixir).
+
+      OBJECTIVE
+
+      Explain ES and CQRS and demystify them (with code), whilst growing the Commanded community by showing how amazing it is.
+
+      AUDIENCE
+
+      Developers that had overcome the basics of Elixir, understands a little bit about BEAM processes and that are looking for some architecture alternatives that can fit some problems.
+    speakers:
+      - bernardoamorim
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "S3f6sAXa3-c"
+        url: "https://www.youtube.com/watch?v=S3f6sAXa3-c"
+
+  - title: "High Performance Metrics Through Mutable Counters: A Bite of the Forbidden Fruit"
+    slug: "high-performance-metrics-through-mutable-counters-a-bite-of-the-forbidden-fruit"
+    kind: talk
+    language: en
+    duration: 27
+    abstract: |
+      Talk about design and motivation for high performance metrics library in Erlang developed by Xaptum using mutable counters -- based on and inspired by oneup app.
+
+      OBJECTIVES
+
+      Introduce new Erlang library
+
+      AUDIENCE
+
+      Erlang developers working with high throughput applications.
+    speakers:
+      - irinaguberman
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "peKLuq-tdQo"
+        url: "https://www.youtube.com/watch?v=peKLuq-tdQo"
+
+  - title: "Quaff that potion: saving $millions"
+    slug: "quaff-that-potion-saving-millions"
+    kind: talk
+    language: en
+    duration: 21
+    abstract: |
+      We slashed our Amazon DynamoDB costs by over 75% using Kinesis, DynamoDB streams, and Erlang/OTP to implement a global cache warming system for advertising profile data. Using Elixir and the Flow framework, we subsequently doubled the performance of that system with only minor modifications. This talk will describe our motivation, some pitfalls we encountered, and how Erlang and now Elixir ultimately led to the success of this project.
+
+      OBJECTIVES
+
+      Present a successful case study of Erlang and Elixir usage for a high-volume and globally-distributed data processing application, and enable attendees to create similar data processing applications using our new open-source libraries.
+
+      AUDIENCE
+
+      AWS users who are interested in processing Kinesis and/or DynamoDB streams data using Erlang or Elixir, or anyone considering use of these languages for high volume data processing.
+    speakers:
+      - mikewatters
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "CvjVpGktLC0"
+        url: "https://www.youtube.com/watch?v=CvjVpGktLC0"
+
+  - title: "Crypto + concurrency"
+    slug: "crypto-concurrency"
+    kind: talk
+    language: en
+    duration: 34
+    abstract: |
+      What is Crypto? Why should we care? And why Elixir? This talk explains how Cryptocurrencies work and why they are valuable. Then we build are own cryptocurrency in Elixir - gaining insight into why Elixir is an interesting option for the blockchain.
+
+      TALK OBJECTIVES
+
+      Explaining Cryptocurrency, and explaining how some of the powerful features of OTP lend themselves well to the blockchain
+
+      AUDIENCE
+
+      Individuals that are new to cryptocurrency and are new to Elixir
+    speakers:
+      - annaneyzberg
+    topics:
+      - security
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "X6dmjopTrLE"
+        url: "https://www.youtube.com/watch?v=X6dmjopTrLE"
+
+  - title: "Hype For Types - Using Dialyzer to Bring Type Checking to Your Elixir Code"
+    slug: "hype-for-types-using-dialyzer-to-bring-type-checking-to-your-elixir-code"
+    kind: talk
+    language: en
+    duration: 29
+    abstract: |
+      We’ll start off with a bit of theory around types, starting with some theoretical background around various type systems and making the case for type checking. While motivating type checking, we’ll consider specific scenarios where type checking can add additional assurances in your development process. With a bit of background and motivation in place, we’ll then turn to evaluating Elixir’s type system and how we can use Dialyzer to add type specs and type checking to our Elixir projects.
+    speakers:
+      - emmacunningham
+    topics:
+      - elixir
+      - type-system
+    recordings:
+      - provider: youtube
+        external_id: "yZO6FkkdJEg"
+        url: "https://www.youtube.com/watch?v=yZO6FkkdJEg"
+
+  - title: "Aeternity: Scalable Smart Contracts Interfacing With Real World Data"
+    slug: "aeternity-scalable-smart-contracts-interfacing-with-real-world-data"
+    kind: talk
+    language: en
+    duration: 25
+    abstract: |
+      In this talk I will tell you about a new blockchain that is built in Erlang and Elixir to run on top of BEAM. I will give you a brief introduction to blockchain technology and then present the AEternity project and some of the features of AEternity, such as State Channels and Oracles.
+
+      I will also talk about the execution of smart contracts on the blockchain, the whys and hows. The AEternity smart contracts can be written in a functional programming language, and I will explain how it currently is implemented in and some of the things we plan to do in the future with smart contracts.
+    speakers:
+      - erikstenman
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "VXsqvfPIdWg"
+        url: "https://www.youtube.com/watch?v=VXsqvfPIdWg"
+
+  - title: "Gently Down the Stream"
+    slug: "gently-down-the-stream"
+    kind: talk
+    language: en
+    duration: 19
+    abstract: |
+      Elixir provides the concept of enumerables, allowing you to transform, sort, group, filter and retrieve items using functions in the enum module. As an alternative to Enum, Elixir provides the Stream module which supports lazy operations. This talk will give an overview of the Stream module. We'll go into depth with some examples of when to and when not to use Stream over Enum. This talk may go into some code diving to explore how Stream does it's thing.
+
+      OBJECTIVES
+
+      Educate the user when it is appropriate to use Stream vs Enum
+
+      AUDIENCE
+
+      Intermediate developers who know how to use Enum already, but may not have explored Stream.
+    speakers:
+      - geoffreylessel
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "1e6ktNUQuGs"
+        url: "https://www.youtube.com/watch?v=1e6ktNUQuGs"
+
+  - title: "Unsung heroes of the BEAM"
+    slug: "unsung-heroes-of-the-beam"
+    kind: keynote
+    language: en
+    duration: 35
+    abstract: |
+      There are women –rarely known– who have had a massive impact in the Erlang & Elixir community. We wouldn’t even be here in this conference if it wasn’t for some of them. Their achievements and stories are known only in small circles because often their protagonists have been humble and discreet.
+
+      But these heroines have done and are still doing amazing things for our community. It is high time we gave them the recognition they deserve and celebrate their contributions together. Who knows? Maybe this talk will plant the seed of the next generation of Erlang & Elixir role models.
+    speakers:
+      - miriampena
+    topics:
+      - erlang
+      - elixir
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "j6wbuV8pMx8"
+        url: "https://www.youtube.com/watch?v=j6wbuV8pMx8"
+
+  - title: "The Forgotten Ideas in Computer Science"
+    slug: "the-forgotten-ideas-in-computer-science"
+    kind: keynote
+    language: en
+    duration: 49
+    abstract: |
+      In the early days of computing there were many good ideas that were 'before their time' and for one reason or another, these ideas were dropped!
+
+      As time passes, perhaps we should revisit some of these ideas.
+
+      What were the good ideas that we have dropped?
+
+      Which ideas should be resurrected?
+
+      What were the silly idea of the past and what can we learn from these?
+
+      In this talk, I'll visit ideas, old and new and see how they relate to the current needs of our community and our current work.
+
+      I'll probably also rant on about Erlang and Elixir and how they can be used to solve some of the ideas that we have forgotten about.
+    speakers:
+      - joearmstrong
+    topics:
+      - erlang
+      - community
+    recordings:
+      - provider: youtube
+        external_id: "-I_jE0l7sYQ"
+        url: "https://www.youtube.com/watch?v=-I_jE0l7sYQ"
+
+  - title: "Update: OTP Team"
+    slug: "update-otp-team"
+    kind: talk
+    language: en
+    duration: 14
+    abstract: |
+
+    speakers:
+      - raimoniskanen
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "hHhm0bfdj-4"
+        url: "https://www.youtube.com/watch?v=hHhm0bfdj-4"
+
+  - title: "Packaging for Production"
+    slug: "packaging-for-production"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      The final step in any successful release of Erlang (or Elixir) software is getting the release artifact(s) onto production machines. There are currently many ways this can be accomplished. This talk investigates some of the current approaches I've encountered, addresses some of the ways I've gone about this over the last 10 years, and introduces the different tools used. The primary focus will be on creating system packages (e.g. deb or rpm packages), but will touch on other packaging techniques.
+
+      OBJECTIVES
+
+      Providing developers with the right tools and information to package their Erlang/Elixir productions into operationalized artifacts.
+
+      AUDIENCE
+
+      Developers wondering how to take their Erlang code to production.
+    speakers:
+      - anthonymolinaro
+    topics:
+      - elixir
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "AXY0d0YXQSU"
+        url: "https://www.youtube.com/watch?v=AXY0d0YXQSU"
+
+  - title: "Next Generation SCADA: Monitoring and Controlling Devices in the Connected World"
+    slug: "next-generation-scada-monitoring-and-controlling-devices-in-the-connected-world"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      Supervisory control and data acquisition (SCADA) is a control system architecture that uses computers, networking, and graphical user interfaces for process monitoring and control, operating in conjunction with peripheral devices such as programmable logic controllers, sensors, and actuators to interface with plant and machinery.
+
+      The SCADA model was originally developed as a universal means of remotely accessing control modules, which could be from different manufacturers, allowing access through standard automation protocols.
+
+      The Internet of Things is now redefining the role and architecture of SCADA systems, with modern SCADA systems leveraging Internet protocols and cloud services for interaction with connected devices, and controlling environments ranging from smart homes to large-scale processes spanning multiple geographically disperse sites.
+
+      In this talk, we will discuss this evolution and will describe a novel next-generation SCADA solution that utilizes the capabilities of Erlang to monitor and control a growing network of industrial-scale energy-efficient temperature management systems.
+
+      The architecture and design of the system with be discussed, along with future plans to expand the role played by Erlang in the overall end-to-end solution and the use of the OpenVMS operating system on embedded devices to optimize reliability and security.
+
+      Other possible uses for this solution and future enhancements will be considered, including making it more generic and more applicable to a range of Internet of Things scenarios.
+    speakers:
+      - brettcameron
+      - davidbrinnen
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "tl-3EftSK90"
+        url: "https://www.youtube.com/watch?v=tl-3EftSK90"
+
+  - title: "Designing Rich API Clients at Scale"
+    slug: "designing-rich-api-clients-at-scale"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      Many APIs are defined as RESTful resources, represented in JSON, and accessed via HTTP. While it's possible to make raw HTTP calls from your program, an API client library can provide significant benefits in safety, security, and readability. This session discusses how Google designs client libraries, covering common design challenges and best practices. You’ll also learn how Google uses code generation to produce clients for hundreds of APIs, across numerous programming languages—including, most recently, Elixir.
+
+      This talk will also cover OpenAPI, which is how we've chosen to scale to languages not normally associated with Google.
+
+      Target audience:
+
+      Developers interested in producing or consuming APIs.
+    speakers:
+      - jeffching
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "CiSNwmDj6ls"
+        url: "https://www.youtube.com/watch?v=CiSNwmDj6ls"
+
+  - title: "Tools Everyone Needs - A Reflection On Building And Running A Server At Whatsapp"
+    slug: "tools-everyone-needs-a-reflection-on-building-and-running-a-server-at-whatsapp"
+    kind: talk
+    language: en
+    duration: 47
+    abstract: |
+      In this talk, we describe some of the best tools we use for developing reliable and scalable servers in Erlang. Some of these tools and approaches may not be widely known in a broader Erlang community. Others may be considered controversial and going against more conventional Erlang practices.
+
+      OBJECTIVES
+
+      The goal of this talk is to share some of best practices of using Erlang at WhatsApp.
+    speakers:
+      - antonlavrik
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "LJx6mUEFAqQ"
+        url: "https://www.youtube.com/watch?v=LJx6mUEFAqQ"
+
+  - title: "Quantum Computing Exposed: Schrödinger's Grumpy Cat"
+    slug: "quantum-computing-exposed-schr-dinger-s-grumpy-cat"
+    kind: talk
+    language: en
+    duration: 43
+    abstract: |
+      The buzz about quantum computing has been rapidly increasing lately, and a growing number of developers have been looking into the subject. Concepts that developers typically find challenging after a cursory investigation of quantum computing include:
+
+      superpositions of quantum bits (qubits),
+      quantum gates,
+      quantum entanglement (Einstein’s “spooky actions at a distance”),
+      and the relevance of Schrödinger’s famous cat.
+
+      In this session, James Weaver will give a gentle introduction to quantum computing, including:
+
+      A brief history of quantum computers,
+      visualizing superpositions,
+      composing quantum algorithms with quantum gates,
+      understanding Shor’s potentially RSA encryption busting algorithm,
+      and current status of quantum computers.
+
+      OBJECTIVES
+
+      Give developers an introduction to quantum computing. If time slots are 40 minutes, I would need two back to back slots. One would be entitled "Quantum Computing Exposed: Schrödinger's Grumpy Cat", and the other "Quantum Computing Exposed: Hacking Nature's Computer".
+
+      For your reference, here is a video of a five-minute lightning talk I did on quantum computing:
+
+      https://www.youtube.com/watch?v=A9ej8pwFiUA
+    speakers:
+      - jamesweaver
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "SLgMXDD_KRg"
+        url: "https://www.youtube.com/watch?v=SLgMXDD_KRg"
+
+  - title: "Gen_statem - the tool you never knew you  always wanted"
+    slug: "gen-statem-the-tool-you-never-knew-you-always-wanted"
+    kind: talk
+    language: en
+    duration: 38
+    abstract: |
+      In Erlang/OTP 19.0 a new gen_* behaviour targeted at writing state machines was introduced - gen_statem. With its much richer feature set and a more general event model it was intended to replace the gen_fsm behaviour.
+
+      This talk goes through the gen_statem features, how they differ from gen_fsm and plain gen_server, and why they make gen_statem a better tool for writing any state machine except possibly the simplest.
+    speakers:
+      - raimoniskanen
+    topics:
+      - erlang
+      - otp
+    recordings:
+      - provider: youtube
+        external_id: "f_jl6MR3kXQ"
+        url: "https://www.youtube.com/watch?v=f_jl6MR3kXQ"
+
+  - title: "LPWAN and Cellular IoT explained - How to connect devices in the wild"
+    slug: "lpwan-and-cellular-iot-explained-how-to-connect-devices-in-the-wild"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      Industrial IoT has been around for a lot longer than most people think, predating the consumer internet of things. Its early incarnations were originally called M2M, or machine-to-machine, networks. These early systems were always networks of wired machines communicating via Ethernet, Fiber, DSL or even twisted copper pair landlines over a modem. Wired systems require a significant infrastructure to be in place, which is why most modern-day systems are centered around manufacturing or industrial automation. What about remote facilities that are not connected to a fiber network, or where a communication network is prohibitively expensive? What about things that are in motion, like automobiles, freight trucks and rail? What about small sensor devices that are battery-powered and now being deployed for asset tracking, or for environmental and agricultural needs?
+
+      In this talk, Brian will explain the differences between Low Power Wide Area Networks and Cellular IoT, and how to use them when deploying a real-world IoT solution in the wild, whether it is for remote wind and solar farms, rail, smart power poles, or real-time asset tracking for supply chain.
+    speakers:
+      - bryanhughes
+    topics:
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "WdetR9B4oUM"
+        url: "https://www.youtube.com/watch?v=WdetR9B4oUM"
+
+  - title: "Introducing Wrek; A Library For Executing Dependency Graphs"
+    slug: "introducing-wrek-a-library-for-executing-dependency-graphs"
+    kind: talk
+    language: en
+    duration: 18
+    abstract: |
+      Dependency graphs are a useful representation for exploring opportunities to introduce concurrency in a larger system. They are hidden all over computing (compilers, build systems) and everyday life (to-do lists, cooking recipes). Users can define a set of tasks, as well as dependencies between them, and wrek will execute the resulting graph as concurrently as possible.
+
+      OBJECTIVES
+
+      Introduce/refamiliarize the audience with dependency graphs, explore the conception and design of wrek, showcase how wrek can be used and integrated into larger projects, demonstrate wrek's broad applicability.
+
+      AUDIENCE
+
+      Developers interested in seeing where mathematics and everyday life collide. Developers interested in new Erlang/OTP libraries.
+    speakers:
+      - richardkallos
+    topics:
+      - elixir
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "dYDdnZoH0uk"
+        url: "https://www.youtube.com/watch?v=dYDdnZoH0uk"
+
+  - title: "A Tour Through the Distributed System Zoo"
+    slug: "a-tour-through-the-distributed-system-zoo"
+    kind: talk
+    language: en
+    duration: 46
+    abstract: |
+      The talk will go through different categories and patterns in distributed systems, compare them and explore them applying each to the case of a distributed key value store.
+
+      OBJECTIVES
+
+      Get an high level picture of the different aspects in distributed systems and how they apply to a real use case.
+
+      AUDIENCE
+
+      People interested in architecture, patterns and distributed systems.
+    speakers:
+      - marianoguerra
+    topics:
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "L7OTjuCIZc0"
+        url: "https://www.youtube.com/watch?v=L7OTjuCIZc0"
+
+  - title: "Erlang In Action – How Erlang Lets Us Create A Scalable Edge Based Iot Solution"
+    slug: "erlang-in-action-how-erlang-lets-us-create-a-scalable-edge-based-iot-solution"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      Entrigna’s data scientists had an idea to create an IoT software platform that could process large amounts of data and scale while living on the edge. They evaluated several different technologies, however, Erlang was the best fit for their needs. In this presentation, we will speak about Entrigna’s needs, how we evaluated the different languages, why we chose Erlang and then demo how an Erlang solution can run and scale through a cluster of Raspberry Pis.
+
+      OBJECTIVES
+
+      Show developers a real business case where Erlang was used to create an IoT software platform and best practices on how to implement an Erlang solution.
+
+      AUDIENCE
+
+      Erlang developers, IoT technical developers
+    speakers:
+      - muralikashaboina
+    topics:
+      - erlang
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "2PQ8OIE8lOM"
+        url: "https://www.youtube.com/watch?v=2PQ8OIE8lOM"
+
+  - title: "wxErlang & Faithful Representation"
+    slug: "wxerlang-faithful-representation"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      For over a decade, Erlang's cross-platform GUI interface, wxErlang, has sat dormant without a meaningful & practical guide. This talk is wxErlang's long-awaited tutorial.
+
+      As one of the first presentations on the subject, we have an opportunity to discuss
+
+      best-practices surrounding the understandability & comparability of the code we shall ultimately write for each other.
+
+      To do so, we draw on knowledge from the accounting profession, in particular Conceptual Statement 8 (CON 8).
+
+      CON 8 is the central framework in the worldwide 'Harmonization' effort: principles set forth by the FASB¹ & IASB² to guide the internationalization of accounting standards.
+
+      Whether you find this surprising or not, Accountants and Erlangers both deal with very similar issues; such as what, where, and when to log information, and in our case of WxErlang, how to ultimately present data to the user.
+
+      From there we shall promptly delve into the gears of wxErlang.
+
+      By the end of this talk, not only will you be able to craft a basic wxErlang application, but also be well equipped to participate in writing code that can help harmonize the community.
+
+      FASB¹ Financial Accounting Standards Board
+
+      IASB² International Accounting Standards Board
+    speakers:
+      - robertcarbone
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "3Q_pR1-v1eo"
+        url: "https://www.youtube.com/watch?v=3Q_pR1-v1eo"
+
+  - title: "Spells, Hexes, and Charms: Running your Own Private Package Service"
+    slug: "spells-hexes-and-charms-running-your-own-private-package-service"
+    kind: talk
+    language: en
+    duration: 31
+    abstract: |
+      The hex.pm service is a fantastic tool and fills a huge need in the Elixir and Erlang community. But what if you wanted to run your own private package service behind your own firewall? This talk explores what it takes to get up and running a hex-like service both from the server and client sides. In doing so, will allow the same convenient methods to deploy your private code as you use to pull open source code into your projects.
+
+      OBJECTIVES
+
+      Help users to understand how hex works, and how to enable their organizations to start their own private package repository.
+
+      AUDIENCE
+
+      People who are developing Erlang or Elixir code and are looking for a good way to deploy it inside their own organization.
+    speakers:
+      - markallen
+    topics:
+      - elixir
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "lN_KFDyjmnY"
+        url: "https://www.youtube.com/watch?v=lN_KFDyjmnY"
+
+  - title: "Fighting Authoritarianism With Blockchain And Blockweaves"
+    slug: "fighting-authoritarianism-with-blockchain-and-blockweaves"
+    kind: talk
+    language: en
+    duration: 43
+    abstract: |
+      It is cliche to say that we live in the age of information, but it is also profoundly true. Information (and access to it) shapes our thoughts and actions as a society, now more than ever. Control and political censorship of that information poses a systemic risk to democratic societies worldwide.
+
+      In this talk we will present the Archain project: a system of permanent data storage aiming to democratise the control and accessibility of information. As well as detailing the aims of the system, its technical implementation and potential effects, we will also discuss the use of Erlang as its base.
+
+      Archain is a decentralised permanent information storage system, open to all, forever. Built on a novel blockchain-like data structure (a 'blockweave') that shards across many computers, the Archain is a public library and archive inside a cryptocurrency.
+
+      As well as taking a peek inside the Archain infrastructure itself, we will explore how Archain-based Erlang apps can be used to build incontrovertible election/voting systems, automated traders, and decentralised social media systems, among many other uses.
+
+      OBJECTIVES
+
+      This talk will detail strategies and experiences building a decentralised permanent archive and cryptocurrency using Erlang. It will also explore the development of decentralised Erlang applications using the Archain platform.
+
+      OUTLINE
+
+      Anyone interested in Erlang usage in the wild, decentralisation or blockchain technology!
+    speakers:
+      - samwilliams
+    topics:
+      - erlang
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "hd8IQRm0Q1k"
+        url: "https://www.youtube.com/watch?v=hd8IQRm0Q1k"
+
+  - title: "Making It Lazy: never evaluate anything more than once"
+    slug: "making-it-lazy-never-evaluate-anything-more-than-once"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      Put some more advanced features of Erlang to work by implementing lazy evaluation. First we find a way of being non-strict, so we only evaluate things by need, and then we find a way of memoising the results. We show how to build infinite, graphical and indeed cyclic data structures, using higher-order functions, macros and ETS tables.
+
+      OBJECTIVES
+
+      Learn some advanced functional programming techniques and see how they can be implemented in Erlang.
+
+      AUDIENCE
+
+      Anyone who would like to learn some neat functional programming tricks to use in Erlang or Elixir.
+    speakers:
+      - simonthompson
+    topics:
+      - erlang
+    recordings:
+      - provider: youtube
+        external_id: "uh7qYf8rC00"
+        url: "https://www.youtube.com/watch?v=uh7qYf8rC00"
+
+  - title: "Mixing in Elixir to Build Search"
+    slug: "mixing-in-elixir-to-build-search"
+    kind: talk
+    language: en
+    duration: 22
+    abstract: |
+      Search is one of the toughest problems in computer science. This talk will discuss the challenges we've gone through at Teachers Pay Teachers while adopting Elixir as our new go-to language. Adrian will discuss some problems they discovered while building out search and more specifically how they are now using Elixir to build out tools to power search analytics.
+
+      OBJECTIVES
+
+      This talk will point out some of the discoveries they've made while porting the search page from their old stack (PHP). He will also exemplify Elixir, as their go-to language for building out tools on the Search team and how these tools help them move faster with choosing the right decisions when it comes to search algorithm tweaks.
+    speakers:
+      - adriancruz
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "vogAxP4Sq_g"
+        url: "https://www.youtube.com/watch?v=vogAxP4Sq_g"
+
+  - title: "Trusted autonomy"
+    slug: "trusted-autonomy"
+    kind: talk
+    language: en
+    duration: 24
+    abstract: |
+      Smaller teams are easier to manage just as simpler systems are easier to manage. As your team grows, your system inevitably becomes more complex. Without a clear vision, software quality can decline and, likewise, developers happiness can wane. At Bleacher Report, as we've grown our team, we've put in place standards and systems that help maintain software quality, keep developers engaged and independent and evaluate and incorporate new technology. Learn how we've managed to do that in this 20 minute talk.
+    speakers:
+      - benmarx
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "NAdCxr6C4DI"
+        url: "https://www.youtube.com/watch?v=NAdCxr6C4DI"
+
+  - title: "Release, Deploy, Monitor and Upgrade Elixir Services in Real World"
+    slug: "release-deploy-monitor-and-upgrade-elixir-services-in-real-world"
+    kind: talk
+    language: en
+    duration: 36
+    abstract: |
+      Although Elixir has been rapidly adopted in the past few years, it still lacks a general guide and practices on releasing, deploying and upgrading (maintaining) the elixir services in a production environment.
+
+      Issues around this subject include:
+
+      How can Elixir release be integrated with github release?
+      How can Elixir service deployment and upgrade be integrated with devOps tools (like ansible)?
+      How can we quickly respond to failures and anomaly behavior of running Elixir services?
+
+      This talk shares the discoveries we have made at Tubi TV for the whole process.
+
+      Including:
+
+      Using distillery to generate the release and hot upgrade release.
+      Building our own tool to make the artifacts once a github release is created.
+      Building ansible script to do rolling upgrade or hot upgrade, enabling engineers to run one command to deploy a release without disrupting the production service.
+      Using sentry logger for error logging and integrating datadog for monitoring and alerting.
+
+      OBJECTIVES
+
+      Share our experience and discoveries on how to release, deploy and upgrade Elixir services.
+
+      AUDIENCE
+
+      Elixir programmers and devOps
+    speakers:
+      - tianchen
+    topics:
+      - elixir
+      - deployment
+      - observability
+    recordings:
+      - provider: youtube
+        external_id: "kwHtlmyxE6c"
+        url: "https://www.youtube.com/watch?v=kwHtlmyxE6c"
+
+  - title: "A GraphQL-on-Elixir Primer"
+    slug: "a-graphql-on-elixir-primer"
+    kind: talk
+    language: en
+    duration: 45
+    abstract: |
+      GraphQL, a data query language released by Facebook in 2015, has been growing steadily in popularity, with GraphQL APIs supplementing (and in many cases supplanting) REST APIs for use in modern client-side web and mobile applications.
+
+      In this talk you'll learn the fundamentals of GraphQL—how its types model your domain for use in queries, mutations, and live-data subscriptions—and how you can use Absinthe GraphQL toolkit to add rich, flexible GraphQL API to Elixir-based applications within minutes.
+    speakers:
+      - brucewilliams
+    topics:
+      - elixir
+      - libraries
+    recordings:
+      - provider: youtube
+        external_id: "enbksvAko98"
+        url: "https://www.youtube.com/watch?v=enbksvAko98"
+
+  - title: "Releases and Elixir: Envisioning a more perfect union"
+    slug: "releases-and-elixir-envisioning-a-more-perfect-union"
+    kind: talk
+    language: en
+    duration: 46
+    abstract: |
+      In this talk I am going to share how Elixir's deployment tooling has gotten to where it is today, what problems we've addressed, what problems remain, and going into the future, how we're planning to evolve and improve.
+
+      The practical problems the tools aimed to address early on have been largely resolved. However, as Elixir draws more developers from other languages, we've had to face the fact that we have not only a perception problem, but a variety of usability issues that early adopters have largely not noticed or cared about. Addressing these problems is the primary goal of the next stage of evolution in these tools, as well as making releases part of the core Elixir toolchain.
+
+      If you are currently deploying Elixir in production, or are looking to do so, you will be interested in this talk.
+    speakers:
+      - paulschoenfelder
+    topics:
+      - elixir
+      - deployment
+    recordings:
+      - provider: youtube
+        external_id: "OS94i3cF6mY"
+        url: "https://www.youtube.com/watch?v=OS94i3cF6mY"
+
+  - title: "Wide World of Actors: comparing the Pony language to Erlang"
+    slug: "wide-world-of-actors-comparing-the-pony-language-to-erlang"
+    kind: talk
+    language: en
+    duration: 44
+    abstract: |
+      As Erlang & Elixir/OTP programmers, the actor model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted. The Pony language started with the same foundation as Erlang: the actor model of message passing and independent, concurrent computing units.
+
+      But Pony is a very different beast. Pony uses a strong static type system to create crash-free, concurrency-safe access to sharable, garbage-collected memory without running in a virtual machine.
+
+      To begin, Scott will review the actor model's definition and history. He will then discuss the design trade-offs that took Erlang/OTP's and Pony's implementations down very different paths. As an example, Erlang/Elixir's "selective receive" feature allows message handling in any order. Pony's message receiving is strictly first-in first-out (FIFO) order only. What good comes from that difference?
+
+      Talk objectives
+
+      Have a solid understanding of what the actor model of computing is and the BEAM VM's interpretation of the model.
+      You will be very tempted to start writing safe, fast, concurrent programs in Pony.
+      You'll start seeing differences in other actor languages & frameworks used in industry, such as Scala, Akka, and Orleans and in static typing systems such as Rust's.
+      You'll definitely start using the Dialyzer on your Erlang & Elixir code much more often.
+    speakers:
+      - scottlystigfritchie
+    topics:
+      - erlang
+      - concurrency
+    recordings:
+      - provider: youtube
+        external_id: "uv-3ptTD8hg"
+        url: "https://www.youtube.com/watch?v=uv-3ptTD8hg"
+
+  - title: "Unreachable Code - A Conversation about Safety and Human Factors"
+    slug: "unreachable-code-a-conversation-about-safety-and-human-factors"
+    kind: keynote
+    language: en
+    duration: 46
+    abstract: |
+      “...There's so much talk about the system. And so little understanding.” -Robert Pirsig
+
+      If I were to ask you what is your safety culture, what would that look like? Devops and continuous delivery and the tools that support it can offer us a measure of safety, but only against the things we think might go wrong. The importance of more dialogue on the nature of the relationship of humans and machines becomes apparent as twitter judges the UX of the Hawaii incident, while Equifax thinks email is a patching strategy.
+
+      Humans are left to solve the problems the machines cannot, and I would like to offer some ideas for moving forward, together.
+    speakers:
+      - jessicadevita
+    topics:
+      - engineering
+    recordings:
+      - provider: youtube
+        external_id: "BSPVrOR85fo"
+        url: "https://www.youtube.com/watch?v=BSPVrOR85fo"
+
+  - title: "Update: Elixir Core Dev Team"
+    slug: "update-elixir-core-dev-team"
+    kind: talk
+    language: en
+    duration: 14
+    abstract: |
+      Update from the Elixir core dev team on the latest developments in the language and ecosystem.
+    speakers:
+      - michalmuskala
+    topics:
+      - elixir
+    recordings:
+      - provider: youtube
+        external_id: "l4ISqxmZQtE"
+        url: "https://www.youtube.com/watch?v=l4ISqxmZQtE"
+
+  - title: "Why Elixir Matters: A Genealogy of Functional Programming"
+    slug: "why-elixir-matters-a-genealogy-of-functional-programming"
+    kind: talk
+    language: en
+    duration: 39
+    abstract: |
+      Why Elixir matters: a genealogy of functional programming and web performance in the 21st century.
+    speakers:
+      - osagaius
+    topics:
+      - elixir
+      - functional-programming
+    recordings:
+      - provider: youtube
+        external_id: "EE7-MkHwB7o"
+        url: "https://www.youtube.com/watch?v=EE7-MkHwB7o"
+
+  - title: "Building and Integrating a Data Platform"
+    slug: "building-and-integrating-a-data-platform"
+    kind: talk
+    language: en
+    duration: 31
+    abstract: |
+      Lessons learned from building and integrating a data platform on the BEAM.
+    speakers:
+      - jamesfish
+    topics:
+      - elixir
+      - distribution
+    recordings:
+      - provider: youtube
+        external_id: "dPDAFFSKS18"
+        url: "https://www.youtube.com/watch?v=dPDAFFSKS18"
+
+  - title: "Taking Erlang/Elixir to the Metal"
+    slug: "taking-erlang-elixir-to-the-metal"
+    kind: talk
+    language: en
+    duration: 42
+    abstract: |
+      Taking Erlang and Elixir to the metal — running BEAM languages closer to hardware.
+    speakers:
+      - sonnyscroggin
+    topics:
+      - erlang
+      - elixir
+      - embedded
+    recordings:
+      - provider: youtube
+        external_id: "F86JXaCPowo"
+        url: "https://www.youtube.com/watch?v=F86JXaCPowo"

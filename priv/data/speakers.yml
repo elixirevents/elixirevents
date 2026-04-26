@@ -1161,6 +1161,10 @@
   social_links:
     - platform: linkedin
       url: "https://linkedin.com/in/cameronbrett/"
+    - platform: twitter
+      url: "https://x.com/brc859844"
+    - platform: github
+      url: "https://github.com/brc859844"
 
 - name: "Brian Carroll"
   slug: "briancarroll"
@@ -3121,14 +3125,13 @@
 
 - name: "Geoffrey Lessel"
   slug: "geoffreylessel"
-  headline: "Software Developer"
-  bio: "Software Developer"
-  website: https://geoffreylessel.com/
+  headline: "Elixir Lover and Author of Phoenix in Action (Planning Center)"
+  bio: "Author of Phoenix in Action. Web Developer for 15+ years with Perl, PHP, Ruby on Rails, and Phoenix."
   social_links:
     - platform: twitter
-      url: https://x.com/geolessel
+      url: "https://x.com/geolessel"
     - platform: github
-      url: https://github.com/geolessel
+      url: "https://github.com/geolessel"
 
 - name: "Lau Taarnskov"
   slug: "lautaarnskov"
@@ -3769,8 +3772,9 @@
 
 - name: "Emma Cunningham"
   slug: "emmacunningham"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Developer (Second Spectrum)"
+  bio: |
+    Emma is a Senior Software Engineer at Second Spectrum, where she gets to solve all kinds of fun problems around how to build compelling data visualization and analytics apps for clients like the NBA and the LA Clippers. She is actively involved in various STEAM education equity initiatives in low-income communities across Los Angeles, including co-organizing YouthBuild Charter School of California’s CODEChella, serving on the Advisory Board at the Critical Design and Gaming School, teaching robotics and programming at Heart of Los Angeles, and co-directing Code Hawk Camp, an inclusive and free summer computer science camp for students in South LA.
 
 - name: "Eric Oestrich"
   slug: "ericoestrich"
@@ -3930,10 +3934,16 @@
   headline: "Software Developer"
   bio: "Software Developer"
 
-- name: "Jesse Anderson"
+- name: "Jesse J. Anderson"
   slug: "jesseanderson"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Front End Designer (Planning Center)"
+  bio: |
+    Jesse J. Anderson has been creating things for the web since before comic book movies were cool, first as a designer and more recently as a developer. He prefers ortholinear keyboards, Oxford commas, and spaces over tabs. While known as an Elixir evangelist, he actually gets paid to work as a front end designer at Planning Center. Jesse currently lives near Seattle with his wife and 3 children.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/jessejanderson"
+    - platform: github
+      url: "https://github.com/jessejanderson"
 
 - name: "John Mertens"
   slug: "johnmertens"
@@ -4142,8 +4152,12 @@
 
 - name: "Osa Gaius"
   slug: "osagaius"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Engineer Focused on Product and Distributed Systems - Mailchimp"
+  bio: |
+    Osa Gaius is a Software Engineer at Mailchimp. Previously, he was an engineer at Luma, where he worked on realtime web apps and IoT devices in Elixir. He organizes the Elixir Meetup in Atlanta, where he educates newcomers to Elixir using interactive workshops. In his free time, Osa crafts EDM instrumentals and dances Tango.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/osagaius"
 
 - name: "Patrick Thompson"
   slug: "patrickthompson"
@@ -4565,11 +4579,21 @@
       url: https://github.com/bruce
     - platform: linkedin
       url: https://www.linkedin.com/in/wbruce/
+    - platform: twitter
+      url: "https://x.com/wbruce"
+    - platform: github
+      url: "https://github.com/@bruce"
 
-- name: "Christopher Cote"
+- name: "Christopher Coté"
   slug: "christophercote"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Technology, Sustainability, Food but Not Always in That Order! (Entropealabs)"
+  bio: |
+    Christopher Coté is a software engineer with a passion for hardware. He is the Lead Lab Engineer for the National Association of Realtors' R&D Lab. Chris also runs his own software development and consulting company, Entropealabs. He was a lead engineer for the Obama 2012 campaign and has helped found and build several startups around the Chicago area. Christopher has always found himself driven to create sustainable and efficient systems, whether that's for massive political campaigns, growing food or controlling and monitoring the built world. This experience has given him a unique insight into how technology and the built world coexist in society today and will continue to evolve into the future. https://stackoverflow.com/story/christopher.cote
+  social_links:
+    - platform: twitter
+      url: "https://x.com/entropealab"
+    - platform: github
+      url: "https://github.com/entone"
 
 - name: "Darin Wilson"
   slug: "darinwilson"
@@ -4802,8 +4826,14 @@
 
 - name: "Jeff Ching"
   slug: "jeffching"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Software Engineer (Google)"
+  bio: |
+    Jeff is a polyglot working on several languages for Google Cloud Platform, but thinks Elixir/Erlang will take over the world! In his limited spare time, Jeff loves tinkering with home automation - a perfect application for the BEAM.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/chingor"
+    - platform: github
+      url: "https://github.com/chingor13"
 
 - name: "Jeff Gillis"
   slug: "jeffgillis"
@@ -5095,13 +5125,25 @@
 
 - name: "Anthony Molinaro"
   slug: "anthonymolinaro"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Architecture (OpenX, Inc.)"
+  bio: |
+    Anthony Molinaro has been developing large-scale distributed systems since the late 90s in many languages and environments. First at Goto.com, a pioneering company in search advertising, where he helped to develop many of the core serving pieces in Java, C and Perl. After Goto.com changed its name to Overture.com and was acquired by Yahoo!, Anthony spent 5 years working on the content match advertising system written in C. Upon leaving Yahoo! in 2008 he joined a small startup that used Erlang exclusively and extensively. Later in 2009, Anthony was hired by OpenX where he has since introduced Erlang and spearheaded its use across a large portion of OpenX’s Global Digital Revenue Platform.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/djnym"
+    - platform: github
+      url: "https://github.com/djnym"
 
 - name: "Anton Lavrik"
   slug: "antonlavrik"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Lead of WhatsApp Erlang team"
+  bio: |
+    Anton became fascinated by Erlang when he read Joe Armstrong's PhD thesis in 2004. Following the lucky encounter, he has been using Erlang professionally for over a decade. In 2019, Anton started WhatsApp Erlang team to work on the Erlang programming language.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/alavrik"
+    - platform: github
+      url: "https://github.com/alavrik"
 
 - name: "Benoit Chesneau"
   slug: "benoitchesneau"
@@ -5116,13 +5158,15 @@
 
 - name: "Bryan Hughes"
   slug: "bryanhughes"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Entrepreneur, Innovative and Creative Thinker, CTO of IoT (Space Time Insight)"
+  bio: |
+    Bryan Hughes is an innovative and creative thinker with over 30 years of engineering experience building successful, massively scalable and fault tolerant Enterprise Industrial and Internet class systems. He is the founder and CTO of GOFACTORY, acquired by Space Time Insight in 2016. Their Erlang team delivers innovative, advanced analytics applications and industrial IoT solutions for asset-intensive industries across utilities, transportation, and manufacturing companies. Prior to GOFACTORY, Mr Hughes co-founded Predictive Medical Technologies, developing revolutionary ICU Surveillance and predictive analytics for early warning of adverse events.
 
 - name: "David Brinnen"
   slug: "davidbrinnen"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Versatile software and Embedded Systems Engineer (Energy Machines)"
+  bio: |
+    Since completing his Masters studies in Embedded Software at the Swedish Royal Institute of Technology 2015 (KTH), David has been working as a software engineer across a range of projects, including the implementation of control logical and the commissioning of Energy Machines integrated energy systems and air handling units (https://www.energymachines.com/), and the development of a next-generation SCADA platform (ControlMachines™) and simulation software to control, monitor, and model Energy Machines deployments. David has also recently joined VMS Software Inc., focusing primarily in the compiler space (Clang and LLVM) as part of the OpenVMS x86 port, but also working in various other areas ranging from consulting through to the design and development of remote monitoring and SCADA-like solutions. In his spare time David likes to investigate new technologies and develop his skills in software languages and using computers as tools. Besides computing David likes to travel and live the Spanish life with a Swedish touch, or vice versa. David was born in Sweden and currently lives in the Swedish city of Malmö.
 
 - name: "Duncan Sparrell"
   slug: "duncansparrell"
@@ -5144,6 +5188,8 @@
   social_links:
     - platform: github
       url: https://github.com/happi
+    - platform: twitter
+      url: "https://x.com/erik_stenman"
 
 - name: "Fred Hebert"
   slug: "fredhebert"
@@ -5179,23 +5225,45 @@
 
 - name: "James Weaver"
   slug: "jamesweaver"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Developer, Author and Speaker (Pivotal)"
+  bio: |
+    James Weaver is a Java developer, author, and speaker with a passion for cloud-native applications, machine learning, and quantum computing. He is a Java Champion, and a JavaOne Rockstar. James has written books including Inside Java, Beginning J2EE, the Pro JavaFX series, and Java with Raspberry Pi. As a Pivotal Developer Advocate, James speaks internationally at software technology conferences. He tweets as @JavaFXpert, blogs at http://JavaFXpert.com and http://CulturedEar.com and may be reached at jweaver [at] pivotal.io
+  social_links:
+    - platform: twitter
+      url: "https://x.com/JavaFXpert"
+    - platform: github
+      url: "https://github.com/JavaFXpert"
 
 - name: "Jay Hayes"
   slug: "jayhayes"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "(Stitch Fix)"
+  bio: |
+    Jay has been programming professionally for over 10 years. A few years ago, he fell in love with Ruby and began developing a deep interest in good software design, appropriate levels of testing, and other programming paradigms. For the first time since falling in love with Ruby, he has discovered another language with the same charm: Elixir. Jay has worked as a consultant and instructor at Big Nerd Ranch. More recently he joined Stitch Fix to be a part of a larger team working on a product. When he's not speaking or teaching, he works remotely from (sweet) home in Alabama. Remote is a perfect working situation as it allows him to do what he loves while being close to the people he loves, his beautiful wife and 2 sons. He has spoken at a number of conferences, including but not limited to: - ElixirConf 2016 - RailsConf 2017 (TDD workshop) - OSCON 2017 - (Other, regional conferences and meetups.)
+  social_links:
+    - platform: twitter
+      url: "https://x.com/iamvery"
+    - platform: github
+      url: "https://github.com/iamvery"
 
 - name: "Jean Rouge"
   slug: "jeanrouge"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Tech Lead (Tripping)"
+  bio: |
+    Fell in love with Erlang's concurrency model while working at Chef, and been introducing it to all my jobs since. Currently at Tripping.com, where Erlang allowed us to make our search much more accurate.
+  social_links:
+    - platform: github
+      url: "https://github.com/wk8"
 
 - name: "Jessica DeVita"
   slug: "jessicadevita"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Program Manager (Microsoft)"
+  bio: |
+    With 20+ years of professional experience beginning in the PICU at Mpls Children's hospital, systems administrator at St. Jude Medical, founder at @ubergeekgirl, Technical Evangelist at Microsoft & Chef.io, Jessica is an inspiring and dynamic leader. She has helped startups and enterprises alike with lean product development workshops, collaboration tools, and DevOps/Infrastructure/Operations. She coaches individuals and teams on matters of technical, professional development and public speaking, and is currently studying human factors/safety sciences at Lund University. She is a mentor for women and under-represented minority computer science students through StemAdvantage.org and has served on the advisory board for mchabit.org and safestack.io.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/UberGeekGirl"
+    - platform: github
+      url: "https://github.com/ubergeekgirl"
 
 - name: "Joe Armstrong"
   slug: "joearmstrong"
@@ -5210,8 +5278,12 @@
 
 - name: "Kostis Sagonas"
   slug: "kostissagonas"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Creator of PropEr, CutEr and Concuerror"
+  bio: |
+    Kostis Sagonas is an academic who has been heavily involved in the development of Erlang and its implementation since 1999. At Uppsala University, he led the development team of the HiPE native code compiler that nowadays is part of Erlang/OTP. Together with his students, first at Uppsala University and more recently at the National Technical University of Athens, he has proposed various changes and additions to the language (most notably: bit-level pattern matching and bit-stream comprehensions, and the language of type and spec declarations) and has contributed to its compiler and runtime system. Besides HiPE, he has designed and implemented software development tools for Erlang (dialyzer, typer, tidier, proper, ...) and has contributed bug fixes to many open-source Erlang projects.
+  social_links:
+    - platform: github
+      url: "https://github.com/kostis"
 
 - name: "Mariano Guerra"
   slug: "marianoguerra"
@@ -5226,38 +5298,68 @@
 
 - name: "Mark Allen"
   slug: "markallen"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Principle Software Developer (Alert Logic)"
+  bio: |
+    Mark has been writing Erlang for 6 years for his employers. Originally quite a skeptic of the joys and benefits of functional programming, now he can't imagine writing large scale software any other way.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/bytemeorg"
+    - platform: github
+      url: "https://github.com/mrallen1"
 
 - name: "Mike Watters"
   slug: "mikewatters"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Lifelong Learner (AdRoll)"
+  bio: |
+    Mike enjoys learning new things and delivering scalable infrastructure. At AdRoll he has architected and implemented foundational elements of the globally distributed Erlang-based real-time bidding system which participates in around 90 billion programmatic advertising auctions per day. Prior to AdRoll, he worked on Erlang and Lisp-based medical software solutions and freelance software development.
+  social_links:
+    - platform: github
+      url: "https://github.com/zerth"
 
 - name: "Mohnish Jadwani"
   slug: "mohnishjadwani"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Senior Developer and Explorer (MoneySmart)"
+  bio: |
+    Mohnish is a programmer at MoneySmart and also a people person in general. He cares about things like code as a craft, diversity, inclusiveness and empathy. Away from work, he’s an open source contributor, blogger, an ex co-organizer of Bangalore Ruby User group meetups, a yoga practitioner, an explorer and just someone who enjoy’s his walks.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/mohnishgj"
+    - platform: github
+      url: "https://github.com/boddhisattva"
 
 - name: "Murali Kashaboina"
   slug: "muralikashaboina"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "CEO (Entrigna), Former MD of Enterprise Architecture (United Airlines)"
+  bio: |
+    Murali Kashaboina is the founder, CEO & Chief Data Scientist of Entrigna, Inc. Murali brings over 17 years of IT experience in enterprise architecture design, real-time business intelligence and IT application development and strategy. Prior to founding Entrigna, Murali served as the Managing Director of Enterprise Architecture at United Airlines and played a key role in the merger of the United and Continental Airlines enterprise systems. Murali also served as the Lead Architect for United.com and led the architecture & delivery of United’s online booking engine, which was one of the largest initiatives at United Airlines. His deep understanding of the intricacies involved in building real software for real world business problems and seamlessly enabling them for business use, led him to found Entrigna. Murali holds a Masters’ degree in Mechanical Engineering from University of Dayton, Ohio.
 
 - name: "Paul Rogers"
   slug: "paulrogers"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Independent Software Developer (Knoxen)"
+  bio: "More than a few years experience in software startups, ocean science research, and taking life one breath at a time."
+  social_links:
+    - platform: github
+      url: "https://github.com/dingosky"
 
 - name: "Raimo Niskanen"
   slug: "raimoniskanen"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Software and hardware gaffer, author of gen_statem."
+  bio: |
+    Raimo stumbled over Erlang in a course in parallel computing in 1996, and has been in the OTP team at Ericsson since the start of the millennium. During that time he has worked on such diverse things as an earlier version of the trace subsystem, the fprof profiling tool, the Emulator Toolbox for Pathologists, the TCP/UDP/SCTP subsystem, the DNS resolver, the erlang.org site and mailing lists, the internal OTP lab and CI toolchain, the rand module, erlang.org/doc/search, and gen_statem.
+  social_links:
+    - platform: github
+      url: "https://github.com/RaimoNiskanen"
 
 - name: "Richard Kallos"
   slug: "richardkallos"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Developer (AdGear) Master's student (Concordia University)"
+  bio: |
+    By day, Richard Kallos writes code for AdGear. By night, he works towards his Master's degree in Computer Science. Richard's professional career started in the summer of 2016, where he was hired as an intern at AdGear to work on optimizing an in-house compiler. He continues to work at AdGear as a member of the backend team surrounded by brilliant and supportive coworkers.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/richard_kallos"
+    - platform: github
+      url: "https://github.com/rkallos"
 
 - name: "Robert Carbone"
   slug: "robertcarbone"
@@ -5274,23 +5376,45 @@
 
 - name: "Sam Williams"
   slug: "samwilliams"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "CEO (Archain) and PhD Candidate"
+  bio: |
+    Sam is the CEO of the Archain project, a system of permanent information storage. Sam has been building distributed systems with Erlang, from operating systems to web applications, for around 10 years. He is also a PhD candidate at the University of Kent. When not hacking Erlang, Sam can be found climbing mountains and pondering geopolitics!
+  social_links:
+    - platform: twitter
+      url: "https://x.com/samecwilliams"
+    - platform: github
+      url: "https://github.com/samecwilliams"
 
 - name: "Scott Lystig Fritchie"
   slug: "scottlystigfritchie"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Stuck in distributed systems tarpits for 30 years"
+  bio: |
+    Scott Lystig Fritchie was a UNIX systems administrator until he returned to programming full-time at Sendmail, Inc. While at Sendmail in 2000, a colleague introduced him to Erlang. His world hasn't been the same since. In addition to writing Erlang and occasionally C for the Erlang virtual machine, he has had papers published by USENIX, the Erlang User Conference, and the ACM and has given presentations at Erlang Factory, Code BEAM, and Ricon. Scott works at Wallaroo Labs on a polyglot distributed system of Pony, Python, and C.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/slfritchie"
+    - platform: github
+      url: "https://github.com/slfritchie"
 
 - name: "Sébastien Merle"
   slug: "sebastienmerle"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "I walked the road from C to Erlang in my quest for better concurrency."
+  bio: |
+    Coming from a C and C++ background, and after an early incursion in the world of asynchronous programming in python, he finally shifted his attention to the Erlang community. He spent the major part of the last decade developing distributed software, mostly in the instant-messaging sector, and he now shares his time between research groups like TeraFlow, and development for the automotive and automation industry. He is also involved in the open-source project GRiSP to bring all the joy of Erlang development to small IoT devices.
+  social_links:
+    - platform: github
+      url: "https://github.com/sylane"
 
 - name: "Sonny Scroggin"
   slug: "sonnyscroggin"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Rusterlium core team member"
+  bio: |
+    Sonny Scroggin is an experienced software engineer with broad interests in the world of computing. He is best known for his contributions to the Phoenix Framework and other supporting libraries within the Elixir ecosystem. You can find him presenting or teaching others about Elixir, Phoenix, and other tools and libraries in the local user groups in Nashville, TN and at conferences around the world.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/scrogson"
+    - platform: github
+      url: "https://github.com/scrogson"
 
 - name: "Andrea Magnorsky"
   slug: "andreamagnorsky"

@@ -1,0 +1,289 @@
+tracks:
+  - name: "Crystal Ballroom"
+    color: "#3182CE"
+    position: 1
+  - name: "Crystal Lounge"
+    color: "#6B46C1"
+    position: 2
+  - name: "Regimental"
+    color: "#38A169"
+    position: 3
+
+days:
+  - name: "Day 1"
+    date: "2018-03-15"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration & Breakfast"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "10:00"
+        sessions:
+          - talk_slug: "testing-tools-for-the-erlang-ecosystem"
+            track: "Crystal Ballroom"
+            kind: keynote
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "update-elixir-core-dev-team"
+            track: "Crystal Ballroom"
+            kind: talk
+      - start_time: "10:15"
+        end_time: "10:45"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:45"
+        end_time: "11:30"
+        sessions:
+          - talk_slug: "why-elixir-matters-a-genealogy-of-functional-programming"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "from-cloud-to-edge-networks"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "intro-to-machine-learning"
+            track: "Regimental"
+            kind: talk
+      - start_time: "11:35"
+        end_time: "12:20"
+        sessions:
+          - talk_slug: "implementing-languages-on-the-beam"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "metaprogramming-programs-that-write-programs"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "arduino-elixir-and-nerves-a-deep-dive-into-the-firmata-protocol"
+            track: "Regimental"
+            kind: talk
+      - start_time: "12:25"
+        end_time: "12:50"
+        sessions:
+          - talk_slug: "the-magic-behind-immutable-maps-or-why-erlang-didn-t-have-maps-years-earlier"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "opaque-structures-and-other-yerbas"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "bridging-the-physical-and-blockchain-world-with-erlang"
+            track: "Regimental"
+            kind: talk
+      - start_time: "12:50"
+        end_time: "13:50"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:50"
+        end_time: "14:35"
+        sessions:
+          - talk_slug: "learning-elixir-better-through-collaboration-and-giving-back"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "let-it-be-hacked"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "getting-to-know-your-rabbit"
+            track: "Regimental"
+            kind: talk
+      - start_time: "14:40"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "the-hitchhiker-s-guide-to-the-unexpected"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "is-security-on-your-nerves"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "understanding-erlang-term"
+            track: "Regimental"
+            kind: talk
+      - start_time: "15:30"
+        end_time: "15:55"
+        sessions:
+          - talk_slug: "high-performance-metrics-through-mutable-counters-a-bite-of-the-forbidden-fruit"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "cqrs-and-event-sourcing"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "quaff-that-potion-saving-millions"
+            track: "Regimental"
+            kind: talk
+      - start_time: "15:55"
+        end_time: "16:25"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:25"
+        end_time: "17:10"
+        sessions:
+          - talk_slug: "crypto-concurrency"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "taking-erlang-elixir-to-the-metal"
+            track: "Regimental"
+            kind: talk
+      - start_time: "17:15"
+        end_time: "17:40"
+        sessions:
+          - talk_slug: "aeternity-scalable-smart-contracts-interfacing-with-real-world-data"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "hype-for-types-using-dialyzer-to-bring-type-checking-to-your-elixir-code"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "gently-down-the-stream"
+            track: "Regimental"
+            kind: talk
+      - start_time: "17:45"
+        end_time: "18:30"
+        sessions:
+          - talk_slug: "unsung-heroes-of-the-beam"
+            track: "Crystal Ballroom"
+            kind: keynote
+      - start_time: "18:30"
+        end_time: "22:00"
+        sessions:
+          - title: "Conference Party"
+            kind: social
+
+  - name: "Day 2"
+    date: "2018-03-16"
+    position: 2
+    time_slots:
+      - start_time: "09:00"
+        end_time: "09:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:05"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "the-forgotten-ideas-in-computer-science"
+            track: "Crystal Ballroom"
+            kind: keynote
+      - start_time: "09:50"
+        end_time: "10:05"
+        sessions:
+          - talk_slug: "update-otp-team"
+            track: "Crystal Ballroom"
+            kind: talk
+      - start_time: "10:05"
+        end_time: "10:35"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:35"
+        end_time: "11:20"
+        sessions:
+          - talk_slug: "designing-rich-api-clients-at-scale"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "next-generation-scada-monitoring-and-controlling-devices-in-the-connected-world"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "packaging-for-production"
+            track: "Regimental"
+            kind: talk
+      - start_time: "11:25"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "tools-everyone-needs-a-reflection-on-building-and-running-a-server-at-whatsapp"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "gen-statem-the-tool-you-never-knew-you-always-wanted"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "quantum-computing-exposed-schr-dinger-s-grumpy-cat"
+            track: "Regimental"
+            kind: talk
+      - start_time: "12:15"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "introducing-wrek-a-library-for-executing-dependency-graphs"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "lpwan-and-cellular-iot-explained-how-to-connect-devices-in-the-wild"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "building-and-integrating-a-data-platform"
+            track: "Regimental"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:40"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "a-tour-through-the-distributed-system-zoo"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "wxerlang-faithful-representation"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "erlang-in-action-how-erlang-lets-us-create-a-scalable-edge-based-iot-solution"
+            track: "Regimental"
+            kind: talk
+      - start_time: "14:30"
+        end_time: "15:15"
+        sessions:
+          - talk_slug: "spells-hexes-and-charms-running-your-own-private-package-service"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "making-it-lazy-never-evaluate-anything-more-than-once"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "fighting-authoritarianism-with-blockchain-and-blockweaves"
+            track: "Regimental"
+            kind: talk
+      - start_time: "15:20"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "trusted-autonomy"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "release-deploy-monitor-and-upgrade-elixir-services-in-real-world"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "mixing-in-elixir-to-build-search"
+            track: "Regimental"
+            kind: talk
+      - start_time: "15:45"
+        end_time: "16:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:15"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "releases-and-elixir-envisioning-a-more-perfect-union"
+            track: "Crystal Ballroom"
+            kind: talk
+          - talk_slug: "wide-world-of-actors-comparing-the-pony-language-to-erlang"
+            track: "Crystal Lounge"
+            kind: talk
+          - talk_slug: "a-graphql-on-elixir-primer"
+            track: "Regimental"
+            kind: talk
+      - start_time: "17:05"
+        end_time: "17:50"
+        sessions:
+          - talk_slug: "unreachable-code-a-conversation-about-safety-and-human-factors"
+            track: "Crystal Ballroom"
+            kind: keynote
+      - start_time: "17:50"
+        end_time: "18:00"
+        sessions:
+          - title: "Closing Notes"
+            kind: social
