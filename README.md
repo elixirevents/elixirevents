@@ -85,9 +85,11 @@ The release uses two roles on the same host:
 
 This keeps long-running jobs from impacting request latency.
 
-### Common operations
+### Common operations (maintainers only)
 
-Run from your local machine (Kamal aliases defined in `config/deploy.yml`):
+The following commands are for maintainers with SSH access to the production host and a populated `.kamal/secrets` file. Contributors don't need any of this — see [Local Setup](#local-setup) and [Working with Data](#working-with-data) for the developer workflow.
+
+Aliases are defined in `config/deploy.yml`:
 
 | Command | What it does |
 |---|---|
@@ -100,8 +102,6 @@ Run from your local machine (Kamal aliases defined in `config/deploy.yml`):
 | `kamal db` | `psql` into the production database |
 | `kamal db-dump > backup.dump` | Stream a `pg_dump` to your machine |
 | `kamal restart` | Reboot the app containers |
-
-The remote IEx connection relies on a pinned node name configured in `rel/env.sh.eex` (long-name distribution with a fixed `127.0.0.1` host) — required to make `bin/<app> remote` work reliably inside Kamal/Docker containers, where the auto-detected hostname is unstable.
 
 ## Contributing
 
