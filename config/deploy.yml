@@ -8,6 +8,21 @@ servers:
   web:
     hosts:
       - 62.238.14.62
+    cmd: bin/server
+    options:
+      env:
+        clear:
+          PHX_SERVER: "true"
+          OBAN_QUEUES: "none"
+  workers:
+    hosts:
+      - 62.238.14.62
+    cmd: bin/server
+    options:
+      env:
+        clear:
+          PHX_SERVER: "false"
+          OBAN_QUEUES: "default:5,search:5"
 
 proxy:
   ssl: true
@@ -37,6 +52,7 @@ env:
   secret:
     - SECRET_KEY_BASE
     - DATABASE_URL
+    - RELEASE_COOKIE
     - RESEND_API_KEY
     - MAILER_FROM_EMAIL
     - MAILER_FROM_NAME
@@ -61,3 +77,14 @@ accessories:
 
 ssh:
   user: root
+
+aliases:
+  console: app exec -i --reuse "/app/bin/elixir_events remote"
+  shell: app exec -i --reuse "bash"
+  logs: app logs -f
+  errors: app logs --grep "error\\|exception"
+  sync: app exec --reuse "/app/bin/elixir_events eval 'ElixirEvents.Release.full_sync()'"
+  reindex: app exec --reuse "/app/bin/elixir_events rpc 'ElixirEvents.Search.reindex()'"
+  db: accessory exec db -i --reuse "psql -U elixir_events elixir_events_prod"
+  db-dump: accessory exec db --reuse "pg_dump -U elixir_events -Fc elixir_events_prod"
+  restart: app boot

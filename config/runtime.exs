@@ -107,9 +107,36 @@ if config_env() == :prod do
     name: "elixir_events",
     push_api_key: System.fetch_env!("APPSIGNAL_PUSH_API_KEY")
 
+  # Parse OBAN_QUEUES env var. Set per-role in config/deploy.yml so that
+  # `web` containers don't process jobs (queues: false) and `workers`
+  # containers do. Format: "default:5,search:5" or "none".
+  #
+  # Whitelist queue names to avoid atom exhaustion — only known queues
+  # are accepted; unknown entries raise at boot.
+  known_queues = %{"default" => :default, "search" => :search}
+
+  oban_queues =
+    case System.get_env("OBAN_QUEUES", "default:5,search:5") do
+      "none" ->
+        false
+
+      str ->
+        str
+        |> String.split(",", trim: true)
+        |> Enum.map(fn entry ->
+          [name, limit] = String.split(entry, ":", parts: 2)
+
+          atom =
+            Map.get(known_queues, name) ||
+              raise "Unknown OBAN_QUEUES entry: #{name}. Known: #{inspect(Map.keys(known_queues))}"
+
+          {atom, String.to_integer(limit)}
+        end)
+    end
+
   config :elixir_events, Oban,
     repo: ElixirEvents.Repo,
-    queues: [search: 5, default: 5],
+    queues: oban_queues,
     plugins: [
       {Oban.Plugins.Cron,
        crontab: [

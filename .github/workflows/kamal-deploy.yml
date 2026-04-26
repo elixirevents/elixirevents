@@ -45,6 +45,16 @@ jobs:
           cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:buildcache
           cache-to: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:buildcache,mode=max
 
+      - name: Smoke-test the release boots
+        run: |
+          docker run --rm --platform linux/arm64 \
+            -e SECRET_KEY_BASE=stub-not-used-by-eval \
+            -e DATABASE_URL=ecto://stub:stub@localhost/stub \
+            -e PHX_HOST=stub \
+            -e RELEASE_COOKIE=stub \
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
+            ./bin/elixir_events eval ":ok"
+
   deploy:
     name: Deploy to production
     runs-on: ubuntu-latest
