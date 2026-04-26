@@ -86,6 +86,10 @@
   slug: "rust"
   description: "Using Rust with Elixir and the BEAM, including NIFs and native extensions"
 
+- name: "Python"
+  slug: "python"
+  description: "Using Python with Erlang/Elixir and the BEAM, including bridges, NIFs, and interop"
+
 - name: "Microservices"
   slug: "microservices"
   description: "Designing and operating microservice-based architectures"

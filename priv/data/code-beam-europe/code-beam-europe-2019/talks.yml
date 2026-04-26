@@ -1,0 +1,832 @@
+## Keynotes
+
+- title: "Why time is evil in distributed systems"
+  slug: "why-time-is-evil-in-distributed-systems"
+  kind: keynote
+  language: en
+  duration: 43
+  abstract: |
+    Building distributed systems is hard, even using languages such as Erlang that support them well. There are many problems that have to be solved: partial failure, nondeterminism, observable delays, event ordering, global state, distributed consistency, performance (latency and throughput), and so on. Progress has been made in solving these problems, but often in isolation and without realizing how the solutions are related. In this talk I go to the heart of the matter and explain why almost all of these hard problems are avatars of one problem, namely real-world time. I explain how to avoid time when building distributed systems. There are some cases when time cannot be avoided, even in principle, and I will explain those as well. In both situations, using and avoiding time, I will try to present general solutions at a correct level of abstraction. All ideas will be illustrated by examples of real distributed systems from my experience (edge computing, consistent replication, etc.). I hope that this talk will give you a fresh outlook on distributed systems and help you design better ones.
+  speakers:
+    - petervanroy
+  topics:
+    - distribution
+    - observability
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "NBJ5SiwCNmU"
+      url: "https://www.youtube.com/watch?v=NBJ5SiwCNmU"
+
+- title: "Can you teach a school class functional programming?"
+  slug: "can-you-teach-a-school-class-functional-programming"
+  kind: keynote
+  language: en
+  duration: 30
+  abstract: |
+    When discovering SWI Prolog at age 14, an entirely new world was opening up in front of me. All of a sudden I could create whatever I wanted, and it was with that experience that I took on the challenge my colleague was throwing at me that Monday morning: Can you teach a school class functional programming?
+  speakers:
+    - madeleinemalmsten
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "WT-dQ1jFSrg"
+      url: "https://www.youtube.com/watch?v=WT-dQ1jFSrg"
+
+## Talks
+
+- title: "OTP team update - May 2019"
+  slug: "otp-team-update-may-2019"
+  kind: talk
+  language: en
+  duration: 29
+  abstract: "An update from the OTP team at Code BEAM STO 2019."
+  speakers:
+    - kennethlundin
+  topics:
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "yyIAJbT_Jf8"
+      url: "https://www.youtube.com/watch?v=yyIAJbT_Jf8"
+
+- title: "Natively Functional UI with Scenic"
+  slug: "natively-functional-ui-with-scenic"
+  kind: talk
+  language: en
+  duration: 50
+  abstract: |
+    Get to know Scenic, the first fully functional UI system built directly for and on the BEAM. Boyd will show the high-level concepts and functionality of Scenic, including latest developments. Building a UI system on the BEAM is also a great way to understand supervision trees. This talk will demonstrate software isolation, recovery, concurrency and more using Scenic to directly see what is going on.
+  speakers:
+    - boydmulterer
+  topics:
+    - testing
+    - concurrency
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "dgllQmf5DXk"
+      url: "https://www.youtube.com/watch?v=dgllQmf5DXk"
+
+- title: "The BEAM programming paradigm"
+  slug: "the-beam-programming-paradigm"
+  kind: talk
+  language: en
+  duration: 43
+  abstract: |
+    BEAM language systems have a different set of paradigms from other programming language systems, emphasizing on the immutability of the language elements and the robust protection against the possible malfunction. We demonstrate what kind of principles the BEAM language systems focus on by comparing with the examples of other language systems and the applications including C++ and C#.
+  speakers:
+    - kenjirikitake
+  topics:
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "_KXHE6ULnww"
+      url: "https://www.youtube.com/watch?v=_KXHE6ULnww"
+
+- title: "Useless performance optimisations on the BEAM for fun and... fun?"
+  slug: "useless-performance-optimisations-on-the-beam-for-fun-and-fun"
+  kind: talk
+  language: en
+  duration: 46
+  abstract: |
+    The race between Man and Machine for writing The Fastest Code is on since the first compiler has been invented. Now, I'm afraid when it comes to targeting x64, our chances of beating the Machine are negligible. But maybe with the BEAM we still hold a chance? Let's dig into BEAM assembly and find out whether we can show erlc a lesson or two!
+  speakers:
+    - danielszoboszlay
+  topics:
+    - testing
+    - compilers
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "qEo-nIMEGAc"
+      url: "https://www.youtube.com/watch?v=qEo-nIMEGAc"
+
+- title: "Security versus interoperability"
+  slug: "security-versus-interoperability"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    The talk is about the security protocol SSL/TLS, with pointers to the implementation in Erlang/OTP.
+    It will for example cover :
+    - the advantages with implementing the protocol in Erlang
+    - parts that should not be implemented in Erlang (the actual crypto algorithms)
+    - new features and optimizations in the OTP ssl implementation.
+  speakers:
+    - ingelaandin
+  topics:
+    - otp
+    - security
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "dR5Gn7dI9vo"
+      url: "https://www.youtube.com/watch?v=dR5Gn7dI9vo"
+
+- title: "What does Dialyzer think about me?"
+  slug: "what-does-dialyzer-think-about-me"
+  kind: talk
+  language: en
+  duration: 25
+  abstract: |
+    If you have been in the BEAM community for a while, you know that Dialyzer is a tool with fanatic lovers and haters. In the speaker's personal opinion, however, most of the haters actually like Dialyzer, but absolutely loathe how the tool is treating them. In this talk I will explain how Dialyzer works, with the goal to help you decipher its warnings (or their absence), make it run faster and increase your overall productivity while using it.
+  speakers:
+    - stavrosaronis
+  topics:
+    - type-system
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "Nxsw1jRE2A4"
+      url: "https://www.youtube.com/watch?v=Nxsw1jRE2A4"
+
+- title: "How to sleep well after a major code refactoring"
+  slug: "how-to-sleep-well-after-a-major-code-refactoring"
+  kind: talk
+  language: en
+  duration: 46
+  abstract: |
+    We all change our mind and realise that our code needs a major refactoring in order to meet new ideas. In the Aeternity blockchain project, this has happened several times. A blockchain is very sensitive to changes because blockchains elementary are based upon hashes of terms that should match with earlier hashes. A change that causes a hash to differ could mean that people can no longer access their assets on the blockchain.
+  speakers:
+    - thomasarts
+  topics:
+    - refactoring
+  recordings:
+    - provider: youtube
+      external_id: "MwaUdNi34b4"
+      url: "https://www.youtube.com/watch?v=MwaUdNi34b4"
+
+- title: "BEAM + Rust: A match made in heaven"
+  slug: "beam-rust-a-match-made-in-heaven"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    In this talk, Sonny will introduce you to Rust - a systems programming language that aims to empower everyone to build reliable and efficient software and the various methods we can use to integrate with it from the BEAM.
+  speakers:
+    - sonnyscroggin
+  topics:
+    - rust
+  recordings:
+    - provider: youtube
+      external_id: "xe32ku9s14k"
+      url: "https://www.youtube.com/watch?v=xe32ku9s14k"
+
+- title: "ErlangRT, a BEAM VM reimplementation in Rust"
+  slug: "erlangrt-a-beam-vm-reimplementation-in-rust"
+  kind: talk
+  language: en
+  duration: 44
+  abstract: |
+    The time is long overdue to rewrite the technology, which we all use, in a safe and strongly typed language, such as Rust. Started with a small mailing list discussion in September 2017, the implementation is marching towards having a working Erlang shell and running Common Test suites from Erlang OTP source.
+  speakers:
+    - dmytrolytovchenko
+  topics:
+    - otp
+    - rust
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "e7T6p8ynVuM"
+      url: "https://www.youtube.com/watch?v=e7T6p8ynVuM"
+
+- title: "How Erlang got its name"
+  slug: "how-erlang-got-its-name"
+  kind: talk
+  language: en
+  duration: 27
+  abstract: |
+    Erlang was the third language designed at Ericsson with a structure of modules, processes and process communication in the tradition of Modula. Modula had been designed by Niklaus Wirth the inventor also of Pascal. This talk will discuss the large scale international efforts in the 1980’s to create a standard systems programming language.
+  speakers:
+    - bjarnedacker
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "0ytatCDEGyc"
+      url: "https://www.youtube.com/watch?v=0ytatCDEGyc"
+
+- title: "Just delete it!"
+  slug: "just-delete-it"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    Are we creating big balls of mud within our applications? Is an abstraction necessary or is it going to couple the code to the implementation? Can I achieve code isolation without overcomplicating? The challenge is to reach the nirvana of simple code isolation verse complex code abstraction. But is it realistically obtainable? The challenge is set: implement patterns that will allow us to just delete & rewrite code in days instead of weeks, weeks instead of months, and months instead of ... version 2.
+  speakers:
+    - johnnywinn
+  topics:
+    - ai
+  recordings:
+    - provider: youtube
+      external_id: "yk_-t_Pw3XA"
+      url: "https://www.youtube.com/watch?v=yk_-t_Pw3XA"
+
+- title: "Pyrlang: Python meets Erlang"
+  slug: "pyrlang-python-meets-erlang"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: "We'll present a quick overview of Pyrlang and its capabilities and make some use case discussions around future project within AI / ML and web development."
+  speakers:
+    - johansommerfeld
+  topics:
+    - erlang
+    - python
+  recordings:
+    - provider: youtube
+      external_id: "g5JjbwCf06M"
+      url: "https://www.youtube.com/watch?v=g5JjbwCf06M"
+
+- title: "Working with legacy code"
+  slug: "working-with-legacy-code"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    In a world driven by software, sooner or later, everyone needs to develop code left behind by somebody else. In this talk, we discuss what is legacy code, how to understand it, and the required mindset needed to tackle it. Since dealing with legacy is mostly about understanding the code, we provide some ideas of what tools to use on the BEAM platform to ease grokking the legacy system. Through battle stories, we provide examples which challenge the job of future developers, suggesting how to avoid them.
+  speakers:
+    - gaborolah
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "n0XCMHrSbwc"
+      url: "https://www.youtube.com/watch?v=n0XCMHrSbwc"
+
+- title: "The wide world of almost-actors: comparing the Pony language to BEAM languages"
+  slug: "the-wide-world-of-almost-actors-comparing-the-pony-language-to-beam-languages"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    As Erlang & Elixir programmers, the Actor Model of computation sits comfortably in our minds. Processes that communicate only by message passing makes building concurrent applications easy. It feels natural. We take it for granted. The inventor of the Actor Model, Dr. Carl Hewitt, says that Erlang does not implement the Actor Model. Erlang co-creators Joe Armstrong and Robert Virding agree with Hewitt. Let's explore Actor Model wrongs & rights with BEAM languages compared to Pony (http://ponylang.io).
+  speakers:
+    - scottlystigfritchie
+  topics:
+    - elixir
+    - concurrency
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "_0m0_qtfzLs"
+      url: "https://www.youtube.com/watch?v=_0m0_qtfzLs"
+
+- title: "LUX - an expect like test tool"
+  slug: "lux-an-expect-like-test-tool"
+  kind: talk
+  language: en
+  duration: 43
+  abstract: |
+    LUX is an open source test tool written in Erlang and mostly used for testing Erlang code. But as a user of the tool you do not need to bother about that. It provides a highly automated test environment where it is simple to perform concurrent orchestration of text based interfaces such as shells, interpreters, CLI's etc. Some major design goals are that the test programs should be easy to understand, easy to analyse the outcome of the tests, easy to debug and trace.
+  speakers:
+    - constahs
+    - hakanmattsson
+  topics:
+    - testing
+    - concurrency
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Nu15YOpmCKQ"
+      url: "https://www.youtube.com/watch?v=Nu15YOpmCKQ"
+
+- title: "Continuous tracing in production (without Erlang's trace module)"
+  slug: "continuous-tracing-in-production-without-erlang-s-trace-module"
+  kind: talk
+  language: en
+  duration: 26
+  abstract: |
+    Collecting trace data from your application is a very important, but often overlooked, aspect of Application Performance Monitoring (APM). In this talk, we will learn about the core concepts of application tracing (OpenTracing and OpenCensus), some of the tools that are available for collecting and visualizing trace data, and how this data can be used for troubleshooting errors and performance issues, in both monolithic and distributed micro-service architectures.
+  speakers:
+    - gregmefford
+  topics:
+    - distribution
+    - observability
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "QY4jfi-J0k0"
+      url: "https://www.youtube.com/watch?v=QY4jfi-J0k0"
+
+- title: "Erlang distribution: going beyond the fully connected mesh"
+  slug: "erlang-distribution-going-beyond-the-fully-connected-mesh"
+  kind: talk
+  language: en
+  duration: 43
+  abstract: |
+    In our search to improve Erlang distribution as cluster sizes grow and topologies become more dynamic, we have tried many things: prototyping solutions to ahead-of-line blocking using fragmented packages, using UDP for distribution, and experimenting with Time Sensitive Networking (TSN) for real-time Erlang in industrial settings.
+  speakers:
+    - peerstritzinger
+    - johnnywinn
+    - josevalim
+    - miriampena
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "ZHacI06RWhU"
+      url: "https://www.youtube.com/watch?v=ZHacI06RWhU"
+
+- title: "Eir: Infrastructure for working with BEAM code"
+  slug: "eir-infrastructure-for-working-with-beam-code"
+  kind: talk
+  language: en
+  duration: 35
+  abstract: |
+    Eir is an intermediate representation for Erlang code. It is designed to support advanced code optimizations, and for use with LLVM. During the presentation, two proof-of-concepts will be presented, both utilizing Eir:
+    • Whirl - A proof-of-concept WebAssembly runtime for BEAM languages
+    • Niffy - A tool for automatically generating NIFs from Erlang/Elixir code The talk will serve as a walkthrough of Eir and it's related projects, including where it came from, where it is right now, and where it might be headed in the future.
+  speakers:
+    - hanseliasjosephsen
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "xSWxlLCfF6s"
+      url: "https://www.youtube.com/watch?v=xSWxlLCfF6s"
+
+- title: "Evolution of Riak: resolving problems in distributed systems"
+  slug: "evolution-of-riak-resolving-problems-in-distributed-systems"
+  kind: talk
+  language: en
+  duration: 47
+  abstract: |
+    This talk will cover some problems of building a distributed system framework: - Mass adoption of scale-out with difficult developer trade-offs is hard to achieve;
+    - The problems of testing claims of correctness;
+    - Replication of activity and the impact on throughput, and replication of data can itself be a cause of data loss;
+    - Non-conformity of performance between nodes is very difficult to manage (one slow node).
+  speakers:
+    - martinsumner
+  topics:
+    - testing
+    - distribution
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "zx26KmQ8Cv0"
+      url: "https://www.youtube.com/watch?v=zx26KmQ8Cv0"
+
+- title: "Riak's rebound"
+  slug: "riak-s-rebound"
+  kind: talk
+  language: en
+  duration: 26
+  abstract: |
+    This talk will cover the death of Basho, the rescue of the ""Enterprise Edition"" and dead code, and the resurgence of Riak as a viable distributed NoSQL database and cloud storage service thanks to an active development community
+  speakers:
+    - nicholasadams
+  topics:
+    - community
+    - distribution
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "Li3-aR9m8sQ"
+      url: "https://www.youtube.com/watch?v=Li3-aR9m8sQ"
+
+- title: "Raxx.Kit - Lean mean web development for Elixir"
+  slug: "raxx-kit-lean-mean-web-development-for-elixir"
+  kind: talk
+  language: en
+  duration: 31
+  abstract: |
+    The Raxx ecosystem is a powerful, focused and extensible toolkit for web development. By providing tools focused just on the web layer, it is flexible enough to be used in any kind of application. Raxx.Kit boosts getting started with Raxx. It does this by introducing conventions for project structure, asset management, deployment, testing and more. Now Raxx has reached 1.0, development is focused on bolstering and expanding the conventions in Raxx.Kit that are most useful to developers.
+  speakers:
+    - petersaxton
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "5YYpVJHA0sw"
+      url: "https://www.youtube.com/watch?v=5YYpVJHA0sw"
+
+- title: "Introduction to a type system: session types"
+  slug: "introduction-to-a-type-system-session-types"
+  kind: talk
+  language: en
+  duration: 28
+  abstract: |
+    Correctness in software development is an important subject that has been explored by the academy and by the industry. How to ensure that your program cannot fail ? How to ensure that what you're developing will work as expected without unwanted side-effects ? etc.
+  speakers:
+    - charlottedeoliveira
+  topics:
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "cuOGyWVSeJs"
+      url: "https://www.youtube.com/watch?v=cuOGyWVSeJs"
+
+- title: "TDD is not about testing"
+  slug: "tdd-is-not-about-testing"
+  kind: talk
+  language: en
+  duration: 38
+  abstract: |
+    Why should we use TDD to develop in Elixir? When we are applying it correctly? What are the differences that we can find in a CODE developed with TDD and in code not developed with it? Is it TDD about testing? Really? In this talk, I'll show what is TDD and how can be used it in functional programming like Elixir to design the small and the big parts of your system, showing what are the difference and the similarities between an OOP and FP environment. Showing what is the values of applying a technique like TDD in Elixir and what we should obtain applying it.
+  speakers:
+    - gianlucapadovani
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "AVKpChQoXXE"
+      url: "https://www.youtube.com/watch?v=AVKpChQoXXE"
+
+- title: "PHP over Erlang: how and why?"
+  slug: "php-over-erlang-how-and-why"
+  kind: talk
+  language: en
+  duration: 45
+  abstract: |
+    I started to develop this crazy idea back in 2013 when I was playing with PEG and Neotoma to parse another crazy idea to build a MySQL server simulator to access to Erlang and gather information (myproto). After the first try, I realize I can perform something with PHP could be impossible to do, like better resources control, real-time coverage or even use websockets. In 2016 Bragful project was created.
+  speakers:
+    - manuelrubio
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "z7xLHzSR4GA"
+      url: "https://www.youtube.com/watch?v=z7xLHzSR4GA"
+
+- title: "Scalable MQTT messaging platform for IoT in 5G era"
+  slug: "scalable-mqtt-messaging-platform-for-iot-in-5g-era"
+  kind: talk
+  language: en
+  duration: 28
+  abstract: |
+    Powered by Erlang/OTP, EMQ X is a highly scalable, highly available distributed message broker for most IoT applications as well as M2M and mobile applications, applicable virtually everywhere. An EMQ X cluster can handle up to tens of millions of connections. Today, thousands of enterprise users, including 10+ fortune 500 companies, are using EMQ X connecting more than 50 million devices.
+  speakers:
+    - zhengyupan
+  topics:
+    - otp
+    - embedded
+    - distribution
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "dSVRqlYjeJg"
+      url: "https://www.youtube.com/watch?v=dSVRqlYjeJg"
+
+- title: "Taming side effects"
+  slug: "taming-side-effects"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    The systems we build every day have side effects: save data, send emails, write logs, push metrics, you name it! Many errors and headaches come from the difficulties involved in working and testing such code.
+  speakers:
+    - claudioortolina
+  topics:
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "Pu8v2o9L5EI"
+      url: "https://www.youtube.com/watch?v=Pu8v2o9L5EI"
+
+- title: "Think in Erlang!"
+  slug: "think-in-erlang"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: |
+    Have you ever felt that a solution is too complicated? In this talk, you are going to learn a universal recipe that you can use every day to provide simple solutions to complex problems. We start with the philosophy of Erlang and learn its key messages. Then we study how these core thoughts are baked into Erlang/OTP, and why they help. Then we are going to see how Cisco NSO engineers created a patented algorithm to solve a complex problem: orchestrating network services. Yes, using the same recipe!
+  speakers:
+    - viktoriafordos
+  topics:
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "zAPGs0CLyvA"
+      url: "https://www.youtube.com/watch?v=zAPGs0CLyvA"
+
+- title: "Implementing long running business processes"
+  slug: "implementing-long-running-business-processes"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: |
+    Erlang/OTP provides a great infrastructure for implementing business processes. Although several additional features are needed in typical BPM application, like persistence, audit, migration of processes in a cluster. In this talk we present a framework for implementing long running FSM based processes as well as several design patterns that rendered useful in practice. The main features the framework provides are the defined semantics for structured states, scoped timers, persistence, audit and clustering.
+  speakers:
+    - karolispetrauskas
+  topics:
+    - otp
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "8-fKdVlELFc"
+      url: "https://www.youtube.com/watch?v=8-fKdVlELFc"
+
+- title: "Buildings start-ups with Elixir"
+  slug: "buildings-start-ups-with-elixir"
+  kind: talk
+  language: en
+  duration: 42
+  abstract: |
+    Start-ups face unique opportunities and challenges often different from established businesses. One opportunity is the liberty to choose the tech stack one deems most fitting (or likes best). Yet a wrong decision will cause major headaches in the future.
+  speakers:
+    - michaelschaefermeyer
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "icfvFFZUxZQ"
+      url: "https://www.youtube.com/watch?v=icfvFFZUxZQ"
+
+- title: "Testing in an Elixir world"
+  slug: "testing-in-an-elixir-world"
+  kind: talk
+  language: en
+  duration: 18
+  abstract: "In this talk, will share fundamental knowledge about tests with Elixir. Through examples, explore how can we bring specifications, clarity, and better practices to be more self-confident while coding."
+  speakers:
+    - rafaelrocha
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "M8rv-gvTG-M"
+      url: "https://www.youtube.com/watch?v=M8rv-gvTG-M"
+
+- title: "BEAM for smart energy"
+  slug: "beam-for-smart-energy"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: |
+    This talk presents a case study applying Erlang in the energy domain. Within STORY - a Horizon 2020 project - industrial automation and Erlang have been targeting energy storage installations. In industrial automation, an IT platform disruption is long overdue, and the pressure is rising continuously. When the disruption happens, Erlang, Elixir, the OTP, BEAM and ERTS represent unrivalled value. In STORY, embedded and networked digital twins - implemented in Erlang - demonstrate this.
+  speakers:
+    - paulvalckenaers
+  topics:
+    - elixir
+    - otp
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "-KwPx9Y0KWo"
+      url: "https://www.youtube.com/watch?v=-KwPx9Y0KWo"
+
+- title: "Innovative unorthodox design patterns used in RabbitMQ"
+  slug: "innovative-unorthodox-design-patterns-used-in-rabbitmq"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    RabbitMQ messaging broker is over 10years old, with it's codebase having matured significantly over the past decade. Within it's implementation, we find some of the most innovative usage of the Erlang OTP which attribute to it's well trusted performance, stability and ergonomic friendliness for operators. In this talk, I illustrate, explain and share some of these creative internal design patterns used within RabbitMQ. Components such as mirrored-supervisors, decorators, gen_server2, delegates, and much much more!
+  speakers:
+    - ayandadube
+  topics:
+    - otp
+    - rust
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "zYN9L8xZ4CU"
+      url: "https://www.youtube.com/watch?v=zYN9L8xZ4CU"
+
+- title: "Building the tomorrow classroom with Elixir"
+  slug: "building-the-tomorrow-classroom-with-elixir"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    Bunsan is Mexican software company running with 100% remote employees. We care about continuous learning and found out that remote working platforms and collaboration tools won't cover all the features we expected, because they are too broad or too specific. So we are building Tich to bring the best experience for students and instructors into a virtual classroom using awesome technologies like Elixir, Phoenix Channels, Janus WebRTC, Vue.js, Elm and Apple Pencil.
+  speakers:
+    - anayelimalvaez
+  topics:
+    - elixir
+    - phoenix
+    - webrtc
+  recordings:
+    - provider: youtube
+      external_id: "u8VDncG47zg"
+      url: "https://www.youtube.com/watch?v=u8VDncG47zg"
+
+- title: "Opencensus: A stats collection and distributed tracing framework - an update"
+  slug: "opencensus-a-stats-collection-and-distributed-tracing-framework-an-update"
+  kind: talk
+  language: en
+  duration: 39
+  abstract: |
+    In microservices architectures, it is difficult to understand how services use resources across shared infrastructure. In monolithic systems, we depend on traditional tools that report per-process resource usage and latency characteristics that are limited to a single process. In order to be able to collect and analyze resource utilization and performance characteristics of distributed systems, OpenCensus tracks resource utilization through the chain of services processing a user request.
+  speakers:
+    - iliiakhaprov
+  topics:
+    - distribution
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "pEF42-zBeXI"
+      url: "https://www.youtube.com/watch?v=pEF42-zBeXI"
+
+- title: "PowerUp the BEAM with Kubernetes and Riak Core"
+  slug: "powerup-the-beam-with-kubernetes-and-riak-core"
+  kind: talk
+  language: en
+  duration: 25
+  abstract: |
+    At Talkdesk we had the mission of building a high available and fault tolerant system that could scale. We built a system that runs in-memory to maintain low response times and we built it in a way to keep the operational costs low and with the capability of auto-scaling.
+  speakers:
+    - ricardooliveira
+  topics:
+    - kubernetes
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "_t6Wb_cy-sY"
+      url: "https://www.youtube.com/watch?v=_t6Wb_cy-sY"
+
+- title: "Make a distributed toolbox with Ra"
+  slug: "make-a-distributed-toolbox-with-ra"
+  kind: talk
+  language: en
+  duration: 41
+  abstract: |
+    Ra (https://github.com/rabbitmq/ra) is an implementation of the Raft consensus protocol by Team RabbitMQ. In RabbitMQ Ra is used to implement a consistent replicated queue but that isn't all that Ra can be used for. This talks will be a practical session on how to implement consistent distributed system essentials such as replicated a key-value stores, leader election processes, lock servers and other coordination services on top of the Ra library.
+  speakers:
+    - karlnilsson
+  topics:
+    - libraries
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "wHpNfCeX_Vk"
+      url: "https://www.youtube.com/watch?v=wHpNfCeX_Vk"
+
+- title: "XMPP/UDP Realtime service bus"
+  slug: "xmpp-udp-realtime-service-bus"
+  kind: talk
+  language: en
+  duration: 22
+  speakers:
+    - thiagorochacamargo
+  topics:
+    - webrtc
+  recordings:
+    - provider: youtube
+      external_id: "UVwtgBEfcAs"
+      url: "https://www.youtube.com/watch?v=UVwtgBEfcAs"
+
+- title: "Exop on StreamData"
+  slug: "exop-on-streamdata"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    I'd like to tell a story how I was inspired by Andrea Leopardi's talk. Property-based testing is a mindset he gave at ElixirConfEU 2018 in Warsaw, Poland, and what is ExopData as the result of this inspiration. The audience will find out what are Exop and StreamData with a brief description of these libraries. Next, I'm going to provide the idea behind ExopData, how it was started and evolved, which tricky moments we've faced during the implementation. And how ExopData can help you with data generating or property-based testing.
+  speakers:
+    - andreychernykh
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "sW50ZGjqwiE"
+      url: "https://www.youtube.com/watch?v=sW50ZGjqwiE"
+
+- title: "Trust issues: trouble in package paradise"
+  slug: "trust-issues-trouble-in-package-paradise"
+  kind: talk
+  language: en
+  duration: 42
+  abstract: |
+    This last year has seen attacks like the compromising of event-stream package in the JavaScript ecosystem. It clearly demonstrated that attackers injecting malicious code into libraries we use is not just a theoretical problem, but something that happens in practice We'll talk about how the new version of Hoplon helps mitigate this problem using public key cryptography and a simple trust model - all of that without the need for a trusted third party or abandoning the common package ecosystem.
+  speakers:
+    - jacekkrolikowski
+  topics:
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "ejAY6yWXZSc"
+      url: "https://www.youtube.com/watch?v=ejAY6yWXZSc"
+
+- title: "Building, testing and deploying apps with Docker in Azure"
+  slug: "building-testing-and-deploying-apps-with-docker-in-azure"
+  kind: talk
+  language: en
+  duration: 17
+  abstract: |
+    Can you introduce Elixir at a ""Microsoft shop""? During the past year we have gone from using C#/.NET to working full-time with Elixir. In this presentation will share our solution for building, testing, releasing and running Elixir applications in Azure. Using Azure DevOps and Docker.
+  speakers:
+    - eriksvensson
+  topics:
+    - elixir
+    - testing
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "XYMMn0IS7qQ"
+      url: "https://www.youtube.com/watch?v=XYMMn0IS7qQ"
+
+- title: "Tortoise evolved: MQTT 5 support in the Tortoise MQTT client"
+  slug: "tortoise-evolved-mqtt-5-support-in-the-tortoise-mqtt-client"
+  kind: talk
+  language: en
+  duration: 32
+  abstract: |
+    MQTT is a light-weight PubSub protocol used for machine to machine communication. It its often used in IoT applications, so it fits well in many Nerves projects. Tortoise is a MQTT client for Elixir. It started its life as a MQTT 3.1.1 client, but is in the progress of getting an upgrade to the latest version of MQTT; version 5. Martin will introduce MQTT; give an overview of the new features in MQTT 5; how Tortoise is designed to make MQTT easy to work with in Elixir, and how MQTT 5 will influence that design.
+  speakers:
+    - martingausby
+  topics:
+    - elixir
+    - nerves
+    - testing
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "BP9J6vKgKf8"
+      url: "https://www.youtube.com/watch?v=BP9J6vKgKf8"
+
+- title: "Boosting reinforcement learning with Elixir"
+  slug: "boosting-reinforcement-learning-with-elixir"
+  kind: talk
+  language: en
+  duration: 33
+  abstract: |
+    Reinforcement learning (RL) is becoming a successful strategy for solving goal oriented problems and is emerging as the most promising framework towards general artificial intelligence. Some challenges of RL include deployment on intrinsically distributed and concurrent physical devices where Elixir naturally stands out and offers additional benefits for boosting RL on real-world applications. In this talk, a framework (Gyx) for defining, solving and deploying Reinforcement Learning problems in Elixir is presented.
+  speakers:
+    - ricardocorralcorral
+  topics:
+    - elixir
+    - distribution
+    - concurrency
+    - machine-learning
+  recordings:
+    - provider: youtube
+      external_id: "n0X61Ad8Ofo"
+      url: "https://www.youtube.com/watch?v=n0X61Ad8Ofo"
+
+- title: "Introducing the Erlang Ecosystem Foundation"
+  slug: "introducing-the-erlang-ecosystem-foundation"
+  kind: talk
+  language: en
+  duration: 29
+  abstract: |
+    Thursday evening keynote at the Code BEAM STO where you can hear all about the newly formed Erlang Ecosystem Foundation. A talk from Jose Valim, Peer Stritzinger, Miriam Pena, Alastair Woodman, and Francesco Cesarini who are sharing the journey and goals of the foundation that we've all waited for!
+  speakers:
+    - josevalim
+    - miriampena
+    - peerstritzinger
+    - johnnywinn
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "jQdhYx57n1k"
+      url: "https://www.youtube.com/watch?v=jQdhYx57n1k"
+
+- title: "Elixir Core team update (June 2019)"
+  slug: "elixir-core-team-update-june-2019"
+  kind: talk
+  language: en
+  duration: 15
+  abstract: |
+    Jose will give updates on what the Elixir team has done in the last few months, what are the projects they're working on, what's going on in the research side, and what features will be in the next release.
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "SYN4wg7pOpM"
+      url: "https://www.youtube.com/watch?v=SYN4wg7pOpM"
+
+- title: "BEAM extreme; don't try this at home!"
+  slug: "beam-extreme-don-t-try-this-at-home"
+  kind: talk
+  language: en
+  duration: 34
+  abstract: |
+    Who can't use an extra performance boost now than then? This talk collects a set of outrageous stunts and maybe-controversial defying acts I have seen and sometimes made in production, that can give the Erlang Virtual Machine that extra speed or memory edge on different scenarios.
+  speakers:
+    - miriampena
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "_ePnlegZqgI"
+      url: "https://www.youtube.com/watch?v=_ePnlegZqgI"
+
+- title: "gen_persistence: persist the state of your processes"
+  slug: "gen-persistence-persist-the-state-of-your-processes"
+  kind: talk
+  language: en
+  duration: 21
+  abstract: |
+    Often we want to persist the state of our Erlang processes so that it can be recovered after a crash, started/restarted on demand (via a supervisor or manually) or migrated in the cluster via a storage provider. To solve it I have created a new small opensource library. With gen_perstistence all events coming to your modules are stored to the disk and replayed on the restart but it’s also possible to store a snapshot of the state to reduce the recovery time. An implementation of gen_statem and gen_server with persistence is also provided.
+  speakers:
+    - benoitchesneau
+  topics:
+    - libraries
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "g-2qYXMexg8"
+      url: "https://www.youtube.com/watch?v=g-2qYXMexg8"

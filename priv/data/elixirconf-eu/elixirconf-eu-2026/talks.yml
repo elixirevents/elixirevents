@@ -563,6 +563,7 @@
   topics:
     - otp
     - erlang
+    - python
 
 - title: "Mapping the Cloud with Elixir"
   slug: "mapping-the-cloud-with-elixir"

@@ -260,6 +260,8 @@
     - arjanscherpenisse
   topics:
     - elixir
+    - machine-learning
+    - python
   recordings:
     - provider: youtube
       external_id: "U8c_hsWC2jE"

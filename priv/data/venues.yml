@@ -338,3 +338,15 @@
   longitude: 13.4528
   website: "https://www.estrel.com"
   description: "Germany's largest hotel and convention centre, located in Berlin's Neukölln district along the banks of the Neukölln Ship Canal."
+
+- name: "Münchenbryggeriet Events & Conferences"
+  slug: "munchenbryggeriet"
+  street: "Torkel Knutssongatan 2"
+  city: "Stockholm"
+  country: "Sweden"
+  country_code: "SE"
+  postal_code: "118 25"
+  latitude: 59.32068
+  longitude: 18.056175
+  website: "https://www.munchenbryggeriet.se"
+  description: "A historic former brewery on Södermalm, now one of Stockholm's largest event venues, with sweeping views over the city's waterfront."
