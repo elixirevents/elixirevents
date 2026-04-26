@@ -554,3 +554,9 @@
   website: "https://www.eventbrowse.com"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/3c324aa5f448b3d8ccd9fc71e984d453e9a22622.png"
   description: "Tech conference discovery platform."
+
+- name: "Underjord"
+  slug: "underjord"
+  website: "https://underjord.io"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/03/f679d3993395469aa88c78053e8b7de716b65748.png"
+  description: "Small Elixir-focused consultancy and BEAM ecosystem advocacy run by Lars Wikman."

@@ -1,0 +1,27 @@
+- name: "Diversity & Inclusion Sponsors"
+  level: 1
+  sponsors:
+    - slug: "klarna"
+    - slug: "erlang-ecosystem-foundation"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "blockfi"
+    - slug: "fresha"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "appsignal"
+    - slug: "underjord"
+
+- name: "Media"
+  level: 5
+  sponsors:
+    - slug: "clever-bunny"
