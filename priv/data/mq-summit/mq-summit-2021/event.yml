@@ -1,0 +1,16 @@
+name: "RabbitMQ Summit 2021"
+slug: "mq-summit-2021"
+kind: summit
+status: completed
+format: online
+start_date: "2021-07-13"
+end_date: "2021-07-14"
+timezone: "Europe/London"
+language: en
+location: "Online"
+website: "https://rabbitmqsummit.com/2021"
+color: "#2B6CB0"
+description: |
+  The 3rd edition of RabbitMQ Summit took place as a virtual event on July 13-14, 2021 and brought together some of the world's biggest companies using RabbitMQ.
+
+  RabbitMQ continues to be one of the most widely deployed open source message brokers, used by tens of thousands of companies worldwide. It is a leading implementer of the Advanced Message Queuing Protocol (AMQP) and supports a host of other protocols, including MQTT and STOMP.

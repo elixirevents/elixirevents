@@ -1,0 +1,140 @@
+## Keynotes
+
+- title: "Keynote: Bringing a Ferrari to a Horse Race - Going From Background Jobs to Event-Driven Microservices with RabbitMQ"
+  slug: "keynote-bringing-a-ferrari-to-a-horse-race"
+  kind: keynote
+  language: en
+  duration: 54
+  speakers:
+    - sophiedebenedetto
+    - stevennunez
+  topics:
+    - messaging
+    - microservices
+  recordings:
+    - provider: youtube
+      external_id: "x4ZApyHrI8g"
+      url: "https://www.youtube.com/watch?v=x4ZApyHrI8g"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1_GD6ZAUcW0T0D0ihp6jtPpIdxAjtonto/view?usp=sharing"
+
+- title: "Keynote: Introducing Stream Support in RabbitMQ"
+  slug: "keynote-introducing-stream-support-in-rabbitmq"
+  kind: keynote
+  language: en
+  duration: 50
+  speakers:
+    - arnaudcogoluegnes
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "PnmGoMiaJhE"
+      url: "https://www.youtube.com/watch?v=PnmGoMiaJhE"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/12q0wUSNcbgsTbO0QbDBqgRUtlbu2ln5V/view?usp=sharing"
+
+## Talks
+
+- title: "Fireside Chat on Client Libraries"
+  slug: "fireside-chat-on-client-libraries"
+  kind: talk
+  language: en
+  duration: 52
+  speakers:
+    - gavinroy
+    - michaelklishin
+    - carlhorberg
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "cYIkjB3hYAk"
+      url: "https://www.youtube.com/watch?v=cYIkjB3hYAk"
+
+- title: "Panel Discussion: The New RabbitMQ Streams"
+  slug: "panel-discussion-the-new-rabbitmq-streams"
+  kind: talk
+  language: en
+  duration: 50
+  speakers:
+    - arnaudcogoluegnes
+    - dianaparracorbacho
+    - karlnilsson
+    - gaborolah
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "dhhr2LVPF1c"
+      url: "https://www.youtube.com/watch?v=dhhr2LVPF1c"
+
+- title: "RabbitMQ Has a Problem - Let Us Tell You About It"
+  slug: "rabbitmq-has-a-problem-let-us-tell-you-about-it"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 37
+  speakers:
+    - davidansari
+    - gerhardlazu
+  topics:
+    - messaging
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "Z2fRY4TRYcs"
+      url: "https://www.youtube.com/watch?v=Z2fRY4TRYcs"
+
+- title: "Update from the Rabbit Core Team"
+  slug: "update-from-the-rabbit-core-team"
+  kind: talk
+  language: en
+  duration: 30
+  speakers:
+    - edbyford
+    - michalkuratczyk
+    - yaronparasol
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "KDpSWE4qyxU"
+      url: "https://www.youtube.com/watch?v=KDpSWE4qyxU"
+
+- title: "How to RabbitMQ on Kubernetes"
+  slug: "how-to-rabbitmq-on-kubernetes"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  speakers:
+    - chunyilyu
+  topics:
+    - messaging
+    - kubernetes
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "Nzz1p_t2l1U"
+      url: "https://www.youtube.com/watch?v=Nzz1p_t2l1U"
+
+- title: "Varonis Journey Deploying RabbitMQ"
+  slug: "varonis-journey-deploying-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: |
+    Varonis's journey deploying RabbitMQ for on-premise customers — making sure that RabbitMQ keeps working.
+  speakers:
+    - ophirgregoryziskind
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "aUZf1jZcKoQ"
+      url: "https://www.youtube.com/watch?v=aUZf1jZcKoQ"

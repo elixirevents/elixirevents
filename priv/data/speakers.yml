@@ -8444,6 +8444,60 @@
     - platform: linkedin
       url: "https://www.linkedin.com/in/lovisa-johansson-a6836733/"
 
+- name: "Arnaud Cogoluègnes"
+  slug: "arnaudcogoluegnes"
+  headline: "Staff Engineer at VMware"
+  bio: "Software engineer on the RabbitMQ team."
+  city: Lyon
+  country_code: FR
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/arnaudcogoluegnes/"
+
+- name: "Ed Byford"
+  slug: "edbyford"
+  headline: "Product Manager building developer tools at Kong"
+  bio: "Product leader passionate about building successful product development teams and processes, helping everyone feel successful at work. 10+ years of experience in business process improvement, systems integration, and stakeholder management. Passionate about climate tech and social impact."
+  city: London
+  country_code: GB
+  website: "https://edbyford.com/"
+  social_links:
+    - platform: github
+      url: "https://github.com/edbyford"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/edbyford/"
+    - platform: bluesky
+      url: "https://bsky.app/profile/edbyford.bsky.social"
+
+- name: "Yaron Parasol"
+  slug: "yaronparasol"
+  headline: "Senior Product Manager at Yugabyte"
+  bio: "Experienced enterprise software product manager with a strong background in driving early-stage products to mature offerings with large enterprise deals. Trusted advisor to Fortune 500 customers and a frequent speaker at global industry events. Previously Senior Principal Product Manager at Redis, Product Manager for Tanzu RabbitMQ at VMware, and Senior Product Manager at Elastic for Elasticsearch's management GUI."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/parasol/"
+
+- name: "Chunyi Lyu"
+  slug: "chunyilyu"
+  headline: "Staff Software Engineer at Syntasso"
+  bio: "Staff Software Engineer at Syntasso. Previously Staff Software Engineer at VMware on the RabbitMQ team, with earlier engineering roles at Pivotal."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/ChunyiLyu"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/chunyilyu/"
+
+- name: "Ophir Gregory Ziskind"
+  slug: "ophirgregoryziskind"
+  headline: "Software Engineer at Varonis"
+  bio: "Software Engineer at Varonis since 2017, with earlier experience at Intel Corporation. Holds a BSc in Computer Science from the Technion — Israel Institute of Technology."
+  city: Morrisville
+  country_code: US
+
 - name: "Diana Parra Corbacho"
   slug: "dianaparracorbacho"
   headline: "Senior Software Engineer at Pivotal (RabbitMQ core team)"
