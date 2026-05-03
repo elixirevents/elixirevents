@@ -390,6 +390,18 @@
   website: "https://marinesmemorial.org"
   description: "A historic 12-story hotel and event venue in San Francisco's Union Square, owned and operated by the Marines' Memorial Association as a living memorial to fallen U.S. Marines."
 
+- name: "ILEC Conference Centre"
+  slug: "ilec-conference-centre"
+  street: "47 Lillie Road"
+  city: "London"
+  country: "United Kingdom"
+  country_code: "GB"
+  postal_code: "SW6 1UD"
+  latitude: 51.4859
+  longitude: -0.1991
+  website: "https://www.ileclondon.co.uk"
+  description: "A large conference centre attached to the ibis London Earls Court hotel in West Kensington, with a flagship 750-seat London Suite auditorium used by tech and industry events."
+
 - name: "CodeNode"
   slug: "codenode-london"
   street: "10 South Place"

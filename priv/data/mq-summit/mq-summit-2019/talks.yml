@@ -1,0 +1,294 @@
+## Keynotes
+
+- title: "Keynote: An Update from the RabbitMQ Team (version 3.8)"
+  slug: "keynote-an-update-from-the-rabbitmq-team-version-3-8"
+  kind: keynote
+  language: en
+  duration: 28
+  abstract: |
+    A lot has happened since the last RabbitMQ Summit. Hear from the RabbitMQ core engineering team about what near term updates to 3.8 will include as well as longer-term vision for making RabbitMQ more protocol agnostic, easier to manage and scale, and changes to the schema database.
+  speakers:
+    - michaelklishin
+    - dianaparracorbacho
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "K5wZUoz4dak"
+      url: "https://www.youtube.com/watch?v=K5wZUoz4dak"
+
+- title: "Keynote: Growing a Farm of Rabbits to Scale Financial Applications"
+  slug: "keynote-growing-a-farm-of-rabbits-to-scale-financial-applications"
+  kind: keynote
+  language: en
+  duration: 46
+  abstract: |
+    Today, Bloomberg's many engineering teams around the globe have the luxury of access to a fully-managed RabbitMQ platform.
+  speakers:
+    - willhoy
+    - davidliu
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "tTh1nIKEOU4"
+      url: "https://www.youtube.com/watch?v=tTh1nIKEOU4"
+
+## Talks
+
+- title: "Practical Advice for the Care and Feeding of RabbitMQ"
+  slug: "practical-advice-for-the-care-and-feeding-of-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 45
+  abstract: |
+    After 10 years of heavy use of RabbitMQ in production, common problems, patterns, and solutions have emerged. In this talk we will cover architecture, configuration and operational management, monitoring, and maybe a disaster story or two.
+  speakers:
+    - gavinroy
+  topics:
+    - messaging
+    - deployment
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "ZAEXEN_LvE4"
+      url: "https://www.youtube.com/watch?v=ZAEXEN_LvE4"
+
+- title: "Do Not Guess, Trace"
+  slug: "do-not-guess-trace"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  abstract: |
+    RabbitMQ runs on a battle-tested Erlang VM which provides many exceptional features for Distributed, Fault-Tolerant, Highly Available and Robust systems out of the box. But this doesn't always prevent our RabbitMQ installation from misbehaving without clear signs of what's wrong. It can be frustrating for operators and developers. Here Tracing, another Erlang feature, comes to the rescue!
+  speakers:
+    - kacpermentel
+  topics:
+    - messaging
+    - erlang
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "sCudkorq86E"
+      url: "https://www.youtube.com/watch?v=sCudkorq86E"
+
+- title: "WeWork's \"Good Enough\" Order Guarantee"
+  slug: "weworks-good-enough-order-guarantee"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  abstract: |
+    Through a good understanding of their data needs and a willingness to compromise, Ilana and Avikam figured out how to rearchitect their app's RabbitMQ pipeline in order to save their company developer time and money.
+  speakers:
+    - ilanasufrin
+    - avikamagur
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "PXFpxKsW4SM"
+      url: "https://www.youtube.com/watch?v=PXFpxKsW4SM"
+
+- title: "Lifting the Lid on Quorum Queues"
+  slug: "lifting-the-lid-on-quorum-queues"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 25
+  abstract: |
+    Quorum Queues are a promising new RabbitMQ feature but how do they work under the hood? What were the design decisions and trade-offs that had to be made and what even is Raft?
+  speakers:
+    - karlnilsson
+  topics:
+    - messaging
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "_oUDZbWtuJw"
+      url: "https://www.youtube.com/watch?v=_oUDZbWtuJw"
+
+- title: "Monitoring & Scaling Based on RabbitMQ Telemetry"
+  slug: "monitoring-and-scaling-based-on-rabbitmq-telemetry"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 48
+  abstract: |
+    Zalando's Communication platform products are powered by a RabbitMQ cluster as the broker for all service to service communication. A mixed set of work loads between transactional & commercial communication use-cases running 24/7 our systems gains their scalability and resilience patterns relying on multiple telemetry points we collect and react on in real time. Managing cost efficiency and finding the right spot to launch more compute power has been a seamless effort with backlogs as a steering point alongside CPU utilization of the consumer application.
+  speakers:
+    - omarelasfar
+  topics:
+    - messaging
+    - observability
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "jCEwYPedJdw"
+      url: "https://www.youtube.com/watch?v=jCEwYPedJdw"
+
+- title: "Observe and Understand RabbitMQ"
+  slug: "observe-and-understand-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 19
+  abstract: |
+    RabbitMQ exposes metrics and healthchecks that answer all questions. Future RabbitMQ versions will make it easy to visualise and understand what happens under the hood. Join me to learn about the future of RabbitMQ observability.
+  speakers:
+    - gerhardlazu
+    - michalkuratczyk
+  topics:
+    - messaging
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "L-tYXpirbpA"
+      url: "https://www.youtube.com/watch?v=L-tYXpirbpA"
+
+- title: "How to Use Multiple RabbitMQ Brokers with SpringBoot"
+  slug: "how-to-use-multiple-rabbitmq-brokers-with-springboot"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  abstract: |
+    How to connect your SpringBoot application to multiple RabbitMQ brokers? But why do you need multiple RabbitMQ brokers in the first place? The solution I'm going to present solves different use cases: from brokers in different PAAS providers to dedicated brokers for different use cases or contexts. To solve these problems in hundreds of micro-services, we wrote this simple-to-use open source library.
+  speakers:
+    - wandercosta
+  topics:
+    - messaging
+    - microservices
+  recordings:
+    - provider: youtube
+      external_id: "2eSHgkBbSFY"
+      url: "https://www.youtube.com/watch?v=2eSHgkBbSFY"
+
+- title: "Using the Source-Oriented Exchanges Pattern to Keep Events in Order"
+  slug: "using-the-source-oriented-exchanges-pattern-to-keep-events-in-order"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 15
+  abstract: |
+    Almost every introduction to publish-subscribe technology embraces a model where different message types appear on correspondingly distinct topics. Unfortunately this introduces a rather fundamental flaw into common integration scenarios: it loses the order of events across the topics. The effects of this unintended re-ordering can be significant, forcing developers to implement elaborate workarounds. Using the "source-oriented exchanges" pattern, Alex will show how RabbitMQ offer a way to implement the equivalent of topics without losing track of the overall order of messages.
+  speakers:
+    - alexthomas
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "74Jm0oGdop8"
+      url: "https://www.youtube.com/watch?v=74Jm0oGdop8"
+
+- title: "Rapidly Building Event Driven and Streaming Applications with RabbitMQ"
+  slug: "rapidly-building-event-driven-and-streaming-applications-with-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: |
+    In this session we explore a variety of modern event processing and streaming solutions built on top of RabbitMQ. We will demonstrate how Spring Cloud Streams and RabbitMQ provide abstractions for developers to easily build event driven apps. Furthermore, the audience will take away tools and techniques to solve stateless and stateful streaming problems using RabbitMQ and Reactive Streams. This is a live-coding session.
+  speakers:
+    - madhavsathe
+    - marcialrosales
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "PCCTpCfNyUk"
+      url: "https://www.youtube.com/watch?v=PCCTpCfNyUk"
+
+- title: "RabbitMQ MQTT vs EMQX"
+  slug: "rabbitmq-mqtt-vs-emqx"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: |
+    RabbitMQ is a multi-protocol messaging broker, which, on a vanilla installation supports AMQP-0.9-1 (and AMQP-0.8). Through its plugin architecture, RabbitMQ may also be configured to act as a messaging broker for other protocols such as MQTT, STOMP, AMQP-1.0, CoAP, SMTP, etc. EMQX is another emerging MQTT messaging broker of high repute and use in industry. Questions arise on which one is better for MQTT, or which one to use? RabbitMQ for MQTT, or EMQX? Join me in this talk as I answer these questions and help users decide on the best choice MQTT broker to use.
+  speakers:
+    - grigorystarinkin
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "k9DxUVOaz8g"
+      url: "https://www.youtube.com/watch?v=k9DxUVOaz8g"
+
+- title: "Running RabbitMQ at Scale"
+  slug: "running-rabbitmq-at-scale"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: |
+    CloudAMQP provides RabbitMQ clusters as a service, but what happens behind the scenes?
+  speakers:
+    - lovisajohansson
+    - andersbalter
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "6P-GcXFAHjE"
+      url: "https://www.youtube.com/watch?v=6P-GcXFAHjE"
+
+- title: "Uncommon Monitoring and Analytics for RabbitMQ"
+  slug: "uncommon-monitoring-and-analytics-for-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: |
+    In order to detect anomalies and prevent runtime issues that can compromise the delivery of business services that depend on RabbitMQ, effective monitoring, alerting and analytics tools can make a big difference. But are all of the available tools alike? Attend this session to discover what Nastel has to offer.
+  speakers:
+    - scottcorrigan
+  topics:
+    - messaging
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "CDRvXuPMM_0"
+      url: "https://www.youtube.com/watch?v=CDRvXuPMM_0"
+
+- title: "Panel Debate: RabbitMQ and Its Future"
+  slug: "panel-debate-rabbitmq-and-its-future"
+  kind: talk
+  language: en
+  duration: 40
+  abstract: |
+    It's time to talk about the current state and future for the most widely deployed open source message broker in the world. Selected guests takes part in a panel debate, including questions from the audience.
+  speakers:
+    - dormaindrewitz
+    - jackvanlightly
+    - carlhorberg
+    - michaelklishin
+    - ayandadube
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "UPKaCnpXGgE"
+      url: "https://www.youtube.com/watch?v=UPKaCnpXGgE"
+
+- title: "Feature Complete: Uncovering the True Cost of Different RabbitMQ Features and Configurations"
+  slug: "feature-complete-uncovering-the-true-cost-of-different-rabbitmq-features-and-configurations"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 51
+  abstract: |
+    They call RabbitMQ the swiss army knife of messaging systems, but what impact do all those features have on performance?
+  speakers:
+    - jackvanlightly
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "T8PspEW_8J0"
+      url: "https://www.youtube.com/watch?v=T8PspEW_8J0"

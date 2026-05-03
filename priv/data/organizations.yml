@@ -776,3 +776,15 @@
   website: "https://www.cogin.com"
   logo_url: "https://rabbitmqsummit.com/img/logos/logo-queue-explorer.png"
   description: "Maker of Queue Explorer, a desktop tool for managing and inspecting RabbitMQ, MSMQ, IBM MQ, ActiveMQ, and other message brokers."
+
+- name: "Oliver Wyman"
+  slug: "oliver-wyman"
+  website: "https://www.oliverwyman.com"
+  logo_url: "https://rabbitmqsummit.com/img/logos/logo-oliver-wyman.png"
+  description: "Global management consultancy known for industry expertise in financial services, with an in-house technology arm building bespoke software for clients."
+
+- name: "Nastel Technologies"
+  slug: "nastel"
+  website: "https://www.nastel.com"
+  logo_url: "https://rabbitmqsummit.com/img/logos/logo-nastel.png"
+  description: "Provider of i2M (integration infrastructure management), AI-driven monitoring, tracing, and analytics for messaging middleware and event-driven systems."
