@@ -3371,7 +3371,7 @@
 
 - name: "Adam Lancaster"
   slug: "adamlancaster"
-  headline: "Putting the \"wow\" in \"wow, who the hell wrote this?!\""
+  headline: 'Putting the "wow" in "wow, who the hell wrote this?!"'
   bio: |
     Adam has been writing Elixir professionally for 7 years and no one has stopped him yet.
 
@@ -7627,7 +7627,7 @@
 
 - name: "Grant Powell"
   slug: "grantpowell"
-  headline: "Senior software engineer at SalesLoft. Co-instructor of \"Building scalable real-time systems in Elixir\" training course at ElixirConf 2019"
+  headline: 'Senior software engineer at SalesLoft. Co-instructor of "Building scalable real-time systems in Elixir" training course at ElixirConf 2019'
   bio: |
     Grant is a software engineer and technical leader at SalesLoft who has been designing, writing, (and debugging) Elixir based systems in production for the past two years. Grant regularly speaks on Elixir, concurrency and functional programming. Grant has a passion for teaching and mentoring in the field of software engineering.
   social_links:
@@ -7807,7 +7807,7 @@
 
 - name: "Jay Nelson"
   slug: "jaynelson"
-  headline: "Proselytizes \"the Erlang way\" for apps in telecoms, electronic payments, secure texting, and ad delivery"
+  headline: 'Proselytizes "the Erlang way" for apps in telecoms, electronic payments, secure texting, and ad delivery'
   bio: "Jay has spent the last 10 years proselytizing The Erlang Way for applications in telecoms, electronic payments, secure texting, and ad delivery."
   social_links:
     - platform: twitter
@@ -8199,3 +8199,88 @@
   headline: "Software Architect"
   bio: |
     Thiago Esteves is a Software Engineer whose career has evolved from low-level systems with microcontrollers to embedded systems, safety applications, and high-level language applications such as web servers. With a strong hardware background, he brings a unique perspective to software solutions. With over 20 years of experience—more than six dedicated to Beam projects—Thiago has led and contributed to many successful projects. Now, he’s focused on spreading the word that the Beam is all you need!
+
+- name: "Kamila Pokój"
+  slug: "kamilapokoj"
+  headline: "Senior Marketing Manager at Erlang Solutions, Gleam Core Team"
+  bio: |
+    Marketer with a versatile background, bringing a well-rounded understanding of all key marketing areas to plan, prioritize and guide marketing teams. Senior Marketing Manager at Erlang Solutions, where she leads marketing for Code Sync conferences (including ElixirConf EU and Code BEAM events) and Erlang Solutions' broader presence. Core team member of the Gleam programming language since May 2025, focused on developer relations and community outreach.
+  city: Łódź
+  country_code: PL
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/kamila-pok%C3%B3j/"
+
+- name: "Frank Eickhoff"
+  slug: "frankeickhoff"
+  headline: "Senior Platform Engineer at Klarna"
+  bio: |
+    Senior Platform Engineer working on AWS, distributed systems and SRE/cloud infrastructure with Elixir, Erlang and Python. At Klarna since 2020, designing standardized logging and observability platforms, integrating cloud services like AWS CloudWatch, and building CI/CD pipelines for multi-account/multi-region deployments. Previously an independent Erlang consultant, migrating monolithic Erlang services and leading multi-region deployment pipelines.
+  city: Berlin
+  country_code: DE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/frank-eickhoff-4395693a9/"
+
+- name: "Joseph Stewart"
+  slug: "josephstewart"
+  headline: "Principal Engineer"
+  bio: |
+    Highly skilled engineer who works smart and loves challenges and new opportunities. Enjoys solving problems through experimentation and observation to develop innovative solutions. Has a proven track record of building and delivering embedded devices and server / network-based products for consumer and industrial markets.
+  city: "Thousand Oaks"
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/octetta/"
+
+- name: "Austin Ziegler"
+  slug: "austinziegler"
+  headline: "Experienced Software Development Leader and Software Developer"
+  city: Toronto
+  country_code: CA
+  bio: |
+    I build software development teams that deliver software at scale. With more than two decades of software development and delivery experience delivering solutions, both small and large, I have encouraged team members to themselves become leaders and software architects. I build teams to be cross-functional and exploratory, choosing the delivery language, platform, and model as appropriate to the problems being solved.
+
+    I continue to build software directly, working "only slightly removed from pure thought-stuff…, creating by exertion of the imagination" as Fred Brooks Jr said. I have been responsible for the design and implementation of systems small and large, from multi-service API backends at scale for retail mobile applications to small utilities that make building software easier. I have built billing and discounting systems, systems integrations, and maintain several Ruby libraries that are widely used. I have personally shipped software for other people written in more than twenty programming languages on about half as many platforms.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/austinziegler/"
+
+- name: "Rock Neurotiko"
+  slug: "rockneurotiko"
+  headline: "Software Engineer"
+  bio: "Hi! I'm Rock Neurotiko, a software engineer based in Madrid. I mainly program in Elixir, enjoy videogames and cars."
+  city: Madrid
+  country_code: ES
+  social_links:
+    - platform: github
+      url: "https://github.com/rockneurotiko"
+    - platform: website
+      url: "https://www.neurotiko.com/"
+    - platform: instagram
+      url: "https://www.instagram.com/rockneurotiko/"
+
+- name: "Max Gorin"
+  slug: "maxgorin"
+  headline: "Principle SW engineer. Productive with Elixir, Phoenix, LiveView, and Claude Code. Contracting at Jump and building various projects on the side."
+  city: Kyiv
+  country_code: UA
+  bio: |
+    Programming languages: Elixir, Javascript, Ruby, Elm.
+
+    Author of Netzke, an open source framework built on top of Ruby on Rails and Sencha Ext JS for building complex RIA in a modular way — https://netzke.org
+
+    Good at software architecture, TDD/BDD, consultancy, open source, public speaking, technical training.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/mxgrn"
+    - platform: github
+      url: "https://github.com/mxgrn"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/mxgrn/"
+    - platform: bluesky
+      url: "https://bsky.app/profile/mxgrn.com"
+    - platform: instagram
+      url: "https://www.instagram.com/mxgrn"
+    - platform: website
+      url: "https://mxgrn.com/"
