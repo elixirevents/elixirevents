@@ -1,0 +1,17 @@
+name: "RabbitMQ Summit 2018"
+slug: "mq-summit-2018"
+venue_slug: "codenode-london"
+kind: summit
+status: completed
+format: in_person
+start_date: "2018-11-12"
+end_date: "2018-11-12"
+timezone: "Europe/London"
+language: en
+location: "London, United Kingdom"
+website: "https://rabbitmqsummit.com/2018"
+color: "#2B6CB0"
+description: |
+  The first RabbitMQ Summit connected RabbitMQ users and developers from around the world in London on November 12, 2018. Speakers and keynotes covered what was happening in and around RabbitMQ, and how top companies utilized RabbitMQ to power their services.
+
+  RabbitMQ Summit was organized by Erlang Solutions and CloudAMQP.

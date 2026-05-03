@@ -752,3 +752,27 @@
   website: "https://www.synadia.com"
   logo_url: "https://mqsummit.com/assets/images/sponsors/synadia-logo-dark.png"
   description: "Creators of NATS, a high-performance messaging system for distributed and edge systems."
+
+- name: "Pivotal"
+  slug: "pivotal"
+  website: "https://tanzu.vmware.com"
+  logo_url: "https://rabbitmqsummit.com/img/logos/logo-pivotal.png"
+  description: "Software company behind Cloud Foundry and the long-time corporate steward of RabbitMQ. Acquired by VMware in 2019."
+
+- name: "LShift"
+  slug: "lshift"
+  website: "https://www.lshift.net"
+  logo_url: "https://rabbitmqsummit.com/img/logos/logo-lshift.png"
+  description: "London-based bespoke software consultancy and original creators of RabbitMQ before its acquisition by SpringSource."
+
+- name: "Trifork"
+  slug: "trifork"
+  website: "https://trifork.com"
+  logo_url: "https://rabbitmqsummit.com/img/logos/logo-trifork.png"
+  description: "European software development and consultancy group focused on enterprise solutions, integration, and event-driven architectures."
+
+- name: "Cogin"
+  slug: "cogin"
+  website: "https://www.cogin.com"
+  logo_url: "https://rabbitmqsummit.com/img/logos/logo-queue-explorer.png"
+  description: "Maker of Queue Explorer, a desktop tool for managing and inspecting RabbitMQ, MSMQ, IBM MQ, ActiveMQ, and other message brokers."

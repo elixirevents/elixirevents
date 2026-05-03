@@ -8359,3 +8359,98 @@
   social_links:
     - platform: linkedin
       url: "https://linkedin.com/in/vigneshselvam28/"
+
+- name: "Gavin M. Roy"
+  slug: "gavinroy"
+  headline: "Author of RabbitMQ in Depth, Engineering Leader, and Passionate Technologist"
+  bio: |
+    Gavin M. Roy is a technology executive and developer specializing in open source, with extensive experience in internet application development, community building, and website scaling. He is the author of RabbitMQ in Depth, an active RabbitMQ community member, and the maintainer of the Python AMQP driver, Pika.
+
+    With over 20 years of programming experience, Gavin has overseen the formation of several open-source projects and online communities, and has worked with both internet startups and well-established organizations on system analysis and architecture strategy.
+  city: Washington
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/gavinmroy/"
+
+- name: "Michael Klishin"
+  slug: "michaelklishin"
+  headline: "Senior Software Engineer and Serial Open Source Contributor"
+  bio: |
+    Experienced polyglot software engineer focusing on data services, the Internet of Things (IoT), and cloud infrastructure automation. Many of the projects and tools Michael has been involved with are used in production by Fortune 500 companies (including the top 10), fast-growing startups, and civil government agencies.
+
+    16 years of experience overall, more than 7 of which involved working on data infrastructure, leading teams and projects, and mentoring people.
+  city: Vancouver
+  country_code: CA
+  social_links:
+    - platform: github
+      url: "https://github.com/michaelklishin"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/michaelklishin/"
+    - platform: bluesky
+      url: "https://bsky.app/profile/michaelklishin.bsky.social"
+
+- name: "Jack Vanlightly"
+  slug: "jackvanlightly"
+  headline: "Senior Principal Technologist at Confluent"
+  bio: "Things that Jack knows and loves most: messaging systems, databases, distributed systems engineering and testing, formal verification, research/analysis, and writing."
+  city: Barcelona
+  country_code: ES
+  website: "https://jack-vanlightly.com/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/vanlightly"
+    - platform: bluesky
+      url: "https://bsky.app/profile/vanlightly.bsky.social"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/jack-vanlightly-1153b44a/"
+
+- name: "Matteo Cafasso"
+  slug: "matteocafasso"
+  headline: "VP of Protection Services at CUJO AI"
+  bio: "Software architect and engineering leader with a long background in cloud security, malware analysis platforms, and distributed data processing. A long-time RabbitMQ user and contributor of plugins to the broker."
+  city: Helsinki
+  country_code: FI
+  social_links:
+    - platform: github
+      url: "https://github.com/noxdafox"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/matteo-cafasso/"
+
+- name: "Dormain Drewitz"
+  slug: "dormaindrewitz"
+  headline: "Fractional CMO | Marketing Consultant | Advisor | Product Marketing"
+  bio: "With 20 years of experience in the infrastructure software sector, as a financial analyst-turned-marketing leader, Dormain brings a unique blend of industry knowledge, analytical thinking, messaging experience, and tactical execution. She is an international public speaker, an award-winning community advocate, seasoned team leader, and relentless learner. She has built and led marketing and developer relations teams at Series C to publicly traded companies, through IPOs and acquisitions. Her consulting philosophy is to leave teams more capable while producing long shelf-life assets that credibly build brand awareness with technical audiences, support targeting demand gen campaigns, and enable enterprise sellers to close deals."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dormain/"
+
+- name: "Gerhard Lazu"
+  slug: "gerhardlazu"
+  headline: "Make it Work. Keep Improving."
+  bio: "CTO at Loophole Labs and producer/host of Make it Work. Previously Head of Infrastructure at Dagger and a long-time RabbitMQ contributor at VMware and Pivotal, where he led RabbitMQ observability with Prometheus and Grafana. Also Head of Infrastructure at Changelog, where he runs the open-source infrastructure behind changelog.com."
+  website: "https://gerhard.io/"
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/gerhardlazu/"
+
+- name: "Lovisa Johansson"
+  slug: "lovisajohansson"
+  headline: "Chief Marketing Officer at 84codes AB"
+  bio: "Chief Marketing Officer at 84codes, the company behind CloudAMQP (managed RabbitMQ as a service) and LavinMQ (a high-performance open-source AMQP broker). Joined 84codes in 2014 as a marketing manager and software developer, with earlier experience as a system developer in Sweden and Mauritius."
+  city: Skellefteå
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/lovisa-johansson-a6836733/"
+
+- name: "Jonathan Skrzypek"
+  slug: "jonathanskrzypek"
+  headline: "Engineering Director @ Dune | ex-Coinbase and Goldman Sachs"
+  bio: |
+    Seasoned engineering leader with expertise in blockchain data, cryptocurrency markets, and financial services infrastructure. Currently leads multiple engineering teams at Dune Analytics, driving blockchain data analytics solutions. Prior to Dune, managed market data systems for the institutional franchise at Coinbase and helped integrate Skew post-acquisition, where he previously scaled real-time data pipelines for crypto analytics.
+
+    Before transitioning into the blockchain space, spent nearly seven years at Goldman Sachs, leading global messaging infrastructure and managing teams to deliver high-availability systems for both trading and non-trading divisions.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/%F0%9F%92%BBjonathan-skrzypek-54127915"

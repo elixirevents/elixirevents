@@ -389,3 +389,14 @@
   longitude: -122.41072
   website: "https://marinesmemorial.org"
   description: "A historic 12-story hotel and event venue in San Francisco's Union Square, owned and operated by the Marines' Memorial Association as a living memorial to fallen U.S. Marines."
+
+- name: "CodeNode"
+  slug: "codenode-london"
+  street: "10 South Place"
+  city: "London"
+  country: "United Kingdom"
+  country_code: "GB"
+  postal_code: "EC2M 7EB"
+  latitude: 51.5189
+  longitude: -0.0844
+  description: "A purpose-built tech conference and meetup venue in the City of London near Moorgate, originally opened by Skills Matter as Europe's largest dedicated developer event space."
