@@ -279,6 +279,7 @@
     - johannalarsson
   topics:
     - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "E315pukytFI"

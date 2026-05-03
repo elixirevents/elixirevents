@@ -499,6 +499,7 @@
       - erlang
       - elixir
       - engineering
+      - messaging
     recordings:
       - provider: youtube
         external_id: "grQP1ikomek"

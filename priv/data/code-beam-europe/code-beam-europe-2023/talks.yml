@@ -805,6 +805,7 @@
   topics:
     - libraries
     - erlang
+    - messaging
   recordings:
     - provider: youtube
       external_id: "whVqpgvep90"

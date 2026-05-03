@@ -163,7 +163,6 @@
   level: intermediate
   language: en
   duration: 6
-  abstract: "Let's keep in touch! Follow us on:"
   speakers:
     - marcuscrestani
   topics:
@@ -604,7 +603,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "Let's keep in touch! Follow us on:"
   topics:
     - haskell
   recordings:
@@ -617,7 +615,6 @@
   kind: lightning_talk
   language: en
   duration: 10
-  abstract: "Let's keep in touch! Follow us on:"
   speakers:
     - gwendallaurent
   topics:
@@ -632,7 +629,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "Let's keep in touch! Follow us on:"
   topics:
     - functional-programming
   recordings:
@@ -645,7 +641,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "Let's keep in touch! Follow us on:"
   topics:
     - haskell
     - type-system
@@ -673,7 +668,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "Let's keep in touch! Follow us on:"
   topics:
     - erlang
     - security

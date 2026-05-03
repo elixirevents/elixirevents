@@ -468,6 +468,7 @@
     - embedded
     - distribution
     - libraries
+    - messaging
   recordings:
     - provider: youtube
       external_id: "dSVRqlYjeJg"
@@ -586,6 +587,7 @@
     - otp
     - rust
     - libraries
+    - messaging
   recordings:
     - provider: youtube
       external_id: "zYN9L8xZ4CU"
@@ -739,6 +741,7 @@
     - nerves
     - testing
     - embedded
+    - messaging
   recordings:
     - provider: youtube
       external_id: "BP9J6vKgKf8"

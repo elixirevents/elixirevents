@@ -708,6 +708,7 @@
   topics:
     - elixir
     - erlang
+    - messaging
   recordings:
     - provider: youtube
       external_id: "gtCJ56GxKf0"

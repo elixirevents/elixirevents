@@ -5,11 +5,18 @@
   kind: keynote
   language: en
   duration: 46
-  abstract: "When it comes to distributed computing, one of the perennial topics comes down to how different services should communicate. Working out the relative merits of specific technical approaches can become a complex affair however, so we often reach for categorisation to simplify our work. Often, the dis"
+  abstract: |
+    When it comes to distributed computing, one of the perennial topics comes down to how different services should communicate. Working out the relative merits of specific technical approaches can become a complex affair however, so we often reach for categorisation to simplify our work. Often, the discussion around inter-process communication hinges on what on the face of it seems to be a simple decision: Synchronous or Asynchronous. Just saying "we're cloud native!" isn't enough if you actually want to get anywhere, unless your goal is simply to dump loads of money into the hands of tech vendors and consultants.
+
+    Unfortunately, it turns out that this is far from a simple assessment of what approach is best. Aside from many nuances around this topic, the main issue is that it seems that people can't even agree on what asynchronous means! Is it non-blocking clients? Message-broker based communication? Does only inbox-based message passing apply?
+
+    In this talk, we'll explore the meaning of asynchronous in the context of distributed systems, and show that using the same word in ever-so slightly different contexts causes a huge amount of confusion.
   speakers:
     - samnewman
   topics:
-    - elixir
+    - messaging
+    - microservices
+    - distribution
   recordings:
     - provider: youtube
       external_id: "8ybqsEg2HYs"
@@ -20,11 +27,12 @@
   kind: keynote
   language: en
   duration: 29
-  abstract: "When it comes to distributed computing, one of the perennial topics comes down to how different services should communicate. Working out the relative merits of specific technical approaches can become a complex affair however, so we often reach for categorisation to simplify our work. Often, the dis"
+  abstract: |
+    Queues are a valuable part of life. We naturally integrate them into how we operate in so many ways, and this has been true in software for decades too. However, in recent years there has been a school of thought that queuing doesn't solve today's problems, and every queue can (and should) be replaced with an API or an event stream. Challenging the status quo is healthy, but developers are now rediscovering why queues are often the right choice and realising that alternatives, which may bring certain values, can lead to significant sacrifices elsewhere. In this talk we will look at what makes a queue a queue, the pros and cons against alternatives, and how ultimately you need to pick the right tool for the job.
   speakers:
     - davidware
   topics:
-    - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "3UGoG92j8o4"
@@ -38,13 +46,14 @@
   level: intermediate
   language: en
   duration: 26
-  abstract: "After a quick review of the state of the art on Apache ActiveMQ (and the latest releases), this talk will focus on the new important features coming in ActiveMQ, especially about the runtime, cloud integration & scalability, and observability & management."
+  abstract: |
+    After a quick review about state of the art on Apache ActiveMQ (and the latest releases), this talk will focus on the new important features coming in ActiveMQ, especially about the runtime, cloud integration & scalability, and observability & management. Apache ActiveMQ is a largely used messaging platform, supporting multiple protocols and clients.
   speakers:
     - jbonofre
   topics:
-    - elixir
-    - testing
+    - messaging
     - deployment
+    - observability
   recordings:
     - provider: youtube
       external_id: "tbUcAan32cM"
@@ -56,12 +65,13 @@
   level: intermediate
   language: en
   duration: 24
-  abstract: "This talk explores the architectural challenges and solutions for building scalable multi-tenant messaging systems. We'll examine isolation strategies, including shared versus dedicated queue architectures and their trade-offs. We will cover authentication and authorization frameworks to prevent cro"
+  abstract: |
+    This talk explores the architectural challenges and solutions for building scalable multi-tenant messaging systems. We'll examine isolation strategies, including shared versus dedicated queue architectures and their trade-offs. We will cover authentication and authorization frameworks to prevent cross-tenant data access and tackle the "noisy neighbor" problem—where high-volume tenants might impact others' performance.
   speakers:
     - dirkfrohner
     - artemgayardomatrosov
   topics:
-    - elixir
+    - messaging
     - security
   recordings:
     - provider: youtube
@@ -74,12 +84,12 @@
   level: intermediate
   language: en
   duration: 30
-  abstract: "The CNCF xRegistry project is an offspring of the graduated CNCF CloudEvents project, motivated by the need to formally declare which events can be raised by services and which are available to handle. This session provides an overview of the xRegistry metadata model, its API and the mirroring docum"
+  abstract: |
+    The CNCF xRegistry project is an offspring of the graduated CNCF CloudEvents project, motivated by the need to formally declare which events can be raised by services and which are available to handle. This session provides an overview of the xRegistry metadata model, its API and the mirroring document format, dives into reference implementations, explains its use in products, and shows you how you can leverage xRegistry to build robust and type-safe event pipelines.
   speakers:
     - clemensvasters
   topics:
-    - elixir
-    - phoenix
+    - messaging
   recordings:
     - provider: youtube
       external_id: "TrrMUGF-28Q"
@@ -91,11 +101,12 @@
   level: intermediate
   language: en
   duration: 19
-  abstract: "As streaming workloads grow, storage becomes the bottleneck that limits RabbitMQ deployments. This technical deep-dive explores how to break through local disk barriers using tiered storage architecture. You'll learn the fundamentals of RabbitMQ stream storage - from segment files to I/O operations "
+  abstract: |
+    As streaming workloads grow, storage becomes the bottleneck that limits RabbitMQ deployments. This technical deep-dive explores how to break through local disk barriers using tiered storage architecture. You'll learn the fundamentals of RabbitMQ stream storage - from segment files to I/O operations - and discover how to seamlessly extend existing systems through file abstraction layers. We'll cover implementing storage backends that preserve write performance while enabling transparent reads across tiers, all without disrupting live streaming workloads.
   speakers:
     - simonunge
   topics:
-    - elixir
+    - messaging
     - deployment
   recordings:
     - provider: youtube
@@ -108,12 +119,13 @@
   level: beginner
   language: en
   duration: 27
-  abstract: "You've probably used Valkey (or its predecessor) as a cache, however, hiding below the surface is a messaging powerhouse built for both scale, low latency, and high throughput. In this session, you'll learn about Valkey, a Linux Foundation back, high-speed, Key-Value datastore, provides both fundame"
+  abstract: |
+    You've probably used Valkey (or its predecessor) as a cache, however, hiding below the surface is a messaging powerhouse built for both scale, low latency, and high throughput. In this session, you'll learn about Valkey, a Linux Foundation backed, high-speed, Key-Value datastore, providing both fundamental primitives and complete solutions for a variety of messaging use cases.
   speakers:
     - robertolunarojas
     - kyledavis
   topics:
-    - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "RLR4g07hIew"
@@ -125,12 +137,14 @@
   level: intermediate
   language: en
   duration: 21
-  abstract: "This presentation explores robust messaging solutions for the Internet of Things, focusing on MQTT and Apache Pulsar.  We'll begin with MQTT as the de facto lightweight pub/sub protocol for edge communication, detailing its strengths and limitations. Then, we'll dive into Apache Pulsar, a scalable, "
+  abstract: |
+    This presentation explores robust messaging solutions for the Internet of Things, focusing on MQTT and Apache Pulsar. We'll begin with MQTT as the de facto lightweight pub/sub protocol for edge communication, detailing its strengths and limitations. Then, we'll dive into Apache Pulsar, a scalable, durable streaming platform ideal for IoT backend infrastructure, highlighting its unique architecture. Finally, we'll examine how MQTT and Pulsar can be combined, particularly through MQTT-on-Pulsar (MoP), to create a unified IoT data streaming pipeline.
   speakers:
     - matteomerli
+    - gauravsaxena
   topics:
-    - elixir
-    - nerves
+    - messaging
+    - embedded
   recordings:
     - provider: youtube
       external_id: "wfGLxecvQ2Y"
@@ -142,11 +156,14 @@
   level: intermediate
   language: en
   duration: 28
-  abstract: "Messaging gateways need to adapt to modern organization challenges. Organizations that require multi-location connectivity, hybrid-cloud or multi-cloud deployments need to deploy and manage messaging gateways and application connectivity to the gateway in a way that reduces human touch points, provi"
+  abstract: |
+    Messaging gateways need to adapt to modern organization challenges. Organizations that require multi-location connectivity, hybrid-cloud or multi-cloud deployments need to deploy and manage messaging gateways and application connectivity to the gateway in a way that reduces human touch points, provides self-service, and limits the need to change and redeploy code.
+
+    This session will quickly introduce messaging gateway architecture, provide an overview of how it has changed and what capabilities are needed for modern platform teams to deliver on excellence.
   speakers:
     - mattpavlovich
   topics:
-    - elixir
+    - messaging
     - deployment
   recordings:
     - provider: youtube
@@ -159,16 +176,36 @@
   level: intermediate
   language: en
   duration: 28
-  abstract: "The model context protocol (MCP) is a new open standard that enables AI models to integrate with external systems in a standardized way. This session explores the transformative potential of combining MCP with popular message brokers like RabbitMQ and ActiveMQ to create powerful Agentic AI workflows"
+  abstract: |
+    The model context protocol (MCP) is a new open standard that enables AI models to integrate with external systems in a standardized way. This session explores the transformative potential of combining MCP with popular message brokers like RabbitMQ and ActiveMQ to create powerful Agentic AI workflows. We will explore how the unique messaging capabilities of each message broker are presented as accessible tools for AI agents, enabling seamless communication and task execution. Through examples, learn how to safely integrate MCP-enabled brokers into your existing technology stack while maintaining security standards and operational reliability. Whether you're an architect, developer, or technical leader, you'll gain valuable insights into harnessing the combined power of MCP and message brokers to advance your AI integration initiatives.
   speakers:
     - kenliao
+    - vigneshselvam
   topics:
-    - elixir
-    - machine-learning
+    - messaging
+    - ai
   recordings:
     - provider: youtube
       external_id: "sufuDcuqQcQ"
       url: "https://www.youtube.com/watch?v=sufuDcuqQcQ"
+
+- title: "NATS on Edge - A Distributed Industrial Mesh"
+  slug: "nats-on-edge-a-distributed-industrial-mesh"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 30
+  abstract: |
+    NATS is a versatile messaging system with a sweet spot in distributed and edge deployments. It supports multiple communication patterns, can replace REST services without firewall modifications, and enables message stream replication across locations while maintaining security barriers.
+
+    This talk presents Schaeffler's implementation, which spans over 100 plants globally with multiple clusters processing billions of messages daily from thousands of clients. More than 50 custom applications—including AGVs, edge devices, distributed apps, and a central SAP system—utilize NATS for data transmission.
+  speakers:
+    - jeannoelmoyne
+    - maxarndt
+  topics:
+    - messaging
+    - distribution
+    - embedded
 
 - title: "Replacing Legacy Message Queueing Solutions with RabbitMQ"
   slug: "replacing-legacy-message-queueing-solutions-with-rabbitmq"
@@ -176,11 +213,14 @@
   level: intermediate
   language: en
   duration: 24
-  abstract: "One of the original motivations for AMQP was to address the middleware hell that had plagued organizations for decades due to the lack of open standards and the existence of proprietary and expensive message queuing products that did not interoperate, necessitating the development of adaptors and ga"
+  abstract: |
+    One of the original motivations for AMQP was to address the middleware hell that had plagued organizations for decades due to the lack of open standards and the existence of proprietary and expensive message queueing products that did not interoperate, necessitating the development of adaptors and gateways that were costly to implement and maintain. However, while AMQP was originally conceived to help solve this existing problem, the protocol and products like RabbitMQ that evolved from it have largely been applied to solving new problems. This then raises the question as to whether RabbitMQ is equally applicable to the solution of traditional integration problems involving legacy software as it is to these newer problems.
+
+    This talk aims to consider the viability and benefits of replacing proprietary legacy solutions with RabbitMQ. Such modernization initiatives will be discussed in the context of specific use-cases, and solutions to common problems will be considered.
   speakers:
     - brettcameron
   topics:
-    - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "xK_yE1rKQwY"
@@ -192,11 +232,13 @@
   level: intermediate
   language: en
   duration: 29
-  abstract: "Securing your messaging networks is vital. Preventing malicious actors from attacking your business is crucial to prevent monetary or reputation loss. But where in your network needs protecting?"
+  abstract: |
+    Securing your messaging networks is vital. Preventing malicious actors from attacking your business is crucial to prevent monetary or reputation loss. But where in your network needs protecting? In this session Rob Parker, Security Architect for IBM MQ, will share the key areas that need protecting in messaging networks as well as how best to protect them.
   speakers:
     - robparker
   topics:
-    - elixir
+    - messaging
+    - security
   recordings:
     - provider: youtube
       external_id: "o6FmqpL1_58"

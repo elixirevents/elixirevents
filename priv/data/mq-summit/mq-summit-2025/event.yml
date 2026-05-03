@@ -1,12 +1,13 @@
 name: "MQ Summit 2025"
 slug: "mq-summit-2025"
+venue_slug: "estrel-berlin"
 kind: summit
 status: completed
 format: in_person
-start_date: "2025-02-04"
-end_date: "2025-02-04"
-timezone: "Europe/London"
+start_date: "2025-11-06"
+end_date: "2025-11-06"
+timezone: "Europe/Berlin"
 language: en
-location: "London, UK"
-website: "https://codesync.global"
+location: "Berlin, Germany"
+website: "https://mqsummit.com/archives/berlin_2025/"
 color: "#2B6CB0"
