@@ -1,0 +1,15 @@
+name: "RabbitMQ Summit 2023"
+slug: "mq-summit-2023"
+venue_slug: "estrel-berlin"
+kind: summit
+status: completed
+format: in_person
+start_date: "2023-10-20"
+end_date: "2023-10-20"
+timezone: "Europe/Berlin"
+language: en
+location: "Berlin, Germany"
+website: "https://rabbitmqsummit.com/2023"
+color: "#2B6CB0"
+description: |
+  The 5th edition of RabbitMQ Summit was a fully in-person event held alongside Code BEAM at the Estrel Congress Center in Berlin on October 20, 2023, bringing together some of the world's biggest companies using RabbitMQ.

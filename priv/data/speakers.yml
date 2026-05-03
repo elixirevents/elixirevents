@@ -8444,6 +8444,90 @@
     - platform: linkedin
       url: "https://www.linkedin.com/in/lovisa-johansson-a6836733/"
 
+- name: "Marcus Held"
+  slug: "marcusheld"
+  headline: "Software architect at Backendhance"
+  bio: "Freelancer and software architect helping mid-sized companies untangle overly complex architectures and get teams moving again. Java and Spring expert, blogger, speaker, and clean code enthusiast."
+  city: Cologne
+  country_code: DE
+  social_links:
+    - platform: github
+      url: "https://github.com/marcus-held"
+    - platform: twitter
+      url: "https://x.com/MarHeldro"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/marcus-held/"
+
+- name: "Alvaro Videla"
+  slug: "alvarovidela"
+  headline: "Principal Cloud Advocate at Microsoft, co-author of RabbitMQ in Action"
+  bio: |
+    Co-author of "RabbitMQ in Action" — the first book on the topic — and a former core developer of RabbitMQ at Pivotal, where he reimplemented the persistence layer, built extensions like Scheduled Messaging and Message Sharding, and ported the RabbitMQ tutorials to many programming languages. Has given over 50 tech talks at conferences around the world.
+
+    Currently a Principal Cloud Advocate at Microsoft. Earlier roles include Senior Software Engineer at Apple working on a distributed ML platform, Lead Architect at Migros, and Senior Software Engineer at Fauna. Also a long-running lecturer at Fachhochschule Salzburg, teaching messaging, queueing systems, and scalability.
+  city: Dübendorf
+  country_code: CH
+  website: "https://alvaro-videla.com"
+  social_links:
+    - platform: github
+      url: "https://github.com/videlalvaro"
+    - platform: twitter
+      url: "https://x.com/old_sound"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/alvarovidela/"
+
+- name: "Roger Freixa"
+  slug: "rogerfreixa"
+  headline: "Product Lead for Tanzu Data Services at VMware"
+  bio: "Experienced Product Manager and Architect with a long history in the computer software industry. Skilled in OLTP and NoSQL databases, Apache Spark and Hadoop, cloud-native services, and SaaS solutions, along with application, middleware, and foundational services. Knowledgeable on public and private clouds and on-premises/edge deployments, with the ability to manage teams and a deep go-to-market understanding."
+  city: Sherwood
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rogerfreixa/"
+
+- name: "Alex Valiushko"
+  slug: "alexvaliushko"
+  headline: "Software engineer working on RabbitMQ"
+
+- name: "Erica Weistrand"
+  slug: "ericaweistrand"
+  headline: "Developer at 84codes"
+  bio: "Erica has been a dedicated developer at 84codes for several years. She currently works in the platform team, with a primary focus on the metrics and logs system, and is also deeply engaged in enhancing developer experience. 84codes specializes in message brokers and server configuration and manages a fleet of over 12,000 RabbitMQ servers through CloudAMQP."
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/erica-christensen-weistrand-6021a5137/"
+
+- name: "Nyior Clement"
+  slug: "nyiorclement"
+  headline: "Lead Author @ Guidely"
+  bio: "Interested in AI/Machine Learning, message queueing, education, and history."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/nyior/"
+
+- name: "James Carr"
+  slug: "jamescarr"
+  headline: "Staff Software Engineer @ Zapier | Engineering Leader, Distributed Systems, Event-Driven Architecture"
+  bio: |
+    Builds systems that make other systems talk to each other — enterprise integration patterns, event-driven architectures, and the automation of everything tedious. Currently exploring how AI agents fit into these patterns: the messaging primitives we've been using for decades (request-reply, correlation IDs, saga orchestration) map surprisingly well to agent coordination.
+
+    Currently a Staff Software Engineer at Zapier and EIR Advisor at Arch Grants. Previously held engineering leadership roles at Care.com and Reify Health, and was an early Zapier engineer (employee #2) before going on to lead Engineering Management and Systems Engineering there.
+  city: St. Louis
+  country_code: US
+  website: "https://james-carr.org"
+  social_links:
+    - platform: github
+      url: "https://github.com/jamescarr"
+    - platform: mastodon
+      url: "https://mastodon.sdf.org/@jamescarr"
+    - platform: instagram
+      url: "https://www.instagram.com/jamescarr99/"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/jamesfreakincarr/"
+
 - name: "Howard Twine"
   slug: "howardtwine"
   headline: "Senior Product Manager at Redis"
