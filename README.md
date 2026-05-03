@@ -74,6 +74,10 @@ ElixirEvents.Search.reindex("event_series")
 
 Reindex jobs run asynchronously via Oban.
 
+## Architecture
+
+![ElixirEvents production architecture](docs/images/architecture.png)
+
 ## Deployment
 
 Production runs on [Kamal 2](https://kamal-deploy.org). Deploys are automated: push to `main`, GitHub Actions builds the image and runs `kamal deploy`.
