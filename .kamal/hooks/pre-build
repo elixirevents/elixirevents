@@ -1,42 +1,18 @@
 #!/bin/sh
 set -eu
 
-# Generates priv/data/.changed_files so that ElixirEvents.Import.Sync
-# knows which YAML files changed between the currently-deployed SHA and
-# the SHA about to be built. The file is copied into the image via
-# `COPY priv priv` in the Dockerfile and consumed by `bin/migrate` on boot.
+# Generates priv/data/.changed_files listing YAML files changed in HEAD's
+# merge commit. Copied into the image via `COPY priv priv` and consumed by
+# bin/migrate on boot via ElixirEvents.Import.Sync.
 
 MANIFEST_PATH="priv/data/.changed_files"
 mkdir -p "$(dirname "$MANIFEST_PATH")"
 
-NEW_SHA="${KAMAL_VERSION:-$(git rev-parse HEAD)}"
-
-# Ask Kamal what's currently running; extract the first SHA-ish token.
-LAST_SHA="$(kamal app version 2>/dev/null | grep -Eo '[a-f0-9]{7,40}' | head -1 || true)"
-
-if [ -z "$LAST_SHA" ]; then
-  echo "[pre-build] No previously deployed version detected — writing empty manifest (sync will no-op; use full_sync for first load)."
-  : > "$MANIFEST_PATH"
-  exit 0
-fi
-
-# Make sure the SHA is locally available (shallow clones, fresh machines).
-if ! git cat-file -e "$LAST_SHA" 2>/dev/null; then
-  git fetch --quiet origin "$LAST_SHA" 2>/dev/null || true
-fi
-
-if ! git cat-file -e "$LAST_SHA" 2>/dev/null; then
-  echo "[pre-build] Last deployed SHA $LAST_SHA not fetchable locally — writing empty manifest."
-  : > "$MANIFEST_PATH"
-  exit 0
-fi
-
-echo "[pre-build] Generating data manifest: $LAST_SHA..$NEW_SHA"
-git diff --name-only "$LAST_SHA" "$NEW_SHA" -- priv/data/ > "$MANIFEST_PATH" || true
+git diff --name-only HEAD~1 HEAD -- priv/data/ | grep '\.yml$' > "$MANIFEST_PATH" || true
 
 if [ -s "$MANIFEST_PATH" ]; then
   echo "[pre-build] Changed data files:"
   sed 's/^/  /' "$MANIFEST_PATH"
 else
-  echo "[pre-build] No priv/data/ changes between deploys."
+  echo "[pre-build] No priv/data/ changes in HEAD."
 fi
