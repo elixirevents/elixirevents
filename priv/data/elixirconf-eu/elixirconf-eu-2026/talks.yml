@@ -5,7 +5,7 @@
   kind: keynote
   level: beginner
   language: en
-  duration: 45
+  duration: 63
   abstract: |
     Four years ago, at ElixirConf EU, José Valim announced an effort to research and develop a type system for Elixir, later broken into three distinct milestones. With the upcoming Elixir v1.20 release, Elixir is finally closing down on the first milestone, which adds type inference to all language constructs. Come learn exactly what that means and where we are going next!
   speakers:
@@ -13,13 +13,17 @@
   topics:
     - elixir
     - type-system
+  recordings:
+    - provider: youtube
+      external_id: "Ay-gnCqDw9o"
+      url: "https://www.youtube.com/watch?v=Ay-gnCqDw9o"
 
 - title: "DurableServer: Always Running Somewhere"
   slug: "keynote-durableserver-always-running-somewhere"
   kind: keynote
   level: beginner
   language: en
-  duration: 45
+  duration: 52
   abstract: |
     What if your processes could survive node failures, move between machines, and pick up where they left off? DurableServer extends the familiar GenServer contract with automatic state persistence, distributed coordination, and cluster-aware recovery. Watch complexity melt away while you get back to thinking in processes and messages. Durability becomes just another thing your processes do.
 
@@ -31,6 +35,10 @@
   topics:
     - otp
     - distribution
+  recordings:
+    - provider: youtube
+      external_id: "nZmDEUeHeVI"
+      url: "https://www.youtube.com/watch?v=nZmDEUeHeVI"
 
 - title: "One Monolith, Many Teams: Growing an Org with Elixir"
   slug: "keynote-one-monolith-many-teams"
@@ -49,6 +57,10 @@
     - andrealbuquerque
   topics:
     - elixir
+  recordings:
+    - provider: youtube
+      external_id: "02r5xP2BgNk"
+      url: "https://www.youtube.com/watch?v=02r5xP2BgNk"
 
 ## Talks
 
@@ -629,13 +641,17 @@
   kind: talk
   level: beginner
   language: en
-  duration: 30
+  duration: 19
   abstract: "A look at the previous Phoenix and LiveView releases (1.8, 1.1) - updates on what the team is planning to work on for future releases. There’s no ETA for a new update at the moment, but there are a bunch of ideas for future developments floating around that we can present and request feedback from the community."
   speakers:
     - steffendeusch
   topics:
     - phoenix
     - liveview
+  recordings:
+    - provider: youtube
+      external_id: "-FRz6BJD4x4"
+      url: "https://www.youtube.com/watch?v=-FRz6BJD4x4"
 
 - title: "From Idea to Traction: Using Elixir to Ship Fast"
   slug: "from-idea-to-traction-using-elixir-to-ship-fast"
@@ -686,3 +702,156 @@
   topics:
     - elixir
     - ash
+
+## Lightning Talks
+
+- title: "Update from the Erlang Ecosystem Foundation"
+  slug: "update-from-the-eef"
+  kind: lightning_talk
+  language: en
+  duration: 12
+  speakers:
+    - danjanowski
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "dPwJsarhjl0"
+      url: "https://www.youtube.com/watch?v=dPwJsarhjl0"
+
+- title: "Sherlock: The Truth Is in the Code"
+  slug: "sherlock-the-truth-is-in-the-code"
+  kind: lightning_talk
+  language: en
+  duration: 7
+  speakers:
+    - aleksandrlossenko
+  topics:
+    - elixir
+    - code-intelligence
+  recordings:
+    - provider: youtube
+      external_id: "oaw7ktLKWzU"
+      url: "https://www.youtube.com/watch?v=oaw7ktLKWzU"
+
+- title: "The Elixir Hiring Paradox"
+  slug: "the-elixir-hiring-paradox"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  speakers:
+    - arjungillard
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "NSnOvtrYkvo"
+      url: "https://www.youtube.com/watch?v=NSnOvtrYkvo"
+
+- title: "Your Project Is Great! More People Should Know About It"
+  slug: "your-project-is-great"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  speakers:
+    - kamilapokoj
+  topics:
+    - elixir
+    - open-source
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "bsm8drjVS54"
+      url: "https://www.youtube.com/watch?v=bsm8drjVS54"
+
+- title: "smithy beam: Contract First API Development"
+  slug: "smithy-beam-contract-first-api-development"
+  kind: lightning_talk
+  language: en
+  duration: 6
+  speakers:
+    - frankeickhoff
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "0CWygm_0acg"
+      url: "https://www.youtube.com/watch?v=0CWygm_0acg"
+
+- title: "Skode: An ASCII Shorthand for Audio Experimentation"
+  slug: "skode-ascii-shorthand-for-audio-experimentation"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - josephstewart
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "SnJ0osgiqWM"
+      url: "https://www.youtube.com/watch?v=SnJ0osgiqWM"
+
+- title: "Gleaming Github Actions"
+  slug: "gleaming-github-actions"
+  kind: lightning_talk
+  language: en
+  duration: 3
+  speakers:
+    - austinziegler
+  topics:
+    - gleam
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "gXUOaMNPGCY"
+      url: "https://www.youtube.com/watch?v=gXUOaMNPGCY"
+
+- title: "GraphQL Queries, No Drama: Compile-Time Validation and Formatting"
+  slug: "graphql-queries-no-drama"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  speakers:
+    - rockneurotiko
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "mhtufyH16Ls"
+      url: "https://www.youtube.com/watch?v=mhtufyH16Ls"
+
+- title: "Telegram Bots with Elixir: Shipping Faster, Sleeping Better"
+  slug: "telegram-bots-with-elixir"
+  kind: lightning_talk
+  language: en
+  duration: 5
+  speakers:
+    - maxgorin
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "nAAZNLa86sU"
+      url: "https://www.youtube.com/watch?v=nAAZNLa86sU"
+
+- title: "Integrate Web Components with Forms Seamlessly"
+  slug: "integrate-web-components-with-forms"
+  kind: lightning_talk
+  language: en
+  duration: 4
+  speakers:
+    - krasenpenchev
+  topics:
+    - liveview
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "klXKxDxZ8ts"
+      url: "https://www.youtube.com/watch?v=klXKxDxZ8ts"
