@@ -1,0 +1,6 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "84codes"
+    - slug: "aws"
+    - slug: "vmware"

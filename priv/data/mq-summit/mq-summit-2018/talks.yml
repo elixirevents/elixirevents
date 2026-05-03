@@ -1,0 +1,208 @@
+## Keynotes
+
+- title: "Idiomatic RabbitMQ"
+  slug: "idiomatic-rabbitmq"
+  kind: keynote
+  language: en
+  duration: 56
+  abstract: |
+    In this talk Gavin will cover AMQP in the context of its use in RabbitMQ with a premise that if you don't fully understand AMQP, you don't understand RabbitMQ. Gavin will discuss the by-directional RPC behaviour, connections, channels, objects, methods, and properties.
+  speakers:
+    - gavinroy
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "8Zf4zTatQYA"
+      url: "https://www.youtube.com/watch?v=8Zf4zTatQYA"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/keynote-idiomatic-rabbitmq-gavin-m-roy"
+
+- title: "Scaling RabbitMQ at Goldman Sachs"
+  slug: "scaling-rabbitmq-at-goldman-sachs"
+  kind: keynote
+  language: en
+  duration: 44
+  abstract: |
+    Goldman Sachs leverages hundreds of applications communicating with each other. The Data Management and Distribution group provides messaging middleware services to the firm's ecosystem. This talk will be about why and how we adopted RabbitMQ as a first class citizen in our messaging product portfolio. A significant proportion of application teams at Goldman Sachs was used to traditional guaranteed messaging systems, and as such, moving to RabbitMQ was and still is a paradigm shift in how applications interact with a messaging layer. We will touch on the challenges of delivering RabbitMQ as a service at enterprise scale, including but not limited to deployment model, monitoring and telemetry, achieving data consistency, developer awareness.
+  speakers:
+    - jonathanskrzypek
+  topics:
+    - messaging
+    - deployment
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "D9H7i6Ye_to"
+      url: "https://www.youtube.com/watch?v=D9H7i6Ye_to"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/keynote-scaling-rabbitmq-at-goldman-sachs-jonathan-skrzypek"
+
+## Talks
+
+- title: "An Update from the RabbitMQ Team"
+  slug: "an-update-from-the-rabbitmq-team"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  abstract: |
+    Curious about what the RabbitMQ team has been up to since 3.7.0 shipped in November 2017? In this talk we will cover what's coming in 3.8.0 and beyond.
+  speakers:
+    - michaelklishin
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "YxFCUQ2CndA"
+      url: "https://www.youtube.com/watch?v=YxFCUQ2CndA"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/an-update-from-the-rabbitmq-team-michael-klishin"
+
+- title: "The Consistent Hash Exchange - Making RabbitMQ a Better Broker"
+  slug: "the-consistent-hash-exchange-making-rabbitmq-a-better-broker"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: |
+    In this session we'll look at an alternative to the competing consumer pattern by using the Consistent Hash Exchange. We'll see how this exchange enables different messaging patterns such as data locality, message processing order guarantees at scale and helping to avoid large queues which can be difficult to keep synchronized in a HA configuration.
+  speakers:
+    - jackvanlightly
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "g3Cq9g7sDc4"
+      url: "https://www.youtube.com/watch?v=g3Cq9g7sDc4"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/the-consistent-hash-exchange-making-rabbitmq-a-better-broker-jack-vanlightly"
+
+- title: "Developing RabbitMQ Plugins in Elixir"
+  slug: "developing-rabbitmq-plugins-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: |
+    RabbitMQ comprises of a state of the art plugin architecture, allowing it to be highly customizable and extensible to meet various requirements which may not be supported by an "out-of-the-box" broker installation. This presentation gives an overview of RabbitMQ's plugin infrastructure and discusses some useful, existing plugins with an overview of developing custom RabbitMQ plugins in Elixir. With Elixir being a language fully compatible with the Erlang Virtual Machine and growing in popularity, the RabbitMQ core team also adopted it in developing the next generation CLI-tools found in the latest release series, 3.7.x; a strong indication on the direction and future of RabbitMQ's product development. Outcome of this presentation looks to encourage more RabbitMQ plugin development in Elixir from the community!
+  speakers:
+    - matteocafasso
+  topics:
+    - messaging
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "8pNh_F-hQ54"
+      url: "https://www.youtube.com/watch?v=8pNh_F-hQ54"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/developing-rabbitmq-plugins-in-elixir-matteo-cafasso"
+
+- title: "Panel Discussion: What's New and What's on the Horizon for RabbitMQ"
+  slug: "panel-discussion-whats-new-and-whats-on-the-horizon-for-rabbitmq"
+  kind: talk
+  language: en
+  duration: 47
+  abstract: |
+    A panel debate with a selection of guests, including questions from the audience. Time to talk about the future for the most widely deployed open source message broker in the world: RabbitMQ.
+  speakers:
+    - dormaindrewitz
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "W7vfeSFvIkY"
+      url: "https://www.youtube.com/watch?v=W7vfeSFvIkY"
+
+- title: "Real-World RabbitMQ Deployments"
+  slug: "real-world-rabbitmq-deployments"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: |
+    Come and join us in exploring what it looks like to succeed with RabbitMQ in production. We will cover 3 different enterprise messaging implementations that rely on RabbitMQ for:
+
+    - Financial trading
+    - Vehicle telemetry
+    - Monitoring of medical equipment
+  speakers:
+    - gerhardlazu
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "etT_VMkYrdI"
+      url: "https://www.youtube.com/watch?v=etT_VMkYrdI"
+  links:
+    - kind: slides
+      url: "http://real-world.rabbitmq.pivotal.io/"
+
+- title: "A Walk Through the Design and Architecture of RabbitMQ"
+  slug: "a-walk-through-the-design-and-architecture-of-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: |
+    As the use of RabbitMQ grows, there's a growing need for its operators and engineers to have a good understanding and appreciation of its internal design, and how its sub-components interact to meet the various messaging requirements in industry. In this talk I walk through the internal design of RabbitMQ, explaining some of the key components which attribute to its robustness and reputation of being a world leading and well trusted messaging system.
+  speakers:
+    - ayandadube
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "sRiLP5Pkqj0"
+      url: "https://www.youtube.com/watch?v=sRiLP5Pkqj0"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/a-walkthrough-of-the-design-and-architecture-of-rabbitmq-ayanda-dube-125711827"
+
+- title: "What It's Like to Bet Your Entire Startup on Rabbit"
+  slug: "what-its-like-to-bet-your-entire-startup-on-rabbit"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: |
+    Wunderlist made big bets on two technologies: AWS and rabbit. I will give an overview of what it's like to live with rabbit for years, the tools and practices we built up around rabbit, and as many tips and learnings as I can.
+
+    In this talk you'll see real world data, hear anecdotes from using RabbitMQ at various scales. You should feel more comfortable making a bet on RabbitMQ as a critical part of your infrastructure after my presentation.
+  speakers:
+    - nathanherald
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "9FtMvYHS8Uk"
+      url: "https://www.youtube.com/watch?v=9FtMvYHS8Uk"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/what-its-like-to-bet-your-entire-startup-on-rabbit-nathan-herald"
+
+- title: "What We've Learned from Running Thousands of Production RabbitMQ Clusters"
+  slug: "what-weve-learned-from-running-thousands-of-production-rabbitmq-clusters"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: |
+    Since 2012 CloudAMQP has been running dedicated and shared RabbitMQ clusters for customers around the world, in seven different clouds. In this talk Lovisa will address the most common misconception, misconfigurations and anti-patterns in RabbitMQ usage, and how they can be avoided. Lovisa will talk about how you can increase RabbitMQ reliability and performance and she will also mention common RabbitMQ use cases among CloudAMQP's customers.
+  speakers:
+    - lovisajohansson
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "ez9kQEhHsnc"
+      url: "https://www.youtube.com/watch?v=ez9kQEhHsnc"
+  links:
+    - kind: slides
+      url: "https://www.slideshare.net/RabbitMQ-summit/what-weve-learned-from-running-thousands-of-production-rabbitmq-clusters-lovisa-johansson"

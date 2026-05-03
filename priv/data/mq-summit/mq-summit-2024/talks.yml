@@ -1,0 +1,42 @@
+- title: "Native AMQP 1.0"
+  slug: "native-amqp-1-0"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 46
+  speakers:
+    - davidansari
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "LFu-kOOTLvs"
+      url: "https://www.youtube.com/watch?v=LFu-kOOTLvs"
+
+- title: "A Love Letter to Messaging: Celebrating RabbitMQ's Journey"
+  slug: "a-love-letter-to-messaging-celebrating-rabbitmqs-journey"
+  kind: talk
+  language: en
+  duration: 49
+  speakers:
+    - lovisajohansson
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "YHXiSRPt_8U"
+      url: "https://www.youtube.com/watch?v=YHXiSRPt_8U"
+
+- title: "Beyond the Burrow: The Endurance of RabbitMQ"
+  slug: "beyond-the-burrow-the-endurance-of-rabbitmq"
+  kind: talk
+  language: en
+  duration: 36
+  speakers:
+    - howardtwine
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "5VEnenCpmR8"
+      url: "https://www.youtube.com/watch?v=5VEnenCpmR8"

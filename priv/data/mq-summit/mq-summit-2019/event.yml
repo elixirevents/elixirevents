@@ -1,0 +1,17 @@
+name: "RabbitMQ Summit 2019"
+slug: "mq-summit-2019"
+venue_slug: "ilec-conference-centre"
+kind: summit
+status: completed
+format: in_person
+start_date: "2019-11-04"
+end_date: "2019-11-04"
+timezone: "Europe/London"
+language: en
+location: "London, United Kingdom"
+website: "https://rabbitmqsummit.com/2019"
+color: "#2B6CB0"
+description: |
+  The second RabbitMQ Summit brought together RabbitMQ users and developers from around the world at the ILEC Conference Centre in London on November 4, 2019. Speakers and keynotes covered what was happening in and around RabbitMQ, and how top companies utilized RabbitMQ to power their services.
+
+  RabbitMQ Summit was organized by Erlang Solutions and CloudAMQP.

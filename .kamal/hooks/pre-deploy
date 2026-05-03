@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+# Run Ecto migrations + YAML data sync once before the new web/workers
+# containers swap in. Uses --version to pull and run the new image as a
+# one-off container, so it executes against the new codebase and the new
+# priv/data/.changed_files manifest. Kamal aborts the deploy if this fails.
+
+echo "[pre-deploy] Running migrations and data sync (version $KAMAL_VERSION)..."
+exec kamal app exec --version "$KAMAL_VERSION" "/app/bin/migrate"

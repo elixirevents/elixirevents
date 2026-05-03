@@ -1,0 +1,16 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "pivotal"
+    - slug: "lshift"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "trifork"
+    - slug: "aws"
+
+- name: "Silver Sponsors"
+  level: 3
+  sponsors:
+    - slug: "cogin"

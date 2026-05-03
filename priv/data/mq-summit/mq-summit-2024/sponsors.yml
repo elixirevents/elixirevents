@@ -1,0 +1,11 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "84codes"
+    - slug: "aws"
+    - slug: "seventh-state"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "meshiq"

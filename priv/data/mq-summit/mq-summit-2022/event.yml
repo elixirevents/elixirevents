@@ -1,0 +1,15 @@
+name: "RabbitMQ Summit 2022"
+slug: "mq-summit-2022"
+venue_slug: "codenode-london"
+kind: summit
+status: completed
+format: hybrid
+start_date: "2022-09-16"
+end_date: "2022-09-16"
+timezone: "Europe/London"
+language: en
+location: "London, United Kingdom"
+website: "https://rabbitmqsummit.com/2022"
+color: "#2B6CB0"
+description: |
+  The 4th edition of RabbitMQ Summit took place as a hybrid event — both in person at the CodeNode venue in London and virtually — on September 16, 2022, bringing together some of the world's biggest companies using RabbitMQ.

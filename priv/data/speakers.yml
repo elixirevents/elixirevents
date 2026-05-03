@@ -8359,3 +8359,500 @@
   social_links:
     - platform: linkedin
       url: "https://linkedin.com/in/vigneshselvam28/"
+
+- name: "Gavin M. Roy"
+  slug: "gavinroy"
+  headline: "Author of RabbitMQ in Depth, Engineering Leader, and Passionate Technologist"
+  bio: |
+    Gavin M. Roy is a technology executive and developer specializing in open source, with extensive experience in internet application development, community building, and website scaling. He is the author of RabbitMQ in Depth, an active RabbitMQ community member, and the maintainer of the Python AMQP driver, Pika.
+
+    With over 20 years of programming experience, Gavin has overseen the formation of several open-source projects and online communities, and has worked with both internet startups and well-established organizations on system analysis and architecture strategy.
+  city: Washington
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/gavinmroy/"
+
+- name: "Michael Klishin"
+  slug: "michaelklishin"
+  headline: "Senior Software Engineer and Serial Open Source Contributor"
+  bio: |
+    Experienced polyglot software engineer focusing on data services, the Internet of Things (IoT), and cloud infrastructure automation. Many of the projects and tools Michael has been involved with are used in production by Fortune 500 companies (including the top 10), fast-growing startups, and civil government agencies.
+
+    16 years of experience overall, more than 7 of which involved working on data infrastructure, leading teams and projects, and mentoring people.
+  city: Vancouver
+  country_code: CA
+  social_links:
+    - platform: github
+      url: "https://github.com/michaelklishin"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/michaelklishin/"
+    - platform: bluesky
+      url: "https://bsky.app/profile/michaelklishin.bsky.social"
+
+- name: "Jack Vanlightly"
+  slug: "jackvanlightly"
+  headline: "Senior Principal Technologist at Confluent"
+  bio: "Things that Jack knows and loves most: messaging systems, databases, distributed systems engineering and testing, formal verification, research/analysis, and writing."
+  city: Barcelona
+  country_code: ES
+  website: "https://jack-vanlightly.com/"
+  social_links:
+    - platform: twitter
+      url: "https://x.com/vanlightly"
+    - platform: bluesky
+      url: "https://bsky.app/profile/vanlightly.bsky.social"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/jack-vanlightly-1153b44a/"
+
+- name: "Matteo Cafasso"
+  slug: "matteocafasso"
+  headline: "VP of Protection Services at CUJO AI"
+  bio: "Software architect and engineering leader with a long background in cloud security, malware analysis platforms, and distributed data processing. A long-time RabbitMQ user and contributor of plugins to the broker."
+  city: Helsinki
+  country_code: FI
+  social_links:
+    - platform: github
+      url: "https://github.com/noxdafox"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/matteo-cafasso/"
+
+- name: "Dormain Drewitz"
+  slug: "dormaindrewitz"
+  headline: "Fractional CMO | Marketing Consultant | Advisor | Product Marketing"
+  bio: "With 20 years of experience in the infrastructure software sector, as a financial analyst-turned-marketing leader, Dormain brings a unique blend of industry knowledge, analytical thinking, messaging experience, and tactical execution. She is an international public speaker, an award-winning community advocate, seasoned team leader, and relentless learner. She has built and led marketing and developer relations teams at Series C to publicly traded companies, through IPOs and acquisitions. Her consulting philosophy is to leave teams more capable while producing long shelf-life assets that credibly build brand awareness with technical audiences, support targeting demand gen campaigns, and enable enterprise sellers to close deals."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dormain/"
+
+- name: "Gerhard Lazu"
+  slug: "gerhardlazu"
+  headline: "Make it Work. Keep Improving."
+  bio: "CTO at Loophole Labs and producer/host of Make it Work. Previously Head of Infrastructure at Dagger and a long-time RabbitMQ contributor at VMware and Pivotal, where he led RabbitMQ observability with Prometheus and Grafana. Also Head of Infrastructure at Changelog, where he runs the open-source infrastructure behind changelog.com."
+  website: "https://gerhard.io/"
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/gerhardlazu/"
+
+- name: "Lovisa Johansson"
+  slug: "lovisajohansson"
+  headline: "Chief Marketing Officer at 84codes AB"
+  bio: "Chief Marketing Officer at 84codes, the company behind CloudAMQP (managed RabbitMQ as a service) and LavinMQ (a high-performance open-source AMQP broker). Joined 84codes in 2014 as a marketing manager and software developer, with earlier experience as a system developer in Sweden and Mauritius."
+  city: Skellefteå
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/lovisa-johansson-a6836733/"
+
+- name: "Marcus Held"
+  slug: "marcusheld"
+  headline: "Software architect at Backendhance"
+  bio: "Freelancer and software architect helping mid-sized companies untangle overly complex architectures and get teams moving again. Java and Spring expert, blogger, speaker, and clean code enthusiast."
+  city: Cologne
+  country_code: DE
+  social_links:
+    - platform: github
+      url: "https://github.com/marcus-held"
+    - platform: twitter
+      url: "https://x.com/MarHeldro"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/marcus-held/"
+
+- name: "Alvaro Videla"
+  slug: "alvarovidela"
+  headline: "Principal Cloud Advocate at Microsoft, co-author of RabbitMQ in Action"
+  bio: |
+    Co-author of "RabbitMQ in Action" — the first book on the topic — and a former core developer of RabbitMQ at Pivotal, where he reimplemented the persistence layer, built extensions like Scheduled Messaging and Message Sharding, and ported the RabbitMQ tutorials to many programming languages. Has given over 50 tech talks at conferences around the world.
+
+    Currently a Principal Cloud Advocate at Microsoft. Earlier roles include Senior Software Engineer at Apple working on a distributed ML platform, Lead Architect at Migros, and Senior Software Engineer at Fauna. Also a long-running lecturer at Fachhochschule Salzburg, teaching messaging, queueing systems, and scalability.
+  city: Dübendorf
+  country_code: CH
+  website: "https://alvaro-videla.com"
+  social_links:
+    - platform: github
+      url: "https://github.com/videlalvaro"
+    - platform: twitter
+      url: "https://x.com/old_sound"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/alvarovidela/"
+
+- name: "Roger Freixa"
+  slug: "rogerfreixa"
+  headline: "Product Lead for Tanzu Data Services at VMware"
+  bio: "Experienced Product Manager and Architect with a long history in the computer software industry. Skilled in OLTP and NoSQL databases, Apache Spark and Hadoop, cloud-native services, and SaaS solutions, along with application, middleware, and foundational services. Knowledgeable on public and private clouds and on-premises/edge deployments, with the ability to manage teams and a deep go-to-market understanding."
+  city: Sherwood
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rogerfreixa/"
+
+- name: "Alex Valiushko"
+  slug: "alexvaliushko"
+  headline: "Software engineer working on RabbitMQ"
+
+- name: "Erica Weistrand"
+  slug: "ericaweistrand"
+  headline: "Developer at 84codes"
+  bio: "Erica has been a dedicated developer at 84codes for several years. She currently works in the platform team, with a primary focus on the metrics and logs system, and is also deeply engaged in enhancing developer experience. 84codes specializes in message brokers and server configuration and manages a fleet of over 12,000 RabbitMQ servers through CloudAMQP."
+  city: Stockholm
+  country_code: SE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/erica-christensen-weistrand-6021a5137/"
+
+- name: "Nyior Clement"
+  slug: "nyiorclement"
+  headline: "Lead Author @ Guidely"
+  bio: "Interested in AI/Machine Learning, message queueing, education, and history."
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/nyior/"
+
+- name: "James Carr"
+  slug: "jamescarr"
+  headline: "Staff Software Engineer @ Zapier | Engineering Leader, Distributed Systems, Event-Driven Architecture"
+  bio: |
+    Builds systems that make other systems talk to each other — enterprise integration patterns, event-driven architectures, and the automation of everything tedious. Currently exploring how AI agents fit into these patterns: the messaging primitives we've been using for decades (request-reply, correlation IDs, saga orchestration) map surprisingly well to agent coordination.
+
+    Currently a Staff Software Engineer at Zapier and EIR Advisor at Arch Grants. Previously held engineering leadership roles at Care.com and Reify Health, and was an early Zapier engineer (employee #2) before going on to lead Engineering Management and Systems Engineering there.
+  city: St. Louis
+  country_code: US
+  website: "https://james-carr.org"
+  social_links:
+    - platform: github
+      url: "https://github.com/jamescarr"
+    - platform: mastodon
+      url: "https://mastodon.sdf.org/@jamescarr"
+    - platform: instagram
+      url: "https://www.instagram.com/jamescarr99/"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/jamesfreakincarr/"
+
+- name: "Howard Twine"
+  slug: "howardtwine"
+  headline: "Senior Product Manager at Redis"
+  bio: |
+    Product leader with extensive experience as both a business and product leader, with a focus on event-driven architectures, IoT/IIoT, connected mobility (V2X), messaging topologies, and edge compute. Currently Senior Product Manager at Redis, expanding the capabilities of Redis through Messaging and Streaming.
+
+    Previously Senior Product Manager for RabbitMQ at VMware Tanzu (2022–2026), where he was the product lead responsible for the strategy and roadmaps for both open-source RabbitMQ and VMware builds, and led the design of a scalable Kubernetes-based SaaS messaging offering. Earlier roles include Senior PM at GB Labs, Director of Software Strategy at EditShare, and COO at Vidcheck.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/howardtwine/"
+
+- name: "Andrew Cook"
+  slug: "andrewcook"
+  headline: "Engineering Team Lead at Bloomberg LP"
+  bio: |
+    People-oriented engineer with several years of experience building and maintaining high-quality cross-product solutions for trading workflows. Most of his career has been focused on core systems handling post-executing transaction data, supporting trading workflows for both market makers and institutional asset managers. Has learned a lot about managing complex data through supporting the core multi-asset transaction platform relied on by various enterprise products. Most engineering successes have come from delivering simple solutions powered by effective use of robust distributed systems.
+
+    In addition to engineering work, has spent much of his time at Bloomberg working with the recruiting team to interview entry-level and experienced candidates, training other interviewers, and helping develop interviewing practices across Engineering.
+  city: Brooklyn
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/andr-c-cook/"
+
+- name: "Stefan Moser"
+  slug: "stefanmoser"
+  headline: "Principal Engineer at AWS, Amazon MQ"
+  bio: "Stefan is a Principal Engineer at AWS on the Amazon MQ team, where he obsesses over a large fleet of RabbitMQ and ActiveMQ brokers. He has been an advocate and teacher of messaging patterns and distributed systems design for well over a decade. When his fingers are not on a keyboard, they're likely wrapped around the handlebars of his mountain bike, holding on for dear life while hurtling down one of the North Shore's world-famous trails."
+  city: Vancouver
+  country_code: CA
+  social_links:
+    - platform: twitter
+      url: "https://x.com/stefanmoser"
+
+- name: "Rob Barnes"
+  slug: "robbarnes"
+  headline: "Tech Hacker at HashiCorp | DevOps Rob"
+  bio: "Tech hacker at HashiCorp and one half of the Keepin' It Secure podcast. Builds software, plays Valorant and Call of Duty, and posts as DevOps Rob across the web."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/devops-rob"
+    - platform: twitter
+      url: "https://x.com/devops_rob"
+    - platform: youtube
+      url: "https://www.youtube.com/devopsrob"
+
+- name: "Johan Rhodin"
+  slug: "johanrhodin"
+  headline: "Chief Customer Officer at 84codes"
+  bio: "Specialties: running message brokers in the cloud, modeling and simulation technologies."
+  city: St. Louis
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rhodin/"
+
+- name: "Rohini Senthilkumar"
+  slug: "rohinisenthil"
+  headline: "TPM @ Meta | Ex-McKinsey"
+  city: Menlo Park
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rohinivsenthil/"
+
+- name: "Arnaud Cogoluègnes"
+  slug: "arnaudcogoluegnes"
+  headline: "Staff Engineer at VMware"
+  bio: "Software engineer on the RabbitMQ team."
+  city: Lyon
+  country_code: FR
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/arnaudcogoluegnes/"
+
+- name: "Ed Byford"
+  slug: "edbyford"
+  headline: "Product Manager building developer tools at Kong"
+  bio: "Product leader passionate about building successful product development teams and processes, helping everyone feel successful at work. 10+ years of experience in business process improvement, systems integration, and stakeholder management. Passionate about climate tech and social impact."
+  city: London
+  country_code: GB
+  website: "https://edbyford.com/"
+  social_links:
+    - platform: github
+      url: "https://github.com/edbyford"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/edbyford/"
+    - platform: bluesky
+      url: "https://bsky.app/profile/edbyford.bsky.social"
+
+- name: "Yaron Parasol"
+  slug: "yaronparasol"
+  headline: "Senior Product Manager at Yugabyte"
+  bio: "Experienced enterprise software product manager with a strong background in driving early-stage products to mature offerings with large enterprise deals. Trusted advisor to Fortune 500 customers and a frequent speaker at global industry events. Previously Senior Principal Product Manager at Redis, Product Manager for Tanzu RabbitMQ at VMware, and Senior Product Manager at Elastic for Elasticsearch's management GUI."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/parasol/"
+
+- name: "Chunyi Lyu"
+  slug: "chunyilyu"
+  headline: "Staff Software Engineer at Syntasso"
+  bio: "Staff Software Engineer at Syntasso. Previously Staff Software Engineer at VMware on the RabbitMQ team, with earlier engineering roles at Pivotal."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/ChunyiLyu"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/chunyilyu/"
+
+- name: "Ophir Gregory Ziskind"
+  slug: "ophirgregoryziskind"
+  headline: "Software Engineer at Varonis"
+  bio: "Software Engineer at Varonis since 2017, with earlier experience at Intel Corporation. Holds a BSc in Computer Science from the Technion — Israel Institute of Technology."
+  city: Morrisville
+  country_code: US
+
+- name: "Diana Parra Corbacho"
+  slug: "dianaparracorbacho"
+  headline: "Senior Software Engineer at Pivotal (RabbitMQ core team)"
+  bio: "Senior Software Engineer at Pivotal working on the RabbitMQ core team. Previously a Project Manager, Technical Lead, and Senior Systems Engineer at Erlang Solutions, with earlier R&D work at Lambdastream and the University of A Coruña."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/dcorbacho"
+
+- name: "Kacper Mentel"
+  slug: "kacpermentel"
+  headline: "Senior Software Engineer"
+  bio: |
+    Software Engineer specialising in Erlang and Elixir technologies, focusing on delivering correct and high-quality solutions. Most recently worked in fast-paced startup settings, where technical solutions need to align with rapidly changing business requirements.
+
+    Previously engaged with distributed messaging systems such as RabbitMQ (AMQP) and MongooseIM (XMPP), written in Erlang, both as a developer and consultant.
+  city: Kraków
+  country_code: PL
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/kacper-mentel-145023123/"
+
+- name: "Ilana Sufrin"
+  slug: "ilanasufrin"
+  headline: "Senior Engineering Manager at Etsy"
+  bio: "Empathetic and people-oriented engineering manager."
+  city: New York
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/ilana-sufrin-0064473a/"
+
+- name: "Avikam Agur"
+  slug: "avikamagur"
+  headline: "Engineering Manager | Technical Lead"
+  bio: |
+    Technical leader, cofounder and a software geek. Built Weav, a universal API for e-commerce platforms, which was acquired by Brex.
+
+    Previously established the foundation of Pagaya, as first employee, where he built low-latency marketplace integrations, portfolio management, cloud infrastructure, and more.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/avikamagur/"
+
+- name: "Omar Elasfar"
+  slug: "omarelasfar"
+  headline: "Lead Product Manager at Beyond One"
+  bio: "Entrepreneurial and results-oriented Group Product Manager with over 10 years of experience leading cross-functional teams to deliver innovative and impactful products. A strategic thinker with a proven track record of driving product vision, roadmap development, and successful execution from concept to launch. Blends technical expertise, business acumen, and leadership skills, aligning product strategies with organizational goals to drive revenue growth and market expansion."
+  city: Dubai
+  country_code: AE
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/omarelasfar/"
+
+- name: "Michal Kuratczyk"
+  slug: "michalkuratczyk"
+  headline: "Staff Engineer, RabbitMQ @ VMware by Broadcom"
+  bio: "Michal Kuratczyk is a staff software engineer at VMware. He is a performance and observability aficionado and has been contributing to RabbitMQ for more than four years. In the past, he was a Product Manager for the RabbitMQ Kubernetes Operator. Michal has given talks at previous RabbitMQ Summits and is a program committee member for RabbitMQ Summit 2021 and 2022."
+  city: Warsaw
+  country_code: PL
+  social_links:
+    - platform: github
+      url: "https://github.com/mkuratczyk"
+    - platform: mastodon
+      url: "https://fosstodon.org/@kura"
+
+- name: "Wander Costa"
+  slug: "wandercosta"
+  headline: "Engineering Manager at Google"
+  bio: "Software engineer by heart, engineering lead by profession. Hooked on programming since childhood; has coded in Kotlin, Go, and C, with Java as the primary language of choice. Enjoys solving problems, building new functionality, finding performance wins, and creating distributed systems using open-source tools. As an engineering lead since 2020, focuses on helping engineers succeed delivering results and growing."
+  website: "https://wandercosta.com/"
+  social_links:
+    - platform: github
+      url: "https://github.com/rwanderc"
+    - platform: twitter
+      url: "https://x.com/rwanderc"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rwanderc/"
+
+- name: "Alex Thomas"
+  slug: "alexthomas"
+  headline: "Engineer at Vocalink"
+  city: London
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/alexethomas"
+
+- name: "Madhav Sathe"
+  slug: "madhavsathe"
+  headline: "Customer Engineer at Google"
+  bio: "Customer Engineer at Google, previously Sr Platform Architect at Pivotal Software where he worked on RabbitMQ and modern application platforms. Earlier roles include Principal Product Manager at Oracle and product/engineering positions at ADP and HCL Technologies."
+  city: New York
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/madhav-sathe-46b1667/"
+
+- name: "Marcial Rosales"
+  slug: "marcialrosales"
+  headline: "R&D Solutions Architect at VMware"
+  bio: "R&D Solutions Architect at VMware (formerly Pivotal), focused on RabbitMQ as a subject matter expert. Earlier career as Principal Architect at First Derivatives, re-engineering core trading systems for low-latency, high-throughput workloads, and as a senior software architect on retail FX trading platforms."
+  city: Madrid
+  country_code: ES
+  social_links:
+    - platform: github
+      url: "https://github.com/MarcialRosales"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/marcialrosales"
+
+- name: "Grigory Starinkin"
+  slug: "grigorystarinkin"
+  headline: "Staff Software Engineer @ 8x8 | Elixir Development"
+  bio: "Staff Software Engineer with over 15 years of experience, specializing in high-performance server-side technologies and cloud environments, with a focus on Erlang, Elixir, Python, and C++. Has led backend teams and driven software development across multiple geographies. Holds a Master's in Applied Mathematics and works extensively with AWS, Docker, and Kubernetes."
+  city: Maidenhead
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/velimir"
+    - platform: twitter
+      url: "https://x.com/velimir0xff"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/starinkin/"
+
+- name: "Anders Bälter"
+  slug: "andersbalter"
+  headline: "CTO at 84codes"
+  bio: "Architect and full stack developer. CTO at 84codes (the company behind CloudAMQP and LavinMQ), previously a senior software engineer at Norsk Polarinstitutt and developer at EVRY ASA and EDB ErgoGroup."
+  social_links:
+    - platform: github
+      url: "https://github.com/baelter"
+    - platform: twitter
+      url: "https://x.com/abaelter"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/anders-b%C3%A4lter-66884125/"
+
+- name: "Scott Corrigan"
+  slug: "scottcorrigan"
+  headline: "Vice President, Technology Services at meshIQ"
+  bio: "Experienced manager with a successful track record in the IT industry and 15+ years of management experience at leading international software companies. Core competencies in Sales Engineering and Service Delivery, with credentials in revenue generation, business development, customer relationship and team building. Effective at leading change in competitive business environments. Dual citizenship (France & USA)."
+  city: Paris
+  country_code: FR
+  social_links:
+    - platform: github
+      url: "https://github.com/pscorrigan"
+    - platform: twitter
+      url: "https://x.com/PScottCorrigan"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/pscottcorrigan/"
+
+- name: "Carl Hörberg"
+  slug: "carlhorberg"
+  headline: "CEO at 84codes"
+  bio: "Entrepreneur and software engineer. CEO at 84codes, the company behind CloudAMQP (managed RabbitMQ as a service) and LavinMQ (a high-performance open-source AMQP broker)."
+  city: Åre
+  country_code: SE
+  social_links:
+    - platform: github
+      url: "https://github.com/carlhoerberg"
+    - platform: twitter
+      url: "https://x.com/carlhoerberg"
+    - platform: instagram
+      url: "https://www.instagram.com/carlhoerberg/"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/carlhoerberg/"
+
+- name: "Will Hoy"
+  slug: "willhoy"
+  headline: "Team Lead at Bloomberg LP"
+  bio: |
+    Runs the Systems: Data Distribution team at Bloomberg, based in the London office. The team's goal is to provide managed message broker middleware to Bloomberg's Engineering Teams, with a specialism in RabbitMQ — collaborating with Engineering and SRE teams to set new standards, troubleshoot issues, and enable teams to build and integrate great software as quickly and effectively as possible.
+
+    Started at Bloomberg as a summer intern and joined full time as a Financial Software Developer, working on ALRT (real-time market data driven alerts), CIX (custom indices), TMSG (Trade Ideas), and Equity valuation, before moving on to the Monitor/Worksheets Launchpad application. Also engaged in recruitment and mentoring of interns, placements, and entry- and experienced-level engineer hiring.
+  city: London
+  country_code: GB
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/will-hoy-5098208a/"
+
+- name: "David Liu"
+  slug: "davidliu"
+  headline: "Assistant Research Professor at Cornell University"
+  bio: |
+    Assistant Research Professor at Cornell's Center for Data Science for Enterprise and Society, mentored by Jon Kleinberg, Maryam Fazel, and Sarah Dean. Affiliated with the Department of Computer Science. Research interests lie at the intersection of graph machine learning, algorithmic fairness, and the societal impact of AI, with a focus on improving the ability of machine learning models to capture the preferences and identities of minority populations.
+
+    Completed his Ph.D. in computer science at Northeastern University (Network Science Institute), advised by Professor Tina Eliassi-Rad, after a Bachelor of Science in Engineering from Princeton University. Previously a research-scientist intern at Meta (Central Applied Science and FAIR AI), sociotechnical researcher at Taraaz, and software engineer at Bloomberg LP.
+  city: Boston
+  country_code: US
+  website: "https://dliu18.github.io/"
+  social_links:
+    - platform: github
+      url: "https://github.com/dliu18"
+    - platform: twitter
+      url: "https://x.com/dayvidliu"
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/dliu18/"
+
+- name: "Jonathan Skrzypek"
+  slug: "jonathanskrzypek"
+  headline: "Engineering Director @ Dune | ex-Coinbase and Goldman Sachs"
+  bio: |
+    Seasoned engineering leader with expertise in blockchain data, cryptocurrency markets, and financial services infrastructure. Currently leads multiple engineering teams at Dune Analytics, driving blockchain data analytics solutions. Prior to Dune, managed market data systems for the institutional franchise at Coinbase and helped integrate Skew post-acquisition, where he previously scaled real-time data pipelines for crypto analytics.
+
+    Before transitioning into the blockchain space, spent nearly seven years at Goldman Sachs, leading global messaging infrastructure and managing teams to deliver high-availability systems for both trading and non-trading divisions.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/%F0%9F%92%BBjonathan-skrzypek-54127915"

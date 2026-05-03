@@ -1,0 +1,173 @@
+## Keynotes
+
+- title: "The Performance Mindset"
+  slug: "the-performance-mindset"
+  kind: keynote
+  language: en
+  duration: 42
+  speakers:
+    - marcusheld
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "cImLFMb109o"
+      url: "https://www.youtube.com/watch?v=cImLFMb109o"
+
+- title: "AMQP Ten Years After"
+  slug: "amqp-ten-years-after"
+  kind: keynote
+  language: en
+  duration: 53
+  speakers:
+    - alvarovidela
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "WpG__E5zafQ"
+      url: "https://www.youtube.com/watch?v=WpG__E5zafQ"
+
+## Talks
+
+- title: "Replacing Legacy Message Queueing Solutions with RabbitMQ"
+  slug: "replacing-legacy-message-queueing-solutions-with-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 58
+  speakers:
+    - brettcameron
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "aaB7U-q79l0"
+      url: "https://www.youtube.com/watch?v=aaB7U-q79l0"
+
+- title: "Streams: Past, Present, and Future"
+  slug: "streams-past-present-and-future"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  speakers:
+    - arnaudcogoluegnes
+    - karlnilsson
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "i3zB5VDMMV8"
+      url: "https://www.youtube.com/watch?v=i3zB5VDMMV8"
+
+- title: "Update from RabbitMQ Core Team"
+  slug: "update-from-rabbitmq-core-team"
+  kind: talk
+  language: en
+  duration: 19
+  abstract: |
+    The RabbitMQ Core Team presents what the recent updates are.
+  speakers:
+    - howardtwine
+    - rogerfreixa
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "TWOKNqm3zTo"
+      url: "https://www.youtube.com/watch?v=TWOKNqm3zTo"
+
+- title: "Nobody Wants to Lose a Single Message…"
+  slug: "nobody-wants-to-lose-a-single-message"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 28
+  speakers:
+    - gaborolah
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "07fCb1SqOHk"
+      url: "https://www.youtube.com/watch?v=07fCb1SqOHk"
+
+- title: "Serving Millions of Clients with Native MQTT and MQTT 5.0"
+  slug: "serving-millions-of-clients-with-native-mqtt-and-mqtt-5-0"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 31
+  speakers:
+    - davidansari
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "pQEk5TIUCoc"
+      url: "https://www.youtube.com/watch?v=pQEk5TIUCoc"
+
+- title: "How to Break RabbitMQ"
+  slug: "how-to-break-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  speakers:
+    - alexvaliushko
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "dteI_mNGEBE"
+      url: "https://www.youtube.com/watch?v=dteI_mNGEBE"
+
+- title: "Update RabbitMQ Now!"
+  slug: "update-rabbitmq-now"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 34
+  speakers:
+    - johanrhodin
+  topics:
+    - messaging
+    - security
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "A-FMwE8ozVE"
+      url: "https://www.youtube.com/watch?v=A-FMwE8ozVE"
+
+- title: "WebSockets and RabbitMQ: Web-STOMP, MQTT and Beyond"
+  slug: "websockets-and-rabbitmq-web-stomp-mqtt-and-beyond"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  speakers:
+    - ericaweistrand
+    - nyiorclement
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "C3I7-zHl1kw"
+      url: "https://www.youtube.com/watch?v=C3I7-zHl1kw"
+
+- title: "Lessons Learned from Scaling RabbitMQ in a High-Growth Environment"
+  slug: "lessons-learned-from-scaling-rabbitmq-in-a-high-growth-environment"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 22
+  speakers:
+    - jamescarr
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "ldgJYbGpKSk"
+      url: "https://www.youtube.com/watch?v=ldgJYbGpKSk"

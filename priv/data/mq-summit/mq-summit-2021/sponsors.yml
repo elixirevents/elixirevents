@@ -1,0 +1,23 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "84codes"
+    - slug: "influxdata"
+    - slug: "aws"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "acemq"
+
+- name: "Silver Sponsors"
+  level: 3
+  sponsors:
+    - slug: "vmware"
+
+- name: "Media Sponsors"
+  level: 6
+  sponsors:
+    - slug: "startops-group"
+    - slug: "beam-radio"
+    - slug: "functional-works"
