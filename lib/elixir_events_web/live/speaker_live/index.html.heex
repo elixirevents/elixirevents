@@ -9,6 +9,26 @@
     <p class="text-base-content/55 text-lg mt-2">Discover who's speaking and where</p>
   </div>
 
+  <%!-- Sort toolbar --%>
+  <div class="flex justify-end mb-8 p-1.5 rounded-2xl bg-base-200/50 border border-base-300/50">
+    <div class="flex items-center gap-0.5 px-1">
+      <span class="text-xs text-base-content/40 mr-2">Sort:</span>
+      <.link
+        :for={{label, value} <- [{"A–Z", "name"}, {"Most talks", "talks"}]}
+        patch={~p"/speakers?#{%{sort: value} |> Enum.reject(fn {_, v} -> v == "name" end)}"}
+        class={[
+          "px-3 py-1.5 rounded-lg text-xs font-medium cursor-pointer transition-all duration-200",
+          if(@current_sort == value,
+            do: "bg-base-300/80 text-base-content",
+            else: "text-base-content/40 hover:text-base-content/70"
+          )
+        ]}
+      >
+        {label}
+      </.link>
+    </div>
+  </div>
+
   <div :if={@profiles == []} class="text-base-content/55 text-lg mt-10 text-center py-20">
     No speakers yet. They'll appear here as events are added.
   </div>
@@ -51,5 +71,13 @@
     </.link>
   </div>
 
-  <.pagination page_data={@page_data} path="/speakers" />
+  <.pagination
+    page_data={@page_data}
+    path="/speakers"
+    params={
+      %{sort: @current_sort}
+      |> Enum.reject(fn {_, v} -> v == "name" end)
+      |> Map.new()
+    }
+  />
 </section>
