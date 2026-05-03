@@ -21,11 +21,7 @@ defmodule ElixirEventsWeb.TalkLive.Show do
          |> redirect(to: ~p"/talks")}
 
       talk ->
-        {back_to, back_to_title} =
-          case ElixirEventsWeb.Helpers.parse_back_link(uri) do
-            {path, title} -> {path, title}
-            nil -> {nil, nil}
-          end
+        {back_to, back_to_title} = ElixirEventsWeb.Helpers.parse_back_link!(uri)
 
         {:noreply,
          socket

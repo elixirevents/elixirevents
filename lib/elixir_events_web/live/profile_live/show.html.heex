@@ -186,7 +186,13 @@
     <div class="space-y-3">
       <.link
         :for={workshop <- @workshops}
-        navigate={~p"/events/#{workshop.event.slug}/workshops/#{workshop.slug}"}
+        navigate={
+          with_back_link(
+            ~p"/events/#{workshop.event.slug}/workshops/#{workshop.slug}",
+            ~p"/profiles/#{@profile.handle}",
+            @profile.name
+          )
+        }
         class="group block p-4 rounded-xl border border-base-300/60 hover:border-primary/30 hover:bg-base-200/20 transition-all"
       >
         <div class="flex items-center gap-2 mb-1.5">

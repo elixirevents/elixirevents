@@ -15,6 +15,8 @@
         speaker={speaker}
         is_keynote={true}
         talk_count={Map.get(@talk_counts, speaker.id, 0)}
+        back_to={~p"/events/#{@event.slug}/speakers"}
+        back_to_title={"#{@event.name} — Speakers"}
       />
     </div>
   </div>
@@ -32,6 +34,8 @@
         :for={speaker <- @regular_speakers}
         speaker={speaker}
         talk_count={Map.get(@talk_counts, speaker.id, 0)}
+        back_to={~p"/events/#{@event.slug}/speakers"}
+        back_to_title={"#{@event.name} — Speakers"}
       />
     </div>
   </div>

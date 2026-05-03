@@ -37,7 +37,13 @@
     :if={@filtered_talks != []}
     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
   >
-    <.talk_card :for={talk <- @filtered_talks} talk={talk} hide_event_name />
+    <.talk_card
+      :for={talk <- @filtered_talks}
+      talk={talk}
+      hide_event_name
+      back_to={~p"/events/#{@event.slug}/talks"}
+      back_to_title={"#{@event.name} — Talks"}
+    />
   </div>
 
   <%!-- Empty filter state --%>

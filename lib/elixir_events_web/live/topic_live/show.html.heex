@@ -1,16 +1,10 @@
 <section>
-  <%!-- Back link --%>
-  <div class="mb-8">
-    <.link
-      navigate={~p"/topics"}
-      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
-    >
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-      </svg>
-      All topics
-    </.link>
-  </div>
+  <.back_link
+    back_to={@back_to}
+    back_to_title={@back_to_title}
+    default_path={~p"/topics"}
+    default_title="All topics"
+  />
 
   <%!-- Topic header --%>
   <div class="mb-12">
@@ -37,7 +31,12 @@
     </div>
 
     <div :if={@talks != []} class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <.talk_card :for={talk <- @talks} talk={talk} />
+      <.talk_card
+        :for={talk <- @talks}
+        talk={talk}
+        back_to={~p"/topics/#{@topic.slug}"}
+        back_to_title={@topic.name}
+      />
     </div>
   </div>
 </section>

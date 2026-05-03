@@ -1,16 +1,10 @@
 <section class="max-w-4xl mx-auto">
-  <%!-- Back link --%>
-  <div class="mb-8">
-    <.link
-      navigate={~p"/events/#{@workshop.event.slug}"}
-      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
-    >
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-      </svg>
-      {@workshop.event.name}
-    </.link>
-  </div>
+  <.back_link
+    back_to={@back_to}
+    back_to_title={@back_to_title}
+    default_path={~p"/events/#{@workshop.event.slug}"}
+    default_title={@workshop.event.name}
+  />
 
   <%!-- Header --%>
   <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
@@ -147,7 +141,13 @@
         <div class="space-y-4">
           <.link
             :for={wt <- Enum.sort_by(@workshop.workshop_trainers, & &1.position)}
-            navigate={~p"/profiles/#{wt.profile.handle}"}
+            navigate={
+              with_back_link(
+                ~p"/profiles/#{wt.profile.handle}",
+                ~p"/events/#{@workshop.event.slug}/workshops/#{@workshop.slug}",
+                @workshop.title
+              )
+            }
             class="flex items-center gap-3 group"
           >
             <.profile_avatar
@@ -224,7 +224,13 @@
           Part of
         </h2>
         <.link
-          navigate={~p"/events/#{@workshop.event.slug}"}
+          navigate={
+            with_back_link(
+              ~p"/events/#{@workshop.event.slug}",
+              ~p"/events/#{@workshop.event.slug}/workshops/#{@workshop.slug}",
+              @workshop.title
+            )
+          }
           class="block p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-primary/[0.02] transition-all"
         >
           <div class="font-display font-bold text-base-content">{@workshop.event.name}</div>
