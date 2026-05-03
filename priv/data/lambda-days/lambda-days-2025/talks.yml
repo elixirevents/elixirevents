@@ -647,7 +647,6 @@
   kind: lightning_talk
   language: en
   duration: 5
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - giacomocavalieri
   topics:
@@ -662,7 +661,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - christopherwinter
   topics:
@@ -677,7 +675,6 @@
   kind: lightning_talk
   language: en
   duration: 7
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - farhadmehta
   topics:
@@ -693,7 +690,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - yoshikunikato
   topics:
@@ -708,7 +704,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - davidcorralplaza
   topics:
@@ -723,7 +718,6 @@
   kind: lightning_talk
   language: en
   duration: 4
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - amedeomolnar
   topics:
@@ -738,7 +732,6 @@
   kind: lightning_talk
   language: en
   duration: 6
-  abstract: "'Let's keep in touch! Follow us on:'"
   speakers:
     - christofferekeroth
   topics:

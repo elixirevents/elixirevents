@@ -1,0 +1,128 @@
+tracks:
+  - name: "Main Stage"
+    color: "#2B6CB0"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2025-11-06"
+    position: 1
+    time_slots:
+      - start_time: "08:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome!"
+            kind: social
+      - start_time: "09:20"
+        end_time: "10:10"
+        sessions:
+          - talk_slug: "keynote-you-keep-using-that-word"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "10:10"
+        end_time: "10:40"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:40"
+        end_time: "11:05"
+        sessions:
+          - talk_slug: "beyond-cloudevents-endpoints-messages-schemas-cncf-xregistry"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:10"
+        end_time: "11:35"
+        sessions:
+          - talk_slug: "breaking-storage-barriers-how-rabbitmq-streams-scale-beyond-local-disk"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:40"
+        end_time: "12:05"
+        sessions:
+          - talk_slug: "nats-on-edge-a-distributed-industrial-mesh"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:10"
+        end_time: "12:35"
+        sessions:
+          - talk_slug: "apache-activemq-and-the-coming-features-around-cloud-and-management"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:05"
+        sessions:
+          - talk_slug: "an-introduction-to-messaging-in-valkey"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "13:05"
+        end_time: "13:10"
+        sessions:
+          - title: "Platinum Sponsors' Spotlight"
+            kind: social
+      - start_time: "13:10"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch break"
+            kind: break
+      - start_time: "14:00"
+        end_time: "14:25"
+        sessions:
+          - talk_slug: "multi-tenant-messaging-systems"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "14:30"
+        end_time: "14:55"
+        sessions:
+          - talk_slug: "mqtt-and-apache-pulsar-for-iot-powering-the-connected-vehicle"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:00"
+        end_time: "15:25"
+        sessions:
+          - talk_slug: "gateway-architecture-3-0"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:25"
+        end_time: "15:55"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "15:55"
+        end_time: "16:20"
+        sessions:
+          - talk_slug: "message-brokers-and-mcp-just-another-protocol-or-more"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:25"
+        end_time: "16:50"
+        sessions:
+          - talk_slug: "replacing-legacy-message-queueing-solutions-with-rabbitmq"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:55"
+        end_time: "17:20"
+        sessions:
+          - talk_slug: "securing-your-messaging-networks-what-needs-protecting-and-how"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "17:25"
+        end_time: "17:50"
+        sessions:
+          - talk_slug: "keynote-the-power-of-queues"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "17:50"
+        end_time: "18:00"
+        sessions:
+          - title: "Closing notes"
+            kind: social
+      - start_time: "18:00"
+        end_time: "19:00"
+        sessions:
+          - title: "Reception"
+            kind: social

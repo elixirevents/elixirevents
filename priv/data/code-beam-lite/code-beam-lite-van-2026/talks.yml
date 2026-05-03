@@ -108,6 +108,7 @@
   topics:
     - erlang
     - distribution
+    - messaging
 
 - title: "Let Elixir into your Home(Kit)"
   slug: "let-elixir-into-your-home-kit"

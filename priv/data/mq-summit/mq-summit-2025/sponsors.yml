@@ -1,0 +1,16 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "aws"
+    - slug: "meshiq"
+    - slug: "lavinmq"
+    - slug: "streamnative"
+    - slug: "emqx"
+    - slug: "ibm"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "cloudamqp"
+    - slug: "seventh-state"
+    - slug: "synadia"

@@ -47,6 +47,7 @@
   topics:
     - elixir
     - otp
+    - messaging
   recordings:
     - provider: youtube
       external_id: "yztdGZALxfE"

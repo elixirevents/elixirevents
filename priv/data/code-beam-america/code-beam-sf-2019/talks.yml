@@ -652,6 +652,7 @@
     topics:
       - erlang
       - libraries
+      - messaging
 
   - title: "The art of the live upgrade - lessons from 10 years of evolving a live system"
     slug: "the-art-of-the-live-upgrade-lessons-from-10-years-of-evolving-a-live-system"

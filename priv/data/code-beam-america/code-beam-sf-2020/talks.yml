@@ -499,6 +499,7 @@
     topics:
       - elixir
       - deployment
+      - messaging
     recordings:
       - provider: youtube
         external_id: "IyxPLy2olH0"

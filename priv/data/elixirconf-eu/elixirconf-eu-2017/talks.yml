@@ -234,6 +234,7 @@
     - elixir
     - otp
     - libraries
+    - messaging
   recordings:
     - provider: youtube
       external_id: "itU5_zPddBQ"

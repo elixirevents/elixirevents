@@ -639,6 +639,7 @@
   topics:
     - elixir
     - phoenix
+    - messaging
   recordings:
     - provider: youtube
       external_id: "qb2t7PcISFA"

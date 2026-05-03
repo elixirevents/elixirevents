@@ -282,6 +282,7 @@
   topics:
     - elixir
     - phoenix
+    - messaging
   recordings:
     - provider: youtube
       external_id: "bodV9Tk_kpQ"
@@ -547,6 +548,7 @@
     - mathewgardner
   topics:
     - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "6ijgMvXJyuo"
@@ -562,6 +564,7 @@
     - martingausby
   topics:
     - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "ImcAcDBa8Dg"

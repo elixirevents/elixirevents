@@ -527,7 +527,6 @@
   kind: lightning_talk
   language: en
   duration: 7
-  abstract: "Let's keep in touch! Follow us on:"
   speakers:
     - yurileikind
   topics:
@@ -557,7 +556,6 @@
   kind: lightning_talk
   language: en
   duration: 5
-  abstract: "Let's keep in touch! Follow us on:"
   speakers:
     - conorhoekstra
   topics:

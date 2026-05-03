@@ -1141,8 +1141,10 @@
 
 - name: "Artem Gayardo-Matrosov"
   slug: "artemgayardomatrosov"
-  headline: "Developer"
-  bio: "Software engineer and conference speaker."
+  headline: "Principal Software Engineer at AWS (SQS/SNS)"
+  bio: "Software engineer since 1999, focused on large-scale distributed systems, data storage, and high-throughput queueing. Has worked on Amazon SQS and SNS since 2017, improving performance, scalability, and availability of AWS messaging services."
+  city: Vancouver
+  country_code: CA
 
 - name: "Arthur Jamet"
   slug: "arthurjamet"
@@ -1198,13 +1200,19 @@
 
 - name: "David Ware"
   slug: "davidware"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "CTO, IBM MQ"
+  bio: "IBM Distinguished Engineer and CTO for IBM MQ. Leads the product engineering team for IBM's enterprise-grade message queueing solution, which underpins many of the world's most critical and largest systems."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/dware1/"
 
 - name: "Dirk Fröhner"
   slug: "dirkfrohner"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Principal Solutions Architect at AWS"
+  bio: "Principal Solutions Architect at Amazon Web Services with over 20 years of professional experience in backend development, software architecture, and DevOps. Works with software companies to help them reach their goals using the cloud and accelerate digitalization."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/dirk-froehner/"
 
 - name: "Dmitry Boulytchev"
   slug: "dmitryboulytchev"
@@ -1329,8 +1337,8 @@
 
 - name: "JB Onofré"
   slug: "jbonofre"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Open Source Architect at Dremio; ASF Director"
+  bio: "Director of the Apache Software Foundation and PMC member on more than 20 Apache projects. Open Source Architect at Dremio, with over two decades of experience across open source, messaging, and streaming ecosystems."
 
 - name: "Jezen Thomas"
   slug: "jezenthomas"
@@ -1392,13 +1400,20 @@
 
 - name: "Ken Liao"
   slug: "kenliao"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Senior Software Engineer at AWS"
+  bio: "Senior Software Engineer at AWS bringing technical expertise to cloud solutions. Outside of work, enjoys carving fresh powder on the slopes, exploring mountain trails, and creating lasting memories with family."
 
 - name: "Kyle Davis"
   slug: "kyledavis"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Senior Developer Advocate at Valkey"
+  bio: "Senior Developer Advocate on the Valkey project with a long history in open source software development. Founding contributor to OpenSearch and previously worked on Bottlerocket OS community building. Author of 70+ technology posts and a microservice architecture book, podcast guest, and speaker at 20+ conferences globally."
+  city: Edmonton
+  country_code: CA
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/kyle-davis-linux"
+    - platform: website
+      url: "https://kylejdavis.com"
 
 - name: "Maciej Gorywoda"
   slug: "maciejgorywoda"
@@ -1445,13 +1460,23 @@
 
 - name: "Matt Pavlovich"
   slug: "mattpavlovich"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "CTO at HYTE; Apache ActiveMQ PMC"
+  bio: "CTO at HYTE and Apache ActiveMQ PMC member. Has contributed to numerous Apache integration projects and led development of JMS 3.1/2.0 support and Jakarta conversion in ActiveMQ v6. After a decade helping organizations adopt Apache integration technologies, he now leads engineering at HYTE — a self-service messaging platform for Kubernetes powered by ActiveMQ."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/mattpavlovich/"
 
 - name: "Matteo Merli"
   slug: "matteomerli"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "CTO at StreamNative; Apache Pulsar PMC Chair"
+  bio: "CTO at StreamNative with deep experience in distributed pub-sub messaging platforms. Co-creator of Apache Pulsar at Yahoo!, PMC Chair for Apache Pulsar, and PMC member of Apache BookKeeper."
+  city: Menlo Park
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/matteomerli/"
+    - platform: twitter
+      url: "https://x.com/merlimat"
 
 - name: "Miao ZhiCheng"
   slug: "miaozhicheng"
@@ -1545,13 +1570,26 @@
 
 - name: "Rob Parker"
   slug: "robparker"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Security Architect, IBM MQ"
+  bio: "Has worked at IBM for over 12 years and became Security Architect for IBM MQ in 2019. Leads the design, development, and release of security features for IBM MQ."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/robert-parker-3403475a/"
+    - platform: github
+      url: "https://github.com/PARROBE"
+    - platform: mastodon
+      url: "https://mastodon.social/@robparkertech"
 
 - name: "Roberto Luna Rojas"
   slug: "robertolunarojas"
-  headline: "Developer"
-  bio: "Conference speaker."
+  headline: "Senior Developer Advocate for Valkey"
+  bio: "Senior Developer Advocate for Valkey, based in the USA and originally from Mexico. Tries to get the most out of in-memory databases one bit at a time. Has been developing software since the mid-90s with a focus on performance and scalability."
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/robertolunarojas/"
+    - platform: twitter
+      url: "https://x.com/RobertLunaRojas"
 
 - name: "Romain Michon"
   slug: "romainmichon"
@@ -4497,8 +4535,13 @@
 
 - name: "Clemens Vasters"
   slug: "clemensvasters"
-  headline: "Software Developer"
-  bio: "Software Developer"
+  headline: "Principal Architect, Messaging and Real-Time Intelligence at Microsoft"
+  bio: "Lead Architect in Microsoft's Azure Messaging team, which builds and operates a fleet of hyper-scale messaging services including Event Grid, Service Bus, Event Hubs, Stream Analytics, and Microsoft Fabric Eventstreams."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/clemensv/"
+    - platform: website
+      url: "https://vasters.com"
 
 - name: "Greg Mefford"
   slug: "gregmefford"
@@ -8284,3 +8327,35 @@
       url: "https://www.instagram.com/mxgrn"
     - platform: website
       url: "https://mxgrn.com/"
+
+- name: "Gaurav Saxena"
+  slug: "gauravsaxena"
+  headline: "Director of Engineering"
+  bio: "Engineering leader in platform and cloud engineering with over 20 years of experience in the software industry. Expertise spans stream-based architectures, Kubernetes, service mesh, data engineering, software supply chain security, and observability."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/saxenags/"
+
+- name: "Jean-Noel Moyne"
+  slug: "jeannoelmoyne"
+  headline: "Field CTO at Synadia"
+  bio: "Over 30 years of experience in the technology industry. Career includes roles at Berkeley Lab, Biodata Inc., LMi.Net, TIBCO Software (1996–2021), and LAVA.AI before joining Synadia as Field CTO."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/jean-noel-moyne/"
+
+- name: "Max Arndt"
+  slug: "maxarndt"
+  headline: "Senior Platform Engineer at Schaeffler"
+  bio: "Problem solver specializing in the operations and development of web, cloud, mobile, and embedded systems. Over a decade of experience spanning startups to global corporations, with contributions to open source and volunteering for scholarship programs. Since 2021, building and maintaining the global NATS backbone for Schaeffler's factory data grid."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/arndtmax/"
+
+- name: "Vignesh Selvam"
+  slug: "vigneshselvam"
+  headline: "Principal Product Manager, Amazon MQ"
+  bio: "Product manager with over 12 years of experience building B2B SaaS products across data analytics, risk management, and messaging, with specialized skills in analytics, product marketing, and pricing."
+  social_links:
+    - platform: linkedin
+      url: "https://linkedin.com/in/vigneshselvam28/"

@@ -474,6 +474,7 @@
   topics:
     - elixir
     - embedded
+    - messaging
   recordings:
     - provider: youtube
       external_id: "Bd2gw_o7yzQ"

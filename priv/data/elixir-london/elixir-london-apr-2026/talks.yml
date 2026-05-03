@@ -11,6 +11,7 @@
   topics:
     - elixir
     - kafka
+    - messaging
 
 - title: "JavaScript Execution Strategies in Elixir-based Agent Frameworks"
   slug: "javascript-execution-strategies-in-elixir-based-agent-frameworks"

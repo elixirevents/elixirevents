@@ -193,3 +193,7 @@
 - name: "Observability"
   slug: "observability"
   description: "Metrics, tracing, logging, and monitoring of running systems"
+
+- name: "Messaging"
+  slug: "messaging"
+  description: "Message brokers, queues, pub/sub, and event-driven systems (RabbitMQ, MQTT, NATS, Pulsar, ActiveMQ, IBM MQ, etc.)"

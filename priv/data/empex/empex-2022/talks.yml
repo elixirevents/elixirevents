@@ -149,6 +149,7 @@
     - ryantrontz
   topics:
     - elixir
+    - messaging
   recordings:
     - provider: youtube
       external_id: "xWItOcqxCE0"

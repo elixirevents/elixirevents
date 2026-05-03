@@ -512,6 +512,7 @@
     topics:
       - erlang
       - libraries
+      - messaging
     recordings:
       - provider: youtube
         external_id: "R3gNNhP-p6s"

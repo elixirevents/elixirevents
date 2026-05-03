@@ -104,6 +104,7 @@
   topics:
     - elixir
     - kafka
+    - messaging
 
 - title: "Deterministic LLM UI Rendering in Phoenix LiveView"
   slug: "deterministic-llm-ui-rendering-in-phoenix-liveview"
