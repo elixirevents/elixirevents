@@ -2,6 +2,7 @@ defmodule ElixirEvents.Talks do
   @moduledoc false
 
   import Ecto.Query
+  require Logger
   alias ElixirEvents.Repo
   alias ElixirEvents.Talks.{Recording, Talk, TalkLink, TalkSpeaker}
 
@@ -129,10 +130,10 @@ defmodule ElixirEvents.Talks do
   end
 
   def replace_recordings(talk_id, recordings_attrs) do
-    Repo.transaction(fn ->
-      from(r in Recording, where: r.talk_id == ^talk_id) |> Repo.delete_all()
+    from(r in Recording, where: r.talk_id == ^talk_id) |> Repo.delete_all()
 
-      Enum.map(recordings_attrs, fn attrs ->
+    inserted =
+      Enum.flat_map(recordings_attrs, fn attrs ->
         %Recording{}
         |> Recording.changeset(Map.put(attrs, :talk_id, talk_id))
         |> Repo.insert(
@@ -141,25 +142,40 @@ defmodule ElixirEvents.Talks do
           returning: true
         )
         |> case do
-          {:ok, rec} -> rec
-          {:error, _} -> nil
+          {:ok, rec} ->
+            [rec]
+
+          {:error, changeset} ->
+            Logger.warning(
+              "Failed to insert recording (talk_id=#{talk_id}): #{inspect(changeset.errors)}"
+            )
+
+            []
         end
       end)
-      |> Enum.reject(&is_nil/1)
-    end)
+
+    {:ok, inserted}
   end
 
   def replace_talk_speakers(talk_id, speakers_attrs) do
-    Repo.transaction(fn ->
-      from(ts in TalkSpeaker, where: ts.talk_id == ^talk_id) |> Repo.delete_all()
+    from(ts in TalkSpeaker, where: ts.talk_id == ^talk_id) |> Repo.delete_all()
 
+    inserted =
       Enum.flat_map(speakers_attrs, fn attrs ->
         case create_talk_speaker(Map.put(attrs, :talk_id, talk_id)) do
-          {:ok, ts} -> [ts]
-          {:error, _} -> []
+          {:ok, ts} ->
+            [ts]
+
+          {:error, changeset} ->
+            Logger.warning(
+              "Failed to insert talk_speaker (talk_id=#{talk_id}): #{inspect(changeset.errors)}"
+            )
+
+            []
         end
       end)
-    end)
+
+    {:ok, inserted}
   end
 
   defp maybe_filter(queryable, "published") do
@@ -199,15 +215,23 @@ defmodule ElixirEvents.Talks do
   defp maybe_limit(queryable, limit), do: from(q in queryable, limit: ^limit)
 
   def replace_talk_links(talk_id, links_attrs) do
-    Repo.transaction(fn ->
-      from(tl in TalkLink, where: tl.talk_id == ^talk_id) |> Repo.delete_all()
+    from(tl in TalkLink, where: tl.talk_id == ^talk_id) |> Repo.delete_all()
 
+    inserted =
       Enum.flat_map(links_attrs, fn attrs ->
         case create_talk_link(Map.put(attrs, :talk_id, talk_id)) do
-          {:ok, link} -> [link]
-          {:error, _} -> []
+          {:ok, link} ->
+            [link]
+
+          {:error, changeset} ->
+            Logger.warning(
+              "Failed to insert talk_link (talk_id=#{talk_id}): #{inspect(changeset.errors)}"
+            )
+
+            []
         end
       end)
-    end)
+
+    {:ok, inserted}
   end
 end
