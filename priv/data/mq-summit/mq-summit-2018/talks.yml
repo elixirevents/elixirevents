@@ -1,7 +1,7 @@
 ## Keynotes
 
-- title: "Keynote: Idiomatic RabbitMQ"
-  slug: "keynote-idiomatic-rabbitmq"
+- title: "Idiomatic RabbitMQ"
+  slug: "idiomatic-rabbitmq"
   kind: keynote
   language: en
   duration: 56
@@ -19,8 +19,8 @@
     - kind: slides
       url: "https://www.slideshare.net/RabbitMQ-summit/keynote-idiomatic-rabbitmq-gavin-m-roy"
 
-- title: "Keynote: Scaling RabbitMQ at Goldman Sachs"
-  slug: "keynote-scaling-rabbitmq-at-goldman-sachs"
+- title: "Scaling RabbitMQ at Goldman Sachs"
+  slug: "scaling-rabbitmq-at-goldman-sachs"
   kind: keynote
   language: en
   duration: 44

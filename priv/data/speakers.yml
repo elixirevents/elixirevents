@@ -8444,6 +8444,73 @@
     - platform: linkedin
       url: "https://www.linkedin.com/in/lovisa-johansson-a6836733/"
 
+- name: "Howard Twine"
+  slug: "howardtwine"
+  headline: "Senior Product Manager at Redis"
+  bio: |
+    Product leader with extensive experience as both a business and product leader, with a focus on event-driven architectures, IoT/IIoT, connected mobility (V2X), messaging topologies, and edge compute. Currently Senior Product Manager at Redis, expanding the capabilities of Redis through Messaging and Streaming.
+
+    Previously Senior Product Manager for RabbitMQ at VMware Tanzu (2022–2026), where he was the product lead responsible for the strategy and roadmaps for both open-source RabbitMQ and VMware builds, and led the design of a scalable Kubernetes-based SaaS messaging offering. Earlier roles include Senior PM at GB Labs, Director of Software Strategy at EditShare, and COO at Vidcheck.
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/howardtwine/"
+
+- name: "Andrew Cook"
+  slug: "andrewcook"
+  headline: "Engineering Team Lead at Bloomberg LP"
+  bio: |
+    People-oriented engineer with several years of experience building and maintaining high-quality cross-product solutions for trading workflows. Most of his career has been focused on core systems handling post-executing transaction data, supporting trading workflows for both market makers and institutional asset managers. Has learned a lot about managing complex data through supporting the core multi-asset transaction platform relied on by various enterprise products. Most engineering successes have come from delivering simple solutions powered by effective use of robust distributed systems.
+
+    In addition to engineering work, has spent much of his time at Bloomberg working with the recruiting team to interview entry-level and experienced candidates, training other interviewers, and helping develop interviewing practices across Engineering.
+  city: Brooklyn
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/andr-c-cook/"
+
+- name: "Stefan Moser"
+  slug: "stefanmoser"
+  headline: "Principal Engineer at AWS, Amazon MQ"
+  bio: "Stefan is a Principal Engineer at AWS on the Amazon MQ team, where he obsesses over a large fleet of RabbitMQ and ActiveMQ brokers. He has been an advocate and teacher of messaging patterns and distributed systems design for well over a decade. When his fingers are not on a keyboard, they're likely wrapped around the handlebars of his mountain bike, holding on for dear life while hurtling down one of the North Shore's world-famous trails."
+  city: Vancouver
+  country_code: CA
+  social_links:
+    - platform: twitter
+      url: "https://x.com/stefanmoser"
+
+- name: "Rob Barnes"
+  slug: "robbarnes"
+  headline: "Tech Hacker at HashiCorp | DevOps Rob"
+  bio: "Tech hacker at HashiCorp and one half of the Keepin' It Secure podcast. Builds software, plays Valorant and Call of Duty, and posts as DevOps Rob across the web."
+  city: London
+  country_code: GB
+  social_links:
+    - platform: github
+      url: "https://github.com/devops-rob"
+    - platform: twitter
+      url: "https://x.com/devops_rob"
+    - platform: youtube
+      url: "https://www.youtube.com/devopsrob"
+
+- name: "Johan Rhodin"
+  slug: "johanrhodin"
+  headline: "Chief Customer Officer at 84codes"
+  bio: "Specialties: running message brokers in the cloud, modeling and simulation technologies."
+  city: St. Louis
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rhodin/"
+
+- name: "Rohini Senthilkumar"
+  slug: "rohinisenthil"
+  headline: "TPM @ Meta | Ex-McKinsey"
+  city: Menlo Park
+  country_code: US
+  social_links:
+    - platform: linkedin
+      url: "https://www.linkedin.com/in/rohinivsenthil/"
+
 - name: "Arnaud Cogoluègnes"
   slug: "arnaudcogoluegnes"
   headline: "Staff Engineer at VMware"

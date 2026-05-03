@@ -1,7 +1,7 @@
 ## Keynotes
 
-- title: "Keynote: An Update from the RabbitMQ Team (version 3.8)"
-  slug: "keynote-an-update-from-the-rabbitmq-team-version-3-8"
+- title: "An Update from the RabbitMQ Team (version 3.8)"
+  slug: "an-update-from-the-rabbitmq-team-version-3-8"
   kind: keynote
   language: en
   duration: 28
@@ -17,8 +17,8 @@
       external_id: "K5wZUoz4dak"
       url: "https://www.youtube.com/watch?v=K5wZUoz4dak"
 
-- title: "Keynote: Growing a Farm of Rabbits to Scale Financial Applications"
-  slug: "keynote-growing-a-farm-of-rabbits-to-scale-financial-applications"
+- title: "Growing a Farm of Rabbits to Scale Financial Applications"
+  slug: "growing-a-farm-of-rabbits-to-scale-financial-applications"
   kind: keynote
   language: en
   duration: 46

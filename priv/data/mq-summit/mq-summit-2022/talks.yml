@@ -1,0 +1,285 @@
+## Keynotes
+
+- title: "Quorum Queues - A Retrospective"
+  slug: "quorum-queues-a-retrospective"
+  kind: keynote
+  language: en
+  duration: 51
+  speakers:
+    - karlnilsson
+  topics:
+    - messaging
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "wuZC7m6dCDA"
+      url: "https://www.youtube.com/watch?v=wuZC7m6dCDA"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1yu-liI8iLfqVitbQfq8jOhsPMZerGhiy/view?usp=sharing"
+
+- title: "Erlang Powered Rabbits"
+  slug: "erlang-powered-rabbits"
+  kind: keynote
+  language: en
+  duration: 44
+  speakers:
+    - lukaslarsson
+  topics:
+    - messaging
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Iip0gFGsSHA"
+      url: "https://www.youtube.com/watch?v=Iip0gFGsSHA"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1On4lzsjM_J_LK_xdEbYmVM-s0SILnQO9/view?usp=share_link"
+
+## Talks
+
+- title: "Update from RabbitMQ Core Team"
+  slug: "update-from-rabbitmq-core-team"
+  kind: talk
+  language: en
+  duration: 15
+  speakers:
+    - edbyford
+    - howardtwine
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "HIMJgekW0Aw"
+      url: "https://www.youtube.com/watch?v=HIMJgekW0Aw"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1HmLp-4wVPyXhhtJC4XG3Gtkk-6TgeeZD/view?usp=share_link"
+
+- title: "What's New in RabbitMQ Streams?"
+  slug: "whats-new-in-rabbitmq-streams"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  speakers:
+    - arnaudcogoluegnes
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "aRNUYAeJdOw"
+      url: "https://www.youtube.com/watch?v=aRNUYAeJdOw"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/10VCpOShmVMc7V4rnMVnWwnT_YqtB21RC/view?usp=share_link"
+
+- title: "Write Fast, Reliable, and Secure Clients!"
+  slug: "write-fast-reliable-and-secure-clients"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  speakers:
+    - carlhorberg
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "cMt7cyLPE_U"
+      url: "https://www.youtube.com/watch?v=cMt7cyLPE_U"
+
+- title: "Managing RabbitMQ Usage at Scale for Bloomberg's Trading Systems"
+  slug: "managing-rabbitmq-usage-at-scale-for-bloombergs-trading-systems"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  speakers:
+    - andrewcook
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "E6YkTsZgaJg"
+      url: "https://www.youtube.com/watch?v=E6YkTsZgaJg"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1Aju2d6oyD7s4DwgKNIeBA3Os6ISyMYAC/view?usp=share_link"
+
+- title: "How to Safely and Reliably Upgrade Your RabbitMQ Cluster While Maintaining 100% Uptime"
+  slug: "how-to-safely-and-reliably-upgrade-your-rabbitmq-cluster-while-maintaining-100-percent-uptime"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 35
+  speakers:
+    - stefanmoser
+  topics:
+    - messaging
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "TKwC2Bhv7h8"
+      url: "https://www.youtube.com/watch?v=TKwC2Bhv7h8"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1OrsLbqG7Ab6PyUy3jrtyZvAHwvw5RmQt/view?usp=share_link"
+
+- title: "An Update on Khepri Adoption in RabbitMQ"
+  slug: "an-update-on-khepri-adoption-in-rabbitmq"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 45
+  speakers:
+    - michaelklishin
+    - dianaparracorbacho
+  topics:
+    - messaging
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "huT-zmXvfuM"
+      url: "https://www.youtube.com/watch?v=huT-zmXvfuM"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1_I8YnRgMX20NJVyfnOpYFpK-gvsPNGv4/view?usp=share_link"
+
+- title: "How We Rabbit at AWeber"
+  slug: "how-we-rabbit-at-aweber"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  speakers:
+    - gavinroy
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "1t2vatO8HEo"
+      url: "https://www.youtube.com/watch?v=1t2vatO8HEo"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/12XI7C8tlGA0omknz6rkPpw_uopSVq8Jg/view?usp=share_link"
+
+- title: "Pushing RabbitMQ to the Limit"
+  slug: "pushing-rabbitmq-to-the-limit"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 41
+  speakers:
+    - gaborolah
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "tly-ThwZmys"
+      url: "https://www.youtube.com/watch?v=tly-ThwZmys"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1gsro-Os14b7Z6BGfZCAtH4WNo0GgkOOk/view?usp=sharing"
+
+- title: "Zero Trust RabbitMQ with HashiCorp Vault"
+  slug: "zero-trust-rabbitmq-with-hashicorp-vault"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 39
+  speakers:
+    - robbarnes
+  topics:
+    - messaging
+    - security
+  recordings:
+    - provider: youtube
+      external_id: "g4D7UPTP7Is"
+      url: "https://www.youtube.com/watch?v=g4D7UPTP7Is"
+
+- title: "Why Does RabbitMQ Stop and What Can Be Done About It"
+  slug: "why-does-rabbitmq-stop-and-what-can-be-done-about-it"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 21
+  speakers:
+    - johanrhodin
+  topics:
+    - messaging
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "sxUyGU-wyEE"
+      url: "https://www.youtube.com/watch?v=sxUyGU-wyEE"
+
+- title: "Management, Monitoring and Tracing in RabbitMQ"
+  slug: "management-monitoring-and-tracing-in-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 14
+  speakers:
+    - rohinisenthil
+  topics:
+    - messaging
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "QFbOmD_Owqo"
+      url: "https://www.youtube.com/watch?v=QFbOmD_Owqo"
+
+- title: "RabbitMQ Performance Improvements"
+  slug: "rabbitmq-performance-improvements"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 53
+  speakers:
+    - davidansari
+    - michalkuratczyk
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "CRDmKZhYmxw"
+      url: "https://www.youtube.com/watch?v=CRDmKZhYmxw"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1ZI1qONlhwTfF6B96FHns0dA9dEaRM1us/view?usp=share_link"
+
+- title: "Fun, Interesting and Common RabbitMQ Use Cases"
+  slug: "fun-interesting-and-common-rabbitmq-use-cases"
+  kind: talk
+  language: en
+  duration: 17
+  speakers:
+    - lovisajohansson
+  topics:
+    - messaging
+  recordings:
+    - provider: youtube
+      external_id: "9A7BjeFrppA"
+      url: "https://www.youtube.com/watch?v=9A7BjeFrppA"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1H60jt63_7phhyctb0YgJ-Y2ed10Wz8qv/view?usp=sharing"
+
+- title: "Approaching Cloud-Native RabbitMQ"
+  slug: "approaching-cloud-native-rabbitmq"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  speakers:
+    - iliiakhaprov
+  topics:
+    - messaging
+    - kubernetes
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "UGdToOA6fqU"
+      url: "https://www.youtube.com/watch?v=UGdToOA6fqU"

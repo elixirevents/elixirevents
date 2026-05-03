@@ -1,7 +1,7 @@
 ## Keynotes
 
-- title: "Keynote: Bringing a Ferrari to a Horse Race - Going From Background Jobs to Event-Driven Microservices with RabbitMQ"
-  slug: "keynote-bringing-a-ferrari-to-a-horse-race"
+- title: "Bringing a Ferrari to a Horse Race - Going From Background Jobs to Event-Driven Microservices with RabbitMQ"
+  slug: "bringing-a-ferrari-to-a-horse-race"
   kind: keynote
   language: en
   duration: 54
@@ -19,8 +19,8 @@
     - kind: slides
       url: "https://drive.google.com/file/d/1_GD6ZAUcW0T0D0ihp6jtPpIdxAjtonto/view?usp=sharing"
 
-- title: "Keynote: Introducing Stream Support in RabbitMQ"
-  slug: "keynote-introducing-stream-support-in-rabbitmq"
+- title: "Introducing Stream Support in RabbitMQ"
+  slug: "introducing-stream-support-in-rabbitmq"
   kind: keynote
   language: en
   duration: 50
