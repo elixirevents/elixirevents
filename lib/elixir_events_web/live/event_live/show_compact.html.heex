@@ -1,21 +1,21 @@
 <section class="max-w-2xl mx-auto">
-  <%!-- Back link --%>
-  <div class="mb-5">
-    <.link
-      navigate={~p"/events"}
-      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
-    >
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-      </svg>
-      All events
-    </.link>
-  </div>
+  <.back_link
+    back_to={@back_to}
+    back_to_title={@back_to_title}
+    default_path={~p"/events"}
+    default_title="All events"
+  />
 
   <%!-- ============ SERIES CONTEXT ============ --%>
   <.link
     :if={@event.event_series}
-    navigate={~p"/series/#{@event.event_series.slug}"}
+    navigate={
+      with_back_link(
+        ~p"/series/#{@event.event_series.slug}",
+        ~p"/events/#{@event.slug}",
+        @event.name
+      )
+    }
     class="inline-flex items-center gap-1.5 text-xs font-semibold text-primary/80 hover:text-primary transition-colors mb-3"
   >
     {@event.event_series.name}
@@ -118,7 +118,7 @@
       <div class="space-y-3">
         <.link
           :for={talk <- @talks}
-          navigate={talk_path(talk)}
+          navigate={with_back_link(talk_path(talk), ~p"/events/#{@event.slug}", @event.name)}
           class="group flex gap-4 p-4 rounded-xl border border-base-300/60 hover:border-primary/30 hover:bg-base-200/20 transition-all"
         >
           <%!-- Thumbnail small --%>
@@ -162,7 +162,13 @@
     <% else %>
       <%!-- Grid for meetups with more talks --%>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-        <.talk_card :for={talk <- @talks} talk={talk} hide_event_name />
+        <.talk_card
+          :for={talk <- @talks}
+          talk={talk}
+          hide_event_name
+          back_to={~p"/events/#{@event.slug}"}
+          back_to_title={@event.name}
+        />
       </div>
     <% end %>
   </div>
@@ -176,7 +182,13 @@
     <div class="space-y-3">
       <.link
         :for={workshop <- @workshops}
-        navigate={~p"/events/#{@event.slug}/workshops/#{workshop.slug}"}
+        navigate={
+          with_back_link(
+            ~p"/events/#{@event.slug}/workshops/#{workshop.slug}",
+            ~p"/events/#{@event.slug}",
+            @event.name
+          )
+        }
         class="group block p-4 rounded-xl border border-base-300/60 hover:border-primary/30 hover:bg-base-200/20 transition-all"
       >
         <div class="flex items-center gap-2 mb-1.5">

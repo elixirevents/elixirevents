@@ -1,16 +1,10 @@
 <section>
-  <%!-- Back link --%>
-  <div class="mb-6">
-    <.link
-      navigate={~p"/events"}
-      class="text-sm text-base-content/55 hover:text-primary transition-colors inline-flex items-center gap-1.5"
-    >
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-      </svg>
-      All events
-    </.link>
-  </div>
+  <.back_link
+    back_to={@back_to}
+    back_to_title={@back_to_title}
+    default_path={~p"/events"}
+    default_title="All events"
+  />
 
   <%!-- ============ HERO BANNER ============ --%>
   <div class="relative rounded-2xl overflow-hidden mb-10">
@@ -126,7 +120,12 @@
             Keynote Speakers
           </div>
           <div class="flex gap-3 overflow-x-auto scrollbar-none pb-2">
-            <.keynote_card :for={speaker <- @keynote_speakers} speaker={speaker} />
+            <.keynote_card
+              :for={speaker <- @keynote_speakers}
+              speaker={speaker}
+              back_to={~p"/events/#{@event.slug}"}
+              back_to_title={@event.name}
+            />
           </div>
         </div>
       </div>
@@ -147,7 +146,13 @@
           </.link>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <.talk_card :for={talk <- Enum.take(@talks, 4)} talk={talk} hide_event_name />
+          <.talk_card
+            :for={talk <- Enum.take(@talks, 4)}
+            talk={talk}
+            hide_event_name
+            back_to={~p"/events/#{@event.slug}"}
+            back_to_title={@event.name}
+          />
         </div>
       </div>
 
@@ -164,7 +169,13 @@
         <div class="space-y-4">
           <.link
             :for={workshop <- @workshops}
-            navigate={~p"/events/#{@event.slug}/workshops/#{workshop.slug}"}
+            navigate={
+              with_back_link(
+                ~p"/events/#{@event.slug}/workshops/#{workshop.slug}",
+                ~p"/events/#{@event.slug}",
+                @event.name
+              )
+            }
             class="group block p-5 rounded-xl border border-base-300/60 hover:border-primary/30 hover:bg-base-200/20 transition-all"
           >
             <div class="flex items-start justify-between gap-4">
@@ -473,7 +484,13 @@
           Part of
         </h3>
         <.link
-          navigate={~p"/series/#{@event.event_series.slug}"}
+          navigate={
+            with_back_link(
+              ~p"/series/#{@event.event_series.slug}",
+              ~p"/events/#{@event.slug}",
+              @event.name
+            )
+          }
           class="block p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-primary/[0.02] transition-all"
         >
           <div class="font-display font-bold text-base-content">{@event.event_series.name}</div>

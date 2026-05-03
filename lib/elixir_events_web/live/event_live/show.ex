@@ -22,7 +22,7 @@ defmodule ElixirEventsWeb.EventLive.Show do
   end
 
   @impl true
-  def handle_params(%{"slug" => slug}, _uri, socket) do
+  def handle_params(%{"slug" => slug}, uri, socket) do
     event =
       Events.get_event_by_slug(slug,
         preload: [:event_series, :event_links, :event_roles, :cfps, :venue]
@@ -87,6 +87,8 @@ defmodule ElixirEventsWeb.EventLive.Show do
             [] -> nil
           end
 
+        {back_to, back_to_title} = ElixirEventsWeb.Helpers.parse_back_link!(uri)
+
         {:noreply,
          assign(socket,
            page_title: event.name,
@@ -104,7 +106,9 @@ defmodule ElixirEventsWeb.EventLive.Show do
            keynote_speakers: keynote_speakers,
            compact: compact?,
            sections: sections,
-           selected_day: selected_day
+           selected_day: selected_day,
+           back_to: back_to,
+           back_to_title: back_to_title
          )}
     end
   end

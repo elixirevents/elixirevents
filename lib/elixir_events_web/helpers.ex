@@ -295,6 +295,18 @@ defmodule ElixirEventsWeb.Helpers do
   def parse_back_link(_), do: nil
 
   @doc """
+  Like `parse_back_link/1` but always returns `{path, title}`,
+  using `{nil, nil}` when no back link is present. Convenient
+  for assigning to LiveView socket assigns.
+  """
+  def parse_back_link!(uri) do
+    case parse_back_link(uri) do
+      {path, title} -> {path, title}
+      nil -> {nil, nil}
+    end
+  end
+
+  @doc """
   Build a path with back_to query params appended.
   """
   def with_back_link(path, back_to, back_to_title \\ nil) do

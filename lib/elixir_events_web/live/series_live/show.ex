@@ -9,7 +9,7 @@ defmodule ElixirEventsWeb.SeriesLive.Show do
   end
 
   @impl true
-  def handle_params(%{"slug" => slug}, _uri, socket) do
+  def handle_params(%{"slug" => slug}, uri, socket) do
     case Events.get_event_series_by_slug(slug) do
       nil ->
         {:noreply,
@@ -21,6 +21,8 @@ defmodule ElixirEventsWeb.SeriesLive.Show do
         events =
           Events.list_events_for_series(series.id, preload: [:event_series, :cfps])
 
+        {back_to, back_to_title} = ElixirEventsWeb.Helpers.parse_back_link!(uri)
+
         {:noreply,
          socket
          |> assign(:page_title, series.name)
@@ -30,7 +32,9 @@ defmodule ElixirEventsWeb.SeriesLive.Show do
          )
          |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/series/#{series.slug}")
          |> assign(:series, series)
-         |> assign(:events, events)}
+         |> assign(:events, events)
+         |> assign(:back_to, back_to)
+         |> assign(:back_to_title, back_to_title)}
     end
   end
 end

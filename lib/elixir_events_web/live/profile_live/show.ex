@@ -31,11 +31,7 @@ defmodule ElixirEventsWeb.ProfileLive.Show do
         current_user = get_current_user(socket)
         claim_state = get_claim_state(current_user, profile)
 
-        {back_to, back_to_title} =
-          case ElixirEventsWeb.Helpers.parse_back_link(uri) do
-            {path, title} -> {path, title}
-            nil -> {nil, nil}
-          end
+        {back_to, back_to_title} = ElixirEventsWeb.Helpers.parse_back_link!(uri)
 
         {:noreply,
          socket

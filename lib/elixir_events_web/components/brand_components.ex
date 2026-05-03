@@ -555,14 +555,27 @@ defmodule ElixirEventsWeb.BrandComponents do
   ## Attributes
     * `speaker` - A speaker map with `:handle`, `:name`, and optional `:headline`
     * `talk_title` - Optional talk title
+    * `back_to` - Optional path to return to from the linked profile
+    * `back_to_title` - Optional label for the back link
   """
   attr :speaker, :map, required: true
   attr :talk_title, :string, default: nil
+  attr :back_to, :string, default: nil
+  attr :back_to_title, :string, default: nil
 
   def keynote_card(assigns) do
+    profile_path = "/profiles/#{assigns.speaker.handle}"
+
+    profile_path =
+      if assigns.back_to,
+        do: with_back_link(profile_path, assigns.back_to, assigns.back_to_title),
+        else: profile_path
+
+    assigns = assign(assigns, :profile_path, profile_path)
+
     ~H"""
     <.link
-      navigate={"/profiles/#{@speaker.handle}"}
+      navigate={@profile_path}
       class="flex items-center gap-3 px-4 py-3 rounded-xl border border-base-300 bg-base-200/30 hover:border-primary/40 hover:bg-base-200/60 transition-all min-w-[260px] group"
     >
       <.profile_avatar profile={@speaker} size={:md} />
@@ -585,15 +598,28 @@ defmodule ElixirEventsWeb.BrandComponents do
     * `speaker` - A speaker map with `:handle`, `:name`, and optional `:headline`
     * `talk_count` - Number of talks by this speaker
     * `is_keynote` - Whether the speaker is a keynote speaker
+    * `back_to` - Optional path to return to from the linked profile
+    * `back_to_title` - Optional label for the back link
   """
   attr :speaker, :map, required: true
   attr :talk_count, :integer, default: 0
   attr :is_keynote, :boolean, default: false
+  attr :back_to, :string, default: nil
+  attr :back_to_title, :string, default: nil
 
   def speaker_card(assigns) do
+    profile_path = "/profiles/#{assigns.speaker.handle}"
+
+    profile_path =
+      if assigns.back_to,
+        do: with_back_link(profile_path, assigns.back_to, assigns.back_to_title),
+        else: profile_path
+
+    assigns = assign(assigns, :profile_path, profile_path)
+
     ~H"""
     <.link
-      navigate={"/profiles/#{@speaker.handle}"}
+      navigate={@profile_path}
       class="flex items-center gap-3 p-4 rounded-xl border border-base-300 hover:border-primary/40 hover:bg-base-200/30 transition-all group"
     >
       <.profile_avatar profile={@speaker} size={:lg} />

@@ -9,7 +9,7 @@ defmodule ElixirEventsWeb.TopicLive.Show do
   end
 
   @impl true
-  def handle_params(%{"slug" => slug}, _uri, socket) do
+  def handle_params(%{"slug" => slug}, uri, socket) do
     case Topics.get_topic_by_slug(slug) do
       nil ->
         {:noreply,
@@ -23,6 +23,8 @@ defmodule ElixirEventsWeb.TopicLive.Show do
             preload: [:event, :recordings, talk_speakers: :profile]
           )
 
+        {back_to, back_to_title} = ElixirEventsWeb.Helpers.parse_back_link!(uri)
+
         {:noreply,
          socket
          |> assign(:page_title, topic.name)
@@ -33,7 +35,9 @@ defmodule ElixirEventsWeb.TopicLive.Show do
          )
          |> assign(:page_url, ElixirEventsWeb.SEO.base_url() <> "/topics/#{topic.slug}")
          |> assign(:topic, topic)
-         |> assign(:talks, talks)}
+         |> assign(:talks, talks)
+         |> assign(:back_to, back_to)
+         |> assign(:back_to_title, back_to_title)}
     end
   end
 end
