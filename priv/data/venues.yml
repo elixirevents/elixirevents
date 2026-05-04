@@ -436,3 +436,16 @@
   longitude: -58.3717
   website: "https://www.10pines.com"
   description: "The downtown Buenos Aires offices of software consultancy 10Pines, occupying the 6th floor of an Av. Leandro N. Alem building near Retiro."
+
+- name: "Fortune Park JP Celestial"
+  slug: "fortune-park-jp-celestial"
+  street: "5/43, Race Course Road"
+  city: "Bengaluru"
+  region: "Karnataka"
+  country: "India"
+  country_code: "IN"
+  postal_code: "560009"
+  latitude: 12.9809
+  longitude: 77.5760
+  website: "https://www.itchotels.com/in/en/fortunepark-jp-celestial-bengaluru"
+  description: "A business hotel on Race Course Road in central Bengaluru, near the High Grounds and within walking distance of MG Road and Cubbon Park."

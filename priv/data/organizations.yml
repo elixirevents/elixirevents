@@ -872,3 +872,21 @@
   website: "https://factom.com"
   logo_url: "https://www.erlang-factory.com/static/upload/media/1494436573730813factom_horizontal.svg"
   description: "Blockchain-as-a-service platform for data integrity and provenance, used in financial services, supply chain, and identity."
+
+- name: "Gojek"
+  slug: "gojek"
+  website: "https://www.gojek.io"
+  logo_url: "https://www.erlang-factory.com/static/upload/media/1506594536457879lx1oqqalivsla6evhpvp.png"
+  description: "Indonesian super-app for ride-hailing, payments, food delivery, and on-demand services across Southeast Asia, with engineering offices including Bengaluru."
+
+- name: "GreyOrange"
+  slug: "greyorange"
+  website: "https://www.greyorange.com"
+  logo_url: "https://www.erlang-factory.com/static/upload/media/1506594672575361fecex1wrjcdrsuivdzhi.png"
+  description: "Robotics and software company building AI-driven warehouse automation systems, with engineering teams using Erlang for fleet orchestration."
+
+- name: "Dyalog"
+  slug: "dyalog"
+  website: "https://www.dyalog.com"
+  logo_url: "https://www.erlang-factory.com/static/upload/media/1495475884245912dyalog.png"
+  description: "Developer of Dyalog APL, a modern array programming language descended from Iverson's APL, used in finance, defence, and analytics."

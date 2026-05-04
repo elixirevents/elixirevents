@@ -8900,3 +8900,80 @@
       url: "https://github.com/tgautier"
     - platform: twitter
       url: "https://x.com/aryko"
+
+- name: "Manoj Govindan"
+  slug: "manojgovindan"
+  headline: "Director of Engineering at Perfios"
+  bio: |
+    Programmer, wargamer, and history aficionado. Director of Engineering at Perfios, with a long-running interest in computer architecture and language implementation, building Erlang and TypeScript simulators to study hardware from electronics up to logic gates.
+  social_links:
+    - platform: github
+      url: "https://github.com/egmanoj"
+    - platform: twitter
+      url: "https://x.com/egmanoj"
+
+- name: "Luis Ferreira"
+  slug: "luisferreira"
+  headline: "Developer at Subvisual"
+  bio: |
+    International conference speaker and bootcamp instructor with experience teaching at multiple universities, and an organiser of international conferences. Builds web products with Elixir and Phoenix at Subvisual.
+  social_links:
+    - platform: github
+      url: "https://github.com/zamith"
+    - platform: twitter
+      url: "https://x.com/zamith"
+
+- name: "Khaja Minhajuddin"
+  slug: "khajaminhajuddin"
+  headline: "CEO at Cosmicvent Software"
+  bio: |
+    Software professional with 10+ years of industry experience and CEO of Cosmicvent Software. Works across Elixir, Go, Ruby, .NET, and JavaScript, with a focus on real-time and collaborative web applications.
+  social_links:
+    - platform: github
+      url: "https://github.com/minhajuddin"
+    - platform: twitter
+      url: "https://x.com/minhajuddin"
+
+- name: "Pranav Rao"
+  slug: "pranavrao"
+  headline: "Software Developer at Amazon"
+  bio: |
+    IIT Kharagpur graduate (Mathematics and Computing, 2014). Built critical services at Housing.com during its growth phase, later managed Elixir/Erlang teams, and developed real-time analytics pipelines using MQTT. Currently focused on big data applications using Spark and Elasticsearch at Amazon.
+
+- name: "Emil Soman"
+  slug: "emilsoman"
+  headline: "Software Consultant at Codemancers"
+  bio: |
+    Software consultant at Codemancers with 8+ years of experience across telecom and payment gateway software, with a focus on code quality and testing. Organises local tech meetups and conferences in Bangalore.
+  city: Bengaluru
+  country_code: IN
+  social_links:
+    - platform: twitter
+      url: "https://x.com/emilsoman"
+
+- name: "Ravi Mohan"
+  slug: "ravimohan"
+  headline: "CEO at AxiomChoice"
+  bio: |
+    Developer with around 20 years of experience. Previously built cryptography systems at Cybercash, enterprise services at Aztec and ThoughtWorks, and production machine learning systems over a decade. Currently CEO at AxiomChoice, working on a stealth startup project.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/ravi_mohan"
+
+- name: "Gyanendra Aggarwal"
+  slug: "gyanendraaggarwal"
+  headline: "Senior Software Architect at Alert Logic"
+  bio: |
+    Senior Software Architect at Alert Logic with 30+ years of software development experience across multiple programming languages, with the past several years focused on Erlang.
+  social_links:
+    - platform: github
+      url: "https://github.com/gyanaggarwal"
+
+- name: "Chaitanya Chalasani"
+  slug: "chaitanyachalasani"
+  headline: "Senior Software Architect at Netstratum Technologies"
+  bio: |
+    Erlang programmer and solution architect primarily working in the telecom domain, with 14+ years of Erlang experience. Has designed high-performance, low-latency telecom systems including roaming, billing, and cloud-based call centre platforms.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/chaitanyach"

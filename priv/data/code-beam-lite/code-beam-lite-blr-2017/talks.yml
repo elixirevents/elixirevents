@@ -1,0 +1,258 @@
+## Keynotes
+
+- title: "An Introduction to Erlang - From behind the Trenches"
+  slug: "an-introduction-to-erlang-from-behind-the-trenches"
+  kind: keynote
+  language: en
+  duration: 49
+  abstract: |
+    Erlang was designed for the Internet Age and for multi-core systems. In this keynote, Francesco walks through the major language constructs and their benefits, sharing personal experiences from his time at Ericsson's computer science lab during Erlang's development and the OTP R1 release.
+  speakers:
+    - francescocesarini
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "CVJ5EYUrbqw"
+      url: "https://www.youtube.com/watch?v=CVJ5EYUrbqw"
+
+- title: "Elixir by the Bellyful"
+  slug: "elixir-by-the-bellyful"
+  kind: keynote
+  language: en
+  duration: 48
+  abstract: |
+    Elixir makes me happy, and I bet it will make you happy too. OK, but why is that? Elixir is a modern functional programming language with productive "dev joy" tooling, and it sits atop a decades-stable, crazy-scale, battle-tested foundation: the Erlang VM and OTP.
+  speakers:
+    - bryanhunter
+  topics:
+    - elixir
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "2vocLGYFj8Q"
+      url: "https://www.youtube.com/watch?v=2vocLGYFj8Q"
+
+- title: "Pilgrim's Progress to the Promised Land"
+  slug: "pilgrims-progress-to-the-promised-land"
+  kind: keynote
+  language: en
+  duration: 39
+  abstract: |
+    When migrating to Elixir/OTP from other languages and systems a number of issues will always crop up. The trick is to make sure these issues don't become problems. This talk looks at some of the more common ones and what to do about them so they don't.
+  speakers:
+    - robertvirding
+  topics:
+    - elixir
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "UWZvb4zuMq8"
+      url: "https://www.youtube.com/watch?v=UWZvb4zuMq8"
+
+## Talks
+
+- title: "All Chat Applications"
+  slug: "all-chat-applications"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: |
+    Elixir is a powerful tool — in just 15 minutes you can have an acceptable chat application. This talk then digs into the deployment concerns that make a chat scalable, fault-tolerant, and available, including Docker, service discovery, secrets management, and load balancing.
+  speakers:
+    - petersaxton
+  topics:
+    - elixir
+    - deployment
+  recordings:
+    - provider: youtube
+      external_id: "JEXT-qaeeyg"
+      url: "https://www.youtube.com/watch?v=JEXT-qaeeyg"
+  links:
+    - kind: slides
+      url: "http://crowdhailer.me/talks/2017-11-17/all-chat-applications-lesson-2/slides.html"
+
+- title: "Learning Computer Architecture"
+  slug: "learning-computer-architecture"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: |
+    A presentation on studying computer architecture through its layers of abstraction, from electronics up to logic gates and hardware components. Manoj built simulators in Erlang and TypeScript along the way, and shares lessons learned from implementing the same ideas in two very different paradigms.
+  speakers:
+    - manojgovindan
+  topics:
+    - erlang
+    - learning
+  recordings:
+    - provider: youtube
+      external_id: "zMSw1qsHgLU"
+      url: "https://www.youtube.com/watch?v=zMSw1qsHgLU"
+
+- title: "Umbrella Apps - Winter is coming"
+  slug: "umbrella-apps-winter-is-coming"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 42
+  abstract: |
+    A walkthrough of building umbrella apps in Elixir and Phoenix. As a bonus, the talk covers a few of the differences between umbrella apps and microservices, and how the Elixir community has been moving towards a more thoughtful architecture for apps.
+  speakers:
+    - luisferreira
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "vXTrLYAzOd0"
+      url: "https://www.youtube.com/watch?v=vXTrLYAzOd0"
+  links:
+    - kind: slides
+      url: "https://speakerd.s3.amazonaws.com/presentations/ce17c1608b554d28a786f8e024a172bf/winter-is-coming.pdf"
+
+- title: "Rebar3"
+  slug: "rebar3"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 44
+  abstract: |
+    Unlock the full capabilities of Erlang's software management tool, rebar3. This talk explores the basic functionality — managing dependencies, compiling a project, running tests, packaging and publishing to hex.pm — and then goes into extending rebar through custom plugins, creating templates for new projects, and maintaining rebar2 compatibility in rebar3 projects.
+  speakers:
+    - markallen
+  topics:
+    - erlang
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "6b8XGH8gj18"
+      url: "https://www.youtube.com/watch?v=6b8XGH8gj18"
+
+- title: "Building a collaborative painting canvas with Phoenix"
+  slug: "building-a-collaborative-painting-canvas-with-phoenix"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 50
+  abstract: |
+    A walkthrough of leveraging Elixir and the Erlang VM to build a real-time collaborative painting application, demonstrating parallel computing and robust messaging on top of Phoenix.
+  speakers:
+    - khajaminhajuddin
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "WabGxSZhPEg"
+      url: "https://www.youtube.com/watch?v=WabGxSZhPEg"
+
+- title: "Erlang and Akka Actors - A story of tradeoffs"
+  slug: "erlang-and-akka-actors-a-story-of-tradeoffs"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 63
+  abstract: |
+    A comparison of how the BEAM's three decades of telecom engineering differ from JVM-based Akka actors, examining design tradeoffs that affect performance across GC latencies, type systems, and scheduling.
+  speakers:
+    - pranavrao
+  topics:
+    - erlang
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "dr4qbtE6oQ0"
+      url: "https://www.youtube.com/watch?v=dr4qbtE6oQ0"
+  links:
+    - kind: slides
+      url: "https://speakerd.s3.amazonaws.com/presentations/aca7df45a3ba4aa9b436d6468f2df044/final5.pdf"
+
+- title: "Turn Hours into Seconds - Concurrent Event Processing"
+  slug: "turn-hours-into-seconds-concurrent-event-processing"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 40
+  abstract: |
+    A case study showing how a slow, non-thread-safe solution was transformed into an efficient concurrent solution using Elixir's Flow library, through message passing and concurrent data flows.
+  speakers:
+    - emilsoman
+  topics:
+    - elixir
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "eCNuNvHhLmo"
+      url: "https://www.youtube.com/watch?v=eCNuNvHhLmo"
+
+- title: "Making it Fast: The Power of Benchmarking"
+  slug: "making-it-fast-the-power-of-benchmarking"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: |
+    Cameron walks through the importance of benchmarking in Elixir, demonstrates the tools, and presents some surprising results about performance. The talk uses a practical problem involving 2-dimensional arrays to reveal unexpected insights about which implementation strategies actually perform best.
+  speakers:
+    - cameronprice
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "XDLIyIATLpU"
+      url: "https://www.youtube.com/watch?v=XDLIyIATLpU"
+
+- title: "Predator: A Framework for Developing Programmatic Players for Complex Board Games"
+  slug: "predator-a-framework-for-developing-programmatic-players-for-complex-board-games"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    An experience report on using Erlang and PureScript to build automated opponents for intricate tabletop games, motivated by the challenge of finding human players for niche board games in India.
+  speakers:
+    - ravimohan
+  topics:
+    - erlang
+
+- title: "A practical guide to GenStage with a real-life use case"
+  slug: "a-practical-guide-to-genstage-with-a-real-life-use-case"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: |
+    A practical look at Elixir's GenStage abstraction for tackling supply-demand and back-pressure scenarios with minimal code, illustrated by a warehouse automation use case.
+  speakers:
+    - gyanendraaggarwal
+  topics:
+    - elixir
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "XWbz_BySNY0"
+      url: "https://www.youtube.com/watch?v=XWbz_BySNY0"
+
+- title: "High Performance Data Mart using Event Plots"
+  slug: "high-performance-data-mart-using-event-plots"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: |
+    A case study on asynchronous event processing for FSM transaction reporting, producing semi-cooked event plots that deliver fast, customisable reports for telecom systems.
+  speakers:
+    - chaitanyachalasani
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "Yhd3fa6Dkm8"
+      url: "https://www.youtube.com/watch?v=Yhd3fa6Dkm8"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1ZuxY4S3hcYgM0-kjlHzdvLAOnLptqmlW/view"
