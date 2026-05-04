@@ -2759,10 +2759,10 @@
   bio: |
     Researcher, author and teacher, senior researcher for IOHK and professor at the University of Kent and ELTE, Budapest.
 
-      His research has covered many aspects of functional programming, including verification, tool building and testing for Erlang, Haskell and OCaml. He is an author of books on type theory, Haskell and Erlang, and runs a MOOC on Erlang for FutureLearn. He is currently a senior research lead at IOHK, developing a DSL for financial contracts on blockchain.
-    social_links:
-      - platform: twitter
-        url: https://x.com/thompson_si
+    His research has covered many aspects of functional programming, including verification, tool building and testing for Erlang, Haskell and OCaml. He is an author of books on type theory, Haskell and Erlang, and runs a MOOC on Erlang for FutureLearn. He is currently a senior research lead at IOHK, developing a DSL for financial contracts on blockchain.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/thompson_si"
 
 - name: "Viktória Fördős"
   slug: "viktoriafordos"
@@ -8856,3 +8856,47 @@
   social_links:
     - platform: linkedin
       url: "https://www.linkedin.com/in/%F0%9F%92%BBjonathan-skrzypek-54127915"
+
+- name: "Marcos Almonacid"
+  slug: "marcosalmonacid"
+  headline: "Lead Elixir Developer at Inaka"
+  bio: |
+    Software professional with several years of industry experience working on large Erlang projects at Inaka, including Whisper and TV TuneIn (for MTV and VH1). Author and contributor of open source projects such as Classifier and Edis, with a background spanning C, C++, Ruby, Node.js, and Erlang.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/m_amilkr"
+
+- name: "Gustavo Giráldez"
+  slug: "gustavogiraldez"
+  headline: "Lead Software Developer at Manas.Tech"
+  bio: |
+    Experienced developer passionate about programming and learning new languages, with deep interest in concurrent and distributed systems. Lead developer at Manas.Tech and previously spent nearly a decade as lead developer in the Ministry of Defense's Modeling and Crisis Management department in Argentina. Active open source contributor, including in the GNOME project, and a master's student in computer science at UBA.
+  city: Buenos Aires
+  country_code: AR
+  social_links:
+    - platform: github
+      url: "https://github.com/ggiraldez"
+
+- name: "Guilherme Nogueira"
+  slug: "guilhermenogueira"
+  headline: "Software Engineer in love with Elixir"
+  bio: |
+    Software engineer with 10+ years of experience building web applications across operational and backend domains. Works at Xerpa, a startup using a full-stack approach with Elixir, Erlang, and ClojureScript, and is active in the São Paulo Elixir community.
+  city: São Paulo
+  country_code: BR
+  social_links:
+    - platform: github
+      url: "https://github.com/nirev"
+    - platform: twitter
+      url: "https://x.com/nirev"
+
+- name: "Thomas Gautier"
+  slug: "thomasgautier"
+  headline: "Developer, Entrepreneur, Teacher"
+  bio: |
+    Web developer with 15+ years of experience, with a background in PHP and Python before switching to Ruby and later Elixir. Teaches at Le Wagon coding bootcamp and co-founded Fewlines, a company helping traditional retailers move to API-driven business models, building Elixir-based API services and open source tooling.
+  social_links:
+    - platform: github
+      url: "https://github.com/tgautier"
+    - platform: twitter
+      url: "https://x.com/aryko"

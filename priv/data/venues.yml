@@ -412,3 +412,27 @@
   latitude: 51.5189
   longitude: -0.0844
   description: "A purpose-built tech conference and meetup venue in the City of London near Moorgate, originally opened by Skills Matter as Europe's largest dedicated developer event space."
+
+- name: "Ciudad Cultural Konex"
+  slug: "ciudad-cultural-konex"
+  street: "Sarmiento 3131"
+  city: "Buenos Aires"
+  country: "Argentina"
+  country_code: "AR"
+  postal_code: "C1196AAG"
+  latitude: -34.6033
+  longitude: -58.4108
+  website: "https://www.ciudadculturalkonex.org"
+  description: "A cultural complex in Buenos Aires' Abasto neighbourhood, set inside a former 1920s factory and oil depot that has been refurbished into a landmark venue for music, theatre, and community arts."
+
+- name: "10Pines Offices"
+  slug: "10pines-offices"
+  street: "Avenida Leandro N. Alem 896, 6to piso"
+  city: "Buenos Aires"
+  country: "Argentina"
+  country_code: "AR"
+  postal_code: "C1001AAQ"
+  latitude: -34.5984
+  longitude: -58.3717
+  website: "https://www.10pines.com"
+  description: "The downtown Buenos Aires offices of software consultancy 10Pines, occupying the 6th floor of an Av. Leandro N. Alem building near Retiro."

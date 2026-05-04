@@ -1,0 +1,99 @@
+tracks:
+  - name: "Main Stage"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2017-06-30"
+    position: 1
+    time_slots:
+      - start_time: "08:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Doors Open / Reception"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "erlang-the-power-of-functional-programming"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "10:15"
+        end_time: "11:15"
+        sessions:
+          - talk_slug: "from-sync-to-async-how-elixir-educated-me"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:15"
+        end_time: "11:30"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:30"
+        end_time: "12:30"
+        sessions:
+          - talk_slug: "adts-y-otras-heuristicas-para-trabajar-mejor-con-erlang"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:30"
+        end_time: "13:30"
+        sessions:
+          - talk_slug: "codegames-playing-with-a-real-time-coding-game"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "13:30"
+        end_time: "14:30"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "14:30"
+        end_time: "15:00"
+        sessions:
+          - title: "Lightning Talks"
+            track: "Main Stage"
+            kind: lightning_talk
+      - start_time: "15:00"
+        end_time: "16:00"
+        sessions:
+          - talk_slug: "sistemas-distribuidos-para-que"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:00"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "elixir-is-not-ruby-from-object-oriented-to-functional-and-distributed-programming"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "17:00"
+        end_time: "17:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "17:15"
+        end_time: "18:15"
+        sessions:
+          - talk_slug: "elixir-is-not-alone-talking-to-other-languages"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "18:15"
+        end_time: "19:15"
+        sessions:
+          - talk_slug: "elixir-adoption-at-scale-a-comprehensive-guide"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "19:15"
+        end_time: "19:30"
+        sessions:
+          - title: "Closing Words"
+            kind: social
+      - start_time: "19:30"
+        end_time: "21:00"
+        sessions:
+          - title: "After Event Party"
+            kind: social

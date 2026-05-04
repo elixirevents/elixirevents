@@ -1,0 +1,25 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "10pines"
+    - slug: "inaka"
+
+- name: "Silver Sponsors"
+  level: 3
+  sponsors:
+    - slug: "event-fabric"
+    - slug: "kommit"
+    - slug: "bleacher-report"
+    - slug: "manas-tech"
+    - slug: "leapsight"
+
+- name: "Bronze Sponsors"
+  level: 4
+  sponsors:
+    - slug: "surhive"
+    - slug: "factom"

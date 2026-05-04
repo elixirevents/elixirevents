@@ -1,0 +1,50 @@
+- title: "Reactive Systems and Micro Service Architectures"
+  slug: "reactive-systems-and-micro-service-architectures"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2017-06-29"
+  end_date: "2017-06-29"
+  venue_slug: 10pines-offices
+  description: |
+    A half-day tutorial on designing scalable and resilient systems with Erlang and complementary technologies, on the premise that while Erlang is a powerful language, on its own it is not enough to build large distributed systems.
+
+    **Format:** Half-day tutorial (9:00–13:00)
+
+    **Topics:**
+
+    - **Distribution** — breaking systems into microservices and connecting them across nodes
+    - **Interfaces and state** — defining service interfaces and managing distributed data with recovery strategies
+    - **Availability** — building fault-tolerant systems with resilience and reliability techniques
+    - **Scalability** — design trade-offs for performance, capacity planning, and load management
+    - **Visibility** — metrics, alarms, and monitoring for system awareness and automation
+  trainers:
+    - francescocesarini
+  topics:
+    - erlang
+    - microservices
+    - distribution
+
+- title: "Scaling Elixir and Phoenix"
+  slug: "scaling-elixir-and-phoenix"
+  experience_level: "Intermediate"
+  language: en
+  start_date: "2017-06-29"
+  end_date: "2017-06-29"
+  venue_slug: 10pines-offices
+  description: |
+    A practical course examining how to organise, grow, and maintain Elixir and Phoenix applications with multiple responsibilities. Participants analyse and refactor existing codebases to improve decoupling, isolation, testability, and resilience.
+
+    **Format:** Half-day tutorial (14:00–18:00)
+
+    **Topics:**
+
+    - OTP structure and type specifications
+    - Umbrella layout extraction
+    - Effective testing strategies
+    - Adapter patterns
+    - Circuit breakers to guarantee availability
+  trainers:
+    - marcosalmonacid
+  topics:
+    - elixir
+    - phoenix
