@@ -546,3 +546,15 @@
   longitude: 4.9118
   website: "https://www.volkshotel.nl"
   description: "A creative hotel and conference venue in the Parool building on Wibautstraat in Amsterdam-Oost, housing co-working spaces, a rooftop hot tub, and event halls used by the city's tech community."
+
+- name: "7A Posthuset"
+  slug: "7a-posthuset"
+  street: "Vasagatan 28"
+  city: "Stockholm"
+  country: "Sweden"
+  country_code: "SE"
+  postal_code: "111 20"
+  latitude: 59.3323
+  longitude: 18.0581
+  website: "https://7a.se/en/facility/7a-posthuset/"
+  description: "A conference and event venue inside Stockholm's old central post office building on Vasagatan, a few minutes' walk from the central station and the Klarabergsviadukten."

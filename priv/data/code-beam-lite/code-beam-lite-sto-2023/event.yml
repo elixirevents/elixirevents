@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Stockholm 2023"
+slug: "code-beam-lite-sto-2023"
+venue_slug: "7a-posthuset"
+kind: conference
+status: completed
+format: in_person
+start_date: "2023-05-12"
+end_date: "2023-05-12"
+timezone: "Europe/Stockholm"
+language: en
+location: "Stockholm, Sweden"
+website: "https://codebeamstockholm.com/archive/may_2023/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Stockholm 2023 returned to the Swedish capital on 12 May 2023, hosted at 7A Posthuset on Vasagatan. The single-track day mixed three keynotes — Evadne Wu on selling Elixir, Peter Van Roy on building large systems, and Sam Aaron on Sonic Pi — with talks on Buck2 builds at WhatsApp, eqWAlizer, Mria, AtomVM/Evision computer vision, GenStage, NIFs in Zig, reversible debugging, and a Phoenix LiveView visualisation of Elixir supervisors.

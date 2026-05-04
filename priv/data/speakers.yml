@@ -9236,3 +9236,26 @@
   headline: "User Experience Designer at Firefox"
   bio: |
     Works every day on the best browser experience at Firefox, with a particular focus on design systems for intricate, changeable settings and on making design accessible. Outside work, enjoys cat videos and cocktails.
+
+- name: "Ivan Lanese"
+  slug: "ivanlanese"
+  headline: "Associate Professor at the University of Bologna / INRIA"
+  bio: |
+    Associate Professor at the Department of Computer Science and Engineering of the University of Bologna and INRIA, working on theoretical computer science, programming languages, and formal methods. Author of more than 70 papers, with a recent focus on reversible computing and concurrent systems debugging.
+
+- name: "Ilya Klyuchnikov"
+  slug: "ilyaklyuchnikov"
+  headline: "Developer Infrastructure at WhatsApp"
+  bio: |
+    Developer-tooling and programming-language engineer with a decade of experience: supercompilation research, Java bytecode annotation inference at IntelliJ, modernising Oculus build systems, and shipping eqWAlizer — the type checker for Erlang at WhatsApp scale. PhD in Computer Science.
+  social_links:
+    - platform: github
+      url: "https://github.com/ilya-klyuchnikov"
+    - platform: twitter
+      url: "https://x.com/lambdamix"
+
+- name: "Andreas Löscher"
+  slug: "andreasloscher"
+  headline: "Software Engineer at WhatsApp"
+  bio: |
+    Software engineer on the Developer Infrastructure team at WhatsApp / Meta. Completed a PhD in Uppsala on the property-based testing tool PropEr, then moved to Meta to focus on scaling Erlang development for very large codebases.
