@@ -890,3 +890,27 @@
   website: "https://www.dyalog.com"
   logo_url: "https://www.erlang-factory.com/static/upload/media/1495475884245912dyalog.png"
   description: "Developer of Dyalog APL, a modern array programming language descended from Iverson's APL, used in finance, defence, and analytics."
+
+- name: "ScoutAPM"
+  slug: "scoutapm"
+  website: "https://scoutapm.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/1a7973d2f329c2cf1593111e9ec68337539a1ece.png"
+  description: "Application performance monitoring tool with first-class Elixir, Ruby, and Python support."
+
+- name: "Qixxit"
+  slug: "qixxit"
+  website: "https://www.qixxit.de"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/c52d623d2dd357553bdcd296f67775888630e3b1.png"
+  description: "Berlin-based travel platform from Deutsche Bahn for combining trains, buses, flights, and ride-shares into single trips."
+
+- name: "Wooga"
+  slug: "wooga"
+  website: "https://www.wooga.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/397c31888b822e1278a935876ddde7ff4344d246.png"
+  description: "Berlin-based mobile games studio behind narrative titles such as June's Journey and Pearl's Peril, with backend services built on Erlang."
+
+- name: "Code Sync"
+  slug: "code-sync"
+  website: "https://codesync.global"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/19d4efb8443f514f1c942012514b8fea7619ebc5.png"
+  description: "Conference organisation behind the Code BEAM and Code Mesh events, the successors to Erlang Factory."

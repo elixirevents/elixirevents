@@ -1,0 +1,100 @@
+tracks:
+  - name: "Main Stage"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2018-10-12"
+    position: 1
+    time_slots:
+      - start_time: "08:00"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "09:55"
+        sessions:
+          - talk_slug: "erlang-scales-robots"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "10:00"
+        end_time: "10:40"
+        sessions:
+          - talk_slug: "getting-distributed-with-firenest"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "10:40"
+        end_time: "11:10"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:10"
+        end_time: "11:50"
+        sessions:
+          - talk_slug: "stateful-property-based-testing-with-a-game-logic-case-study"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:55"
+        end_time: "12:35"
+        sessions:
+          - talk_slug: "inch-how-elixir-1-7-changed-the-rules-for-documentation-analysis"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:00"
+        sessions:
+          - talk_slug: "how-to-teach-elixir-to-non-functional-developers"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "13:00"
+        end_time: "14:30"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "14:30"
+        end_time: "15:10"
+        sessions:
+          - talk_slug: "ra-a-raft-implementation"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:15"
+        end_time: "15:55"
+        sessions:
+          - talk_slug: "digging-through-the-garbage"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:00"
+        end_time: "16:20"
+        sessions:
+          - talk_slug: "structs-for-order"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:20"
+        end_time: "16:50"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:50"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "functional-apis-with-graphql-and-elixir"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "17:35"
+        end_time: "18:15"
+        sessions:
+          - talk_slug: "your-monolith-elixir-and-you"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "18:20"
+        end_time: "18:30"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Berlin 2018"
+slug: "code-beam-lite-ber-2018"
+venue_slug: "bitcrowd-berlin"
+kind: conference
+status: completed
+format: in_person
+start_date: "2018-10-12"
+end_date: "2018-10-12"
+timezone: "Europe/Berlin"
+language: en
+location: "Berlin, Germany"
+website: "https://www.codesync.global/conferences/code-beam-lite-berlin-2018/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Berlin 2018 brought the local Erlang and Elixir community together for a single-track day of talks at the Bitcrowd office in Kreuzberg on 12 October 2018. The programme covered distribution with Firenest, Raft with Ra, garbage collection on the BEAM, property-based testing, GraphQL with Absinthe, documentation analysis with Inch, and pragmatic Elixir adoption alongside existing monoliths.

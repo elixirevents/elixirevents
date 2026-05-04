@@ -8977,3 +8977,36 @@
   social_links:
     - platform: twitter
       url: "https://x.com/chaitanyach"
+
+- name: "Hubert Łępicki"
+  slug: "hubertlepicki"
+  headline: "Co-owner of AmberBit"
+  bio: |
+    Decade of Ruby experience and now works primarily in Elixir. Co-owner of AmberBit, a software development company established in 2008, but never stopped being primarily a programmer. Hobbies include retro gaming, LEGO with the family, and sci-fi.
+  social_links:
+    - platform: github
+      url: "https://github.com/hubertlepicki"
+    - platform: twitter
+      url: "https://x.com/hubertlepicki"
+
+- name: "Lou Xun"
+  slug: "louxun"
+  headline: "The Elixir guy at CCP Games"
+  bio: |
+    Started with startup and indie app development at university. Spent four years working on EVE Online at CCP Games and has been seriously interested in Erlang and Elixir for several years.
+  social_links:
+    - platform: github
+      url: "https://github.com/aquarhead"
+    - platform: twitter
+      url: "https://x.com/aquarhead"
+
+- name: "Leandro Bighetti"
+  slug: "leandrobighetti"
+  headline: "Elixir Developer at Entelios AG"
+  bio: |
+    Brazilian software developer with 7+ years of experience across investment banking, game development, and the energy sector. Works at Entelios AG on load control systems built with Erlang and Elixir, and creates educational screencasts for developers new to Elixir and functional programming.
+  social_links:
+    - platform: github
+      url: "https://github.com/Lbighetti"
+    - platform: twitter
+      url: "https://x.com/LeandroBighetti"

@@ -1,0 +1,210 @@
+- title: "Erlang scales robots"
+  slug: "erlang-scales-robots"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: |
+    Cooperative robotics is a fascinating area where lots of robots work together to achieve some (positive) common goal — rescue or exploration missions, for example. This talk explores how Erlang can address the scalability and fault-tolerance challenges of cooperative robotics, looking at existing Erlang-based projects and presenting research conducted at Bournemouth and Glasgow Universities.
+  speakers:
+    - nataliachechina
+  topics:
+    - erlang
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "OkGht9d2LgY"
+      url: "https://www.youtube.com/watch?v=OkGht9d2LgY"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/8a0839832693407509a22c5918c8837776db2988.pdf"
+
+- title: "Getting distributed with Firenest"
+  slug: "getting-distributed-with-firenest"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: |
+    In the Elixir world there are many great libraries for many things — ExUnit for testing, Plug for the web, Phoenix for real-time communication. When it comes to distributed systems, however, it has been a bit of a wild west, with many small competing solutions of varied quality. Firenest is an attempt to close that gap by providing high-quality, ready-made components for building distributed systems in Elixir.
+  speakers:
+    - michalmuskala
+  topics:
+    - elixir
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "yKUXhuTJRbk"
+      url: "https://www.youtube.com/watch?v=yKUXhuTJRbk"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/0B6IPhcxPFzqeUW11Q2ZJdnhSWEhwcXVPcUNzeGZFbDFFTG1Z/view"
+
+- title: "Stateful property-based testing: with a game logic case study"
+  slug: "stateful-property-based-testing-with-a-game-logic-case-study"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 36
+  abstract: |
+    Lou shares his experience and findings going from Test-Driven Development to stateful property-based testing, including finding a concurrency bug (among many others) along the way. He also demonstrates how to write one such test yourself.
+  speakers:
+    - louxun
+  topics:
+    - elixir
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "2yyPv8ahMHg"
+      url: "https://www.youtube.com/watch?v=2yyPv8ahMHg"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1ybp2T97PU0at3wFRjbodtAqgXjJUN-va/view"
+
+- title: "Inch: How Elixir 1.7 changed the rules for documentation analysis"
+  slug: "inch-how-elixir-1-7-changed-the-rules-for-documentation-analysis"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 32
+  abstract: |
+    In most languages there are tools for testing and static analysis to identify code smells and refactoring opportunities, but for a long time there was no tool to help you figure out which parts of a codebase were lacking documentation the most. This talk covers how Inch filled that niche for hundreds of Elixir programmers, what is unique about Elixir's approach to docs as first-class citizens, and how the recent support for EEP 48 in Elixir 1.7 changed the rules for documentation analysis.
+  speakers:
+    - renefohring
+  topics:
+    - elixir
+    - documentation
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "EoLabl7PiZ8"
+      url: "https://www.youtube.com/watch?v=EoLabl7PiZ8"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/4588f096a769ce8d6fc5702aff5cfede09caebbc.pdf"
+
+- title: "How to teach Elixir to non-functional developers"
+  slug: "how-to-teach-elixir-to-non-functional-developers"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 22
+  abstract: |
+    Leandro talks about efficient ways of teaching newcomers the language: how to get people interested, where they typically struggle, and how to overcome these challenges.
+  speakers:
+    - leandrobighetti
+  topics:
+    - elixir
+    - learning
+  recordings:
+    - provider: youtube
+      external_id: "llQmhYHzEQo"
+      url: "https://www.youtube.com/watch?v=llQmhYHzEQo"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/47b37017781304c562ac330047f8a1d7705f8f22.pdf"
+
+- title: "Ra: a Raft implementation"
+  slug: "ra-a-raft-implementation"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: |
+    Karl introduces Ra, an open-source Raft implementation by Team RabbitMQ. The talk covers the reasons for wanting to use Raft inside RabbitMQ, the design requirements, and implementation details, and explains how to use Ra to build replicated state machines and integrate it with RabbitMQ.
+  speakers:
+    - karlnilsson
+  topics:
+    - erlang
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "7NNjjTrBZtw"
+      url: "https://www.youtube.com/watch?v=7NNjjTrBZtw"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/97baf6dccb7676ff901161e979e4077ec513cae7.pdf"
+
+- title: "Digging through the garbage"
+  slug: "digging-through-the-garbage"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: |
+    The BEAM was designed to run on 1980s hardware and never crash. How does it manage to run for so long on machines with such little memory and still have such good soft-real-time performance? This talk explores garbage collection fundamentals — generational collectors, heaps, and stacks — for beginners, while offering more advanced viewers insights into monitoring memory usage through BEAM tracing events and optimisation techniques for resource-constrained environments such as IoT devices.
+  speakers:
+    - devonestes
+  topics:
+    - erlang
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "aqLujfzvUgM"
+      url: "https://www.youtube.com/watch?v=aqLujfzvUgM"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/b2794381fb274d37dd1c7de1ed7d320c86faa8ce.pdf"
+
+- title: "Structs for order"
+  slug: "structs-for-order"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 18
+  abstract: |
+    A look at how Elixir developers can leverage Structs beyond Ecto models throughout Phoenix applications. Andrey demonstrates how Structs help break complex monolithic controllers into manageable components, emphasising their role as domain model entities that establish data contracts and enable validation and handling.
+  speakers:
+    - andreychernykh
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "MDj-MURXMi8"
+      url: "https://www.youtube.com/watch?v=MDj-MURXMi8"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/141c4e78885c1d7ceaf072f8308aeeded4c2d042.pdf"
+
+- title: "Functional APIs with GraphQL & Elixir"
+  slug: "functional-apis-with-graphql-and-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: |
+    GraphQL is the next big thing in API development and is slowly replacing RESTful JSON APIs as a means of client-server communication. The talk explores how Elixir's Absinthe library enables GraphQL integration while demonstrating functional approaches to API design, covering key GraphQL concepts and implementation strategies.
+  speakers:
+    - hubertlepicki
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "K_9IXTUwVL4"
+      url: "https://www.youtube.com/watch?v=K_9IXTUwVL4"
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/54d7d067ef27a3e6965e00504a54e9ed519b4255.pdf"
+
+- title: "Your monolith, Elixir and you"
+  slug: "your-monolith-elixir-and-you"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 41
+  abstract: |
+    Elixir is great, so clearly we will all rewrite our applications in Elixir. Mostly, you can't and shouldn't do that. This talk details how Liefery's team built two new Elixir applications incrementally while integrating them with an existing Rails codebase — the tactics, lessons learned, and challenges encountered along the adoption journey.
+  speakers:
+    - tobiaspfeiffer
+  topics:
+    - elixir
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "ejd8Eqe5760"
+      url: "https://www.youtube.com/watch?v=ejd8Eqe5760"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/0B6IPhcxPFzqeVmZCZjRyX01IcTFRcG9PaE9QVVh1cjZDYlZz/view"
