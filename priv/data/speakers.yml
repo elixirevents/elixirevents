@@ -9128,3 +9128,32 @@
       url: "https://github.com/andreafrancia"
     - platform: twitter
       url: "https://x.com/andreafrancia"
+
+- name: "András G Békés"
+  slug: "andrasgbekes"
+  headline: "Senior Software Engineer at Morgan Stanley"
+  bio: |
+    Senior software engineer in financial services. Spent four years in functional programming academia and teaching, then four years at Ericsson developing large-scale Erlang systems including AXD301 and NETSim. Currently leads the team developing and operating the backend infrastructure of a kdb+ data warehouse solution at Morgan Stanley.
+
+- name: "András Boroska"
+  slug: "andrasboroska"
+  headline: "Lead Erlang Developer at OTP Bank"
+  bio: |
+    Years of programming experience across diverse fields, most recently in payments and banking. Lead Erlang developer at OTP Bank, where he works on infrastructure to keep dozens of Erlang applications running smoothly.
+  social_links:
+    - platform: github
+      url: "https://github.com/aboroska"
+    - platform: twitter
+      url: "https://x.com/aboroska"
+
+- name: "Zsolt Laky"
+  slug: "zsoltlaky"
+  headline: "Backend Designer at OTP Bank"
+  bio: |
+    Decades of programming experience across several languages, with a particular love for Erlang. Currently designing the backend at OTP Bank.
+
+- name: "Zoltán Dankó"
+  slug: "zoltandanko"
+  headline: "Head of Distributed Systems Development at OTP Bank"
+  bio: |
+    Over a decade of experience helping organisations identify new business opportunities and align them with technological strategy. Specialises in digital transformation in corporate settings, with a particular focus on growth mindset and collaboration as drivers of cultural change.

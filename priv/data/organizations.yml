@@ -1016,3 +1016,27 @@
   website: "http://re-store.it"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/7ba4f62a412fe2c1f41a86569b963cb940234a83.png"
   description: "Italian Apple Premium Reseller chain operating retail stores and corporate solutions across Italy."
+
+- name: "100 Starlings"
+  slug: "100-starlings"
+  website: "https://100starlings.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/4bd494a864045969ad9102706c8507a555378ca0.png"
+  description: "Hungarian software studio specialising in Elixir consulting, training, and product development."
+
+- name: "OTP Bank"
+  slug: "otp-bank"
+  website: "https://www.otpbank.hu"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/295491fdc759a0800eb13cdb3d443eece85027fb.png"
+  description: "One of the largest banking groups in Central and Eastern Europe, with backend systems built in Erlang."
+
+- name: "Cursor Insight"
+  slug: "cursor-insight"
+  website: "https://www.cursorinsight.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/80d2eb591f7b0f8175d11515d464d42dd2e7df8b.png"
+  description: "Hungarian behavioural biometrics company that uses motion analysis for signature verification, fraud detection, and identity verification."
+
+- name: "Eötvös Loránd University"
+  slug: "elte"
+  website: "https://www.elte.hu"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/9c4192700b6ed000d53b842a89006a9f4a5c57a0.png"
+  description: "ELTE — Hungary's largest research university, with a Faculty of Informatics that has been a long-standing hub for Erlang research and teaching."

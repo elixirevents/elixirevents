@@ -1,0 +1,106 @@
+tracks:
+  - name: "Szabó József's Room"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2019-09-20"
+    position: 1
+    time_slots:
+      - start_time: "08:15"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "09:55"
+        sessions:
+          - talk_slug: "such-great-heights"
+            track: "Szabó József's Room"
+            kind: keynote
+      - start_time: "10:05"
+        end_time: "10:30"
+        sessions:
+          - talk_slug: "evolution-of-a-kdb-message-router"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "10:30"
+        end_time: "11:00"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:00"
+        end_time: "11:40"
+        sessions:
+          - talk_slug: "elixir-architecture-101"
+            track: "Szabó József's Room"
+            kind: keynote
+      - start_time: "11:50"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "elixir-and-the-blockchain-a-perfect-match"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "12:20"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "documentation-as-a-first-class-citizen-on-the-beam"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:40"
+        end_time: "14:00"
+        sessions:
+          - talk_slug: "visual-time-travelling-using-beam-trace-dumps"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "14:10"
+        end_time: "14:40"
+        sessions:
+          - talk_slug: "challenges-of-managing-50-erlang-applications-with-rebar3"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "14:50"
+        end_time: "15:30"
+        sessions:
+          - talk_slug: "testing-for-race-conditions-in-real-world-software"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "15:30"
+        end_time: "16:00"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:00"
+        end_time: "16:20"
+        sessions:
+          - talk_slug: "an-operations-tool-that-gets-the-most-out-of-the-beam"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "16:30"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "to-beam-or-not-to-beam"
+            track: "Szabó József's Room"
+            kind: talk
+      - start_time: "17:10"
+        end_time: "17:50"
+        sessions:
+          - talk_slug: "research-industry-inspiration"
+            track: "Szabó József's Room"
+            kind: keynote
+      - start_time: "17:50"
+        end_time: "18:00"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

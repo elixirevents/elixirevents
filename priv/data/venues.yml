@@ -497,3 +497,15 @@
   latitude: 44.5217
   longitude: 11.3460
   description: "A consortium for technology transfer in the Navile district of Bologna, hosting a co-working space and conference area used by the local tech community."
+
+- name: "ELTE Faculty of Informatics"
+  slug: "elte-budapest"
+  street: "Pázmány Péter sétány 1/C"
+  city: "Budapest"
+  country: "Hungary"
+  country_code: "HU"
+  postal_code: "1117"
+  latitude: 47.4723
+  longitude: 19.0627
+  website: "https://www.inf.elte.hu"
+  description: "The Faculty of Informatics of Eötvös Loránd University, on the Lágymányos campus in southern Budapest beside the Danube — a long-standing centre of Hungarian functional programming research and Erlang teaching."
