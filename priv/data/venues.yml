@@ -485,3 +485,15 @@
   longitude: 11.5323
   website: "https://www.marriott.com/en-us/hotels/mucsi-sheraton-muenchen-westpark-hotel/"
   description: "A conference hotel on Garmischer Straße in Munich's Westend district, just south of the Theresienwiese (the Oktoberfest grounds) and a short walk to the Hackerbrücke S-Bahn station."
+
+- name: "Consorzio T3LAB"
+  slug: "t3lab-bologna"
+  street: "Via Sario Bassanelli, 9/11"
+  city: "Bologna"
+  region: "Emilia-Romagna"
+  country: "Italy"
+  country_code: "IT"
+  postal_code: "40129"
+  latitude: 44.5217
+  longitude: 11.3460
+  description: "A consortium for technology transfer in the Navile district of Bologna, hosting a co-working space and conference area used by the local tech community."

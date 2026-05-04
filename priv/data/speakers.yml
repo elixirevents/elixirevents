@@ -9078,3 +9078,53 @@
   social_links:
     - platform: twitter
       url: "https://x.com/umamaistempo"
+
+- name: "Tiago Duarte"
+  slug: "tiagoduarte"
+  headline: "CEO of Coletiv Studio"
+  bio: |
+    Software engineer who moved from front-end and iOS development to the backend after discovering Elixir. Founded Coletiv, a software studio building digital products for iOS, Android, and the web with all backend code written in Elixir and Erlang.
+  social_links:
+    - platform: github
+      url: "https://github.com/tmpduarte"
+    - platform: twitter
+      url: "https://x.com/tmpduarte"
+
+- name: "Arif Ishaq"
+  slug: "arifishaq"
+  headline: "Erlang Evangelist, Product Manager at Athonet R&D"
+  bio: |
+    Moved from the oil industry to telecommunications, where he championed Erlang adoption by taking on ambitious projects others deemed impossible. Now Product Manager in Athonet's R&D division, focusing on mobile core network products.
+
+- name: "Tobias Kräntzer"
+  slug: "tobiaskraentzer"
+  headline: "Senior Backend Developer at Qixxit"
+  bio: |
+    Senior backend developer with 15+ years of software experience across multiple languages and platforms. Previously focused on iOS development at the Fraunhofer Institute, and now shaping the backend platform at Qixxit.
+  social_links:
+    - platform: github
+      url: "https://github.com/anagromataf"
+    - platform: twitter
+      url: "https://x.com/anagrom_ataf"
+
+- name: "Derek Kraan"
+  slug: "derekkraan"
+  headline: "Author of Horde and DeltaCRDT"
+  bio: |
+    Author of the Horde and DeltaCRDT libraries for distributing processes across a cluster. Runs a small independent software consultancy specialising in Elixir, and moonlights as a beekeeper.
+  social_links:
+    - platform: github
+      url: "https://github.com/Derekkraan"
+    - platform: twitter
+      url: "https://x.com/Derekkraan"
+
+- name: "Andrea Francia"
+  slug: "andreafrancia"
+  headline: "XP programmer and TDD evangelist"
+  bio: |
+    Extreme programming practitioner and test-driven development evangelist, working across multiple languages including Elixir.
+  social_links:
+    - platform: github
+      url: "https://github.com/andreafrancia"
+    - platform: twitter
+      url: "https://x.com/andreafrancia"

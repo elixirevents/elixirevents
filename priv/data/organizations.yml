@@ -986,3 +986,33 @@
   website: "https://boinx.com"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/9d13651bc8dd6455901b07067f7df9d5183cea50.png"
   description: "German Mac and iOS software company behind FotoMagico and the mimoLive live-streaming production app used to record Code BEAM Lite Munich."
+
+- name: "Voismart"
+  slug: "voismart"
+  website: "http://www.voismart.it"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/fbd7f5a988db9c9da712252d1cbe8d9fc6118886.png"
+  description: "Italian unified communications company building VoIP, video conferencing, and contact-centre platforms with Erlang at the core."
+
+- name: "Prima Assicurazioni"
+  slug: "prima-assicurazioni"
+  website: "https://www.prima.it"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/7cdb4156f88b6221b3c6875ba278b380af269614.png"
+  description: "Italian online insurance company, with backend systems built in Elixir and Erlang for fast quoting and policy management."
+
+- name: "Codice Plastico"
+  slug: "codice-plastico"
+  website: "http://codiceplastico.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/fe40932a53106539ec11425d3979ff7cdc8f9bde.png"
+  description: "Italian software development consultancy in Brescia, building tailored business applications with a strong focus on functional programming."
+
+- name: "Athonet"
+  slug: "athonet"
+  website: "https://www.athonet.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/1f2611d3d2b8ab2a23236333596b70da6dcac909.png"
+  description: "Italian mobile core network vendor providing private LTE and 5G networks, with a long-standing tradition of building telco software in Erlang."
+
+- name: "Restore"
+  slug: "restore"
+  website: "http://re-store.it"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/7ba4f62a412fe2c1f41a86569b963cb940234a83.png"
+  description: "Italian Apple Premium Reseller chain operating retail stores and corporate solutions across Italy."

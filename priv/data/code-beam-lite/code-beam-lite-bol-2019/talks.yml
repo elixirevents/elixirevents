@@ -1,0 +1,196 @@
+## Keynotes
+
+- title: "Such great heights"
+  slug: "such-great-heights"
+  kind: keynote
+  level: beginner
+  language: en
+  abstract: |
+    BEAM concurrency is often underutilised as a solution tool. Through the lens of a real-world scenario where Elixir was chosen to implement a brand new solution to a well-known problem, this keynote explores why the team picked BEAM-based concurrency and walks through the interesting technical implementation details — encouraging developers to recognise the broader potential of BEAM's concurrent capabilities and adopt it more often in their work.
+  speakers:
+    - sasajuric
+  topics:
+    - elixir
+    - concurrency
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/01/d0e87a178d1c54b7f06a5ad409b1acee76ddf873.pdf"
+
+- title: "Elixir Architecture 101"
+  slug: "elixir-architecture-101"
+  kind: keynote
+  level: intermediate
+  language: en
+  abstract: |
+    A look at how to design Elixir applications effectively, going beyond the typical stateless web app backed by a database to explore where Elixir really excels. The keynote covers architecture from two angles: the lower-level design of processes within an Elixir app and the higher-level strategy for structuring Elixir services, with practical use cases and design patterns for building systems that align with Elixir's strengths.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - engineering
+
+## Talks
+
+- title: "Live Coding in Elixir"
+  slug: "live-coding-in-elixir"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    A live demonstration of solving the String Calculator Kata using test-driven development, tackling the problem incrementally while explaining Elixir language features and TDD patterns. Aimed at attendees new to Elixir or curious about how TDD works in practice.
+  speakers:
+    - andreafrancia
+  topics:
+    - elixir
+    - testing
+
+- title: "Running Erlang and Elixir on microcontrollers with AtomVM"
+  slug: "running-erlang-and-elixir-on-microcontrollers-with-atomvm"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Microcontrollers have RAM constraints comparable to legacy computers, and the standard BEAM virtual machine cannot run on such resource-limited devices. AtomVM bridges this gap. The talk explains why Erlang and Elixir are a good fit for embedded applications, walks through AtomVM's functionality and design, and serves as an educational resource for understanding how Erlang VMs work through AtomVM's simplified implementation.
+  speakers:
+    - davidebettio
+  topics:
+    - erlang
+    - elixir
+    - embedded
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/default/0001/01/1899d09baf3ee840b3153720b3e92659359826e7.pdf"
+
+- title: "Expecting the Unexpected"
+  slug: "expecting-the-unexpected"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Distributed transactions can fail in many ways when a system handles multiple third-party integrations. Using Qixxit's multimodal transport platform as a case study, the talk examines how traceability can falter and presents recovery strategies, deriving a reusable pattern for systems that need to deal with distributed transactions in e-commerce-like domains.
+  speakers:
+    - tobiaskraentzer
+  topics:
+    - erlang
+    - elixir
+    - engineering
+  links:
+    - kind: slides
+      url: "https://tobias-kraentzer.de/expecting-the-unexpected/"
+
+- title: "Who Takes Out Your Trash?"
+  slug: "who-takes-out-your-trash"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    Every program creates garbage, yet most developers don't need to understand the mechanics of how it gets cleaned up. Sanne demystifies garbage collection — reference counting, tracing, and generational algorithms — and then explains how Erlang and Elixir specifically handle memory. Designed to be accessible to developers at all skill levels.
+  speakers:
+    - sannekalkman
+  topics:
+    - erlang
+    - elixir
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1yxPUTq6-DbQecFU2B59WroQFYWc-wY_m"
+
+- title: "Developing desktop GUIs with wxErlang"
+  slug: "developing-desktop-guis-with-wxerlang"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    wxErlang GUI development need not be intimidating. By leveraging OTP alongside wxWidgets — treating widgets as gen_servers — developers can create hundreds or thousands of them, all communicating directly with other Erlang processes, simplifying the construction of desktop GUIs.
+  speakers:
+    - arifishaq
+  topics:
+    - erlang
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/default/0001/01/0b5267f450b3259b49b03502485586bf7b4ff4f1.pdf"
+
+- title: "Introducing the Erlang Ecosystem Foundation"
+  slug: "introducing-the-erlang-ecosystem-foundation"
+  kind: talk
+  language: en
+  abstract: |
+    A short introduction to the newly-formed Erlang Ecosystem Foundation — its mission, working groups, and how members of the BEAM community can get involved.
+  speakers:
+    - francescocesarini
+  topics:
+    - community
+
+- title: "Live coding an Escher painting using Scenic"
+  slug: "live-coding-an-escher-painting-using-scenic"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A live coding session reconstructing M.C. Escher's "Square Limit" painting using Elixir and the Scenic framework. The talk introduces how Scenic works and then walks through analysing and rebuilding the fractal structure underlying Escher's artwork step by step, leaving attendees with practical knowledge of Scenic and an appreciation for the mathematics behind Escher's art.
+  speakers:
+    - juliu
+  topics:
+    - elixir
+  links:
+    - kind: repo
+      url: "https://github.com/Arkham/scenic_escher"
+
+- title: "How we scraped and aggregated data from multiple sources using OTP"
+  slug: "how-we-scraped-and-aggregated-data-from-multiple-sources-using-otp"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A walk-through of OTP — GenServers, supervision trees, concurrency, and fault tolerance — through a production system. The talk compares two approaches the team implemented for continuously scraping and aggregating data from multiple sources to populate a dashboard, highlighting the challenges encountered in each, aimed at developers considering GenServer in their own projects.
+  speakers:
+    - tiagoduarte
+  topics:
+    - elixir
+    - otp
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/11DmgFBpSOnpMJa5d5dcw9OTnlyMLdF93/view"
+
+- title: "CRDTs from the ground up"
+  slug: "crdts-from-the-ground-up"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A short history of CRDTs and how to leverage them to build distributed applications on the BEAM. The talk presents CRDTs in foundational terms for newcomers and discusses practical applications in Elixir, including the speaker's own Horde and DeltaCRDT libraries.
+  speakers:
+    - derekkraan
+  topics:
+    - elixir
+    - distribution
+    - libraries
+
+- title: "Implementing a Functional Query Language"
+  slug: "implementing-a-functional-query-language"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    The story of building XQuery 3.1, a functional query language, on the Erlang BEAM virtual machine — the ups, the downs, and the uglies of implementing a W3C XML language in Erlang. Aimed at developers dealing with XML data and at anyone interested in building other languages on top of the BEAM.
+  speakers:
+    - zacharydean
+  topics:
+    - erlang
+    - compilers
+
+- title: "Back to basics: an introduction to Diameter"
+  slug: "back-to-basics-an-introduction-to-diameter"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    The story of how an inexperienced BEAM developer wrote the simplest network element ever using Elixir and OTP, with a brief introduction to the Diameter protocol along the way. Aimed at developers interested in telecommunications infrastructure and lesser-known capabilities of OTP.
+  speakers:
+    - lucadeizotti
+  topics:
+    - erlang
+    - elixir
+    - otp
+  links:
+    - kind: repo
+      url: "https://github.com/zoten/cbl2019-slides"

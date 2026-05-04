@@ -1,0 +1,28 @@
+- name: "Diversity & Inclusion Sponsor"
+  level: 1
+  sponsors:
+    - slug: "voismart"
+
+- name: "Platinum Sponsor"
+  level: 2
+  sponsors:
+    - slug: "prima-assicurazioni"
+
+- name: "Gold Sponsor"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "codice-plastico"
+    - slug: "aeternity"
+    - slug: "athonet"
+    - slug: "restore"
+
+- name: "Co-organisers"
+  level: 5
+  sponsors:
+    - slug: "coders51"
+    - slug: "code-sync"
