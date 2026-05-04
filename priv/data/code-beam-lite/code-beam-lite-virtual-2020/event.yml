@@ -1,0 +1,14 @@
+name: "Code BEAM Lite Virtual 2020"
+slug: "code-beam-lite-virtual-2020"
+kind: conference
+status: completed
+format: online
+start_date: "2020-04-03"
+end_date: "2020-04-03"
+timezone: "Europe/London"
+language: en
+location: "Online"
+website: "https://www.codesync.global/conferences/code-beam-lite-virtual/"
+color: "#3182CE"
+description: |
+  The first-ever Code BEAM Lite Virtual ran on 3 April 2020 as a free, online-only afternoon conference at the start of the COVID-19 lockdown. The single-track programme opened with an Elixir update from José Valim and an OTP update from Kenneth Lundin, then ranged across Mint HTTP clients, Advent of Code in Erlang, game engines and Android applications on the BEAM, and a closing panel on remote and distributed working.

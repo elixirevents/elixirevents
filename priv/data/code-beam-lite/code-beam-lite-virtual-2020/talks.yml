@@ -1,0 +1,86 @@
+- title: "Elixir update"
+  slug: "elixir-update"
+  kind: talk
+  language: en
+  abstract: |
+    An update on the latest Elixir developments from the language's creator.
+  speakers:
+    - josevalim
+  topics:
+    - elixir
+    - community
+
+- title: "An update from the OTP team"
+  slug: "an-update-from-the-otp-team"
+  kind: talk
+  language: en
+  abstract: |
+    Kenneth shares what the OTP team has been working on over the past few months — the projects in flight, what's on the research side, and where Erlang/OTP is heading.
+  speakers:
+    - kennethlundin
+  topics:
+    - erlang
+    - otp
+
+- title: "Mint - Disrupting HTTP clients"
+  slug: "mint-disrupting-http-clients"
+  kind: talk
+  language: en
+  abstract: |
+    Mint is a young HTTP/1 and HTTP/2 client for Elixir that aims to disrupt the status quo of HTTP clients on the BEAM. It's a functional, data-centric client that isn't backed by a process and doesn't impose a process architecture on its users. The talk covers Mint's design principles and how its low-level interface lets developers build different abstractions on top of it for different situations.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - libraries
+
+- title: "Don't let Santa Claus crash!"
+  slug: "dont-let-santa-claus-crash"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    A look at using Erlang to tackle the Advent of Code programming challenge — 25 problems with a Christmas-themed backstory — and whether the BEAM is well suited to puzzle-style problems compared to languages like C, Java, and Python. An entertaining take on showcasing Erlang and BEAM advantages in an unusual application.
+  speakers:
+    - piotrnosek
+  topics:
+    - erlang
+
+- title: "Building Game Engines in Elixir"
+  slug: "building-game-engines-in-elixir"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A practical look at building and maintaining a production Elixir gaming platform. The talk covers implementing business logic with GenServer processes, coordinating GenServers and supervisors, process management practices, and debugging performance issues that affect system resources. Aimed at Elixir developers at the beginner or intermediate level who want to see how the BEAM's concurrency model fits gaming infrastructure.
+  speakers:
+    - gabrielkolawole
+  topics:
+    - elixir
+    - otp
+
+- title: "Building Android applications on Erlang intelligence"
+  slug: "building-android-applications-on-erlang-intelligence"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at how to use Erlang's capabilities inside Android applications — running Erlang modules on a non-standard BEAM runtime and coordinating data exchange with the mobile app. The talk uses CoffeeBeam (an Android Erlang VM) and a real game-logic example to walk through the architectural constraints and optimisation strategies involved.
+  speakers:
+    - viktorgergely
+  topics:
+    - erlang
+
+- title: "Working Distributed - panel discussion"
+  slug: "working-distributed-panel-discussion"
+  kind: panel
+  language: en
+  abstract: |
+    Remote working has been forced upon all of us. This panel discusses experiences with remote work — from right now under COVID-19 and from before — what previous strategies are no longer effective, and what productive approaches actually help distributed teams collaborate.
+  speakers:
+    - emanueladamiani
+    - gianlucapadovani
+    - torbenhoffmann
+    - piotrnosek
+  topics:
+    - community

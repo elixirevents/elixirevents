@@ -1,0 +1,27 @@
+- name: "Global Sponsor"
+  level: 1
+  sponsors:
+    - slug: "duffel"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "prima-assicurazioni"
+    - slug: "entelios"
+
+- name: "Gold Sponsor"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "athonet"
+    - slug: "codice-plastico"
+
+- name: "Co-organisers"
+  level: 5
+  sponsors:
+    - slug: "coders51"
+    - slug: "code-sync"

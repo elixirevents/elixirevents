@@ -1,0 +1,62 @@
+tracks:
+  - name: "Main Stage"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2020-04-03"
+    position: 1
+    time_slots:
+      - start_time: "15:00"
+        end_time: "15:05"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "15:05"
+        end_time: "15:30"
+        sessions:
+          - talk_slug: "elixir-update"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:35"
+        end_time: "16:00"
+        sessions:
+          - talk_slug: "an-update-from-the-otp-team"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:05"
+        end_time: "16:30"
+        sessions:
+          - talk_slug: "mint-disrupting-http-clients"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:35"
+        end_time: "17:00"
+        sessions:
+          - talk_slug: "dont-let-santa-claus-crash"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "17:05"
+        end_time: "17:30"
+        sessions:
+          - talk_slug: "building-game-engines-in-elixir"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "17:35"
+        end_time: "18:00"
+        sessions:
+          - talk_slug: "building-android-applications-on-erlang-intelligence"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "18:05"
+        end_time: "18:35"
+        sessions:
+          - talk_slug: "working-distributed-panel-discussion"
+            track: "Main Stage"
+            kind: panel
+      - start_time: "18:35"
+        end_time: "18:40"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

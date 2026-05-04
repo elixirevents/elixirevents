@@ -9230,3 +9230,9 @@
       url: "https://github.com/Laymer"
     - platform: twitter
       url: "https://x.com/IKopest"
+
+- name: "Emanuela Damiani"
+  slug: "emanueladamiani"
+  headline: "User Experience Designer at Firefox"
+  bio: |
+    Works every day on the best browser experience at Firefox, with a particular focus on design systems for intricate, changeable settings and on making design accessible. Outside work, enjoys cat videos and cocktails.
