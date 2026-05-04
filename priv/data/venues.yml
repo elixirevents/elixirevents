@@ -521,3 +521,16 @@
   longitude: 13.4495
   website: "https://www.betahaus.com"
   description: "A coworking space and event venue in Berlin's Neukölln district, used regularly by the local tech community for meetups and small conferences."
+
+- name: "ITC Welcomhotel Bengaluru"
+  slug: "itc-welcomhotel-bengaluru"
+  street: "46 Richmond Road"
+  city: "Bengaluru"
+  region: "Karnataka"
+  country: "India"
+  country_code: "IN"
+  postal_code: "560025"
+  latitude: 12.9690
+  longitude: 77.6143
+  website: "https://www.itchotels.com"
+  description: "A business hotel on Richmond Road in central Bengaluru, part of ITC's Welcomhotel chain, with conference facilities used by the local tech community."

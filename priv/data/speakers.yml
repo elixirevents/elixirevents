@@ -9181,3 +9181,17 @@
       url: "https://github.com/lukeses"
     - platform: twitter
       url: "https://x.com/lukeses_x"
+
+- name: "Ravi Chandra Padmala"
+  slug: "ravichandrapadmala"
+  headline: "Software engineer"
+  bio: |
+    Software engineer based in India, with a particular interest in Erlang's philosophy of failure handling and how distributed systems principles influence software design.
+
+- name: "Sujatha Hemmady"
+  slug: "sujathahemmady"
+  headline: "Engineer at Redbus"
+  bio: |
+    Engineer with 6+ years of product development experience, currently building scalable transaction systems with Erlang at Redbus.
+  city: Bengaluru
+  country_code: IN
