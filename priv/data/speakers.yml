@@ -9010,3 +9010,45 @@
       url: "https://github.com/Lbighetti"
     - platform: twitter
       url: "https://x.com/LeandroBighetti"
+
+- name: "Marc Worrell"
+  slug: "marcworrell"
+  headline: "Creator of Zotonic"
+  bio: |
+    Creator of Zotonic, the Erlang CMS, with a long-standing focus on web-based systems, social platforms, multimedia databases, and embedded systems. Cares about elegance in software, scaling, and website efficiency.
+  social_links:
+    - platform: github
+      url: "https://github.com/mworrell"
+    - platform: twitter
+      url: "https://x.com/mworrell"
+
+- name: "Tjaco Oostdijk"
+  slug: "tjacooostdijk"
+  headline: "Developer at Kabisa"
+  bio: |
+    Developer and consultant who came to programming from professional drumming. Born and raised as a musician, hitting drums since the age of three, Tjaco discovered programming and now works at Kabisa while keeping his musical practice.
+  social_links:
+    - platform: github
+      url: "https://github.com/drumusician"
+    - platform: twitter
+      url: "https://x.com/drumusician"
+
+- name: "Willem de Jong"
+  slug: "willemdejong"
+  headline: "Erlang programmer at Deribit"
+  bio: |
+    Freelance Erlang programmer and creator of open source Erlang implementations for XML, SOAP, and gRPC. Began testing ASN.1 tools at KPN's research department in 1993, later worked as IT Architect at T-Mobile Netherlands, and has spent more than 15 years in telecom architecture roles. Since 2017 has primarily worked for Deribit, the Bitcoin derivatives trading platform built in Erlang.
+  social_links:
+    - platform: github
+      url: "https://github.com/willemdj"
+
+- name: "Zachary Kessin"
+  slug: "zacharykessin"
+  headline: "Author of 'Building Web Applications with Erlang'"
+  bio: |
+    Web developer since 1994 who discovered Erlang in 2012, and author of "Building Web Applications with Erlang." Created the Mostly Erlang podcast and the BEAM Channel on YouTube. Teaches teams remotely on property-based testing, types, and related topics, working from Israel's Negev Desert region.
+  social_links:
+    - platform: github
+      url: "https://github.com/zkessin"
+    - platform: twitter
+      url: "https://x.com/zkessin"

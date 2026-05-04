@@ -461,3 +461,15 @@
   longitude: 13.4251
   website: "https://bitcrowd.net"
   description: "The Berlin office of software consultancy Bitcrowd, in the Luisenstadt area of Kreuzberg, used as a meetup and conference venue for the BEAM community."
+
+- name: "Lloyd Hotel"
+  slug: "lloyd-hotel-amsterdam"
+  street: "Oostelijke Handelskade 34"
+  city: "Amsterdam"
+  country: "Netherlands"
+  country_code: "NL"
+  postal_code: "1019 BN"
+  latitude: 52.3742
+  longitude: 4.9348
+  website: "https://www.lloydhotel.com"
+  description: "A landmark hotel and cultural embassy on the Java-eiland in Amsterdam's Eastern Docklands, set inside a 1921 building originally built to house emigrants travelling to South America, and now featuring rooms ranging from one to five stars."

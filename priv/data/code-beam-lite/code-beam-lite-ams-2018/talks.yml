@@ -1,0 +1,209 @@
+## Keynotes
+
+- title: "Such great heights"
+  slug: "such-great-heights"
+  kind: keynote
+  level: beginner
+  language: en
+  abstract: |
+    If you don't have a hammer, nothing looks like a nail. Concurrency on the BEAM is a great fit for a lot of problems, but it is often overlooked because many of us have worked for a long time without having that hammer in our toolbox. Saša walks through a real-world case study showing how Elixir solves established problems with a novel approach, demonstrating the technical benefits of BEAM-based systems.
+  speakers:
+    - sasajuric
+  topics:
+    - elixir
+    - concurrency
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/01/d0e87a178d1c54b7f06a5ad409b1acee76ddf873.pdf"
+
+- title: "Automatically generating your tests from a specification"
+  slug: "automatically-generating-your-tests-from-a-specification"
+  kind: keynote
+  level: intermediate
+  language: en
+  abstract: |
+    When teams collaborate on backend and frontend systems they establish contracts through APIs that need verification. This keynote demonstrates how to convert syntactic API specifications into testable specifications for stateful web services using property-based testing. Manual testing often misses edge cases, but property-based testing discovers errors earlier by generating diverse test scenarios. The shrinking feature identifies minimal examples that reproduce bugs, accelerating diagnosis — and as specifications change through the lifetime of a project, automated tests immediately reveal incompatibilities without rewriting hundreds of cases by hand.
+  speakers:
+    - thomasarts
+  topics:
+    - erlang
+    - testing
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1LqEcYxyXhLkbVB3a-wZDwXY3yazxq8cv"
+
+## Talks
+
+- title: "Turning Zotonic inside out — secured MQTT everywhere"
+  slug: "turning-zotonic-inside-out-secured-mqtt-everywhere"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at how MQTT — an efficient publish/subscribe protocol — expands what Zotonic can do. The talk covers independent web workers in browsers, client–server communication channels, server model extensions, and a unified API programming model spanning IoT and web clients, with end-to-end encryption of MQTT messages enabling secure topic-based communication.
+  speakers:
+    - marcworrell
+  topics:
+    - erlang
+    - messaging
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1TWvHFxcbOD9FIY5hUip7tpGzNcBSK6Jy"
+
+- title: "Mind your own business View Controller"
+  slug: "mind-your-own-business-view-controller"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at alternative architectures — Hexagonal, Onion, Clean — for situations where MVC is not optimal. Peter explores what separation of concerns really means, how to organise code using Elixir tools like mix, umbrellas, and releases, and what additional capabilities the Elixir ecosystem still needs to fulfil its potential.
+  speakers:
+    - petersaxton
+  topics:
+    - elixir
+    - engineering
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/51418748da3dc2467430ccdcd8cee64986c23cf1.pdf"
+
+- title: "Who Takes Out Your Trash?"
+  slug: "who-takes-out-your-trash"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    Every program you run creates garbage, yet most developers don't need to understand the mechanics of how it gets cleaned up. Sanne demystifies garbage collection by introducing the fundamentals — reference counting, tracing, and generational algorithms — and then explains how Erlang and Elixir specifically handle memory. Deliberately accessible to developers at all experience levels.
+  speakers:
+    - sannekalkman
+  topics:
+    - erlang
+    - elixir
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1L3XHkoYoBBHcNOS87EiaIHJOnAURkTIo"
+
+- title: "Getting Erlang to talk to the outside world – in a language that they understand"
+  slug: "getting-erlang-to-talk-to-the-outside-world"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Deribit's API redesign required selecting a protocol that was efficient, supported bidirectional communication, and remained accessible to non-technical users. Rather than adopting SOAP, REST, or gRPC wholesale, the team built a solution from JSON-RPC, WebSockets, OpenAPI, and OAuth — enabling them to generate documentation, build testing frameworks, and offer browser-based API exploration. A case study on how to make Erlang systems communicate effectively with the outside world.
+  speakers:
+    - willemdejong
+  topics:
+    - erlang
+    - engineering
+  links:
+    - kind: slides
+      url: "https://www.codesync.global/uploads/media/activity_slides/0001/02/17a38f91ac1035f54da17eba7413f2a75ccfb483.pdf"
+
+- title: "The big ball of nouns"
+  slug: "the-big-ball-of-nouns"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    The code is not the whole story. Each piece of code has to operate on data, which tends to introduce a lot of coupling no matter the paradigm. Maciej argues that the issue stems not from code structure alone but from how data is organised and coupled throughout an application, and advocates shifting perspective toward behaviour-driven design — identifying stronger architectural boundaries, creating smaller and more isolated components, and drawing connections to Phoenix Contexts as a path to meaningful module boundaries.
+  speakers:
+    - maciejkaszubowski
+  topics:
+    - elixir
+    - engineering
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1QetrmDB2y22qu3-ReNuJk0Pp91sneNjh"
+
+- title: "What actually is the BEAM?"
+  slug: "what-actually-is-the-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at the BEAM runtime and its compiler — how they relate, what particular strengths the combination gives our code, and how we can leverage that from the applications we write every day. The talk compares the BEAM to other environments such as the JVM, the CLR, and Lua, highlighting both similarities and differences in how these systems execute code for languages like Erlang, Elixir, LFE, and Efene.
+  speakers:
+    - michalmuskala
+  topics:
+    - erlang
+    - elixir
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1LIR3vCsdMRnTUbJ9ZvmPrpW3Qze-GkAG"
+
+- title: "Building a living lab"
+  slug: "building-a-living-lab"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    The challenges of developing and building living labs in the areas of rental housing, office buildings, and SportsTech, and how to set up an architecture prepared for the unknown — practical considerations for designing systems that have to operate in real-world environments with unpredictable requirements across multiple domains.
+  speakers:
+    - madeleinemalmsten
+  topics:
+    - elixir
+    - embedded
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1r3dmirUTjYSlsWOMoR-kf4gIVU1QjQya"
+
+- title: "Learn you some 'ssl' for much security!"
+  slug: "learn-you-some-ssl-for-much-security"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Erlang/OTP's built-in 'ssl' application is the basis of many client and server packages, but it has its share of quirks that can lead to weak — or even broken — security. Bram walks through cipher suite selection, server hostname verification, certificate issues such as wildcard SANs, and revocation checks, with practical Erlang and Elixir examples for libraries including Ranch, Cowboy, Plug, Phoenix, and HTTP clients.
+  speakers:
+    - bramverburg
+  topics:
+    - erlang
+    - elixir
+    - security
+
+- title: "Things you could do with Mix, but probably shouldn't"
+  slug: "things-you-could-do-with-mix-but-probably-shouldnt"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A tongue-in-cheek tour of unconventional uses of Mix beyond standard project commands, demonstrating Mix's internal mechanics through creative examples — including using Mix to play music — to illustrate how developers might leverage it for custom tooling and problem-solving.
+  speakers:
+    - tjacooostdijk
+  topics:
+    - elixir
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1lGLAmLWE5CWXh6TGmLGpBKnOLVfZrW25"
+
+- title: "XProf 2.0 - Evolution of tracing-based investigation"
+  slug: "xprof-2-evolution-of-tracing-based-investigation"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    XProf was originally created to hunt down performance issues, but the second major release shifts its purpose toward being a powerful query tool for asking questions about system behaviour and getting meaningful answers immediately. The talk highlights design improvements including a split, modular architecture and a generalised command framework that lets XProf accommodate a wider range of setups and use cases.
+  speakers:
+    - petergomori
+  topics:
+    - erlang
+    - observability
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=0B6IPhcxPFzqeSV9jVGM5WTRpV1hBdHpSTDJHdjJGWmRBbi04"
+
+- title: "Types in Erlang - a shallow dive"
+  slug: "types-in-erlang-a-shallow-dive"
+  kind: talk
+  language: en
+  duration: 8
+  abstract: |
+    A short look at types on the BEAM and what else they can do — beyond simple guards and dialyzer specs — to make Erlang and Elixir codebases easier to reason about and to evolve.
+  speakers:
+    - zacharykessin
+  topics:
+    - erlang
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "48phgMNV0AA"
+      url: "https://www.youtube.com/watch?v=48phgMNV0AA"

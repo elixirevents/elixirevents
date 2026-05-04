@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Amsterdam 2018"
+slug: "code-beam-lite-ams-2018"
+venue_slug: "lloyd-hotel-amsterdam"
+kind: conference
+status: completed
+format: in_person
+start_date: "2018-11-30"
+end_date: "2018-11-30"
+timezone: "Europe/Amsterdam"
+language: en
+location: "Amsterdam, Netherlands"
+website: "https://www.codesync.global/conferences/cbl-amsterdam-2018/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Amsterdam 2018 brought the Dutch Erlang and Elixir community together at the Lloyd Hotel on 30 November 2018 for a single-track day of 13 talks, opened with a keynote by Saša Jurić and closed with a property-based testing keynote from Thomas Arts. The programme covered MQTT, garbage collection, BEAM internals, GenStage, TLS, tracing with XProf, types in Erlang, and pragmatic Mix tooling.
