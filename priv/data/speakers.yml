@@ -9157,3 +9157,27 @@
   headline: "Head of Distributed Systems Development at OTP Bank"
   bio: |
     Over a decade of experience helping organisations identify new business opportunities and align them with technological strategy. Specialises in digital transformation in corporate settings, with a particular focus on growth mindset and collaboration as drivers of cultural change.
+
+- name: "Sasha Fonseca"
+  slug: "sashafonseca"
+  headline: "Early adopter of Elixir, organiser of Lisbon |> Elixir"
+  bio: |
+    Software engineer with a Master's from the University of Lisbon. Has worked at major Portuguese firms including SONAE and Talkdesk, actively promotes BEAM languages, and organises the Lisbon |> Elixir meetup. Outside work, enjoys fitness, progressive rock, and gaming.
+  city: Lisbon
+  country_code: PT
+  social_links:
+    - platform: github
+      url: "https://github.com/sashaafm"
+    - platform: twitter
+      url: "https://x.com/sashaSFM"
+
+- name: "Łukasz Jankowski"
+  slug: "lukaszjankowski"
+  headline: "Elixir developer at Briisk"
+  bio: |
+    Elixir alchemist at Briisk, and a mentor at the popular RailsGirls and ElixirGirls workshops.
+  social_links:
+    - platform: github
+      url: "https://github.com/lukeses"
+    - platform: twitter
+      url: "https://x.com/lukeses_x"

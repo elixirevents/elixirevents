@@ -1,0 +1,95 @@
+tracks:
+  - name: "The Hideout"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2019-10-11"
+    position: 1
+    time_slots:
+      - start_time: "08:15"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:10"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "gleam-lean-beam-typing-machine"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "09:55"
+        end_time: "10:35"
+        sessions:
+          - talk_slug: "communicating-with-the-outside-world-external-term-format"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "10:35"
+        end_time: "11:05"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:05"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "credo-origins"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "11:50"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "designing-an-elixir-library-using-token-based-approach"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "12:15"
+        end_time: "12:55"
+        sessions:
+          - talk_slug: "time-series-database-right-in-your-toolbox"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "12:55"
+        end_time: "13:55"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:55"
+        end_time: "14:35"
+        sessions:
+          - talk_slug: "communicating-through-microservices-an-overview-on-grpc"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "14:40"
+        end_time: "15:00"
+        sessions:
+          - talk_slug: "comparing-common-concurrency-patterns-in-elixir-and-erlang"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "15:05"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "visual-time-travelling-using-beam-trace-dumps"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "15:45"
+        end_time: "16:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:15"
+        end_time: "16:55"
+        sessions:
+          - talk_slug: "functioning-among-humans"
+            track: "The Hideout"
+            kind: talk
+      - start_time: "17:00"
+        end_time: "17:45"
+        sessions:
+          - title: "Lightning Talks"
+            track: "The Hideout"
+            kind: lightning_talk

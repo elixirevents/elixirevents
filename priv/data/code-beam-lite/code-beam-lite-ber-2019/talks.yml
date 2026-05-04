@@ -1,0 +1,115 @@
+- title: "Gleam: Lean BEAM typing machine"
+  slug: "gleam-lean-beam-typing-machine"
+  kind: talk
+  language: en
+  abstract: |
+    Erlang and Elixir excel at concurrency and failure handling, but larger codebases get harder to maintain. Gleam takes the lessons from strongly-typed languages such as Haskell, Rust, and Elm and applies them to the BEAM, aiming to enhance developer productivity. The talk introduces Gleam's core features, its implementation approach, its interoperability with other BEAM languages, and the roadmap and community involvement opportunities.
+  speakers:
+    - louispilfold
+  topics:
+    - gleam
+    - type-system
+
+- title: "Communicating with the outside world: a look at the BEAM's External Term Format"
+  slug: "communicating-with-the-outside-world-external-term-format"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    The BEAM uses Erlang's External Term Format (ETF) to send data to the outside world, representing BEAM types as binary data. This talk takes a look at ETF itself and at an Elm-language implementation for browsers, demonstrating performance and size benefits over formats like JSON, and shows why ETF matters across BEAM systems and how it can be applied across tech stacks.
+  speakers:
+    - sashafonseca
+  topics:
+    - erlang
+    - elixir
+
+- title: "Credo: Origins"
+  slug: "credo-origins"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at three years of Credo's development and how it gained traction through community contributions. The talk covers Credo's distinctive philosophy — code consistency that teaches users instead of barking "you're doing it wrong" — explores how key features evolved, showcases lesser-known capabilities, and introduces Credo Plugins as a way for the community to teach one another through customisable analysis.
+  speakers:
+    - renefohring
+  topics:
+    - elixir
+    - libraries
+
+- title: "Designing an Elixir library using token-based approach"
+  slug: "designing-an-elixir-library-using-token-based-approach"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A walkthrough of a design pattern where a single data structure is passed through multiple functions — the same idea behind libraries like Ecto.Query and Plug.Conn. Tomasz presents a library his team built for composing Ecto queries to streamline search-form development, with validation, filtering, ordering, and pagination as examples, and reflects on how this approach affects API consistency and debugging.
+  speakers:
+    - tomaszkowal
+  topics:
+    - elixir
+    - ecto
+    - libraries
+
+- title: "Time Series Database - Right in Your Toolbox"
+  slug: "time-series-database-right-in-your-toolbox"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at time-series databases and their applications in DevOps, IoT, and FinTech, including key concepts such as data retention and continuous queries. The talk covers the libraries available on the BEAM and demonstrates practical query examples on selected time-series database systems.
+  speakers:
+    - lukaszjankowski
+  topics:
+    - elixir
+    - observability
+
+- title: "Communicating through microservices: an overview on gRPC"
+  slug: "communicating-through-microservices-an-overview-on-grpc"
+  kind: talk
+  language: en
+  abstract: |
+    Whenever a distributed system enters the architecture, complexity goes up considerably. This talk covers the benefits and drawbacks of gRPC, the data-serialisation challenges of microservice communication, and how to design effective APIs for inter-service communication on the BEAM.
+  speakers:
+    - charlotteloreleideoliveira
+  topics:
+    - erlang
+    - microservices
+
+- title: "Comparing common concurrency patterns in Elixir and Erlang"
+  slug: "comparing-common-concurrency-patterns-in-elixir-and-erlang"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    There are many ways to implement concurrent computation in Elixir and Erlang applications. This short talk compares two prevalent approaches, deepens insights into designing concurrent BEAM applications, and reminds developers that powerful tools like GenServer, Task, and gen_statem still need careful consideration before being reached for.
+  speakers:
+    - devonestes
+  topics:
+    - erlang
+    - elixir
+    - concurrency
+
+- title: "Visual time-travelling using BEAM trace dumps"
+  slug: "visual-time-travelling-using-beam-trace-dumps"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A novel approach to visualising BEAM trace dumps for production tracing. Few features of the BEAM can create as much excitement as its built-in tracing capabilities. The talk covers visualising execution data, time representation in the BEAM (including time warps and reconstructing past events), how LiveView and updated tracing functions assist in building custom monitoring tools, and using temporal logic for intuitive visual notation.
+  speakers:
+    - danielvamosi
+  topics:
+    - erlang
+    - observability
+
+- title: "Functioning Among Humans"
+  slug: "functioning-among-humans"
+  kind: talk
+  language: en
+  abstract: |
+    The tech industry is obsessed with technical prowess — faster code, better algorithms — but you can be the best programmer ever and it doesn't matter much if you can't work well with others. This talk is about the people side of building software: empathy, understanding motivation, improving communication, and giving constructive feedback. Aimed at anyone in tech, with extra value for managers and team leads.
+  speakers:
+    - tobiaspfeiffer
+  topics:
+    - community
+    - engineering

@@ -1040,3 +1040,15 @@
   website: "https://www.elte.hu"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/9c4192700b6ed000d53b842a89006a9f4a5c57a0.png"
   description: "ELTE — Hungary's largest research university, with a Faculty of Informatics that has been a long-standing hub for Erlang research and teaching."
+
+- name: "Entelios"
+  slug: "entelios"
+  website: "https://www.entelios.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/b3ad3f6280c6a7ac1fc8b41a826f973d7cc857b1.png"
+  description: "European demand-response and energy flexibility company, building load-control systems on Erlang and Elixir to balance industrial and commercial electricity consumption."
+
+- name: "On"
+  slug: "on-running"
+  website: "https://www.on.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/7e80c381bbdde988af962dc4fb607af702af37a6.png"
+  description: "Swiss premium sportswear brand best known for its CloudTec running shoes, with engineering teams that include Elixir for backend services."
