@@ -1,0 +1,210 @@
+- title: "The Tyranny of Structurelessness"
+  slug: "the-tyranny-of-structurelessness"
+  kind: talk
+  language: en
+  duration: 42
+  abstract: |
+    Dijkstra banished GOTO 50 years ago, but unstructured programming continues to lurk in the background of every module we write. This talk looks at how complexity resurfaces as software grows, asks whether the actor model's flexibility can coexist with structural clarity, and explores modern techniques and patterns — already showing up in standard libraries across other languages — for strengthening code while keeping intent and readability.
+  speakers:
+    - brooklynzelenka
+  topics:
+    - elixir
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "JD0FJTmuV_Q"
+      url: "https://www.youtube.com/watch?v=JD0FJTmuV_Q"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/open?id=1ZJKqPjPzVDYxPz45-4dmQqlUciVGbtb3"
+
+- title: "Meta-programming in Erlang: Zotonic's template- and dispatch compilers"
+  slug: "meta-programming-in-erlang-zotonics-template-and-dispatch-compilers"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 25
+  abstract: |
+    Zotonic does just-in-time compilation of templates and dispatch rules — both compile their definitions to Erlang modules. This talk explores these reusable components, how they work, what makes them different from similar tools like ErlyDTL, and how to apply the same techniques in other projects. Aimed at intermediate-to-advanced Erlang and Elixir developers wanting to learn meta-programming or build fast templating and dispatching solutions.
+  speakers:
+    - marcworrell
+  topics:
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "jLb9WZDYXi8"
+      url: "https://www.youtube.com/watch?v=jLb9WZDYXi8"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1tDrQBNWtqGHfgZtt155XHMee3CIiJuBR/view"
+
+- title: "BEAM-style Execution Tracing for Perl"
+  slug: "beam-style-execution-tracing-for-perl"
+  kind: talk
+  language: en
+  duration: 23
+  abstract: |
+    A look at how the BEAM implements execution tracing as dynamic instrumentation to address production debugging challenges, and what it would take to port the same idea to traditional language runtimes like Perl. Rather than relying on static logging that creates instrumentation debt, the talk shows how the BEAM's approach differs and why dynamic instrumentation is a key strategy for building more operable systems.
+  speakers:
+    - bentyler
+  topics:
+    - erlang
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "Q-rqPcrBS38"
+      url: "https://www.youtube.com/watch?v=Q-rqPcrBS38"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/0B6IPhcxPFzqeZHhoR3JxYWpZa1J3VlJORE9fTHplUXRFUERj/view"
+
+- title: "From Legacy To Event Sourcing"
+  slug: "from-legacy-to-event-sourcing"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 49
+  abstract: |
+    A practical look at moving from a traditional RDBMS to event sourcing on the BEAM, using Elixir's actor-based aggregates and GenServer command processing. Beyond the conceptual case for event sourcing, the talk covers the real-world obstacles teams hit afterwards — long-term storage, scaling, regulations, and the mental shift from mutations to event-driven systems — sharing setup, headaches, and homebrew solutions, with a particular eye on GDPR compliance for persistent, immutable stores.
+  speakers:
+    - ianluites
+  topics:
+    - elixir
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "719lAP5fzFk"
+      url: "https://www.youtube.com/watch?v=719lAP5fzFk"
+
+- title: "The many ways to hold a token"
+  slug: "the-many-ways-to-hold-a-token"
+  kind: talk
+  language: en
+  duration: 17
+  abstract: |
+    A real-world story of managing an external API token with a short expiration window. The speakers walk through the strategies they tried — environment variables, GenServers, ETS tables, and the handle_continue callback — and the unexpected things that happened along the way, with a focus on the trade-offs of each approach to state in Elixir applications.
+  speakers:
+    - brunoazenha
+    - vinceurag
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "iGU_vsEZvBM"
+      url: "https://www.youtube.com/watch?v=iGU_vsEZvBM"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/1eKdUKq_v4YWHlbRs3CiUgfgQeV0gsgic/view"
+
+- title: "Keeping tabs on production"
+  slug: "keeping-tabs-on-production"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 38
+  abstract: |
+    A tour of monitoring tools in the Erlang and Elixir ecosystem, with a focus on the new(-ish) Logger functionality that came with OTP 21. The talk covers integrating logging with external services, tracking exceptions, and metrics monitoring, plus a look at Telemetry and exception handling specifically in Elixir — aimed at developers who work across application and operations.
+  speakers:
+    - hubertlepicki
+  topics:
+    - elixir
+    - observability
+  recordings:
+    - provider: youtube
+      external_id: "GpLp4da4B78"
+      url: "https://www.youtube.com/watch?v=GpLp4da4B78"
+
+- title: "String processing optimisation"
+  slug: "string-processing-optimisation"
+  kind: talk
+  language: en
+  duration: 22
+  abstract: |
+    Starting from an underperforming string-processing script, this talk shows how modest changes can substantially improve execution time, memory usage, and maintainability. The speaker incrementally refines a straightforward implementation to achieve a 10x improvement without losing structure, flow, or significantly increasing line count, exploring how to optimise beyond Elixir's sensible defaults when necessary.
+  speakers:
+    - johannalarsson
+  topics:
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "xmfXptibglQ"
+      url: "https://www.youtube.com/watch?v=xmfXptibglQ"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/0B6IPhcxPFzqeZ3V6aHVtSlF0RHA0X2F6Q3UzV053WnpKQmxv/view"
+
+- title: "IoT Edge Computing with bare-metal Erlang"
+  slug: "iot-edge-computing-with-bare-metal-erlang"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: |
+    Research from the LightKone.eu project on building a framework for distributed computing across ad-hoc IoT clusters of Erlang nodes. The talk covers progress on the GRiSP embedded system, programming approaches for edge applications that operate autonomously while staying interoperable, a prototype implementation, motivations for edge computing, the open technical challenges, and strategies for Erlang-based solutions in future edge networks.
+  speakers:
+    - igorkopestenski
+  topics:
+    - erlang
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "pyVus3hGIzE"
+      url: "https://www.youtube.com/watch?v=pyVus3hGIzE"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/0B6IPhcxPFzqeMDBYdlZWeTYyYy11d2NUN0twRTY3NkNhVVhR/view"
+
+- title: "Credo: Your Team's Robot Mentor"
+  slug: "credo-your-teams-robot-mentor"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: |
+    A look at how Credo can act as a mentoring tool rather than a gatekeeper for an Elixir team. The talk explores how to create plugins and custom checks to level up the Credo experience, how Credo's execution model works, and how Credo integrates itself into existing workflows — with the core argument that analysis tools can be perceived as digital mentors instead of "you're doing it wrong" robots.
+  speakers:
+    - renefohring
+  topics:
+    - elixir
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "pTDJZ3O_v6E"
+      url: "https://www.youtube.com/watch?v=pTDJZ3O_v6E"
+
+- title: "The Yin and Yang of Mutability"
+  slug: "the-yin-and-yang-of-mutability"
+  kind: talk
+  language: en
+  duration: 24
+  abstract: |
+    A look at the trade-offs between mutability and immutability on the BEAM — where Erlang and Elixir's immutable defaults shine, and where the language and runtime quietly let mutable state in via processes, ETS, and dictionaries. A short talk on the engineering tensions that come with each choice.
+  speakers:
+    - petergomori
+  topics:
+    - erlang
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "qMjG5ACZWqI"
+      url: "https://www.youtube.com/watch?v=qMjG5ACZWqI"
+
+- title: "The BEAM in the Cloud Native era"
+  slug: "the-beam-in-the-cloud-native-era"
+  kind: talk
+  language: en
+  duration: 37
+  abstract: |
+    Modern microservice architectures often replicate features the BEAM offers out of the box using piles of bash and Go. This talk examines how Elixir and the BEAM can address common cloud-native constraints more efficiently, the resource impact of current approaches, and how Elixir can coexist with cloud-native tooling without overengineering — making the case that cloud-native computing patterns are strongly influenced by the principles of the Erlang VM, even when written in other languages.
+  speakers:
+    - veronicalopez
+  topics:
+    - elixir
+    - kubernetes
+  recordings:
+    - provider: youtube
+      external_id: "54SKzakAEQQ"
+      url: "https://www.youtube.com/watch?v=54SKzakAEQQ"
+  links:
+    - kind: slides
+      url: "https://drive.google.com/file/d/0B6IPhcxPFzqea3B4ZDExbnZGYnFQRlVGdHJVV212TXhqWW5R/view"

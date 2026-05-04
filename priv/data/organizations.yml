@@ -1052,3 +1052,15 @@
   website: "https://www.on.com"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/7e80c381bbdde988af962dc4fb607af702af37a6.png"
   description: "Swiss premium sportswear brand best known for its CloudTec running shoes, with engineering teams that include Elixir for backend services."
+
+- name: "Tell Charlie"
+  slug: "tell-charlie"
+  website: "https://www.tellcharlie.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/4ece5e00a19a4ba5b4d173804e919f2f9ee6f6d4.png"
+  description: "Dutch online platform helping homeowners and renters discover and book home-improvement services, with backend services on the BEAM."
+
+- name: "Moose Code"
+  slug: "moose-code"
+  website: "https://www.moose-code.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/68c338fbf1a6a7c4449b959dfd2c1dbab274e6d5.png"
+  description: "Dutch software studio specialising in Elixir and Phoenix consulting, training, and product development."

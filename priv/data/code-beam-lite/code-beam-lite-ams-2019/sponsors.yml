@@ -1,0 +1,32 @@
+- name: "Global Sponsor"
+  level: 1
+  sponsors:
+    - slug: "duffel"
+
+- name: "Platinum Sponsor"
+  level: 2
+  sponsors:
+    - slug: "appsignal"
+
+- name: "Gold Sponsor"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "aeternity"
+    - slug: "tell-charlie"
+
+- name: "Co-organisers"
+  level: 5
+  sponsors:
+    - slug: "code-sync"
+    - slug: "botsquad"
+    - slug: "moose-code"
+
+- name: "Media Partner"
+  level: 6
+  sponsors:
+    - slug: "goto-conferences"

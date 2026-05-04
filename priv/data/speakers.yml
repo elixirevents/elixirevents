@@ -9195,3 +9195,38 @@
     Engineer with 6+ years of product development experience, currently building scalable transaction systems with Erlang at Redbus.
   city: Bengaluru
   country_code: IN
+
+- name: "Bruno Azenha"
+  slug: "brunoazenha"
+  headline: "Elixir engineer at Wunder Mobility"
+  bio: |
+    Brazilian Elixir engineer based in Hamburg, working at Wunder Mobility on urban-mobility challenges. Discovered Elixir through a friend in Brazil and stayed for the Erlang ecosystem; also enjoys dancing.
+  city: Hamburg
+  country_code: DE
+  social_links:
+    - platform: github
+      url: "https://github.com/bruno-azenha"
+
+- name: "Vince Urag"
+  slug: "vinceurag"
+  headline: "Backend Engineer at Wunder Mobility"
+  bio: |
+    Filipino software engineer based in Hamburg, building applications that address urban-mobility challenges at Wunder Mobility. Outside coding enjoys writing, travelling, and entrepreneurial brainstorming.
+  city: Hamburg
+  country_code: DE
+  social_links:
+    - platform: github
+      url: "https://github.com/vinceurag"
+    - platform: twitter
+      url: "https://x.com/VinceUrag"
+
+- name: "Igor Kopestenski"
+  slug: "igorkopestenski"
+  headline: "Academic Research Assistant at UCLouvain"
+  bio: |
+    Researches Erlang-based distributed systems and edge computing at UCLouvain. Working on the LightKone.eu project, has developed a framework for reliable storage and computing on clusters of bare-metal Erlang GRiSP nodes, including a port of the Lasp programming library to GRiSP for reliable, convergent task execution on unreliable infrastructure-less edge networks.
+  social_links:
+    - platform: github
+      url: "https://github.com/Laymer"
+    - platform: twitter
+      url: "https://x.com/IKopest"

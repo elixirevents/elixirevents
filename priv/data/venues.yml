@@ -534,3 +534,15 @@
   longitude: 77.6143
   website: "https://www.itchotels.com"
   description: "A business hotel on Richmond Road in central Bengaluru, part of ITC's Welcomhotel chain, with conference facilities used by the local tech community."
+
+- name: "Volkshotel"
+  slug: "volkshotel-amsterdam"
+  street: "Wibautstraat 150"
+  city: "Amsterdam"
+  country: "Netherlands"
+  country_code: "NL"
+  postal_code: "1091 GR"
+  latitude: 52.3538
+  longitude: 4.9118
+  website: "https://www.volkshotel.nl"
+  description: "A creative hotel and conference venue in the Parool building on Wibautstraat in Amsterdam-Oost, housing co-working spaces, a rooftop hot tub, and event halls used by the city's tech community."
