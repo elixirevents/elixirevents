@@ -1,0 +1,106 @@
+tracks:
+  - name: "Main Stage"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2023-05-12"
+    position: 1
+    time_slots:
+      - start_time: "08:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "how-to-sell-elixir-again"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "10:15"
+        end_time: "10:45"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "10:45"
+        end_time: "11:10"
+        sessions:
+          - talk_slug: "building-erlang-with-buck2"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:15"
+        end_time: "11:40"
+        sessions:
+          - talk_slug: "causal-consistent-reversible-debugging-for-erlang"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:45"
+        end_time: "12:10"
+        sessions:
+          - talk_slug: "beam-nifs-in-ziglang-for-elixir-and-erlang"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:15"
+        end_time: "12:40"
+        sessions:
+          - talk_slug: "learning-about-supervisors-using-phoenix-liveview"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:40"
+        end_time: "13:40"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "13:40"
+        end_time: "13:55"
+        sessions:
+          - talk_slug: "otp-update"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "13:55"
+        end_time: "14:55"
+        sessions:
+          - talk_slug: "little-things-and-big-things-lessons-for-building-large-systems"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "14:55"
+        end_time: "15:20"
+        sessions:
+          - talk_slug: "evision-one-year-an-evolving-elixir-library-for-computer-vision-tasks"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:25"
+        end_time: "15:50"
+        sessions:
+          - talk_slug: "mria-an-eventually-consistent-mnesia"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "15:50"
+        end_time: "16:20"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:20"
+        end_time: "16:45"
+        sessions:
+          - talk_slug: "typing-erlang-with-eqwalizer"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "16:45"
+        end_time: "17:45"
+        sessions:
+          - talk_slug: "sonic-pi-beam-up-the-vj"
+            track: "Main Stage"
+            kind: keynote
+      - start_time: "17:45"
+        end_time: "17:55"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

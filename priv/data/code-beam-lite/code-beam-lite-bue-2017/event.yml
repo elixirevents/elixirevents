@@ -1,0 +1,17 @@
+name: "Erlang & Elixir Factory Lite Buenos Aires 2017"
+slug: "code-beam-lite-bue-2017"
+venue_slug: "ciudad-cultural-konex"
+kind: conference
+status: completed
+format: in_person
+start_date: "2017-06-29"
+end_date: "2017-06-30"
+timezone: "America/Argentina/Buenos_Aires"
+language: en
+location: "Buenos Aires, Argentina"
+website: "https://www.erlang-factory.com/eflba2017/home"
+color: "#3182CE"
+description: |
+  The first Erlang & Elixir Factory Lite in Buenos Aires brought the BEAM community together for a day of workshops on June 29 and a full day of talks on June 30, 2017. The event was the predecessor of Code BEAM Lite Buenos Aires and gathered Erlang and Elixir practitioners from Argentina, Brazil, Europe, and beyond.
+
+  Workshops were hosted at 10Pines' downtown offices on Av. Leandro N. Alem, while the conference day took place at Ciudad Cultural Konex in the Abasto neighbourhood.

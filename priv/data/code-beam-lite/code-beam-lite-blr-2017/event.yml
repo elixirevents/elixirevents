@@ -1,0 +1,15 @@
+name: "India Erlang & Elixir Factory Lite 2017"
+slug: "code-beam-lite-blr-2017"
+venue_slug: "fortune-park-jp-celestial"
+kind: conference
+status: completed
+format: in_person
+start_date: "2017-11-17"
+end_date: "2017-11-17"
+timezone: "Asia/Kolkata"
+language: en
+location: "Bengaluru, India"
+website: "https://www.erlang-factory.com/india2017/home"
+color: "#3182CE"
+description: |
+  The first Erlang & Elixir Factory Lite in India brought the BEAM community together in Bengaluru on November 17, 2017 — the predecessor of Code BEAM Lite India. The single-day, two-track conference at Fortune Park JP Celestial featured keynotes from Francesco Cesarini, Bryan Hunter, and Robert Virding alongside talks from Indian and international Erlang/Elixir practitioners on topics ranging from rebar3 and GenStage to umbrella apps, benchmarking, and concurrent event processing.

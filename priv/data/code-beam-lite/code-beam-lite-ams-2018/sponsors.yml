@@ -1,0 +1,30 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "appsignal"
+    - slug: "betty-blocks"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "darwin-recruitment"
+    - slug: "johan-sports"
+
+- name: "Silver Sponsors"
+  level: 3
+  sponsors:
+    - slug: "oldham-made"
+    - slug: "learning-stone"
+
+- name: "Competition Sponsor"
+  level: 4
+  sponsors:
+    - slug: "manning"
+
+- name: "Co-organisers"
+  level: 5
+  sponsors:
+    - slug: "botsquad"
+    - slug: "kabisa"
+    - slug: "code-sync"

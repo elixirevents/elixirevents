@@ -1,0 +1,30 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "kloeckner"
+    - slug: "scoutapm"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "coders51"
+    - slug: "erlang-solutions"
+    - slug: "solarisbank"
+
+- name: "Silver Sponsors"
+  level: 3
+  sponsors:
+    - slug: "aeternity"
+    - slug: "qixxit"
+    - slug: "wooga"
+
+- name: "Co-organisers"
+  level: 4
+  sponsors:
+    - slug: "bitcrowd"
+    - slug: "code-sync"
+
+- name: "Media Partner"
+  level: 5
+  sponsors:
+    - slug: "challenge-rocket"

@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Budapest 2019"
+slug: "code-beam-lite-bud-2019"
+venue_slug: "elte-budapest"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-09-20"
+end_date: "2019-09-20"
+timezone: "Europe/Budapest"
+language: en
+location: "Budapest, Hungary"
+website: "https://www.codesync.global/conferences/code-beam-lite-budapest/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Budapest 2019 took place at the Faculty of Informatics of Eötvös Loránd University on 20 September 2019, bringing the Hungarian Erlang and Elixir community together with international guests for a single-track day of talks. The programme opened with Saša Jurić's "Such great heights" keynote and closed with a joint research-and-industry keynote from John Hughes, Melinda Tóth, and Natalia Chechina, with talks on kdb+ message routing, Elixir architecture, blockchain, BEAM documentation, tracing visualisation, rebar3 at scale, race-condition testing, WombatOAM, and running Lua scripts on the BEAM.

@@ -1,0 +1,106 @@
+tracks:
+  - name: "Riet"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2019-11-28"
+    position: 1
+    time_slots:
+      - start_time: "08:15"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:10"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:10"
+        end_time: "09:50"
+        sessions:
+          - talk_slug: "the-tyranny-of-structurelessness"
+            track: "Riet"
+            kind: talk
+      - start_time: "09:55"
+        end_time: "10:15"
+        sessions:
+          - talk_slug: "meta-programming-in-erlang-zotonics-template-and-dispatch-compilers"
+            track: "Riet"
+            kind: talk
+      - start_time: "10:20"
+        end_time: "10:40"
+        sessions:
+          - talk_slug: "beam-style-execution-tracing-for-perl"
+            track: "Riet"
+            kind: talk
+      - start_time: "10:40"
+        end_time: "11:10"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:10"
+        end_time: "11:50"
+        sessions:
+          - talk_slug: "from-legacy-to-event-sourcing"
+            track: "Riet"
+            kind: talk
+      - start_time: "11:55"
+        end_time: "12:15"
+        sessions:
+          - talk_slug: "the-many-ways-to-hold-a-token"
+            track: "Riet"
+            kind: talk
+      - start_time: "12:20"
+        end_time: "13:00"
+        sessions:
+          - talk_slug: "keeping-tabs-on-production"
+            track: "Riet"
+            kind: talk
+      - start_time: "13:00"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "14:00"
+        end_time: "14:20"
+        sessions:
+          - talk_slug: "string-processing-optimisation"
+            track: "Riet"
+            kind: talk
+      - start_time: "14:25"
+        end_time: "14:45"
+        sessions:
+          - talk_slug: "iot-edge-computing-with-bare-metal-erlang"
+            track: "Riet"
+            kind: talk
+      - start_time: "14:50"
+        end_time: "15:30"
+        sessions:
+          - talk_slug: "credo-your-teams-robot-mentor"
+            track: "Riet"
+            kind: talk
+      - start_time: "15:30"
+        end_time: "16:00"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:00"
+        end_time: "16:20"
+        sessions:
+          - talk_slug: "the-yin-and-yang-of-mutability"
+            track: "Riet"
+            kind: talk
+      - start_time: "16:25"
+        end_time: "17:05"
+        sessions:
+          - talk_slug: "the-beam-in-the-cloud-native-era"
+            track: "Riet"
+            kind: talk
+      - start_time: "17:10"
+        end_time: "17:25"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

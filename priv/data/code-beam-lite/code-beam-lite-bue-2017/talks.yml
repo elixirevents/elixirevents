@@ -1,0 +1,168 @@
+## Keynotes
+
+- title: "Erlang: the Power of Functional Programming"
+  slug: "erlang-the-power-of-functional-programming"
+  kind: keynote
+  language: en
+  duration: 57
+  abstract: |
+    Erlang is a concurrent language built on a functional foundation. In this talk I'll look at ways of increasing your programming productivity using ideas from functional programming, as well as showing how Erlang can be a gateway to other functional programming languages and styles, including lazy programming and dependent types.
+  speakers:
+    - simonthompson
+  topics:
+    - erlang
+    - functional-programming
+  recordings:
+    - provider: youtube
+      external_id: "pJwfyPV_V_o"
+      url: "https://www.youtube.com/watch?v=pJwfyPV_V_o"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499103214908726eeflba2017simonthompsonerlangthepoweroffunctionalprogramming.pdf"
+
+- title: "Elixir Adoption at Scale: A Comprehensive Guide"
+  slug: "elixir-adoption-at-scale-a-comprehensive-guide"
+  kind: keynote
+  language: en
+  duration: 74
+  abstract: |
+    Bleacher Report demonstrates the fulfillment of the promises of Elixir and Phoenix at scale. This talk presents how the company improved developer productivity and system reliability while serving billions of monthly visitors, with metrics validating the traffic-handling improvements and details about transitioning Ruby developers to Elixir.
+  speakers:
+    - benmarx
+  topics:
+    - elixir
+    - phoenix
+  recordings:
+    - provider: youtube
+      external_id: "11waNNAiFDk"
+      url: "https://www.youtube.com/watch?v=11waNNAiFDk"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499103569788210eeflba2017benmarxelixiradoptionatscale.pdf"
+
+## Talks
+
+- title: "From Sync to Async: how Elixir educated me"
+  slug: "from-sync-to-async-how-elixir-educated-me"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 33
+  abstract: |
+    Rodrigo explores how Elixir and Erlang transformed his understanding of software engineering. The talk discusses the transition from synchronous to asynchronous programming paradigms and embracing failure as an inherent aspect of building concurrent systems, aimed at developers curious about Elixir/Erlang and the shift in mental model these languages require.
+  speakers:
+    - rodrigononose
+  topics:
+    - elixir
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "eMpOYPBuhec"
+      url: "https://www.youtube.com/watch?v=eMpOYPBuhec"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499103785113073eeflba2017rodrigononosefromsynctoasync.pdf"
+
+- title: "ADTs y Otras Heurísticas para trabajar mejor con Erlang"
+  slug: "adts-y-otras-heuristicas-para-trabajar-mejor-con-erlang"
+  kind: talk
+  level: intermediate
+  language: es
+  duration: 44
+  abstract: |
+    Los Tipos Abstractos de Datos (ADTs) proveen una manera muy prolija para estructurar sistemas. En esta charla, Brujo presenta buenas prácticas para diseñar aplicaciones Erlang más mantenibles, combinando material conceptual con herramientas prácticas, con foco en simplicidad, modularidad y mantenibilidad mediante principios de programación funcional.
+  speakers:
+    - brujobenavides
+  topics:
+    - erlang
+    - functional-programming
+  recordings:
+    - provider: youtube
+      external_id: "Q7FWm3R3dtk"
+      url: "https://www.youtube.com/watch?v=Q7FWm3R3dtk"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499103618988125eeflba2017brujobenavidesadtsyotrasheuriisticasparatrabajarmejorconerlang.pdf"
+
+- title: "CodeGames: Playing with a Real-Time Coding Game"
+  slug: "codegames-playing-with-a-real-time-coding-game"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 54
+  abstract: |
+    Developed by Manas.Tech, CodeGames is a real-time programming game where two players compete against each other by live coding using a custom language to control spaceship behavior. This talk covers the architecture of the Erlang backend supporting the game logic, player code execution, tournament management, spectator features, and AI-powered players, with emphasis on lessons learned implementing this highly concurrent application.
+  speakers:
+    - gustavogiraldez
+  topics:
+    - erlang
+    - concurrency
+  recordings:
+    - provider: youtube
+      external_id: "hhyYUx2eXYU"
+      url: "https://www.youtube.com/watch?v=hhyYUx2eXYU"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499103845173451eeflba2017gustavogiraldezcodegamesplayingwitharealtimecodinggame.pdf"
+
+- title: "Sistemas Distribuidos: ¿Para Qué?"
+  slug: "sistemas-distribuidos-para-que"
+  kind: talk
+  level: intermediate
+  language: es
+  duration: 62
+  abstract: |
+    Esta charla presenta los motivos por los cuales existen los sistemas distribuidos, cuándo son necesarios y cuándo no, y qué cosas son posibles e imposibles dentro de la arquitectura de sistemas distribuidos, recorriendo aportes desde la academia y la industria.
+  speakers:
+    - marianoguerra
+  topics:
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "j3pk3qQRaxA"
+      url: "https://www.youtube.com/watch?v=j3pk3qQRaxA"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499106519877288eeflba2017marianoguerrasistemasdistribuidosparaquei.pdf"
+
+- title: "Elixir is not Ruby - From Object Oriented to Functional & Distributed Programming"
+  slug: "elixir-is-not-ruby-from-object-oriented-to-functional-and-distributed-programming"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: |
+    Many Elixir developers come from a Ruby background, and the temptation is to think of Elixir as "Ruby on steroids" or a natural evolution of the language. Thomas argues that this framing is counterproductive and contrasts the object-oriented and functional paradigms within the context of building distributed systems.
+  speakers:
+    - thomasgautier
+  topics:
+    - elixir
+    - functional-programming
+  recordings:
+    - provider: youtube
+      external_id: "ChUB5Oj2Jj4"
+      url: "https://www.youtube.com/watch?v=ChUB5Oj2Jj4"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499104163852636eeflba2017thomasgautierelixirisnotruby.pdf"
+
+- title: "Elixir is not alone: talking to other languages"
+  slug: "elixir-is-not-alone-talking-to-other-languages"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 29
+  abstract: |
+    This talk explores integration methods between Elixir/Erlang and external programming languages, covering Ports and Port Drivers, NIFs, external nodes (C, Java, Ruby, Python, ...), and standard protocols (HTTP API, sockets), with practical examples of when each approach applies. Drawn from real-world experience building Xerpa with Elixir from inception, the talk targets engineers considering Elixir adoption, including beginners.
+  speakers:
+    - guilhermenogueira
+  topics:
+    - elixir
+    - erlang
+  recordings:
+    - provider: youtube
+      external_id: "YJ_0VxRiZGA"
+      url: "https://www.youtube.com/watch?v=YJ_0VxRiZGA"
+  links:
+    - kind: slides
+      url: "https://www.erlang-factory.com/static/upload/media/1499104089601540eeflba2017guilhermenogueiraelixirisnotalonetalkingtootherlanguages.pdf"

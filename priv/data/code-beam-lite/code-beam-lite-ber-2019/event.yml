@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Berlin 2019"
+slug: "code-beam-lite-ber-2019"
+venue_slug: "betahaus-berlin-neukoelln"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-10-11"
+end_date: "2019-10-11"
+timezone: "Europe/Berlin"
+language: en
+location: "Berlin, Germany"
+website: "https://www.codesync.global/conferences/code-beam-lite-berlin-2019/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Berlin 2019 returned the German BEAM community to Berlin on 11 October 2019, this time at betahaus Neukölln. The single-track day opened with Louis Pilfold's introduction to Gleam and ranged across the BEAM's External Term Format, Credo, library design with token-based APIs, time-series databases, gRPC microservices, concurrency patterns, BEAM tracing visualisation, and a closing talk on functioning among humans by Tobias Pfeiffer, with lightning talks at the end.

@@ -1,0 +1,42 @@
+tracks:
+  - name: "Main Stage"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2019-11-14"
+    position: 1
+    time_slots:
+      - start_time: "10:00"
+        end_time: "10:45"
+        sessions:
+          - talk_slug: "software-librarians"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "11:00"
+        end_time: "11:45"
+        sessions:
+          - talk_slug: "coding-liveview"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:00"
+        end_time: "12:45"
+        sessions:
+          - talk_slug: "building-a-mysql-database-driver-in-elixir"
+            track: "Main Stage"
+            kind: talk
+          - talk_slug: "my-journey-with-erlang-at-redbus"
+            track: "Main Stage"
+            kind: talk
+      - start_time: "12:45"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "14:00"
+        end_time: "14:45"
+        sessions:
+          - talk_slug: "after-the-crash"
+            track: "Main Stage"
+            kind: talk

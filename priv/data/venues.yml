@@ -412,3 +412,149 @@
   latitude: 51.5189
   longitude: -0.0844
   description: "A purpose-built tech conference and meetup venue in the City of London near Moorgate, originally opened by Skills Matter as Europe's largest dedicated developer event space."
+
+- name: "Ciudad Cultural Konex"
+  slug: "ciudad-cultural-konex"
+  street: "Sarmiento 3131"
+  city: "Buenos Aires"
+  country: "Argentina"
+  country_code: "AR"
+  postal_code: "C1196AAG"
+  latitude: -34.6033
+  longitude: -58.4108
+  website: "https://www.ciudadculturalkonex.org"
+  description: "A cultural complex in Buenos Aires' Abasto neighbourhood, set inside a former 1920s factory and oil depot that has been refurbished into a landmark venue for music, theatre, and community arts."
+
+- name: "10Pines Offices"
+  slug: "10pines-offices"
+  street: "Avenida Leandro N. Alem 896, 6to piso"
+  city: "Buenos Aires"
+  country: "Argentina"
+  country_code: "AR"
+  postal_code: "C1001AAQ"
+  latitude: -34.5984
+  longitude: -58.3717
+  website: "https://www.10pines.com"
+  description: "The downtown Buenos Aires offices of software consultancy 10Pines, occupying the 6th floor of an Av. Leandro N. Alem building near Retiro."
+
+- name: "Fortune Park JP Celestial"
+  slug: "fortune-park-jp-celestial"
+  street: "5/43, Race Course Road"
+  city: "Bengaluru"
+  region: "Karnataka"
+  country: "India"
+  country_code: "IN"
+  postal_code: "560009"
+  latitude: 12.9809
+  longitude: 77.5760
+  website: "https://www.itchotels.com/in/en/fortunepark-jp-celestial-bengaluru"
+  description: "A business hotel on Race Course Road in central Bengaluru, near the High Grounds and within walking distance of MG Road and Cubbon Park."
+
+- name: "Bitcrowd Office"
+  slug: "bitcrowd-berlin"
+  street: "Oranienstr. 6"
+  city: "Berlin"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "10997"
+  latitude: 52.4999
+  longitude: 13.4251
+  website: "https://bitcrowd.net"
+  description: "The Berlin office of software consultancy Bitcrowd, in the Luisenstadt area of Kreuzberg, used as a meetup and conference venue for the BEAM community."
+
+- name: "Lloyd Hotel"
+  slug: "lloyd-hotel-amsterdam"
+  street: "Oostelijke Handelskade 34"
+  city: "Amsterdam"
+  country: "Netherlands"
+  country_code: "NL"
+  postal_code: "1019 BN"
+  latitude: 52.3742
+  longitude: 4.9348
+  website: "https://www.lloydhotel.com"
+  description: "A landmark hotel and cultural embassy on the Java-eiland in Amsterdam's Eastern Docklands, set inside a 1921 building originally built to house emigrants travelling to South America, and now featuring rooms ranging from one to five stars."
+
+- name: "Sheraton München Westpark Hotel"
+  slug: "sheraton-muenchen-westpark"
+  street: "Garmischer Straße 2"
+  city: "Munich"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "80339"
+  latitude: 48.1336
+  longitude: 11.5323
+  website: "https://www.marriott.com/en-us/hotels/mucsi-sheraton-muenchen-westpark-hotel/"
+  description: "A conference hotel on Garmischer Straße in Munich's Westend district, just south of the Theresienwiese (the Oktoberfest grounds) and a short walk to the Hackerbrücke S-Bahn station."
+
+- name: "Consorzio T3LAB"
+  slug: "t3lab-bologna"
+  street: "Via Sario Bassanelli, 9/11"
+  city: "Bologna"
+  region: "Emilia-Romagna"
+  country: "Italy"
+  country_code: "IT"
+  postal_code: "40129"
+  latitude: 44.5217
+  longitude: 11.3460
+  description: "A consortium for technology transfer in the Navile district of Bologna, hosting a co-working space and conference area used by the local tech community."
+
+- name: "ELTE Faculty of Informatics"
+  slug: "elte-budapest"
+  street: "Pázmány Péter sétány 1/C"
+  city: "Budapest"
+  country: "Hungary"
+  country_code: "HU"
+  postal_code: "1117"
+  latitude: 47.4723
+  longitude: 19.0627
+  website: "https://www.inf.elte.hu"
+  description: "The Faculty of Informatics of Eötvös Loránd University, on the Lágymányos campus in southern Budapest beside the Danube — a long-standing centre of Hungarian functional programming research and Erlang teaching."
+
+- name: "betahaus Berlin Neukölln"
+  slug: "betahaus-berlin-neukoelln"
+  street: "Harzer Str. 39"
+  city: "Berlin"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "12059"
+  latitude: 52.4839
+  longitude: 13.4495
+  website: "https://www.betahaus.com"
+  description: "A coworking space and event venue in Berlin's Neukölln district, used regularly by the local tech community for meetups and small conferences."
+
+- name: "ITC Welcomhotel Bengaluru"
+  slug: "itc-welcomhotel-bengaluru"
+  street: "46 Richmond Road"
+  city: "Bengaluru"
+  region: "Karnataka"
+  country: "India"
+  country_code: "IN"
+  postal_code: "560025"
+  latitude: 12.9690
+  longitude: 77.6143
+  website: "https://www.itchotels.com"
+  description: "A business hotel on Richmond Road in central Bengaluru, part of ITC's Welcomhotel chain, with conference facilities used by the local tech community."
+
+- name: "Volkshotel"
+  slug: "volkshotel-amsterdam"
+  street: "Wibautstraat 150"
+  city: "Amsterdam"
+  country: "Netherlands"
+  country_code: "NL"
+  postal_code: "1091 GR"
+  latitude: 52.3538
+  longitude: 4.9118
+  website: "https://www.volkshotel.nl"
+  description: "A creative hotel and conference venue in the Parool building on Wibautstraat in Amsterdam-Oost, housing co-working spaces, a rooftop hot tub, and event halls used by the city's tech community."
+
+- name: "7A Posthuset"
+  slug: "7a-posthuset"
+  street: "Vasagatan 28"
+  city: "Stockholm"
+  country: "Sweden"
+  country_code: "SE"
+  postal_code: "111 20"
+  latitude: 59.3323
+  longitude: 18.0581
+  website: "https://7a.se/en/facility/7a-posthuset/"
+  description: "A conference and event venue inside Stockholm's old central post office building on Vasagatan, a few minutes' walk from the central station and the Klarabergsviadukten."

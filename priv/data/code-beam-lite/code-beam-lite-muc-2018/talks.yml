@@ -1,0 +1,156 @@
+## Keynotes
+
+- title: "Which startup should you choose - given that you'll be building in Erlang or Elixir"
+  slug: "which-startup-should-you-choose"
+  kind: keynote
+  level: intermediate
+  language: en
+  duration: 35
+  abstract: |
+    Drawing on experience across roughly 15 startups — including Bluetail and Klarna alongside ventures that didn't reach their goals — Jane shares practical frameworks for evaluating startup opportunities. What should you look for in a startup or a startup idea? Aimed at people considering launching their own company or joining an existing one, with insights grounded in a track record of more than 60% annual return on investment since 2002.
+  speakers:
+    - janewalerud
+  topics:
+    - product
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "tMQfXaRnhEM"
+      url: "https://www.youtube.com/watch?v=tMQfXaRnhEM"
+
+## Talks
+
+- title: "Inside memory management on the BEAM"
+  slug: "inside-memory-management-on-the-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 66
+  abstract: |
+    The BEAM was designed for 1980s hardware and to never crash, yet it manages to run for a long time on machines with little memory while keeping good soft-real-time performance. This talk introduces the foundations — generational garbage collection, heap structures, and stack mechanics — and then shows experienced developers how to monitor memory usage through BEAM tracing module garbage-collection events and how to optimise applications in memory-constrained environments such as IoT devices.
+  speakers:
+    - devonestes
+  topics:
+    - erlang
+    - elixir
+  recordings:
+    - provider: youtube
+      external_id: "fAeLuZN7J6Y"
+      url: "https://www.youtube.com/watch?v=fAeLuZN7J6Y"
+
+- title: "Evolution of GRiSP"
+  slug: "evolution-of-grisp"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 40
+  abstract: |
+    GRiSP launched nearly two years ago, and since then there have been several revisions to the hardware and uses across many commercial and educational projects. This talk gives an introduction to embedded programming using GRiSP, showcases the project itself, and presents an outlook for the future.
+  speakers:
+    - adamlindberg
+  topics:
+    - erlang
+    - embedded
+  recordings:
+    - provider: youtube
+      external_id: "TBrPyy48vFI"
+      url: "https://www.youtube.com/watch?v=TBrPyy48vFI"
+
+- title: "From custom tests to common test"
+  slug: "from-custom-tests-to-common-test"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 31
+  abstract: |
+    A look at modernising Riak's testing infrastructure by replacing a problematic custom test runner with the standard Common Test framework — a Google Summer of Code project carried out as a group of previous Riak users and developers stepped up to help move the database forward after Basho's closure. Along the way, the talk shares how Erlang and Elixir companies can use Google Summer of Code as both a resource and a way to help newcomers overcome the language's learning curve.
+  speakers:
+    - goncalotomas
+  topics:
+    - erlang
+    - testing
+  recordings:
+    - provider: youtube
+      external_id: "3KOq0SUDdFw"
+      url: "https://www.youtube.com/watch?v=3KOq0SUDdFw"
+
+- title: "Barrel, keep your data in sync in your Erlang application"
+  slug: "barrel-keep-your-data-in-sync-in-your-erlang-application"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Barrel is a database written in Erlang that runs embedded inside applications or standalone over HTTP. With Barrel you can easily bring and keep a view — complete or partial — of your data inside your application and replicate it across machines. The talk demonstrates mixing local and remote storage with peer-to-peer replication strategies for building custom data platforms.
+  speakers:
+    - benoitchesneau
+  topics:
+    - erlang
+    - distribution
+
+- title: "A Brief History of Elixir: From Concept to Mainstream Adoption"
+  slug: "a-brief-history-of-elixir"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 41
+  abstract: |
+    A tour through how Elixir evolved from concept to mainstream adoption — how the language changed to work better for the community, how the community changed to write better Elixir, and where the language might keep going from here. Aimed at anyone interested in Elixir and programming languages.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "CRBUD00H7AM"
+      url: "https://www.youtube.com/watch?v=CRBUD00H7AM"
+
+- title: "AntidoteDB: a planet scale, highly available, transactional database"
+  slug: "antidotedb-a-planet-scale-highly-available-transactional-database"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 43
+  abstract: |
+    Cloud-scale applications need high availability and low latency, but it takes significant effort and expertise to understand the intricate semantics of highly available databases and develop correct applications on top of them. AntidoteDB offers a principled approach combining conflict-free replicated data types (CRDTs), highly-available transactions, and stronger synchronisation mechanisms — this talk explains how those pieces work together and how application developers can identify synchronisation patterns specific to their needs and implement them with AntidoteDB.
+  speakers:
+    - annettebieniusa
+  topics:
+    - erlang
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "ol1D9X2_nJc"
+      url: "https://www.youtube.com/watch?v=ol1D9X2_nJc"
+
+- title: "How does fault tolerance work in Erlang"
+  slug: "how-does-fault-tolerance-work-in-erlang"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 30
+  abstract: |
+    An introduction to Erlang's fault-tolerance mechanisms: process isolation, the actor-message model, how the BEAM controls process execution, and how scheduling works. The talk explains why isolation is important for dependable systems, walks through Erlang's philosophy on error management, and shows the practical use of supervisors as a strategy for implementing fault-tolerant systems.
+  speakers:
+    - charlotteloreleideoliveira
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "kXphEiJ8RXQ"
+      url: "https://www.youtube.com/watch?v=kXphEiJ8RXQ"
+
+- title: "Smart testing of smart contracts with Property Based Testing"
+  slug: "smart-testing-of-smart-contracts-with-property-based-testing"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Dealing with smart contracts on a blockchain demands care: bugs can easily result in catastrophic financial loss, so testing is crucial. This talk introduces smart contracts on blockchains and shows how property-based testing — including stateful property-based testing — can be applied to test their generation and behaviour effectively and efficiently.
+  speakers:
+    - klausalfert
+  topics:
+    - erlang
+    - elixir
+    - testing

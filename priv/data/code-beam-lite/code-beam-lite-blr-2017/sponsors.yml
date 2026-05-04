@@ -1,0 +1,11 @@
+- name: "Platinum Sponsors"
+  level: 1
+  sponsors:
+    - slug: "gojek"
+    - slug: "greyorange"
+    - slug: "erlang-solutions"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "dyalog"

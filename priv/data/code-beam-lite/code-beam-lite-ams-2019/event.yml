@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Amsterdam 2019"
+slug: "code-beam-lite-ams-2019"
+venue_slug: "volkshotel-amsterdam"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-11-28"
+end_date: "2019-11-28"
+timezone: "Europe/Amsterdam"
+language: en
+location: "Amsterdam, Netherlands"
+website: "https://www.codesync.global/conferences/code-beam-lite-amsterdam/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Amsterdam returned for its second edition on 28 November 2019, this time at the Volkshotel on Wibautstraat. The single-track day opened with Brooklyn Zelenka's "The Tyranny of Structurelessness" and ranged across Zotonic meta-programming, BEAM-style execution tracing, event sourcing, GenStage tokens, observability, string processing, bare-metal Erlang on GRiSP, Credo, mutability, and the BEAM in cloud-native systems.

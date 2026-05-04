@@ -1,0 +1,15 @@
+name: "Code BEAM Lite Munich 2018"
+slug: "code-beam-lite-muc-2018"
+venue_slug: "sheraton-muenchen-westpark"
+kind: conference
+status: completed
+format: in_person
+start_date: "2018-12-07"
+end_date: "2018-12-07"
+timezone: "Europe/Berlin"
+language: en
+location: "Munich, Germany"
+website: "https://www.codesync.global/conferences/cbl-munich-2018/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite Munich 2018 took place at the Sheraton München Westpark Hotel on 7 December 2018, with a free day of GRiSP training the day before. The single-track conference opened with Jane Walerud's keynote on building startups in Erlang and Elixir and covered BEAM memory management, GRiSP, Common Test, Barrel, the history of Elixir, AntidoteDB, fault tolerance, and property-based testing of smart contracts.

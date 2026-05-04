@@ -1,0 +1,118 @@
+tracks:
+  - name: "The Office"
+    color: "#3182CE"
+    position: 1
+
+days:
+  - name: "Conference Day"
+    date: "2018-11-30"
+    position: 1
+    time_slots:
+      - start_time: "08:15"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:15"
+        sessions:
+          - title: "Welcome"
+            kind: social
+      - start_time: "09:15"
+        end_time: "09:55"
+        sessions:
+          - talk_slug: "such-great-heights"
+            track: "The Office"
+            kind: keynote
+      - start_time: "10:00"
+        end_time: "10:20"
+        sessions:
+          - talk_slug: "turning-zotonic-inside-out-secured-mqtt-everywhere"
+            track: "The Office"
+            kind: talk
+      - start_time: "10:25"
+        end_time: "10:45"
+        sessions:
+          - talk_slug: "mind-your-own-business-view-controller"
+            track: "The Office"
+            kind: talk
+      - start_time: "10:45"
+        end_time: "11:15"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "11:15"
+        end_time: "11:55"
+        sessions:
+          - talk_slug: "who-takes-out-your-trash"
+            track: "The Office"
+            kind: talk
+      - start_time: "12:00"
+        end_time: "12:20"
+        sessions:
+          - talk_slug: "getting-erlang-to-talk-to-the-outside-world"
+            track: "The Office"
+            kind: talk
+      - start_time: "12:25"
+        end_time: "13:05"
+        sessions:
+          - talk_slug: "the-big-ball-of-nouns"
+            track: "The Office"
+            kind: talk
+      - start_time: "13:05"
+        end_time: "14:05"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "14:05"
+        end_time: "14:45"
+        sessions:
+          - talk_slug: "what-actually-is-the-beam"
+            track: "The Office"
+            kind: talk
+      - start_time: "14:50"
+        end_time: "15:10"
+        sessions:
+          - talk_slug: "building-a-living-lab"
+            track: "The Office"
+            kind: talk
+      - start_time: "15:15"
+        end_time: "15:35"
+        sessions:
+          - talk_slug: "learn-you-some-ssl-for-much-security"
+            track: "The Office"
+            kind: talk
+      - start_time: "15:40"
+        end_time: "16:00"
+        sessions:
+          - talk_slug: "things-you-could-do-with-mix-but-probably-shouldnt"
+            track: "The Office"
+            kind: talk
+      - start_time: "16:00"
+        end_time: "16:30"
+        sessions:
+          - title: "Coffee Break"
+            kind: break
+      - start_time: "16:30"
+        end_time: "16:50"
+        sessions:
+          - talk_slug: "xprof-2-evolution-of-tracing-based-investigation"
+            track: "The Office"
+            kind: talk
+      - start_time: "16:55"
+        end_time: "17:15"
+        sessions:
+          - talk_slug: "types-in-erlang-a-shallow-dive"
+            track: "The Office"
+            kind: talk
+      - start_time: "17:20"
+        end_time: "18:00"
+        sessions:
+          - talk_slug: "automatically-generating-your-tests-from-a-specification"
+            track: "The Office"
+            kind: keynote
+      - start_time: "18:00"
+        end_time: "18:10"
+        sessions:
+          - title: "Closing Notes"
+            kind: social

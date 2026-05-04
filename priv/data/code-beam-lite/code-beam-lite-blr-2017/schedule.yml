@@ -1,0 +1,112 @@
+tracks:
+  - name: "Edinburgh"
+    color: "#3182CE"
+    position: 1
+  - name: "Regal"
+    color: "#E94E1B"
+    position: 2
+
+days:
+  - name: "Conference Day"
+    date: "2017-11-17"
+    position: 1
+    time_slots:
+      - start_time: "08:30"
+        end_time: "09:00"
+        sessions:
+          - title: "Registration"
+            kind: break
+      - start_time: "09:00"
+        end_time: "09:45"
+        sessions:
+          - talk_slug: "an-introduction-to-erlang-from-behind-the-trenches"
+            kind: keynote
+      - start_time: "09:45"
+        end_time: "10:00"
+        sessions:
+          - title: "Welcome Address"
+            kind: social
+      - start_time: "10:00"
+        end_time: "10:15"
+        sessions:
+          - title: "Coffee/Tea Break"
+            kind: break
+      - start_time: "10:15"
+        end_time: "11:00"
+        sessions:
+          - talk_slug: "all-chat-applications"
+            track: "Edinburgh"
+            kind: talk
+          - talk_slug: "learning-computer-architecture"
+            track: "Regal"
+            kind: talk
+      - start_time: "11:15"
+        end_time: "12:00"
+        sessions:
+          - talk_slug: "umbrella-apps-winter-is-coming"
+            track: "Edinburgh"
+            kind: talk
+          - talk_slug: "rebar3"
+            track: "Regal"
+            kind: talk
+      - start_time: "12:15"
+        end_time: "13:00"
+        sessions:
+          - talk_slug: "building-a-collaborative-painting-canvas-with-phoenix"
+            track: "Edinburgh"
+            kind: talk
+          - talk_slug: "erlang-and-akka-actors-a-story-of-tradeoffs"
+            track: "Regal"
+            kind: talk
+      - start_time: "13:00"
+        end_time: "14:00"
+        sessions:
+          - title: "Lunch"
+            kind: break
+      - start_time: "14:00"
+        end_time: "14:45"
+        sessions:
+          - talk_slug: "elixir-by-the-bellyful"
+            kind: keynote
+      - start_time: "15:00"
+        end_time: "15:45"
+        sessions:
+          - talk_slug: "turn-hours-into-seconds-concurrent-event-processing"
+            track: "Edinburgh"
+            kind: talk
+          - title: "Demos / Lightning Talks"
+            track: "Regal"
+            kind: lightning_talk
+      - start_time: "15:45"
+        end_time: "16:00"
+        sessions:
+          - title: "Coffee/Tea Break"
+            kind: break
+      - start_time: "16:00"
+        end_time: "16:45"
+        sessions:
+          - talk_slug: "making-it-fast-the-power-of-benchmarking"
+            track: "Edinburgh"
+            kind: talk
+          - talk_slug: "predator-a-framework-for-developing-programmatic-players-for-complex-board-games"
+            track: "Regal"
+            kind: talk
+      - start_time: "17:00"
+        end_time: "18:00"
+        sessions:
+          - talk_slug: "a-practical-guide-to-genstage-with-a-real-life-use-case"
+            track: "Edinburgh"
+            kind: talk
+          - talk_slug: "high-performance-data-mart-using-event-plots"
+            track: "Regal"
+            kind: talk
+      - start_time: "18:00"
+        end_time: "18:45"
+        sessions:
+          - talk_slug: "pilgrims-progress-to-the-promised-land"
+            kind: keynote
+      - start_time: "18:45"
+        end_time: "20:45"
+        sessions:
+          - title: "Reception Dinner"
+            kind: social

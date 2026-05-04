@@ -1,0 +1,27 @@
+- name: "Global Sponsor"
+  level: 1
+  sponsors:
+    - slug: "duffel"
+
+- name: "Platinum Sponsor"
+  level: 2
+  sponsors:
+    - slug: "bitcrowd"
+
+- name: "Gold Sponsors"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "solarisbank"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "aeternity"
+    - slug: "entelios"
+    - slug: "on-running"
+
+- name: "Media Partner"
+  level: 5
+  sponsors:
+    - slug: "goto-conferences"

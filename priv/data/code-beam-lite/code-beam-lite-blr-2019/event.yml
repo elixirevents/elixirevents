@@ -1,0 +1,15 @@
+name: "Code BEAM Lite India 2019"
+slug: "code-beam-lite-blr-2019"
+venue_slug: "itc-welcomhotel-bengaluru"
+kind: conference
+status: completed
+format: in_person
+start_date: "2019-11-14"
+end_date: "2019-11-14"
+timezone: "Asia/Kolkata"
+language: en
+location: "Bengaluru, India"
+website: "https://www.codesync.global/conferences/code-beam-lite-india/"
+color: "#3182CE"
+description: |
+  Code BEAM Lite India 2019 returned to Bengaluru on 14 November 2019, with a small lineup of five speakers at the ITC Welcomhotel on Richmond Road. The programme covered library design with Andrea Leopardi, live-coding LiveView with Bruce Tate, building a MySQL driver in Elixir, and experience reports on adopting Erlang at Redbus and on the BEAM's failure-handling philosophy.

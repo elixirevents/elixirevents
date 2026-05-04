@@ -1,0 +1,60 @@
+- title: "Software Librarians"
+  slug: "software-librarians"
+  kind: talk
+  language: en
+  abstract: |
+    A library author's perspective on what it takes to design and maintain libraries on the BEAM — covering library design, open source, extensibility, documentation, and the people side of running shared code.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - libraries
+    - open-source
+
+- title: "Coding LiveView"
+  slug: "coding-liveview"
+  kind: talk
+  language: en
+  abstract: |
+    Phoenix LiveView is the framework that lets developers build real-time interactive web applications without writing custom JavaScript. This live-coding session walks through LiveView's functionality and the kinds of problems it makes easy.
+  speakers:
+    - brucetate
+  topics:
+    - elixir
+    - phoenix
+    - liveview
+
+- title: "Building a MySQL Database Driver in Elixir"
+  slug: "building-a-mysql-database-driver-in-elixir"
+  kind: talk
+  language: en
+  abstract: |
+    A look at what actually happens when an application talks to a database — the components needed to connect, query data, and transform results into native Elixir data types — by walking through the implementation of a MySQL driver in Elixir.
+  speakers:
+    - mohdmaqboolalam
+  topics:
+    - elixir
+    - libraries
+
+- title: "My journey with Erlang at Redbus"
+  slug: "my-journey-with-erlang-at-redbus"
+  kind: talk
+  language: en
+  abstract: |
+    An experience report on transitioning from Java to Erlang at Redbus: the language fundamentals that took the longest to absorb and how Erlang's soft-real-time capabilities made it possible to build a scalable transaction platform. Aimed at developers considering a move to Erlang.
+  speakers:
+    - sujathahemmady
+  topics:
+    - erlang
+
+- title: "After the Crash"
+  slug: "after-the-crash"
+  kind: talk
+  language: en
+  abstract: |
+    A look at Erlang's philosophy of failure handling, addressing common questions from programmers new to the language about which processes should fail and what the consequences are. Covers how distributed systems principles shape software design when you embrace crash-driven development.
+  speakers:
+    - ravichandrapadmala
+  topics:
+    - erlang
+    - otp

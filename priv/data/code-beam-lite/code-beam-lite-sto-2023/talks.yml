@@ -1,0 +1,220 @@
+## Keynotes
+
+- title: "How to Sell Elixir (Again)"
+  slug: "how-to-sell-elixir-again"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 49
+  abstract: |
+    We have celebrated 10 years of Elixir and also nearly 25 years of Erlang since the open source release in December 1998. Most of the libraries that were needed to make the ecosystem viable have been built, talks given, books written, conferences held and training sessions provided. A new generation of companies have been built on top of the Elixir / Erlang ecosystem. In all measures, we have achieved further reach and maturity than 5 years ago.
+
+    In the session, Evadne will revisit the topic of Elixir adoption, and discuss the following topics, based on her personal ideas, beliefs, and experience: migrating and managing Erlang & Elixir workloads, designing B2B / B2C systems that leverage the ecosystem's capabilities, and ensuring continued evolution of the team, the organisation and the ecosystem.
+  speakers:
+    - evadnewu
+  topics:
+    - elixir
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "phRXs8SKzP0"
+      url: "https://www.youtube.com/watch?v=phRXs8SKzP0"
+
+- title: "Little things and big things: lessons for building large systems"
+  slug: "little-things-and-big-things-lessons-for-building-large-systems"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 61
+  abstract: |
+    Designing systems at a bigger scale than what has been done before is hard. Past experience only goes so far. In this talk I will give some hard-earned lessons of system design, both little and big, that can keep your system working and save your sanity when you are building a big system. I will illustrate these lessons with examples taken from real systems. Some topics I will cover are: two rules that the system must always obey, why big buffers are bad, what happens when the system jumps off a cliff, how to avoid nondeterminism in distributed systems, understanding internal and external correlations, the right way to use time-outs, whether to mitigate or propagate (building on top of supervisor trees), and the importance of multiple timescales.
+
+    This talk is based on an ongoing project in collaboration with the company PNSol. We are creating a comprehensive tutorial and tool support for large-scale system design. I dedicate this talk to Neil Davies and Peter Thompson of PNSol for their insights and friendship.
+  speakers:
+    - petervanroy
+  topics:
+    - distribution
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "h8sE3Ai8Dsk"
+      url: "https://www.youtube.com/watch?v=h8sE3Ai8Dsk"
+
+- title: "Sonic Pi - BEAM up the VJ"
+  slug: "sonic-pi-beam-up-the-vj"
+  kind: keynote
+  level: beginner
+  language: en
+  duration: 63
+  abstract: |
+    Sonic Pi is a free code-based music creation and performance tool that targets both education and professional musicians. It is possible for beginners to code fresh beats, driving bass lines and shimmering synth riffs. All this whilst teaching core computer science concepts such as sequencing, functions, variables, loops, data structures and algorithms.
+
+    This talk will briefly introduce Sonic Pi before taking a deep technical nose-dive into some of the interesting requirements of live coding systems. We will then examine the architecture of Sonic Pi's IO sub-system which is implemented on the BEAM in both Erlang and Elixir. Once we've covered these basics we will then be in the perfect position to take a look at how Elixir is core to the future of Sonic Pi. The first stop in this new exciting journey and the main focus of this talk will be live coding visualisations in sync with the music. For that we'll need to BEAM up a VJ. Expect plenty of live code, noise and psychedelic imagery!
+  speakers:
+    - samaaron
+  topics:
+    - elixir
+    - erlang
+    - community
+  recordings:
+    - provider: youtube
+      external_id: "zL1LYRXFEEc"
+      url: "https://www.youtube.com/watch?v=zL1LYRXFEEc"
+
+## Talks
+
+- title: "Building Erlang with Buck2"
+  slug: "building-erlang-with-buck2"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 27
+  abstract: |
+    Buck2 is Meta's next generation large-scale build tool used to build most code within Meta. WhatsApp developed and open-sourced the Erlang rules that are used to build the services that provide private messaging for over 2 billion users. In this talk we talk Buck2, and the advantages it provides for us building millions of lines of Erlang code. We will talk about what type of projects can benefit from using Buck2, and finally, we will also talk about how to make use of the rules in your own project.
+
+    Audience: maintainers and integrators of large Erlang code-bases, and people interested in large-scale build tools.
+  speakers:
+    - andreasloscher
+  topics:
+    - erlang
+    - engineering
+  recordings:
+    - provider: youtube
+      external_id: "E1_txkn7YKA"
+      url: "https://www.youtube.com/watch?v=E1_txkn7YKA"
+
+- title: "Causal-consistent reversible debugging for Erlang"
+  slug: "causal-consistent-reversible-debugging-for-erlang"
+  kind: talk
+  level: beginner
+  language: en
+  abstract: |
+    Causal-consistent reversible debugging allows one to explore a computation backwards from a visible misbehavior looking for the bug causing it, following causality links and navigating among different processes. I will explain the main ideas underlying causal-consistent reversible debugging and then give a brief demo using the CauDEr reversible debugger.
+
+    Talk objectives: attendees will learn what causal-consistent reversible debugging is, and how it can be used in practice via the CauDEr tool (admittedly a research prototype, not yet ready for production). Interested people may decide to join the CauDEr project to contribute to making it production ready.
+
+    Audience: Erlang programmers.
+  speakers:
+    - ivanlanese
+  topics:
+    - erlang
+    - engineering
+
+- title: "BEAM NIFs in Ziglang... for Elixir AND Erlang"
+  slug: "beam-nifs-in-ziglang-for-elixir-and-erlang"
+  kind: talk
+  level: advanced
+  language: en
+  duration: 37
+  abstract: |
+    An update on writing NIFs in Zig. Previously this has only been available for Elixir. I'll show you how this library has achieved a very high level of integration between the Zig language and the BEAM in general, and also I'll demonstrate leveraging the Zigler package to write NIFs in Erlang as well as Elixir.
+
+    Audience and talk objectives: show Erlang developers the new low-level programming language Zig, and what writing NIFs in Zig can offer.
+  speakers:
+    - isaacyonemoto
+  topics:
+    - elixir
+    - erlang
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "0jelgfciAS0"
+      url: "https://www.youtube.com/watch?v=0jelgfciAS0"
+
+- title: "Learning about Supervisors using Phoenix LiveView"
+  slug: "learning-about-supervisors-using-phoenix-liveview"
+  kind: talk
+  level: beginner
+  language: en
+  duration: 14
+  abstract: |
+    Understanding processes and supervisors in Erlang/Elixir can be tricky for beginners. When I was preparing to give a talk introducing Erlang and Elixir to developers in Vietnam, I thought of this idea to visualise how processes and supervisors work using Phoenix LiveView. A simple application was written and people were impressed by the power of OTP. It was a waste to just have it as a one-time demo, and I thought it could be helpful — if you are a visual learner, with some quick setup, clicking and playing around, the demo can help beginners to understand more about processes and supervisors.
+
+    Audience: beginners learning about Erlang processes, and trainers wanting to show their class how supervisors work.
+  speakers:
+    - phuongvan
+  topics:
+    - elixir
+    - liveview
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "NBCiGw-T-jI"
+      url: "https://www.youtube.com/watch?v=NBCiGw-T-jI"
+
+- title: "OTP Update"
+  slug: "otp-update"
+  kind: talk
+  language: en
+  duration: 22
+  abstract: |
+    A short update from Kenneth Lundin on what the Erlang/OTP team at Ericsson has been working on — recent releases, current projects, and what's on the research side.
+  speakers:
+    - kennethlundin
+  topics:
+    - erlang
+    - otp
+  recordings:
+    - provider: youtube
+      external_id: "UAYRaEinXMA"
+      url: "https://www.youtube.com/watch?v=UAYRaEinXMA"
+
+- title: "Evision One Year - An Evolving Elixir Library for Computer Vision Tasks"
+  slug: "evision-one-year-an-evolving-elixir-library-for-computer-vision-tasks"
+  kind: talk
+  language: en
+  duration: 26
+  abstract: |
+    One year into the development of the Evision library, evision is actively integrating itself with Nx, Kino and Livebook to create an easy-to-learn computer vision library with visualised results and several out-of-the-box Kino widgets. Meanwhile, it now supports not only OpenCV core modules but also extension modules from the opencv_contrib repo, including the CUDA modules that enable processing images or running neural networks on an NVIDIA GPU.
+
+    This session covers three main points: 1) all out-of-the-box Kino widgets (as of 1st Jan 2023, there are 5 of them, one of which is a collection of 6 different neural network tasks); 2) how to use Evision with Nx to create a machine learning + computer vision pipeline, with a live demo solving a sudoku game captured via camera input on Livebook; 3) a comparison of processing images using CPU, OpenCL and CUDA.
+  speakers:
+    - cocoaxu
+  topics:
+    - elixir
+    - machine-learning
+    - libraries
+  recordings:
+    - provider: youtube
+      external_id: "L5I2_f_Fibw"
+      url: "https://www.youtube.com/watch?v=L5I2_f_Fibw"
+
+- title: "Mria: an eventually consistent Mnesia"
+  slug: "mria-an-eventually-consistent-mnesia"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 26
+  abstract: |
+    Mnesia is an embedded database that keeps data locally, and as such it offers incredible read throughput. Despite offering lightning-fast read queries, horizontal scalability of Mnesia is limited by its replication model: write throughput tends to decrease with the cluster size. EMQX is an MQTT message broker implemented in Erlang, which uses Mnesia to replicate its runtime state and configuration, and it makes full use of the data locality to deliver low-latency message routing at scale. We fixed the problems with the horizontal scalability by extending Mnesia's replication protocol to support eventual consistency in a project called Mria.
+
+    This project was a success: we tested EMQX clusters with 20+ nodes, routing messages between 100 millions of simultaneous clients and 50 millions unique topics. In this talk I will share some of the advanced coding and testing techniques that we used in this journey, including lock-free programming in Erlang and model checking with Concuerror.
+
+    Talk objectives: I will talk about Mnesia internals, lock-free programming from an Erlang perspective, and advanced testing techniques. Audience: Mnesia users.
+  speakers:
+    - dmitriifedoseev
+  topics:
+    - erlang
+    - distribution
+  recordings:
+    - provider: youtube
+      external_id: "Z0555wZiEpE"
+      url: "https://www.youtube.com/watch?v=Z0555wZiEpE"
+
+- title: "Typing Erlang with eqWAlizer"
+  slug: "typing-erlang-with-eqwalizer"
+  kind: talk
+  level: intermediate
+  language: en
+  duration: 27
+  abstract: |
+    In the last year at WhatsApp we have successfully adopted static typing with eqWAlizer across the whole code base. In this talk we overview how static typing helps scale development of large Erlang projects, what problems it solves, and why we did NOT use Erlang for implementing the type checker.
+  speakers:
+    - ilyaklyuchnikov
+  topics:
+    - erlang
+    - type-system
+  recordings:
+    - provider: youtube
+      external_id: "pl1PbEk4ixg"
+      url: "https://www.youtube.com/watch?v=pl1PbEk4ixg"

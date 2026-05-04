@@ -1,0 +1,33 @@
+- name: "Global Sponsor"
+  level: 1
+  sponsors:
+    - slug: "duffel"
+
+- name: "Platinum Sponsors"
+  level: 2
+  sponsors:
+    - slug: "100-starlings"
+    - slug: "otp-bank"
+
+- name: "Gold Sponsor"
+  level: 3
+  sponsors:
+    - slug: "erlang-solutions"
+
+- name: "Silver Sponsors"
+  level: 4
+  sponsors:
+    - slug: "cursor-insight"
+    - slug: "aeternity"
+
+- name: "Co-organisers"
+  level: 5
+  sponsors:
+    - slug: "code-sync"
+    - slug: "elte"
+    - slug: "erlang-solutions"
+
+- name: "Media Partner"
+  level: 6
+  sponsors:
+    - slug: "manning"

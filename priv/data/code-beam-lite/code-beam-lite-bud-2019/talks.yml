@@ -1,0 +1,147 @@
+## Keynotes
+
+- title: "Such great heights"
+  slug: "such-great-heights"
+  kind: keynote
+  level: beginner
+  language: en
+  abstract: |
+    BEAM concurrency is often underutilised as a solution tool. Through the lens of a real-world scenario where Elixir was chosen to implement a brand new solution to a well-known problem, this keynote explores why the team picked BEAM-based concurrency and walks through the interesting technical implementation details — encouraging developers to recognise the broader potential of BEAM's concurrent capabilities.
+  speakers:
+    - sasajuric
+  topics:
+    - elixir
+    - concurrency
+
+- title: "Elixir Architecture 101"
+  slug: "elixir-architecture-101"
+  kind: keynote
+  level: intermediate
+  language: en
+  abstract: |
+    A look at how to design Elixir applications effectively, going beyond the typical stateless web app backed by a database to explore where Elixir really excels. The keynote covers architecture from two angles: the lower-level design of processes within an Elixir app and the higher-level strategy for structuring Elixir services, with practical use cases and design patterns.
+  speakers:
+    - andrealeopardi
+  topics:
+    - elixir
+    - engineering
+
+- title: "Research + Industry = Inspiration"
+  slug: "research-industry-inspiration"
+  kind: keynote
+  level: intermediate
+  language: en
+  abstract: |
+    A closing keynote on the symbiotic relationship between Erlang's academic and industrial sides — what makes Erlang an exciting topic for collaboration between industry and academia, why Erlang is attractive to researchers, and how research ideas turn into companies. Also addresses practical ways for the audience to engage with ongoing research.
+  speakers:
+    - johnhughes
+    - melindatoth
+    - nataliachechina
+  topics:
+    - erlang
+    - community
+
+## Talks
+
+- title: "Evolution of a kdb+ message router"
+  slug: "evolution-of-a-kdb-message-router"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A proof-of-concept kdb+ load balancer started in Erlang nine years ago has since grown into hundreds of deployed instances handling billions of daily messages, with a 400+ kB codebase that includes plugins written in kdb+. This talk covers the achievements, the technical challenges encountered along the way, and the alternatives that were considered.
+  speakers:
+    - andrasgbekes
+  topics:
+    - erlang
+    - distribution
+
+- title: "Elixir and the blockchain — a perfect match?"
+  slug: "elixir-and-the-blockchain-a-perfect-match"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at using Elixir to interact with Ethereum smart contracts to build a reliable backend for a decentralised finance project at Mainframe. Aimed at crypto enthusiasts and sceptics, blockchain-curious developers, and Elixir practitioners exploring novel uses of the language.
+  speakers:
+    - milosmosic
+  topics:
+    - elixir
+
+- title: "Documentation as a first-class citizen on the BEAM"
+  slug: "documentation-as-a-first-class-citizen-on-the-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at Elixir's built-in documentation capabilities compared to other BEAM languages — the motivation for quality documentation, how documentation is stored on the BEAM, and the ongoing efforts to standardise documentation practices across BEAM languages including Erlang and OTP itself.
+  speakers:
+    - laszlobacsi
+  topics:
+    - elixir
+    - erlang
+    - documentation
+
+- title: "Visual time-travelling using BEAM trace dumps"
+  slug: "visual-time-travelling-using-beam-trace-dumps"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A novel approach to visualising BEAM trace dumps for production tracing. Few features of the BEAM can create as much excitement as its built-in tracing capabilities. The talk covers visualising execution data, time representation in the BEAM (including time warps and reconstructing past events), how LiveView and updated tracing functions assist in building custom monitoring tools, and using temporal logic for intuitive visual notation.
+  speakers:
+    - danielvamosi
+  topics:
+    - erlang
+    - observability
+
+- title: "Challenges of managing 50+ Erlang applications with rebar3"
+  slug: "challenges-of-managing-50-erlang-applications-with-rebar3"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A look at how OTP Bank manages over 50 Erlang applications with a unified rebar3 configuration and a set of in-house plugins designed to streamline developer workflow — letting teams focus on business logic while the build infrastructure stays out of the way.
+  speakers:
+    - andrasboroska
+  topics:
+    - erlang
+
+- title: "Testing for race conditions in real world software"
+  slug: "testing-for-race-conditions-in-real-world-software"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Race conditions are a programmer's worst enemy: hard to catch in tests, almost impossible to reproduce. Concuerror is changing the landscape. This talk covers Klarna's experience as one of the early industrial adopters of Concuerror — the technical challenges they resolved, the testing approaches they developed, the practices they established, and an additional tool they built for evaluating distributed systems with Concuerror.
+  speakers:
+    - danielszoboszlay
+  topics:
+    - erlang
+    - testing
+
+- title: "An operations tool that gets the most out of the BEAM"
+  slug: "an-operations-tool-that-gets-the-most-out-of-the-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    A demonstration of WombatOAM, the operations and maintenance platform from Erlang Solutions, focused on how it surfaces the right information about issues that can lead to outages. Aimed at developers seeking better visibility into their BEAM environments.
+  speakers:
+    - mohamedalikhechine
+  topics:
+    - erlang
+    - observability
+
+- title: "To Beam or not to Beam"
+  slug: "to-beam-or-not-to-beam"
+  kind: talk
+  level: intermediate
+  language: en
+  abstract: |
+    Concurrent execution of different versions of scripts written in Lua — a story of building a system that deploys the appropriate software version based on timestamps, and the trade-offs of running scripting languages on the BEAM.
+  speakers:
+    - zsoltlaky
+    - zoltandanko
+  topics:
+    - erlang
