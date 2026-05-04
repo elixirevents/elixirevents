@@ -1,0 +1,33 @@
+- name: "Platinum Sponsor"
+  level: 1
+  sponsors:
+    - slug: "scoutapm"
+
+- name: "Gold Sponsors"
+  level: 2
+  sponsors:
+    - slug: "erlang-solutions"
+    - slug: "utrust"
+    - slug: "viu-ventures"
+
+- name: "Silver Sponsor"
+  level: 3
+  sponsors:
+    - slug: "schleibinger"
+
+- name: "Competition Sponsor"
+  level: 4
+  sponsors:
+    - slug: "manning"
+
+- name: "Co-organisers"
+  level: 5
+  sponsors:
+    - slug: "peer-stritzinger"
+    - slug: "simplabs"
+    - slug: "code-sync"
+
+- name: "Media"
+  level: 6
+  sponsors:
+    - slug: "boinx-software"

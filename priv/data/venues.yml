@@ -473,3 +473,15 @@
   longitude: 4.9348
   website: "https://www.lloydhotel.com"
   description: "A landmark hotel and cultural embassy on the Java-eiland in Amsterdam's Eastern Docklands, set inside a 1921 building originally built to house emigrants travelling to South America, and now featuring rooms ranging from one to five stars."
+
+- name: "Sheraton München Westpark Hotel"
+  slug: "sheraton-muenchen-westpark"
+  street: "Garmischer Straße 2"
+  city: "Munich"
+  country: "Germany"
+  country_code: "DE"
+  postal_code: "80339"
+  latitude: 48.1336
+  longitude: 11.5323
+  website: "https://www.marriott.com/en-us/hotels/mucsi-sheraton-muenchen-westpark-hotel/"
+  description: "A conference hotel on Garmischer Straße in Munich's Westend district, just south of the Theresienwiese (the Oktoberfest grounds) and a short walk to the Hackerbrücke S-Bahn station."

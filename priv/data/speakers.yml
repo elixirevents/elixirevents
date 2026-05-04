@@ -937,8 +937,14 @@
 
 - name: "Gonçalo Tomás"
   slug: "goncalotomas"
-  headline: "Elixir Developer"
-  bio: "Speaker at ElixirConf/Code BEAM."
+  headline: "Distributed systems researcher at NOVA University of Lisbon"
+  bio: |
+    Distributed systems enthusiast focused on eventual consistency, CRDTs, and data replication strategies. Worked on a new benchmark for distributed databases written in Erlang as part of an MSc at NOVA University of Lisbon, and participated in Google Summer of Code for the BEAM community.
+  social_links:
+    - platform: github
+      url: "https://github.com/goncalotomas"
+    - platform: twitter
+      url: "https://x.com/goncaloptomas"
 
 - name: "Herminio Torres"
   slug: "herminiotorres"
@@ -9052,3 +9058,23 @@
       url: "https://github.com/zkessin"
     - platform: twitter
       url: "https://x.com/zkessin"
+
+- name: "Klaus Alfert"
+  slug: "klausalfert"
+  headline: "Principal Consultant / CTO at Zühlke Germany"
+  bio: |
+    Elixir developer since version 0.8 and maintainer of PropCheck and Coverex. Recently introduced Elixir and property-based testing into projects at Zühlke.
+  social_links:
+    - platform: github
+      url: "https://github.com/alfert"
+    - platform: twitter
+      url: "https://x.com/innovation_code"
+
+- name: "Charlotte Lorelei de Oliveira"
+  slug: "charlotteloreleideoliveira"
+  headline: "Open source, privacy, and programming languages"
+  bio: |
+    Focuses on open source software, privacy, programming languages, theory, and software engineering. Her work involves breaking computers, fixing them, and then teaching others about the results, with talks on session types, fault tolerance in Erlang, gRPC microservices, and type systems for distributed computing.
+  social_links:
+    - platform: twitter
+      url: "https://x.com/umamaistempo"

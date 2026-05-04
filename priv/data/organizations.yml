@@ -956,3 +956,33 @@
   website: "https://www.kabisa.nl"
   logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/02/4d640df76247c4b79bbbe13ed5681e71f99cf71f.png"
   description: "Dutch software development company specialising in Elixir, Phoenix, and modern web platforms."
+
+- name: "Utrust"
+  slug: "utrust"
+  website: "https://utrust.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/263e11fb7ef763155e40de01673635e86530dd42.png"
+  description: "Crypto payments platform that lets merchants accept and settle digital currencies, with backend services on the BEAM."
+
+- name: "VIU Ventures"
+  slug: "viu-ventures"
+  website: "https://www.shopviu.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/356307e62f7f274579864116ecbe110c8120ff70.png"
+  description: "Direct-to-consumer eyewear brand and the venture arm behind it, building omnichannel retail and e-commerce platforms."
+
+- name: "Schleibinger Geräte"
+  slug: "schleibinger"
+  website: "http://www.schleibinger.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/c735605a2ec2435face5715e88712e8083ec2177.png"
+  description: "Munich-based engineering company building precision testing instruments for concrete, mortar, and other construction materials."
+
+- name: "Peer Stritzinger GmbH"
+  slug: "peer-stritzinger"
+  website: "https://www.stritzinger.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/9947698098fb688ea8e6f2dc6829b43801651e83.png"
+  description: "Munich-based Erlang consultancy and creators of GRiSP, a bare-metal Erlang platform for embedded and IoT applications."
+
+- name: "Boinx Software"
+  slug: "boinx-software"
+  website: "https://boinx.com"
+  logo_url: "https://www.codesync.global/uploads/media/sponsors/0001/01/9d13651bc8dd6455901b07067f7df9d5183cea50.png"
+  description: "German Mac and iOS software company behind FotoMagico and the mimoLive live-streaming production app used to record Code BEAM Lite Munich."
