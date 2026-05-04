@@ -142,6 +142,42 @@ defmodule ElixirEvents.DataValidator do
     |> validate_slug_field(data, "slug")
     |> validate_url(data, "website")
     |> validate_social_links(data)
+    |> validate_no_buried_keys(data, "bio", @speaker_keys, "speaker")
+  end
+
+  # Catches the indentation bug where a `|` block scalar (bio / description /
+  # abstract) accidentally absorbs sibling fields as text — e.g. a `bio: |`
+  # block ending with `city: Maisach\ncountry_code: DE` because those lines
+  # were indented one level too deep.
+  #
+  # We only flag lines that look like a YAML key followed by either nothing or
+  # a single short token (URL, identifier, short value), so prose like
+  # "Format: hybrid event for everyone" doesn't trip the check.
+  defp validate_no_buried_keys(errors, data, string_field, sibling_keys, entity_label) do
+    value = Map.get(data, string_field)
+
+    if is_binary(value) do
+      key_pattern = sibling_keys |> Enum.reject(&(&1 == string_field)) |> Enum.join("|")
+      # Anchored at start of line; allow either no value (collection key) or
+      # a single short token (≤40 chars, no internal whitespace) — this is
+      # the actual shape of the bug, not narrative prose.
+      regex = ~r/^(#{key_pattern}):\s*(\S{1,40})?\s*$/m
+
+      case Regex.run(regex, value) do
+        nil ->
+          errors
+
+        [matched_line | _] ->
+          slug = Map.get(data, "slug") || Map.get(data, "name") || "?"
+
+          errors ++
+            [
+              "#{entity_label} '#{slug}' has YAML field buried inside `#{string_field}: |` block (likely indentation bug): #{String.trim(matched_line)}"
+            ]
+      end
+    else
+      errors
+    end
   end
 
   defp validate_topic(data) do
