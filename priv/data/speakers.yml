@@ -1090,7 +1090,7 @@
 - name: "Vittoria Bitton"
   slug: "vittoriabitton"
   headline: "Senior Software Engineer"
-  bio: "Vittoria Bitton is a Software Engineer at Savi Solutions - an edge device cloud computing platform. She has joyfully been building software with Elixir in the past 5 years"
+  bio: "Vittoria Bitton is a software engineer and Elixir enthusiast and everything related to open source, edge devices and joy!"
   social_links:
     - platform: twitter
       url: "https://x.com/vittoria_bitton"
